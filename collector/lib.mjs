@@ -255,3 +255,41 @@ export function historyToDelete(dates, today, keepDays = 106) {
   const limit = new Date(today).getTime() - keepDays * 86_400_000;
   return sorted.filter((d) => d !== newest && new Date(d).getTime() < limit);
 }
+
+// Выгоды по моделям из сносок и баннеров страницы: «Выгода в размере 150 000 рублей указана для автомобилей
+// «Geely Coolray»», «TANK (ТЭНК) 400 … с учетом прямой выгоды в 250 000 рублей», «CHERY TIGGO 9 / ВЫГОДА ПО ТРЕЙД-ИН ДО 600 000 ₽».
+// Берём фразу (или баннер: название модели строкой выше), где упомянута ровно одна модель из списка,
+// и самую большую выгоду в ней. Возвращает Map: название модели → выгода.
+export function benefitsByModel(text, models) {
+  const out = new Map();
+  const names = [...new Set(models.filter(Boolean))].sort((a, b) => b.length - a.length);
+  if (!names.length) return out;
+  const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Название модели как отдельное слово: «300» не должно найтись в «300 000», «X50» — в «X50+».
+  // «НОВЫЙ COOLRAY» в сносках пишут просто «Geely Coolray»: ищем и без «новый».
+  const bare = (n) => n.replace(/^(новый|новая|new)\s+/i, '');
+  const patterns = names.map((n) => [n, new RegExp(`(^|[^0-9A-Za-zА-Яа-яЁё+])${esc(bare(n))}(?![0-9A-Za-zА-Яа-яЁё+]|\\s?\\d{3}\\b)`, 'i')]);
+  const lines = String(text || '').replace(/[   ]/g, ' ').split(/\n+/).map((l) => l.trim()).filter(Boolean);
+  const chunks = [];
+  for (const [i, line] of lines.entries()) {
+    for (const sentence of line.split(/(?<=[.!?;])\s+(?=[А-ЯЁA-Z«"(*¹²³])/)) chunks.push(sentence);
+    // Баннер: «CHERY TIGGO 9» строкой выше, «ВЫГОДА ДО 600 000 ₽» ниже.
+    if (i > 0 && line.length < 80 && lines[i - 1].length < 60) chunks.push(`${lines[i - 1]} ${line}`);
+  }
+  for (const chunk of chunks) {
+    const benefits = parseBenefits(chunk);
+    if (!benefits.length) continue;
+    let rest = chunk;
+    const found = [];
+    for (const [name, re] of patterns) {
+      if (re.test(rest)) {
+        found.push(name);
+        rest = rest.replace(new RegExp(re.source, 'gi'), '$1 ');
+      }
+    }
+    if (found.length !== 1) continue;
+    const best = Math.max(...benefits);
+    if (best > (out.get(found[0]) || 0)) out.set(found[0], best);
+  }
+  return out;
+}

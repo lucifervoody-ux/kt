@@ -17,7 +17,7 @@ import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
-  CHANGE, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
+  CHANGE, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
 } from './lib.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -85,7 +85,7 @@ async function collectPage(context, site, pageCfg, index) {
     if (pageCfg.auto) {
       // Автопоиск карточек моделей без селекторов (collector/autocards.mjs).
       if (pageCfg.scroll !== false) await autoScroll(page);
-      rows = await page.evaluate(findModelCards, {}).catch(() => []);
+      rows = await page.evaluate(findModelCards, { brand: site.brand || '' }).catch(() => []);
     } else if (hasSelectors) {
       rows = await page.$$eval(
         pageCfg.card,
@@ -115,13 +115,19 @@ async function collectPage(context, site, pageCfg, index) {
     const models = rows.map((r) => {
       r.model = pageCfg.model_name || mapName(r.model);
       // У лендингов в цену не берём суммы из фраз про выгоду, скидку, платёж и кредит: «с выгодой от 1 001 000 руб.» — не цена.
-      const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)[^.\n|]{0,70}/gi, ' ') : r.price;
-      const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0));
+      const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)(?:(?!цен)[^.\n|]){0,70}/gi, ' ') : r.price;
       const benefits = (pageCfg.benefit_all ? parseAmounts : parseBenefits)(r.benefit);
+      // В автопоиске сумма выгоды («Выгода до | 455 000 ₽») может попасть и в цены: такие суммы из цен убираем.
+      const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
+      const price = prices.length ? Math.min(...prices) : '-';
+      let benefit = benefits.length ? Math.max(...benefits) : '-';
+      // Автопоиск: «цена с учётом выгоды 2 016 000 ₽» — это цена, а не выгода. Выгода в половину цены
+      // и больше или выгода больше 1,2 млн без цены почти всегда такая ошибка: такую выгоду не пишем.
+      if (pageCfg.auto && benefit !== '-' && (price !== '-' ? benefit >= price * 0.5 : benefit > 1_200_000)) benefit = '-';
       return {
         model: cleanModel(r.model.split('\n').map((l) => l.trim()).find(Boolean), site.brand),
-        price: prices.length ? Math.min(...prices) : '-',
-        max_benefit: benefits.length ? Math.max(...benefits) : '-',
+        price,
+        max_benefit: benefit,
         source_url: pageCfg.url,
       };
     });
@@ -265,7 +271,7 @@ async function collectSite(browser, site) {
     if (!engine || !templates.has(engine)) {
       // Движок неизвестен или для него ещё нет шаблона: открываем главную, определяем движок
       // и сохраняем снимок — по нему можно сделать шаблон.
-      const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 } });
+      const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
       try {
         const page = await openPage(context, site, siteUrl(site));
         engine = detectEngine(await page.content(), page.url());
@@ -298,7 +304,7 @@ async function collectSiteWith(browser, site) {
     const engine = site.engine ? ` (движок: ${site.engine})` : '';
     return { ...base, status: 'no_scenario', comment: `Для сайта ещё нет ни сценария, ни шаблона движка${engine}` };
   }
-  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 } });
+  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
   try {
     const rows = [];
     const notes = [];
@@ -308,7 +314,7 @@ async function collectSiteWith(browser, site) {
     // auto: сначала ищем карточки моделей на главной без селекторов; нашлись — обход моделей не нужен.
     if (site.auto) {
       try {
-        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, ...site.auto, auto: true }, 'auto');
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 600000, ...site.auto, auto: true }, 'auto');
         anyOpened = true;
         rows.push(...res.models);
         if (res.models.length) autoUsed = true;
@@ -344,7 +350,7 @@ async function collectSiteWith(browser, site) {
     // Шаблон движка ничего не нашёл (сайт поменял вёрстку): пробуем автопоиск карточек на главной.
     if (!site.auto && !rows.some((r) => r.model)) {
       try {
-        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, auto: true }, 'auto');
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 600000, auto: true }, 'auto');
         anyOpened = true;
         if (res.models.length) {
           autoUsed = true;
@@ -398,6 +404,31 @@ async function collectSiteWith(browser, site) {
     if (!anyOpened) return { ...base, status: 'access_error', comment: notes.join('; ') };
 
     const models = mergeModels(rows.filter((r) => r.model));
+    // Выгоды, которых не нашлось в карточках, ищем в баннерах и сносках главной страницы
+    // («Выгода в размере 150 000 рублей указана для автомобилей «Geely Coolray»»).
+    let homeText = null;
+    const readHome = async () => {
+      if (homeText !== null) return homeText;
+      const page = await openPage(context, site, siteUrl(site), {});
+      try {
+        homeText = await page.evaluate(() => document.body?.innerText || '');
+      } finally {
+        await page.close();
+      }
+      return homeText;
+    };
+    if (models.some((m) => m.max_benefit === '-' && m.model !== AGG_NAME)) {
+      try {
+        const found = benefitsByModel(await readHome(), models.map((m) => m.model));
+        let added = 0;
+        for (const m of models) {
+          if (m.max_benefit === '-' && found.has(m.model)) { m.max_benefit = found.get(m.model); added += 1; }
+        }
+        if (added) log(`  [${site.id}] выгоды из баннеров и сносок главной: ${added}`);
+      } catch (e) {
+        notes.push(`Сноски главной не прочитаны: ${e.message.split('\n')[0]}`);
+      }
+    }
     const problems = validateModels(models);
     const noPrice = models.filter((m) => m.price === '-').map((m) => m.model);
     if (noPrice.length && !unfinished) problems.push(`Не нашлась цена: ${noPrice.join(', ')}`);
@@ -420,12 +451,7 @@ async function collectSiteWith(browser, site) {
     // Цены по моделям тут ненадёжны: сравниваем сайт по тексту акций с главной страницы.
     if (site.template === '*' || aggregated || byAi || autoUsed) {
       try {
-        const page = await openPage(context, site, siteUrl(site), {});
-        try {
-          result.promo_lines = extractPromoLines(await page.evaluate(() => document.body?.innerText || ''));
-        } finally {
-          await page.close();
-        }
+        result.promo_lines = extractPromoLines(await readHome());
         if (result.promo_lines.length) {
           result.text_mode = true;
           result.comment += `${result.comment ? '; ' : ''}Сравнение по тексту акций главной страницы`;

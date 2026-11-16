@@ -289,3 +289,9 @@ test('движки Каскад и УАЗ-дилер определяются п
   assert.equal(detectEngine('<div class="main-cars-nav-item"></div><script src="/_nuxt/a.js"></script>', 'https://x.ru/'), 'УАЗ-дилер');
   assert.equal(detectEngine('<script src="/_nuxt/a.js"></script>', 'https://x.ru/'), 'Nuxt');
 });
+
+test('просроченный сертификат — понятная причина', () => {
+  const v = healthVerdict({ error: 'page.goto: net::ERR_CERT_DATE_INVALID at https://x.ru/' });
+  assert.equal(v.health, HEALTH.manual);
+  assert.match(v.reason, /просрочен/);
+});

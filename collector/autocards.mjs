@@ -10,7 +10,7 @@
 export function findModelCards(opts = {}) {
   // Цена от 100 000 ₽ (LADA и другие недорогие модели) до сотен миллионов.
   const PRICE = /(?:\d{1,3}(?:[\s  ]\d{3}){2}|\d{3}[\s  ]\d{3})\s*(?:₽|руб|р\.)/i;
-  const maxCardText = opts.maxCardText || 700;
+  const maxCardText = opts.maxCardText || 1600;
   const minCards = opts.minCards || 2;
   const text = (el) => (el.innerText || el.textContent || '').replace(/[  ]/g, ' ');
   const visible = (el) => {
@@ -20,18 +20,27 @@ export function findModelCards(opts = {}) {
   const sig = (el) => `${el.tagName}.${(el.getAttribute('class') || '').trim().split(/\s+/)[0] || ''}`;
 
   const NAME_SEL = 'h1, h2, h3, h4, h5, h6, [class*="title" i], [class*="name" i], [class*="model" i], strong, b';
-  const BAD_NAME = /(₽|руб|\d{3}\s\d{3}|выгод|скидк|кредит|в наличии|подробнее|узнать|купить|оставить|заявк|записат|цена|от\s\d|мм\)|разгон|двигател|привод|^передний|^полный|предложени|о модели|официальн|дилер|подар|покупк|трейд|акци|распродаж|зимн|резин|допоборуд|сервис|автосалон|рассрочк|месяц|эмоци|время|успей|только)/i;
+  const BAD_NAME = /(₽|руб|\d{3}\s\d{3}|выгод|скидк|кредит|в наличии|подробнее|узнать|купить|оставить|заявк|записат|цена|от\s\d|мм\)|разгон|двигател|привод|^передний|^полный|предложени|о модели|официальн|дилер|подар|покупк|трейд|акци|распродаж|зимн|резин|допоборуд|сервис|автосалон|рассрочк|месяц|эмоци|время|успей|только|модельн|^модел[ьи]$|выберите|кроссовер|под заказ|бонус|взнос|тестов|поездк|,\s*(i{1,3}|iv|v|vi)\b)/i;
   // Карточки комплектаций, характеристик и т.п. — не модели.
   const BAD_GROUP = /complect|komplekt|grade|trim|package|spec|feature|option|param|char|benefit|advantage|review|news/i;
   // Двигатель и коробка в названии («Tiggo 4 Pro 1.5 CVT (113 л.с.) 2024») отрезаем: остаётся модель.
-  const shortName = (s) => s.replace(/\s+\d[.,]\d\s*(л\b|t\b|tgdi|tgi|hyb|at\b|mt\b|amt|cvt|dct|\().*$/i, '')
+  const shortName = (s) => s.replace(/^(комплектации и цены|комплектации|цены на|купить)\s+/i, '').replace(/\s+\d[.,]\d\s*(л\b|t\b|tgdi|tgi|hyb|at\b|mt\b|amt|cvt|dct|\().*$/i, '')
     .replace(/\s+\(\d+\s*л\.?\s*с.*$/i, '').replace(/\s+20\d\d\s*$/, '').trim();
   // Название модели не начинается с цифры или строчной буквы и не похоже на лозунг.
   const good = (s) => s.length >= 2 && !/[!?]/.test(s) && !/^[\d.,]/.test(s) && !/^[а-яё]/.test(s) && !/\s(л|л\.с\.)$/.test(s);
   const nameOf = (card) => {
+    // Название — картинка-логотип («/range/uni-z/model-logo.svg»): берём имя папки или подпись картинки.
+    const logo = [...card.querySelectorAll('img')].map((img) => {
+      const alt = (img.getAttribute('alt') || '').trim();
+      if (alt && alt.length <= 40 && good(alt) && !BAD_NAME.test(alt) && !/logo|лого|изображ|image|photo|фото/i.test(alt)) return alt;
+      const src = img.getAttribute('src') || '';
+      const m = src.match(/\/([a-z0-9][a-z0-9-]{1,20})\/[^/]*logo[^/]*\.(svg|png|webp)$/i);
+      return m ? m[1].toUpperCase() : '';
+    }).find(Boolean);
     const named = [...card.querySelectorAll(NAME_SEL)].map(text).map((s) => s.split('\n').map((l) => l.trim()).find(Boolean) || '')
       .find((s) => s.length >= 2 && s.length <= 80 && !BAD_NAME.test(s));
     if (named && good(shortName(named))) return { name: shortName(named), strong: true };
+    if (logo) return { name: logo, strong: true };
     const first = text(card).split('\n').map((l) => l.trim()).find((l) => l.length >= 2 && l.length <= 60 && !BAD_NAME.test(l));
     return { name: first && good(shortName(first)) ? shortName(first) : '', strong: false };
   };
@@ -56,7 +65,8 @@ export function findModelCards(opts = {}) {
         const key = `${sig(parent)}>${s}`;
         if (!groups.has(key)) groups.set(key, { parent, cards: new Set() });
         groups.get(key).cards.add(n);
-        break;
+        // Не останавливаемся: повторяющиеся блоки бывают и внутри карточки (строки «Выгода», «Цена»).
+        // Какая группа — карточки моделей, решает оценка по названиям ниже.
       }
       if (text(n).length > maxCardText) break;
     }
@@ -71,6 +81,9 @@ export function findModelCards(opts = {}) {
     const names = new Set(cards.map((x) => x.name.toLowerCase()));
     const cls = [...g.cards][0].getAttribute('class') || '';
     let score = names.size + cards.filter((x) => x.strong).length * 0.5;
+    // Названия с маркой сайта («Jetour T1» на сайте Jetour) — почти наверняка модели, а не склад с пробегом.
+    const brand = String(opts.brand || '').toLowerCase().split(/[\s/]+/)[0];
+    if (brand.length > 2) score += cards.filter((x) => x.name.toLowerCase().includes(brand)).length;
     if (BAD_GROUP.test(cls)) score *= 0.3;
     // Модели называются коротко; длинные названия — это объявления склада или комплектации.
     const avg = cards.reduce((a, x) => a + x.name.length, 0) / (cards.length || 1);
@@ -84,7 +97,7 @@ export function findModelCards(opts = {}) {
     for (const p of priceEls) {
       let n = p.parentElement;
       for (let depth = 0; depth < 6 && n && n !== document.body; depth += 1, n = n.parentElement) {
-        if (text(n).length > maxCardText * 2) break;
+        if (text(n).length > maxCardText) break;
         const { name, strong } = nameOf(n);
         if (name && strong) { res.push({ c: n, name }); break; }
       }
