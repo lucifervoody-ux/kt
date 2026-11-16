@@ -121,7 +121,7 @@ async function collectPage(context, site, pageCfg, index) {
       const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
       const price = prices.length ? Math.min(...prices) : '-';
       // Части одной фразы («прямая 250 000 + трейд-ин 250 000 + лояльная 200 000») складываем.
-      let benefit = benefits.length ? (pageCfg.benefit_all ? Math.max(...benefits) : benefitTotal(r.benefit)) : '-';
+      let benefit = benefits.length ? (pageCfg.benefit_all ? Math.max(...benefits) : (benefitTotal(r.benefit) ?? Math.max(...benefits))) : '-';
       // Автопоиск: «цена с учётом выгоды 2 016 000 ₽» — это цена, а не выгода. Выгода в половину цены
       // и больше или выгода больше 1,2 млн без цены почти всегда такая ошибка: такую выгоду не пишем.
       if (pageCfg.auto && benefit !== '-' && (price !== '-' ? benefit >= price * 0.5 : benefit > 1_200_000)) benefit = '-';
