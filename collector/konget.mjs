@@ -21,7 +21,7 @@ const RETRY_TIMEOUT = 60_000;
 const SETTLE_MS = Number(process.env.SETTLE_MS) || 12_000;
 
 async function checkOnce(browser, site, timeout) {
-  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 } });
+  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
   const page = await context.newPage();
   const requests = [];
   page.on('request', (req) => requests.push(req.url()));

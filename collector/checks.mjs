@@ -54,6 +54,9 @@ export function baseDomain(address = '') {
 export function healthVerdict({ error, status, seconds, text = '', title = '', site = '', finalUrl = '' }) {
   if (error) {
     if (SURE_DOWN.test(error)) return { health: HEALTH.down, reason: error };
+    // Сертификат просрочен или выдан на другой адрес: это видят и посетители (браузер пишет «Подключение не защищено»).
+    if (/ERR_CERT_DATE_INVALID/.test(error)) return { health: HEALTH.manual, reason: 'Сертификат сайта просрочен: браузер показывает посетителям «Подключение не защищено». Нужно продлить сертификат' };
+    if (/ERR_CERT_/.test(error)) return { health: HEALTH.manual, reason: `Сертификат сайта недействителен (${error.match(/ERR_CERT_\w+/)[0]}): браузер показывает посетителям «Подключение не защищено»` };
     return { health: HEALTH.manual, reason: `Не открылся с серверов проверки (${error}). Людям сайт может открываться, проверьте вручную` };
   }
   if (BLOCKED.test(`${title}\n${text.slice(0, 2000)}`)) {

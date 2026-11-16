@@ -265,7 +265,7 @@ async function collectSite(browser, site) {
     if (!engine || !templates.has(engine)) {
       // Движок неизвестен или для него ещё нет шаблона: открываем главную, определяем движок
       // и сохраняем снимок — по нему можно сделать шаблон.
-      const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 } });
+      const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
       try {
         const page = await openPage(context, site, siteUrl(site));
         engine = detectEngine(await page.content(), page.url());
@@ -298,7 +298,7 @@ async function collectSiteWith(browser, site) {
     const engine = site.engine ? ` (движок: ${site.engine})` : '';
     return { ...base, status: 'no_scenario', comment: `Для сайта ещё нет ни сценария, ни шаблона движка${engine}` };
   }
-  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 } });
+  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
   try {
     const rows = [];
     const notes = [];
