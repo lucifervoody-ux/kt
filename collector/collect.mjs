@@ -119,10 +119,15 @@ async function collectPage(context, site, pageCfg, index) {
       const benefits = (pageCfg.benefit_all ? parseAmounts : parseBenefits)(r.benefit);
       // В автопоиске сумма выгоды («Выгода до | 455 000 ₽») может попасть и в цены: такие суммы из цен убираем.
       const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
+      const price = prices.length ? Math.min(...prices) : '-';
+      let benefit = benefits.length ? Math.max(...benefits) : '-';
+      // Автопоиск: «цена с учётом выгоды 2 016 000 ₽» — это цена, а не выгода. Выгода в половину цены
+      // и больше или выгода больше 1,2 млн без цены почти всегда такая ошибка: такую выгоду не пишем.
+      if (pageCfg.auto && benefit !== '-' && (price !== '-' ? benefit >= price * 0.5 : benefit > 1_200_000)) benefit = '-';
       return {
         model: cleanModel(r.model.split('\n').map((l) => l.trim()).find(Boolean), site.brand),
-        price: prices.length ? Math.min(...prices) : '-',
-        max_benefit: benefits.length ? Math.max(...benefits) : '-',
+        price,
+        max_benefit: benefit,
         source_url: pageCfg.url,
       };
     });
@@ -309,7 +314,7 @@ async function collectSiteWith(browser, site) {
     // auto: сначала ищем карточки моделей на главной без селекторов; нашлись — обход моделей не нужен.
     if (site.auto) {
       try {
-        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, ...site.auto, auto: true }, 'auto');
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 600000, ...site.auto, auto: true }, 'auto');
         anyOpened = true;
         rows.push(...res.models);
         if (res.models.length) autoUsed = true;
@@ -345,7 +350,7 @@ async function collectSiteWith(browser, site) {
     // Шаблон движка ничего не нашёл (сайт поменял вёрстку): пробуем автопоиск карточек на главной.
     if (!site.auto && !rows.some((r) => r.model)) {
       try {
-        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, auto: true }, 'auto');
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 600000, auto: true }, 'auto');
         anyOpened = true;
         if (res.models.length) {
           autoUsed = true;
