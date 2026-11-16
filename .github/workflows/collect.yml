@@ -37,6 +37,9 @@ jobs:
         run: node collector/wait-health.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
+      # Пока ждали, «Работа сайтов» могла сохранить свежий результат: забираем его.
+      - name: Забрать свежий результат проверки работы
+        run: git pull --ff-only origin ${{ github.ref_name }} || true
       # Браузер Playwright берём из кэша: так не качаем его заново при каждом запуске.
       - uses: actions/cache@v4
         with:
