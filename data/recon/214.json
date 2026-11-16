@@ -1,0 +1,189 @@
+{
+ "id": 214,
+ "site": "lada-davauto.ru",
+ "brand": "LADA",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://lada-davauto.ru/offers/5329",
+ "konget": [
+  "https://app.konget.ru/inject?token=1a1439350b3740fa8c073a3fd14feae0",
+  "https://cdn.konget.ru/client?no_cache=1793718944599",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер LADA в Перми | ДАВ-АВТО",
+  "text_length": 9802,
+  "price_blocks": [
+   {
+    "selector": "div.item__content.container > div.item__price-container.d-flex > div.text-lg-h2.text-mob-h2",
+    "count": 20,
+    "sample": "от 2 758 000 ₽"
+   },
+   {
+    "selector": "div.v-custom-tooltip > div.item__price-month.d-flex > div.item__price-month-text",
+    "count": 19,
+    "sample": "от 6 000 ₽/мес"
+   },
+   {
+    "selector": "div.item__benefits.mb-lg-12 > div.item__benefits-el.d-flex > div.item__benefits-el-text.text-lg-body-1",
+    "count": 14,
+    "sample": "Легкий обмен с выгодой до 70 000 ₽"
+   },
+   {
+    "selector": "div.selection-card > div.v-text.textPrimary--text > div.d-inline",
+    "count": 6,
+    "sample": "NIVA LEGEND от 815 000 ₽"
+   },
+   {
+    "selector": "div.model-swiper > div.model-swiper__swiper > span.ka-jet-model-vygoda-badge",
+    "count": 1,
+    "sample": "Выгода в лизинг: 100 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.model-swiper > div.model-swiper__swiper > span.ka-jet-model-vygoda-badge",
+    "count": 20,
+    "sample": "Выгода в лизинг: 100 000 ₽"
+   },
+   {
+    "selector": "div.item__buttons.d-flex > button.ka-btn.v-button > span.v-btn__content",
+    "count": 20,
+    "sample": "Зафиксировать выгоду"
+   },
+   {
+    "selector": "div.item__benefits.mb-lg-12 > div.item__benefits-el.d-flex > div.item__benefits-el-text.text-lg-body-1",
+    "count": 15,
+    "sample": "Выгодный обмен"
+   },
+   {
+    "selector": "div.items-wrap > div.items.marquee > div.item",
+    "count": 2,
+    "sample": "Осенние выгоды от ДАВ-АВТО! Успейте приобрести автомобиль в ДАВ-АВТО по выгодным"
+   },
+   {
+    "selector": "div.d-inline > ul > li",
+    "count": 2,
+    "sample": "выгодные условия автокредитования от банков-партнёров;"
+   },
+   {
+    "selector": "div.with__image.d-flex > div.with__image-content.d-flex > h2.with__image-title.mb-lg-3",
+    "count": 1,
+    "sample": "Успейте забрать автомобиль с персональной выгодой до конца ноября!"
+   },
+   {
+    "selector": "div.test-drive__content.contrast--text > div.v-typography.test-drive__subtitle > div.d-inline",
+    "count": 1,
+    "sample": "Пройдите пробную поездку LADA и ощутите все преимущества"
+   },
+   {
+    "selector": "div.form-trade-in > div.container.form-trade-in__container > h2.form-trade-in__title.textPrimary--text",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый LADA выгодно!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars",
+    29
+   ],
+   [
+    "/politic",
+    4
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/uslugi",
+    1
+   ],
+   [
+    "/izbrannoe",
+    1
+   ],
+   [
+    "/reviews",
+    1
+   ],
+   [
+    "/offers/*",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.container.item__wrapper > div.item__gallary > div.model-swiper",
+   "div.item__gallary > div.model-swiper > div.model-swiper__swiper",
+   "div.model-swiper > div.model-swiper__swiper > span.ka-jet-model-vygoda-badge"
+  ]
+ },
+ "model_page": {
+  "url": "https://lada-davauto.ru/offers/5329",
+  "title": "Новинка LADA Iskra в наличии от 1 270 000 Р. В ДАВ-АВТО",
+  "text_length": 1983,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/offers",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/uslugi",
+    1
+   ],
+   [
+    "/izbrannoe",
+    1
+   ],
+   [
+    "/reviews",
+    1
+   ],
+   [
+    "/offers/*",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

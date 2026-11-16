@@ -1,0 +1,37 @@
+{
+ "id": 158,
+ "site": "haval-ulyanovsk-official.ru",
+ "brand": "HAVAL CITY",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://haval-ulyanovsk-official.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=ef604ff72daa41b597ea9419180baf53",
+  "https://cdn.konget.ru/client?no_cache=1793718788423",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "HAVAL CITY Армада-Авто",
+  "text_length": 4014,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/policy.pdf",
+    5
+   ],
+   [
+    "/agreement.pdf",
+    4
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

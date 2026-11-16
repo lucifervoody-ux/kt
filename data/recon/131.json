@@ -1,0 +1,188 @@
+{
+ "id": 131,
+ "site": "cherypulkovo.ru",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://cherypulkovo.ru/tenet_models/tenet_4l/",
+ "konget": [
+  "https://app.konget.ru/inject?token=01f7c1297f6542d1a09184121c63a612",
+  "https://cdn.konget.ru/client?no_cache=1793718728251",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "CHERY в наличии | купить Чери / Тенет 2026 в СПб – официальный дилер Чери Центр Пулково",
+  "text_length": 4397,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.insalon_raw > div.insalon_hot > div.hot_itemlist__spoiler",
+    "count": 10,
+    "sample": "Преимущества авто"
+   },
+   {
+    "selector": "div.ch-carlist__info > div.ch-carlist__caption > h3.capskidka",
+    "count": 7,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.footer_block_linkcaption_social > div.openUslovia__view > p",
+    "count": 4,
+    "sample": "*Максимальная выгода на покупку автомобиля рассчитывается путем суммирования выг"
+   },
+   {
+    "selector": "div.hd__seller > a.hd__seller_block > p.hd__seller_block_ttx",
+    "count": 1,
+    "sample": "на выгодных условиях"
+   },
+   {
+    "selector": "body.main > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/userfiles/*",
+    173
+   ],
+   [
+    "/tenet_models/*",
+    15
+   ],
+   [
+    "/models/*",
+    10
+   ],
+   [
+    "/finance",
+    8
+   ],
+   [
+    "/contacts",
+    6
+   ],
+   [
+    "/bu",
+    5
+   ],
+   [
+    "/corporate_sales",
+    4
+   ],
+   [
+    "/press",
+    4
+   ],
+   [
+    "/signup_testdrive",
+    3
+   ],
+   [
+    "/shop_search",
+    3
+   ],
+   [
+    "/trade_in",
+    3
+   ],
+   [
+    "/in_stock",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://cherypulkovo.ru/tenet_models/tenet_4l/",
+  "title": "TENET T4L в наличии | купить Тенет T4L (Т4Л) 2026: комплектации и цены в СПб в лизинг",
+  "text_length": 4151,
+  "price_blocks": [
+   {
+    "selector": "div.md_header_lf.md_header_row > div.md_header_name > span",
+    "count": 1,
+    "sample": "Выгоднее на 450 000 руб."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.footer_block_linkcaption_social > div.openUslovia__view > p",
+    "count": 4,
+    "sample": "*Максимальная выгода на покупку автомобиля рассчитывается путем суммирования выг"
+   },
+   {
+    "selector": "div.hd__seller > a.hd__seller_block > p.hd__seller_block_ttx",
+    "count": 1,
+    "sample": "на выгодных условиях"
+   },
+   {
+    "selector": "div.md_header_lf.md_header_row > div.md_header_name > span",
+    "count": 1,
+    "sample": "Выгоднее на 450 000 руб."
+   },
+   {
+    "selector": "div.model_text > div.model_features > p",
+    "count": 1,
+    "sample": "Наши консультанты помогут выбрать автомобиль, идеально подходящий именно для Вас"
+   },
+   {
+    "selector": "body.main > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/tenet_models/*",
+    30
+   ],
+   [
+    "/finance",
+    7
+   ],
+   [
+    "/contacts",
+    6
+   ],
+   [
+    "/models/*",
+    6
+   ],
+   [
+    "/bu",
+    5
+   ],
+   [
+    "/corporate_sales",
+    4
+   ],
+   [
+    "/signup_testdrive",
+    3
+   ],
+   [
+    "/trade_in",
+    3
+   ],
+   [
+    "/in_stock",
+    3
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/press",
+    3
+   ],
+   [
+    "/customer_support",
+    3
+   ]
+  ],
+  "model_cards": [
+   "body.main > div.wrapprer > section.model"
+  ]
+ }
+}

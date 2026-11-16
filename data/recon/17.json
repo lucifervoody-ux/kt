@@ -1,0 +1,130 @@
+{
+ "id": 17,
+ "site": "avtoban-changanauto.ru",
+ "brand": "Changan",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://avtoban-changanauto.ru/customers/dealer",
+ "konget": [
+  "https://app.konget.ru/inject?token=2914c5d6f3c0480f852dd89bd480fd66",
+  "https://cdn.konget.ru/client?no_cache=1793718448296",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Чанган Центр Автобан",
+  "text_length": 3791,
+  "price_blocks": [
+   {
+    "selector": "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[480px\\].text-simple-24",
+    "count": 4,
+    "sample": "От 4 129 000 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[480px\\].text-simple-24",
+    "count": 1,
+    "sample": "Выгода до 950 000 руб."
+   },
+   {
+    "selector": "div.grid.grid-cols-1 > a.relative.bg-\\[url\\(\\'\\/public\\/img\\/customer-4\\.webp\\'\\)\\] > div.text-white.mt-3",
+    "count": 1,
+    "sample": "Выгодные условия для вас"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    32
+   ],
+   [
+    "/model/*",
+    19
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/about-us/*",
+    13
+   ],
+   [
+    "/model",
+    4
+   ],
+   [
+    "/about-company",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col"
+  ]
+ },
+ "model_page": {
+  "url": "https://avtoban-changanauto.ru/customers/dealer",
+  "title": "Контакты Чанган Центр Автобан",
+  "text_length": 2701,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    27
+   ],
+   [
+    "/model/*",
+    13
+   ],
+   [
+    "/owners/*",
+    12
+   ],
+   [
+    "/about-us/*",
+    11
+   ],
+   [
+    "/model",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/about-company",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col"
+  ]
+ }
+}

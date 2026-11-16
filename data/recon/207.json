@@ -1,0 +1,158 @@
+{
+ "id": 207,
+ "site": "soueast-automarket.ru",
+ "brand": "Soueast",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://soueast-automarket.ru/owners/manuals",
+ "konget": [],
+ "home": {
+  "title": "Купить SOUEAST у официального дилера в Ижевске - цены и характеристики новых автомобилей Соуис | SOUEAST Автомаркет",
+  "text_length": 5331,
+  "price_blocks": [
+   {
+    "selector": "div.td-model-card__head > div.td-model-card__subtitle > div.td-model-card__price",
+    "count": 6,
+    "sample": "от 2 589 000 ₽"
+   },
+   {
+    "selector": "div.td-benefits-item.td-overlay-holder > div.td-benefits-item__content > div.h4",
+    "count": 4,
+    "sample": "160 000 ₽"
+   },
+   {
+    "selector": "div.td-model-price > div.td-model-price__price > span.h2.h3-mobile",
+    "count": 3,
+    "sample": "от 2 589 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.td-benefits-item.td-overlay-holder > div.td-benefits-item__content > div.p2",
+    "count": 4,
+    "sample": "Выгода"
+   },
+   {
+    "selector": "a.td-link.td-news-list__link > span.td-news-list__text > span.h4.td-news-list__title",
+    "count": 2,
+    "sample": "Ставки по кредиту от 0,01%. Выгодные ежемесячные платежи"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owners/*",
+    21
+   ],
+   [
+    "/models/*",
+    11
+   ],
+   [
+    "/brand/*",
+    7
+   ],
+   [
+    "/calculate-trade-in",
+    5
+   ],
+   [
+    "/test-drive",
+    5
+   ],
+   [
+    "/brand",
+    5
+   ],
+   [
+    "/technology",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/special-offers/*",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/credit-calculate",
+    3
+   ],
+   [
+    "/credit-programs",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.td-slider__text > div.td-slider__description > div.td-model-price",
+   "div.td-slider__description > div.td-model-price > div.td-model-price__price",
+   "div.td-slider__text > div.td-slider__description > div.td-model-price",
+   "div.td-slider__description > div.td-model-price > div.td-model-price__price",
+   "div.td-slider__text > div.td-slider__description > div.td-model-price",
+   "div.td-slider__description > div.td-model-price > div.td-model-price__price"
+  ]
+ },
+ "model_page": {
+  "url": "https://soueast-automarket.ru/owners/manuals",
+  "title": "Руководства по эксплуатации автомобилей SOUEAST у официального дилера SOUEAST Автомаркет в Ижевске",
+  "text_length": 2041,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/owners/*",
+    21
+   ],
+   [
+    "/models/*",
+    9
+   ],
+   [
+    "/test-drive",
+    5
+   ],
+   [
+    "/owners",
+    4
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/calculate-trade-in",
+    3
+   ],
+   [
+    "/credit-calculate",
+    3
+   ],
+   [
+    "/credit-programs",
+    3
+   ],
+   [
+    "/special-offers",
+    3
+   ],
+   [
+    "/social-program-soueast",
+    3
+   ],
+   [
+    "/business",
+    3
+   ]
+  ],
+  "model_cards": []
+ }
+}

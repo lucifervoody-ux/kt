@@ -1,0 +1,44 @@
+{
+ "id": 180,
+ "site": "service-haval-bolivar.ru",
+ "brand": "Сервис",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://service-haval-bolivar.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=8d8836a277f64dd8be8ac33acf6afdd3",
+  "https://cdn.konget.ru/client?no_cache=1793718847655",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Сервис Haval в Саратове | Ремонт Хавейл в Боливар",
+  "text_length": 4103,
+  "price_blocks": [
+   {
+    "selector": "div.t778__textwrapper.t778__paddingsmall > div.t778__descr.t-descr > strong",
+    "count": 6,
+    "sample": "Стоимость — 1 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t778__textwrapper.t778__paddingsmall > div.t778__descr.t-descr > strong",
+    "count": 2,
+    "sample": "Скидка 20% на дополнительное оборудование и аксессуары при прохождении ТО в серв"
+   },
+   {
+    "selector": "ul.t967__list > li.t967__list-item > a.t-menu__link-item",
+    "count": 1,
+    "sample": "ПРЕИМУЩЕСТВА"
+   },
+   {
+    "selector": "ul.t967__list.t-menu__list > li.t967__list-item > a.t-menu__link-item",
+    "count": 1,
+    "sample": "ПРЕИМУЩЕСТВА"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

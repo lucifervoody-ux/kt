@@ -1,0 +1,184 @@
+{
+ "id": 119,
+ "site": "betasever-tenetplus.ru",
+ "brand": "TENET Plus",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://betasever-tenetplus.ru/models/",
+ "konget": [
+  "https://app.konget.ru/inject?token=dbde84d0b9da4b70a9193d35fa3915ed",
+  "https://cdn.konget.ru/client?no_cache=1793718694553",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Tenet Plus Бета Север",
+  "text_length": 12660,
+  "price_blocks": [
+   {
+    "selector": "div.text-content.supersmall-text > p > strong",
+    "count": 4,
+    "sample": "Выгода до 100 000 руб."
+   },
+   {
+    "selector": "a.menu-models__left-link > div > p.menu-models__left-item-price.tiny-text",
+    "count": 2,
+    "sample": "от 2 390 000 ₽"
+   },
+   {
+    "selector": "div.menu-models__center > div > div.menu-models__center-price",
+    "count": 2,
+    "sample": "от 2 390 000 ₽"
+   },
+   {
+    "selector": "ul.menu-models__center-params > li.menu-models__center-param.supersmall-text > div.menu-models__center-text",
+    "count": 2,
+    "sample": "Выгода в трейд-ин до 250 000 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div.js-animation-up > div.web_block_media-hero__title.up-animate-2",
+    "count": 2,
+    "sample": "ТРЕЙД-ИН до 250 000 ₽ В НОЯБРЕ**"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div.js-animation-up.mt-s > div.web_block_media-hero__text.up-animate-3",
+    "count": 2,
+    "sample": "от 2 790 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.text-content.supersmall-text > p > strong",
+    "count": 4,
+    "sample": "Выгода до 100 000 руб."
+   },
+   {
+    "selector": "ul.menu-models__center-params > li.menu-models__center-param.supersmall-text > div.menu-models__center-text",
+    "count": 2,
+    "sample": "Выгода в трейд-ин до 250 000 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div.js-animation-up > div.web_block_media-hero__title.up-animate-2",
+    "count": 2,
+    "sample": "ВЫГОДА ПО"
+   },
+   {
+    "selector": "a.latest-news__slide-link > div.latest-news__slide-wrap.p-s > div.latest-news__slide-title.large-text",
+    "count": 2,
+    "sample": "Tenet Plus объявляет о максимальной совокупной выгоде в октябре 2026 года"
+   },
+   {
+    "selector": "div.web_block_media-hero__btn-wrap.up-animate-4 > a.btn.btn_primary > span",
+    "count": 1,
+    "sample": "Купить с выгодой"
+   }
+  ],
+  "link_groups": [
+   [
+    "/news/*",
+    18
+   ],
+   [
+    "/models/*",
+    15
+   ],
+   [
+    "/news",
+    4
+   ],
+   [
+    "/terms-conditions/*",
+    4
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/terms-conditions",
+    2
+   ],
+   [
+    "/customers/*",
+    1
+   ],
+   [
+    "/for-owners/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://betasever-tenetplus.ru/models/",
+  "title": "Официальный дилер Tenet Plus Бета Север",
+  "text_length": 890,
+  "price_blocks": [
+   {
+    "selector": "a.menu-models__left-link > div > p.menu-models__left-item-price.tiny-text",
+    "count": 2,
+    "sample": "от 2 390 000 ₽"
+   },
+   {
+    "selector": "div.menu-models__center > div > div.menu-models__center-price",
+    "count": 2,
+    "sample": "от 2 390 000 ₽"
+   },
+   {
+    "selector": "ul.menu-models__center-params > li.menu-models__center-param.supersmall-text > div.menu-models__center-text",
+    "count": 2,
+    "sample": "Выгода в трейд-ин до 250 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "ul.menu-models__center-params > li.menu-models__center-param.supersmall-text > div.menu-models__center-text",
+    "count": 2,
+    "sample": "Выгода в трейд-ин до 250 000 ₽"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    12
+   ],
+   [
+    "/models",
+    5
+   ],
+   [
+    "/news",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/terms-conditions",
+    2
+   ],
+   [
+    "/customers/*",
+    1
+   ],
+   [
+    "/for-owners/*",
+    1
+   ],
+   [
+    "/terms-conditions/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

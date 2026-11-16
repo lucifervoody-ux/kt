@@ -1,0 +1,93 @@
+{
+ "id": 152,
+ "site": "antikor-motors.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://antikor-motors.ru/motocikly/cfmoto-750sr-s-abs/",
+ "konget": [
+  "https://app.konget.ru/inject?token=883ca794d1874d5ab96be456ebd8a723",
+  "https://cdn.konget.ru/client?no_cache=1793718771224",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "CFMOTO",
+  "text_length": 4206,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.t923__content > div.t923__textwrapper.t923__paddingsmall > div.t-card__descr.t-descr",
+    "count": 2,
+    "sample": "Скидка 20% на аксессуары при покупке CFMOTO!"
+   },
+   {
+    "selector": "div.t490__wrappercenter > div.t-card__title.t-name > span",
+    "count": 1,
+    "sample": "Получи скидку до 300 000 р.!"
+   },
+   {
+    "selector": "div.t-col.t-col_11 > div.t467__title.t-title > div",
+    "count": 1,
+    "sample": "Преимущества покупки мототехники CFMOTO у официального дилера АНТИКОР-СЕРВИС"
+   },
+   {
+    "selector": "div.t467__descr.t-descr > div > strong",
+    "count": 1,
+    "sample": "Основные преимущества покупки мототехники CFMOTO у нас:"
+   },
+   {
+    "selector": "div > ul > li",
+    "count": 1,
+    "sample": "Кредитование на выгодных условиях."
+   },
+   {
+    "selector": "body.t-body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/privacy",
+    4
+   ],
+   [
+    "/motocikly/*",
+    2
+   ],
+   [
+    "/products",
+    1
+   ],
+   [
+    "/CFMOTO%20CFORCE%20800%20HO%20EPS%20NEW",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://antikor-motors.ru/motocikly/cfmoto-750sr-s-abs/",
+  "title": "cfmoto-750sr-s-abs",
+  "text_length": 3247,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.t668__content > div.t668__textwrapper > div.t668__text.t-descr",
+    "count": 1,
+    "sample": "Вы можете купить CFMOTO 750SR-S в Антикор-Сервис на выгодных условиях."
+   }
+  ],
+  "link_groups": [
+   [
+    "/motocikly/*",
+    2
+   ],
+   [
+    "/products",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

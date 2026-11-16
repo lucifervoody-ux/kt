@@ -1,0 +1,100 @@
+{
+ "id": 55,
+ "site": "moscow.kia-butovo.ru",
+ "brand": "Kia сервис",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://moscow.kia-butovo.ru/",
+ "konget": [],
+ "home": {
+  "title": "Сервис Kia по выгодной цене",
+  "text_length": 4464,
+  "price_blocks": [
+   {
+    "selector": "div.modal__left_content > p > b",
+    "count": 3,
+    "sample": "1500 рублей"
+   },
+   {
+    "selector": "div.special__item.js-popup-link > div.special__text-part > div.special__name",
+    "count": 1,
+    "sample": "Шиномонтаж от 4000 руб. в сервисных центрах Kia АВТОРУСЬ."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.benefits__item > div.benefits__item-in > div.benefits__name",
+    "count": 2,
+    "sample": "Выгодные"
+   },
+   {
+    "selector": "div.intro__bottom-wrap > div.intro__bottom-item.intro__bottom-item-column > h3.intro__bottom-title",
+    "count": 1,
+    "sample": "Успейте получить выгоду!"
+   },
+   {
+    "selector": "div.benefits > div.benefits__container.container > div.benefits__title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "div.footer__row.footer__row_beetwen > div.footer__text.footer__text_first > p",
+    "count": 1,
+    "sample": "Информация о соответствующих моделях и комплектациях и их наличии, ценах, возмож"
+   }
+  ],
+  "link_groups": [
+   [
+    "/docs/*",
+    12
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://moscow.kia-butovo.ru/docs/consent.pdf",
+  "title": "Сервис Kia по выгодной цене",
+  "text_length": 4464,
+  "price_blocks": [
+   {
+    "selector": "div.modal__left_content > p > b",
+    "count": 3,
+    "sample": "1500 рублей"
+   },
+   {
+    "selector": "div.special__item.js-popup-link > div.special__text-part > div.special__name",
+    "count": 1,
+    "sample": "Шиномонтаж от 4000 руб. в сервисных центрах Kia АВТОРУСЬ."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.benefits__item > div.benefits__item-in > div.benefits__name",
+    "count": 2,
+    "sample": "Выгодные"
+   },
+   {
+    "selector": "div.intro__bottom-wrap > div.intro__bottom-item.intro__bottom-item-column > h3.intro__bottom-title",
+    "count": 1,
+    "sample": "Успейте получить выгоду!"
+   },
+   {
+    "selector": "div.benefits > div.benefits__container.container > div.benefits__title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "div.footer__row.footer__row_beetwen > div.footer__text.footer__text_first > p",
+    "count": 1,
+    "sample": "Информация о соответствующих моделях и комплектациях и их наличии, ценах, возмож"
+   }
+  ],
+  "link_groups": [
+   [
+    "/docs/*",
+    12
+   ]
+  ],
+  "model_cards": []
+ }
+}

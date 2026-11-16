@@ -1,0 +1,233 @@
+{
+ "id": 151,
+ "site": "jetour-amr.ru",
+ "brand": "Jetour",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://jetour-amr.ru/cars/1393192",
+ "konget": [
+  "https://app.konget.ru/inject?token=28fe2fec3b4a4994ac52017734c26444",
+  "https://cdn.konget.ru/client?no_cache=1793718770173",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Jetour AMR - официальный дилер JETOUR (Джетур) в городе Саратов",
+  "text_length": 14290,
+  "price_blocks": [
+   {
+    "selector": "div > div.d-flex.align-center > span.textPrimary--text.text-mob-body-2",
+    "count": 10,
+    "sample": "Максимальная выгода до 840 000 ₽"
+   },
+   {
+    "selector": "p > span > small",
+    "count": 6,
+    "sample": ": валюта кредита – рубли РФ; срок кредита – 12-96 мес.; сумма кредита - от 100 0"
+   },
+   {
+    "selector": "div.items-wrap > div.items.marquee > div.item",
+    "count": 4,
+    "sample": "Выгода на JETOUR DASHING до 840 000 рублей"
+   },
+   {
+    "selector": "button.tab-card.py-3 > div.textPrimary--text > div.tab-card__price.text-mob-body-1",
+    "count": 4,
+    "sample": "от 3 999 000 руб"
+   },
+   {
+    "selector": "div.special.d-flex > div.special__left.d-flex > div.text-h2.text-mob-h2",
+    "count": 4,
+    "sample": "от 3 999 000 руб"
+   },
+   {
+    "selector": "div.pa-3.pa-sm-2 > div.model-card_mobile_name.d-flex > div.text-h3.primary--text",
+    "count": 4,
+    "sample": "от 3 999 000 руб"
+   },
+   {
+    "selector": "li.dealership-credit-offers__item > div.dealership-credit-offers__mob > div.dealership-credit-offers__benefit",
+    "count": 4,
+    "sample": "с выгодой до 840 000 ₽"
+   },
+   {
+    "selector": "div.dealership-credit-offers__mob > button.dealership-credit-offers__cta.ch-btn > span.v-btn__content",
+    "count": 4,
+    "sample": "от 3 500 ₽ в мес."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div > div.d-flex.align-center > span.textPrimary--text.text-mob-body-2",
+    "count": 10,
+    "sample": "Максимальная выгода до 840 000 ₽"
+   },
+   {
+    "selector": "div.items-wrap > div.items.marquee > div.item",
+    "count": 4,
+    "sample": "Выгода на JETOUR DASHING до 840 000 рублей"
+   },
+   {
+    "selector": "li.dealership-credit-offers__item > div.dealership-credit-offers__mob > div.dealership-credit-offers__benefit",
+    "count": 4,
+    "sample": "с выгодой до 840 000 ₽"
+   },
+   {
+    "selector": "div.dealership-credit-offers__desk-aside > button.dealership-credit-offers__cta.ch-btn > span.v-btn__content",
+    "count": 4,
+    "sample": "с выгодой до 840 000 ₽"
+   },
+   {
+    "selector": "div.form__content > div.v-typography.form__subtitle > div.d-inline",
+    "count": 1,
+    "sample": "У нас есть вариант, который будет выгоднее!"
+   },
+   {
+    "selector": "div.car-exchange__content.d-flex > div.car-exchange__description > h2.car-exchange__title.textPrimary--text",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый JETOUR с выгодой!"
+   },
+   {
+    "selector": "div.dealership-credit-offers__artboard > div.dealership-credit-offers__card > h2.dealership-credit-offers__title",
+    "count": 1,
+    "sample": "Jetour на максимально выгодных условиях"
+   },
+   {
+    "selector": "div.dealership-credit-offers__artboard > div.dealership-credit-offers__card > p.dealership-credit-offers__intro",
+    "count": 1,
+    "sample": "Автокредит от 0,01%* и выгода на следующие модели:"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    40
+   ],
+   [
+    "/models/*",
+    8
+   ],
+   [
+    "/service",
+    3
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/politic",
+    3
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/finance",
+    2
+   ],
+   [
+    "/agreement_pd",
+    2
+   ],
+   [
+    "/reklama",
+    2
+   ],
+   [
+    "/cookies",
+    2
+   ],
+   [
+    "/komissionnaya-prodazha",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.card__main > div.card__content > div.card__price.primary--text",
+   "div.card__main > div.card__content > div.card__price.primary--text",
+   "div.card__main > div.card__content > div.card__price.primary--text",
+   "div.theme--light > div.g-indent > section.model-card",
+   "section.model-card > div.container > div.model-card__container",
+   "div.container > div.model-card__container > div.model-card__aside-col.d-flex"
+  ]
+ },
+ "model_page": {
+  "url": "https://jetour-amr.ru/cars/1393192",
+  "title": "Автомобиль Jetour X90+ в наличии у официального дилера Jetour AMR в городе Саратов по цене 1995000 рублей",
+  "text_length": 3270,
+  "price_blocks": [
+   {
+    "selector": "p > span > small",
+    "count": 6,
+    "sample": ": валюта кредита – рубли РФ; срок кредита – 12-96 мес.; сумма кредита - от 100 0"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "span > small > strong",
+    "count": 1,
+    "sample": "JETOUR Кредит Комфорт Преимущество Плюс"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    5
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/finance",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/cookies",
+    2
+   ],
+   [
+    "/komissionnaya-prodazha",
+    1
+   ],
+   [
+    "/cars/*",
+    1
+   ],
+   [
+    "/agreement_pd",
+    1
+   ],
+   [
+    "/reklama",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.car__content-large > div.car__description-aside > div.car-short-info",
+   "div.car__description-aside > div.car-short-info > div.car-short-info__main.background",
+   "div.car-short-info > div.car-short-info__main.background > div.car-short-info__special.mb-10"
+  ]
+ }
+}

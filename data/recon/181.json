@@ -1,0 +1,96 @@
+{
+ "id": 181,
+ "site": "sales-haval-bolivar.ru",
+ "brand": "HAVAL CITY",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://sales-haval-bolivar.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=63ab33ff63e44404bc6686ab0e93bc5c",
+  "https://cdn.konget.ru/client?no_cache=1793718848965",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер HAVAL в Саратове | Официальный дилер Хавейл в «Боливар»",
+  "text_length": 4710,
+  "price_blocks": [
+   {
+    "selector": "span.js-product-sku.notranslate > div > strong",
+    "count": 2,
+    "sample": "От 2 829 000 ₽⁵"
+   },
+   {
+    "selector": "span.js-product-sku.notranslate > div > span",
+    "count": 2,
+    "sample": "От 3 329 000 ₽⁶"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 1,
+    "sample": "Осенние выгоды на HAVAL до 170 000₽¹ в «Боливар»"
+   },
+   {
+    "selector": "div.t762__title-wrapper > div.t762__title_small.t-descr > span.js-product-sku.notranslate",
+    "count": 1,
+    "sample": "От 2 409 000 ₽³"
+   },
+   {
+    "selector": "div.t762__title_small.t-descr > span.js-product-sku.notranslate > div",
+    "count": 1,
+    "sample": "От 2 029 000 ₽⁴"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t762__textwrapper > div.t762__descr.t-descr > div",
+    "count": 5,
+    "sample": "✓ Выгода при покупке в кредит"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 3,
+    "sample": "Осенние выгоды на HAVAL до 170 000₽¹ в «Боливар»"
+   },
+   {
+    "selector": "a > div.t778__textwrapper > div.t778__descr.t-descr",
+    "count": 2,
+    "sample": "Купите автомобиль с максимальной выгодой на персональных условиях"
+   },
+   {
+    "selector": "ul.t967__list > li.t967__list-item > a.t-menu__link-item",
+    "count": 1,
+    "sample": "ПРЕИМУЩЕСТВА"
+   },
+   {
+    "selector": "ul.t967__list.t-menu__list > li.t967__list-item > a.t-menu__link-item",
+    "count": 1,
+    "sample": "ПРЕИМУЩЕСТВА"
+   },
+   {
+    "selector": "a.tn-atom > div.tn-atom__button-content > span.tn-atom__button-text",
+    "count": 1,
+    "sample": "Рассчитать мою выгоду"
+   },
+   {
+    "selector": "li.t-card__col.t-card__col_withoutbtn > div.t503__content.t-align_center > div.t-card__title.t-name",
+    "count": 1,
+    "sample": "Сделаем любое предложение выгоднее"
+   },
+   {
+    "selector": "div.t762__info > div.t762__textwrapper > div.t762__descr.t-descr",
+    "count": 1,
+    "sample": "✓ Выгода при покупке - 100 000"
+   }
+  ],
+  "link_groups": [
+   [
+    "/,",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.t396 > div.t396__artboard.rendered > div.t396__elem.tn-elem"
+  ]
+ },
+ "model_page": null
+}

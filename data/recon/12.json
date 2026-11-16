@@ -1,0 +1,110 @@
+{
+ "id": 12,
+ "site": "sales.avilon-haval.ru",
+ "brand": "Хавейл Сити/Про",
+ "status": 200,
+ "engine": "WordPress",
+ "final_url": "https://sales.avilon-haval.ru/wp-content/uploads/2025/07/WhatsApp-Image-2025-06-03-at-16.03.40.jpeg",
+ "konget": [
+  "https://app.konget.ru/inject?token=a8e75e6c97204490b360751810a868ac",
+  "https://cdn.konget.ru/client?no_cache=1793718446074",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "HAVAL Авилон – официальный дилер Хавейл в Москве: купить новый Хавал 2024-2025 — Выгодно купить HAVAL у официального дилера АВИЛОН в Москве. Продажа HAVAL 2022-2023 года в кредит. Новые автомобили Хавейл: комплектации и цены, фото и обзор. ✔ Покупка онлайн ✔ Акции.",
+  "text_length": 10411,
+  "price_blocks": [
+   {
+    "selector": "li.elementor-icon-list-item > span.elementor-icon-list-text > span.green",
+    "count": 6,
+    "sample": "3 599 000 ₽"
+   },
+   {
+    "selector": "ul.elementor-icon-list-items > li.elementor-icon-list-item > span.elementor-icon-list-text",
+    "count": 5,
+    "sample": "от 9 719 ₽/мес."
+   },
+   {
+    "selector": "div.elementor-element.elementor-element-19647a9 > div.elementor-element.elementor-element-01c0d6c > p",
+    "count": 1,
+    "sample": "3 549 000 ₽"
+   },
+   {
+    "selector": "div.elementor-element.elementor-element-0e12ce7 > div.elementor-element.elementor-element-cd4f7f1 > p",
+    "count": 1,
+    "sample": "2 499 000 ₽"
+   },
+   {
+    "selector": "a.elementor-element.elementor-element-37cce51 > div.elementor-element.elementor-element-14ead3e8 > span.elementor-heading-title.elementor-size-default",
+    "count": 1,
+    "sample": "от 3 599 000 ₽*"
+   },
+   {
+    "selector": "a.elementor-element.elementor-element-15a69607 > div.elementor-element.elementor-element-6df31f93 > span.elementor-heading-title.elementor-size-default",
+    "count": 1,
+    "sample": "от 2 099 000 ₽*"
+   },
+   {
+    "selector": "a.elementor-element.elementor-element-7ecda0b4 > div.elementor-element.elementor-element-58231381 > span.elementor-heading-title.elementor-size-default",
+    "count": 1,
+    "sample": "от 2 099 000 ₽*"
+   },
+   {
+    "selector": "a.elementor-element.elementor-element-5366ca58 > div.elementor-element.elementor-element-72979823 > span.elementor-heading-title.elementor-size-default",
+    "count": 1,
+    "sample": "от 2 899 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.elementor-icon-box-content > h3.elementor-icon-box-title > span",
+    "count": 3,
+    "sample": "Выгодная цена"
+   },
+   {
+    "selector": "ul.elementor-nav-menu > li.menu-item.menu-item-type-custom > a.elementor-item.elementor-item-anchor",
+    "count": 2,
+    "sample": "Преимущества"
+   },
+   {
+    "selector": "ul.elementor-nav-menu.sm-vertical > li.menu-item.menu-item-type-custom > a.elementor-item.elementor-item-anchor",
+    "count": 2,
+    "sample": "Преимущества"
+   },
+   {
+    "selector": "div.elementor-element.elementor-element-6ac4fedb > div.elementor-element.elementor-element-5d51f12a > p.elementor-heading-title.elementor-size-default",
+    "count": 1,
+    "sample": "выгода"
+   },
+   {
+    "selector": "div.elementor-element.elementor-element-227ccf98 > div.elementor-element.elementor-element-7761195 > h2.elementor-heading-title.elementor-size-default",
+    "count": 1,
+    "sample": "наши преимущества"
+   }
+  ],
+  "link_groups": [
+   [
+    "/wp-content/*",
+    21
+   ],
+   [
+    "/legal/*",
+    4
+   ],
+   [
+    "/action",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://sales.avilon-haval.ru/wp-content/uploads/2025/07/WhatsApp-Image-2025-06-03-at-16.03.40.jpeg",
+  "title": "WhatsApp-Image-2025-06-03-at-16.03.40.jpeg (1600×1200)",
+  "text_length": 0,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "id": 49,
+ "site": "tenet-avtoruss.ru",
+ "brand": "TENET",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://tenet-avtoruss.ru/models/",
+ "konget": [
+  "https://app.konget.ru/inject?token=21b8cb2f6a89481499f69b159a88eb74",
+  "https://cdn.konget.ru/client?no_cache=1793718538212",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "TENET – официальный дилер бренда в Москве – купить новый автомобиль ТЕНЕТ 2026 в автосалоне АВТОРУСЬ",
+  "text_length": 8315,
+  "price_blocks": [
+   {
+    "selector": "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+    "count": 18,
+    "sample": "от 2 199 000 ₽*"
+   },
+   {
+    "selector": "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+    "count": 6,
+    "sample": "от 2 199 000 ₽"
+   },
+   {
+    "selector": "div.menu-models__center > div > div.menu-models__center-price",
+    "count": 6,
+    "sample": "от 2 199 000 ₽"
+   },
+   {
+    "selector": "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text",
+    "count": 6,
+    "sample": "от 2 899 000 ₽"
+   },
+   {
+    "selector": "div.js-popup-bottomsheet.tooltip__inner > div.tooltip__content.pb-m > div.tooltip__content-text-wrap.pt-l",
+    "count": 1,
+    "sample": ". ПРЕДСТАВЛЕННЫЕ НА ИЗОБРАЖЕНИЯХ АВТОМОБИЛИ МОГУТ ОТЛИЧАТЬСЯ ОТ СЕРИЙНЫХ МОДЕЛЕЙ"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.menu-dropdown__img.responsive-media > div.menu-dropdown__img-text-wrap.pb-s > div.menu-dropdown__img-title.h3",
+    "count": 1,
+    "sample": "Выгоды на"
+   },
+   {
+    "selector": "div.web_block_media-hero__text.up-animate-3 > span.up-container-splited > p.up-splited",
+    "count": 1,
+    "sample": "Подбирайте выгодные"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    42
+   ],
+   [
+    "/customers/*",
+    26
+   ],
+   [
+    "/tenet/*",
+    26
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/customers",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/owners",
+    4
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/terms-conditions/*",
+    4
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/tenet",
+    2
+   ],
+   [
+    "/tenet_run",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.js-model-range-slider.web_block_models-range__slider > div.swiper-wrapper > div.web_block_models-range__slide.swiper-slide",
+   "div.swiper-wrapper > div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top",
+   "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+   "div.js-model-range-slider.web_block_models-range__slider > div.swiper-wrapper > div.web_block_models-range__slide.swiper-slide",
+   "div.swiper-wrapper > div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top",
+   "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price"
+  ]
+ },
+ "model_page": {
+  "url": "https://tenet-avtoruss.ru/models/",
+  "title": "Модельный ряд TENET 2026: комплектации и цены автомобилей ТЕНЕТ у официального дилера в Москве",
+  "text_length": 1208,
+  "price_blocks": [
+   {
+    "selector": "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+    "count": 6,
+    "sample": "от 2 199 000 ₽"
+   },
+   {
+    "selector": "div.menu-models__center > div > div.menu-models__center-price",
+    "count": 6,
+    "sample": "от 2 199 000 ₽"
+   },
+   {
+    "selector": "div.web_block_flow-four-columns__item.col-lg-3 > div.web_block_media-flow > div.small-text.cg-4",
+    "count": 6,
+    "sample": "от 3 749 000 ₽*"
+   },
+   {
+    "selector": "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text",
+    "count": 6,
+    "sample": "от 2 899 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.menu-dropdown__img.responsive-media > div.menu-dropdown__img-text-wrap.pb-s > div.menu-dropdown__img-title.h3",
+    "count": 1,
+    "sample": "Выгоды на"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    42
+   ],
+   [
+    "/customers/*",
+    18
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/tenet/*",
+    9
+   ],
+   [
+    "/models",
+    6
+   ],
+   [
+    "/customers",
+    4
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/owners",
+    3
+   ],
+   [
+    "/tenet",
+    2
+   ],
+   [
+    "/tenet_run",
+    2
+   ],
+   [
+    "/terms-conditions",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

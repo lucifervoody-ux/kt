@@ -1,0 +1,128 @@
+{
+ "id": 190,
+ "site": "hc-russia.ru",
+ "brand": "Спецтехника",
+ "status": 200,
+ "engine": "Joomla",
+ "final_url": "https://hc-russia.ru/customer-center/company-clients",
+ "konget": [
+  "https://app.konget.ru/inject?token=5f292978dc64484b98021c7c4066a832",
+  "https://cdn.konget.ru/client?no_cache=1793718876637",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный сайт HANGCHA — вилочные погрузчики Ханча из Китая, дистрибьютор в России",
+  "text_length": 5522,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/customer-center/*",
+    69
+   ],
+   [
+    "/about-us/*",
+    20
+   ],
+   [
+    "/warehouse-equipment/*",
+    19
+   ],
+   [
+    "/service/*",
+    18
+   ],
+   [
+    "/policy",
+    13
+   ],
+   [
+    "/warehouse-equipment",
+    11
+   ],
+   [
+    "/promo/*",
+    6
+   ],
+   [
+    "/serv",
+    5
+   ],
+   [
+    "/promo",
+    4
+   ],
+   [
+    "/dizelnye",
+    4
+   ],
+   [
+    "/electric-forklift-truck",
+    4
+   ],
+   [
+    "/products",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://hc-russia.ru/customer-center/company-clients",
+  "title": "Клиенты официального дистрибьютора HANGCHA",
+  "text_length": 1437,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/customer-center/*",
+    79
+   ],
+   [
+    "/service/*",
+    18
+   ],
+   [
+    "/about-us/*",
+    15
+   ],
+   [
+    "/warehouse-equipment/*",
+    14
+   ],
+   [
+    "/policy",
+    13
+   ],
+   [
+    "/serv",
+    5
+   ],
+   [
+    "/vilochnye-pogruzchiki-hangcha",
+    3
+   ],
+   [
+    "/dizelnye",
+    3
+   ],
+   [
+    "/benzinovye",
+    3
+   ],
+   [
+    "/electric-forklift-truck",
+    3
+   ],
+   [
+    "/avtopogruzchiki",
+    3
+   ],
+   [
+    "/warehouse-equipment",
+    3
+   ]
+  ],
+  "model_cards": []
+ }
+}

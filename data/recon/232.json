@@ -1,0 +1,144 @@
+{
+ "id": 232,
+ "site": "tenetperm.ru",
+ "brand": "TENET",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://tenetperm.ru/tpost/9jdj01lr81-tenet-a8-s-vigodoi-do-300-000",
+ "konget": [
+  "https://app.konget.ru/inject?token=69c26d2b2ca14aac9fa952a11f3054d7",
+  "https://cdn.konget.ru/client?no_cache=1793718998296",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер TENET в Перми",
+  "text_length": 10901,
+  "price_blocks": [
+   {
+    "selector": "div.t589__textwrapper.t-align_left > div.t589__descr.t-descr > strong",
+    "count": 7,
+    "sample": "Выгода до 300 000 ₽"
+   },
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 2,
+    "sample": "TENET А8 — с выгодой до 300 000 ₽"
+   },
+   {
+    "selector": "div.t-feed__col-grid__wrapper > div.t-feed__textwrapper > div.js-feed-post-descr.t-feed__post-descr",
+    "count": 1,
+    "sample": "С TENET A8 ваш принцип — седан. И нам есть что предложить от 2 999 000 ₽."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t589__textwrapper.t-align_left > div.t589__descr.t-descr > strong",
+    "count": 7,
+    "sample": "Выгода до 300 000 ₽"
+   },
+   {
+    "selector": "div.t589__buttons-wrapper > a.t-btn.t-btnflex > span.t-btnflex__text",
+    "count": 7,
+    "sample": "Получить выгоду"
+   },
+   {
+    "selector": "ul.t228__list.t-menu__list > li.t228__list_item > a.t-menu__link-item",
+    "count": 2,
+    "sample": "Преимущества"
+   },
+   {
+    "selector": "div.t589__descr.t-descr > u > a",
+    "count": 2,
+    "sample": "Получить выгоду"
+   },
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 2,
+    "sample": "TENET А8 — с выгодой до 300 000 ₽"
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_center > div.t702__title.t-title",
+    "count": 1,
+    "sample": "Получите самые выгодные условия на покупку"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > span",
+    "count": 1,
+    "sample": "Выгода до 200 000"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 1,
+    "sample": "Выгода до 200 000"
+   }
+  ],
+  "link_groups": [
+   [
+    "/t4l",
+    3
+   ],
+   [
+    "/t8",
+    3
+   ],
+   [
+    "/tpost/*",
+    3
+   ],
+   [
+    "/t9",
+    2
+   ],
+   [
+    "/t4",
+    2
+   ],
+   [
+    "/T7",
+    1
+   ],
+   [
+    "/t7",
+    1
+   ],
+   [
+    "/a8",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.js-store-grid-cont.t-store__grid-cont > div.t-store__card-list.t-store__card-list__vertical-align-buttons > div.js-product.t-store__card",
+   "div.t-store__card-list.t-store__card-list__vertical-align-buttons > div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns",
+   "div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns > div.store__card__wrap_txt-and-opts.store__card__has-btns",
+   "div.store__card__wrap_txt-and-opts.store__card__has-btns > a > div.t-store__card__textwrapper",
+   "a > div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper",
+   "div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper > div.t-store__card__price.t-store__card__price-item"
+  ]
+ },
+ "model_page": {
+  "url": "https://tenetperm.ru/tpost/9jdj01lr81-tenet-a8-s-vigodoi-do-300-000",
+  "title": "TENET А8 — с выгодой до 300 000 ₽",
+  "text_length": 686,
+  "price_blocks": [
+   {
+    "selector": "div.t-feed__post-popup__content.t-col > div.t-feed__post-popup__title-wrapper > h1.js-feed-post-title.t-feed__post-popup__title",
+    "count": 1,
+    "sample": "TENET А8 — с выгодой до 300 000 ₽"
+   },
+   {
+    "selector": "section > div.t-redactor__tte-view > div.t-redactor__text",
+    "count": 1,
+    "sample": "TENET A8 уже в продаже во всех дилерских центрах от 2 899 000 ₽."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-feed__post-popup__content.t-col > div.t-feed__post-popup__title-wrapper > h1.js-feed-post-title.t-feed__post-popup__title",
+    "count": 1,
+    "sample": "TENET А8 — с выгодой до 300 000 ₽"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

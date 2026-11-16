@@ -1,0 +1,50 @@
+{
+ "id": 16,
+ "site": "sales.avtoban-changanauto.ru",
+ "brand": "Changan",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://sales.avtoban-changanauto.ru/",
+ "konget": [],
+ "home": {
+  "title": "Чанган Центр Автобан",
+  "text_length": 2889,
+  "price_blocks": [
+   {
+    "selector": "li.t-col.t-col_6 > div.t820__textwrapper.t-cell > div.t-descr.t-descr_sm",
+    "count": 2,
+    "sample": "При покупке автомобиля в кредит выгода до 250 000 рублей"
+   },
+   {
+    "selector": "a.t1025__imglink.js-product-link > div.t1025__markwrapper > div.t1025__mark",
+    "count": 1,
+    "sample": "СПЕЦ ЦЕНА выгода до 1 100 000 руб."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "li.t-col.t-col_6 > div.t820__textwrapper.t-cell > div.t-name.t-name_md",
+    "count": 2,
+    "sample": "Выгода при кредите"
+   },
+   {
+    "selector": "li.t-col.t-col_6 > div.t820__textwrapper.t-cell > div.t-descr.t-descr_sm",
+    "count": 2,
+    "sample": "При покупке автомобиля в кредит выгода до 250 000 рублей"
+   },
+   {
+    "selector": "a.t1025__imglink.js-product-link > div.t1025__markwrapper > div.t1025__mark",
+    "count": 1,
+    "sample": "СПЕЦ ЦЕНА выгода до 1 100 000 руб."
+   },
+   {
+    "selector": "div.t-section__container.t-container > div.t-col.t-col_12 > div.js-block-header-title.t-section__title",
+    "count": 1,
+    "sample": "Купить Чанган выгодно в Автобан"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

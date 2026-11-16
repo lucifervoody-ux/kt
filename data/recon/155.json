@@ -1,0 +1,147 @@
+{
+ "id": 155,
+ "site": "антикор-сервис.рф",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "http://xn----7sbhlndkwlucked.xn--p1ai/offers/15-prichin-kupit-cfmoto",
+ "konget": [
+  "https://app.konget.ru/inject?token=e27147f9cd814840b3d8426b4fd21366",
+  "https://cdn.konget.ru/client?no_cache=1793718782149",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автохолдинг \"Антикор-Сервис\" Омск",
+  "text_length": 16079,
+  "price_blocks": [
+   {
+    "selector": "div.t959__card-content > h2.t-card__title.t-name > a.t-card__link",
+    "count": 1,
+    "sample": "Geely с выгодой до 455 000 рублей! Кредит от 0,01%"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t959__card-content > h2.t-card__title.t-name > a.t-card__link",
+    "count": 1,
+    "sample": "Geely с выгодой до 455 000 рублей! Кредит от 0,01%"
+   },
+   {
+    "selector": "div.t730__text.t-text > div > span",
+    "count": 1,
+    "sample": "Покупали машину на прошлых выходных понравилось обслуживание, все рассказали , п"
+   },
+   {
+    "selector": "body.t-body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/null",
+    10
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/credit",
+    2
+   ],
+   [
+    "/cars/*",
+    1
+   ],
+   [
+    "/cars",
+    1
+   ],
+   [
+    "/insurance",
+    1
+   ],
+   [
+    "/services",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.t959 > div.t959__container.t-card__container > div.t959__card.t959__card_33",
+   "div.t959__container.t-card__container > div.t959__card.t959__card_33 > div.t959__card-inner.t-card__col",
+   "div.t959__card.t959__card_33 > div.t959__card-inner.t-card__col > div.t959__card-content",
+   "div.t959__card-inner.t-card__col > div.t959__card-content > h2.t-card__title.t-name",
+   "div.t959__card-content > h2.t-card__title.t-name > a.t-card__link"
+  ]
+ },
+ "model_page": {
+  "url": "http://xn----7sbhlndkwlucked.xn--p1ai/offers/15-prichin-kupit-cfmoto",
+  "title": "15 причин",
+  "text_length": 5970,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div > ul > li",
+    "count": 2,
+    "sample": "Специальная скидка от 2 ед. ATV и более в контракте"
+   },
+   {
+    "selector": "body.t-body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/offers/*",
+    12
+   ],
+   [
+    "/cars/*",
+    8
+   ],
+   [
+    "/offers",
+    3
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/services",
+    2
+   ],
+   [
+    "/our-team",
+    2
+   ],
+   [
+    "/blog",
+    2
+   ],
+   [
+    "/insurance",
+    1
+   ],
+   [
+    "/salony",
+    1
+   ],
+   [
+    "/",
+    1
+   ],
+   [
+    "/formaklientskaya",
+    1
+   ],
+   [
+    "/privacy",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

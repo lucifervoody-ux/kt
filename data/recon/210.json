@@ -1,0 +1,141 @@
+{
+ "id": 210,
+ "site": "automarket.sale",
+ "brand": "АСП",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://automarket.sale/offers/6909",
+ "konget": [],
+ "home": {
+  "title": "Новые автомобили и с пробегом в Ижевске - Автомаркет",
+  "text_length": 8757,
+  "price_blocks": [
+   {
+    "selector": "a.selection-card > div.v-text.textPrimary--text > div.d-inline",
+    "count": 2,
+    "sample": "Цена от 2 159 900 ₽"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/cars",
+    13
+   ],
+   [
+    "/offers/*",
+    6
+   ],
+   [
+    "/finance",
+    3
+   ],
+   [
+    "/sale",
+    3
+   ],
+   [
+    "/offers",
+    3
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/spares",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/about",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.selections__item > a.selection-card",
+   "div.swiper-slide.selections__item > a.selection-card > div.v-text.textPrimary--text",
+   "div.swiper-wrapper > div.swiper-slide.selections__item > a.selection-card",
+   "div.swiper-slide.selections__item > a.selection-card > div.v-text.textPrimary--text"
+  ]
+ },
+ "model_page": {
+  "url": "https://automarket.sale/offers/6909",
+  "title": "Выгодное предложение на автомобили SOUEAST S06",
+  "text_length": 1236,
+  "price_blocks": [
+   {
+    "selector": "div.d-inline > p > strong",
+    "count": 1,
+    "sample": "до 630 000 рублей."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.v-text.textPrimary--text > div.d-inline > p",
+    "count": 2,
+    "sample": "Выгодное предложение на автомобили SOUEAST S06"
+   },
+   {
+    "selector": "a.v-breadcrumbs__item.nuxt-link-exact-active > div.v-typography.v-template-renderer > div.d-inline",
+    "count": 1,
+    "sample": "Выгодное предложение на автомобили SOUEAST S06"
+   },
+   {
+    "selector": "div.card-offer__wrapper > div.card-offer__left > h1.card-offer__title.text-h2",
+    "count": 1,
+    "sample": "Выгодное предложение на автомобили SOUEAST S06"
+   },
+   {
+    "selector": "font > i > span",
+    "count": 1,
+    "sample": "Максимальная выгода достигается путем приобретения автомобиля в кредит и сдаче с"
+   }
+  ],
+  "link_groups": [
+   [
+    "/offers",
+    3
+   ],
+   [
+    "/finance",
+    2
+   ],
+   [
+    "/sale",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/offers/*",
+    1
+   ],
+   [
+    "/service",
+    1
+   ],
+   [
+    "/spares",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.container > div.card-offer__wrapper > div.card-offer__left",
+   "div.card-offer__wrapper > div.card-offer__left > div.v-text.textPrimary--text"
+  ]
+ }
+}

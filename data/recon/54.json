@@ -1,0 +1,151 @@
+{
+ "id": 54,
+ "site": "avtoruss.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://avtoruss.ru/dealers/avtorus-butovo.html",
+ "konget": [
+  "https://app.konget.ru/inject?token=6eee84f30bad4fe99ac570177133f70e",
+  "https://cdn.konget.ru/client?no_cache=1793718548573",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "ГК АВТОРУСЬ ─ продажа новых автомобилей в Москве, купить авто в сети автосалонов официального дилера",
+  "text_length": 4559,
+  "price_blocks": [
+   {
+    "selector": "div.sl__description > div.sl__ttl > a",
+    "count": 2,
+    "sample": "Шиномонтаж от 4000 руб. в сервисных центрах ГК «АВТОРУСЬ»"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.sl__description > div.sl__ttl > a",
+    "count": 4,
+    "sample": "Черная пятница - честная выгода на HAVAL PRO АВТОРУСЬ!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/dealers/*",
+    98
+   ],
+   [
+    "/action/*",
+    66
+   ],
+   [
+    "/auto/*",
+    64
+   ],
+   [
+    "/news/*",
+    31
+   ],
+   [
+    "/servis/*",
+    17
+   ],
+   [
+    "/uslugi/*",
+    16
+   ],
+   [
+    "/changan/*",
+    16
+   ],
+   [
+    "/korporativnym-klientam/*",
+    13
+   ],
+   [
+    "/auto.html",
+    10
+   ],
+   [
+    "/haval/*",
+    10
+   ],
+   [
+    "/cars/*",
+    7
+   ],
+   [
+    "/gac/*",
+    7
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://avtoruss.ru/dealers/avtorus-butovo.html",
+  "title": "АВТОРУСЬ Бутово",
+  "text_length": 3074,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.col-xs-24 > p > span.strong",
+    "count": 1,
+    "sample": "Выгодные условия покупок"
+   },
+   {
+    "selector": "div.service-content > div.service__text > p",
+    "count": 1,
+    "sample": "Рассчитай и оформи заявку на кредит на выгодных условиях"
+   }
+  ],
+  "link_groups": [
+   [
+    "/dealers/*",
+    24
+   ],
+   [
+    "/news/*",
+    24
+   ],
+   [
+    "/politika-obrabotki-personalnyh-dannyh.html",
+    18
+   ],
+   [
+    "/agreement.html",
+    17
+   ],
+   [
+    "/uslugi/*",
+    16
+   ],
+   [
+    "/servis/*",
+    16
+   ],
+   [
+    "/korporativnym-klientam/*",
+    13
+   ],
+   [
+    "/cars/*",
+    6
+   ],
+   [
+    "/news.html",
+    5
+   ],
+   [
+    "/job/*",
+    4
+   ],
+   [
+    "/action.html",
+    4
+   ],
+   [
+    "/action/*",
+    4
+   ]
+  ],
+  "model_cards": []
+ }
+}

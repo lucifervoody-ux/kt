@@ -1,0 +1,81 @@
+{
+ "id": 2,
+ "site": "lixiang-avangard.ru",
+ "brand": "Li Auto",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://lixiang-avangard.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=1923ed39a3c343069442a4313476c508",
+  "https://cdn.konget.ru/client?no_cache=1793718420676",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Электромобили Li Auto | Купить Li Auto в СПб - Автосалон АВАНГАРД",
+  "text_length": 3573,
+  "price_blocks": [
+   {
+    "selector": "div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover > div.v-card-subtitle.text-h6",
+    "count": 4,
+    "sample": "от 6 490 000 ₽*"
+   },
+   {
+    "selector": "div.v-card-text > a.text-decoration-none > div.text-h6.text-accent",
+    "count": 3,
+    "sample": "от 6 490 000 ₽*"
+   },
+   {
+    "selector": "div.v-card.v-theme--light > form.v-form > div.v-card-title.text-h5",
+    "count": 3,
+    "sample": "Цена от 6 490 000₽*"
+   },
+   {
+    "selector": "div.v-sheet.v-theme--light > div > div.text-h3.text-lg-h2",
+    "count": 1,
+    "sample": "от 6 490 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.v-card-actions > button.v-btn.v-btn--block > span.v-btn__content",
+    "count": 4,
+    "sample": "Получить скидку"
+   }
+  ],
+  "link_groups": [
+   [
+    "/policy",
+    6
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/l6",
+    3
+   ],
+   [
+    "/l7",
+    3
+   ],
+   [
+    "/l9",
+    3
+   ],
+   [
+    "/contacts",
+    2
+   ]
+  ],
+  "model_cards": [
+   "main.v-main > div.page > div.v-window.v-theme--light",
+   "div.v-row > div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover",
+   "div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover > div.v-card-text",
+   "div.v-row > div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover",
+   "div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover > div.v-card-text",
+   "div.v-row > div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover"
+  ]
+ },
+ "model_page": null
+}

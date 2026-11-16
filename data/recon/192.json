@@ -1,0 +1,146 @@
+{
+ "id": 192,
+ "site": "mtz.ru",
+ "brand": "Спецтехника",
+ "status": 200,
+ "engine": "Joomla",
+ "final_url": "https://mtz.ru/catalog/traktory",
+ "konget": [
+  "https://app.konget.ru/inject?token=9d59364f896d4394bfb3e3a6d841d856",
+  "https://cdn.konget.ru/client?no_cache=1793718881567",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Трактора МТЗ (Беларус) в Москве от Официального Представителя",
+  "text_length": 2842,
+  "price_blocks": [
+   {
+    "selector": "li.tp-revslider-slidesli > div.tp-caption.excerpt123 > div",
+    "count": 1,
+    "sample": "с выгодой до 250 000 руб."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "li.tp-revslider-slidesli > div.tp-caption.excerpt123 > div",
+    "count": 1,
+    "sample": "с выгодой до 250 000 руб."
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog/*",
+    33
+   ],
+   [
+    "/uslugi",
+    5
+   ],
+   [
+    "/policy",
+    4
+   ],
+   [
+    "/catalog",
+    4
+   ],
+   [
+    "/kontakty",
+    4
+   ],
+   [
+    "/images/*",
+    4
+   ],
+   [
+    "/novosti/*",
+    4
+   ],
+   [
+    "/lizing",
+    3
+   ],
+   [
+    "/dostavka",
+    3
+   ],
+   [
+    "/garantii",
+    2
+   ],
+   [
+    "/katalog/*",
+    2
+   ],
+   [
+    "/partneram",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://mtz.ru/catalog/traktory",
+  "title": "Купить Тракторы Беларус Производства ОАО «МТЗ» в Москве",
+  "text_length": 3628,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.category-view > div.category_description > h3",
+    "count": 1,
+    "sample": "Преимущества трактора МТЗ"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog/*",
+    30
+   ],
+   [
+    "/policy",
+    4
+   ],
+   [
+    "/kontakty",
+    4
+   ],
+   [
+    "/catalog",
+    3
+   ],
+   [
+    "/uslugi",
+    3
+   ],
+   [
+    "/dostavka",
+    3
+   ],
+   [
+    "/lizing",
+    2
+   ],
+   [
+    "/garantii",
+    2
+   ],
+   [
+    "/okomp",
+    1
+   ],
+   [
+    "/novosti",
+    1
+   ],
+   [
+    "/partneram",
+    1
+   ],
+   [
+    "/fotogalereya",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

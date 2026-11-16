@@ -1,0 +1,119 @@
+{
+ "id": 176,
+ "site": "sales-voyah-bolivar.ru",
+ "brand": "VOYAH",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://sales-voyah-bolivar.ru/",
+ "konget": [],
+ "home": {
+  "title": "ГК Боливар — официальный дилер VOYAH в Саратове",
+  "text_length": 1309,
+  "price_blocks": [
+   {
+    "selector": "div.car_wrap > div.car_block > div.car_profit",
+    "count": 2,
+    "sample": "Выгода до 1 350 000 ₽"
+   },
+   {
+    "selector": "div.car_props > a.popup.ico2 > span",
+    "count": 2,
+    "sample": "Выгода за кредит 500 000 ₽"
+   },
+   {
+    "selector": "div.car_props > a.popup.ico1 > span",
+    "count": 2,
+    "sample": "Выгода по программе обмена авто до 300 000 ₽"
+   },
+   {
+    "selector": "div.car_props > a.popup.ico4 > span",
+    "count": 2,
+    "sample": "Дополнительная выгода от ДЦ до 550 000 ₽"
+   },
+   {
+    "selector": "div.title_container > div.title2 > b",
+    "count": 1,
+    "sample": "с рекордной выгодой до 1 350 000 ₽!"
+   },
+   {
+    "selector": "div.special_wrap > a.popup.special_item > div.special_title",
+    "count": 1,
+    "sample": "Выгода от ДЦ до 550 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.car_props > a.popup.ico1 > span",
+    "count": 4,
+    "sample": "Выгода по программе обмена авто до 300 000 ₽"
+   },
+   {
+    "selector": "div.car_props > a.popup.ico4 > span",
+    "count": 3,
+    "sample": "Дополнительная выгода от ДЦ до 550 000 ₽"
+   },
+   {
+    "selector": "div.special_wrap > a.popup.special_item > div.special_title",
+    "count": 2,
+    "sample": "Выгода от ДЦ до 550 000 ₽"
+   },
+   {
+    "selector": "div.car_wrap > div.car_block > div.car_profit",
+    "count": 2,
+    "sample": "Выгода до 1 350 000 ₽"
+   },
+   {
+    "selector": "div.car_props > a.popup.ico2 > span",
+    "count": 2,
+    "sample": "Выгода за кредит 500 000 ₽"
+   },
+   {
+    "selector": "div.title_container > div.title2 > b",
+    "count": 1,
+    "sample": "с рекордной выгодой до 1 350 000 ₽!"
+   },
+   {
+    "selector": "div.title_container > a.popup.btn > span",
+    "count": 1,
+    "sample": "Получить выгоду"
+   },
+   {
+    "selector": "div.timer_wrap > div.timer_title > div.timer_item",
+    "count": 1,
+    "sample": "Успейте зафиксировать выгоду"
+   }
+  ],
+  "link_groups": [
+   [
+    "/img/*",
+    54
+   ],
+   [
+    "/policy.php",
+    6
+   ],
+   [
+    "/policy_metrika.php",
+    1
+   ],
+   [
+    "/policy_third_party.php",
+    1
+   ],
+   [
+    "/policy_consent.php",
+    1
+   ],
+   [
+    "/policy_terms.php",
+    1
+   ],
+   [
+    "/policy_cookie.php",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

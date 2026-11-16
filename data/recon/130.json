@@ -1,0 +1,90 @@
+{
+ "id": 130,
+ "site": "chery-center-spb.ru",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://chery-center-spb.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=850f81b1ea364d3c8f84f0d1027e6e2d",
+  "https://cdn.konget.ru/client?no_cache=1793718728152",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Chery - ЧЕРИ ЦЕНТР Пулково",
+  "text_length": 16779,
+  "price_blocks": [
+   {
+    "selector": "div.block_all > div.spec_price > p",
+    "count": 8,
+    "sample": "до 950 000₽"
+   },
+   {
+    "selector": "div.list > ul > li",
+    "count": 7,
+    "sample": "Доп. выгода до 600 000 ₽ по программе Семейный автомобиль"
+   },
+   {
+    "selector": "div.section-top__wrap > div.section-top__text > div.section-top__subtitle",
+    "count": 5,
+    "sample": "НОВЫЕ CHERY ПО ЦЕНАМ 2024 ГОДА С ВЫГОДОЙ ДО 2 300 000₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.stock__card > div.stock__card__button > a.page-btn._red",
+    "count": 49,
+    "sample": "Узнать цену с выгодой"
+   },
+   {
+    "selector": "div.block_all > div.spec_price > p",
+    "count": 7,
+    "sample": "Выгода"
+   },
+   {
+    "selector": "div.section-top__wrap > div.section-top__text > div.section-top__subtitle",
+    "count": 5,
+    "sample": "НОВЫЕ CHERY ПО ЦЕНАМ 2024 ГОДА С ВЫГОДОЙ ДО 2 300 000₽"
+   },
+   {
+    "selector": "div.list > ul > li",
+    "count": 4,
+    "sample": "Доп. выгода до 600 000 ₽ по программе Семейный автомобиль"
+   },
+   {
+    "selector": "section.advantages_full > div.c-container > div.section-title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "body.index.main > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   },
+   {
+    "selector": "body.index.main > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/userfiles/*",
+    50
+   ],
+   [
+    "/personal",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.owl-stage > div.owl-item.active > div.stock__card",
+   "div.owl-item.active > div.stock__card > div.stock__card__about",
+   "div.stock__card > div.stock__card__about > div.stock__card__price",
+   "div.owl-stage > div.owl-item.active > div.stock__card",
+   "div.owl-item.active > div.stock__card > div.stock__card__about",
+   "div.stock__card > div.stock__card__about > div.stock__card__price"
+  ]
+ },
+ "model_page": null
+}

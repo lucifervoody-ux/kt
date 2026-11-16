@@ -1,0 +1,182 @@
+{
+ "id": 13,
+ "site": "avilon-havalpro.ru",
+ "brand": "HAVAL PRO",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://avilon-havalpro.ru/owners/",
+ "konget": [
+  "https://app.konget.ru/inject?token=7a6cec6f95c74d45a5e6ba084671d25d",
+  "https://cdn.konget.ru/client?no_cache=1793718441691",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Продажа внедорожников HAVAL в Москве",
+  "text_length": 5740,
+  "price_blocks": [
+   {
+    "selector": "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+    "count": 4,
+    "sample": "от 2 549 000 ₽"
+   },
+   {
+    "selector": "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+    "count": 2,
+    "sample": "Цена от 2 549 000 ₽"
+   },
+   {
+    "selector": "div.js-footer-disc-pane.footer__disclaimer-pane > div.js-footer-disc-pane-text.footer__disclaimer-pane-text > p",
+    "count": 2,
+    "sample": "Условия займа: полная стоимость кредита (займа) 0% годовых. процентная ставка 0%"
+   },
+   {
+    "selector": "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps",
+    "count": 1,
+    "sample": "Цена от 2 549 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.mt-s > a.btn.js-btn > span",
+    "count": 1,
+    "sample": "получить выгоду"
+   },
+   {
+    "selector": "div.footer__disclaimer.p-m > ul.footer__disclaimer-nav.mb-xs > li.js-footer-disc-nav-btn.footer__disclaimer-nav-btn",
+    "count": 1,
+    "sample": "Цены и выгоды"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owners/*",
+    33
+   ],
+   [
+    "/purchase/*",
+    28
+   ],
+   [
+    "/models/*",
+    15
+   ],
+   [
+    "/about/*",
+    15
+   ],
+   [
+    "/online-stock",
+    9
+   ],
+   [
+    "/about-dealer",
+    6
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/trade-in",
+    4
+   ],
+   [
+    "/configurator",
+    3
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/purchase",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ]
+  ],
+  "model_cards": [
+   "body > main.main.main- > div.web_block_model-menu-slider",
+   "main.main.main- > div.web_block_model-menu-slider > div.js-models-menu.web_block_model-menu-slider__wrap",
+   "div.web_block_model-menu-slider > div.js-models-menu.web_block_model-menu-slider__wrap > div.js-models-menu-slider.swiper",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-active > div.js-models-menu-slider-1.swiper"
+  ]
+ },
+ "model_page": {
+  "url": "https://avilon-havalpro.ru/owners/",
+  "title": "АВИЛОН — Владельцам",
+  "text_length": 2137,
+  "price_blocks": [
+   {
+    "selector": "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+    "count": 4,
+    "sample": "от 2 549 000 ₽"
+   },
+   {
+    "selector": "div.js-footer-disc-pane.footer__disclaimer-pane > div.js-footer-disc-pane-text.footer__disclaimer-pane-text > p",
+    "count": 2,
+    "sample": "Условия займа: полная стоимость кредита (займа) 0% годовых. процентная ставка 0%"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.footer__disclaimer.p-m > ul.footer__disclaimer-nav.mb-xs > li.js-footer-disc-nav-btn.footer__disclaimer-nav-btn",
+    "count": 1,
+    "sample": "Цены и выгоды"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owners/*",
+    36
+   ],
+   [
+    "/purchase/*",
+    24
+   ],
+   [
+    "/models/*",
+    8
+   ],
+   [
+    "/about/*",
+    8
+   ],
+   [
+    "/about-dealer",
+    6
+   ],
+   [
+    "/online-stock",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/trade-in",
+    4
+   ],
+   [
+    "/configurator",
+    3
+   ],
+   [
+    "/owners",
+    3
+   ],
+   [
+    "/purchase",
+    2
+   ],
+   [
+    "/initial-maintenance",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

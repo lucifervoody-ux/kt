@@ -1,0 +1,237 @@
+{
+ "id": 64,
+ "site": "kgm-avtoduk.ru",
+ "brand": "KGM",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://kgm-avtoduk.ru/purchase/trade-in",
+ "konget": [],
+ "home": {
+  "title": "Автоцентр ДЮК и К — официальный дилер KGM в Кемерово",
+  "text_length": 11274,
+  "price_blocks": [
+   {
+    "selector": "div.td-disclaimer > p > strong",
+    "count": 15,
+    "sample": "350 000 ₽"
+   },
+   {
+    "selector": "div.td-model-card__subtitle > p > b",
+    "count": 12,
+    "sample": "от 4 340 000 ₽ при покупке по программе «Трейд‑ин*»"
+   },
+   {
+    "selector": "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article",
+    "count": 8,
+    "sample": "от 3 095 000 ₽*"
+   },
+   {
+    "selector": "a.td-link.td-news-list__link > span.td-news-list__text > span.h4.td-news-list__title",
+    "count": 6,
+    "sample": "Действует осенняя выгода до 1 600 000 ₽*"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__title",
+    "count": 3,
+    "sample": "TORRES от 3 290 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__description > p > b",
+    "count": 3,
+    "sample": "от 2 995 000 ₽ при покупке по программе «Трейд-ин*»"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 3,
+    "sample": "Выгода до 950 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 3,
+    "sample": "3 970 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "span > div.td-disclaimer > p",
+    "count": 18,
+    "sample": "Прямая выгода в виде прямой скидки"
+   },
+   {
+    "selector": "a.td-link.td-news-list__link > span.td-news-list__text > span.h4.td-news-list__title",
+    "count": 6,
+    "sample": "Действует осенняя выгода до 1 600 000 ₽*"
+   },
+   {
+    "selector": "div.td-model-card__subtitle > p > b",
+    "count": 4,
+    "sample": "Выгода на KGM Tivoli до 300 000 рублей*"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 3,
+    "sample": "Выгода до 950 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__title",
+    "count": 2,
+    "sample": "Выгода до 1 600 000 ₽*"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__description",
+    "count": 1,
+    "sample": "Выгоды действуют до 30 ноября."
+   },
+   {
+    "selector": "div.td-slider__description > p > b",
+    "count": 1,
+    "sample": "Выгода на KGM Tivoli до 300 000 рублей*"
+   }
+  ],
+  "link_groups": [
+   [
+    "/purchase/*",
+    33
+   ],
+   [
+    "/news/*",
+    21
+   ],
+   [
+    "/special-offers/*",
+    21
+   ],
+   [
+    "/models/*",
+    20
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/about-us/*",
+    8
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/special-offers",
+    5
+   ],
+   [
+    "/video-about-kgm",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/kgm-dom",
+    4
+   ],
+   [
+    "/news",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.td-section__container-inner > div.td-card-widget.td-card-widget--models > div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25",
+   "div.td-card-widget.td-card-widget--models > div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25 > div.td-overlay-holder.td-card-background--default",
+   "div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25 > div.td-overlay-holder.td-card-background--default > div.td-card-widget__text-wrap",
+   "div.td-overlay-holder.td-card-background--default > div.td-card-widget__text-wrap > div.td-card-widget__text",
+   "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article",
+   "div.td-section__container-inner > div.td-card-widget.td-card-widget--models > div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25"
+  ]
+ },
+ "model_page": {
+  "url": "https://kgm-avtoduk.ru/purchase/trade-in",
+  "title": "Покупка KGM по программе «Трейд-ин*» | Официальный дилер KGM в Кемерово — Автоцентр ДЮК и К",
+  "text_length": 2769,
+  "price_blocks": [
+   {
+    "selector": "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article",
+    "count": 8,
+    "sample": "от 3 095 000 ₽*"
+   },
+   {
+    "selector": "div.col.col-12 > p > strong",
+    "count": 4,
+    "sample": "100 000 руб.*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.row.align-items-center > div.col.col-12 > p",
+    "count": 4,
+    "sample": "Выгода по трейд-ин"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__title.td-text-fade--first",
+    "count": 1,
+    "sample": "Выгода до 300 000"
+   }
+  ],
+  "link_groups": [
+   [
+    "/purchase/*",
+    20
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/models/*",
+    12
+   ],
+   [
+    "/news/*",
+    8
+   ],
+   [
+    "/about-us/*",
+    7
+   ],
+   [
+    "/video-about-kgm",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/special-offers",
+    4
+   ],
+   [
+    "/special-offers/*",
+    4
+   ],
+   [
+    "/kgm-dom",
+    4
+   ],
+   [
+    "/awards",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.td-section__container-inner > div.td-card-widget.td-card-widget--models > div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25",
+   "div.td-card-widget.td-card-widget--models > div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25 > div.td-overlay-holder.td-card-background--default",
+   "div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25 > div.td-overlay-holder.td-card-background--default > div.td-card-widget__text-wrap",
+   "div.td-overlay-holder.td-card-background--default > div.td-card-widget__text-wrap > div.td-card-widget__text",
+   "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article",
+   "div.td-section__container-inner > div.td-card-widget.td-card-widget--models > div.td-card-widget__item-wrap.td-card-widget__item-wrap--w25"
+  ]
+ }
+}

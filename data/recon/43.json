@@ -1,0 +1,124 @@
+{
+ "id": 43,
+ "site": "autolocman-probeg.ru",
+ "brand": "АСП",
+ "status": 200,
+ "engine": "WordPress",
+ "final_url": "https://autolocman-probeg.ru/category/novosti-i-akcii/",
+ "konget": [
+  "https://app.konget.ru/inject?token=58de53064efa44ed93bb30014dfa2903",
+  "https://cdn.konget.ru/client?no_cache=1793718526299",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Проверенные автомобили с пробегом!",
+  "text_length": 936,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.main__posts__slider__item__link > a > span.title",
+    "count": 2,
+    "sample": "Скидки по программе трейд-ин"
+   },
+   {
+    "selector": "div.main__posts__slider__item__link > a > span.desc",
+    "count": 1,
+    "sample": "Renault Duster — это тот случай, когда простота становится преимуществом. Практи"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный выкуп автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog",
+    23
+   ],
+   [
+    "/category/*",
+    19
+   ],
+   [
+    "/buyback",
+    2
+   ],
+   [
+    "/kontakty",
+    2
+   ],
+   [
+    "/o-kompanii",
+    2
+   ],
+   [
+    "/wp-content/*",
+    1
+   ],
+   [
+    "/info",
+    1
+   ],
+   [
+    "/policy",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://autolocman-probeg.ru/category/novosti-i-akcii/",
+  "title": "Новости и акции",
+  "text_length": 1442,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.posts__item__link > a > span.title",
+    "count": 1,
+    "sample": "Скидки по программе трейд-ин"
+   },
+   {
+    "selector": "div.posts__item__link > a > span.desc",
+    "count": 1,
+    "sample": "Renault Duster — это тот случай, когда простота становится преимуществом. Практи"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный выкуп автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/category/*",
+    20
+   ],
+   [
+    "/catalog",
+    2
+   ],
+   [
+    "/buyback",
+    2
+   ],
+   [
+    "/kontakty",
+    2
+   ],
+   [
+    "/o-kompanii",
+    2
+   ],
+   [
+    "/info",
+    1
+   ],
+   [
+    "/policy",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

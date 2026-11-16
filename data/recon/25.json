@@ -1,0 +1,155 @@
+{
+ "id": 25,
+ "site": "aitmb-havalpro.ru",
+ "brand": "HAVAL PRO",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://aitmb-havalpro.ru/cars/2254648",
+ "konget": [
+  "https://app.konget.ru/inject?token=5429f190de9548179842e4753ad4cf22",
+  "https://cdn.konget.ru/client?no_cache=1793718468536",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Haval Pro в Тамбове | Автоимпорт",
+  "text_length": 6179,
+  "price_blocks": [
+   {
+    "selector": "div.card__with__manager.d-flex > div.card__with__manager-content > div.card__with__manager-price.text-md-h2",
+    "count": 4,
+    "sample": "2 399 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.v-text.textPrimary--text > div.d-inline > h1",
+    "count": 1,
+    "sample": "МЫ ПРЕДЛАГАЕМ ВЫГОДНЫЕ ПРОГРАММЫ ЛИЗИНГА ДЛЯ ЮРИДИЧЕСКИХ ЛИЦ"
+   },
+   {
+    "selector": "div.calc-mortgage-form.backgroundPaper > div.v-typography.calc-mortgage-form__description > div.d-inline",
+    "count": 1,
+    "sample": "Введите параметры и мы рассчитаем платеж по кредиту на наиболее выгодных условия"
+   },
+   {
+    "selector": "div.form-trade-in > div.container.form-trade-in__container > h1.form-trade-in__title.textPrimary--text",
+    "count": 1,
+    "sample": "ОБМЕНЯЙТЕ СВОЙ АВТОМОБИЛЬ НА НОВЫЙ HAVAL ВЫГОДНО!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    20
+   ],
+   [
+    "/offers",
+    3
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/haval-h3",
+    1
+   ],
+   [
+    "/haval-h5",
+    1
+   ],
+   [
+    "/haval-h7",
+    1
+   ],
+   [
+    "/haval-h9",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.g-indent.g-indent__top-x-small > div.d-flex.flex-column > div.card__with__manager.d-flex",
+   "div.d-flex.flex-column > div.card__with__manager.d-flex > div.card__with__manager-content",
+   "div.card__with__manager.d-flex > div.card__with__manager-content > div.card__with__manager-price.text-md-h2",
+   "div.g-indent.g-indent__top-x-small > div.d-flex.flex-column > div.card__with__manager.d-flex",
+   "div.d-flex.flex-column > div.card__with__manager.d-flex > div.card__with__manager-content",
+   "div.card__with__manager.d-flex > div.card__with__manager-content > div.card__with__manager-price.text-md-h2"
+  ]
+ },
+ "model_page": {
+  "url": "https://aitmb-havalpro.ru/cars/2254648",
+  "title": "Купить Haval H3, I Рестайлинг",
+  "text_length": 3304,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "span.v-custom-checkbox__label > div.sale-mod__label.d-flex > div.text-body-1.mr-2",
+    "count": 6,
+    "sample": "Выгода при покупке в Трейд-ин"
+   },
+   {
+    "selector": "div.card-feedback__mods.mb-14 > div.v-typography.mb-6 > div.d-inline",
+    "count": 2,
+    "sample": "Получите максимальную выгоду:"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/cars/*",
+    1
+   ],
+   [
+    "/politic",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.card-car__side-mobile.d-lg-none > div.card-feedback.textPrimary--text > div.card-feedback__mods.mb-14",
+   "div.card-feedback.textPrimary--text > div.card-feedback__mods.mb-14 > div.card-feedback__mods-list",
+   "div.card-feedback__mods.mb-14 > div.card-feedback__mods-list > div.sale-mod.textPrimary--text",
+   "div.card-feedback__mods.mb-14 > div.card-feedback__mods-list > div.sale-mod.textPrimary--text",
+   "div.card-feedback__mods.mb-14 > div.card-feedback__mods-list > div.sale-mod.textPrimary--text",
+   "div.card-car__side-mobile.d-lg-none > div.card-feedback.textPrimary--text > div.card-feedback__final.mb-5"
+  ]
+ }
+}

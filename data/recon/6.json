@@ -1,0 +1,96 @@
+{
+ "id": 6,
+ "site": "belgee-lahta.ru",
+ "brand": "Belgee",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://belgee-lahta.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=deb618487f2341febe2092b64b7642e7",
+  "https://cdn.konget.ru/client?no_cache=1793718420637",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автомобили Belgee ・ Купить Белджи по выгодной цене в СПб ・ Официальный дилер в России Авангард",
+  "text_length": 9787,
+  "price_blocks": [
+   {
+    "selector": "div.model-complectation > div.model-complectation__info > div.model-price",
+    "count": 16,
+    "sample": "Цена 2 219 990 ₽"
+   },
+   {
+    "selector": "div.container > div.hero-slider__text > div.hero-slider__benefit",
+    "count": 8,
+    "sample": "Цена от 2 219 990 ₽"
+   },
+   {
+    "selector": "article.model-preview > div.model-preview__about > div.model-price",
+    "count": 4,
+    "sample": "Цена от 2 219 990 ₽"
+   },
+   {
+    "selector": "div.model-details__preview-wrapper > div.model-details__main > div.model-price",
+    "count": 4,
+    "sample": "Цена от 2 219 990 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.container > div.hero-slider__text > div.hero-slider__benefit",
+    "count": 4,
+    "sample": "Выгода до 100 000 ₽*"
+   },
+   {
+    "selector": "div.header-buttons > button.button.button-filled > span",
+    "count": 1,
+    "sample": "Выгода до 596 000 Р для юр.лиц"
+   },
+   {
+    "selector": "footer.footer > div.container > div.footer-text",
+    "count": 1,
+    "sample": "(1) Выгода, применяемая к цене автомобиля, предоставляется Дилером покупателю от"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный"
+   }
+  ],
+  "link_groups": [
+   [
+    "/x70-fl",
+    9
+   ],
+   [
+    "/x50-plus",
+    8
+   ],
+   [
+    "/s50",
+    8
+   ],
+   [
+    "/x50",
+    7
+   ],
+   [
+    "/policy",
+    4
+   ],
+   [
+    "/cars",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > swiper-container.models-preview__slider > swiper-slide.models-preview__slide.swiper-slide-active",
+   "swiper-container.models-preview__slider > swiper-slide.models-preview__slide.swiper-slide-active > article.model-preview",
+   "swiper-slide.models-preview__slide.swiper-slide-active > article.model-preview > div.model-preview__about",
+   "article.model-preview > div.model-preview__about > div.model-price",
+   "div.swiper-wrapper > swiper-container.models-preview__slider > swiper-slide.models-preview__slide.swiper-slide-next",
+   "swiper-container.models-preview__slider > swiper-slide.models-preview__slide.swiper-slide-next > article.model-preview"
+  ]
+ },
+ "model_page": null
+}

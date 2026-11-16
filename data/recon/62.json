@@ -1,0 +1,102 @@
+{
+ "id": 62,
+ "site": "lada42.ru",
+ "brand": "LADA",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://lada42.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=1cd59f233ca04454989fd50a83a626da",
+  "https://cdn.konget.ru/client?no_cache=1793718573990",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автоцентр ДЮК и К | Официальный дилер LADA в Кемерово",
+  "text_length": 2866,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.tn-molecule > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 1,
+    "sample": "Обменяйте старый автомобиль на новую LADA. Успейте купить выгодно в ноябре!"
+   },
+   {
+    "selector": "div.t1016__content > div.t1016__textwrapper.t-width > div.t1016__title.t-title",
+    "count": 1,
+    "sample": "Успейте получить максимальную выгоду!"
+   },
+   {
+    "selector": "div.t1016__content > div.t1016__textwrapper.t-width > div.t1016__descr.t-descr",
+    "count": 1,
+    "sample": "Оставьте заявку и получите выгодное предложение!"
+   },
+   {
+    "selector": "div.t-form__submit > button.t-submit.t-btnflex > span.t-btnflex__text",
+    "count": 1,
+    "sample": "Получить выгоду"
+   },
+   {
+    "selector": "div.t-section__container.t-container > div.t-col.t-col_12 > div.js-block-header-descr.t-section__descr",
+    "count": 1,
+    "sample": "Приобретайте с выгодой!"
+   },
+   {
+    "selector": "div.t-quiz__quiz-description-title > span.t-quiz__quiz-description-text.t-descr > div",
+    "count": 1,
+    "sample": "Выгодные условия на автомобили 2025 года выпуска!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/processing_agreement",
+    15
+   ],
+   [
+    "/advertising_agreement",
+    15
+   ],
+   [
+    "/actions-iskra",
+    3
+   ],
+   [
+    "/nivalegend",
+    2
+   ],
+   [
+    "/granta",
+    2
+   ],
+   [
+    "/actions-aura",
+    2
+   ],
+   [
+    "/vesta",
+    1
+   ],
+   [
+    "/largus",
+    1
+   ],
+   [
+    "/nivatravel",
+    1
+   ],
+   [
+    "/actions-granta",
+    1
+   ],
+   [
+    "/actions-vesta",
+    1
+   ],
+   [
+    "/actions-largus",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

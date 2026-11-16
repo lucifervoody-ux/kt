@@ -1,0 +1,235 @@
+{
+ "id": 175,
+ "site": "evolute-bolivar.ru",
+ "brand": "EVOLUTE",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://evolute-bolivar.ru/for_buyers/test-drive",
+ "konget": [],
+ "home": {
+  "title": "Купить автомобили EVOLUTE (Эволют) в Саратове у официального дилера БОЛИВАР",
+  "text_length": 26839,
+  "price_blocks": [
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 10,
+    "sample": "2 749 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 10,
+    "sample": "3 585 000 ₽"
+   },
+   {
+    "selector": "div.accordion-body > p > b",
+    "count": 8,
+    "sample": "Стоимость полноприводного автомобиля EVOLUTE i-SPACE 4х4 3 199 000 рублей"
+   },
+   {
+    "selector": "div.adaptive-text > div.d-md-none.td-article > div.h2.td-indent-bottom-xs",
+    "count": 6,
+    "sample": "от 2 950 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__text > div.td-slider__description > h3",
+    "count": 6,
+    "sample": "от 2 950 000 ₽"
+   },
+   {
+    "selector": "div.d-none.d-md-block > div.adaptive-text > div.h2",
+    "count": 5,
+    "sample": "от 2 999 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__description",
+    "count": 4,
+    "sample": "696 000 ₽"
+   },
+   {
+    "selector": "div.adaptive-text > div.h2 > a",
+    "count": 3,
+    "sample": "от 10 755 ₽ в месяц"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__description",
+    "count": 9,
+    "sample": "и выгоды по программе"
+   },
+   {
+    "selector": "div.td-slider__text > div.td-slider__description > b",
+    "count": 6,
+    "sample": "прямой выгоды"
+   },
+   {
+    "selector": "a.td-link.td-news-list__link > span.td-news-list__text > span.h4.td-news-list__title",
+    "count": 3,
+    "sample": "КОСМИЧЕСКАЯ «ЭВОЛЮЦИЯ»: САМЫЙ ДОСТУПНЫЙ В РОССИИ СЕМИМЕСТНЫЙ ГИБРИДНЫЙ КРОССОВЕР"
+   },
+   {
+    "selector": "div.adaptive-text > div.d-md-none.td-article > div.p1.td-indent-bottom-xs",
+    "count": 2,
+    "sample": "с учетом прямой выгоды и выгоды по программе «ЭКОСУБСИДИЯ EVOLUTE»"
+   },
+   {
+    "selector": "div.everywhere-adv__lineup > div > a",
+    "count": 1,
+    "sample": "Выгода по программе «ЭКОСУБСИДИЯ EVOLUTE»"
+   },
+   {
+    "selector": "div.everywhere-adv__lineup > div > div",
+    "count": 1,
+    "sample": "Выгода по программе «ЭКОСУБСИДИЯ EVOLUTE»"
+   },
+   {
+    "selector": "div.adaptive-text > div.td-font-size-md.td-indent-bottom-lg > div",
+    "count": 1,
+    "sample": "с учетом прямой выгоды и выгоды по программе «ЭКОСУБСИДИЯ EVOLUTE»"
+   },
+   {
+    "selector": "div.d-none.d-md-block > div.adaptive-text > div",
+    "count": 1,
+    "sample": "с учетом прямой выгоды, выгоды по программе «ЭКОСУБСИДИЯ EVOLUTE» и выгоды по"
+   }
+  ],
+  "link_groups": [
+   [
+    "/about/*",
+    249
+   ],
+   [
+    "/for_buyers/*",
+    70
+   ],
+   [
+    "/models/*",
+    35
+   ],
+   [
+    "/owners/*",
+    19
+   ],
+   [
+    "/cars/*",
+    10
+   ],
+   [
+    "/cars",
+    7
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/special-offers",
+    4
+   ],
+   [
+    "/accessories",
+    3
+   ],
+   [
+    "/business",
+    3
+   ],
+   [
+    "/special-offer",
+    2
+   ],
+   [
+    "/advantages/*",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-slide.swiper-slide-active > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide.swiper-slide-next > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card"
+  ]
+ },
+ "model_page": {
+  "url": "https://evolute-bolivar.ru/for_buyers/test-drive",
+  "title": "Тест-драйв автомобилей EVOLUTE (Эволют) у официального дилера БОЛИВАР в Саратове",
+  "text_length": 2509,
+  "price_blocks": [
+   {
+    "selector": "div.accordion-body > p > b",
+    "count": 8,
+    "sample": "Стоимость полноприводного автомобиля EVOLUTE i-SPACE 4х4 3 199 000 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.everywhere-adv__lineup > div > a",
+    "count": 1,
+    "sample": "Выгода по программе «ЭКОСУБСИДИЯ EVOLUTE»"
+   },
+   {
+    "selector": "div.everywhere-adv__lineup > div > div",
+    "count": 1,
+    "sample": "Выгода по программе «ЭКОСУБСИДИЯ EVOLUTE»"
+   },
+   {
+    "selector": "div.accordion-item > div.accordion-header > button.accordion-button.collapsed",
+    "count": 1,
+    "sample": "Выгоды и цены"
+   }
+  ],
+  "link_groups": [
+   [
+    "/for_buyers/*",
+    39
+   ],
+   [
+    "/owners/*",
+    18
+   ],
+   [
+    "/models/*",
+    12
+   ],
+   [
+    "/about/*",
+    8
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/special-offers",
+    3
+   ],
+   [
+    "/accessories",
+    3
+   ],
+   [
+    "/business",
+    3
+   ],
+   [
+    "/special-offer",
+    2
+   ],
+   [
+    "/for_buyers",
+    1
+   ],
+   [
+    "/privacy",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

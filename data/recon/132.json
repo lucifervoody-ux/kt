@@ -1,0 +1,22 @@
+{
+ "id": 132,
+ "site": "swm-beta-kudrovo.tilda.ws",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://swm-beta-kudrovo.tilda.ws/",
+ "konget": [
+  "https://app.konget.ru/inject?token=82936377b8874058b295dcb3295f6ff8",
+  "https://cdn.konget.ru/client?no_cache=1793718728566",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "SWM Бета Кудрово",
+  "text_length": 149,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

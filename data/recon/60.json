@@ -1,0 +1,81 @@
+{
+ "id": 60,
+ "site": "avtotrade-kostroma.ru",
+ "brand": "HAVAL CITY",
+ "status": 200,
+ "engine": "WordPress",
+ "final_url": "https://avtotrade-kostroma.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=e12a1bb182644206ac95da6914307345",
+  "https://cdn.konget.ru/client?no_cache=1793718565437",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Haval в Костроме, купить новый Хавейл 2026, цены и комплектации — Автотрейд",
+  "text_length": 8451,
+  "price_blocks": [
+   {
+    "selector": "li > div.models_bottom > span.models_bottom_price",
+    "count": 6,
+    "sample": "от 2 099 000 ₽"
+   },
+   {
+    "selector": "div.embla__slide > div.container > div.hero_desc",
+    "count": 2,
+    "sample": "от 2 099 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.models_bottom > dl.h-reset > dd.h-reset",
+    "count": 6,
+    "sample": "Выгодный trade-in"
+   },
+   {
+    "selector": "ul.footer_menu.list-reset > li.menu-item.menu-item-type-custom > a",
+    "count": 2,
+    "sample": "Преимущества Автотрейд"
+   },
+   {
+    "selector": "div.grid-row > div.benefits_item > h2.project_title",
+    "count": 1,
+    "sample": "Преимущества Автотрейд"
+   },
+   {
+    "selector": "dl.h-reset > dd.h-reset > div.flex-column",
+    "count": 1,
+    "sample": "Выгодный Тrade-in"
+   },
+   {
+    "selector": "div.grid-row > div.trdein_left > p.tradein_desc",
+    "count": 1,
+    "sample": "Введите данные вашего авто и узнайте выгоду по Trade-in на HAVAL"
+   },
+   {
+    "selector": "div.tradein_right > div.tadein_right_background > p.tradein_right_desc",
+    "count": 1,
+    "sample": "Дополнительная выгода"
+   },
+   {
+    "selector": "div.container > div.aproove_inner > h2.project_title",
+    "count": 1,
+    "sample": "Подберем выгодную"
+   }
+  ],
+  "link_groups": [
+   [
+    "/privacy-policy",
+    7
+   ]
+  ],
+  "model_cards": [
+   "ul.grid-row.list-reset > li > div.models_bottom",
+   "li > div.models_bottom > span.models_bottom_price",
+   "ul.grid-row.list-reset > li > div.models_bottom",
+   "li > div.models_bottom > span.models_bottom_price",
+   "ul.grid-row.list-reset > li > div.models_bottom",
+   "li > div.models_bottom > span.models_bottom_price"
+  ]
+ },
+ "model_page": null
+}

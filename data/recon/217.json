@@ -1,0 +1,51 @@
+{
+ "id": 217,
+ "site": "carsgeely-davauto.rqch.ru",
+ "brand": "Geely",
+ "status": 200,
+ "engine": "Платформа rqch.ru",
+ "final_url": "https://carsgeely-davauto.rqch.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=e9ed0b4dd2f048588b85856bddca3c9e",
+  "https://cdn.konget.ru/client?no_cache=1793718957331",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "",
+  "text_length": 989,
+  "price_blocks": [
+   {
+    "selector": "label.qlbl9876.form-check-label > div.step-card > div.step-card__title.qtitle",
+    "count": 8,
+    "sample": "НОВЫЙ COOLRAY от 9 700 ₽ в мес.*"
+   },
+   {
+    "selector": "div.advantages._js-advantages > div.advantage-point.wow > span",
+    "count": 2,
+    "sample": "Выгода до 840 000₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.advantages._js-advantages > div.advantage-point.wow > span",
+    "count": 2,
+    "sample": "Выгода до 840 000₽*"
+   }
+  ],
+  "link_groups": [
+   [
+    "/upload/*",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.conversation-list > div.user-chat-content > div.conversation-variants.step-cards-9876",
+   "div.user-chat-content > div.conversation-variants.step-cards-9876 > div.form-check.card-radio",
+   "div.form-check.card-radio > label.qlbl9876.form-check-label > div.step-card",
+   "label.qlbl9876.form-check-label > div.step-card > div.step-card__title.qtitle",
+   "div.user-chat-content > div.conversation-variants.step-cards-9876 > div.form-check.card-radio",
+   "div.form-check.card-radio > label.qlbl9876.form-check-label > div.step-card"
+  ]
+ },
+ "model_page": null
+}

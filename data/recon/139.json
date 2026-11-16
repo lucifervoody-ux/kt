@@ -1,0 +1,75 @@
+{
+ "id": 139,
+ "site": "am-fundament.ru",
+ "brand": "Застройщик",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://am-fundament.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=f0e88ee37b2e46bd8f75c5f32bf20043",
+  "https://cdn.konget.ru/client?no_cache=1793718747025",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Фундамент под ключ в Тюмени — монолитные фундаменты | АМ-ГРУПП",
+  "text_length": 4626,
+  "price_blocks": [
+   {
+    "selector": "span.quiz-radio-option__box > span.quiz-radio-option__text > b",
+    "count": 3,
+    "sample": "от 12 000 ₽/м²"
+   },
+   {
+    "selector": "div.quiz-area-box > div.quiz-result > strong.quiz-result__price",
+    "count": 1,
+    "sample": "от 1 200 000 ₽"
+   },
+   {
+    "selector": "div.quiz-area-box > div.quiz-result > span.quiz-result__meta",
+    "count": 1,
+    "sample": "Монолитная плита 300 мм — от 12 000 ₽/м²"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/projects",
+    5
+   ],
+   [
+    "/services",
+    4
+   ],
+   [
+    "/process",
+    4
+   ],
+   [
+    "/privacy",
+    4
+   ],
+   [
+    "/articles",
+    3
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/personal-data-consent",
+    3
+   ],
+   [
+    "/services/*",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

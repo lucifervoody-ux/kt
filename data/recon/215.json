@@ -1,0 +1,18 @@
+{
+ "id": 215,
+ "site": "dav-auto.lada.ru",
+ "brand": "LADA",
+ "status": 200,
+ "engine": "Сайты LADA",
+ "final_url": "https://dav-auto.lada.ru/",
+ "konget": [],
+ "home": {
+  "title": "The URL you requested has been blocked",
+  "text_length": 152,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

@@ -1,0 +1,101 @@
+// Кнопка 1 «Проверить работоспособность сайтов».
+// Открывает главную страницу каждого сайта: открылась ли, код ответа, за сколько секунд,
+// не заглушка ли вместо сайта. Итог: data/health/latest.json и data/health/history/<дата>.json.
+//
+// У себя: npm run health   (один сайт: npm run health -- --site 1)
+
+import { chromium } from 'playwright';
+import {
+  HEALTH_ORDER, SURE_DOWN, changedSince, countBy, detectEngine, healthVerdict, sortBy,
+} from './checks.mjs';
+import {
+  argValue, keepUnchecked, loadSites, log, previousOf, runQueue, siteBase, siteUrl, store,
+} from './common.mjs';
+
+const PARALLEL = Number(process.env.PARALLEL) || 6;
+const TIMEOUT = 30_000;
+const RETRY_TIMEOUT = 60_000;
+
+async function checkOnce(browser, site, timeout) {
+  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 } });
+  const page = await context.newPage();
+  const started = Date.now();
+  try {
+    const res = await page.goto(siteUrl(site), { waitUntil: 'domcontentloaded', timeout });
+    const seconds = (Date.now() - started) / 1000;
+    await page.waitForLoadState('load', { timeout: 10_000 }).catch(() => {});
+    // Страницы, которые рисуются скриптом, появляются не сразу: ждём текст до 8 с, прежде чем назвать страницу пустой.
+    await page.waitForFunction(() => (document.body?.innerText || '').replace(/\s+/g, ' ').trim().length >= 80, null, { timeout: 8_000 }).catch(() => {});
+    const text = await page.evaluate(() => document.body?.innerText || '').catch(() => '');
+    const html = await page.content().catch(() => '');
+    return {
+      status: res?.status() || 0, seconds, text, title: await page.title().catch(() => ''), final_url: page.url(), html,
+    };
+  } catch (e) {
+    return { error: e.message.split('\n')[0], seconds: (Date.now() - started) / 1000 };
+  } finally {
+    await context.close();
+  }
+}
+
+// Если сайт не ответил, но это может быть временным или закрытым доступом, пробуем ещё раз, подольше.
+async function checkSite(browser, site) {
+  const first = await checkOnce(browser, site, TIMEOUT);
+  if (!first.error || SURE_DOWN.test(first.error)) return first;
+  return checkOnce(browser, site, RETRY_TIMEOUT);
+}
+
+async function main() {
+  const onlyId = argValue('--site');
+  const sites = await loadSites(onlyId);
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+  const db = store('health');
+  const prevById = new Map((db.previous(today)?.sites || []).map((s) => [String(s.id), s]));
+  log(`Сайтов к проверке: ${sites.length}`);
+
+  const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || undefined });
+  const results = [];
+  let saved = false;
+  const save = (stopped) => {
+    if (saved) return;
+    saved = true;
+    const all = sortBy(HEALTH_ORDER, 'health')(onlyId || stopped ? keepUnchecked(db.latest(), results) : results);
+    db.save({
+      date: today,
+      checked_at: now.toISOString(),
+      total_seconds: Math.round((Date.now() - now.getTime()) / 1000),
+      parallel: PARALLEL,
+      ...(stopped ? { stopped: true, checked: results.length, planned: sites.length } : {}),
+      summary: countBy(all, 'health', HEALTH_ORDER),
+      sites: all,
+    });
+    log(stopped ? `Остановлено: проверено ${results.length} из ${sites.length}` : 'Готово', JSON.stringify(countBy(all, 'health', HEALTH_ORDER)));
+  };
+
+  await runQueue(sites, PARALLEL, async (site) => {
+    const started = Date.now();
+    const raw = await checkSite(browser, site);
+    const verdict = healthVerdict({ ...raw, site: site.site, finalUrl: raw.final_url });
+    const res = {
+      ...siteBase(site),
+      ...verdict,
+      code: raw.status || null,
+      load_seconds: Math.round(raw.seconds * 10) / 10,
+      final_url: raw.final_url || '',
+      engine: raw.error ? '' : detectEngine(raw.html, raw.final_url || siteUrl(site)),
+      title: (raw.title || '').slice(0, 120),
+      seconds: Math.round((Date.now() - started) / 1000),
+    };
+    res.was = changedSince(previousOf(prevById, site), res, 'health');
+    log(`[${site.id}] ${site.site}: ${res.health}${res.reason ? ` (${res.reason})` : ''}${res.engine ? `, движок ${res.engine}` : ''}`);
+    results.push(res);
+  }, () => save(true));
+  await browser.close();
+  save(false);
+}
+
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});

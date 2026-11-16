@@ -1,0 +1,48 @@
+{
+ "id": 150,
+ "site": "jetour-64.ru",
+ "brand": "Jetour",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://jetour-64.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=9d41209e39194e4b9d55823e2ac238da",
+  "https://cdn.konget.ru/client?no_cache=1793718769460",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер JETOUR в Саратове",
+  "text_length": 885,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.modal-body > p > strong",
+    "count": 3,
+    "sample": "JETOUR Выгодный 2"
+   },
+   {
+    "selector": "div.utp.mb-3 > h1 > p",
+    "count": 1,
+    "sample": "Максимальная выгода в ноябре!"
+   },
+   {
+    "selector": "div.advantages._js-advantages > div.advantage-point.wow > span",
+    "count": 1,
+    "sample": "Выгода до 840.000 ₽"
+   },
+   {
+    "selector": "html.rqchat-html > body > script",
+    "count": 1,
+    "sample": "var visitId = 225676039; var isOperatorOnline = false; var nuv=0; var dvars=[]; "
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

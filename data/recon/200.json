@@ -1,0 +1,216 @@
+{
+ "id": 200,
+ "site": "solaris-vip-auto.ru",
+ "brand": "Solaris",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://solaris-vip-auto.ru/models/krs",
+ "konget": [
+  "https://app.konget.ru/inject?token=7b7d3e000fcd4c53933aac3653d45a3f",
+  "https://cdn.konget.ru/client?no_cache=1793718902553",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Solaris в Твери \"Вип Авто\", купить новый Солярис",
+  "text_length": 8646,
+  "price_blocks": [
+   {
+    "selector": "div.d-inline > p.price__pc > span.text-huge",
+    "count": 2,
+    "sample": "12 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "div.d-inline > p.price__mob > span.text-huge",
+    "count": 2,
+    "sample": "12 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "a.banner__wrapper.d-block > p.price__pc > span.text-huge",
+    "count": 2,
+    "sample": "12 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "a.banner__wrapper.d-block > p.price__mob > span.text-huge",
+    "count": 2,
+    "sample": "12 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "p.banner-title-text > span.text-huge > span.no-wrap",
+    "count": 1,
+    "sample": "200 000 ₽"
+   },
+   {
+    "selector": "div.d-inline > p > span.text-huge",
+    "count": 1,
+    "sample": "16 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "div.mt-11.mt-md-14 > div.v-custom-tooltip > div.mt-3.text-mob-h6",
+    "count": 1,
+    "sample": "ОТ 2 470 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.d-inline > p.banner-title-text > span.text-huge",
+    "count": 2,
+    "sample": "ВЫГОДА ДО"
+   },
+   {
+    "selector": "div.calc-mortgage-form.backgroundPaper > div.v-typography.calc-mortgage-form__description > div.d-inline",
+    "count": 1,
+    "sample": "Введите параметры и мы рассчитаем платеж по кредиту на наиболее выгодных условия"
+   },
+   {
+    "selector": "div.car-exchange__content.d-flex > div.car-exchange__description > h2.car-exchange__title.textPrimary--text",
+    "count": 1,
+    "sample": "ОБМЕНЯЙТЕ СВОЙ АВТОМОБИЛЬ НА НОВЫЙ С ВЫГОДОЙ!"
+   },
+   {
+    "selector": "div.v-text.textPrimary--text > div.d-inline > h2.text-mob-h2.text-lg-h2",
+    "count": 1,
+    "sample": "Ваши выгоды при покупке в Solaris Вип-Авто"
+   },
+   {
+    "selector": "div.v-text.textPrimary--text > div.d-inline > p",
+    "count": 1,
+    "sample": "Запишитесь на тест-драйв и почувствуйте новые стандарты комфорта уже сегодня! На"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    31
+   ],
+   [
+    "/credits",
+    5
+   ],
+   [
+    "/oplata_chastiami",
+    3
+   ],
+   [
+    "/online_payment",
+    2
+   ],
+   [
+    "/agreement_pd",
+    2
+   ],
+   [
+    "/solaris_advertise_agreement",
+    2
+   ],
+   [
+    "/trade-in",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.g-indent.g-indent__top-default > div.sol-models > div.sol-models__wrapper.overflow-hidden",
+   "div.sol-models > div.sol-models__wrapper.overflow-hidden > div.mt-11.mt-md-14"
+  ]
+ },
+ "model_page": {
+  "url": "https://solaris-vip-auto.ru/models/krs",
+  "title": "Solaris KRS купить у официального дилера в Твери, комплектации и цены Солярис KRS",
+  "text_length": 10580,
+  "price_blocks": [
+   {
+    "selector": "div.d-inline > p.price__pc > span.text-huge",
+    "count": 1,
+    "sample": "12 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "div.d-inline > p.price__mob > span.text-huge",
+    "count": 1,
+    "sample": "12 900 ₽ В МЕСЯЦ"
+   },
+   {
+    "selector": "div.d-inline > ul > li",
+    "count": 1,
+    "sample": "Выгода до 200 000 ₽**"
+   },
+   {
+    "selector": "div.equipment-block__header-controls > div.equipment-price > span.equipment-price__value.h5",
+    "count": 1,
+    "sample": "2 245 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.card__wrapper.d-flex > div.card__wrapper__content.d-flex > h2.card__title.textPrimary--text",
+    "count": 1,
+    "sample": "МАКСИМАЛЬНАЯ ВЫГОДА"
+   },
+   {
+    "selector": "div.d-inline > p > strong",
+    "count": 1,
+    "sample": "Получите Solaris KRS на выгодных условиях:"
+   },
+   {
+    "selector": "div.d-inline > ul > li",
+    "count": 1,
+    "sample": "Выгода до 200 000 ₽**"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    12
+   ],
+   [
+    "/oplata_chastiami",
+    2
+   ],
+   [
+    "/agreement_pd",
+    2
+   ],
+   [
+    "/solaris_advertise_agreement",
+    2
+   ],
+   [
+    "/online_payment",
+    1
+   ],
+   [
+    "/credits",
+    1
+   ],
+   [
+    "/test-drive",
+    1
+   ],
+   [
+    "/trade-in",
+    1
+   ],
+   [
+    "/politika-opd",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

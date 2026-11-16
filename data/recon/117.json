@@ -1,0 +1,235 @@
+{
+ "id": 117,
+ "site": "gac-barnaul.ru",
+ "brand": "GAC",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://gac-barnaul.ru/models/gs4?mobile",
+ "konget": [],
+ "home": {
+  "title": "АЕМ Холдинг — официальный дилер GAC в Барнауле",
+  "text_length": 9268,
+  "price_blocks": [
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 13,
+    "sample": "3 554 100 ₽"
+   },
+   {
+    "selector": "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price",
+    "count": 12,
+    "sample": "от 2 799 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__btns > div.h2",
+    "count": 8,
+    "sample": "от 6 599 000 ₽"
+   },
+   {
+    "selector": "div.td-model-card__price-wrap > div.td-model-card__price > span.price",
+    "count": 8,
+    "sample": "от 3 399 000 ₽"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 8,
+    "sample": "до 394 900 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 8,
+    "sample": "3 949 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div.text-nowrap > span.h4",
+    "count": 5,
+    "sample": "от 4 049 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div > span.h4",
+    "count": 3,
+    "sample": "от 3 399 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.td-card-widget__description.td-text-fade > p > strong",
+    "count": 1,
+    "sample": "Наши преимущества:"
+   },
+   {
+    "selector": "section.td-section.td-article > div.td-section__container.td-section__container--width-default > p",
+    "count": 1,
+    "sample": "На автомобили ГАК предоставляются гарантии. Автосалон AEM регулярно обновляет пр"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    77
+   ],
+   [
+    "/buyer/*",
+    25
+   ],
+   [
+    "/cars/*",
+    13
+   ],
+   [
+    "/frequently-asked-questions",
+    8
+   ],
+   [
+    "/community",
+    6
+   ],
+   [
+    "/special-offers",
+    5
+   ],
+   [
+    "/credit-calculator",
+    5
+   ],
+   [
+    "/insurance",
+    5
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/service-and-warranty",
+    5
+   ],
+   [
+    "/about-company",
+    4
+   ],
+   [
+    "/special-offers/*",
+    4
+   ]
+  ],
+  "model_cards": [
+   "div.td-models-menu > div.td-models-menu__right-block > div.td-models-menu__about-model",
+   "div.td-models-menu__right-block > div.td-models-menu__about-model > div.td-models-menu__content",
+   "div.td-models-menu__about-model > div.td-models-menu__content > div.td-models-menu__text",
+   "div.td-models-menu__content > div.td-models-menu__text > div.td-about-model__wrap",
+   "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price"
+  ]
+ },
+ "model_page": {
+  "url": "https://gac-barnaul.ru/models/gs4?mobile",
+  "title": "GAC GS4 – комплектации, характеристики и цены – купить ГАК ГС4 | Официальный дилер GAC АЕМ Холдинг в Барнауле",
+  "text_length": 13335,
+  "price_blocks": [
+   {
+    "selector": "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price",
+    "count": 12,
+    "sample": "от 2 799 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div.text-nowrap > span.h4",
+    "count": 5,
+    "sample": "от 4 049 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div > span.h4",
+    "count": 3,
+    "sample": "от 3 399 000 ₽"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 3,
+    "sample": "до 394 900 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 3,
+    "sample": "3 554 100 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 3,
+    "sample": "3 949 000 ₽"
+   },
+   {
+    "selector": "div.swiper-slide.td-ttx-table__complectation-slide > div.td-complectation-slide__subtitle > div.h4",
+    "count": 3,
+    "sample": "от 2 999 000 ₽"
+   },
+   {
+    "selector": "div.td-model-card__description > div.td-about-model__wrap > div.td-about-model__price",
+    "count": 2,
+    "sample": "от 3 399 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.td-link.td-news-list__link > span.td-news-list__text > span.h4.td-news-list__title",
+    "count": 2,
+    "sample": "Выгода до 100 000 рублей по программе «Второй автомобиль в семью»"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    76
+   ],
+   [
+    "/buyer/*",
+    23
+   ],
+   [
+    "/frequently-asked-questions",
+    6
+   ],
+   [
+    "/media-link/*",
+    5
+   ],
+   [
+    "/special-offers",
+    4
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/gacpedia",
+    4
+   ],
+   [
+    "/cars/*",
+    4
+   ],
+   [
+    "/credit-calculator",
+    3
+   ],
+   [
+    "/insurance",
+    3
+   ],
+   [
+    "/service-and-warranty",
+    3
+   ],
+   [
+    "/corporative-clients",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.td-models-menu > div.td-models-menu__right-block > div.td-models-menu__about-model",
+   "div.td-models-menu__right-block > div.td-models-menu__about-model > div.td-models-menu__content",
+   "div.td-models-menu__about-model > div.td-models-menu__content > div.td-models-menu__text",
+   "div.td-models-menu__content > div.td-models-menu__text > div.td-about-model__wrap",
+   "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price"
+  ]
+ }
+}

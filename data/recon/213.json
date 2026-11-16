@@ -1,0 +1,6 @@
+{
+ "id": 213,
+ "site": "chusovoy.dav-auto.lada.ru",
+ "brand": "LADA",
+ "error": "page.goto: net::ERR_CERT_DATE_INVALID at https://chusovoy.dav-auto.lada.ru/"
+}

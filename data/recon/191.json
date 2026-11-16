@@ -1,0 +1,202 @@
+{
+ "id": 191,
+ "site": "traktor-velikan.ru",
+ "brand": "Спецтехника",
+ "status": 200,
+ "engine": "Joomla",
+ "final_url": "https://traktor-velikan.ru/technics/traktor",
+ "konget": [
+  "https://app.konget.ru/inject?token=87df7a6e4ca343b18ae6a6252ca80ae5",
+  "https://cdn.konget.ru/client?no_cache=1793718873241",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "«Спецтехника ВЕЛИКАН» - Продажа Техники С 1992 Года!",
+  "text_length": 10586,
+  "price_blocks": [
+   {
+    "selector": "div.custom > div.money > div.item",
+    "count": 3,
+    "sample": "81,6699 ₽ ▲"
+   },
+   {
+    "selector": "div.tp-caption.r_excerpt1_3 > div > span",
+    "count": 1,
+    "sample": "скидка 100 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a > div.slide_1-1-1_sp_21 > div.slide_1-1-3_sp",
+    "count": 5,
+    "sample": "«СПЕЦТЕХНИКА ВЕЛИКАН», на правах официального дилера, предлагает купить новые тр"
+   },
+   {
+    "selector": "div.tp-caption.r_excerpt1_3 > div > span",
+    "count": 1,
+    "sample": "скидка 100 000 ₽"
+   },
+   {
+    "selector": "li.tp-revslider-slidesli > div.tp-caption.r_excerpt3_4 > span",
+    "count": 1,
+    "sample": "Скидка до 60 000р. при покупке трактора с оборудованием"
+   },
+   {
+    "selector": "ul.tp-revslider-mainul > li.tp-revslider-slidesli > div.tp-caption.r_excerpt3_4",
+    "count": 1,
+    "sample": "ГАРАНТИЯ ВЫГОДНОЙ"
+   },
+   {
+    "selector": "div.r_block4-1-2-0.revealator-slideleft > div.r_block4-1-2-2.col-sm-6 > div.r_block4-1-2-4",
+    "count": 1,
+    "sample": "Покупайте технику в кредит или лизинг! Гибкие условия, выгодные ставки, быстрое "
+   },
+   {
+    "selector": "div.maxwidth-theme > div.custom > div.r_block3-1-1-2.revealator-slideleft",
+    "count": 1,
+    "sample": "наши преимущества"
+   },
+   {
+    "selector": "div.prizina1-1-0 > div.prizina1-1-1.revealator-slideleft > div.prizina1-1-6",
+    "count": 1,
+    "sample": "клиентам самые выгодные цены и лучшее качество!"
+   },
+   {
+    "selector": "li.newsflash-item > section.uk-margin-bottom > p.uk-text-lead",
+    "count": 1,
+    "sample": "Разработка интересна как исследовательская платформа: она позволяет оценить, где"
+   }
+  ],
+  "link_groups": [
+   [
+    "/technics/*",
+    169
+   ],
+   [
+    "/service/*",
+    61
+   ],
+   [
+    "/brendy/*",
+    41
+   ],
+   [
+    "/company/*",
+    30
+   ],
+   [
+    "/traktory-mtz/*",
+    11
+   ],
+   [
+    "/catalog/*",
+    11
+   ],
+   [
+    "/nashi-klienty",
+    11
+   ],
+   [
+    "/policy",
+    8
+   ],
+   [
+    "/katalog-shin",
+    7
+   ],
+   [
+    "/salskselmash/*",
+    7
+   ],
+   [
+    "/zavod-bolshaya-zemlya/*",
+    6
+   ],
+   [
+    "/mordovagromash/*",
+    6
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://traktor-velikan.ru/technics/traktor",
+  "title": "Купить новый трактор в Москве – цены на тракторы в наличии",
+  "text_length": 10848,
+  "price_blocks": [
+   {
+    "selector": "div.product-price > div.PricesalesPrice.vm-display > span.PricesalesPrice",
+    "count": 22,
+    "sample": "5 290 000 руб."
+   },
+   {
+    "selector": "div.custom > div.money > div.item",
+    "count": 3,
+    "sample": "81,6699 ₽ ▲"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.item > div.kr_opis > p",
+    "count": 3,
+    "sample": "Скидка при покупке трактора с оборудованием до 70 000р."
+   },
+   {
+    "selector": "div.gaz.col-md-6 > div.kr_opis > p",
+    "count": 3,
+    "sample": "Скидка при покупке трактора с оборудованием до 70 000р."
+   }
+  ],
+  "link_groups": [
+   [
+    "/technics/*",
+    177
+   ],
+   [
+    "/service/*",
+    61
+   ],
+   [
+    "/catalog/*",
+    36
+   ],
+   [
+    "/brendy/*",
+    32
+   ],
+   [
+    "/company/*",
+    18
+   ],
+   [
+    "/nashi-klienty",
+    11
+   ],
+   [
+    "/traktory-mtz/*",
+    10
+   ],
+   [
+    "/policy",
+    8
+   ],
+   [
+    "/images/*",
+    8
+   ],
+   [
+    "/articles/*",
+    8
+   ],
+   [
+    "/salskselmash/*",
+    7
+   ],
+   [
+    "/company",
+    6
+   ]
+  ],
+  "model_cards": []
+ }
+}

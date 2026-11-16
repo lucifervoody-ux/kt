@@ -1,0 +1,76 @@
+{
+ "id": 134,
+ "site": "chery-spb-pulkovo.ru",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://chery-spb-pulkovo.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=998bf2f7dcfa46a7a2d2b24a37114ea9",
+  "https://cdn.konget.ru/client?no_cache=1793718734875",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Chery - ЧЕРИ ЦЕНТР Пулково",
+  "text_length": 10259,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.characteristics__about > div._hide-991 > div._price",
+    "count": 7,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.characteristics__about > ul._buns > li",
+    "count": 7,
+    "sample": "Выгоды по программам «Обмен автомобиля» и «Прямая скидка»"
+   },
+   {
+    "selector": "div.characteristics__wrap > div.characteristics__about._show-991 > div._price",
+    "count": 7,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.characteristics__about > div._hide-991 > div._label",
+    "count": 6,
+    "sample": "Выгодное предложение"
+   },
+   {
+    "selector": "div.characteristics__wrap > div.characteristics__about._show-991 > div._label",
+    "count": 6,
+    "sample": "Выгодное предложение"
+   },
+   {
+    "selector": "section.advantages > div.c-container > div.section-title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "div.advantages__list > div.advantages__point > div._text",
+    "count": 1,
+    "sample": "ВЫГОДНЫЕ КРЕДИТЫ"
+   },
+   {
+    "selector": "body.index.main > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/userfiles/*",
+    193
+   ],
+   [
+    "/privacy",
+    5
+   ],
+   [
+    "/policy",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

@@ -1,0 +1,6 @@
+{
+ "id": 93,
+ "site": "krasnoyarsk.agat-group.com",
+ "brand": "Мультибренд",
+ "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://krasnoyarsk.agat-group.com/"
+}

@@ -1,0 +1,127 @@
+{
+ "id": 39,
+ "site": "auto-locman.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "WordPress",
+ "final_url": "https://auto-locman.ru/maintenance/credit/",
+ "konget": [
+  "https://app.konget.ru/inject?token=cfa78e80ab284be8b8e149c8439e6155",
+  "https://cdn.konget.ru/client?no_cache=1793718515007",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Мультибрендовый автосалон - Автолоцман",
+  "text_length": 2893,
+  "price_blocks": [
+   {
+    "selector": "div.cars-catalog__footer > div.link > span.cars-catalog__price",
+    "count": 3,
+    "sample": "1 950 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.maintenance__row.info > div > span.iconed-text",
+    "count": 1,
+    "sample": "Выгодное соотношение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/service/*",
+    26
+   ],
+   [
+    "/catalog",
+    12
+   ],
+   [
+    "/maintenance/*",
+    4
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/shares",
+    2
+   ],
+   [
+    "/vacancies",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/politika_kompanii_v_otnoshenii_PD.pdf",
+    1
+   ],
+   [
+    "/soglasie_na_obrabotku_PD.pdf",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://auto-locman.ru/maintenance/credit/",
+  "title": "Кредитование – Автолоцман",
+  "text_length": 2585,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.preview.preview_img > div.preview__content > h2.preview__subtitle",
+    "count": 1,
+    "sample": "автокредитом на выгодных условиях"
+   },
+   {
+    "selector": "div.credit-about__content.faq > div.faq__infoblock > div.part_one",
+    "count": 1,
+    "sample": "Наши специалисты расскажут о самых выгодных предложениях банков и помогут подобр"
+   }
+  ],
+  "link_groups": [
+   [
+    "/service/*",
+    14
+   ],
+   [
+    "/maintenance/*",
+    4
+   ],
+   [
+    "/catalog",
+    2
+   ],
+   [
+    "/shares",
+    2
+   ],
+   [
+    "/about",
+    2
+   ],
+   [
+    "/vacancies",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/politika_kompanii_v_otnoshenii_PD.pdf",
+    1
+   ],
+   [
+    "/soglasie_na_obrabotku_PD.pdf",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

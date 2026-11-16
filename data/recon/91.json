@@ -1,0 +1,6 @@
+{
+ "id": 91,
+ "site": "ivanovo.agat-group.com",
+ "brand": "Мультибренд",
+ "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://ivanovo.agat-group.com/"
+}

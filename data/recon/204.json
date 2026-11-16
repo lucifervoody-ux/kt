@@ -1,0 +1,191 @@
+{
+ "id": 204,
+ "site": "geely-vsk.ru",
+ "brand": "Geely",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://geely-vsk.ru/models/",
+ "konget": [],
+ "home": {
+  "title": "Официальный дилер автомобилей марки Geely в Красноярске | Автоцентр ВСК",
+  "text_length": 6532,
+  "price_blocks": [
+   {
+    "selector": "div.container.web_block_media-hero__content > div.web_block_media-hero__content-wrap.mb-red > div.web_block_media-hero__price.large-caps",
+    "count": 9,
+    "sample": "Выгода до 200 000 руб.**"
+   },
+   {
+    "selector": "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+    "count": 8,
+    "sample": "от 3 229 990 ₽*"
+   },
+   {
+    "selector": "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text",
+    "count": 8,
+    "sample": "от 3 229 990 ₽"
+   },
+   {
+    "selector": "div.row > div.offset-xl-2.col-xl-8 > p",
+    "count": 6,
+    "sample": "Выгода в размере 150 000 рублей указана для автомобилей «Geely Coolray» (все ком"
+   },
+   {
+    "selector": "div.container.web_block_media-hero__content > div.web_block_media-hero__content-wrap.mb-red > div.web_block_media-hero__title.h2",
+    "count": 1,
+    "sample": "Выгода до 150 000 руб.**"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.row > div.offset-xl-2.col-xl-8 > p",
+    "count": 7,
+    "sample": "³ Выгода, применяемая к цене автомобиля, предоставляется Дилером покупателю от р"
+   },
+   {
+    "selector": "div.container.web_block_media-hero__content > div.web_block_media-hero__content-wrap.mb-red > div.web_block_media-hero__price.large-caps",
+    "count": 6,
+    "sample": "Выгода до 200 000 руб.**"
+   },
+   {
+    "selector": "div.container.web_block_media-hero__content > div.web_block_media-hero__content-wrap.mb-red > div.web_block_media-hero__title.h2",
+    "count": 1,
+    "sample": "Выгода до 150 000 руб.**"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    34
+   ],
+   [
+    "/for-owners/*",
+    15
+   ],
+   [
+    "/forbuyers/*",
+    14
+   ],
+   [
+    "/about-geely/*",
+    12
+   ],
+   [
+    "/privatedata",
+    6
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/legal-information",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/forbuyers",
+    2
+   ],
+   [
+    "/for-owners",
+    2
+   ],
+   [
+    "/about-geely",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.web_block_model-range__slider.swiper-container > div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide",
+   "div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide > div.web_block_model-range__item-content",
+   "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text",
+   "div.web_block_model-range__slider.swiper-container > div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide",
+   "div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide > div.web_block_model-range__item-content",
+   "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+  ]
+ },
+ "model_page": {
+  "url": "https://geely-vsk.ru/models/",
+  "title": "Автоцентр ВСК — Модели",
+  "text_length": 1241,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+    "count": 8,
+    "sample": "от 3 229 990 ₽*"
+   },
+   {
+    "selector": "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text",
+    "count": 8,
+    "sample": "от 3 229 990 ₽"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    24
+   ],
+   [
+    "/for-owners/*",
+    15
+   ],
+   [
+    "/forbuyers/*",
+    14
+   ],
+   [
+    "/about-geely/*",
+    8
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/legal-information",
+    3
+   ],
+   [
+    "/forbuyers",
+    2
+   ],
+   [
+    "/for-owners",
+    2
+   ],
+   [
+    "/about-geely",
+    2
+   ],
+   [
+    "/privatedata",
+    2
+   ],
+   [
+    "/models",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.web_block_model-range__slider.swiper-container > div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide",
+   "div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide > div.web_block_model-range__item-content",
+   "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text",
+   "div.web_block_model-range__slider.swiper-container > div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide",
+   "div.web_block_model-range__list.swiper-wrapper > a.web_block_model-range__item.swiper-slide > div.web_block_model-range__item-content",
+   "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+  ]
+ }
+}

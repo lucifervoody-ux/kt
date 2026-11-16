@@ -1,0 +1,237 @@
+{
+ "id": 98,
+ "site": "syktyvkar.agat-group.com",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://xn--80aai5d.xn--p1ai/catalog-cars/search/",
+ "konget": [],
+ "home": {
+  "title": "Продажа автомобилей в Нижнем Новгороде - новые и б/у авто, спецтехника у официального дилера ГК АГАТ",
+  "text_length": 8563,
+  "price_blocks": [
+   {
+    "selector": "div > div.car-card__price-row > span.car-card__price",
+    "count": 8,
+    "sample": "740 000 ₽"
+   },
+   {
+    "selector": "div.app-range-slider > div.app-range-slider__bounds.text-label-accent-small > span",
+    "count": 4,
+    "sample": "100 000 ₽"
+   },
+   {
+    "selector": "div.app-range-slider.app-range-slider--dual > div.app-range-slider__values > span.app-range-slider__label.text-label-large",
+    "count": 2,
+    "sample": "185 000 ₽"
+   },
+   {
+    "selector": "div.app-range-slider.app-range-slider--dual > div.app-range-slider__bounds.text-label-accent-small > span",
+    "count": 2,
+    "sample": "от 185 000 ₽"
+   },
+   {
+    "selector": "div.app-range-slider > div.app-range-slider__values > span.app-range-slider__label.text-label-large",
+    "count": 2,
+    "sample": "7 000 000 ₽"
+   },
+   {
+    "selector": "div.home-calc__result-top > div.home-calc__field > div.home-calc__field-value.text-h2",
+    "count": 1,
+    "sample": "от 151 244 ₽"
+   },
+   {
+    "selector": "div.home-calc__result-top > div.home-calc__field > div.home-calc__field-value.text-h3",
+    "count": 1,
+    "sample": "6 500 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "li.advantage.advantage--icon-red > div.advantage__body > p.advantage__text.text-body-medium",
+    "count": 2,
+    "sample": "Приобретайте новые и подержанные авто на наиболее выгодных условиях"
+   },
+   {
+    "selector": "div.page-banner__content > div.page-banner__content-text > p.page-banner__subtitle.text-h4",
+    "count": 1,
+    "sample": "Выгода до 20% на сервисное обслуживание в приложении АГАТ.РФ!"
+   },
+   {
+    "selector": "div.page-banner__content > div.page-banner__content-text > p.page-banner__title.text-h1",
+    "count": 1,
+    "sample": "Выкуп авто — быстро и выгодно"
+   },
+   {
+    "selector": "div.services__left > a.card.card--buyout > p.text-paragraph-medium.card__text",
+    "count": 1,
+    "sample": "Автомобили для вашего бизнеса - надёжно и выгодно. Лизинг, закупки по 44-ФЗ и по"
+   },
+   {
+    "selector": "div.services__right > a.card.card--finance > p.text-paragraph-medium.card--finance__text",
+    "count": 1,
+    "sample": "Выгодные условия по кредиту на покупку автомобиля. Одобрение за 5 минут, вся про"
+   },
+   {
+    "selector": "li.advantage.advantage--icon-red > div.advantage__body > h4.advantage__title.text-body-accent-large",
+    "count": 1,
+    "sample": "Выгодные условия"
+   },
+   {
+    "selector": "div.news-widget__grid > a.news-featured > h3.news-featured__title.text-h3",
+    "count": 1,
+    "sample": "Приложение АГАТ.РФ: Быстро. Удобно. Выгодно."
+   },
+   {
+    "selector": "div.seo-text__wrap--collapsed.seo-text__wrap > ul > li",
+    "count": 1,
+    "sample": "Trade-in (обмен): Продайте или обменяйте свой старый автомобиль на новый или с п"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog-cars/*",
+    39
+   ],
+   [
+    "/services/*",
+    22
+   ],
+   [
+    "/specials",
+    11
+   ],
+   [
+    "/about/*",
+    9
+   ],
+   [
+    "/catalog-used/*",
+    8
+   ],
+   [
+    "/news/*",
+    7
+   ],
+   [
+    "/service",
+    5
+   ],
+   [
+    "/legal-information",
+    4
+   ],
+   [
+    "/catalog-used",
+    3
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/news",
+    3
+   ],
+   [
+    "/specials/*",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.page-banner-finder.exclude-dark > div.page-banner-finder__body > form.car-finder__form",
+   "div.page-banner-finder__body > form.car-finder__form > div.app-range-slider.app-range-slider--dual",
+   "div.swiper.swiper-initialized > div.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-active > li.car-card",
+   "div.swiper-slide.swiper-slide-active > li.car-card > div.car-card__body",
+   "div.car-card__body > div > div.car-card__price-row"
+  ]
+ },
+ "model_page": {
+  "url": "https://xn--80aai5d.xn--p1ai/catalog-cars/search/",
+  "title": "Каталог автомобилей: новые и с пробегом – купить в Нижнем Новгороде | ГК АГАТ",
+  "text_length": 9449,
+  "price_blocks": [
+   {
+    "selector": "div.car-item__price-wrap > div.car-item__benefits > div.car-item__benefits-price",
+    "count": 5,
+    "sample": "до 300 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.car-item__price-wrap > div.car-item__benefits > div.car-item__benefits-title",
+    "count": 5,
+    "sample": "Выгода при покупке"
+   },
+   {
+    "selector": "div.main-header__diller-goda > div.logo > a.diler-link",
+    "count": 1,
+    "sample": "Покупай выгодно"
+   },
+   {
+    "selector": "div.smartpoint_txt > div.smp_description_block > p",
+    "count": 1,
+    "sample": "Оставьте заявку и мы предложим для вас действительно выгодные условия на покупку"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog-cars/*",
+    367
+   ],
+   [
+    "/service/*",
+    65
+   ],
+   [
+    "/catalog-used/*",
+    19
+   ],
+   [
+    "/catalog-import/*",
+    18
+   ],
+   [
+    "/services/*",
+    18
+   ],
+   [
+    "/about/*",
+    10
+   ],
+   [
+    "/service",
+    6
+   ],
+   [
+    "/catalog-cars-new",
+    4
+   ],
+   [
+    "/catalog-commercial",
+    4
+   ],
+   [
+    "/ajax/*",
+    3
+   ],
+   [
+    "/catalog-commercial/*",
+    3
+   ],
+   [
+    "/catalog-spec",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.models__item > div.car-items-wrap > div.car-item",
+   "div.car-items-wrap > div.car-item > div.car-item__desc",
+   "div.car-item > div.car-item__desc > div.car-item__body-grid",
+   "div.car-item__desc > div.car-item__body-grid > div.car-item__price-wrap",
+   "div.car-item__body-grid > div.car-item__price-wrap > span.car-item__price",
+   "div.car-item__body-grid > div.car-item__price-wrap > span.car-item__price.car-item__price--through"
+  ]
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": 51,
+ "site": "avtoruss-service.ru",
+ "brand": "Сервис",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://avtoruss-service.ru/promo/darim-10000-na-obslujivanie-vashego-avtomobilya",
+ "konget": [
+  "https://app.konget.ru/inject?token=c54b32807de64f05be9ebf8dd8c8c476",
+  "https://cdn.konget.ru/client?no_cache=1793718541124",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автосервисы Авторусь - ремонт автомобилей в Москве в Подольске, Мытищах и в Южном Бутово",
+  "text_length": 11427,
+  "price_blocks": [
+   {
+    "selector": "a.promo-item > div.promo-item__content > div.promo-item__name.replaced-text",
+    "count": 82,
+    "sample": "Шиномонтаж от 4000 руб. в сервисных центрах ГК “АВТОРУСЬ”"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.promo-item > div.promo-item__content > div.promo-item__name.replaced-text",
+    "count": 1,
+    "sample": "Регулировка сход-развала с выгодой до 40% в HYUNDAI АВТОРУСЬ Подольск!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/promo/*",
+    102
+   ],
+   [
+    "/brand/*",
+    61
+   ],
+   [
+    "/contacts/*",
+    9
+   ],
+   [
+    "/to/*",
+    7
+   ],
+   [
+    "/services",
+    4
+   ],
+   [
+    "/policy",
+    4
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/brands",
+    3
+   ],
+   [
+    "/promo",
+    3
+   ],
+   [
+    "/reviews",
+    3
+   ],
+   [
+    "/personal-data-agree",
+    3
+   ],
+   [
+    "/cookie-usage-policy",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://avtoruss-service.ru/promo/darim-10000-na-obslujivanie-vashego-avtomobilya",
+  "title": "Дарим 4000 на обслуживание Вашего автомобиля!",
+  "text_length": 1664,
+  "price_blocks": [
+   {
+    "selector": "div.page--promo__container > div.page--promo__content > p",
+    "count": 2,
+    "sample": "Вашему автомобилю более 3 лет или счет за очередное обслуживание превысил 50 000"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/contacts/*",
+    6
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/promo",
+    3
+   ],
+   [
+    "/policy",
+    3
+   ],
+   [
+    "/personal-data-agree",
+    3
+   ],
+   [
+    "/services",
+    2
+   ],
+   [
+    "/brands",
+    2
+   ],
+   [
+    "/reviews",
+    2
+   ],
+   [
+    "/cookie-usage-policy",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

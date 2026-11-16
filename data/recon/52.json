@@ -1,0 +1,100 @@
+{
+ "id": 52,
+ "site": "podolsk.kia-avtoruss.ru",
+ "brand": "Kia сервис",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://podolsk.kia-avtoruss.ru/",
+ "konget": [],
+ "home": {
+  "title": "Сервис Kia по выгодной цене",
+  "text_length": 4026,
+  "price_blocks": [
+   {
+    "selector": "div.special__item.js-popup-link > div.special__text-part > div.special__name",
+    "count": 14,
+    "sample": "Шиномонтаж от 4000 руб. в сервисных центрах Kia АВТОРУСЬ"
+   },
+   {
+    "selector": "div.modal__left_content > p > b",
+    "count": 3,
+    "sample": "1500 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.special__item.js-popup-link > div.special__text-part > div.special__name",
+    "count": 2,
+    "sample": "Чем старше, тем выгоднее!"
+   },
+   {
+    "selector": "div.intro__bottom-wrap > div.intro__bottom-item > h3.intro__bottom-title",
+    "count": 1,
+    "sample": "Успейте получить выгоду!"
+   },
+   {
+    "selector": "div.benefits > div.benefits__container.container > div.benefits__title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "div.benefits__item > div.benefits__item-in > div.benefits__name",
+    "count": 1,
+    "sample": "Выгодные"
+   }
+  ],
+  "link_groups": [
+   [
+    "/docs/*",
+    12
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://podolsk.kia-avtoruss.ru/docs/consent.pdf",
+  "title": "Сервис Kia по выгодной цене",
+  "text_length": 4026,
+  "price_blocks": [
+   {
+    "selector": "div.special__item.js-popup-link > div.special__text-part > div.special__name",
+    "count": 14,
+    "sample": "Шиномонтаж от 4000 руб. в сервисных центрах Kia АВТОРУСЬ"
+   },
+   {
+    "selector": "div.modal__left_content > p > b",
+    "count": 3,
+    "sample": "1500 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.special__item.js-popup-link > div.special__text-part > div.special__name",
+    "count": 2,
+    "sample": "Чем старше, тем выгоднее!"
+   },
+   {
+    "selector": "div.intro__bottom-wrap > div.intro__bottom-item > h3.intro__bottom-title",
+    "count": 1,
+    "sample": "Успейте получить выгоду!"
+   },
+   {
+    "selector": "div.benefits > div.benefits__container.container > div.benefits__title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "div.benefits__item > div.benefits__item-in > div.benefits__name",
+    "count": 1,
+    "sample": "Выгодные"
+   }
+  ],
+  "link_groups": [
+   [
+    "/docs/*",
+    12
+   ]
+  ],
+  "model_cards": []
+ }
+}

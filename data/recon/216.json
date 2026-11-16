@@ -1,0 +1,88 @@
+{
+ "id": 216,
+ "site": "cars.geely-davauto.ru",
+ "brand": "Geely",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://cars.geely-davauto.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=4e1e7afe19a9411586426ba4a7f9c6e0",
+  "https://cdn.konget.ru/client?no_cache=1793718953101",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "ДАВ АВТО GEELY – официальный дилер GEELY в Перми!",
+  "text_length": 4930,
+  "price_blocks": [
+   {
+    "selector": "div.car_profit > span > b",
+    "count": 15,
+    "sample": "300 000 ₽"
+   },
+   {
+    "selector": "div.cars__label > div.cars__label-text > span.cars__label-value",
+    "count": 8,
+    "sample": "150 000 ₽*"
+   },
+   {
+    "selector": "div.timer__title > span > b",
+    "count": 1,
+    "sample": "Выгода до 840 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.cars__prices > div.car_profit > span",
+    "count": 8,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.cars__benefits > div.cars__benefit > span",
+    "count": 8,
+    "sample": "Выгода на ТО"
+   },
+   {
+    "selector": "div.cars__label > div.cars__label-text > span.cars__label-title",
+    "count": 8,
+    "sample": "Выгода по трейд-ин до"
+   },
+   {
+    "selector": "p.running-string__text > span.running-string__gray > strong",
+    "count": 6,
+    "sample": "трейд-ин с доп. выгодой"
+   },
+   {
+    "selector": "div.timer__title > span > b",
+    "count": 1,
+    "sample": "Выгода до 840 000 ₽*"
+   },
+   {
+    "selector": "div.container.tradein > div.tradein_wrap > div.tradein_comment",
+    "count": 1,
+    "sample": "на выгодных условиях"
+   },
+   {
+    "selector": "div.tradein_wrap > div.tradein_props > div",
+    "count": 1,
+    "sample": "Оформляем кредит на выгодных условиях"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный"
+   }
+  ],
+  "link_groups": [
+   [
+    "/policy.pdf",
+    5
+   ],
+   [
+    "/politic.pdf",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

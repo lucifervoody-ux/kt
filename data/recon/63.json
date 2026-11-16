@@ -1,0 +1,163 @@
+{
+ "id": 63,
+ "site": "exeed42.ru",
+ "brand": "Exeed",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://exeed42.ru/tproduct/472296408802-exeed-rx",
+ "konget": [
+  "https://app.konget.ru/inject?token=919fdeb9f0a84bccac71d18f483e4c86",
+  "https://cdn.konget.ru/client?no_cache=1793718576335",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер EXEED в Кемерово",
+  "text_length": 6181,
+  "price_blocks": [
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 2,
+    "sample": "от 5 200 000 ₽"
+   },
+   {
+    "selector": "div.t-section__topwrapper.t-col > h1.t997__title.t-title > div",
+    "count": 1,
+    "sample": "EXEED RX с выгодой от 1 001 000 рублей!"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-section__topwrapper.t-col > h1.t997__title.t-title > div",
+    "count": 1,
+    "sample": "EXEED RX с выгодой от 1 001 000 рублей!"
+   },
+   {
+    "selector": "div.t997__card-headline > div.t997__img-title-wrapper > div.t997__card-title.t-name",
+    "count": 1,
+    "sample": "Выгодный обмен / трейд-ин"
+   },
+   {
+    "selector": "div.t1016__content > div.t1016__textwrapper.t-width > div.t1016__title.t-title",
+    "count": 1,
+    "sample": "Успейте получить максимальную выгоду!"
+   },
+   {
+    "selector": "div.t1016__content > div.t1016__formwrapper > div.t1016__descr-second.t-descr",
+    "count": 1,
+    "sample": "Оставьте заявку и получите выгодное предложение!"
+   },
+   {
+    "selector": "div.t-form__submit > button.t-submit.t-btnflex > span.t-btnflex__text",
+    "count": 1,
+    "sample": "Получить выгоду"
+   }
+  ],
+  "link_groups": [
+   [
+    "/tproduct/*",
+    24
+   ],
+   [
+    "/advertising_agreement",
+    11
+   ],
+   [
+    "/processing_agreement",
+    10
+   ],
+   [
+    "/anton_shmakov",
+    2
+   ],
+   [
+    "/dmitry_amelchenkov",
+    2
+   ],
+   [
+    "/timur_mukhametgaleev",
+    2
+   ],
+   [
+    "/oleg_kabanov",
+    2
+   ],
+   [
+    "/alexander_smirnov",
+    2
+   ],
+   [
+    "/leasing",
+    2
+   ],
+   [
+    "/friend",
+    1
+   ],
+   [
+    "/policy-personal-data",
+    1
+   ],
+   [
+    "/terms-conditions",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://exeed42.ru/tproduct/472296408802-exeed-rx",
+  "title": "EXEED RX",
+  "text_length": 3282,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body.t-body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/tproduct/*",
+    22
+   ],
+   [
+    "/processing_agreement",
+    2
+   ],
+   [
+    "/advertising_agreement",
+    2
+   ],
+   [
+    "/anton_shmakov",
+    1
+   ],
+   [
+    "/dmitry_amelchenkov",
+    1
+   ],
+   [
+    "/timur_mukhametgaleev",
+    1
+   ],
+   [
+    "/oleg_kabanov",
+    1
+   ],
+   [
+    "/alexander_smirnov",
+    1
+   ],
+   [
+    "/friend",
+    1
+   ],
+   [
+    "/terms-conditions",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

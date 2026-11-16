@@ -1,0 +1,6 @@
+{
+ "id": 146,
+ "site": "srv.amk-ekt.lada.ru",
+ "brand": "LADA",
+ "error": "page.goto: net::ERR_CERT_DATE_INVALID at https://srv.amk-ekt.lada.ru/"
+}

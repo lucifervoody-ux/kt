@@ -1,0 +1,77 @@
+{
+ "id": 15,
+ "site": "deepal-avtoban.ru",
+ "brand": "Deepal",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://deepal-avtoban.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=bf2f4bfbb1e54174892c9d4c5a370d30",
+  "https://cdn.konget.ru/client?no_cache=1793718442729",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить Deepal G318 по цене от официального дилера",
+  "text_length": 3008,
+  "price_blocks": [
+   {
+    "selector": "div.flex.gap-4 > div.flex.flex-col > div.text-black.font-bold",
+    "count": 4,
+    "sample": "15 872 ₽"
+   },
+   {
+    "selector": "div.mt-\\[50px\\].max-w-\\[591px\\] > div.text-white.leading-\\[140\\%\\] > p",
+    "count": 3,
+    "sample": "От 6 589 900 ₽"
+   },
+   {
+    "selector": "ul.md\\:px-0.lg\\:col-span-12 > li.grid.grid-cols-2 > div.col-span-1.flex",
+    "count": 2,
+    "sample": "5 740 000 ₽"
+   },
+   {
+    "selector": "li > div.text-12.md\\:text-14 > p",
+    "count": 2,
+    "sample": "Обеспечение по кредиту — залог приобретаемого автомобиля. Сумма кредита от 100 0"
+   },
+   {
+    "selector": "ul.md\\:px-0.lg\\:col-span-12 > li.grid.grid-cols-2 > div.text-gray-50.col-span-1",
+    "count": 1,
+    "sample": "80 000 ₽"
+   },
+   {
+    "selector": "div.flex.flex-col > div.flex.flex-col > div.text-24.leading-\\[140\\%\\]",
+    "count": 1,
+    "sample": "от 15 872 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.group.md\\:relative > div.absolute.z-\\[4\\] > p",
+    "count": 1,
+    "sample": "Программа «Трейд-Ин» может быть совмещена с программой «Прямая скидка»."
+   },
+   {
+    "selector": "li.grid.grid-cols-2 > div.col-span-3.mb-2 > span",
+    "count": 1,
+    "sample": "Цена с учетом макс. выгод"
+   }
+  ],
+  "link_groups": [
+   [
+    "/legal-information/*",
+    9
+   ],
+   [
+    "/files/*",
+    3
+   ],
+   [
+    "/legal-information",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

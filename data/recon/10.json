@@ -1,0 +1,167 @@
+{
+ "id": 10,
+ "site": "avangard-geely.ru",
+ "brand": "Geely",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://avangard-geely.ru/models/ex5-em-i",
+ "konget": [],
+ "home": {
+  "title": "GEELY | Официальный дилер Джили в СПб | Купить GEELY в Санкт-Петербурге",
+  "text_length": 6900,
+  "price_blocks": [
+   {
+    "selector": "div.navbar-cars-dropdown__wrapper > div.navbar-cars-dropdown__item > h5",
+    "count": 4,
+    "sample": "от 2 849 000 ₽"
+   },
+   {
+    "selector": "div.navbar-cars-dropdown__item > a > h5",
+    "count": 4,
+    "sample": "от 2 849 000 ₽"
+   },
+   {
+    "selector": "div.slider-shadow > div.slider-floatbox > h3",
+    "count": 4,
+    "sample": "ВЫГОДА ДО 650 000 ₽"
+   },
+   {
+    "selector": "div.cars-container > div.cars-block > h4.cars-block__price",
+    "count": 4,
+    "sample": "от 2 849 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.slider-shadow > div.slider-floatbox > h3",
+    "count": 4,
+    "sample": "ВЫГОДА ДО 650 000 ₽"
+   },
+   {
+    "selector": "a.special-slide > div.special-slide__text-block > h4.no-margin",
+    "count": 2,
+    "sample": "Скидка на ТО при первом визите"
+   }
+  ],
+  "link_groups": [
+   [
+    "/services/*",
+    10
+   ],
+   [
+    "/models/*",
+    9
+   ],
+   [
+    "/maintenance/*",
+    8
+   ],
+   [
+    "/atlas",
+    5
+   ],
+   [
+    "/okavango",
+    5
+   ],
+   [
+    "/monjaro",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/cityray",
+    4
+   ],
+   [
+    "/coolray",
+    4
+   ],
+   [
+    "/specials/*",
+    4
+   ],
+   [
+    "/about-us",
+    3
+   ],
+   [
+    "/sell",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://avangard-geely.ru/models/ex5-em-i",
+  "title": "GEELY EX5 EM-I 2024 • Фото и характеристики Джили в новом кузове",
+  "text_length": 17222,
+  "price_blocks": [
+   {
+    "selector": "div.navbar-cars-dropdown__wrapper > div.navbar-cars-dropdown__item > h5",
+    "count": 4,
+    "sample": "от 2 849 000 ₽"
+   },
+   {
+    "selector": "div.navbar-cars-dropdown__item > a > h5",
+    "count": 4,
+    "sample": "от 2 849 000 ₽"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    14
+   ],
+   [
+    "/services/*",
+    10
+   ],
+   [
+    "/maintenance/*",
+    8
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/about-us",
+    3
+   ],
+   [
+    "/cityray",
+    3
+   ],
+   [
+    "/atlas",
+    3
+   ],
+   [
+    "/okavango",
+    3
+   ],
+   [
+    "/monjaro",
+    3
+   ],
+   [
+    "/coolray",
+    3
+   ],
+   [
+    "/sell",
+    3
+   ],
+   [
+    "/credit",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

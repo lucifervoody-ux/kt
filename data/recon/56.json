@@ -1,0 +1,108 @@
+{
+ "id": 56,
+ "site": "kia-butovo.ru",
+ "brand": "Kia сервис",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://kia-butovo.ru/landing/help/",
+ "konget": [],
+ "home": {
+  "title": "Ремонт и обслуживание автомобилей Kia в автосервисе в Москве",
+  "text_length": 4570,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/service/*",
+    13
+   ],
+   [
+    "/landing/*",
+    10
+   ],
+   [
+    "/dealerships/*",
+    4
+   ],
+   [
+    "/about/*",
+    3
+   ],
+   [
+    "/info/*",
+    3
+   ],
+   [
+    "/owner/*",
+    2
+   ],
+   [
+    "/pages/*",
+    1
+   ],
+   [
+    "/callback",
+    1
+   ],
+   [
+    "/info",
+    1
+   ],
+   [
+    "/sitemap",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://kia-butovo.ru/landing/help/",
+  "title": "Помощь на дороге",
+  "text_length": 2160,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/landing/*",
+    8
+   ],
+   [
+    "/service/*",
+    7
+   ],
+   [
+    "/dealerships/*",
+    3
+   ],
+   [
+    "/info/*",
+    3
+   ],
+   [
+    "/callback",
+    2
+   ],
+   [
+    "/owner/*",
+    2
+   ],
+   [
+    "/about/*",
+    1
+   ],
+   [
+    "/pages/*",
+    1
+   ],
+   [
+    "/info",
+    1
+   ],
+   [
+    "/sitemap",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

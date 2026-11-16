@@ -1,0 +1,20 @@
+# Проверка связи с ИИ (ручной запуск): показывает, отвечает ли сервис на ключ.
+name: Проверка ИИ
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node collector/ai-check.mjs
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}

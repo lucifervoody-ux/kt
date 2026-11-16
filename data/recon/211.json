@@ -1,0 +1,120 @@
+{
+ "id": 211,
+ "site": "promo.garant18.ru",
+ "brand": "Митсубиши",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://promo.garant18.ru/offers/7619",
+ "konget": [],
+ "home": {
+  "title": "Официальный дилер Mitsubishi «Гарант-Моторс» - продажа новых автомобилей Mitsubishi в г. Ижевск",
+  "text_length": 3239,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.container.form-trade-in__container > div.v-typography.form-trade-in__subtitle > div.d-inline",
+    "count": 1,
+    "sample": "У вас есть возможность продать ваш автомобиль быстро и выгодно без лишних ожидан"
+   },
+   {
+    "selector": "div.form-trade-in__form > div.v-typography.form-trade-in__form-title > div.d-inline",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый Mitsubishi выгодно!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/offers",
+    4
+   ],
+   [
+    "/offers/*",
+    4
+   ],
+   [
+    "/agreement_pd",
+    4
+   ],
+   [
+    "/sale",
+    3
+   ],
+   [
+    "/service",
+    3
+   ],
+   [
+    "/contact",
+    3
+   ],
+   [
+    "/security",
+    2
+   ],
+   [
+    "/cookie",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://promo.garant18.ru/offers/7619",
+  "title": "Акция на шиномонтаж в ГАРАНТ MOTORS",
+  "text_length": 2702,
+  "price_blocks": [
+   {
+    "selector": "div.v-text.textPrimary--text > div.d-inline > p",
+    "count": 6,
+    "sample": "R 12-14 — 3 800 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.container.form-trade-in__container > div.v-typography.form-trade-in__subtitle > div.d-inline",
+    "count": 1,
+    "sample": "У вас есть возможность продать ваш автомобиль быстро и выгодно без лишних ожидан"
+   },
+   {
+    "selector": "div.form-trade-in__form > div.v-typography.form-trade-in__form-title > div.d-inline",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый Mitsubishi выгодно!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/offers/*",
+    5
+   ],
+   [
+    "/agreement_pd",
+    5
+   ],
+   [
+    "/offers",
+    4
+   ],
+   [
+    "/sale",
+    3
+   ],
+   [
+    "/service",
+    3
+   ],
+   [
+    "/contact",
+    3
+   ],
+   [
+    "/security",
+    2
+   ],
+   [
+    "/cookie",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

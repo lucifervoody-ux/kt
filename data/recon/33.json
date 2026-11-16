@@ -1,0 +1,134 @@
+{
+ "id": 33,
+ "site": "cars.jetour-ai71.ru",
+ "brand": "JETOUR",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://cars.jetour-ai71.ru/models/t1",
+ "konget": [
+  "https://app.konget.ru/inject?token=de3d68dd8cf0443d93d0b3e4dc39d519",
+  "https://cdn.konget.ru/client?no_cache=1793718496453",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Jetour в Туле",
+  "text_length": 20,
+  "price_blocks": [
+   {
+    "selector": "div > div.d-flex.align-center > span.textPrimary--text.text-mob-body-2",
+    "count": 6,
+    "sample": "ВЫГОДА ДО 600 000 ₽"
+   },
+   {
+    "selector": "button.tab-card.py-3 > div.textPrimary--text > div.tab-card__price.text-mob-body-1",
+    "count": 5,
+    "sample": "от 2 339 900 руб"
+   },
+   {
+    "selector": "div.pa-3.pa-sm-2 > div.model-card_mobile_name.d-flex > div.text-h3.primary--text",
+    "count": 5,
+    "sample": "от 2 339 900 руб"
+   },
+   {
+    "selector": "div.special.d-flex > div.special__left.d-flex > div.text-h2.text-mob-h2",
+    "count": 1,
+    "sample": "от 2 339 900 руб"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div > div.d-flex.align-center > span.textPrimary--text.text-mob-body-2",
+    "count": 6,
+    "sample": "ВЫГОДА ДО 600 000 ₽"
+   },
+   {
+    "selector": "div.calc-mortgage-form.backgroundPaper > div.v-typography.calc-mortgage-form__description > div.d-inline",
+    "count": 1,
+    "sample": "Введите параметры и мы рассчитаем платеж по кредиту на наиболее выгодных условия"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    10
+   ],
+   [
+    "/cars",
+    7
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/service",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/limited-edition",
+    1
+   ],
+   [
+    "/politic/*",
+    1
+   ]
+  ],
+  "model_cards": [
+   "section.model-card > div.container > div.model-card__slider.d-flex",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-active > button.tab-card.py-3",
+   "button.tab-card.py-3 > div.textPrimary--text > div.tab-card__price.text-mob-body-1",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-next > button.tab-card.py-3",
+   "button.tab-card.py-3 > div.textPrimary--text > div.tab-card__price.text-mob-body-1",
+   "div.swiper-wrapper > div.swiper-slide > button.tab-card.py-3"
+  ]
+ },
+ "model_page": {
+  "url": "https://cars.jetour-ai71.ru/models/t1",
+  "title": "JETOUR T1",
+  "text_length": 20,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars",
+    1
+   ],
+   [
+    "/service",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/politic",
+    1
+   ],
+   [
+    "/politic/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

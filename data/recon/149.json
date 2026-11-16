@@ -1,0 +1,225 @@
+{
+ "id": 149,
+ "site": "jetour-amr-saratov.ru",
+ "brand": "Jetour",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://jetour-amr-saratov.ru/purchase/credit?main_menu#/credit/new/jetour?year=2026",
+ "konget": [],
+ "home": {
+  "title": "JETOUR АМР — сайт официального дилера Jetour | Купить Джетур в Саратове",
+  "text_length": 44777,
+  "price_blocks": [
+   {
+    "selector": "div.td-model-price > span > span",
+    "count": 6,
+    "sample": "от 4 499 900 ₽"
+   },
+   {
+    "selector": "small > div.td-disclaimer > p",
+    "count": 6,
+    "sample": ": валюта кредита – рубли РФ; срок кредита – 12-96 мес.; сумма кредита - от 100 0"
+   },
+   {
+    "selector": "div.td-submenu__description > span.h4 > span",
+    "count": 5,
+    "sample": "Цена от 3 520 000 ₽"
+   },
+   {
+    "selector": "div.td-indent-bottom-15 > div.d-flex.h3 > span",
+    "count": 5,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__description > div.td-model-prices > a.td-btn.td-btn-slider",
+    "count": 5,
+    "sample": "45 230 руб/мес"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 5,
+    "sample": "300 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 5,
+    "sample": "3 899 900 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 5,
+    "sample": "4 199 900 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.td-indent-bottom-15 > div.d-flex.h3 > span",
+    "count": 5,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__btns > a.td-btn.td-btn-white",
+    "count": 2,
+    "sample": "Выгоды Ноября"
+   },
+   {
+    "selector": "div.d-flex.flex-wrap > div.d-flex > a.td-btn.td-btn-white",
+    "count": 2,
+    "sample": "Выгоды Ноября"
+   },
+   {
+    "selector": "p > strong > small",
+    "count": 2,
+    "sample": "JETOUR Кредит Комфорт Преимущество Плюс"
+   },
+   {
+    "selector": "span.td-tooltip.td-tooltip--custom > span > a",
+    "count": 1,
+    "sample": "выгод"
+   },
+   {
+    "selector": "div.td-card-widget__description.td-text-fade > ul > li",
+    "count": 1,
+    "sample": "выгодный Трейд-ин;"
+   }
+  ],
+  "link_groups": [
+   [
+    "/purchase/*",
+    46
+   ],
+   [
+    "/models/*",
+    40
+   ],
+   [
+    "/cars/*",
+    17
+   ],
+   [
+    "/service/*",
+    15
+   ],
+   [
+    "/explore/*",
+    6
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/shop",
+    5
+   ],
+   [
+    "/our-contacts",
+    5
+   ],
+   [
+    "/club-jetour",
+    4
+   ],
+   [
+    "/service-form",
+    4
+   ],
+   [
+    "/news",
+    4
+   ],
+   [
+    "/jetour-insurance",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.td-slider__text > div.td-slider__description > div.td-model-prices",
+   "div.td-slider__description > div.td-model-prices > div.td-model-price",
+   "div.swiper.swiper--lazy > div.swiper-wrapper.td-slider__wrapper > div.swiper-slide.td-slider__item",
+   "div.td-slider__text > div.td-slider__description > div.td-model-prices",
+   "div.td-slider__description > div.td-model-prices > div.td-model-price",
+   "div.td-slider__text > div.td-slider__description > div.td-model-prices"
+  ]
+ },
+ "model_page": {
+  "url": "https://jetour-amr-saratov.ru/purchase/credit?main_menu#/credit/new/jetour?year=2026",
+  "title": "JETOUR в кредит — кредитный калькулятор | Сайт официального дилера JETOUR АМР в Саратове",
+  "text_length": 41341,
+  "price_blocks": [
+   {
+    "selector": "small > div.td-disclaimer > p",
+    "count": 6,
+    "sample": ": валюта кредита – рубли РФ; срок кредита – 12-96 мес.; сумма кредита - от 100 0"
+   },
+   {
+    "selector": "div.td-submenu__description > span.h4 > span",
+    "count": 5,
+    "sample": "Цена от 3 520 000 ₽"
+   },
+   {
+    "selector": "div.td-submenu__description > span > span.h4",
+    "count": 1,
+    "sample": "Цена от 4 499 900 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "p > strong > small",
+    "count": 2,
+    "sample": "JETOUR Кредит Комфорт Преимущество Плюс"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    24
+   ],
+   [
+    "/purchase/*",
+    24
+   ],
+   [
+    "/service/*",
+    10
+   ],
+   [
+    "/explore/*",
+    6
+   ],
+   [
+    "/shop",
+    5
+   ],
+   [
+    "/our-contacts",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/club-jetour",
+    4
+   ],
+   [
+    "/purchase",
+    3
+   ],
+   [
+    "/jetour-insurance",
+    3
+   ],
+   [
+    "/prilozheniye-jetour",
+    3
+   ],
+   [
+    "/jetour-connect",
+    3
+   ]
+  ],
+  "model_cards": []
+ }
+}

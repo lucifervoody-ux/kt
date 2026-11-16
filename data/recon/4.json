@@ -1,0 +1,197 @@
+{
+ "id": 4,
+ "site": "havalpro-avangard.ru",
+ "brand": "HAVAL PRO",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://havalpro-avangard.ru/models/h3",
+ "konget": [],
+ "home": {
+  "title": "HAVAL | АВАНГАРД – Официальный дилер Хавейл: купить новый Хавал в автосалоне СПб",
+  "text_length": 7956,
+  "price_blocks": [
+   {
+    "selector": "ul.benefits > li > p",
+    "count": 8,
+    "sample": "Максимальная выгода до 600 000 ₽"
+   },
+   {
+    "selector": "div.stock-car__content__price > p.price > s",
+    "count": 8,
+    "sample": "3 806 000 ₽"
+   },
+   {
+    "selector": "a.stock-car__content > div.stock-car__content__price > p.price",
+    "count": 8,
+    "sample": "3 366 000 ₽"
+   },
+   {
+    "selector": "li.models-list__item > a > p",
+    "count": 4,
+    "sample": "от 2 249 000 ₽"
+   },
+   {
+    "selector": "article.banner-text > b.price > span",
+    "count": 4,
+    "sample": "2 249 000 ₽"
+   },
+   {
+    "selector": "div.review__left-curtain > div.text > p.text__price",
+    "count": 4,
+    "sample": "Цена от 2 249 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.stock-car__content > div.stock-car__content__price > p",
+    "count": 8,
+    "sample": "Цена с учётом максимальной скидки:"
+   },
+   {
+    "selector": "ul.benefits > li > p",
+    "count": 4,
+    "sample": "Максимальная выгода до 600 000 ₽"
+   },
+   {
+    "selector": "section.common-section.before-enter > section > h2",
+    "count": 1,
+    "sample": "Преимущества автомобилей"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    16
+   ],
+   [
+    "/cars/*",
+    12
+   ],
+   [
+    "/buyers/*",
+    6
+   ],
+   [
+    "/owners/*",
+    5
+   ],
+   [
+    "/pages/*",
+    3
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/policy",
+    3
+   ],
+   [
+    "/user-agreement",
+    1
+   ]
+  ],
+  "model_cards": [
+   "section > div.header__mobile-folding-menu > ul.folding-menu__models-list",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item"
+  ]
+ },
+ "model_page": {
+  "url": "https://havalpro-avangard.ru/models/h3",
+  "title": "Haval H3 | Купить Хавал Н3 в Санкт-Петербурге у официального дилера",
+  "text_length": 22359,
+  "price_blocks": [
+   {
+    "selector": "div.stock-car__content__price > p.price > s",
+    "count": 43,
+    "sample": "2 699 000 ₽"
+   },
+   {
+    "selector": "a.stock-car__content > div.stock-car__content__price > p.price",
+    "count": 43,
+    "sample": "1 989 000 ₽"
+   },
+   {
+    "selector": "li.models-list__item > a > p",
+    "count": 4,
+    "sample": "от 2 249 000 ₽"
+   },
+   {
+    "selector": "section.firstSwiper.common-section > div.banner-text > p",
+    "count": 1,
+    "sample": "Цена от: 2 249 000 ₽"
+   },
+   {
+    "selector": "article > div.review__left-curtain > p",
+    "count": 1,
+    "sample": "Цена от 2 249 000 ₽"
+   },
+   {
+    "selector": "ul > li > div.visible.list__content",
+    "count": 1,
+    "sample": "Актуальные цены на Haval H3 уточняйте у менеджеров по телефону +7(812)561-51-68."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.stock-car__content > div.stock-car__content__price > p",
+    "count": 43,
+    "sample": "Цена с учётом максимальной скидки:"
+   },
+   {
+    "selector": "ul > li > div.list__content",
+    "count": 1,
+    "sample": "Да, в дилерском центре доступно оформление автокредита на выгодных условиях. Так"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    45
+   ],
+   [
+    "/models/*",
+    8
+   ],
+   [
+    "/buyers/*",
+    6
+   ],
+   [
+    "/owners/*",
+    5
+   ],
+   [
+    "/pages/*",
+    3
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/policy",
+    2
+   ],
+   [
+    "/models",
+    1
+   ],
+   [
+    "/user-agreement",
+    1
+   ]
+  ],
+  "model_cards": [
+   "section > div.header__mobile-folding-menu > ul.folding-menu__models-list",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item",
+   "div.header__mobile-folding-menu > ul.folding-menu__models-list > li.models-list__item"
+  ]
+ }
+}

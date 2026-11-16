@@ -1,0 +1,121 @@
+{
+ "id": 68,
+ "site": "kmv-havalpro.ru",
+ "brand": "HAVAL PRO",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://kmv-havalpro.ru/cars/1733886",
+ "konget": [
+  "https://app.konget.ru/inject?token=3e18e8d6fa5148baa44eee871a20cd4a",
+  "https://cdn.konget.ru/client?no_cache=1793718595503",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "HAVAL Pro | АГАТ - дилер Хавейл Про в Минеральных водах",
+  "text_length": 3608,
+  "price_blocks": [
+   {
+    "selector": "div.d-inline > h4.popup.car_profit > strong",
+    "count": 4,
+    "sample": "Цена от 2 499 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.marquee__track.marquee__track--ready > div.marquee__group > div.marquee__item.text-lg-h4",
+    "count": 8,
+    "sample": "Индивидуальные выгоды весь месяц!"
+   },
+   {
+    "selector": "div.car_text > ul > li.car__content-list",
+    "count": 2,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.with__image.d-flex > div.with__image-content.d-flex > div.with__image-subtitle.text-body-2",
+    "count": 1,
+    "sample": "Успейте забрать HAVAL H3 с персональной выгодой!"
+   },
+   {
+    "selector": "div.calc-mortgage-form.backgroundPaper > div.v-typography.calc-mortgage-form__description > div.d-inline",
+    "count": 1,
+    "sample": "Введите параметры и мы рассчитаем платеж по кредиту на наиболее выгодных условия"
+   },
+   {
+    "selector": "div.form-trade-in > div.container.form-trade-in__container > h1.form-trade-in__title.textPrimary--text",
+    "count": 1,
+    "sample": "ОБМЕНЯЙТЕ СВОЙ АВТОМОБИЛЬ НА НОВЫЙ HAVAL ВЫГОДНО!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/politic",
+    4
+   ],
+   [
+    "/cars/*",
+    3
+   ],
+   [
+    "/cars",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex",
+   "a.car-card.textPrimary--text > div.car-card__info.d-flex > div.d-flex.flex-column",
+   "div.car-card__info.d-flex > div.d-flex.flex-column > div.car-card__price.d-flex",
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex"
+  ]
+ },
+ "model_page": {
+  "url": "https://kmv-havalpro.ru/cars/1733886",
+  "title": "Haval H3, I Рестайлинг",
+  "text_length": 2080,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "span.v-custom-checkbox__label > div.sale-mod__label.d-flex > div.text-body-1.mr-2",
+    "count": 4,
+    "sample": "Выгода при покупке в Трейд-ин"
+   },
+   {
+    "selector": "div.card-feedback__mods.mb-14 > div.v-typography.mb-6 > div.d-inline",
+    "count": 2,
+    "sample": "Получите максимальную выгоду:"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/cars/*",
+    1
+   ],
+   [
+    "/politic",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.card-car__side-mobile.d-lg-none > div.card-feedback.textPrimary--text > div.card-feedback__mods.mb-14",
+   "div.card-feedback.textPrimary--text > div.card-feedback__mods.mb-14 > div.card-feedback__mods-list",
+   "div.card-feedback__mods.mb-14 > div.card-feedback__mods-list > div.sale-mod.textPrimary--text",
+   "div.card-feedback__mods.mb-14 > div.card-feedback__mods-list > div.sale-mod.textPrimary--text",
+   "div.card-car__side-mobile.d-lg-none > div.card-feedback.textPrimary--text > div.card-feedback__final.mb-5",
+   "div.card-feedback.textPrimary--text > div.card-feedback__final.mb-5 > div.v-typography.card-feedback__special"
+  ]
+ }
+}

@@ -1,0 +1,81 @@
+# Сбор УТП. Запускается кнопкой «Сверить УТП» в приложении,
+# вручную на вкладке Actions или сам 1-го числа каждого месяца.
+name: Сбор УТП
+
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: 'ID сайтов через запятую (пусто — все сайты)'
+        required: false
+        default: ''
+  schedule:
+    - cron: '0 4 1 * *' # 1-е число, 07:00 по Москве
+
+permissions:
+  contents: write
+  actions: read # узнать, идёт ли проверка работы
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # максимум GitHub для одного запуска — 6 часов
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - name: Дождаться окончания проверки работы сайтов
+        run: node collector/wait-health.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      # Браузер Playwright берём из кэша: так не качаем его заново при каждом запуске.
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Собрать цены и выгоды
+        env:
+          SITE: ${{ inputs.site }}
+          PARALLEL: 6 # сайтов одновременно (раньше 3)
+          # Список сайтов — из листа «Сайты» Google-таблицы.
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          # ИИ для лендингов без шаблона (необязательно). Без ключа остаётся общая цена по сайту.
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+        run: |
+          if [ -n "$SITE" ]; then
+            exec node collector/collect.mjs --site "$SITE"
+          else
+            exec node collector/collect.mjs
+          fi
+
+      # Сохраняем и тогда, когда проверку остановили кнопкой: то, что успели, не пропадёт.
+      - name: Сохранить результат в репозиторий
+        if: success() || cancelled()
+        run: |
+          git config user.name "konget-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -m "Сбор УТП $(date +%F)"
+          # Другая проверка могла сохраниться одновременно: подтягиваем (при конфликте берём свежие данные этого прогона) и пробуем ещё раз.
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin ${{ github.ref_name }} && git push && exit 0
+            git rebase --abort || true
+            sleep $((i * 5))
+          done
+          exit 1
