@@ -166,3 +166,21 @@ test('«по выгодной цене» — не выгода', () => {
   assert.deepEqual(parseBenefits('Chery Tiggo 4 по выгодной цене 1 890 000 ₽'), []);
   assert.deepEqual(parseBenefits('Выгода до 250 000 ₽, выгодное предложение 1 990 000 ₽'), [250000]);
 });
+
+test('выгоды по моделям из сносок и баннеров', async () => {
+  const { benefitsByModel } = await import('./lib.mjs');
+  const text = [
+    'CHERY TIGGO 9',
+    'ВЫГОДА ПО ТРЕЙД-ИН ДО 600 000 ₽*',
+    'Выгода в размере 150 000 рублей указана для автомобилей «Geely Coolray» (все комплектации).',
+    'Цена на модель TANK (ТЭНК) 400 в комплектации Премиум с учетом прямой выгоды в 250 000 рублей, выгоды по трейд-ин в 250 000 рублей. Цена на модель TANK 300 с учетом выгоды по трейд-ин в 200 000 рублей.',
+    'Belgee X50, Belgee X70 и Belgee S50 — выгода до 300 000 ₽.',
+    'Выгода 500 000 ₽ при сдаче авто, кредит от 300 000 ₽',
+  ].join('\n');
+  const got = benefitsByModel(text, ['TIGGO 9', 'COOLRAY', '400', '300', 'X50', 'X70', 'S50']);
+  assert.equal(got.get('TIGGO 9'), 600000);
+  assert.equal(got.get('COOLRAY'), 150000);
+  assert.equal(got.get('400'), 250000);
+  assert.equal(got.get('300'), 200000);
+  assert.equal(got.has('X50'), false);
+});

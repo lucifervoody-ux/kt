@@ -17,7 +17,7 @@ import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
-  CHANGE, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
+  CHANGE, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
 } from './lib.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -116,8 +116,9 @@ async function collectPage(context, site, pageCfg, index) {
       r.model = pageCfg.model_name || mapName(r.model);
       // У лендингов в цену не берём суммы из фраз про выгоду, скидку, платёж и кредит: «с выгодой от 1 001 000 руб.» — не цена.
       const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)[^.\n|]{0,70}/gi, ' ') : r.price;
-      const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0));
       const benefits = (pageCfg.benefit_all ? parseAmounts : parseBenefits)(r.benefit);
+      // В автопоиске сумма выгоды («Выгода до | 455 000 ₽») может попасть и в цены: такие суммы из цен убираем.
+      const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
       return {
         model: cleanModel(r.model.split('\n').map((l) => l.trim()).find(Boolean), site.brand),
         price: prices.length ? Math.min(...prices) : '-',
@@ -398,6 +399,31 @@ async function collectSiteWith(browser, site) {
     if (!anyOpened) return { ...base, status: 'access_error', comment: notes.join('; ') };
 
     const models = mergeModels(rows.filter((r) => r.model));
+    // Выгоды, которых не нашлось в карточках, ищем в баннерах и сносках главной страницы
+    // («Выгода в размере 150 000 рублей указана для автомобилей «Geely Coolray»»).
+    let homeText = null;
+    const readHome = async () => {
+      if (homeText !== null) return homeText;
+      const page = await openPage(context, site, siteUrl(site), {});
+      try {
+        homeText = await page.evaluate(() => document.body?.innerText || '');
+      } finally {
+        await page.close();
+      }
+      return homeText;
+    };
+    if (models.some((m) => m.max_benefit === '-' && m.model !== AGG_NAME)) {
+      try {
+        const found = benefitsByModel(await readHome(), models.map((m) => m.model));
+        let added = 0;
+        for (const m of models) {
+          if (m.max_benefit === '-' && found.has(m.model)) { m.max_benefit = found.get(m.model); added += 1; }
+        }
+        if (added) log(`  [${site.id}] выгоды из баннеров и сносок главной: ${added}`);
+      } catch (e) {
+        notes.push(`Сноски главной не прочитаны: ${e.message.split('\n')[0]}`);
+      }
+    }
     const problems = validateModels(models);
     const noPrice = models.filter((m) => m.price === '-').map((m) => m.model);
     if (noPrice.length && !unfinished) problems.push(`Не нашлась цена: ${noPrice.join(', ')}`);
@@ -420,12 +446,7 @@ async function collectSiteWith(browser, site) {
     // Цены по моделям тут ненадёжны: сравниваем сайт по тексту акций с главной страницы.
     if (site.template === '*' || aggregated || byAi || autoUsed) {
       try {
-        const page = await openPage(context, site, siteUrl(site), {});
-        try {
-          result.promo_lines = extractPromoLines(await page.evaluate(() => document.body?.innerText || ''));
-        } finally {
-          await page.close();
-        }
+        result.promo_lines = extractPromoLines(await readHome());
         if (result.promo_lines.length) {
           result.text_mode = true;
           result.comment += `${result.comment ? '; ' : ''}Сравнение по тексту акций главной страницы`;
