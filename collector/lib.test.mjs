@@ -180,7 +180,18 @@ test('выгоды по моделям из сносок и баннеров', a
   const got = benefitsByModel(text, ['TIGGO 9', 'COOLRAY', '400', '300', 'X50', 'X70', 'S50']);
   assert.equal(got.get('TIGGO 9'), 600000);
   assert.equal(got.get('COOLRAY'), 150000);
-  assert.equal(got.get('400'), 250000);
+  assert.equal(got.get('400'), 500000, 'прямая + трейд-ин складываются');
   assert.equal(got.get('300'), 200000);
   assert.equal(got.has('X50'), false);
+});
+
+test('итоговая выгода: части одной фразы складываются, разные блоки — нет', async () => {
+  const { benefitTotal } = await import('./lib.mjs');
+  assert.equal(benefitTotal('Цена на модель TANK 400 в комплектации Премиум 2026 года выпуска с учетом прямой выгоды в 250 000 рублей, с учетом выгоды по трейд-ин в 250 000 рублей, с учетом дополнительной выгоды по лояльному трейд-ин в 200 000 рублей при сдаче. Ставка 5%'), 700000);
+  assert.equal(benefitTotal('с учётом выгоды по программе Трейд-ин в 300 000 рублей и прямой выгоды в 150 000 рублей.'), 450000);
+  assert.equal(benefitTotal('Выгода до 500 000 ₽ | Трейд-ин: выгода до 300 000 ₽'), 500000);
+  assert.equal(benefitTotal('Выгода до 500 000 ₽, в том числе выгода по трейд-ин 300 000 ₽'), 500000);
+  assert.equal(benefitTotal('Цена на TANK 400 Премиум с учетом выгоды 250 000 рублей, цена на TANK 400 Люкс с учетом выгоды 300 000 рублей.'), 300000);
+  assert.equal(benefitTotal('Выгода 200 000 ₽.\nВыгода 200 000 ₽.'), 200000);
+  assert.equal(benefitTotal('Кредит от 5%'), null);
 });

@@ -72,6 +72,23 @@ export function parseBenefits(text) {
   return out;
 }
 
+// Итоговая выгода: части одной фразы складываем, разные фразы и блоки не складываем, берём большую.
+// «с учетом прямой выгоды в 250 000, выгоды по трейд-ин в 250 000 и лояльной выгоды 200 000» → 700 000.
+// Отдельные строки карточки («Выгода до 500 000 | Трейд-ин до 300 000») и сноски к разным комплектациям
+// («Цена на … Премиум …. Цена на … Люкс …») не складываем. «Выгода до 500 000, в том числе трейд-ин 300 000» → 500 000.
+export function benefitTotal(text) {
+  const pieces = String(text || '').replace(/[\u00a0\u202f\u2009]/g, ' ')
+    .split(/\n+|\s*\|\s*|(?<=[.!?;])\s+(?=[А-ЯЁA-Z«"(*¹²³])|(?<=[\s,])(?=[Цц]ен[аеуы]\s+(?:на|автомобил|модел))/);
+  let best = null;
+  for (const piece of pieces) {
+    const vals = parseBenefits(piece);
+    if (!vals.length) continue;
+    const total = /в том числе|включая|из них|суммарн|максимальн|общ(ая|ей)\s+выгод/i.test(piece) ? Math.max(...vals) : vals.reduce((a, b) => a + b, 0);
+    if (best === null || total > best) best = total;
+  }
+  return best;
+}
+
 // Все суммы из текста как выгоды — для блоков, где сайт пишет сумму без слова «выгода»
 // (в сценарии: benefit_all: true). Годы («2026 г.») не считаем.
 export function parseAmounts(text) {
@@ -277,8 +294,8 @@ export function benefitsByModel(text, models) {
     if (i > 0 && line.length < 80 && lines[i - 1].length < 60) chunks.push(`${lines[i - 1]} ${line}`);
   }
   for (const chunk of chunks) {
-    const benefits = parseBenefits(chunk);
-    if (!benefits.length) continue;
+    const best = benefitTotal(chunk);
+    if (best === null) continue;
     let rest = chunk;
     const found = [];
     for (const [name, re] of patterns) {
@@ -288,7 +305,6 @@ export function benefitsByModel(text, models) {
       }
     }
     if (found.length !== 1) continue;
-    const best = Math.max(...benefits);
     if (best > (out.get(found[0]) || 0)) out.set(found[0], best);
   }
   return out;
