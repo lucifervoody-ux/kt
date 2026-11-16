@@ -1,14 +1,14 @@
 {
   "date": "2026-11-16",
-  "checked_at": "2026-11-16T06:33:07.102Z",
+  "checked_at": "2026-11-16T07:01:33.775Z",
   "previous_date": "2026-11-03",
-  "total_seconds": 866,
+  "total_seconds": 802,
   "parallel": 6,
   "summary": {
-    "Не изменилось": 11,
-    "Изменилось": 30,
-    "Требует проверки": 13,
-    "Ошибка доступа": 8,
+    "Не изменилось": 12,
+    "Изменилось": 31,
+    "Требует проверки": 14,
+    "Ошибка доступа": 5,
     "Первая проверка": 26,
     "Нет сценария": 5
   },
@@ -33,48 +33,6 @@
       "responsible": "Савастьянов А.А.",
       "site": "cars.chery.region62.ru",
       "brand": "Chery",
-      "models": [],
-      "status": "access_error",
-      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "change": "Ошибка доступа",
-      "changes": [],
-      "seconds": 0,
-      "pages_opened": 0
-    },
-    {
-      "id": 164,
-      "company": "Гак Артекс Ростов-На-Дону",
-      "responsible": "Савастьянов А.А.",
-      "site": "gac-artex-rnd.ru",
-      "brand": "GAC",
-      "models": [],
-      "status": "access_error",
-      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "change": "Ошибка доступа",
-      "changes": [],
-      "seconds": 0,
-      "pages_opened": 0
-    },
-    {
-      "id": 166,
-      "company": "Belgee-artex.ru",
-      "responsible": "Савастьянов А.А.",
-      "site": "belgee-artex.ru",
-      "brand": "Belgee",
-      "models": [],
-      "status": "access_error",
-      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "change": "Ошибка доступа",
-      "changes": [],
-      "seconds": 0,
-      "pages_opened": 0
-    },
-    {
-      "id": 168,
-      "company": "Джетур Артекс Ростов-на-Дону",
-      "responsible": "Савастьянов А.А.",
-      "site": "jetour-artex.ru",
-      "brand": "Jetour",
       "models": [],
       "status": "access_error",
       "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
@@ -126,6 +84,30 @@
       "pages_opened": 0
     },
     {
+      "id": 27,
+      "company": "Гак Автоимпорт Лендинг Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "sale.gac-autoimport.ru",
+      "brand": "GAC",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sale.gac-autoimport.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://sale.gac-autoimport.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 6,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
       "id": 29,
       "company": "АВТОИМПОРТ KGM РЯЗАНЬ",
       "responsible": "Савастьянов А.А.",
@@ -163,7 +145,7 @@
       "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 64,
+      "seconds": 57,
       "pages_opened": 6,
       "change": "Требует проверки",
       "changes": []
@@ -206,7 +188,7 @@
       "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 90,
+      "seconds": 66,
       "pages_opened": 6,
       "change": "Требует проверки",
       "changes": []
@@ -224,7 +206,7 @@
       "comment": "Модели не найдены; На странице https://jac-beta.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "needs_check",
-      "seconds": 26,
+      "seconds": 20,
       "pages_opened": 2,
       "change": "Требует проверки",
       "changes": []
@@ -248,7 +230,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 11,
+      "seconds": 10,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -272,7 +254,7 @@
       "template": "Tilda",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 15,
+      "seconds": 13,
       "pages_opened": 3,
       "change": "Требует проверки",
       "changes": []
@@ -320,7 +302,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 9,
+      "seconds": 8,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -344,7 +326,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 7,
+      "seconds": 6,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -375,7 +357,7 @@
       "comment": "Не нашлась цена: S06, S07; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 27,
+      "seconds": 22,
       "pages_opened": 4,
       "change": "Требует проверки",
       "changes": []
@@ -393,7 +375,7 @@
       "comment": "Модели не найдены; На странице https://solaris-vip-auto.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "needs_check",
-      "seconds": 23,
+      "seconds": 18,
       "pages_opened": 2,
       "change": "Требует проверки",
       "changes": []
@@ -430,7 +412,7 @@
       "comment": "Не нашлась цена: S09; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 50,
+      "seconds": 37,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -454,7 +436,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 9,
+      "seconds": 8,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -478,7 +460,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 7,
+      "seconds": 6,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -545,7 +527,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 110,
+      "seconds": 102,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -667,7 +649,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 118,
+      "seconds": 83,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -827,7 +809,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 67,
+      "seconds": 57,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -878,7 +860,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 69,
+      "seconds": 55,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -938,7 +920,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 19,
+      "seconds": 17,
       "pages_opened": 5,
       "change": "Изменилось",
       "changes": [
@@ -1034,7 +1016,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 111,
+      "seconds": 103,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -1188,7 +1170,7 @@
       "comment": "Собрано по общему шаблону движка УАЗ-дилер",
       "template": "УАЗ-дилер",
       "status": "ok",
-      "seconds": 24,
+      "seconds": 23,
       "pages_opened": 2,
       "change": "Изменилось",
       "changes": [
@@ -1297,7 +1279,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 61,
+      "seconds": 53,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1384,7 +1366,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 62,
+      "seconds": 50,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1457,7 +1439,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 80,
+      "seconds": 78,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -1533,7 +1515,7 @@
       "comment": "Собрано по общему шаблону движка УАЗ-дилер",
       "template": "УАЗ-дилер",
       "status": "ok",
-      "seconds": 25,
+      "seconds": 26,
       "pages_opened": 2,
       "change": "Изменилось",
       "changes": [
@@ -1621,7 +1603,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 77,
+      "seconds": 60,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1708,7 +1690,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 69,
+      "seconds": 50,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1813,7 +1795,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 106,
+      "seconds": 94,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -1917,7 +1899,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 59,
+      "seconds": 49,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1990,7 +1972,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 81,
+      "seconds": 68,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2068,7 +2050,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 58,
+      "seconds": 45,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -2147,7 +2129,7 @@
       "comment": "Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "ok",
-      "seconds": 11,
+      "seconds": 10,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -2277,7 +2259,7 @@
       "comment": "Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "ok",
-      "seconds": 20,
+      "seconds": 18,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -2439,7 +2421,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 80,
+      "seconds": 65,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2503,7 +2485,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 69,
+      "seconds": 67,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2581,7 +2563,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 59,
+      "seconds": 53,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -2668,7 +2650,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 70,
+      "seconds": 53,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -2741,7 +2723,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 81,
+      "seconds": 66,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2771,6 +2753,75 @@
           "now": {
             "price": 2499000,
             "max_benefit": 250000
+          }
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "company": "Джетур Артекс Ростов-на-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-artex.ru",
+      "brand": "Jetour",
+      "models": [
+        {
+          "model": "T1 ГИБРИД",
+          "price": 4499900,
+          "max_benefit": 200000,
+          "source_url": "https://jetour-artex.ru/models/t1-hybrid"
+        },
+        {
+          "model": "T1",
+          "price": 3520000,
+          "max_benefit": 300000,
+          "source_url": "https://jetour-artex.ru/models/t1"
+        },
+        {
+          "model": "T2",
+          "price": 3699000,
+          "max_benefit": 490000,
+          "source_url": "https://jetour-artex.ru/models/t2"
+        },
+        {
+          "model": "DASHING",
+          "price": 2159900,
+          "max_benefit": 600000,
+          "source_url": "https://jetour-artex.ru/models/dashing"
+        },
+        {
+          "model": "X70+",
+          "price": 2489900,
+          "max_benefit": 560000,
+          "source_url": "https://jetour-artex.ru/models/x70plus"
+        },
+        {
+          "model": "X90+",
+          "price": 3999000,
+          "max_benefit": 200000,
+          "source_url": "https://jetour-artex.ru/models/x90plus"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "ok",
+      "seconds": 52,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T2: 3 699 000 ₽/440 000 ₽ → 3 699 000 ₽/490 000 ₽"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T2",
+          "was": {
+            "price": 3699000,
+            "max_benefit": 440000
+          },
+          "now": {
+            "price": 3699000,
+            "max_benefit": 490000
           }
         }
       ]
@@ -3011,7 +3062,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 102,
+      "seconds": 90,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -3101,7 +3152,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 69,
+      "seconds": 62,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -3197,7 +3248,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 90,
+      "seconds": 65,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -3545,7 +3596,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 70,
+      "seconds": 60,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
@@ -3779,7 +3830,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 42,
+      "seconds": 26,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -3840,7 +3891,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 30,
+      "seconds": 24,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -3914,7 +3965,7 @@
         "(2) Выгода по программе «Трейд-ин» — это единовременная и разовая скидка, предоставляется Дилером покупателю от розничной цены автомобиля, п"
       ],
       "text_mode": true,
-      "seconds": 37,
+      "seconds": 26,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -3979,7 +4030,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 24,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4034,7 +4085,7 @@
         "Мечтаете стать обладателем новой машины, но не получается быстро продать старую – воспользуйтесь системой Трейд-Ин в нашем автоцентре. Оценк"
       ],
       "text_mode": true,
-      "seconds": 42,
+      "seconds": 26,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4090,7 +4141,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 27,
+      "seconds": 23,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4191,7 +4242,7 @@
         "На сайте указаны цены с учетом максимальных выгод при покупке автомобиля в кредит и по программе трейд-ин. Подробную информацию об условиях "
       ],
       "text_mode": true,
-      "seconds": 13,
+      "seconds": 12,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -4295,7 +4346,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 29,
+      "seconds": 25,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4353,7 +4404,7 @@
         "ОТ 2 470 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 62,
+      "seconds": 57,
       "pages_opened": 8,
       "change": "Первая проверка",
       "changes": [
@@ -4412,7 +4463,7 @@
         "Кредитные программы"
       ],
       "text_mode": true,
-      "seconds": 19,
+      "seconds": 18,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -4498,7 +4549,7 @@
         "Выгодное предложение"
       ],
       "text_mode": true,
-      "seconds": 30,
+      "seconds": 26,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4592,7 +4643,7 @@
         "2 445 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 38,
+      "seconds": 32,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4667,7 +4718,7 @@
         "Выгодное предложение"
       ],
       "text_mode": true,
-      "seconds": 29,
+      "seconds": 25,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4752,7 +4803,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 42,
+      "seconds": 33,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4769,37 +4820,37 @@
         {
           "model": "T4",
           "price": 2219000,
-          "max_benefit": 2016000,
+          "max_benefit": "-",
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "T4L",
           "price": 2259000,
-          "max_benefit": 1890000,
+          "max_benefit": "-",
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "T7",
           "price": 2935000,
-          "max_benefit": 2689300,
+          "max_benefit": "-",
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "T8",
           "price": 3610000,
-          "max_benefit": 2851900,
+          "max_benefit": "-",
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "CHERY TIGGO 9, 2025.",
           "price": 4540000,
-          "max_benefit": 3949800,
+          "max_benefit": "-",
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "CHERY ARRIZO 8",
           "price": 2865000,
-          "max_benefit": 2521200,
+          "max_benefit": "-",
           "source_url": "https://amk-chery.ru/"
         }
       ],
@@ -4840,7 +4891,7 @@
         "Кешбек до 30 000₽"
       ],
       "text_mode": true,
-      "seconds": 19,
+      "seconds": 18,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -4857,7 +4908,7 @@
         {
           "model": "VESTA",
           "price": "-",
-          "max_benefit": 1550400,
+          "max_benefit": "-",
           "source_url": "https://amk-sam.ru/"
         },
         {
@@ -4875,13 +4926,13 @@
         {
           "model": "NIVA TRAVEL",
           "price": "-",
-          "max_benefit": 1218400,
+          "max_benefit": "-",
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "LARGUS",
           "price": "-",
-          "max_benefit": 1277600,
+          "max_benefit": "-",
           "source_url": "https://amk-sam.ru/"
         },
         {
@@ -4893,7 +4944,7 @@
         {
           "model": "XCITE X-CROSS 8",
           "price": "-",
-          "max_benefit": 2809000,
+          "max_benefit": "-",
           "source_url": "https://amk-sam.ru/"
         }
       ],
@@ -4932,7 +4983,7 @@
         "УДОБНАЯ РАССРОЧКА"
       ],
       "text_mode": true,
-      "seconds": 11,
+      "seconds": 12,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -4963,7 +5014,7 @@
         "Автокредит от 0,01%"
       ],
       "text_mode": true,
-      "seconds": 37,
+      "seconds": 35,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -5045,7 +5096,7 @@
         "3 899 900 ₽"
       ],
       "text_mode": true,
-      "seconds": 73,
+      "seconds": 56,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5100,15 +5151,14 @@
         "В кредит от 0.01%",
         "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 13 900 ₽",
         "НА ВЫГОДНЫХ УСЛОВИЯХ",
-        "ОТ 2 470 000 ₽",
-        "Выгодный обмен автомобиля"
+        "ОТ 2 470 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 76,
+      "seconds": 63,
       "pages_opened": 8,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 13"
+        "Записан текст акций: строк 12"
       ]
     },
     {
@@ -5252,7 +5302,7 @@
         "Преимущество до 1 050 000 ₽**"
       ],
       "text_mode": true,
-      "seconds": 34,
+      "seconds": 27,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5300,14 +5350,15 @@
         "Полезные подарки и бонусы в автосалоне от дилера на Ваш выбор",
         "ВЫГОДА 20% ДЛЯ ПЕРВЫХ КЛИЕНТОВ",
         "Выгодные спец предложения и сезонные акции;",
-        "* Подробные условия акции"
+        "* Подробные условия акции",
+        "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 34,
+      "seconds": 27,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 11"
+        "Записан текст акций: строк 12"
       ]
     },
     {
@@ -5399,7 +5450,7 @@
         "Узнать цену по акции"
       ],
       "text_mode": true,
-      "seconds": 31,
+      "seconds": 25,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5427,31 +5478,31 @@
         },
         {
           "model": "ATLAS",
-          "price": 420000,
+          "price": "-",
           "max_benefit": 290000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
         {
           "model": "MONJARO",
-          "price": 340000,
+          "price": "-",
           "max_benefit": 630000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
         {
           "model": "EX5",
-          "price": 500000,
+          "price": "-",
           "max_benefit": 840000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
         {
           "model": "EX5 ГИБРИД",
-          "price": 400000,
+          "price": "-",
           "max_benefit": 450000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
         {
           "model": "PREFACE",
-          "price": 300000,
+          "price": "-",
           "max_benefit": 325000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
@@ -5463,7 +5514,7 @@
         }
       ],
       "screens": [],
-      "comment": "MONJARO: выгода больше цены; EX5: выгода больше цены; EX5 ГИБРИД: выгода больше цены; PREFACE: выгода больше цены; Не нашлась цена: НОВЫЙ COOLRAY, CITYRAY, OKAVANGO; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "comment": "Не нашлась цена: НОВЫЙ COOLRAY, CITYRAY, ATLAS, MONJARO, EX5, EX5 ГИБРИД, PREFACE, OKAVANGO; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
       "template": "*",
       "status": "needs_check",
       "promo_lines": [
@@ -5499,7 +5550,7 @@
         "Выгода до 325 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 48,
+      "seconds": 38,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5532,7 +5583,7 @@
         "Трейд-ин с дополнительной выгодой"
       ],
       "text_mode": true,
-      "seconds": 22,
+      "seconds": 19,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -5618,7 +5669,7 @@
         "Рассчитать кредит"
       ],
       "text_mode": true,
-      "seconds": 36,
+      "seconds": 26,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -5649,7 +5700,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 36,
+      "seconds": 32,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -5700,7 +5751,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 69,
+      "seconds": 54,
       "pages_opened": 8,
       "change": "Не изменилось",
       "changes": [],
@@ -5742,7 +5793,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 23,
+      "seconds": 18,
       "pages_opened": 3,
       "change": "Не изменилось",
       "changes": [],
@@ -5792,7 +5843,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 57,
+      "seconds": 66,
       "pages_opened": 8,
       "change": "Не изменилось",
       "changes": [],
@@ -5864,7 +5915,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 131,
+      "seconds": 129,
       "pages_opened": 12,
       "change": "Не изменилось",
       "changes": [],
@@ -5914,7 +5965,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 53,
+      "seconds": 49,
       "pages_opened": 8,
       "change": "Не изменилось",
       "changes": [],
@@ -5956,7 +6007,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 20,
+      "seconds": 17,
       "pages_opened": 3,
       "change": "Не изменилось",
       "changes": [],
@@ -6028,7 +6079,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 138,
+      "seconds": 118,
       "pages_opened": 12,
       "change": "Не изменилось",
       "changes": [],
@@ -6066,7 +6117,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 73,
+      "seconds": 61,
       "pages_opened": 6,
       "change": "Не изменилось",
       "changes": [],
@@ -6116,8 +6167,80 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 63,
+      "seconds": 53,
       "pages_opened": 8,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 164,
+      "company": "Гак Артекс Ростов-На-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-artex-rnd.ru",
+      "brand": "GAC",
+      "models": [
+        {
+          "model": "GS4",
+          "price": 2999000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/gs4?mobile"
+        },
+        {
+          "model": "GS8",
+          "price": 4049000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/new-gs8?mobile"
+        },
+        {
+          "model": "НОВЫЙ AION V",
+          "price": 4099000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/aion-v?mobile"
+        },
+        {
+          "model": "S7",
+          "price": 5699000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/s7?mobile"
+        },
+        {
+          "model": "НОВЫЙ GAC HYPTEC HT",
+          "price": 5699000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/hyptec-ht?mobile"
+        },
+        {
+          "model": "НОВЫЙ GAC S9",
+          "price": 6599000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/s9?mobile"
+        },
+        {
+          "model": "Empow",
+          "price": 2799000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/empow?mobile"
+        },
+        {
+          "model": "M8",
+          "price": 6249999,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/m8?mobile"
+        },
+        {
+          "model": "GS3",
+          "price": 2449000,
+          "max_benefit": "-",
+          "source_url": "https://gac-artex-rnd.ru/models/gs3?main_menu"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "ok",
+      "seconds": 111,
+      "pages_opened": 12,
       "change": "Не изменилось",
       "changes": [],
       "diff": []
@@ -6152,7 +6275,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 57,
+      "seconds": 53,
       "pages_opened": 6,
       "change": "Не изменилось",
       "changes": [],
@@ -6194,26 +6317,11 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 19,
+      "seconds": 17,
       "pages_opened": 3,
       "change": "Не изменилось",
       "changes": [],
       "diff": []
-    },
-    {
-      "id": 27,
-      "company": "Гак Автоимпорт Лендинг Рязань",
-      "responsible": "Савастьянов А.А.",
-      "site": "sale.gac-autoimport.ru",
-      "brand": "GAC",
-      "models": [],
-      "screens": [],
-      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
-      "status": "no_scenario",
-      "seconds": 180,
-      "pages_opened": 4,
-      "change": "Нет сценария",
-      "changes": []
     },
     {
       "id": 50,
@@ -6225,7 +6333,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 179,
+      "seconds": 178,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -6236,6 +6344,21 @@
       "responsible": "Савастьянов А.А.",
       "site": "bestune-sevmarka.ru",
       "brand": "Bestune",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 179,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 166,
+      "company": "Belgee-artex.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-artex.ru",
+      "brand": "Belgee",
       "models": [],
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
@@ -6255,7 +6378,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 179,
+      "seconds": 178,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -6270,7 +6393,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 180,
+      "seconds": 178,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
