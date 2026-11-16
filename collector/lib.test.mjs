@@ -161,3 +161,8 @@ test2('diffLines и decideChange: сравнение по тексту', () => {
   assert2.equal(decide(site, { promo_lines: ['новая скидка'] }).change, 'Не изменилось');
   assert2.equal(decide(site, null).change, 'Первая проверка');
 });
+
+test('«по выгодной цене» — не выгода', () => {
+  assert.deepEqual(parseBenefits('Chery Tiggo 4 по выгодной цене 1 890 000 ₽'), []);
+  assert.deepEqual(parseBenefits('Выгода до 250 000 ₽, выгодное предложение 1 990 000 ₽'), [250000]);
+});

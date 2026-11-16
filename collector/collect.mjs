@@ -341,6 +341,21 @@ async function collectSiteWith(browser, site) {
         notes.push(`Не открылась ${pageCfg.url}: ${e.message.split('\n')[0]}`);
       }
     }
+    // Шаблон движка ничего не нашёл (сайт поменял вёрстку): пробуем автопоиск карточек на главной.
+    if (!site.auto && !rows.some((r) => r.model)) {
+      try {
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, auto: true }, 'auto');
+        anyOpened = true;
+        if (res.models.length) {
+          autoUsed = true;
+          rows.push(...res.models);
+          log(`  [${site.id}] шаблон не сработал, автопоиск нашёл карточки моделей: ${res.models.length}`);
+          for (let i = notes.length - 1; i >= 0; i -= 1) if (/не нашлось ни одной модели|не нашлось ссылок на модели/.test(notes[i])) notes.splice(i, 1);
+        }
+      } catch (e) {
+        notes.push(`Автопоиск моделей: ${e.message.split('\n')[0]}`);
+      }
+    }
     // Лендинг без списка моделей (Tilda и похожие): берём с главной самую низкую цену и самую большую выгоду по всему сайту.
     // Это не цены по моделям, но по ним видно, когда на сайте поменялось предложение.
     let byAi = false;
