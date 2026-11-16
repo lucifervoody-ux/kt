@@ -1,15 +1,15 @@
 {
   "date": "2026-11-16",
-  "checked_at": "2026-11-16T05:52:44.597Z",
+  "checked_at": "2026-11-16T06:13:49.875Z",
   "previous_date": "2026-11-03",
-  "total_seconds": 854,
+  "total_seconds": 731,
   "parallel": 6,
   "summary": {
     "Не изменилось": 28,
     "Изменилось": 13,
-    "Требует проверки": 13,
+    "Требует проверки": 12,
     "Ошибка доступа": 8,
-    "Первая проверка": 24,
+    "Первая проверка": 25,
     "Нет сценария": 7
   },
   "sites": [
@@ -126,6 +126,30 @@
       "pages_opened": 0
     },
     {
+      "id": 27,
+      "company": "Гак Автоимпорт Лендинг Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "sale.gac-autoimport.ru",
+      "brand": "GAC",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sale.gac-autoimport.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://sale.gac-autoimport.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 5,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
       "id": 29,
       "company": "АВТОИМПОРТ KGM РЯЗАНЬ",
       "responsible": "Савастьянов А.А.",
@@ -163,7 +187,7 @@
       "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 59,
+      "seconds": 53,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -206,7 +230,7 @@
       "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 77,
+      "seconds": 44,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -224,8 +248,8 @@
       "comment": "Модели не найдены; На странице https://jac-beta.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "needs_check",
-      "seconds": 16,
-      "pages_opened": 1,
+      "seconds": 17,
+      "pages_opened": 2,
       "change": "Требует проверки",
       "changes": []
     },
@@ -248,7 +272,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 12,
+      "seconds": 9,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -272,7 +296,7 @@
       "template": "Tilda",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 15,
+      "seconds": 10,
       "pages_opened": 3,
       "change": "Требует проверки",
       "changes": []
@@ -296,7 +320,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 7,
+      "seconds": 6,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -320,24 +344,8 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 7,
+      "seconds": 6,
       "pages_opened": 5,
-      "change": "Требует проверки",
-      "changes": []
-    },
-    {
-      "id": 151,
-      "company": "[ct]Амр Джетур Саратов",
-      "responsible": "Савастьянов А.А.",
-      "site": "jetour-amr.ru",
-      "brand": "Jetour",
-      "models": [],
-      "screens": [],
-      "comment": "Модели не найдены; Собрано по общему шаблону движка Каскад",
-      "template": "Каскад",
-      "status": "needs_check",
-      "seconds": 26,
-      "pages_opened": 1,
       "change": "Требует проверки",
       "changes": []
     },
@@ -367,7 +375,7 @@
       "comment": "Не нашлась цена: S06, S07; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 27,
+      "seconds": 20,
       "pages_opened": 3,
       "change": "Требует проверки",
       "changes": []
@@ -385,8 +393,8 @@
       "comment": "Модели не найдены; На странице https://solaris-vip-auto.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "needs_check",
-      "seconds": 14,
-      "pages_opened": 1,
+      "seconds": 28,
+      "pages_opened": 2,
       "change": "Требует проверки",
       "changes": []
     },
@@ -422,26 +430,8 @@
       "comment": "Не нашлась цена: S09; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 55,
+      "seconds": 43,
       "pages_opened": 4,
-      "change": "Требует проверки",
-      "changes": []
-    },
-    {
-      "id": 214,
-      "company": "Дав Авто Лада Лендинг",
-      "responsible": "Савастьянов А.А.",
-      "site": "lada-davauto.ru",
-      "brand": "LADA",
-      "models": [],
-      "screens": [
-        "data/screens/214/0.jpg"
-      ],
-      "comment": "Модели не найдены; На странице https://lada-davauto.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
-      "template": "Каскад",
-      "status": "needs_check",
-      "seconds": 13,
-      "pages_opened": 1,
       "change": "Требует проверки",
       "changes": []
     },
@@ -464,7 +454,7 @@
       "template": "*",
       "status": "needs_check",
       "promo_lines": [],
-      "seconds": 7,
+      "seconds": 6,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -517,7 +507,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 72,
+      "seconds": 85,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -580,7 +570,7 @@
       "comment": "Собрано по общему шаблону движка УАЗ-дилер",
       "template": "УАЗ-дилер",
       "status": "ok",
-      "seconds": 18,
+      "seconds": 20,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -689,7 +679,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 55,
+      "seconds": 36,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -776,7 +766,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 55,
+      "seconds": 39,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -861,7 +851,7 @@
       "comment": "Собрано по общему шаблону движка УАЗ-дилер",
       "template": "УАЗ-дилер",
       "status": "ok",
-      "seconds": 20,
+      "seconds": 17,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -962,7 +952,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 67,
+      "seconds": 44,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -1049,7 +1039,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 81,
+      "seconds": 30,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -1136,7 +1126,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 58,
+      "seconds": 33,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -1223,7 +1213,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 56,
+      "seconds": 44,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -1302,7 +1292,7 @@
       "comment": "Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "ok",
-      "seconds": 12,
+      "seconds": 15,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -1432,7 +1422,7 @@
       "comment": "Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "ok",
-      "seconds": 19,
+      "seconds": 18,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -1608,7 +1598,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 58,
+      "seconds": 39,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -1695,7 +1685,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 60,
+      "seconds": 39,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -1818,7 +1808,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 32,
+      "seconds": 24,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -1879,7 +1869,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 30,
+      "seconds": 21,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -1953,7 +1943,7 @@
         "(2) Выгода по программе «Трейд-ин» — это единовременная и разовая скидка, предоставляется Дилером покупателю от розничной цены автомобиля, п"
       ],
       "text_mode": true,
-      "seconds": 31,
+      "seconds": 34,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -2006,7 +1996,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 37,
+      "seconds": 28,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -2061,7 +2051,7 @@
         "Мечтаете стать обладателем новой машины, но не получается быстро продать старую – воспользуйтесь системой Трейд-Ин в нашем автоцентре. Оценк"
       ],
       "text_mode": true,
-      "seconds": 38,
+      "seconds": 21,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -2117,7 +2107,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 28,
+      "seconds": 21,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -2218,7 +2208,7 @@
         "На сайте указаны цены с учетом максимальных выгод при покупке автомобиля в кредит и по программе трейд-ин. Подробную информацию об условиях "
       ],
       "text_mode": true,
-      "seconds": 12,
+      "seconds": 11,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -2310,7 +2300,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 91,
+      "seconds": 69,
       "pages_opened": 14,
       "change": "Первая проверка",
       "changes": [
@@ -2368,7 +2358,7 @@
         "ОТ 2 470 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 63,
+      "seconds": 53,
       "pages_opened": 8,
       "change": "Первая проверка",
       "changes": [
@@ -2421,67 +2411,11 @@
         "Кредитные программы"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 29,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
         "Записан текст акций: строк 25"
-      ]
-    },
-    {
-      "id": 112,
-      "company": "АЕМ Лендинг Тэнк",
-      "responsible": "Савастьянов А.А.",
-      "site": "promo.aem-tank.ru",
-      "brand": "TANK",
-      "models": [
-        {
-          "model": "Весь сайт",
-          "price": "-",
-          "max_benefit": "-",
-          "source_url": "https://promo.aem-tank.ru"
-        }
-      ],
-      "screens": [],
-      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://promo.aem-tank.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
-      "template": "*",
-      "status": "needs_check",
-      "promo_lines": [
-        "Выгода на Tank до 850 000 ₽ до 30.11",
-        "В кредит или лизинг от 22825 ₽/мес от 0.01%*",
-        "Доп. оборудование в подарок",
-        "Узнать цену по акции",
-        "Выгода до 400 000 ₽",
-        "Выгода до 700 000 ₽",
-        "Выгода до 850 000 ₽",
-        "Выгода до 500 000 ₽",
-        "Выгода до",
-        "400 000 ₽",
-        "Автокредит от 0,01%",
-        "Платеж от 19 000 ₽/месяц",
-        "Бонус при обмене авто",
-        "Доп. оборудование в подарок!",
-        "700 000 ₽",
-        "Платеж от 37 000 ₽/месяц",
-        "Доп. скидка от дилера",
-        "850 000 ₽",
-        "Платеж от 43 000 ₽/месяц",
-        "500 000 ₽",
-        "Платеж от 75 000 ₽/месяц",
-        "350 000 ₽",
-        "Выгода при обмене до 350 000 ₽",
-        "Мы перезвоним вам и предложим наиболее выгодные условия",
-        "Прекрасный салон. Прекрасные менеджеры. Особенно Павел. Всё честно, включая оценку по трейд-ин (оценивал его коллега), быстро, информативно.",
-        "Условия акций",
-        "Выгодный обмен автомобиля",
-        "Выгодное предложение"
-      ],
-      "text_mode": true,
-      "seconds": 41,
-      "pages_opened": 5,
-      "change": "Первая проверка",
-      "changes": [
-        "Записан текст акций: строк 28"
       ]
     },
     {
@@ -2571,7 +2505,7 @@
         "2 445 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 40,
+      "seconds": 28,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -2586,20 +2520,50 @@
       "brand": "Chery",
       "models": [
         {
-          "model": "TIGGO 9",
-          "price": 700000,
-          "max_benefit": 700000,
-          "source_url": "https://cherypulkovo.ru/models/tiggo_9/"
+          "model": "T4L",
+          "price": "-",
+          "max_benefit": 450000,
+          "source_url": "https://cherypulkovo.ru/"
         },
         {
-          "model": "НОВЫЙ CHERY ARRIZO 8",
-          "price": 500000,
+          "model": "T7",
+          "price": "-",
+          "max_benefit": 550000,
+          "source_url": "https://cherypulkovo.ru/"
+        },
+        {
+          "model": "T8",
+          "price": "-",
+          "max_benefit": 680000,
+          "source_url": "https://cherypulkovo.ru/"
+        },
+        {
+          "model": "T9",
+          "price": "-",
+          "max_benefit": 700000,
+          "source_url": "https://cherypulkovo.ru/"
+        },
+        {
+          "model": "A8",
+          "price": "-",
+          "max_benefit": 550000,
+          "source_url": "https://cherypulkovo.ru/"
+        },
+        {
+          "model": "ТИГГО 9",
+          "price": "-",
+          "max_benefit": 700000,
+          "source_url": "https://cherypulkovo.ru/"
+        },
+        {
+          "model": "АРРИЗО 8",
+          "price": "-",
           "max_benefit": 500000,
-          "source_url": "https://cherypulkovo.ru/models/arrizo_8/"
+          "source_url": "https://cherypulkovo.ru/"
         }
       ],
       "screens": [],
-      "comment": "Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Сравнение по тексту акций главной страницы",
+      "comment": "Не нашлась цена: T4L, T7, T8, T9, A8, ТИГГО 9, АРРИЗО 8; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
       "template": "*",
       "status": "needs_check",
       "promo_lines": [
@@ -2616,8 +2580,8 @@
         "Выгодное предложение"
       ],
       "text_mode": true,
-      "seconds": 46,
-      "pages_opened": 6,
+      "seconds": 21,
+      "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
         "Записан текст акций: строк 11"
@@ -2631,14 +2595,50 @@
       "brand": "Chery",
       "models": [
         {
-          "model": "Весь сайт",
+          "model": "ТЕНЕТ T4L",
+          "price": "-",
+          "max_benefit": 200000,
+          "source_url": "https://chery-spb-pulkovo.ru/"
+        },
+        {
+          "model": "ТЕНЕТ T7",
           "price": "-",
           "max_benefit": "-",
-          "source_url": "https://chery-spb-pulkovo.ru"
+          "source_url": "https://chery-spb-pulkovo.ru/"
+        },
+        {
+          "model": "ТЕНЕТ Т8",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://chery-spb-pulkovo.ru/"
+        },
+        {
+          "model": "ТЕНЕТ Т9",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://chery-spb-pulkovo.ru/"
+        },
+        {
+          "model": "ТЕНЕТ А8",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://chery-spb-pulkovo.ru/"
+        },
+        {
+          "model": "АРРИЗО 8",
+          "price": "-",
+          "max_benefit": 200000,
+          "source_url": "https://chery-spb-pulkovo.ru/"
+        },
+        {
+          "model": "ТИГГО 9",
+          "price": "-",
+          "max_benefit": 200000,
+          "source_url": "https://chery-spb-pulkovo.ru/"
         }
       ],
       "screens": [],
-      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://chery-spb-pulkovo.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "comment": "Не нашлась цена: ТЕНЕТ T4L, ТЕНЕТ T7, ТЕНЕТ Т8, ТЕНЕТ Т9, ТЕНЕТ А8, АРРИЗО 8, ТИГГО 9; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
       "template": "*",
       "status": "needs_check",
       "promo_lines": [
@@ -2661,15 +2661,14 @@
         "2 200 000₽",
         "Срок кредита",
         "Очень качественная работа, которая выполнена настоящими профессионалами. Помогли с решением, с очень не простой задачей. Очень пордовало быс",
-        "Цена с учетом маркетинговых акций. Не является публичной офертой. Подробности узнавайте в отделе продаж ЧЕРИ ЦЕНТР Пулково.",
-        "Выгодный обмен автомобиля"
+        "Цена с учетом маркетинговых акций. Не является публичной офертой. Подробности узнавайте в отделе продаж ЧЕРИ ЦЕНТР Пулково."
       ],
       "text_mode": true,
-      "seconds": 69,
-      "pages_opened": 5,
+      "seconds": 31,
+      "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 21"
+        "Записан текст акций: строк 20"
       ]
     },
     {
@@ -2753,7 +2752,7 @@
         "Кешбек до 30 000₽"
       ],
       "text_mode": true,
-      "seconds": 21,
+      "seconds": 16,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -2809,7 +2808,7 @@
         "УДОБНАЯ РАССРОЧКА"
       ],
       "text_mode": true,
-      "seconds": 18,
+      "seconds": 13,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -2840,11 +2839,93 @@
         "Автокредит от 0,01%"
       ],
       "text_mode": true,
-      "seconds": 39,
+      "seconds": 27,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
         "Записан текст акций: строк 3"
+      ]
+    },
+    {
+      "id": 151,
+      "company": "[ct]Амр Джетур Саратов",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-amr.ru",
+      "brand": "Jetour",
+      "models": [
+        {
+          "model": "DASHING",
+          "price": 2109900,
+          "max_benefit": 840000,
+          "source_url": "https://jetour-amr.ru"
+        },
+        {
+          "model": "Внедорожник 2024 года",
+          "price": 3999000,
+          "max_benefit": 300000,
+          "source_url": "https://jetour-amr.ru"
+        },
+        {
+          "model": "T1",
+          "price": 3799900,
+          "max_benefit": 300000,
+          "source_url": "https://jetour-amr.ru"
+        },
+        {
+          "model": "X70+",
+          "price": 2549000,
+          "max_benefit": 500000,
+          "source_url": "https://jetour-amr.ru"
+        },
+        {
+          "model": "X90+",
+          "price": 3479900,
+          "max_benefit": 400000,
+          "source_url": "https://jetour-amr.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Каскад; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "Каскад",
+      "status": "needs_check",
+      "promo_lines": [
+        "У нас есть вариант, который будет выгоднее!",
+        "Выгода на JETOUR DASHING до 840 000 рублей",
+        "ОТ 2 109 900 РУБ",
+        "Максимальная выгода до 840 000 ₽",
+        "Рассрочка¹ 0,01% на 8 лет",
+        "КАСКО В ПОДАРОК",
+        "Узнать цену по акции ⭢",
+        "Рассчитать рассрочку ⭢",
+        "ОТ 3 999 000 РУБ",
+        "Максимальная выгода до 300 000 ₽",
+        "ОТ 3 799 900 РУБ",
+        "ОТ 2 549 000 РУБ*",
+        "Максимальная выгода до 500 000 ₽",
+        "ОТ 3 479 900 РУБ",
+        "Максимальная выгода до 400 000 ₽",
+        "2 949 900 ₽",
+        "2 399 900 ₽",
+        "4 199 900 ₽",
+        "3 999 000 ₽",
+        "3 099 000 ₽",
+        "2 599 000 ₽",
+        "4 449 000 ₽",
+        "2 709 900 ₽",
+        "2 209 900 ₽",
+        "3 749 900 ₽",
+        "2 529 900 ₽",
+        "3 399 000 ₽",
+        "2 839 000 ₽",
+        "4 249 900 ₽",
+        "3 899 900 ₽"
+      ],
+      "text_mode": true,
+      "seconds": 42,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 30"
       ]
     },
     {
@@ -2898,7 +2979,7 @@
         "ОТ 2 470 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 67,
+      "seconds": 57,
       "pages_opened": 8,
       "change": "Первая проверка",
       "changes": [
@@ -2956,7 +3037,7 @@
         "Преимущество до 1 050 000 ₽**"
       ],
       "text_mode": true,
-      "seconds": 47,
+      "seconds": 30,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -2992,14 +3073,117 @@
         "Полезные подарки и бонусы в автосалоне от дилера на Ваш выбор",
         "ВЫГОДА 20% ДЛЯ ПЕРВЫХ КЛИЕНТОВ",
         "Выгодные спец предложения и сезонные акции;",
-        "* Подробные условия акции"
+        "* Подробные условия акции",
+        "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 52,
+      "seconds": 37,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 11"
+        "Записан текст акций: строк 12"
+      ]
+    },
+    {
+      "id": 214,
+      "company": "Дав Авто Лада Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "lada-davauto.ru",
+      "brand": "LADA",
+      "models": [
+        {
+          "model": "Granta",
+          "price": 695000,
+          "max_benefit": 200000,
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "Vesta",
+          "price": 1323000,
+          "max_benefit": 300000,
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "Iskra",
+          "price": 1220000,
+          "max_benefit": "-",
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "Aura",
+          "price": 1596000,
+          "max_benefit": 750000,
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "Largus",
+          "price": 1017000,
+          "max_benefit": 200000,
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "Niva Travel",
+          "price": 1114000,
+          "max_benefit": 100000,
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "Niva Legend",
+          "price": 979000,
+          "max_benefit": "-",
+          "source_url": "https://lada-davauto.ru"
+        },
+        {
+          "model": "SKM M7",
+          "price": "-",
+          "max_benefit": 100000,
+          "source_url": "https://lada-davauto.ru"
+        }
+      ],
+      "screens": [
+        "data/screens/214/0.jpg"
+      ],
+      "comment": "Не нашлась цена: SKM M7; Собрано по общему шаблону движка Каскад; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "Каскад",
+      "status": "needs_check",
+      "promo_lines": [
+        "ДО КОНЦА СПЕЦПРЕДЛОЖЕНИЯ:",
+        "ОТ 695 000 РУБ",
+        "ЛЕГКИЙ ОБМЕН С ВЫГОДОЙ ДО 200 000 ₽",
+        "ОТ 4 200 ₽/МЕС",
+        "ДОП. ОБОРУДОВАНИЕ В ПОДАРОК!",
+        "КРЕДИТ НА 10 ЛЕТ ПО ЧЕСТНОЙ СТАВКЕ 7,9%",
+        "ОТ 1 323 000 РУБ",
+        "ЛЕГКИЙ ОБМЕН С ВЫГОДОЙ ДО 300 000 ₽",
+        "ОТ 8 500 ₽/МЕС",
+        "ГАЗОВОЕ ОБОРУДОВАНИЕ В ПОДАРОК",
+        "ОТ 1 220 000 РУБ",
+        "ОТ 6 900 ₽/МЕС",
+        "ГИБКИЕ УСЛОВИЯ КРЕДИТОВАНИЯ ОТ 1 ГОДА ДО 10 ЛЕТ",
+        "ОТ 1 596 000 РУБ",
+        "ВЫГОДА ДО 750 000 ₽",
+        "ОТ 15 200 ₽/МЕС",
+        "ОТ 1 017 000 РУБ",
+        "ОТ 7 700 ₽/МЕС",
+        "ОТ 1 114 000 РУБ",
+        "ЛЕГКИЙ ОБМЕН С ВЫГОДОЙ ДО 100 000 ₽",
+        "ОТ 7 100 ₽/МЕС",
+        "ОХРАННАЯ СИСТЕМА И ОРИГИНАЛЬНЫЕ АКСЕССУАРЫ В ПОДАРОК*",
+        "ОТ 979 000 РУБ",
+        "СКИДКА ПРИ ОБМЕНЕ 100 000Р.",
+        "0% ПЕРВЫЙ ВЗНОС ПО КРЕДИТУ ИЛИ ЛИЗИНГУ",
+        "LADA С ВЫГОДОЙ ДО 750 000 РУБ.",
+        "ВЫБИРАТЬ — ВЫГОДНО!",
+        "LADA ISKRA ЗА 6 900 РУБ. В МЕСЯЦ",
+        "LADA VESTA ОТ 1 323 000 РУБ.",
+        "Узнать цену по акции"
+      ],
+      "text_mode": true,
+      "seconds": 21,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 30"
       ]
     },
     {
@@ -3010,14 +3194,56 @@
       "brand": "Geely",
       "models": [
         {
-          "model": "Весь сайт",
+          "model": "НОВЫЙ COOLRAY",
           "price": "-",
+          "max_benefit": 150000,
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 455000,
+          "max_benefit": 455000,
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 420000,
           "max_benefit": "-",
-          "source_url": "https://cars.geely-davauto.ru"
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 340000,
+          "max_benefit": "-",
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "EX5",
+          "price": 500000,
+          "max_benefit": 840000,
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "EX5 ГИБРИД",
+          "price": 400000,
+          "max_benefit": "-",
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 300000,
+          "max_benefit": "-",
+          "source_url": "https://cars.geely-davauto.ru/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 350000,
+          "max_benefit": 350000,
+          "source_url": "https://cars.geely-davauto.ru/"
         }
       ],
       "screens": [],
-      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://cars.geely-davauto.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "comment": "EX5: выгода больше цены; Не нашлась цена: НОВЫЙ COOLRAY; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
       "template": "*",
       "status": "needs_check",
       "promo_lines": [
@@ -3053,8 +3279,8 @@
         "Выгода до 325 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 64,
-      "pages_opened": 5,
+      "seconds": 56,
+      "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
         "Записан текст акций: строк 30"
@@ -3086,7 +3312,7 @@
         "Трейд-ин с дополнительной выгодой"
       ],
       "text_mode": true,
-      "seconds": 24,
+      "seconds": 16,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -3172,7 +3398,7 @@
         "Рассчитать кредит"
       ],
       "text_mode": true,
-      "seconds": 27,
+      "seconds": 24,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -3203,7 +3429,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 51,
+      "seconds": 30,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -3254,7 +3480,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 49,
+      "seconds": 32,
       "pages_opened": 7,
       "change": "Не изменилось",
       "changes": [],
@@ -3296,7 +3522,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 18,
+      "seconds": 12,
       "pages_opened": 2,
       "change": "Не изменилось",
       "changes": [],
@@ -3364,7 +3590,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 118,
+      "seconds": 90,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -3432,7 +3658,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 101,
+      "seconds": 62,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -3482,7 +3708,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 64,
+      "seconds": 52,
       "pages_opened": 7,
       "change": "Не изменилось",
       "changes": [],
@@ -3554,7 +3780,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 125,
+      "seconds": 109,
       "pages_opened": 11,
       "change": "Не изменилось",
       "changes": [],
@@ -3590,7 +3816,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 80,
+      "seconds": 69,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -3622,7 +3848,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 21,
+      "seconds": 13,
       "pages_opened": 4,
       "change": "Не изменилось",
       "changes": [],
@@ -3672,7 +3898,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 49,
+      "seconds": 40,
       "pages_opened": 7,
       "change": "Не изменилось",
       "changes": [],
@@ -3740,7 +3966,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 85,
+      "seconds": 73,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -3776,7 +4002,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 65,
+      "seconds": 61,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -3818,7 +4044,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 16,
+      "seconds": 11,
       "pages_opened": 2,
       "change": "Не изменилось",
       "changes": [],
@@ -3886,7 +4112,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 116,
+      "seconds": 106,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -3958,7 +4184,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 132,
+      "seconds": 96,
       "pages_opened": 11,
       "change": "Не изменилось",
       "changes": [],
@@ -3994,7 +4220,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 56,
+      "seconds": 58,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -4032,7 +4258,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 51,
+      "seconds": 61,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -4068,7 +4294,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 76,
+      "seconds": 70,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -4104,7 +4330,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 68,
+      "seconds": 59,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -4140,7 +4366,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 77,
+      "seconds": 61,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -4190,7 +4416,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 48,
+      "seconds": 35,
       "pages_opened": 7,
       "change": "Не изменилось",
       "changes": [],
@@ -4258,7 +4484,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 90,
+      "seconds": 60,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -4294,7 +4520,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 56,
+      "seconds": 47,
       "pages_opened": 5,
       "change": "Не изменилось",
       "changes": [],
@@ -4362,7 +4588,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 99,
+      "seconds": 81,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -4440,7 +4666,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 16,
+      "seconds": 11,
       "pages_opened": 2,
       "change": "Не изменилось",
       "changes": [],
@@ -4508,7 +4734,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 84,
+      "seconds": 59,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -4576,7 +4802,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 63,
+      "seconds": 47,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
@@ -4644,26 +4870,11 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 78,
+      "seconds": 52,
       "pages_opened": 10,
       "change": "Не изменилось",
       "changes": [],
       "diff": []
-    },
-    {
-      "id": 27,
-      "company": "Гак Автоимпорт Лендинг Рязань",
-      "responsible": "Савастьянов А.А.",
-      "site": "sale.gac-autoimport.ru",
-      "brand": "GAC",
-      "models": [],
-      "screens": [],
-      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
-      "status": "no_scenario",
-      "seconds": 179,
-      "pages_opened": 4,
-      "change": "Нет сценария",
-      "changes": []
     },
     {
       "id": 50,
@@ -4674,6 +4885,21 @@
       "models": [],
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 180,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 112,
+      "company": "АЕМ Лендинг Тэнк",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.aem-tank.ru",
+      "brand": "TANK",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «Не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
       "seconds": 180,
       "pages_opened": 4,
@@ -4705,7 +4931,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 3,
+      "seconds": 2,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -4720,7 +4946,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 178,
+      "seconds": 180,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -4750,7 +4976,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 3,
+      "seconds": 2,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
