@@ -1,15 +1,15 @@
 {
   "date": "2026-11-16",
-  "checked_at": "2026-11-16T07:01:33.775Z",
+  "checked_at": "2026-11-16T08:41:34.055Z",
   "previous_date": "2026-11-03",
-  "total_seconds": 802,
+  "total_seconds": 881,
   "parallel": 6,
   "summary": {
     "Не изменилось": 12,
     "Изменилось": 31,
-    "Требует проверки": 14,
+    "Требует проверки": 13,
     "Ошибка доступа": 5,
-    "Первая проверка": 26,
+    "Первая проверка": 27,
     "Нет сценария": 5
   },
   "sites": [
@@ -84,30 +84,6 @@
       "pages_opened": 0
     },
     {
-      "id": 27,
-      "company": "Гак Автоимпорт Лендинг Рязань",
-      "responsible": "Савастьянов А.А.",
-      "site": "sale.gac-autoimport.ru",
-      "brand": "GAC",
-      "models": [
-        {
-          "model": "Весь сайт",
-          "price": "-",
-          "max_benefit": "-",
-          "source_url": "https://sale.gac-autoimport.ru"
-        }
-      ],
-      "screens": [],
-      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://sale.gac-autoimport.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
-      "template": "*",
-      "status": "needs_check",
-      "promo_lines": [],
-      "seconds": 6,
-      "pages_opened": 5,
-      "change": "Требует проверки",
-      "changes": []
-    },
-    {
       "id": 29,
       "company": "АВТОИМПОРТ KGM РЯЗАНЬ",
       "responsible": "Савастьянов А.А.",
@@ -145,7 +121,7 @@
       "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 57,
+      "seconds": 68,
       "pages_opened": 6,
       "change": "Требует проверки",
       "changes": []
@@ -188,7 +164,7 @@
       "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 66,
+      "seconds": 81,
       "pages_opened": 6,
       "change": "Требует проверки",
       "changes": []
@@ -206,7 +182,7 @@
       "comment": "Модели не найдены; На странице https://jac-beta.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "needs_check",
-      "seconds": 20,
+      "seconds": 26,
       "pages_opened": 2,
       "change": "Требует проверки",
       "changes": []
@@ -357,7 +333,7 @@
       "comment": "Не нашлась цена: S06, S07; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 22,
+      "seconds": 24,
       "pages_opened": 4,
       "change": "Требует проверки",
       "changes": []
@@ -375,7 +351,7 @@
       "comment": "Модели не найдены; На странице https://solaris-vip-auto.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "needs_check",
-      "seconds": 18,
+      "seconds": 21,
       "pages_opened": 2,
       "change": "Требует проверки",
       "changes": []
@@ -412,7 +388,7 @@
       "comment": "Не нашлась цена: S09; Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "needs_check",
-      "seconds": 37,
+      "seconds": 60,
       "pages_opened": 5,
       "change": "Требует проверки",
       "changes": []
@@ -499,25 +475,25 @@
         {
           "model": "300",
           "price": 4099000,
-          "max_benefit": 200000,
+          "max_benefit": 500000,
           "source_url": "https://tank-avangard.ru/"
         },
         {
           "model": "400",
           "price": 5599000,
-          "max_benefit": 250000,
+          "max_benefit": 700000,
           "source_url": "https://tank-avangard.ru/"
         },
         {
           "model": "500",
           "price": 6399000,
-          "max_benefit": 300000,
+          "max_benefit": 800000,
           "source_url": "https://tank-avangard.ru/"
         },
         {
           "model": "700",
           "price": 10199000,
-          "max_benefit": 300000,
+          "max_benefit": 500000,
           "source_url": "https://tank-avangard.ru/"
         }
       ],
@@ -531,10 +507,10 @@
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
-        "300: 4 099 000 ₽/- → 4 099 000 ₽/200 000 ₽",
-        "400: 5 599 000 ₽/- → 5 599 000 ₽/250 000 ₽",
-        "500: 6 399 000 ₽/- → 6 399 000 ₽/300 000 ₽",
-        "700: 10 199 000 ₽/- → 10 199 000 ₽/300 000 ₽"
+        "300: 4 099 000 ₽/- → 4 099 000 ₽/500 000 ₽",
+        "400: 5 599 000 ₽/- → 5 599 000 ₽/700 000 ₽",
+        "500: 6 399 000 ₽/- → 6 399 000 ₽/800 000 ₽",
+        "700: 10 199 000 ₽/- → 10 199 000 ₽/500 000 ₽"
       ],
       "diff": [
         {
@@ -546,7 +522,7 @@
           },
           "now": {
             "price": 4099000,
-            "max_benefit": 200000
+            "max_benefit": 500000
           }
         },
         {
@@ -558,7 +534,7 @@
           },
           "now": {
             "price": 5599000,
-            "max_benefit": 250000
+            "max_benefit": 700000
           }
         },
         {
@@ -570,7 +546,7 @@
           },
           "now": {
             "price": 6399000,
-            "max_benefit": 300000
+            "max_benefit": 800000
           }
         },
         {
@@ -582,7 +558,7 @@
           },
           "now": {
             "price": 10199000,
-            "max_benefit": 300000
+            "max_benefit": 500000
           }
         }
       ]
@@ -603,7 +579,7 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": 2624990,
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://geely-avangard.ru/models/coolray-2026/"
         },
         {
@@ -615,31 +591,31 @@
         {
           "model": "ATLAS",
           "price": 3259990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-avangard.ru/models/geely-atlas-2024/"
         },
         {
           "model": "OKAVANGO",
           "price": 3514990,
-          "max_benefit": 350000,
+          "max_benefit": 700000,
           "source_url": "https://geely-avangard.ru/models/okavango/"
         },
         {
           "model": "MONJARO",
           "price": 4409990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-avangard.ru/models/monjaro/"
         },
         {
           "model": "PREFACE",
           "price": 3079990,
-          "max_benefit": 250000,
+          "max_benefit": 500000,
           "source_url": "https://geely-avangard.ru/models/geely-preface/"
         },
         {
           "model": "EX5",
           "price": 4099990,
-          "max_benefit": 200000,
+          "max_benefit": 400000,
           "source_url": "https://geely-avangard.ru/models/model-ex5/"
         }
       ],
@@ -649,18 +625,18 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 83,
+      "seconds": 94,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
         "EX5 Гибрид: 3 229 990 ₽/- → 3 229 990 ₽/250 000 ₽",
-        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/150 000 ₽",
+        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/300 000 ₽",
         "CITYRAY: 2 499 990 ₽/- → 2 499 990 ₽/455 000 ₽",
-        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/190 000 ₽",
-        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/350 000 ₽",
-        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/190 000 ₽",
-        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/250 000 ₽",
-        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/200 000 ₽"
+        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/380 000 ₽",
+        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/700 000 ₽",
+        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/380 000 ₽",
+        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/500 000 ₽",
+        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/400 000 ₽"
       ],
       "diff": [
         {
@@ -684,7 +660,7 @@
           },
           "now": {
             "price": 2624990,
-            "max_benefit": 150000
+            "max_benefit": 300000
           }
         },
         {
@@ -708,7 +684,7 @@
           },
           "now": {
             "price": 3259990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -720,7 +696,7 @@
           },
           "now": {
             "price": 3514990,
-            "max_benefit": 350000
+            "max_benefit": 700000
           }
         },
         {
@@ -732,7 +708,7 @@
           },
           "now": {
             "price": 4409990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -744,7 +720,7 @@
           },
           "now": {
             "price": 3079990,
-            "max_benefit": 250000
+            "max_benefit": 500000
           }
         },
         {
@@ -756,7 +732,7 @@
           },
           "now": {
             "price": 4099990,
-            "max_benefit": 200000
+            "max_benefit": 400000
           }
         }
       ]
@@ -809,7 +785,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 57,
+      "seconds": 63,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -860,7 +836,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 55,
+      "seconds": 68,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -920,7 +896,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 17,
+      "seconds": 20,
       "pages_opened": 5,
       "change": "Изменилось",
       "changes": [
@@ -970,7 +946,7 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": 2624990,
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://geely-autolocman.ru/models/coolray-2026/"
         },
         {
@@ -982,31 +958,31 @@
         {
           "model": "ATLAS",
           "price": 3259990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-autolocman.ru/models/geely-atlas-2024/"
         },
         {
           "model": "OKAVANGO",
           "price": 3514990,
-          "max_benefit": 350000,
+          "max_benefit": 700000,
           "source_url": "https://geely-autolocman.ru/models/okavango/"
         },
         {
           "model": "MONJARO",
           "price": 4409990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-autolocman.ru/models/monjaro/"
         },
         {
           "model": "PREFACE",
           "price": 3079990,
-          "max_benefit": 250000,
+          "max_benefit": 500000,
           "source_url": "https://geely-autolocman.ru/models/geely-preface/"
         },
         {
           "model": "EX5",
           "price": 4099990,
-          "max_benefit": 200000,
+          "max_benefit": 400000,
           "source_url": "https://geely-autolocman.ru/models/model-ex5/"
         }
       ],
@@ -1016,18 +992,18 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 103,
+      "seconds": 78,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
         "EX5 Гибрид: 3 229 990 ₽/- → 3 229 990 ₽/250 000 ₽",
-        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/150 000 ₽",
+        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/300 000 ₽",
         "CITYRAY: 2 499 990 ₽/- → 2 499 990 ₽/455 000 ₽",
-        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/190 000 ₽",
-        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/350 000 ₽",
-        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/190 000 ₽",
-        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/250 000 ₽",
-        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/200 000 ₽"
+        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/380 000 ₽",
+        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/700 000 ₽",
+        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/380 000 ₽",
+        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/500 000 ₽",
+        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/400 000 ₽"
       ],
       "diff": [
         {
@@ -1051,7 +1027,7 @@
           },
           "now": {
             "price": 2624990,
-            "max_benefit": 150000
+            "max_benefit": 300000
           }
         },
         {
@@ -1075,7 +1051,7 @@
           },
           "now": {
             "price": 3259990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -1087,7 +1063,7 @@
           },
           "now": {
             "price": 3514990,
-            "max_benefit": 350000
+            "max_benefit": 700000
           }
         },
         {
@@ -1099,7 +1075,7 @@
           },
           "now": {
             "price": 4409990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -1111,7 +1087,7 @@
           },
           "now": {
             "price": 3079990,
-            "max_benefit": 250000
+            "max_benefit": 500000
           }
         },
         {
@@ -1123,7 +1099,7 @@
           },
           "now": {
             "price": 4099990,
-            "max_benefit": 200000
+            "max_benefit": 400000
           }
         }
       ]
@@ -1279,7 +1255,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 53,
+      "seconds": 68,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1366,7 +1342,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 50,
+      "seconds": 59,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1439,7 +1415,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 78,
+      "seconds": 59,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -1515,7 +1491,7 @@
       "comment": "Собрано по общему шаблону движка УАЗ-дилер",
       "template": "УАЗ-дилер",
       "status": "ok",
-      "seconds": 26,
+      "seconds": 25,
       "pages_opened": 2,
       "change": "Изменилось",
       "changes": [
@@ -1603,7 +1579,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 60,
+      "seconds": 67,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1690,7 +1666,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 50,
+      "seconds": 68,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1767,25 +1743,25 @@
         {
           "model": "300",
           "price": 4099000,
-          "max_benefit": 200000,
+          "max_benefit": 500000,
           "source_url": "https://aem-tank.ru/"
         },
         {
           "model": "400",
           "price": 5599000,
-          "max_benefit": 250000,
+          "max_benefit": 700000,
           "source_url": "https://aem-tank.ru/"
         },
         {
           "model": "500",
           "price": 6399000,
-          "max_benefit": 300000,
+          "max_benefit": 800000,
           "source_url": "https://aem-tank.ru/"
         },
         {
           "model": "700",
           "price": 10199000,
-          "max_benefit": 300000,
+          "max_benefit": 500000,
           "source_url": "https://aem-tank.ru/"
         }
       ],
@@ -1795,14 +1771,14 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 94,
+      "seconds": 97,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
-        "300: 4 099 000 ₽/- → 4 099 000 ₽/200 000 ₽",
-        "400: 5 599 000 ₽/- → 5 599 000 ₽/250 000 ₽",
-        "500: 6 399 000 ₽/- → 6 399 000 ₽/300 000 ₽",
-        "700: 10 199 000 ₽/- → 10 199 000 ₽/300 000 ₽"
+        "300: 4 099 000 ₽/- → 4 099 000 ₽/500 000 ₽",
+        "400: 5 599 000 ₽/- → 5 599 000 ₽/700 000 ₽",
+        "500: 6 399 000 ₽/- → 6 399 000 ₽/800 000 ₽",
+        "700: 10 199 000 ₽/- → 10 199 000 ₽/500 000 ₽"
       ],
       "diff": [
         {
@@ -1814,7 +1790,7 @@
           },
           "now": {
             "price": 4099000,
-            "max_benefit": 200000
+            "max_benefit": 500000
           }
         },
         {
@@ -1826,7 +1802,7 @@
           },
           "now": {
             "price": 5599000,
-            "max_benefit": 250000
+            "max_benefit": 700000
           }
         },
         {
@@ -1838,7 +1814,7 @@
           },
           "now": {
             "price": 6399000,
-            "max_benefit": 300000
+            "max_benefit": 800000
           }
         },
         {
@@ -1850,7 +1826,7 @@
           },
           "now": {
             "price": 10199000,
-            "max_benefit": 300000
+            "max_benefit": 500000
           }
         }
       ]
@@ -1899,7 +1875,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 49,
+      "seconds": 51,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -1972,7 +1948,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 68,
+      "seconds": 81,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2050,7 +2026,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 45,
+      "seconds": 54,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -2259,7 +2235,7 @@
       "comment": "Собрано по общему шаблону движка Каскад",
       "template": "Каскад",
       "status": "ok",
-      "seconds": 18,
+      "seconds": 19,
       "pages_opened": 1,
       "change": "Изменилось",
       "changes": [
@@ -2421,7 +2397,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 65,
+      "seconds": 66,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2485,7 +2461,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 67,
+      "seconds": 82,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2563,7 +2539,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 53,
+      "seconds": 69,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -2650,7 +2626,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 53,
+      "seconds": 65,
       "pages_opened": 8,
       "change": "Изменилось",
       "changes": [
@@ -2723,7 +2699,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 66,
+      "seconds": 80,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -2805,7 +2781,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 52,
+      "seconds": 73,
       "pages_opened": 7,
       "change": "Изменилось",
       "changes": [
@@ -2842,7 +2818,7 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": 2624990,
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://geely-artex.ru/models/coolray-2026/"
         },
         {
@@ -2854,31 +2830,31 @@
         {
           "model": "ATLAS",
           "price": 3259990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-artex.ru/models/geely-atlas-2024/"
         },
         {
           "model": "OKAVANGO",
           "price": 3514990,
-          "max_benefit": 350000,
+          "max_benefit": 700000,
           "source_url": "https://geely-artex.ru/models/okavango/"
         },
         {
           "model": "MONJARO",
           "price": 4409990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-artex.ru/models/monjaro/"
         },
         {
           "model": "PREFACE",
           "price": 3079990,
-          "max_benefit": 250000,
+          "max_benefit": 500000,
           "source_url": "https://geely-artex.ru/models/geely-preface/"
         },
         {
           "model": "EX5",
           "price": 4099990,
-          "max_benefit": 200000,
+          "max_benefit": 400000,
           "source_url": "https://geely-artex.ru/models/model-ex5/"
         }
       ],
@@ -2888,18 +2864,18 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 94,
+      "seconds": 87,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
         "EX5 Гибрид: 3 229 990 ₽/- → 3 229 990 ₽/250 000 ₽",
-        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/150 000 ₽",
+        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/300 000 ₽",
         "CITYRAY: 2 499 990 ₽/- → 2 499 990 ₽/455 000 ₽",
-        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/190 000 ₽",
-        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/350 000 ₽",
-        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/190 000 ₽",
-        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/250 000 ₽",
-        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/200 000 ₽"
+        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/380 000 ₽",
+        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/700 000 ₽",
+        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/380 000 ₽",
+        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/500 000 ₽",
+        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/400 000 ₽"
       ],
       "diff": [
         {
@@ -2923,7 +2899,7 @@
           },
           "now": {
             "price": 2624990,
-            "max_benefit": 150000
+            "max_benefit": 300000
           }
         },
         {
@@ -2947,7 +2923,7 @@
           },
           "now": {
             "price": 3259990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -2959,7 +2935,7 @@
           },
           "now": {
             "price": 3514990,
-            "max_benefit": 350000
+            "max_benefit": 700000
           }
         },
         {
@@ -2971,7 +2947,7 @@
           },
           "now": {
             "price": 4409990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -2983,7 +2959,7 @@
           },
           "now": {
             "price": 3079990,
-            "max_benefit": 250000
+            "max_benefit": 500000
           }
         },
         {
@@ -2995,7 +2971,7 @@
           },
           "now": {
             "price": 4099990,
-            "max_benefit": 200000
+            "max_benefit": 400000
           }
         }
       ]
@@ -3034,25 +3010,25 @@
         {
           "model": "300",
           "price": 4099000,
-          "max_benefit": 200000,
+          "max_benefit": 500000,
           "source_url": "https://bars-tank.ru/"
         },
         {
           "model": "400",
           "price": 5599000,
-          "max_benefit": 250000,
+          "max_benefit": 700000,
           "source_url": "https://bars-tank.ru/"
         },
         {
           "model": "500",
           "price": 6399000,
-          "max_benefit": 300000,
+          "max_benefit": 800000,
           "source_url": "https://bars-tank.ru/"
         },
         {
           "model": "700",
           "price": 10199000,
-          "max_benefit": 300000,
+          "max_benefit": 500000,
           "source_url": "https://bars-tank.ru/"
         }
       ],
@@ -3062,14 +3038,14 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 90,
+      "seconds": 93,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
-        "300: 4 099 000 ₽/- → 4 099 000 ₽/200 000 ₽",
-        "400: 5 599 000 ₽/- → 5 599 000 ₽/250 000 ₽",
-        "500: 6 399 000 ₽/- → 6 399 000 ₽/300 000 ₽",
-        "700: 10 199 000 ₽/- → 10 199 000 ₽/300 000 ₽"
+        "300: 4 099 000 ₽/- → 4 099 000 ₽/500 000 ₽",
+        "400: 5 599 000 ₽/- → 5 599 000 ₽/700 000 ₽",
+        "500: 6 399 000 ₽/- → 6 399 000 ₽/800 000 ₽",
+        "700: 10 199 000 ₽/- → 10 199 000 ₽/500 000 ₽"
       ],
       "diff": [
         {
@@ -3081,7 +3057,7 @@
           },
           "now": {
             "price": 4099000,
-            "max_benefit": 200000
+            "max_benefit": 500000
           }
         },
         {
@@ -3093,7 +3069,7 @@
           },
           "now": {
             "price": 5599000,
-            "max_benefit": 250000
+            "max_benefit": 700000
           }
         },
         {
@@ -3105,7 +3081,7 @@
           },
           "now": {
             "price": 6399000,
-            "max_benefit": 300000
+            "max_benefit": 800000
           }
         },
         {
@@ -3117,7 +3093,7 @@
           },
           "now": {
             "price": 10199000,
-            "max_benefit": 300000
+            "max_benefit": 500000
           }
         }
       ]
@@ -3152,7 +3128,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 62,
+      "seconds": 63,
       "pages_opened": 6,
       "change": "Изменилось",
       "changes": [
@@ -3202,7 +3178,7 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": 2624990,
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://geely-vip-auto.ru/models/coolray-2026/"
         },
         {
@@ -3214,31 +3190,31 @@
         {
           "model": "ATLAS",
           "price": 3259990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-vip-auto.ru/models/geely-atlas-2024/"
         },
         {
           "model": "OKAVANGO",
           "price": 3514990,
-          "max_benefit": 350000,
+          "max_benefit": 700000,
           "source_url": "https://geely-vip-auto.ru/models/okavango/"
         },
         {
           "model": "MONJARO",
           "price": 4409990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-vip-auto.ru/models/monjaro/"
         },
         {
           "model": "PREFACE",
           "price": 3079990,
-          "max_benefit": 250000,
+          "max_benefit": 500000,
           "source_url": "https://geely-vip-auto.ru/models/geely-preface/"
         },
         {
           "model": "EX5",
           "price": 4099990,
-          "max_benefit": 200000,
+          "max_benefit": 400000,
           "source_url": "https://geely-vip-auto.ru/models/model-ex5/"
         }
       ],
@@ -3248,18 +3224,18 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 65,
+      "seconds": 80,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
         "EX5 Гибрид: 3 229 990 ₽/- → 3 229 990 ₽/250 000 ₽",
-        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/150 000 ₽",
+        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/300 000 ₽",
         "CITYRAY: 2 499 990 ₽/- → 2 499 990 ₽/455 000 ₽",
-        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/190 000 ₽",
-        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/350 000 ₽",
-        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/190 000 ₽",
-        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/250 000 ₽",
-        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/200 000 ₽"
+        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/380 000 ₽",
+        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/700 000 ₽",
+        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/380 000 ₽",
+        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/500 000 ₽",
+        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/400 000 ₽"
       ],
       "diff": [
         {
@@ -3283,7 +3259,7 @@
           },
           "now": {
             "price": 2624990,
-            "max_benefit": 150000
+            "max_benefit": 300000
           }
         },
         {
@@ -3307,7 +3283,7 @@
           },
           "now": {
             "price": 3259990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -3319,7 +3295,7 @@
           },
           "now": {
             "price": 3514990,
-            "max_benefit": 350000
+            "max_benefit": 700000
           }
         },
         {
@@ -3331,7 +3307,7 @@
           },
           "now": {
             "price": 4409990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -3343,7 +3319,7 @@
           },
           "now": {
             "price": 3079990,
-            "max_benefit": 250000
+            "max_benefit": 500000
           }
         },
         {
@@ -3355,7 +3331,7 @@
           },
           "now": {
             "price": 4099990,
-            "max_benefit": 200000
+            "max_benefit": 400000
           }
         }
       ]
@@ -3376,7 +3352,7 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": 2624990,
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://geely-vsk.ru/models/coolray-2026/"
         },
         {
@@ -3388,31 +3364,31 @@
         {
           "model": "ATLAS",
           "price": 3259990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-vsk.ru/models/geely-atlas-2024/"
         },
         {
           "model": "OKAVANGO",
           "price": 3514990,
-          "max_benefit": 350000,
+          "max_benefit": 700000,
           "source_url": "https://geely-vsk.ru/models/okavango/"
         },
         {
           "model": "MONJARO",
           "price": 4409990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-vsk.ru/models/monjaro/"
         },
         {
           "model": "PREFACE",
           "price": 3079990,
-          "max_benefit": 250000,
+          "max_benefit": 500000,
           "source_url": "https://geely-vsk.ru/models/geely-preface/"
         },
         {
           "model": "EX5",
           "price": 4099990,
-          "max_benefit": 200000,
+          "max_benefit": 400000,
           "source_url": "https://geely-vsk.ru/models/model-ex5/"
         }
       ],
@@ -3422,18 +3398,18 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 64,
+      "seconds": 62,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
         "EX5 Гибрид: 3 229 990 ₽/- → 3 229 990 ₽/250 000 ₽",
-        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/150 000 ₽",
+        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/300 000 ₽",
         "CITYRAY: 2 499 990 ₽/- → 2 499 990 ₽/455 000 ₽",
-        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/190 000 ₽",
-        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/350 000 ₽",
-        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/190 000 ₽",
-        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/250 000 ₽",
-        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/200 000 ₽"
+        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/380 000 ₽",
+        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/700 000 ₽",
+        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/380 000 ₽",
+        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/500 000 ₽",
+        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/400 000 ₽"
       ],
       "diff": [
         {
@@ -3457,7 +3433,7 @@
           },
           "now": {
             "price": 2624990,
-            "max_benefit": 150000
+            "max_benefit": 300000
           }
         },
         {
@@ -3481,7 +3457,7 @@
           },
           "now": {
             "price": 3259990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -3493,7 +3469,7 @@
           },
           "now": {
             "price": 3514990,
-            "max_benefit": 350000
+            "max_benefit": 700000
           }
         },
         {
@@ -3505,7 +3481,7 @@
           },
           "now": {
             "price": 4409990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -3517,7 +3493,7 @@
           },
           "now": {
             "price": 3079990,
-            "max_benefit": 250000
+            "max_benefit": 500000
           }
         },
         {
@@ -3529,7 +3505,7 @@
           },
           "now": {
             "price": 4099990,
-            "max_benefit": 200000
+            "max_benefit": 400000
           }
         }
       ]
@@ -3550,7 +3526,7 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": 2624990,
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://geely-davauto.ru/models/coolray-2026/"
         },
         {
@@ -3562,31 +3538,31 @@
         {
           "model": "ATLAS",
           "price": 3259990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-davauto.ru/models/geely-atlas-2024/"
         },
         {
           "model": "OKAVANGO",
           "price": 3514990,
-          "max_benefit": 350000,
+          "max_benefit": 700000,
           "source_url": "https://geely-davauto.ru/models/okavango/"
         },
         {
           "model": "MONJARO",
           "price": 4409990,
-          "max_benefit": 190000,
+          "max_benefit": 380000,
           "source_url": "https://geely-davauto.ru/models/monjaro/"
         },
         {
           "model": "PREFACE",
           "price": 3079990,
-          "max_benefit": 250000,
+          "max_benefit": 500000,
           "source_url": "https://geely-davauto.ru/models/geely-preface/"
         },
         {
           "model": "EX5",
           "price": 4099990,
-          "max_benefit": 200000,
+          "max_benefit": 400000,
           "source_url": "https://geely-davauto.ru/models/model-ex5/"
         }
       ],
@@ -3596,18 +3572,18 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 60,
+      "seconds": 66,
       "pages_opened": 11,
       "change": "Изменилось",
       "changes": [
         "EX5 Гибрид: 3 229 990 ₽/- → 3 229 990 ₽/250 000 ₽",
-        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/150 000 ₽",
+        "НОВЫЙ COOLRAY: 2 624 990 ₽/- → 2 624 990 ₽/300 000 ₽",
         "CITYRAY: 2 499 990 ₽/- → 2 499 990 ₽/455 000 ₽",
-        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/190 000 ₽",
-        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/350 000 ₽",
-        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/190 000 ₽",
-        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/250 000 ₽",
-        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/200 000 ₽"
+        "ATLAS: 3 259 990 ₽/- → 3 259 990 ₽/380 000 ₽",
+        "OKAVANGO: 3 514 990 ₽/- → 3 514 990 ₽/700 000 ₽",
+        "MONJARO: 4 409 990 ₽/- → 4 409 990 ₽/380 000 ₽",
+        "PREFACE: 3 079 990 ₽/- → 3 079 990 ₽/500 000 ₽",
+        "EX5: 4 099 990 ₽/- → 4 099 990 ₽/400 000 ₽"
       ],
       "diff": [
         {
@@ -3631,7 +3607,7 @@
           },
           "now": {
             "price": 2624990,
-            "max_benefit": 150000
+            "max_benefit": 300000
           }
         },
         {
@@ -3655,7 +3631,7 @@
           },
           "now": {
             "price": 3259990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -3667,7 +3643,7 @@
           },
           "now": {
             "price": 3514990,
-            "max_benefit": 350000
+            "max_benefit": 700000
           }
         },
         {
@@ -3679,7 +3655,7 @@
           },
           "now": {
             "price": 4409990,
-            "max_benefit": 190000
+            "max_benefit": 380000
           }
         },
         {
@@ -3691,7 +3667,7 @@
           },
           "now": {
             "price": 3079990,
-            "max_benefit": 250000
+            "max_benefit": 500000
           }
         },
         {
@@ -3703,7 +3679,7 @@
           },
           "now": {
             "price": 4099990,
-            "max_benefit": 200000
+            "max_benefit": 400000
           }
         }
       ]
@@ -3830,7 +3806,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 28,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -3891,7 +3867,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 24,
+      "seconds": 27,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -3965,7 +3941,7 @@
         "(2) Выгода по программе «Трейд-ин» — это единовременная и разовая скидка, предоставляется Дилером покупателю от розничной цены автомобиля, п"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 29,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4027,14 +4003,15 @@
         "1. Тэнк в кредит",
         "Предложение распространяется на новые автомобили TANK 300, TANK 400, TANK 500, TANK 700 кроме Edition One приобретаемых у официальных дилеро",
         "Полная стоимость кредита (далее – ПСК) рассчитывается для каждой процентной ставки. Размер процентной ставки зависит от первоначального взно",
+        "Рассчитайте кредит",
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 24,
+      "seconds": 36,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 25"
+        "Записан текст акций: строк 26"
       ]
     },
     {
@@ -4085,7 +4062,7 @@
         "Мечтаете стать обладателем новой машины, но не получается быстро продать старую – воспользуйтесь системой Трейд-Ин в нашем автоцентре. Оценк"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 36,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4141,7 +4118,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 23,
+      "seconds": 32,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4242,7 +4219,7 @@
         "На сайте указаны цены с учетом максимальных выгод при покупке автомобиля в кредит и по программе трейд-ин. Подробную информацию об условиях "
       ],
       "text_mode": true,
-      "seconds": 12,
+      "seconds": 13,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -4404,7 +4381,7 @@
         "ОТ 2 470 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 57,
+      "seconds": 102,
       "pages_opened": 8,
       "change": "Первая проверка",
       "changes": [
@@ -4463,11 +4440,67 @@
         "Кредитные программы"
       ],
       "text_mode": true,
-      "seconds": 18,
+      "seconds": 24,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
         "Записан текст акций: строк 25"
+      ]
+    },
+    {
+      "id": 27,
+      "company": "Гак Автоимпорт Лендинг Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "sale.gac-autoimport.ru",
+      "brand": "GAC",
+      "models": [
+        {
+          "model": "GS4",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sale.gac-autoimport.ru/"
+        },
+        {
+          "model": "Dragon",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sale.gac-autoimport.ru/"
+        },
+        {
+          "model": "M8",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sale.gac-autoimport.ru/"
+        },
+        {
+          "model": "S9",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sale.gac-autoimport.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: GS4, Dragon, M8, S9; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "выгодные условия",
+        "Авторассрочка",
+        "от 5 399 000 ₽",
+        "от 6 499 000 ₽",
+        "от 3 399 000 ₽",
+        "от 4 699 000 ₽",
+        "от 1 799 000 ₽",
+        "от 4 199 000 ₽",
+        "от 2 489 000 ₽",
+        "от 2 539 000 ₽"
+      ],
+      "text_mode": true,
+      "seconds": 26,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 10"
       ]
     },
     {
@@ -4480,25 +4513,25 @@
         {
           "model": "300",
           "price": "-",
-          "max_benefit": 400000,
+          "max_benefit": null,
           "source_url": "https://promo.aem-tank.ru/"
         },
         {
           "model": "400",
           "price": "-",
-          "max_benefit": 700000,
+          "max_benefit": null,
           "source_url": "https://promo.aem-tank.ru/"
         },
         {
           "model": "500",
           "price": "-",
-          "max_benefit": 850000,
+          "max_benefit": null,
           "source_url": "https://promo.aem-tank.ru/"
         },
         {
           "model": "700",
           "price": "-",
-          "max_benefit": 500000,
+          "max_benefit": null,
           "source_url": "https://promo.aem-tank.ru/"
         },
         {
@@ -4510,7 +4543,7 @@
         {
           "model": "WEY 80",
           "price": "-",
-          "max_benefit": 500000,
+          "max_benefit": null,
           "source_url": "https://promo.aem-tank.ru/"
         }
       ],
@@ -4545,15 +4578,14 @@
         "Мы перезвоним вам и предложим наиболее выгодные условия",
         "Прекрасный салон. Прекрасные менеджеры. Особенно Павел. Всё честно, включая оценку по трейд-ин (оценивал его коллега), быстро, информативно.",
         "Условия акций",
-        "Выгодный обмен автомобиля",
         "Выгодное предложение"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 27,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 28"
+        "Записан текст акций: строк 27"
       ]
     },
     {
@@ -4643,7 +4675,7 @@
         "2 445 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 32,
+      "seconds": 33,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -4735,7 +4767,7 @@
         {
           "model": "ТЕНЕТ T4L",
           "price": "-",
-          "max_benefit": 200000,
+          "max_benefit": 450000,
           "source_url": "https://chery-spb-pulkovo.ru/"
         },
         {
@@ -4765,13 +4797,13 @@
         {
           "model": "АРРИЗО 8",
           "price": "-",
-          "max_benefit": 200000,
+          "max_benefit": 500000,
           "source_url": "https://chery-spb-pulkovo.ru/"
         },
         {
           "model": "ТИГГО 9",
           "price": "-",
-          "max_benefit": 200000,
+          "max_benefit": 700000,
           "source_url": "https://chery-spb-pulkovo.ru/"
         }
       ],
@@ -4799,15 +4831,14 @@
         "2 200 000₽",
         "Срок кредита",
         "Очень качественная работа, которая выполнена настоящими профессионалами. Помогли с решением, с очень не простой задачей. Очень пордовало быс",
-        "Цена с учетом маркетинговых акций. Не является публичной офертой. Подробности узнавайте в отделе продаж ЧЕРИ ЦЕНТР Пулково.",
-        "Выгодный обмен автомобиля"
+        "Цена с учетом маркетинговых акций. Не является публичной офертой. Подробности узнавайте в отделе продаж ЧЕРИ ЦЕНТР Пулково."
       ],
       "text_mode": true,
-      "seconds": 33,
+      "seconds": 39,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
-        "Записан текст акций: строк 21"
+        "Записан текст акций: строк 20"
       ]
     },
     {
@@ -4820,37 +4851,37 @@
         {
           "model": "T4",
           "price": 2219000,
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "T4L",
           "price": 2259000,
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "T7",
           "price": 2935000,
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "T8",
           "price": 3610000,
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "CHERY TIGGO 9, 2025.",
           "price": 4540000,
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-chery.ru/"
         },
         {
           "model": "CHERY ARRIZO 8",
           "price": 2865000,
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-chery.ru/"
         }
       ],
@@ -4891,7 +4922,7 @@
         "Кешбек до 30 000₽"
       ],
       "text_mode": true,
-      "seconds": 18,
+      "seconds": 20,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -4908,43 +4939,43 @@
         {
           "model": "VESTA",
           "price": "-",
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "GRANTA",
           "price": "-",
-          "max_benefit": 789600,
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "NIVA LEGEND",
           "price": "-",
-          "max_benefit": 799200,
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "NIVA TRAVEL",
           "price": "-",
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "LARGUS",
           "price": "-",
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "ISKRA",
           "price": "-",
-          "max_benefit": 1021600,
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         },
         {
           "model": "XCITE X-CROSS 8",
           "price": "-",
-          "max_benefit": "-",
+          "max_benefit": null,
           "source_url": "https://amk-sam.ru/"
         }
       ],
@@ -4983,7 +5014,7 @@
         "УДОБНАЯ РАССРОЧКА"
       ],
       "text_mode": true,
-      "seconds": 12,
+      "seconds": 11,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -5014,7 +5045,7 @@
         "Автокредит от 0,01%"
       ],
       "text_mode": true,
-      "seconds": 35,
+      "seconds": 37,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -5096,7 +5127,7 @@
         "3 899 900 ₽"
       ],
       "text_mode": true,
-      "seconds": 56,
+      "seconds": 59,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5154,7 +5185,7 @@
         "ОТ 2 470 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 63,
+      "seconds": 66,
       "pages_opened": 8,
       "change": "Первая проверка",
       "changes": [
@@ -5302,7 +5333,7 @@
         "Преимущество до 1 050 000 ₽**"
       ],
       "text_mode": true,
-      "seconds": 27,
+      "seconds": 42,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5354,7 +5385,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 27,
+      "seconds": 28,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5450,7 +5481,7 @@
         "Узнать цену по акции"
       ],
       "text_mode": true,
-      "seconds": 25,
+      "seconds": 28,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5467,13 +5498,13 @@
         {
           "model": "НОВЫЙ COOLRAY",
           "price": "-",
-          "max_benefit": 150000,
+          "max_benefit": 300000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
         {
           "model": "CITYRAY",
           "price": "-",
-          "max_benefit": 455000,
+          "max_benefit": 564000,
           "source_url": "https://cars.geely-davauto.ru/"
         },
         {
@@ -5509,7 +5540,7 @@
         {
           "model": "OKAVANGO",
           "price": "-",
-          "max_benefit": 350000,
+          "max_benefit": 600000,
           "source_url": "https://cars.geely-davauto.ru/"
         }
       ],
@@ -5550,7 +5581,7 @@
         "Выгода до 325 000 ₽"
       ],
       "text_mode": true,
-      "seconds": 38,
+      "seconds": 45,
       "pages_opened": 3,
       "change": "Первая проверка",
       "changes": [
@@ -5583,7 +5614,7 @@
         "Трейд-ин с дополнительной выгодой"
       ],
       "text_mode": true,
-      "seconds": 19,
+      "seconds": 20,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -5669,7 +5700,7 @@
         "Рассчитать кредит"
       ],
       "text_mode": true,
-      "seconds": 26,
+      "seconds": 19,
       "pages_opened": 2,
       "change": "Первая проверка",
       "changes": [
@@ -5700,7 +5731,7 @@
         "Выгодный обмен автомобиля"
       ],
       "text_mode": true,
-      "seconds": 32,
+      "seconds": 34,
       "pages_opened": 5,
       "change": "Первая проверка",
       "changes": [
@@ -5751,7 +5782,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 54,
+      "seconds": 58,
       "pages_opened": 8,
       "change": "Не изменилось",
       "changes": [],
@@ -5793,7 +5824,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 18,
+      "seconds": 20,
       "pages_opened": 3,
       "change": "Не изменилось",
       "changes": [],
@@ -5843,7 +5874,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 66,
+      "seconds": 63,
       "pages_opened": 8,
       "change": "Не изменилось",
       "changes": [],
@@ -5915,7 +5946,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 129,
+      "seconds": 150,
       "pages_opened": 12,
       "change": "Не изменилось",
       "changes": [],
@@ -6007,7 +6038,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 17,
+      "seconds": 19,
       "pages_opened": 3,
       "change": "Не изменилось",
       "changes": [],
@@ -6079,7 +6110,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 118,
+      "seconds": 144,
       "pages_opened": 12,
       "change": "Не изменилось",
       "changes": [],
@@ -6117,7 +6148,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 61,
+      "seconds": 63,
       "pages_opened": 6,
       "change": "Не изменилось",
       "changes": [],
@@ -6167,7 +6198,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 53,
+      "seconds": 59,
       "pages_opened": 8,
       "change": "Не изменилось",
       "changes": [],
@@ -6239,7 +6270,7 @@
       "comment": "Собрано по общему шаблону движка TradeDealer",
       "template": "TradeDealer",
       "status": "ok",
-      "seconds": 111,
+      "seconds": 127,
       "pages_opened": 12,
       "change": "Не изменилось",
       "changes": [],
@@ -6275,7 +6306,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 53,
+      "seconds": 51,
       "pages_opened": 6,
       "change": "Не изменилось",
       "changes": [],
@@ -6317,7 +6348,7 @@
       "comment": "Собрано по общему шаблону движка Perxis",
       "template": "Perxis",
       "status": "ok",
-      "seconds": 17,
+      "seconds": 16,
       "pages_opened": 3,
       "change": "Не изменилось",
       "changes": [],
@@ -6348,7 +6379,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 179,
+      "seconds": 181,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -6363,7 +6394,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 180,
+      "seconds": 178,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -6378,7 +6409,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 178,
+      "seconds": 180,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
@@ -6393,7 +6424,7 @@
       "screens": [],
       "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
       "status": "no_scenario",
-      "seconds": 178,
+      "seconds": 180,
       "pages_opened": 4,
       "change": "Нет сценария",
       "changes": []
