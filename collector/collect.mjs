@@ -17,7 +17,7 @@ import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
-  CHANGE, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
+  CHANGE, benefitTotal, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
 } from './lib.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -120,7 +120,8 @@ async function collectPage(context, site, pageCfg, index) {
       // В автопоиске сумма выгоды («Выгода до | 455 000 ₽») может попасть и в цены: такие суммы из цен убираем.
       const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
       const price = prices.length ? Math.min(...prices) : '-';
-      let benefit = benefits.length ? Math.max(...benefits) : '-';
+      // Части одной фразы («прямая 250 000 + трейд-ин 250 000 + лояльная 200 000») складываем.
+      let benefit = benefits.length ? (pageCfg.benefit_all ? Math.max(...benefits) : benefitTotal(r.benefit)) : '-';
       // Автопоиск: «цена с учётом выгоды 2 016 000 ₽» — это цена, а не выгода. Выгода в половину цены
       // и больше или выгода больше 1,2 млн без цены почти всегда такая ошибка: такую выгоду не пишем.
       if (pageCfg.auto && benefit !== '-' && (price !== '-' ? benefit >= price * 0.5 : benefit > 1_200_000)) benefit = '-';
@@ -219,7 +220,7 @@ async function collectModelPages(context, site, cfg) {
       models.push({
         model: name,
         price: prices.length ? Math.min(...prices) : (fromList ?? '-'),
-        max_benefit: benefits.length ? Math.max(...benefits) : '-',
+        max_benefit: !benefits.length ? '-' : page.benefit_all ? Math.max(...benefits) : Math.max(...found.benefits.map((t) => benefitTotal(t) ?? 0)),
         source_url: link.href,
       });
     } catch (e) {
