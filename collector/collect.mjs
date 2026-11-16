@@ -304,6 +304,7 @@ async function collectSiteWith(browser, site) {
     const notes = [];
     let anyOpened = false;
     let unfinished = false;
+    let autoUsed = false;
     // auto: сначала ищем карточки моделей на главной без селекторов; нашлись — обход моделей не нужен.
     if (site.auto) {
       try {
