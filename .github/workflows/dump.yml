@@ -1,0 +1,47 @@
+# Служебная проверка для настройки шаблонов: сохраняет код и текст указанных страниц в папку debug/.
+# Кнопки в приложении для неё нет, запускается вручную из вкладки Actions.
+name: Снимок страниц (для настройки)
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Адреса через пробел (можно без https://)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: npx playwright install --with-deps chromium
+      - name: Сохранить страницы
+        env:
+          URLS: ${{ inputs.urls }}
+        run: node collector/dump.mjs
+      - name: Сохранить в репозиторий
+        run: |
+          git config user.name "konget-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A debug
+          git diff --cached --quiet && exit 0
+          git commit -m "Снимок страниц $(date +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin ${{ github.ref_name }} && git push && exit 0
+            git rebase --abort || true
+            sleep $((i * 5))
+          done
+          exit 1

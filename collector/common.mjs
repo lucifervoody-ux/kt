@@ -40,6 +40,17 @@ export async function loadSites(onlyId) {
       return { ...sc, ...r, konget_token: r.konget_token || sc.konget_token || '' };
     });
   }
+  // Таблица не подключена: берём сохранённую копию листа «Сайты» (data/sites-copy.json).
+  const copy = !sites.length ? readJson(path.join(DATA, 'sites-copy.json')) : null;
+  if (copy?.grid?.length) {
+    const rows = parseSites(copy.grid);
+    log(`Таблица не подключена, беру копию листа «${SITES_SHEET}» из data/sites-copy.json: сайтов ${rows.length}`);
+    sites = rows.map((r) => {
+      const found = byId.get(String(r.id));
+      const sc = found && host(found.site) === host(r.site) ? found : {};
+      return { ...sc, ...r, konget_token: r.konget_token || sc.konget_token || '' };
+    });
+  }
   if (!sites.length) {
     log('Список сайтов берём из папки scenarios');
     sites = scenarios.filter((s) => s.site);

@@ -1,0 +1,4759 @@
+{
+  "date": "2026-11-16",
+  "checked_at": "2026-11-16T05:52:44.597Z",
+  "previous_date": "2026-11-03",
+  "total_seconds": 854,
+  "parallel": 6,
+  "summary": {
+    "Не изменилось": 28,
+    "Изменилось": 13,
+    "Требует проверки": 13,
+    "Ошибка доступа": 8,
+    "Первая проверка": 24,
+    "Нет сценария": 7
+  },
+  "sites": [
+    {
+      "id": 33,
+      "company": "Джетур Тула Витрина",
+      "responsible": "Савастьянов А.А.",
+      "site": "cars.jetour-ai71.ru",
+      "brand": "JETOUR",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Заглушка». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 34,
+      "company": "Чери Витрина Регион 62",
+      "responsible": "Савастьянов А.А.",
+      "site": "cars.chery.region62.ru",
+      "brand": "Chery",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 164,
+      "company": "Гак Артекс Ростов-На-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-artex-rnd.ru",
+      "brand": "GAC",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 166,
+      "company": "Belgee-artex.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-artex.ru",
+      "brand": "Belgee",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 168,
+      "company": "Джетур Артекс Ростов-на-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-artex.ru",
+      "brand": "Jetour",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 197,
+      "company": "Vikingi-chery.ru Тольятти",
+      "responsible": "Савастьянов А.А.",
+      "site": "vikingi-chery.ru",
+      "brand": "Chery",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 203,
+      "company": "Ньюстар",
+      "responsible": "Савастьянов А.А.",
+      "site": "knewstar-vsk.ru",
+      "brand": "Knewstar",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 205,
+      "company": "АВТОМАРКЕТ КАЙЯ",
+      "responsible": "Савастьянов А.А.",
+      "site": "automarket-kaiyi.ru",
+      "brand": "Kaiyi",
+      "models": [],
+      "status": "access_error",
+      "comment": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "change": "Ошибка доступа",
+      "changes": [],
+      "seconds": 0,
+      "pages_opened": 0
+    },
+    {
+      "id": 29,
+      "company": "АВТОИМПОРТ KGM РЯЗАНЬ",
+      "responsible": "Савастьянов А.А.",
+      "site": "kgm-autoimport.ru",
+      "brand": "KGM",
+      "models": [
+        {
+          "model": "TIVOLI",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://kgm-autoimport.ru/models/tivoli"
+        },
+        {
+          "model": "KORANDO",
+          "price": 2995000,
+          "max_benefit": "-",
+          "source_url": "https://kgm-autoimport.ru/models/korando"
+        },
+        {
+          "model": "TORRES",
+          "price": 3290000,
+          "max_benefit": "-",
+          "source_url": "https://kgm-autoimport.ru/models/torres"
+        },
+        {
+          "model": "REXTON",
+          "price": 4340000,
+          "max_benefit": "-",
+          "source_url": "https://kgm-autoimport.ru/models/rexton"
+        }
+      ],
+      "screens": [
+        "data/screens/29/model-0.jpg"
+      ],
+      "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "needs_check",
+      "seconds": 59,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 120,
+      "company": "КГМ БЕТА",
+      "responsible": "Савастьянов А.А.",
+      "site": "kgm-betasever.ru",
+      "brand": "KGM",
+      "models": [
+        {
+          "model": "TIVOLI",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://kgm-betasever.ru/models/tivoli"
+        },
+        {
+          "model": "KORANDO",
+          "price": 2995000,
+          "max_benefit": "-",
+          "source_url": "https://kgm-betasever.ru/models/korando"
+        },
+        {
+          "model": "TORRES",
+          "price": 3290000,
+          "max_benefit": "-",
+          "source_url": "https://kgm-betasever.ru/models/torres"
+        },
+        {
+          "model": "REXTON",
+          "price": 4340000,
+          "max_benefit": "-",
+          "source_url": "https://kgm-betasever.ru/models/rexton"
+        }
+      ],
+      "screens": [
+        "data/screens/120/model-0.jpg"
+      ],
+      "comment": "Не нашлась цена: TIVOLI; Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "needs_check",
+      "seconds": 77,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 127,
+      "company": "ПУЛКОВО ЖАК",
+      "responsible": "Савастьянов А.А.",
+      "site": "jac-beta.ru",
+      "brand": "JAC",
+      "models": [],
+      "screens": [
+        "data/screens/127/0.jpg"
+      ],
+      "comment": "Модели не найдены; На странице https://jac-beta.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
+      "template": "Каскад",
+      "status": "needs_check",
+      "seconds": 16,
+      "pages_opened": 1,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 129,
+      "company": "ЧЕРИ ЦЕНТР ПУЛКОВО Лендинг 2",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-center-pulkovo.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://chery-center-pulkovo.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://chery-center-pulkovo.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Creatium), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 12,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 132,
+      "company": "SWM ПУЛКОВО ЛЕНДИНГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "swm-beta-kudrovo.tilda.ws",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://swm-beta-kudrovo.tilda.ws"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Собрано по общему шаблону движка Tilda; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "Tilda",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 15,
+      "pages_opened": 3,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 145,
+      "company": "[ct]ЛАДА АМК-ЕКАТЕРИНБУРГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "amk-ekt.lada.ru",
+      "brand": "LADA",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://amk-ekt.lada.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://amk-ekt.lada.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Сайты LADA), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 7,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 148,
+      "company": "[ct]Urallada63.lada.ru Самара",
+      "responsible": "Савастьянов А.А.",
+      "site": "urallada63.lada.ru",
+      "brand": "LADA",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://urallada63.lada.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://urallada63.lada.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Сайты LADA), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 7,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 151,
+      "company": "[ct]Амр Джетур Саратов",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-amr.ru",
+      "brand": "Jetour",
+      "models": [],
+      "screens": [],
+      "comment": "Модели не найдены; Собрано по общему шаблону движка Каскад",
+      "template": "Каскад",
+      "status": "needs_check",
+      "seconds": 26,
+      "pages_opened": 1,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 165,
+      "company": "Соуис Артекс",
+      "responsible": "Савастьянов А.А.",
+      "site": "soueast-artex.ru",
+      "brand": "Soueast",
+      "models": [
+        {
+          "model": "S06",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://soueast.ru/models/s06"
+        },
+        {
+          "model": "S07",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://soueast.ru/models/s07"
+        }
+      ],
+      "screens": [
+        "data/screens/165/model-0.jpg"
+      ],
+      "comment": "Не нашлась цена: S06, S07; Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "needs_check",
+      "seconds": 27,
+      "pages_opened": 3,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 200,
+      "company": "ВипАвто Витрина Солярис",
+      "responsible": "Савастьянов А.А.",
+      "site": "solaris-vip-auto.ru",
+      "brand": "Solaris",
+      "models": [],
+      "screens": [
+        "data/screens/200/0.jpg"
+      ],
+      "comment": "Модели не найдены; На странице https://solaris-vip-auto.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
+      "template": "Каскад",
+      "status": "needs_check",
+      "seconds": 14,
+      "pages_opened": 1,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 207,
+      "company": "ГАРАНТ СОИСТ",
+      "responsible": "Савастьянов А.А.",
+      "site": "soueast-automarket.ru",
+      "brand": "Soueast",
+      "models": [
+        {
+          "model": "S06",
+          "price": 2589000,
+          "max_benefit": "-",
+          "source_url": "https://soueast-automarket.ru/models/s06"
+        },
+        {
+          "model": "S07",
+          "price": 2999000,
+          "max_benefit": "-",
+          "source_url": "https://soueast-automarket.ru/models/s07"
+        },
+        {
+          "model": "S09",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://soueast-automarket.ru/models/s09"
+        }
+      ],
+      "screens": [
+        "data/screens/207/model-2.jpg"
+      ],
+      "comment": "Не нашлась цена: S09; Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "needs_check",
+      "seconds": 55,
+      "pages_opened": 4,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 214,
+      "company": "Дав Авто Лада Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "lada-davauto.ru",
+      "brand": "LADA",
+      "models": [],
+      "screens": [
+        "data/screens/214/0.jpg"
+      ],
+      "comment": "Модели не найдены; На странице https://lada-davauto.ru/ не нашлось ни одной модели; Собрано по общему шаблону движка Каскад",
+      "template": "Каскад",
+      "status": "needs_check",
+      "seconds": 13,
+      "pages_opened": 1,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 215,
+      "company": "Лада Дав авто",
+      "responsible": "Савастьянов А.А.",
+      "site": "dav-auto.lada.ru",
+      "brand": "LADA",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://dav-auto.lada.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://dav-auto.lada.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Сайты LADA), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [],
+      "seconds": 7,
+      "pages_opened": 5,
+      "change": "Требует проверки",
+      "changes": []
+    },
+    {
+      "id": 19,
+      "company": "АВТОБАН ДЖЕТУР",
+      "responsible": "Савастьянов А.А.",
+      "site": "avtoban-jetour.ru",
+      "brand": "JETOUR",
+      "models": [
+        {
+          "model": "T1 ГИБРИД",
+          "price": 4499900,
+          "max_benefit": 200000,
+          "source_url": "https://avtoban-jetour.ru/models/t1-hybrid"
+        },
+        {
+          "model": "T1",
+          "price": 3520000,
+          "max_benefit": 300000,
+          "source_url": "https://avtoban-jetour.ru/models/t1"
+        },
+        {
+          "model": "T2",
+          "price": 3699000,
+          "max_benefit": 490000,
+          "source_url": "https://avtoban-jetour.ru/models/t2"
+        },
+        {
+          "model": "DASHING",
+          "price": 2159900,
+          "max_benefit": 600000,
+          "source_url": "https://avtoban-jetour.ru/models/dashing"
+        },
+        {
+          "model": "X70+",
+          "price": 2489900,
+          "max_benefit": 560000,
+          "source_url": "https://avtoban-jetour.ru/models/x70plus"
+        },
+        {
+          "model": "X90+",
+          "price": 3999000,
+          "max_benefit": 200000,
+          "source_url": "https://avtoban-jetour.ru/models/x90plus"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "ok",
+      "seconds": 72,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T2: 3 699 000 ₽/440 000 ₽ → 3 699 000 ₽/490 000 ₽"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T2",
+          "was": {
+            "price": 3699000,
+            "max_benefit": 440000
+          },
+          "now": {
+            "price": 3699000,
+            "max_benefit": 490000
+          }
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "company": "УАЗ АВТОМАРКЕТ МУРМАНСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "uaz-avtomarket.ru",
+      "brand": "УАЗ",
+      "models": [
+        {
+          "model": "Патриот",
+          "price": 2005000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-avtomarket.ru/"
+        },
+        {
+          "model": "Пикап",
+          "price": 2030000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-avtomarket.ru/"
+        },
+        {
+          "model": "Хантер",
+          "price": 1800000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-avtomarket.ru/"
+        },
+        {
+          "model": "Профи",
+          "price": 1820000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-avtomarket.ru/"
+        },
+        {
+          "model": "Буханка",
+          "price": 1520000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-avtomarket.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка УАЗ-дилер",
+      "template": "УАЗ-дилер",
+      "status": "ok",
+      "seconds": 18,
+      "pages_opened": 1,
+      "change": "Изменилось",
+      "changes": [
+        "Новая модель: Патриот 2 005 000 ₽/-",
+        "Пикап: 1 820 000 ₽/250 000 ₽ → 2 030 000 ₽/-",
+        "Хантер: 2 060 000 ₽/- → 1 800 000 ₽/-",
+        "Новая модель: Профи 1 820 000 ₽/-",
+        "Буханка: 1 545 000 ₽/200 000 ₽ → 1 520 000 ₽/-"
+      ],
+      "diff": [
+        {
+          "type": "new",
+          "model": "Патриот",
+          "now": {
+            "price": 2005000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "Пикап",
+          "was": {
+            "price": 1820000,
+            "max_benefit": 250000
+          },
+          "now": {
+            "price": 2030000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "Хантер",
+          "was": {
+            "price": 2060000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 1800000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "new",
+          "model": "Профи",
+          "now": {
+            "price": 1820000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "Буханка",
+          "was": {
+            "price": 1545000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 1520000,
+            "max_benefit": "-"
+          }
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "company": "АВТОРУСЬ ТЕНЕТ",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-avtoruss.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://tenet-avtoruss.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-avtoruss.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-avtoruss.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-avtoruss.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://tenet-avtoruss.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/49/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 55,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "company": "ОЛИМП ЗАПАД ТЕНЕТ РОСТОВ НА ДОНУ",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-olimp.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://tenet-olimp.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-olimp.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-olimp.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-olimp.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://tenet-olimp.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/57/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 55,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "company": "Уаз Агас",
+      "responsible": "Савастьянов А.А.",
+      "site": "uaz-agas.ru",
+      "brand": "УАЗ",
+      "models": [
+        {
+          "model": "Патриот",
+          "price": 2005000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-agas.ru/"
+        },
+        {
+          "model": "Пикап",
+          "price": 2030000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-agas.ru/"
+        },
+        {
+          "model": "Хантер",
+          "price": 1800000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-agas.ru/"
+        },
+        {
+          "model": "Профи",
+          "price": 1820000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-agas.ru/"
+        },
+        {
+          "model": "Буханка",
+          "price": 1520000,
+          "max_benefit": "-",
+          "source_url": "https://uaz-agas.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка УАЗ-дилер",
+      "template": "УАЗ-дилер",
+      "status": "ok",
+      "seconds": 20,
+      "pages_opened": 1,
+      "change": "Изменилось",
+      "changes": [
+        "Новая модель: Патриот 2 005 000 ₽/-",
+        "Новая модель: Пикап 2 030 000 ₽/-",
+        "Новая модель: Хантер 1 800 000 ₽/-",
+        "Новая модель: Профи 1 820 000 ₽/-",
+        "Буханка: 1 520 000 ₽/200 000 ₽ → 1 520 000 ₽/-"
+      ],
+      "diff": [
+        {
+          "type": "new",
+          "model": "Патриот",
+          "now": {
+            "price": 2005000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "new",
+          "model": "Пикап",
+          "now": {
+            "price": 2030000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "new",
+          "model": "Хантер",
+          "now": {
+            "price": 1800000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "new",
+          "model": "Профи",
+          "now": {
+            "price": 1820000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "Буханка",
+          "was": {
+            "price": 1520000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 1520000,
+            "max_benefit": "-"
+          }
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "company": "Tenet Саранск Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat13-tenet.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://agat13-tenet.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://agat13-tenet.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://agat13-tenet.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://agat13-tenet.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://agat13-tenet.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/70/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 67,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "company": "Tenet Астрахань Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat30-tenet.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://agat30-tenet.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://agat30-tenet.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://agat30-tenet.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://agat30-tenet.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://agat30-tenet.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/71/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 81,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "company": "ОНЕГА ТЕНЕТ",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-betaonego.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://tenet-betaonego.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-betaonego.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-betaonego.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-betaonego.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://tenet-betaonego.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/121/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 58,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "company": "ТЕНЕТ БЕТА",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-beta-pulkovo.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://tenet-beta-pulkovo.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-beta-pulkovo.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-beta-pulkovo.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-beta-pulkovo.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://tenet-beta-pulkovo.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/124/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 56,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "company": "ОНЕГА БЕСТЮН",
+      "responsible": "Савастьянов А.А.",
+      "site": "bestune-betaonego.ru",
+      "brand": "Bestune",
+      "models": [
+        {
+          "model": "Т55",
+          "price": 1451000,
+          "max_benefit": 1000000,
+          "source_url": "https://bestune-betaonego.ru/"
+        },
+        {
+          "model": "T77",
+          "price": 1798000,
+          "max_benefit": 1000000,
+          "source_url": "https://bestune-betaonego.ru/"
+        },
+        {
+          "model": "Т90",
+          "price": 2029990,
+          "max_benefit": 1000000,
+          "source_url": "https://bestune-betaonego.ru/"
+        },
+        {
+          "model": "B70",
+          "price": 1624000,
+          "max_benefit": 1000000,
+          "source_url": "https://bestune-betaonego.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Каскад",
+      "template": "Каскад",
+      "status": "ok",
+      "seconds": 12,
+      "pages_opened": 1,
+      "change": "Изменилось",
+      "changes": [
+        "Новая модель: Т55 1 451 000 ₽/1 000 000 ₽",
+        "T77: 1 798 000 ₽/850 000 ₽ → 1 798 000 ₽/1 000 000 ₽",
+        "Новая модель: Т90 2 029 990 ₽/1 000 000 ₽",
+        "B70: 1 624 000 ₽/850 000 ₽ → 1 624 000 ₽/1 000 000 ₽",
+        "Модель пропала: T55",
+        "Модель пропала: T90"
+      ],
+      "diff": [
+        {
+          "type": "new",
+          "model": "Т55",
+          "now": {
+            "price": 1451000,
+            "max_benefit": 1000000
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T77",
+          "was": {
+            "price": 1798000,
+            "max_benefit": 850000
+          },
+          "now": {
+            "price": 1798000,
+            "max_benefit": 1000000
+          }
+        },
+        {
+          "type": "new",
+          "model": "Т90",
+          "now": {
+            "price": 2029990,
+            "max_benefit": 1000000
+          }
+        },
+        {
+          "type": "changed",
+          "model": "B70",
+          "was": {
+            "price": 1624000,
+            "max_benefit": 850000
+          },
+          "now": {
+            "price": 1624000,
+            "max_benefit": 1000000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T55",
+          "was": {
+            "price": 1451000,
+            "max_benefit": 1000000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T90",
+          "was": {
+            "price": 2029990,
+            "max_benefit": 1200000
+          }
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "company": "Джетур БЕТА ФИНАНС",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-beta.ru",
+      "brand": "Jetour",
+      "models": [
+        {
+          "model": "T1 Гибрид",
+          "price": 3899000,
+          "max_benefit": 800000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "T1",
+          "price": 3175000,
+          "max_benefit": 825000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "DASHING",
+          "price": 1539900,
+          "max_benefit": 1050000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "DASHING AWD",
+          "price": 2759000,
+          "max_benefit": 940000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "T2",
+          "price": 3589000,
+          "max_benefit": 860000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "X70+",
+          "price": 2099000,
+          "max_benefit": 1110000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "X90+",
+          "price": 2349900,
+          "max_benefit": 1150000,
+          "source_url": "https://jetour-beta.ru/"
+        },
+        {
+          "model": "X70",
+          "price": 1949000,
+          "max_benefit": 700000,
+          "source_url": "https://jetour-beta.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Каскад",
+      "template": "Каскад",
+      "status": "ok",
+      "seconds": 19,
+      "pages_opened": 1,
+      "change": "Изменилось",
+      "changes": [
+        "Новая модель: T1 Гибрид 3 899 000 ₽/800 000 ₽",
+        "Новая модель: T1 3 175 000 ₽/825 000 ₽",
+        "DASHING: 1 689 900 ₽/- → 1 539 900 ₽/1 050 000 ₽",
+        "Новая модель: DASHING AWD 2 759 000 ₽/940 000 ₽",
+        "T2: 3 739 000 ₽/- → 3 589 000 ₽/860 000 ₽",
+        "X70+: 2 249 000 ₽/- → 2 099 000 ₽/1 110 000 ₽",
+        "X90+: 2 499 900 ₽/- → 2 349 900 ₽/1 150 000 ₽",
+        "Новая модель: X70 1 949 000 ₽/700 000 ₽",
+        "Модель пропала: Т1 ГИБРИД — ЭНЕРГИЯ БЕЗ ГРАНИЦ",
+        "Модель пропала: Т1 ЛИМИТИРОВАННАЯ СЕРИЯ",
+        "Модель пропала: X50 в Петрозаводске",
+        "Модель пропала: X70 в Петрозаводске"
+      ],
+      "diff": [
+        {
+          "type": "new",
+          "model": "T1 Гибрид",
+          "now": {
+            "price": 3899000,
+            "max_benefit": 800000
+          }
+        },
+        {
+          "type": "new",
+          "model": "T1",
+          "now": {
+            "price": 3175000,
+            "max_benefit": 825000
+          }
+        },
+        {
+          "type": "changed",
+          "model": "DASHING",
+          "was": {
+            "price": 1689900,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 1539900,
+            "max_benefit": 1050000
+          }
+        },
+        {
+          "type": "new",
+          "model": "DASHING AWD",
+          "now": {
+            "price": 2759000,
+            "max_benefit": 940000
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T2",
+          "was": {
+            "price": 3739000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 3589000,
+            "max_benefit": 860000
+          }
+        },
+        {
+          "type": "changed",
+          "model": "X70+",
+          "was": {
+            "price": 2249000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2099000,
+            "max_benefit": 1110000
+          }
+        },
+        {
+          "type": "changed",
+          "model": "X90+",
+          "was": {
+            "price": 2499900,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2349900,
+            "max_benefit": 1150000
+          }
+        },
+        {
+          "type": "new",
+          "model": "X70",
+          "now": {
+            "price": 1949000,
+            "max_benefit": 700000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "Т1 ГИБРИД — ЭНЕРГИЯ БЕЗ ГРАНИЦ",
+          "was": {
+            "price": "-",
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "gone",
+          "model": "Т1 ЛИМИТИРОВАННАЯ СЕРИЯ",
+          "was": {
+            "price": "-",
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "gone",
+          "model": "X50 в Петрозаводске",
+          "was": {
+            "price": 1640000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "gone",
+          "model": "X70 в Петрозаводске",
+          "was": {
+            "price": 2149000,
+            "max_benefit": "-"
+          }
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "company": "ТЕНЕТ АМК ЮГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-amk.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://tenet-amk.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-amk.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-amk.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-amk.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://tenet-amk.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/144/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 58,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "company": "АНТИКОР-СЕРВИС ТЕНЕТ",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-antikorservis.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4L",
+          "price": 2194000,
+          "max_benefit": "-",
+          "source_url": "https://tenet-antikorservis.ru/models/t4l/"
+        },
+        {
+          "model": "T7",
+          "price": 2680000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-antikorservis.ru/models/t7/"
+        },
+        {
+          "model": "T8",
+          "price": 2899000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-antikorservis.ru/models/t8/"
+        },
+        {
+          "model": "T9",
+          "price": 3749000,
+          "max_benefit": 200000,
+          "source_url": "https://tenet-antikorservis.ru/models/t9/"
+        },
+        {
+          "model": "A8",
+          "price": 2899000,
+          "max_benefit": 100000,
+          "source_url": "https://tenet-antikorservis.ru/models/a8/"
+        }
+      ],
+      "screens": [
+        "data/screens/153/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 60,
+      "pages_opened": 7,
+      "change": "Изменилось",
+      "changes": [
+        "T4L: 2 199 000 ₽/- → 2 194 000 ₽/-",
+        "T7: 2 625 000 ₽/200 000 ₽ → 2 680 000 ₽/200 000 ₽",
+        "Модель пропала: T4"
+      ],
+      "diff": [
+        {
+          "type": "changed",
+          "model": "T4L",
+          "was": {
+            "price": 2199000,
+            "max_benefit": "-"
+          },
+          "now": {
+            "price": 2194000,
+            "max_benefit": "-"
+          }
+        },
+        {
+          "type": "changed",
+          "model": "T7",
+          "was": {
+            "price": 2625000,
+            "max_benefit": 200000
+          },
+          "now": {
+            "price": 2680000,
+            "max_benefit": 200000
+          }
+        },
+        {
+          "type": "gone",
+          "model": "T4",
+          "was": {
+            "price": 2089000,
+            "max_benefit": 100000
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "company": "АВАНГАРД ХОНЧИ",
+      "responsible": "Савастьянов А.А.",
+      "site": "hongqi-avangard.ru",
+      "brand": "Хончи",
+      "models": [
+        {
+          "model": "HONGQI H5",
+          "price": 3490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "H5 Делюкс Плюс (Deluxe+)",
+          "price": 3490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI HS3",
+          "price": 2490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI НОВЫЙ HS5",
+          "price": 3390000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI H6",
+          "price": 3790000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI H9",
+          "price": 4300000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI НОВЫЙ HS7",
+          "price": 4770000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI HQ9",
+          "price": 5835000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Преимущество по Трейд-ин",
+        "Доступен кредит **",
+        "ТО-1 в подарок",
+        "Цена от 3 490 000 ₽",
+        "Цена от 2 490 000 ₽",
+        "Цена от 3 390 000 ₽",
+        "Цена от 3 790 000 ₽",
+        "Цена от 4 300 000 ₽",
+        "Цена от 4 770 000 ₽",
+        "Цена от 5 835 000 ₽",
+        "Цена от 4 190 000 ₽",
+        "Цена от 5 790 000 ₽",
+        "Цена от 11 500 000 ₽",
+        "Цена от 5 390 000 ₽",
+        "Цена от 6 600 000 ₽",
+        "Изучите все условия кредита (займа) на сайте https://www.sberbank.com/ru/person/credits/money/avtokredit/dc.",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 32,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 17"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Ли Авто Авангард",
+      "responsible": "Савастьянов А.А.",
+      "site": "lixiang-avangard.ru",
+      "brand": "Li Auto",
+      "models": [
+        {
+          "model": "Ли Л6 / Li L6",
+          "price": 6490000,
+          "max_benefit": "-",
+          "source_url": "https://lixiang-avangard.ru/"
+        },
+        {
+          "model": "Ли Л7 / Li L7",
+          "price": 8990000,
+          "max_benefit": "-",
+          "source_url": "https://lixiang-avangard.ru/"
+        },
+        {
+          "model": "Ли Л9 / Li L9",
+          "price": 10200000,
+          "max_benefit": "-",
+          "source_url": "https://lixiang-avangard.ru/"
+        },
+        {
+          "model": "Ли Л6 Про / Li L6 Pro",
+          "price": 6490000,
+          "max_benefit": "-",
+          "source_url": "https://lixiang-avangard.ru/"
+        },
+        {
+          "model": "Ли Л6 Макс / Li L6 Max",
+          "price": 7200000,
+          "max_benefit": "-",
+          "source_url": "https://lixiang-avangard.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "от 6 490 000 ₽*",
+        "от 8 990 000 ₽*",
+        "от 10 200 000 ₽*",
+        "Цена от 6 490 000₽*",
+        "ПОЛУЧИТЬ СКИДКУ",
+        "от 7 200 000 ₽*",
+        "Цена от 8 990 000₽*",
+        "Цена от 10 200 000₽*",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 30,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 9"
+      ]
+    },
+    {
+      "id": 6,
+      "company": "БЕЛДЖИ ЛАХТА",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-lahta.ru",
+      "brand": "Belgee",
+      "models": [
+        {
+          "model": "X50+",
+          "price": 2219990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-lahta.ru/"
+        },
+        {
+          "model": "S50",
+          "price": 1699990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-lahta.ru/"
+        },
+        {
+          "model": "X70",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-lahta.ru/"
+        },
+        {
+          "model": "X50",
+          "price": 2079990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-lahta.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Выгода до 596 000 Р для юр.лиц",
+        "Цена от 2 219 990 ₽",
+        "Выгода до 100 000 ₽*",
+        "Цена от 1 699 990 ₽",
+        "Выгода до 200 000 ₽*",
+        "Цена от 2 499 990 ₽",
+        "Выгода до 80 000 ₽*",
+        "Цена от 2 079 990 ₽",
+        "Выгода до 400 000 ₽*",
+        "Цена 2 219 990 ₽",
+        "Цена 2 405 990 ₽",
+        "Цена 2 575 990 ₽",
+        "Цена 2 675 990 ₽",
+        "Цена 1 699 990 ₽",
+        "Цена 1 919 990 ₽",
+        "Цена 2 009 990 ₽",
+        "Цена 2 189 990 ₽",
+        "Цена 2 499 990 ₽",
+        "Цена 2 630 990 ₽",
+        "Цена 2 726 990 ₽",
+        "Цена 2 926 990 ₽",
+        "Цена 3 001 990 ₽",
+        "Рассрочка на 7 лет",
+        "Цена 2 079 990 ₽",
+        "Цена 2 325 990 ₽",
+        "Цена 2 425 990 ₽",
+        "(1) Выгода, применяемая к цене автомобиля, предоставляется Дилером покупателю от розничной цены автомобиля. Программа действует с 01.04.2026",
+        "(2) Выгода по программе «Трейд-ин» — это единовременная и разовая скидка, предоставляется Дилером покупателю от розничной цены автомобиля, п"
+      ],
+      "text_mode": true,
+      "seconds": 31,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 28"
+      ]
+    },
+    {
+      "id": 9,
+      "company": "АВАНГАРД Танк Санкт-Петербург",
+      "responsible": "Савастьянов А.А.",
+      "site": "avangard-spb-tank.ru",
+      "brand": "TANK",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://avangard-spb-tank.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://avangard-spb-tank.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Получить кредитное предложение",
+        "Цены без утильсбора! Успейте за своей выгодой до",
+        "900 000 руб.*",
+        "всего 7 автомобилей Тэнк 300 от 25 917 руб/мес!",
+        "Успейте зафиксировать выгоду:",
+        "Выгода до 450 000 ₽",
+        "Цена от 3 749 000₽",
+        "От 24 439 ₽/мес.",
+        "Дополнительный бонус",
+        "ВЫГОДА ПРИ ПОКУПКЕ до 450 000 руб.",
+        "Каско и доп.оборудование на 200 000 в подарок",
+        "ЗАЯВКА НА КРЕДИТ",
+        "Выгода до 350 000 ₽",
+        "Цена от 5 049 000₽",
+        "Выгода до 800 000 ₽",
+        "Цена от 5 999 000₽",
+        "Выгода до 900 000 ₽",
+        "Цена от 7 999 000₽",
+        "CПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ ПО ПОКУПКЕ В КРЕДИТ",
+        "Программа кредитования TANK BASIC*",
+        "Программа кредитования TANK STANDART*",
+        "1. Тэнк в кредит",
+        "Предложение распространяется на новые автомобили TANK 300, TANK 400, TANK 500, TANK 700 кроме Edition One приобретаемых у официальных дилеро",
+        "Полная стоимость кредита (далее – ПСК) рассчитывается для каждой процентной ставки. Размер процентной ставки зависит от первоначального взно",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 37,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 25"
+      ]
+    },
+    {
+      "id": 10,
+      "company": "АВАНГАРД Джили",
+      "responsible": "Савастьянов А.А.",
+      "site": "avangard-geely.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "CITYRAY",
+          "price": 2954990,
+          "max_benefit": "-",
+          "source_url": "https://avangard-geely.ru/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3423000,
+          "max_benefit": "-",
+          "source_url": "https://avangard-geely.ru/"
+        },
+        {
+          "model": "COOLRAY",
+          "price": 2774990,
+          "max_benefit": "-",
+          "source_url": "https://avangard-geely.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Трейд-ин",
+        "РАССРОЧКА 0,01% НА 5 ЛЕТ",
+        "ВЫГОДА ДО 650 000 ₽",
+        "РАССРОЧКА БЕЗ УДОРОЖАНИЯ ДО 8 ЛЕТ. ВЫГОДА ДО 360 000 ₽",
+        "ВЫГОДА ДО 650 000₽. РАССРОЧКА ДО 5 ЛЕТ. ПОДАРКИ КАЖДОМУ ПОКУПАТЕЛЮ",
+        "ДЛЯ ВСЕЙ СЕМЬИ. ВЫГОДА ДО 473 000 ₽",
+        "от 2 954 990 ₽",
+        "от 3 423 000 ₽",
+        "от 2 774 990 ₽",
+        "Акции и спецпредложения",
+        "Скидка на ТО при первом визите",
+        "Geely в кредит",
+        "Не теряйте время на финансовые расчеты при оформлении кредита на автомобиль. Онлайн-сервис на нашем сайте сделает это за Вас, с учетом выбра",
+        "Оставить заявку на расчет ежемесячного платежа по кредиту",
+        "Мечтаете стать обладателем новой машины, но не получается быстро продать старую – воспользуйтесь системой Трейд-Ин в нашем автоцентре. Оценк"
+      ],
+      "text_mode": true,
+      "seconds": 38,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 15"
+      ]
+    },
+    {
+      "id": 15,
+      "company": "Автобан Дипал",
+      "responsible": "Савастьянов А.А.",
+      "site": "deepal-avtoban.ru",
+      "brand": "Deepal",
+      "models": [
+        {
+          "model": "S09",
+          "price": 6589900,
+          "max_benefit": "-",
+          "source_url": "https://deepal-avtoban.ru/"
+        },
+        {
+          "model": "S07",
+          "price": 5289900,
+          "max_benefit": "-",
+          "source_url": "https://deepal-avtoban.ru/"
+        },
+        {
+          "model": "G318",
+          "price": 5660000,
+          "max_benefit": "-",
+          "source_url": "https://deepal-avtoban.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "От 6 589 900 ₽",
+        "От 5 289 900 ₽",
+        "От 5 660 000 ₽",
+        "Рассчитать кредит",
+        "Срок кредита",
+        "Выберите срок кредита",
+        "5 740 000 ₽",
+        "Трейд-Ин",
+        "80 000 ₽",
+        "Цена с учетом макс. выгод",
+        "от 15 872 ₽",
+        "15 872 ₽",
+        "Сумма кредита",
+        "1 435 000 ₽",
+        "17 625 ₽",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 28,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 16"
+      ]
+    },
+    {
+      "id": 16,
+      "company": "Автобан Чанган Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "sales.avtoban-changanauto.ru",
+      "brand": "Changan",
+      "models": [
+        {
+          "model": "Deepal S07",
+          "price": 4014900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "Deepal G318",
+          "price": 4760000,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "Deepal S09",
+          "price": 6589900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "CS35 Макс",
+          "price": 2389900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "Cnangan CS75 Плюс",
+          "price": 2869900,
+          "max_benefit": 1100000,
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "CS75 Плюс новый",
+          "price": 3589900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "UNI-S",
+          "price": 2379900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "HUNTER Плюс",
+          "price": 3819900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "CS35 Плюс",
+          "price": 2049900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "CS95",
+          "price": 4329900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "EADO Плюс",
+          "price": 2239900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        },
+        {
+          "model": "ALSVIN",
+          "price": 1889900,
+          "max_benefit": "-",
+          "source_url": "https://sales.avtoban-changanauto.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Tilda; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "Tilda",
+      "status": "needs_check",
+      "promo_lines": [
+        "СПЕЦ ЦЕНА выгода до 1 100 000 руб.",
+        "Купить Чанган выгодно в Автобан",
+        "Выгода при кредите",
+        "При покупке автомобиля в кредит выгода до 250 000 рублей",
+        "Выгода при трейд-ин",
+        "При обмене своего автомобиля на новый Changan выгода до 250 000 рублей",
+        "На сайте указаны цены с учетом максимальных выгод при покупке автомобиля в кредит и по программе трейд-ин. Подробную информацию об условиях "
+      ],
+      "text_mode": true,
+      "seconds": 12,
+      "pages_opened": 2,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 7"
+      ]
+    },
+    {
+      "id": 17,
+      "company": "ЧАНГАН АВТОБАН ЕКАТЕРИНБУРГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "avtoban-changanauto.ru",
+      "brand": "Changan",
+      "models": [
+        {
+          "model": "CS75PLUS NEW",
+          "price": 3589900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/cs75plus-gen4"
+        },
+        {
+          "model": "CS75 PRO",
+          "price": 2800000,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/cs75pro"
+        },
+        {
+          "model": "CS35 MAX",
+          "price": 2399900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/cs35max"
+        },
+        {
+          "model": "ALSVIN",
+          "price": 1889900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/alsvin"
+        },
+        {
+          "model": "CS35PLUS",
+          "price": 2049900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/cs35plus-new"
+        },
+        {
+          "model": "CS75PLUS",
+          "price": 3564900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/cs75plus-new"
+        },
+        {
+          "model": "CS95",
+          "price": 4329900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/cs95new"
+        },
+        {
+          "model": "EADO PLUS",
+          "price": 2239900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/eadoplus"
+        },
+        {
+          "model": "HUNTER PLUS",
+          "price": 3133211,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/hunterplus"
+        },
+        {
+          "model": "STAR TRUCK",
+          "price": 1619900,
+          "max_benefit": "-",
+          "source_url": "https://avtoban-changanauto.ru/model/star-truck"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "ОТ 4 129 000 РУБЛЕЙ",
+        "ОТ 3 589 900 РУБ.",
+        "ОТ 2 399 900 РУБ.",
+        "от 3 589 900 ₽",
+        "Кредитный",
+        "КРЕДИТНЫЙ КАЛЬКУЛЯТОР",
+        "трейд-ин",
+        "Спецпредложения",
+        "Выгодные условия для вас",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 91,
+      "pages_opened": 14,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 10"
+      ]
+    },
+    {
+      "id": 18,
+      "company": "АВТОБАН СОЛЯРИС",
+      "responsible": "Савастьянов А.А.",
+      "site": "solaris-avtoban.ru",
+      "brand": "Solaris",
+      "models": [
+        {
+          "model": "HC",
+          "price": 2470000,
+          "max_benefit": "-",
+          "source_url": "https://solaris-avtoban.ru/models/solaris-hc"
+        },
+        {
+          "model": "KRX",
+          "price": 2465000,
+          "max_benefit": 120000,
+          "source_url": "https://solaris-avtoban.ru/models/solaris-krx"
+        },
+        {
+          "model": "KRS",
+          "price": 2245000,
+          "max_benefit": 200000,
+          "source_url": "https://solaris-avtoban.ru/models/solaris-krs"
+        },
+        {
+          "model": "HS",
+          "price": 2440000,
+          "max_benefit": "-",
+          "source_url": "https://solaris-avtoban.ru/models/solaris-hs"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Next.js), цифры надо проверить; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Трейд-ин",
+        "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 16 900 ₽",
+        "ВЫГОДА ДО 200 000 ₽",
+        "ПРИ ПОКУПКЕ SOLARIS В ТРЕЙД-ИН",
+        "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 12 900 ₽",
+        "ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:",
+        "SBERBANK.RU В РАЗДЕЛЕ «АВТОКРЕДИТЫ».",
+        "Полная стоимость кредита от 0,010% до 15.897% годовых.",
+        "В кредит от 0.01%",
+        "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 13 900 ₽",
+        "НА ВЫГОДНЫХ УСЛОВИЯХ",
+        "ОТ 2 470 000 ₽"
+      ],
+      "text_mode": true,
+      "seconds": 63,
+      "pages_opened": 8,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 12"
+      ]
+    },
+    {
+      "id": 20,
+      "company": "АВТОБАН МОСКВИЧ",
+      "responsible": "Савастьянов А.А.",
+      "site": "avtoban-moskvich.ru",
+      "brand": "Москвич",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://avtoban-moskvich.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Собрано по общему шаблону движка Tilda; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "Tilda",
+      "status": "needs_check",
+      "promo_lines": [
+        "Москвич 3 в Автобан с выгодой до 560 000 ₽",
+        "Кредит от 0,01%,",
+        "Допоборудование и зимние шины в подарок",
+        "от 1 680 000 ₽",
+        "Выгода до 560 000 ₽",
+        "Допоборудование и зимняя резина в подарок",
+        "Кредит от 0,01%",
+        "Обмен авто по выгодным условиям",
+        "Выгода до 925 000 ₽",
+        "Допоборудование в подарок",
+        "Выгоды на автомобили Москвич до 560 000 ₽!",
+        "Узнать мою выгоду",
+        "Спецпредложения на автомобили Москвич в Екатеринбурге",
+        "Шины и аксессуары в подарок за покупку",
+        "Специальное предложение на Москвич 3. Кредит от 0,01 %*",
+        "Выгодный обмен автомобиля",
+        "Кредит и рассрочка",
+        "Одобрение 95% заявок. Специальные программы по кредитованию от 0.01%",
+        "Можно ли купить Москвич в кредит без первого взноса?",
+        "Автомобили в наличии в разных комплектациях по выгодным ценам",
+        "Трейд-ин",
+        "Автокредитование",
+        "Специальные кредитные программы со ставками от 0,01%",
+        "Спецпредложения",
+        "Кредитные программы"
+      ],
+      "text_mode": true,
+      "seconds": 26,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 25"
+      ]
+    },
+    {
+      "id": 112,
+      "company": "АЕМ Лендинг Тэнк",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.aem-tank.ru",
+      "brand": "TANK",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://promo.aem-tank.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://promo.aem-tank.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Выгода на Tank до 850 000 ₽ до 30.11",
+        "В кредит или лизинг от 22825 ₽/мес от 0.01%*",
+        "Доп. оборудование в подарок",
+        "Узнать цену по акции",
+        "Выгода до 400 000 ₽",
+        "Выгода до 700 000 ₽",
+        "Выгода до 850 000 ₽",
+        "Выгода до 500 000 ₽",
+        "Выгода до",
+        "400 000 ₽",
+        "Автокредит от 0,01%",
+        "Платеж от 19 000 ₽/месяц",
+        "Бонус при обмене авто",
+        "Доп. оборудование в подарок!",
+        "700 000 ₽",
+        "Платеж от 37 000 ₽/месяц",
+        "Доп. скидка от дилера",
+        "850 000 ₽",
+        "Платеж от 43 000 ₽/месяц",
+        "500 000 ₽",
+        "Платеж от 75 000 ₽/месяц",
+        "350 000 ₽",
+        "Выгода при обмене до 350 000 ₽",
+        "Мы перезвоним вам и предложим наиболее выгодные условия",
+        "Прекрасный салон. Прекрасные менеджеры. Особенно Павел. Всё честно, включая оценку по трейд-ин (оценивал его коллега), быстро, информативно.",
+        "Условия акций",
+        "Выгодный обмен автомобиля",
+        "Выгодное предложение"
+      ],
+      "text_mode": true,
+      "seconds": 41,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 28"
+      ]
+    },
+    {
+      "id": 130,
+      "company": "ЧЕРИ ЦЕНТР ПУЛКОВО Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-center-spb.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "Tiggo 7 Pro Plug-in Hybrid",
+          "price": 3409000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        },
+        {
+          "model": "Tiggo 4 Pro",
+          "price": 1730000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        },
+        {
+          "model": "Tiggo 8 Pro Max",
+          "price": 3460000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        },
+        {
+          "model": "Tiggo 7 Pro Max",
+          "price": 2445000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        },
+        {
+          "model": "Arrizo 8",
+          "price": 2330000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        },
+        {
+          "model": "Tiggo 4",
+          "price": 2000000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        },
+        {
+          "model": "Tiggo 9",
+          "price": 3990000,
+          "max_benefit": "-",
+          "source_url": "https://chery-center-spb.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "НОВЫЕ CHERY ПО ЦЕНАМ 2024 ГОДА С ВЫГОДОЙ ДО 2 300 000₽",
+        "УЗНАТЬ ЦЕНУ ПО АКЦИИ",
+        "до 950 000₽",
+        "CHERY в кредит за 599₽/день",
+        "Доп. выгода до 600 000 ₽ по программе Семейный автомобиль",
+        "Каско и зимняя резина в подарок",
+        "РАССЧИТАТЬ КРЕДИТ",
+        "от 1 400 000₽",
+        "Улучшим предложение конкурентов на 150 000₽",
+        "Рассрочка 0% до 24 мес.",
+        "до 1 050 000₽",
+        "CHERY в кредит за 18 000₽/месяц",
+        "Каско и зимняя резина в подарок!",
+        "до 2 260 000₽",
+        "Кредит без первого взноса + 1-й платеж в подарок",
+        "до 2 300 000₽",
+        "Прайм скидка по трейд-ин 300 000₽",
+        "до 1 370 000₽",
+        "до 1 151 000₽",
+        "до 2 000 000₽",
+        "Минус 100 000 ₽ по программе Семейный автомобиль",
+        "3 409 000 ₽",
+        "Узнать цену с выгодой",
+        "1 730 000 ₽",
+        "3 460 000 ₽",
+        "2 620 000 ₽",
+        "1 909 000 ₽",
+        "2 740 000 ₽",
+        "3 520 000 ₽",
+        "2 445 000 ₽"
+      ],
+      "text_mode": true,
+      "seconds": 40,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 30"
+      ]
+    },
+    {
+      "id": 131,
+      "company": "Чери-Пулково",
+      "responsible": "Савастьянов А.А.",
+      "site": "cherypulkovo.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 700000,
+          "max_benefit": 700000,
+          "source_url": "https://cherypulkovo.ru/models/tiggo_9/"
+        },
+        {
+          "model": "НОВЫЙ CHERY ARRIZO 8",
+          "price": 500000,
+          "max_benefit": 500000,
+          "source_url": "https://cherypulkovo.ru/models/arrizo_8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Спецпредложения",
+        "Выгода до 450 000 руб.*",
+        "Выгода до 550 000 руб.*",
+        "Выгода до 680 000 руб.*",
+        "Выгода до 700 000 руб.*",
+        "Выгода до 500 000 руб.*",
+        "КУПИТЬ В КРЕДИТ",
+        "УСЛОВИЯ АКЦИИ",
+        "Подробные условия акции",
+        "Рассчитать кредит",
+        "Выгодное предложение"
+      ],
+      "text_mode": true,
+      "seconds": 46,
+      "pages_opened": 6,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 11"
+      ]
+    },
+    {
+      "id": 134,
+      "company": "ЧЕРИ ПУЛКОВО Санкт-Петербург",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-spb-pulkovo.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://chery-spb-pulkovo.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://chery-spb-pulkovo.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Рассчитать кредит",
+        "Наши преимущества",
+        "ВЫГОДНЫЕ КРЕДИТЫ",
+        "Выгодное предложение",
+        "Выгода до 450 000₽",
+        "Кредит без первого взноса + 1-й платеж в подарок",
+        "Кредит 0,01% до 84 мес. ПАО «Совкомбанк» ген.лиц.963 от 05.12.2014",
+        "Выгоды по программам «Обмен автомобиля» и «Прямая скидка»",
+        "Бонус от Дилерского Центра: до 200 000р бонус за покупку в день визита",
+        "Выгода до 550 000₽",
+        "АВТОКРЕДИТ в СБЕРЕ от 18 500Р/мес. ПАО Сбербанк. Лиц. 1481 от 11.08.2015. Подробности в отделе продаж",
+        "Выгоды по программам «Обмен автомобиля»",
+        "Выгода до 680 000₽",
+        "Выгода до 700 000₽",
+        "Выгода до 500 000₽",
+        "ПО КРЕДИТУ",
+        "2 200 000₽",
+        "Срок кредита",
+        "Очень качественная работа, которая выполнена настоящими профессионалами. Помогли с решением, с очень не простой задачей. Очень пордовало быс",
+        "Цена с учетом маркетинговых акций. Не является публичной офертой. Подробности узнавайте в отделе продаж ЧЕРИ ЦЕНТР Пулково.",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 69,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 21"
+      ]
+    },
+    {
+      "id": 143,
+      "company": "АМК Чери Юг Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "amk-chery.ru",
+      "brand": "TENET",
+      "models": [
+        {
+          "model": "T4",
+          "price": 1990000,
+          "max_benefit": 2016000,
+          "source_url": "https://amk-chery.ru/"
+        },
+        {
+          "model": "T4L",
+          "price": 1890000,
+          "max_benefit": 1890000,
+          "source_url": "https://amk-chery.ru/"
+        },
+        {
+          "model": "T7",
+          "price": 2649000,
+          "max_benefit": 2689300,
+          "source_url": "https://amk-chery.ru/"
+        },
+        {
+          "model": "T8",
+          "price": 2851900,
+          "max_benefit": 2851900,
+          "source_url": "https://amk-chery.ru/"
+        },
+        {
+          "model": "CHERY TIGGO 9, 2025.",
+          "price": 3949800,
+          "max_benefit": 3949800,
+          "source_url": "https://amk-chery.ru/"
+        },
+        {
+          "model": "CHERY ARRIZO 8",
+          "price": 2521200,
+          "max_benefit": 2521200,
+          "source_url": "https://amk-chery.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "T4: выгода больше цены; T7: выгода больше цены; Собрано по общему шаблону движка Tilda; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "Tilda",
+      "status": "needs_check",
+      "promo_lines": [
+        "Выгода до",
+        "700 000 ₽",
+        "Трейд-ин до 200 000 ₽",
+        "Кредит от 8 500 ₽/мес.",
+        "Доступна авторассрочка 0%! Узнайте подробности",
+        "Выгода до 550 000 ₽",
+        "от 2 219 000 ₽*",
+        "Кредит · платёж",
+        "от 8 900 ₽/мес.*",
+        "Скидка за трейд-ин",
+        "до 150 000 ₽*",
+        "Выгода до 300 000 ₽",
+        "от 1 950 000 ₽*",
+        "от 9 630 ₽/мес.*",
+        "до 100 000 ₽*",
+        "Выгода до 700 000 ₽",
+        "от 2 299 000 ₽*",
+        "от 11 300 ₽/мес.*",
+        "до 200 000 ₽*",
+        "Выгода до 600 000 ₽",
+        "от 2 599 000 ₽*",
+        "от 18 900 ₽/мес.*",
+        "от 3 499 000 ₽*",
+        "от 24 700 ₽/мес.*",
+        "от 14 200 ₽/мес.*",
+        "* Цена, размер выгоды и скидка за трейд-ин зависят от автомобиля и условий покупки. Платёж по кредиту зависит от суммы, срока, первоначально",
+        "Наши акции",
+        "1 990 000₽2 219 000₽",
+        "Рассрочка под 0,01%",
+        "Кешбек до 30 000₽"
+      ],
+      "text_mode": true,
+      "seconds": 21,
+      "pages_opened": 2,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 30"
+      ]
+    },
+    {
+      "id": 147,
+      "company": "[ct]Amk-sam.ru Лендинг Самара",
+      "responsible": "Савастьянов А.А.",
+      "site": "amk-sam.ru",
+      "brand": "LADA",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://amk-sam.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Собрано по общему шаблону движка Tilda; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "Tilda",
+      "status": "needs_check",
+      "promo_lines": [
+        "Приобрести автомобили LADA вновь можно по обновленной программе господдержки со скидкой до 40%",
+        "ЛЬГОТНАЯ ПРОГРАММА \"СЕМЕЙНЫЙ АВТОМОБИЛЬ\"! СКИДКА 10%!*",
+        "Авторассрочка под 0,01%",
+        "Госпрограмма — скидка до 40%",
+        "ОТ 1 550 400 ₽",
+        "Подарки и выгоды до конца февраля",
+        "в подарок!",
+        "Получить акционное предложение",
+        "УСПЕЙТЕ КУПИТЬ ВЫГОДНО!",
+        "ОТ 789 600 ₽",
+        "ОТ 799 200 ₽",
+        "ОТ 1 218 400 ₽",
+        "ОТ 1 277 600 ₽",
+        "ОТ 1 021 600 ₽",
+        "ОТ 2 809 000 ₽",
+        "Наши акции",
+        "В АМК МЕГА ВЫГОДНЫЕ УСЛОВИЯ",
+        "Наши опытные консультанты помогут получить максимальную выгоду, а также учтут все пожелания и бюджет, чтобы Вы смогли найти идеальный автомо",
+        "Продавал тут свое ТС. Получил экспертное заключение и как итог подписали договор на взаимовыгодных условиях.",
+        "ПРЕИМУЩЕСТВА",
+        "ВЫГОДНЫЙ TRADE-IN",
+        "ОДОБРЕНИЕ ПО КРЕДИТУ БОЛЕЕ 90%",
+        "ЗА 6 500 РУБ В МЕСЯЦ",
+        "Выгодные кредитные и лизинговые предложения с бонусами по страховке и сервисным обслуживанием",
+        "РАССЧИТАТЬ КРЕДИТ",
+        "➤ Высокая оценка по трейд-ин",
+        "Оставьте заявку и получите выгодное предложение по Trade-In",
+        "УДОБНАЯ РАССРОЧКА"
+      ],
+      "text_mode": true,
+      "seconds": 18,
+      "pages_opened": 3,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 28"
+      ]
+    },
+    {
+      "id": 150,
+      "company": "[ct]АМР чат-лендинг Саратов",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-64.ru",
+      "brand": "Jetour",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://jetour-64.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://jetour-64.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Максимальная выгода в ноябре!",
+        "Выгода до 840.000 ₽",
+        "Автокредит от 0,01%"
+      ],
+      "text_mode": true,
+      "seconds": 39,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 3"
+      ]
+    },
+    {
+      "id": 167,
+      "company": "Solaris.artexauto.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "solaris.artexauto.ru",
+      "brand": "Solaris",
+      "models": [
+        {
+          "model": "HC",
+          "price": 2470000,
+          "max_benefit": "-",
+          "source_url": "https://solaris.artexauto.ru/models/solaris-hc"
+        },
+        {
+          "model": "KRX",
+          "price": 2465000,
+          "max_benefit": 120000,
+          "source_url": "https://solaris.artexauto.ru/models/solaris-krx"
+        },
+        {
+          "model": "KRS",
+          "price": 2245000,
+          "max_benefit": 200000,
+          "source_url": "https://solaris.artexauto.ru/models/solaris-krs"
+        },
+        {
+          "model": "HS",
+          "price": 2440000,
+          "max_benefit": "-",
+          "source_url": "https://solaris.artexauto.ru/models/solaris-hs"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Next.js), цифры надо проверить; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Трейд-ин",
+        "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 16 900 ₽",
+        "ВЫГОДА ДО 200 000 ₽",
+        "ПРИ ПОКУПКЕ SOLARIS В ТРЕЙД-ИН",
+        "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 12 900 ₽",
+        "ИЗУЧИТЕ ВСЕ УСЛОВИЯ КРЕДИТА (ЗАЙМА) НА САЙТЕ:",
+        "SBERBANK.RU В РАЗДЕЛЕ «АВТОКРЕДИТЫ».",
+        "Полная стоимость кредита от 0,010% до 15.897% годовых.",
+        "В кредит от 0.01%",
+        "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 13 900 ₽",
+        "НА ВЫГОДНЫХ УСЛОВИЯХ",
+        "ОТ 2 470 000 ₽"
+      ],
+      "text_mode": true,
+      "seconds": 67,
+      "pages_opened": 8,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 12"
+      ]
+    },
+    {
+      "id": 193,
+      "company": "Чанган ИЗМАЙЛОВО",
+      "responsible": "Савастьянов А.А.",
+      "site": "sales.izmailovo-changanauto.ru",
+      "brand": "Changan",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://sales.izmailovo-changanauto.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://sales.izmailovo-changanauto.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Реальная выгода до 1 350 000 Р",
+        "ВЫГОДА ДО 1 350 000",
+        "ДОП. ОБОРУДОВАНИЕ В ПОДАРОК",
+        "Удобная рассрочка",
+        "от 3 249 900 ₽",
+        "Узнать цену в дни акции",
+        "Рассчитать в кредит",
+        "от 2 779 900 ₽",
+        "Увеличенный бонус по обмену автомобиля",
+        "Специальные программы кредитования*",
+        "от 2 229 900 ₽",
+        "Ежемесячный платеж от 19 100 ₽",
+        "Преимущество до 950 000 ₽**",
+        "от 2 599 900 ₽",
+        "от 3 949 900 ₽",
+        "Преимущество до 300 000 ₽**",
+        "Дополнительное оборудование – в подарок!",
+        "от 3 089 900 ₽",
+        "Ежемесячный платеж от 25 850 ₽",
+        "Преимущество до 1 250 000 ₽**",
+        "от 2 775 000 ₽",
+        "от 1 959 900 ₽",
+        "Ежемесячный платеж от 14 900 ₽",
+        "Преимущество до 750 000 ₽**",
+        "от 3 349 900 ₽",
+        "Преимущество до 1 350 000 ₽**",
+        "от 2 309 900 ₽",
+        "Преимущество до 1 000 000 ₽**",
+        "от 2 919 900 ₽",
+        "Преимущество до 1 050 000 ₽**"
+      ],
+      "text_mode": true,
+      "seconds": 47,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 30"
+      ]
+    },
+    {
+      "id": 194,
+      "company": "ЧАНГАН ВЕЛИКАН",
+      "responsible": "Савастьянов А.А.",
+      "site": "i-changanauto.ru",
+      "brand": "Changan",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://i-changanauto.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://i-changanauto.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: 1С-Битрикс), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "ПРЕИМУЩЕСТВА",
+        "Цена от 1 422 500 руб.!!!",
+        "ОТ 11 500 РУБ.*",
+        "ПРЕИМУЩЕСТВА АВТОМОБИЛЕЙ CHANGAN",
+        "Выгодный обмен вашего автомобиля на новый с доп.скидкой от рекомендуемой розничной стоимости",
+        "Кредит, рассрочка, наличный и безналичный расчет",
+        "Доп.оборудование в подарок",
+        "Полезные подарки и бонусы в автосалоне от дилера на Ваш выбор",
+        "ВЫГОДА 20% ДЛЯ ПЕРВЫХ КЛИЕНТОВ",
+        "Выгодные спец предложения и сезонные акции;",
+        "* Подробные условия акции"
+      ],
+      "text_mode": true,
+      "seconds": 52,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 11"
+      ]
+    },
+    {
+      "id": 216,
+      "company": "Дав Авто Джили Витрина",
+      "responsible": "Савастьянов А.А.",
+      "site": "cars.geely-davauto.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://cars.geely-davauto.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://cars.geely-davauto.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "трейд-ин",
+        "GEELY КРЕДИТ",
+        "Выгода до 840 000 ₽*",
+        "Ставка по кредиту от 0,01%* Гарантия до 6 лет*",
+        "ЛИЗИНГ без переплат трейд-ин с доп. выгодой",
+        "Выгода до 300 000 ₽",
+        "Платеж от 6 060 ₽",
+        "Кредит от 0,01%",
+        "Оригинальное оборудование и аксессуары в подарок!",
+        "ТРЕЙД-ИН выше рынка",
+        "Выгода на ТО",
+        "Узнать цену по акции",
+        "Выгода по трейд-ин до",
+        "150 000 ₽*",
+        "Выгода до 564 000 ₽",
+        "Платеж от 7 700 ₽",
+        "455 000 ₽*",
+        "Выгода до 290 000 ₽",
+        "Платеж от 9 500 ₽",
+        "Выгода по лизингу до",
+        "420 000 ₽*",
+        "Выгода до 630 000 ₽",
+        "Платеж от 13 700 ₽",
+        "340 000 ₽*",
+        "Выгода до 840 000 ₽",
+        "500 000 ₽*",
+        "Выгода до 450 000 ₽",
+        "Платеж от 10 100 ₽",
+        "400 000 ₽*",
+        "Выгода до 325 000 ₽"
+      ],
+      "text_mode": true,
+      "seconds": 64,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 30"
+      ]
+    },
+    {
+      "id": 217,
+      "company": "Дав Авто ЧАТ",
+      "responsible": "Савастьянов А.А.",
+      "site": "carsgeely-davauto.rqch.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://carsgeely-davauto.rqch.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://carsgeely-davauto.rqch.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Платформа rqch.ru), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Сигнализация в подарок!",
+        "Выгода до 840 000₽*",
+        "Платёж от 7 700₽/мес*",
+        "Кредит под 0.01% без ПВ*",
+        "Трейд-ин с дополнительной выгодой"
+      ],
+      "text_mode": true,
+      "seconds": 24,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 5"
+      ]
+    },
+    {
+      "id": 218,
+      "company": "Дав Авто Джили Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.geely-davauto.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": 450000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4349990,
+          "max_benefit": 650000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3535990,
+          "max_benefit": 555000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3189990,
+          "max_benefit": 500000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2579990,
+          "max_benefit": 400000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        },
+        {
+          "model": "EX5",
+          "price": 3819990,
+          "max_benefit": 840000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        },
+        {
+          "model": "EX5 EM-i",
+          "price": 3419990,
+          "max_benefit": 600000,
+          "source_url": "https://promo.geely-davauto.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Tilda; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "Tilda",
+      "status": "needs_check",
+      "promo_lines": [
+        "Преимущества «ДАВ-АВТО»",
+        "Автомобили GEELY в наличии с выгодой до 840 000 рублей",
+        "Оригинальное оборудование и аксессуары в подарок !",
+        "Дополнительная скидка от дилера.",
+        "Выгодная рассрочка 0,01% на 8 лет.",
+        "Рассрочка 0,01% на 8 лет.",
+        "От 3 079 990 руб.",
+        "Выгода до 450 000 руб.",
+        "От 4 349 990 руб.",
+        "Выгода до 650 000 руб.",
+        "От 3 535 990 руб.",
+        "Выгода до 555 000 руб.",
+        "От 3 189 990 руб.",
+        "Выгода до 500 000 руб.",
+        "От 2 579 990 руб.",
+        "Выгода до 400 000 руб.",
+        "От 3 819 990 руб.",
+        "Выгода до 840 000 руб.",
+        "Рассрочка 0,01% на 8 лет",
+        "От 3 419 990 руб.",
+        "Выгода до 600 000 руб.",
+        "Рассчитать кредит"
+      ],
+      "text_mode": true,
+      "seconds": 27,
+      "pages_opened": 2,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 22"
+      ]
+    },
+    {
+      "id": 220,
+      "company": "Дайнава-Лада",
+      "responsible": "Савастьянов А.А.",
+      "site": "daynava-lada.ru",
+      "brand": "LADA",
+      "models": [
+        {
+          "model": "Весь сайт",
+          "price": "-",
+          "max_benefit": "-",
+          "source_url": "https://daynava-lada.ru"
+        }
+      ],
+      "screens": [],
+      "comment": "Не нашлась цена: Весь сайт; Обход моделей: На https://daynava-lada.ru/ не нашлось ссылок на модели; Собрано запасным шаблоном (движок: Не определён), цифры надо проверить; Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "ТРЕЙД-ИН",
+        "Купить в кредит",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 51,
+      "pages_opened": 5,
+      "change": "Первая проверка",
+      "changes": [
+        "Записан текст акций: строк 3"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Ли Авто Авангард",
+      "responsible": "Савастьянов А.А.",
+      "site": "avangard-liauto.ru",
+      "brand": "Li Auto",
+      "models": [
+        {
+          "model": "Li L6",
+          "price": 6890000,
+          "max_benefit": "-",
+          "source_url": "https://avangard-liauto.ru/models/li-l6/"
+        },
+        {
+          "model": "Li L7",
+          "price": 9019000,
+          "max_benefit": "-",
+          "source_url": "https://avangard-liauto.ru/models/li-l7/"
+        },
+        {
+          "model": "Li L9",
+          "price": 10495000,
+          "max_benefit": "-",
+          "source_url": "https://avangard-liauto.ru/models/li-l9/"
+        },
+        {
+          "model": "Li L8",
+          "price": 10390000,
+          "max_benefit": "-",
+          "source_url": "https://avangard-liauto.ru/models/li-l8/"
+        },
+        {
+          "model": "L9 Livis",
+          "price": 12190000,
+          "max_benefit": "-",
+          "source_url": "https://avangard-liauto.ru/models/li-l9-livis/"
+        }
+      ],
+      "screens": [
+        "data/screens/3/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 49,
+      "pages_opened": 7,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 7,
+      "company": "АВАНГАРД Белджи",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-avangard.ru",
+      "brand": "Belgee",
+      "models": [
+        {
+          "model": "Новый X50",
+          "price": 2099990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-avangard.ru/"
+        },
+        {
+          "model": "X50+",
+          "price": 2169990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-avangard.ru/"
+        },
+        {
+          "model": "S50",
+          "price": 1729990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-avangard.ru/"
+        },
+        {
+          "model": "X70",
+          "price": 2529990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-avangard.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 18,
+      "pages_opened": 2,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 8,
+      "company": "ТАНК АВАНГАРД",
+      "responsible": "Савастьянов А.А.",
+      "site": "tank-avangard.ru",
+      "brand": "TANK",
+      "models": [
+        {
+          "model": "WEY 07",
+          "price": 6149000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-avangard.ru/models/wey-07/"
+        },
+        {
+          "model": "WEY 80",
+          "price": 6449000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-avangard.ru/models/wey-80-premium/"
+        },
+        {
+          "model": "WEY 80 Лаундж",
+          "price": 8099000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-avangard.ru/models/wey-80-business-lounge/"
+        },
+        {
+          "model": "WEY V9X",
+          "price": 9349000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-avangard.ru/models/wey-v9x/"
+        },
+        {
+          "model": "300",
+          "price": 4099000,
+          "max_benefit": "-",
+          "source_url": "https://tank-avangard.ru/"
+        },
+        {
+          "model": "400",
+          "price": 5599000,
+          "max_benefit": "-",
+          "source_url": "https://tank-avangard.ru/"
+        },
+        {
+          "model": "500",
+          "price": 6399000,
+          "max_benefit": "-",
+          "source_url": "https://tank-avangard.ru/"
+        },
+        {
+          "model": "700",
+          "price": 10199000,
+          "max_benefit": "-",
+          "source_url": "https://tank-avangard.ru/"
+        }
+      ],
+      "screens": [
+        "data/screens/8/model-4.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 118,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 11,
+      "company": "Джили Авангард",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-avangard.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "EX5 Гибрид",
+          "price": 3229990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/model-ex5-em-i/"
+        },
+        {
+          "model": "НОВЫЙ COOLRAY",
+          "price": 2624990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/coolray-2026/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/cityray/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3259990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/geely-atlas-2024/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3514990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/okavango/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4409990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/monjaro/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/geely-preface/"
+        },
+        {
+          "model": "EX5",
+          "price": 4099990,
+          "max_benefit": "-",
+          "source_url": "https://geely-avangard.ru/models/model-ex5/"
+        }
+      ],
+      "screens": [
+        "data/screens/11/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 101,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 21,
+      "company": "АВТОБАН МОСКВИЧ",
+      "responsible": "Савастьянов А.А.",
+      "site": "moskvich-avtoban.ru",
+      "brand": "Москвич",
+      "models": [
+        {
+          "model": "3",
+          "price": 1780000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-avtoban.ru/models/moskvich-3/"
+        },
+        {
+          "model": "3e",
+          "price": 3500000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-avtoban.ru/models/moskvich-3e/"
+        },
+        {
+          "model": "6",
+          "price": 3026000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-avtoban.ru/models/moskvich-6/"
+        },
+        {
+          "model": "3 с ручным управлением (РУ)",
+          "price": 2069000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-avtoban.ru/moskvich-3-ru/"
+        },
+        {
+          "model": "8",
+          "price": 3125000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-avtoban.ru/models/moskvich-8/"
+        }
+      ],
+      "screens": [
+        "data/screens/21/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 64,
+      "pages_opened": 7,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 28,
+      "company": "Автоимпорт Гак Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-autoimport.ru",
+      "brand": "GAC",
+      "models": [
+        {
+          "model": "GS4",
+          "price": 2999000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/gs4?mobile"
+        },
+        {
+          "model": "GS8",
+          "price": 4049000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/new-gs8?mobile"
+        },
+        {
+          "model": "НОВЫЙ AION V",
+          "price": 4099000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/aion-v?mobile"
+        },
+        {
+          "model": "S7",
+          "price": 5699000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/s7?mobile"
+        },
+        {
+          "model": "НОВЫЙ GAC HYPTEC HT",
+          "price": 5699000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/hyptec-ht?mobile"
+        },
+        {
+          "model": "НОВЫЙ GAC S9",
+          "price": 6599000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/s9?mobile"
+        },
+        {
+          "model": "Empow",
+          "price": 2799000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/empow?mobile"
+        },
+        {
+          "model": "M8",
+          "price": 6249999,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/m8?mobile"
+        },
+        {
+          "model": "GS3",
+          "price": 2449000,
+          "max_benefit": "-",
+          "source_url": "https://gac-autoimport.ru/models/gs3?main_menu"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "ok",
+      "seconds": 125,
+      "pages_opened": 11,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 35,
+      "company": "CHERY - РЕГИОН62",
+      "responsible": "Савастьянов А.А.",
+      "site": "region62-chery.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://region62-chery.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://region62-chery.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://region62-chery.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 80,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 40,
+      "company": "АВТОЛОЦМАН МОСКВИЧ",
+      "responsible": "Савастьянов А.А.",
+      "site": "moskvich-m-autolocman.ru",
+      "brand": "Москвич",
+      "models": [
+        {
+          "model": "М70",
+          "price": 2539000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-m-autolocman.ru/models/m70/"
+        },
+        {
+          "model": "М90",
+          "price": 3965000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-m-autolocman.ru/models/m90/"
+        }
+      ],
+      "screens": [
+        "data/screens/40/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 21,
+      "pages_opened": 4,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 41,
+      "company": "Москвич Автолоцман основной",
+      "responsible": "Савастьянов А.А.",
+      "site": "moskvich-autolocman.ru",
+      "brand": "Москвич",
+      "models": [
+        {
+          "model": "3",
+          "price": 1780000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-autolocman.ru/models/moskvich-3/"
+        },
+        {
+          "model": "3e",
+          "price": 3500000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-autolocman.ru/models/moskvich-3e/"
+        },
+        {
+          "model": "6",
+          "price": 3026000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-autolocman.ru/models/moskvich-6/"
+        },
+        {
+          "model": "3 с ручным управлением (РУ)",
+          "price": 2069000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-autolocman.ru/moskvich-3-ru/"
+        },
+        {
+          "model": "8",
+          "price": 3125000,
+          "max_benefit": "-",
+          "source_url": "https://moskvich-autolocman.ru/models/moskvich-8/"
+        }
+      ],
+      "screens": [
+        "data/screens/41/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 49,
+      "pages_opened": 7,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 42,
+      "company": "АВТОЛОЦМАН Джили Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-autolocman.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "EX5 Гибрид",
+          "price": 3229990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/model-ex5-em-i/"
+        },
+        {
+          "model": "НОВЫЙ COOLRAY",
+          "price": 2624990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/coolray-2026/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/cityray/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3259990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/geely-atlas-2024/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3514990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/okavango/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4409990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/monjaro/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/geely-preface/"
+        },
+        {
+          "model": "EX5",
+          "price": 4099990,
+          "max_benefit": "-",
+          "source_url": "https://geely-autolocman.ru/models/model-ex5/"
+        }
+      ],
+      "screens": [
+        "data/screens/42/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 85,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 59,
+      "company": "Автостиль Официальный дилер Чери Ростов-на-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-don.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://chery-don.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://chery-don.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://chery-don.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 65,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 111,
+      "company": "БЕЛДЖИ АЕМ",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-aem.ru",
+      "brand": "Belgee",
+      "models": [
+        {
+          "model": "Новый X50",
+          "price": 2099990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-aem.ru/"
+        },
+        {
+          "model": "X50+",
+          "price": 2169990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-aem.ru/"
+        },
+        {
+          "model": "S50",
+          "price": 1729990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-aem.ru/"
+        },
+        {
+          "model": "X70",
+          "price": 2529990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-aem.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 16,
+      "pages_opened": 2,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 113,
+      "company": "АЕМ Основной сайт Тэнк",
+      "responsible": "Савастьянов А.А.",
+      "site": "aem-tank.ru",
+      "brand": "TANK",
+      "models": [
+        {
+          "model": "WEY 07",
+          "price": 6149000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-aem.ru/models/wey-07/"
+        },
+        {
+          "model": "WEY 80",
+          "price": 6449000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-aem.ru/models/wey-80-premium/"
+        },
+        {
+          "model": "WEY 80 Лаундж",
+          "price": 8099000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-aem.ru/models/wey-80-business-lounge/"
+        },
+        {
+          "model": "WEY V9X",
+          "price": 9349000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-aem.ru/models/wey-v9x/"
+        },
+        {
+          "model": "300",
+          "price": 4099000,
+          "max_benefit": "-",
+          "source_url": "https://aem-tank.ru/"
+        },
+        {
+          "model": "400",
+          "price": 5599000,
+          "max_benefit": "-",
+          "source_url": "https://aem-tank.ru/"
+        },
+        {
+          "model": "500",
+          "price": 6399000,
+          "max_benefit": "-",
+          "source_url": "https://aem-tank.ru/"
+        },
+        {
+          "model": "700",
+          "price": 10199000,
+          "max_benefit": "-",
+          "source_url": "https://aem-tank.ru/"
+        }
+      ],
+      "screens": [
+        "data/screens/113/model-4.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 116,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 117,
+      "company": "ГАК АЕМ",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-barnaul.ru",
+      "brand": "GAC",
+      "models": [
+        {
+          "model": "GS4",
+          "price": 2999000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/gs4?mobile"
+        },
+        {
+          "model": "GS8",
+          "price": 4049000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/new-gs8?mobile"
+        },
+        {
+          "model": "НОВЫЙ AION V",
+          "price": 4099000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/aion-v?mobile"
+        },
+        {
+          "model": "S7",
+          "price": 5699000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/s7?mobile"
+        },
+        {
+          "model": "НОВЫЙ GAC HYPTEC HT",
+          "price": 5699000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/hyptec-ht?mobile"
+        },
+        {
+          "model": "НОВЫЙ GAC S9",
+          "price": 6599000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/s9?mobile"
+        },
+        {
+          "model": "Empow",
+          "price": 2799000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/empow?mobile"
+        },
+        {
+          "model": "M8",
+          "price": 6249999,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/m8?mobile"
+        },
+        {
+          "model": "GS3",
+          "price": 2449000,
+          "max_benefit": "-",
+          "source_url": "https://gac-barnaul.ru/models/gs3?main_menu"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка TradeDealer",
+      "template": "TradeDealer",
+      "status": "ok",
+      "seconds": 132,
+      "pages_opened": 11,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 122,
+      "company": "ОНЕГА ЧЕРИ",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-betaonego.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://chery-betaonego.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://chery-betaonego.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://chery-betaonego.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 56,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 126,
+      "company": "СЕВЕРНАЯ МАРКА ДЖАК",
+      "responsible": "Савастьянов А.А.",
+      "site": "sevmarka-jac.ru",
+      "brand": "JAC",
+      "models": [
+        {
+          "model": "T8 PRO Пикап",
+          "price": 3130000,
+          "max_benefit": "-",
+          "source_url": "https://sevmarka-jac.ru/models/t8-pro/"
+        },
+        {
+          "model": "T9 Пикап",
+          "price": 3619000,
+          "max_benefit": "-",
+          "source_url": "https://sevmarka-jac.ru/models/t9/"
+        },
+        {
+          "model": "RF8 Минивэн",
+          "price": 4774000,
+          "max_benefit": "-",
+          "source_url": "https://sevmarka-jac.ru/models/rf8/"
+        }
+      ],
+      "screens": [
+        "data/screens/126/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 51,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 133,
+      "company": "Чери Пулково Основной сайт",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-beta-pulkovo.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://chery-beta-pulkovo.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://chery-beta-pulkovo.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://chery-beta-pulkovo.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 76,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 142,
+      "company": "ЧЕРИ ЦЕНТР АМК ЮГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "amkcentr-chery.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://amkcentr-chery.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://amkcentr-chery.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://amkcentr-chery.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 68,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 154,
+      "company": "АНТИКОР-СЕРВИС ЧЕРИ",
+      "responsible": "Савастьянов А.А.",
+      "site": "antikorservis-chery.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://antikorservis-chery.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://antikorservis-chery.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://antikorservis-chery.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 77,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 162,
+      "company": "АРТЕКС ЛИСЯН",
+      "responsible": "Савастьянов А.А.",
+      "site": "artex-liauto.ru",
+      "brand": "Li Auto",
+      "models": [
+        {
+          "model": "Li L6",
+          "price": 6890000,
+          "max_benefit": "-",
+          "source_url": "https://artex-liauto.ru/models/li-l6/"
+        },
+        {
+          "model": "Li L7",
+          "price": 9019000,
+          "max_benefit": "-",
+          "source_url": "https://artex-liauto.ru/models/li-l7/"
+        },
+        {
+          "model": "Li L9",
+          "price": 10495000,
+          "max_benefit": "-",
+          "source_url": "https://artex-liauto.ru/models/li-l9/"
+        },
+        {
+          "model": "Li L8",
+          "price": 10390000,
+          "max_benefit": "-",
+          "source_url": "https://artex-liauto.ru/models/li-l8/"
+        },
+        {
+          "model": "L9 Livis",
+          "price": 12190000,
+          "max_benefit": "-",
+          "source_url": "https://artex-liauto.ru/models/li-l9-livis/"
+        }
+      ],
+      "screens": [
+        "data/screens/162/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 48,
+      "pages_opened": 7,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 169,
+      "company": "Джили Ростов-на-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-artex.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "EX5 Гибрид",
+          "price": 3229990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/model-ex5-em-i/"
+        },
+        {
+          "model": "НОВЫЙ COOLRAY",
+          "price": 2624990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/coolray-2026/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/cityray/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3259990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/geely-atlas-2024/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3514990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/okavango/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4409990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/monjaro/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/geely-preface/"
+        },
+        {
+          "model": "EX5",
+          "price": 4099990,
+          "max_benefit": "-",
+          "source_url": "https://geely-artex.ru/models/model-ex5/"
+        }
+      ],
+      "screens": [
+        "data/screens/169/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 90,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 170,
+      "company": "Эстео Артекс",
+      "responsible": "Савастьянов А.А.",
+      "site": "artex-esteo.ru",
+      "brand": "ESTEO",
+      "models": [
+        {
+          "model": "ET8",
+          "price": 7690000,
+          "max_benefit": "-",
+          "source_url": "https://artex-esteo.ru/exlantix/et8/"
+        },
+        {
+          "model": "ET",
+          "price": 6990000,
+          "max_benefit": "-",
+          "source_url": "https://artex-esteo.ru/exlantix/et/"
+        },
+        {
+          "model": "ES",
+          "price": 5670000,
+          "max_benefit": "-",
+          "source_url": "https://artex-esteo.ru/exlantix/es/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 56,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 173,
+      "company": "Танк Барс Омск",
+      "responsible": "Савастьянов А.А.",
+      "site": "bars-tank.ru",
+      "brand": "TANK",
+      "models": [
+        {
+          "model": "WEY 07",
+          "price": 6149000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-bars.ru/models/wey-07/"
+        },
+        {
+          "model": "WEY 80",
+          "price": 6449000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-bars.ru/models/wey-80-premium/"
+        },
+        {
+          "model": "WEY 80 Лаундж",
+          "price": 8099000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-bars.ru/models/wey-80-business-lounge/"
+        },
+        {
+          "model": "WEY V9X",
+          "price": 9349000,
+          "max_benefit": "-",
+          "source_url": "https://gwm-wey-bars.ru/models/wey-v9x/"
+        },
+        {
+          "model": "300",
+          "price": 4099000,
+          "max_benefit": "-",
+          "source_url": "https://bars-tank.ru/"
+        },
+        {
+          "model": "400",
+          "price": 5599000,
+          "max_benefit": "-",
+          "source_url": "https://bars-tank.ru/"
+        },
+        {
+          "model": "500",
+          "price": 6399000,
+          "max_benefit": "-",
+          "source_url": "https://bars-tank.ru/"
+        },
+        {
+          "model": "700",
+          "price": 10199000,
+          "max_benefit": "-",
+          "source_url": "https://bars-tank.ru/"
+        }
+      ],
+      "screens": [
+        "data/screens/173/model-4.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 99,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 174,
+      "company": "Барс Чери Омск",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-bars.ru",
+      "brand": "Chery",
+      "models": [
+        {
+          "model": "TIGGO 9",
+          "price": 3635000,
+          "max_benefit": "-",
+          "source_url": "https://chery-bars.ru/models/tiggo9/"
+        },
+        {
+          "model": "TIGGO 7L",
+          "price": 2685000,
+          "max_benefit": "-",
+          "source_url": "https://chery-bars.ru/models/tiggo7l/"
+        },
+        {
+          "model": "ARRIZO 8",
+          "price": 2499000,
+          "max_benefit": "-",
+          "source_url": "https://chery-bars.ru/models/arrizo8/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 67,
+      "pages_opened": 5,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 201,
+      "company": "ВипАвто Импортерский Билджи",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-vip.ru",
+      "brand": "Belgee",
+      "models": [
+        {
+          "model": "Новый X50",
+          "price": 2099990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-vip.ru/"
+        },
+        {
+          "model": "X50+",
+          "price": 2169990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-vip.ru/"
+        },
+        {
+          "model": "S50",
+          "price": 1729990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-vip.ru/"
+        },
+        {
+          "model": "X70",
+          "price": 2529990,
+          "max_benefit": "-",
+          "source_url": "https://belgee-vip.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 16,
+      "pages_opened": 2,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 202,
+      "company": "ВипАвто Импортерский Джили",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-vip-auto.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "EX5 Гибрид",
+          "price": 3229990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/model-ex5-em-i/"
+        },
+        {
+          "model": "НОВЫЙ COOLRAY",
+          "price": 2624990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/coolray-2026/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/cityray/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3259990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/geely-atlas-2024/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3514990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/okavango/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4409990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/monjaro/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/geely-preface/"
+        },
+        {
+          "model": "EX5",
+          "price": 4099990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vip-auto.ru/models/model-ex5/"
+        }
+      ],
+      "screens": [
+        "data/screens/202/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 84,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 204,
+      "company": "Джили Автоцентр ВСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-vsk.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "EX5 Гибрид",
+          "price": 3229990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/model-ex5-em-i/"
+        },
+        {
+          "model": "НОВЫЙ COOLRAY",
+          "price": 2624990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/coolray-2026/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/cityray/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3259990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/geely-atlas-2024/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3514990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/okavango/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4409990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/monjaro/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/geely-preface/"
+        },
+        {
+          "model": "EX5",
+          "price": 4099990,
+          "max_benefit": "-",
+          "source_url": "https://geely-vsk.ru/models/model-ex5/"
+        }
+      ],
+      "screens": [
+        "data/screens/204/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 63,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 219,
+      "company": "Джили Пермь",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-davauto.ru",
+      "brand": "Geely",
+      "models": [
+        {
+          "model": "EX5 Гибрид",
+          "price": 3229990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/model-ex5-em-i/"
+        },
+        {
+          "model": "НОВЫЙ COOLRAY",
+          "price": 2624990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/coolray-2026/"
+        },
+        {
+          "model": "CITYRAY",
+          "price": 2499990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/cityray/"
+        },
+        {
+          "model": "ATLAS",
+          "price": 3259990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/geely-atlas-2024/"
+        },
+        {
+          "model": "OKAVANGO",
+          "price": 3514990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/okavango/"
+        },
+        {
+          "model": "MONJARO",
+          "price": 4409990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/monjaro/"
+        },
+        {
+          "model": "PREFACE",
+          "price": 3079990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/geely-preface/"
+        },
+        {
+          "model": "EX5",
+          "price": 4099990,
+          "max_benefit": "-",
+          "source_url": "https://geely-davauto.ru/models/model-ex5/"
+        }
+      ],
+      "screens": [
+        "data/screens/219/model-0.jpg"
+      ],
+      "comment": "Собрано по общему шаблону движка Perxis",
+      "template": "Perxis",
+      "status": "ok",
+      "seconds": 78,
+      "pages_opened": 10,
+      "change": "Не изменилось",
+      "changes": [],
+      "diff": []
+    },
+    {
+      "id": 27,
+      "company": "Гак Автоимпорт Лендинг Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "sale.gac-autoimport.ru",
+      "brand": "GAC",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 179,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 50,
+      "company": "АВТОРУСЬ ЧЕРИ",
+      "responsible": "Савастьянов А.А.",
+      "site": "avtoruss-chery.ru",
+      "brand": "Chery",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 180,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 123,
+      "company": "БЕСТЮН СЕВЕРНАЯ МАРКА",
+      "responsible": "Савастьянов А.А.",
+      "site": "bestune-sevmarka.ru",
+      "brand": "Bestune",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 179,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 146,
+      "company": "[ct]ЛАДА АМК-ЕКАТЕРИНБУРГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "srv.amk-ekt.lada.ru",
+      "brand": "LADA",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 3,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 196,
+      "company": "Vikingi-tenet.ru Тольятти",
+      "responsible": "Савастьянов А.А.",
+      "site": "vikingi-tenet.ru",
+      "brand": "TENET",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 178,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 206,
+      "company": "ГАРАНТ БАИК",
+      "responsible": "Савастьянов А.А.",
+      "site": "garant-baic.ru",
+      "brand": "Baic",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 180,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    },
+    {
+      "id": 213,
+      "company": "Дав Авто Лада Чусовой",
+      "responsible": "Савастьянов А.А.",
+      "site": "chusovoy.dav-auto.lada.ru",
+      "brand": "LADA",
+      "models": [],
+      "screens": [],
+      "comment": "Для движка «не определён» ещё нет шаблона, запасной не нашёл модели",
+      "status": "no_scenario",
+      "seconds": 3,
+      "pages_opened": 4,
+      "change": "Нет сценария",
+      "changes": []
+    }
+  ]
+}

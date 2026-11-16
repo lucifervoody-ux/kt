@@ -13,6 +13,7 @@ import {
   SKIP_REASON, host, loadSites, previousOf, siteUrl, splitUnverified,
 } from './common.mjs';
 import { detectEngine } from './checks.mjs';
+import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
@@ -79,9 +80,13 @@ async function collectPage(context, site, pageCfg, index) {
   const page = await openPage(context, site, pageCfg.url, pageCfg);
   try {
 
-    const hasSelectors = pageCfg.card && (pageCfg.model || pageCfg.model_name);
+    const hasSelectors = Boolean(pageCfg.auto || (pageCfg.card && (pageCfg.model || pageCfg.model_name)));
     let rows = [];
-    if (hasSelectors) {
+    if (pageCfg.auto) {
+      // Автопоиск карточек моделей без селекторов (collector/autocards.mjs).
+      if (pageCfg.scroll !== false) await autoScroll(page);
+      rows = await page.evaluate(findModelCards, {}).catch(() => []);
+    } else if (hasSelectors) {
       rows = await page.$$eval(
         pageCfg.card,
         (cards, cfg) => cards.map((card) => {
@@ -110,7 +115,7 @@ async function collectPage(context, site, pageCfg, index) {
     const models = rows.map((r) => {
       r.model = pageCfg.model_name || mapName(r.model);
       // У лендингов в цену не берём суммы из фраз про выгоду, скидку, платёж и кредит: «с выгодой от 1 001 000 руб.» — не цена.
-      const priceText = pageCfg.model_name ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)[^.\n|]{0,70}/gi, ' ') : r.price;
+      const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)[^.\n|]{0,70}/gi, ' ') : r.price;
       const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0));
       const benefits = (pageCfg.benefit_all ? parseAmounts : parseBenefits)(r.benefit);
       return {
@@ -247,6 +252,7 @@ function fromTemplate(site, t) {
     models: t.models && { ...t.models, list_url: abs(t.models.list_url) },
     pages: (t.pages || []).map((p) => ({ ...p, url: abs(p.url) })),
     aggregate: t.aggregate,
+    auto: t.auto && { ...t.auto, url: abs(t.auto.url || '/') },
   };
 }
 
@@ -288,7 +294,7 @@ async function collectSiteWith(browser, site) {
     id: site.id, company: site.company || '', responsible: site.responsible || '', site: site.site, brand: site.brand || '', file: site.file,
     models: [], screens: [], comment: '',
   };
-  if (!site.pages?.length && !site.models) {
+  if (!site.pages?.length && !site.models && !site.auto && !site.aggregate) {
     const engine = site.engine ? ` (движок: ${site.engine})` : '';
     return { ...base, status: 'no_scenario', comment: `Для сайта ещё нет ни сценария, ни шаблона движка${engine}` };
   }
@@ -298,7 +304,20 @@ async function collectSiteWith(browser, site) {
     const notes = [];
     let anyOpened = false;
     let unfinished = false;
-    if (site.models) {
+    let autoUsed = false;
+    // auto: сначала ищем карточки моделей на главной без селекторов; нашлись — обход моделей не нужен.
+    if (site.auto) {
+      try {
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, ...site.auto, auto: true }, 'auto');
+        anyOpened = true;
+        rows.push(...res.models);
+        if (res.models.length) autoUsed = true;
+        if (res.models.length) log(`  [${site.id}] автопоиск нашёл карточки моделей: ${res.models.length}`);
+      } catch (e) {
+        notes.push(`Автопоиск моделей: ${e.message.split('\n')[0]}`);
+      }
+    }
+    if (site.models && !(site.auto && rows.length >= 2)) {
       try {
         const res = await collectModelPages(context, site, site.models);
         anyOpened = true;
@@ -320,6 +339,21 @@ async function collectSiteWith(browser, site) {
         else if (!res.models.length) notes.push(`На странице ${pageCfg.url} не нашлось ни одной модели`);
       } catch (e) {
         notes.push(`Не открылась ${pageCfg.url}: ${e.message.split('\n')[0]}`);
+      }
+    }
+    // Шаблон движка ничего не нашёл (сайт поменял вёрстку): пробуем автопоиск карточек на главной.
+    if (!site.auto && !rows.some((r) => r.model)) {
+      try {
+        const res = await collectPage(context, site, { url: siteUrl(site), min_price: 300000, auto: true }, 'auto');
+        anyOpened = true;
+        if (res.models.length) {
+          autoUsed = true;
+          rows.push(...res.models);
+          log(`  [${site.id}] шаблон не сработал, автопоиск нашёл карточки моделей: ${res.models.length}`);
+          for (let i = notes.length - 1; i >= 0; i -= 1) if (/не нашлось ни одной модели|не нашлось ссылок на модели/.test(notes[i])) notes.splice(i, 1);
+        }
+      } catch (e) {
+        notes.push(`Автопоиск моделей: ${e.message.split('\n')[0]}`);
       }
     }
     // Лендинг без списка моделей (Tilda и похожие): берём с главной самую низкую цену и самую большую выгоду по всему сайту.
@@ -380,10 +414,11 @@ async function collectSiteWith(browser, site) {
     if (byAi) all.push('Модели и цены разобрал ИИ по тексту главной страницы, цифры проверьте');
     const aggregated = rows.some((r) => r.model === AGG_NAME);
     if (aggregated) all.push('Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их');
-    const ok = site.template !== '*' && !aggregated && !byAi && all.length === (site.template ? 1 : 0);
+    if (autoUsed) all.push('Модели найдены автопоиском карточек на главной, цифры проверьте');
+    const ok = site.template !== '*' && !aggregated && !byAi && !autoUsed && all.length === (site.template ? 1 : 0);
     const result = { ...base, models, status: ok ? 'ok' : 'needs_check', comment: all.join('; ') };
     // Цены по моделям тут ненадёжны: сравниваем сайт по тексту акций с главной страницы.
-    if (site.template === '*' || aggregated || byAi) {
+    if (site.template === '*' || aggregated || byAi || autoUsed) {
       try {
         const page = await openPage(context, site, siteUrl(site), {});
         try {

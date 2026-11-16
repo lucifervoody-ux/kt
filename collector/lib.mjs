@@ -55,6 +55,8 @@ export function parseBenefits(text) {
   const clean = String(text || '').replace(/[\u00a0\u202f\u2009\n\r]/g, ' ');
   const out = [];
   for (const m of clean.matchAll(BENEFIT_WORD)) {
+    // «по выгодной цене 1 890 000 ₽», «выгодное предложение» — это не сумма выгоды.
+    if (/^выгодн/i.test(m[0]) && /^\s*(цен|предложен|услов)/i.test(clean.slice(m.index + m[0].length, m.index + m[0].length + 15))) continue;
     // Слова до «выгоды» смотрим только в той же фразе: «Платёж 25 000 ₽. Выгода…» — разные фразы.
     const before = clean.slice(Math.max(0, m.index - 25), m.index).split(/[.;!?]\s/).at(-1);
     let after = clean.slice(m.index + m[0].length, m.index + m[0].length + 70);
