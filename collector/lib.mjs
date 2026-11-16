@@ -51,6 +51,20 @@ const SERVICE = /^[\s:—–-]*(на|для)?\s*(ТО(?![А-ЯЁа-яё])|тех
 const MIN_BENEFIT = 10_000;
 
 export function parseBenefits(text) {
+  return parseBenefitsTyped(text).map((b) => b.value);
+}
+
+// Вид выгоды по словам рядом: «прямой выгоды», «выгоды по трейд-ин», «по лояльному трейд-ин».
+// Без вида («Выгода до 500 000») — общая сумма.
+const BENEFIT_KIND = [
+  ['loyal', /лояльн/i], ['tradein', /трейд|trade|обмен|сдач/i], ['credit', /кредит|финанс|рассроч|лизинг/i],
+  ['recycle', /утилиз/i], ['corporate', /корпоратив/i], ['direct', /прям|дилерск|специальн/i], ['extra', /дополнительн/i],
+];
+function benefitKind(context) {
+  return (BENEFIT_KIND.find(([, re]) => re.test(context)) || ['general'])[0];
+}
+
+function parseBenefitsTyped(text) {
   // Переносы строк убираем: «Максимальная выгода\nдо 100 000 ₽» — это одна фраза.
   const clean = String(text || '').replace(/[\u00a0\u202f\u2009\n\r]/g, ' ');
   const out = [];
@@ -67,23 +81,32 @@ export function parseBenefits(text) {
     const upTo = after.match(/(?:^|[\s:—–-])до\s+(.*)/i);
     if (!upTo && /^[\s:—–-]*от\s/i.test(after)) continue;
     const nums = parseRubles((upTo ? upTo[1] : after).replace(/\b(19|20)\d{2}\s*(г\.|год|года|г\b)/gi, ' '));
-    if (nums.length && nums[0] >= MIN_BENEFIT) out.push(nums[0]);
+    if (nums.length && nums[0] >= MIN_BENEFIT) {
+      const head = (upTo ? after.slice(0, upTo.index) : after).split(/\d/)[0];
+      out.push({ value: nums[0], kind: benefitKind(`${before.split(/\d/).at(-1)} ${m[0]} ${head}`) });
+    }
   }
   return out;
 }
 
-// Итоговая выгода: части одной фразы складываем, разные фразы и блоки не складываем, берём большую.
+// Итоговая выгода: разные виды выгоды из одной фразы складываем, одинаковые и общие — нет.
 // «с учетом прямой выгоды в 250 000, выгоды по трейд-ин в 250 000 и лояльной выгоды 200 000» → 700 000.
-// Отдельные строки карточки («Выгода до 500 000 | Трейд-ин до 300 000») и сноски к разным комплектациям
-// («Цена на … Премиум …. Цена на … Люкс …») не складываем. «Выгода до 500 000, в том числе трейд-ин 300 000» → 500 000.
+// «Выгода 150 000 … выгода в размере 150 000» (одна выгода дважды) → 150 000.
+// «Выгода до 500 000 | Трейд-ин до 300 000»: общая сумма уже включает части → 500 000.
+// Разные фразы и сноски к разным комплектациям («Цена на … Премиум», «Цена на … Люкс») не складываем.
 export function benefitTotal(text) {
   const pieces = String(text || '').replace(/[\u00a0\u202f\u2009]/g, ' ')
-    .split(/\n+|\s*\|\s*|(?<=[.!?;])\s+(?=[А-ЯЁA-Z«"(*¹²³])|(?<=[\s,])(?=[Цц]ен[аеуы]\s+(?:на|автомобил|модел))/);
+    .split(/(?<=[.!?;])\s+(?=[А-ЯЁA-Z«"(*¹²³])|(?<=[\s,])(?=[Цц]ен[аеуы]\s+(?:на|автомобил|модел))/);
   let best = null;
   for (const piece of pieces) {
-    const vals = parseBenefits(piece);
-    if (!vals.length) continue;
-    const total = /в том числе|включая|из них|суммарн|максимальн|общ(ая|ей)\s+выгод/i.test(piece) ? Math.max(...vals) : vals.reduce((a, b) => a + b, 0);
+    const found = parseBenefitsTyped(piece);
+    if (!found.length) continue;
+    const byKind = new Map();
+    for (const { value, kind } of found) byKind.set(kind, Math.max(value, byKind.get(kind) || 0));
+    const general = byKind.get('general') || 0;
+    byKind.delete('general');
+    const parts = [...byKind.values()].reduce((a, b) => a + b, 0);
+    const total = /в том числе|включая|из них/i.test(piece) ? Math.max(...found.map((b) => b.value)) : Math.max(general, parts);
     if (best === null || total > best) best = total;
   }
   return best;
