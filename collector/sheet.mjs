@@ -3,7 +3,7 @@
 // она находит свои колонки по заголовкам и пишет только значения, выбирая их из списков колонки.
 // Здесь нет обращения к Google, поэтому это легко проверить тестами. Запись в таблицу — в export.mjs.
 
-import { CHANGE } from './lib.mjs';
+import { CHANGE, formatRub } from './lib.mjs';
 import { HEALTH, KONGET } from './checks.mjs';
 
 const yes = (v) => (v ? 'Да' : 'Нет');
@@ -74,12 +74,15 @@ export function buildSheets({ health, konget, utp }) {
     'УТП': {
       columns: [
         col('ID'), col('Сайт'), col('Бренд'), col('Статус'), col('Изменения'), col('Что изменилось'),
-        col('Моделей'), col('Комментарий'),
+        col('Моделей'), col('Цены и выгоды'), col('Комментарий'),
       ],
       rows: sites(utp).map((s) => [
         s.id, s.site, s.brand || '', s.change,
         s.change === CHANGE.changed ? 'Да' : [CHANGE.same, CHANGE.first].includes(s.change) ? 'Нет' : '',
-        s.change === CHANGE.changed ? (s.changes || []).join('; ') : '', s.models?.length || '', s.comment || '',
+        s.change === CHANGE.changed ? (s.changes || []).join('; ') : '', s.models?.length || '',
+        // «T4L: от 1 990 000 ₽, выгода до 300 000 ₽» по каждой модели. Колонку пишем, только если она есть в листе.
+        (s.models || []).map((m) => `${m.model}: ${m.price === '-' ? 'цена —' : `от ${formatRub(m.price)}`}${m.max_benefit === '-' ? '' : `, выгода до ${formatRub(m.max_benefit)}`}`).join('\n'),
+        s.comment || '',
       ]),
     },
   };
