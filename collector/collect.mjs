@@ -85,7 +85,7 @@ async function collectPage(context, site, pageCfg, index) {
     if (pageCfg.auto) {
       // Автопоиск карточек моделей без селекторов (collector/autocards.mjs).
       if (pageCfg.scroll !== false) await autoScroll(page);
-      rows = await page.evaluate(findModelCards, {}).catch(() => []);
+      rows = await page.evaluate(findModelCards, { brand: site.brand || '' }).catch(() => []);
     } else if (hasSelectors) {
       rows = await page.$$eval(
         pageCfg.card,
@@ -115,7 +115,7 @@ async function collectPage(context, site, pageCfg, index) {
     const models = rows.map((r) => {
       r.model = pageCfg.model_name || mapName(r.model);
       // У лендингов в цену не берём суммы из фраз про выгоду, скидку, платёж и кредит: «с выгодой от 1 001 000 руб.» — не цена.
-      const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)[^.\n|]{0,70}/gi, ' ') : r.price;
+      const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)(?:(?!цен)[^.\n|]){0,70}/gi, ' ') : r.price;
       const benefits = (pageCfg.benefit_all ? parseAmounts : parseBenefits)(r.benefit);
       // В автопоиске сумма выгоды («Выгода до | 455 000 ₽») может попасть и в цены: такие суммы из цен убираем.
       const prices = parsePrices(priceText).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
