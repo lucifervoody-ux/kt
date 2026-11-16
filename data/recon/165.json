@@ -1,0 +1,124 @@
+{
+ "id": 165,
+ "site": "soueast-artex.ru",
+ "brand": "Soueast",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://soueast.ru/owners/manuals",
+ "konget": [],
+ "home": {
+  "title": "Официальные дилеры SOUEAST на карте - поиск дилеров по всей России | Официальный сайт SOUEAST в России",
+  "text_length": 1646,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/owners/*",
+    20
+   ],
+   [
+    "/models/*",
+    6
+   ],
+   [
+    "/test-drive",
+    6
+   ],
+   [
+    "/calculate-trade-in",
+    5
+   ],
+   [
+    "/credit-calculate",
+    4
+   ],
+   [
+    "/s09",
+    3
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/credit-programs",
+    3
+   ],
+   [
+    "/special-offers",
+    3
+   ],
+   [
+    "/social-program-soueast",
+    3
+   ],
+   [
+    "/business",
+    3
+   ],
+   [
+    "/connect-offer-results",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://soueast.ru/owners/manuals",
+  "title": "Руководства по эксплуатации автомобилей SOUEAST | Официальный сайт SOUEAST в России",
+  "text_length": 2072,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/owners/*",
+    23
+   ],
+   [
+    "/models/*",
+    6
+   ],
+   [
+    "/test-drive",
+    6
+   ],
+   [
+    "/calculate-trade-in",
+    5
+   ],
+   [
+    "/credit-calculate",
+    4
+   ],
+   [
+    "/owners",
+    4
+   ],
+   [
+    "/s09",
+    3
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/credit-programs",
+    3
+   ],
+   [
+    "/special-offers",
+    3
+   ],
+   [
+    "/social-program-soueast",
+    3
+   ],
+   [
+    "/business",
+    3
+   ]
+  ],
+  "model_cards": []
+ }
+}

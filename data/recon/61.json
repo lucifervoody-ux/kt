@@ -1,0 +1,182 @@
+{
+ "id": 61,
+ "site": "avtotrade-haval.ru",
+ "brand": "HAVAL CITY",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://avtotrade-haval.ru/owners/",
+ "konget": [
+  "https://app.konget.ru/inject?token=332cbd397bdd47c7ad359a1398fdea26",
+  "https://cdn.konget.ru/client?no_cache=1793718564150",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автотрейд Кострома — Главная",
+  "text_length": 6092,
+  "price_blocks": [
+   {
+    "selector": "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+    "count": 7,
+    "sample": "от 2 099 000 ₽"
+   },
+   {
+    "selector": "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+    "count": 7,
+    "sample": "ЦЕНА от 2 099 000 ₽"
+   },
+   {
+    "selector": "div.js-footer-disc-pane.footer__disclaimer-pane > div.js-footer-disc-pane-text.footer__disclaimer-pane-text > p",
+    "count": 3,
+    "sample": "Условия займа: полная стоимость кредита (займа) 0% годовых. Процентная ставка 0%"
+   },
+   {
+    "selector": "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps",
+    "count": 1,
+    "sample": "Цена от 2 099 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps",
+    "count": 1,
+    "sample": "Создан из преимуществ"
+   },
+   {
+    "selector": "div.mt-s > a.btn.js-btn > span",
+    "count": 1,
+    "sample": "Получить выгоду"
+   },
+   {
+    "selector": "div.footer__disclaimer.p-m > ul.footer__disclaimer-nav.mb-xs > li.js-footer-disc-nav-btn.footer__disclaimer-nav-btn",
+    "count": 1,
+    "sample": "Цены и выгоды"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owners/*",
+    33
+   ],
+   [
+    "/purchase/*",
+    28
+   ],
+   [
+    "/models/*",
+    26
+   ],
+   [
+    "/about/*",
+    18
+   ],
+   [
+    "/online-stock",
+    11
+   ],
+   [
+    "/about-dealer",
+    6
+   ],
+   [
+    "/configurator",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/trade-in",
+    4
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/purchase",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://avtotrade-haval.ru/owners/",
+  "title": "Автотрейд Кострома — Владельцам",
+  "text_length": 2578,
+  "price_blocks": [
+   {
+    "selector": "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+    "count": 7,
+    "sample": "от 2 099 000 ₽"
+   },
+   {
+    "selector": "div.js-footer-disc-pane.footer__disclaimer-pane > div.js-footer-disc-pane-text.footer__disclaimer-pane-text > p",
+    "count": 3,
+    "sample": "Условия займа: полная стоимость кредита (займа) 0% годовых. Процентная ставка 0%"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.footer__disclaimer.p-m > ul.footer__disclaimer-nav.mb-xs > li.js-footer-disc-nav-btn.footer__disclaimer-nav-btn",
+    "count": 1,
+    "sample": "Цены и выгоды"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owners/*",
+    36
+   ],
+   [
+    "/purchase/*",
+    24
+   ],
+   [
+    "/models/*",
+    14
+   ],
+   [
+    "/about/*",
+    10
+   ],
+   [
+    "/about-dealer",
+    6
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/configurator",
+    4
+   ],
+   [
+    "/online-stock",
+    4
+   ],
+   [
+    "/trade-in",
+    4
+   ],
+   [
+    "/purchase",
+    2
+   ],
+   [
+    "/initial-maintenance",
+    2
+   ],
+   [
+    "/gwm-security",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

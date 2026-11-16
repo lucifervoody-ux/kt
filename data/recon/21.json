@@ -1,0 +1,215 @@
+{
+ "id": 21,
+ "site": "moskvich-avtoban.ru",
+ "brand": "Москвич",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://moskvich-avtoban.ru/models/moskvich-3/",
+ "konget": [
+  "https://app.konget.ru/inject?token=918e2cac240946fbbd643b5a177685be",
+  "https://cdn.konget.ru/client?no_cache=1793718455732",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить Москвич у официального дилера в Екатеринбурге: выгода до 360 000 ₽, доступный кредит | Автобан Москвич",
+  "text_length": 8055,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-text > div.menu-models__item-price-wrap > div.menu-models__item-price",
+    "count": 5,
+    "sample": "от 1 780 000 ₽*"
+   },
+   {
+    "selector": "div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price > span.web_block_flow-model-range__item-price-text",
+    "count": 5,
+    "sample": "от 1 780 000 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > p",
+    "count": 2,
+    "sample": "от 1 780 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.web_block_media-flow-slash__content > a > div.web_block_media-flow-slash__text",
+    "count": 1,
+    "sample": "Финансовые программы Москвич — выгодные предложения АО МАЗ «Москвич» по кредитов"
+   },
+   {
+    "selector": "div.container > div.web_block_text__content > h2",
+    "count": 1,
+    "sample": "Максимальная выгода на Москвич 3 в Автобане!"
+   },
+   {
+    "selector": "div.container > div.web_block_text__content > p",
+    "count": 1,
+    "sample": "Покупая автомобиль в нашем салоне, вы получаете гарантированные преимущества:"
+   },
+   {
+    "selector": "div.container > div.web_block_text__content > h3",
+    "count": 1,
+    "sample": "Выгодные условия покупки Москвич в Екатеринбурге"
+   },
+   {
+    "selector": "ul > li > strong",
+    "count": 1,
+    "sample": "Трейд-ин с повышенной выгодой"
+   },
+   {
+    "selector": "div.web_block_text__content > ul > li",
+    "count": 1,
+    "sample": "— поможем оформить полис по выгодным тарифам."
+   },
+   {
+    "selector": "div.web_block_text__content > p > strong",
+    "count": 1,
+    "sample": "Есть ли скидки на Москвич?"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    21
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/customers/*",
+    14
+   ],
+   [
+    "/vitrines-cars-moskvich",
+    12
+   ],
+   [
+    "/about/*",
+    8
+   ],
+   [
+    "/configurator-moskvich-ru",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/moskvich-3-ru",
+    4
+   ],
+   [
+    "/contacts/*",
+    4
+   ],
+   [
+    "/news",
+    3
+   ],
+   [
+    "/corporate",
+    3
+   ],
+   [
+    "/news/*",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.container > div.row.web_block_flow-model-range__section > div.web_block_flow-model-range__item",
+   "div.row.web_block_flow-model-range__section > div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price",
+   "div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price > span.web_block_flow-model-range__item-price-text",
+   "div.container > div.row.web_block_flow-model-range__section > div.web_block_flow-model-range__item",
+   "div.row.web_block_flow-model-range__section > div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price",
+   "div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price > span.web_block_flow-model-range__item-price-text"
+  ]
+ },
+ "model_page": {
+  "url": "https://moskvich-avtoban.ru/models/moskvich-3/",
+  "title": "Москвич 3 в Екатеринбурге: специальная цена в октябре, кредит 0,01%, трейд-ин | Купить в Екатеринбурге в Автобан Москвич",
+  "text_length": 9334,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-text > div.menu-models__item-price-wrap > div.menu-models__item-price",
+    "count": 5,
+    "sample": "от 1 780 000 ₽*"
+   },
+   {
+    "selector": "div.web_block_media-model__content-wrap > div.web_block_media-model__price-wrap > p.web_block_media-model__price",
+    "count": 1,
+    "sample": "от 1 780 000 руб."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.web_block_text__content > p > strong",
+    "count": 1,
+    "sample": "Купить новый Москвич 3 в Екатеринбурге можно с максимальной выгодой в автосалоне"
+   },
+   {
+    "selector": "div.container > div.web_block_text__content > h2",
+    "count": 1,
+    "sample": "Основные преимущества Москвич 3"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    24
+   ],
+   [
+    "/customers/*",
+    15
+   ],
+   [
+    "/owners/*",
+    15
+   ],
+   [
+    "/about/*",
+    10
+   ],
+   [
+    "/vitrines-cars-moskvich",
+    6
+   ],
+   [
+    "/configurator-moskvich-ru",
+    5
+   ],
+   [
+    "/contacts/*",
+    5
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/regular-maintenance",
+    2
+   ],
+   [
+    "/news",
+    2
+   ],
+   [
+    "/moskvich-3-ru",
+    1
+   ],
+   [
+    "/corporate",
+    1
+   ]
+  ],
+  "model_cards": [
+   "body > main.main.main- > div.web_block_media-model",
+   "main.main.main- > div.web_block_media-model > div.web_block_media-model__content",
+   "div.web_block_media-model__content > div.container > div.web_block_media-model__content-wrap",
+   "div.container > div.web_block_media-model__content-wrap > div.web_block_media-model__price-wrap",
+   "div.web_block_media-model__content-wrap > div.web_block_media-model__price-wrap > p.web_block_media-model__price"
+  ]
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "id": 163,
+ "site": "artexauto.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "1С-Битрикс",
+ "final_url": "https://artexauto.ru/catalog/new/",
+ "konget": [
+  "https://app.konget.ru/inject?token=35311542dcd1439bb9535c2e24197110",
+  "https://cdn.konget.ru/client?no_cache=1793718802316",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автосалон Артекс в Ростове-на-Дону и Ставрополе — купить новые автомобили и авто с пробегом у дилера Артекс Авто",
+  "text_length": 8761,
+  "price_blocks": [
+   {
+    "selector": "div.catalog-item_price > div.catalog-item_price__price-label > span",
+    "count": 8,
+    "sample": "420 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.catalog-item > div.catalog-item_price > div.catalog-item_price__price-label",
+    "count": 8,
+    "sample": "Скидка до"
+   },
+   {
+    "selector": "div.slider-item_info > div.wp > div.slider-item__text",
+    "count": 1,
+    "sample": "Или прием на комиссионную продажу на выгодных условиях"
+   },
+   {
+    "selector": "div.reviews-text-item > div.reviews-text-item__text > div.reviews-text-text",
+    "count": 1,
+    "sample": "Сам салон заслуживает самых высоких оценок за комплексный подход к клиентам. Выг"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog/*",
+    58
+   ],
+   [
+    "/upload/*",
+    20
+   ],
+   [
+    "/service",
+    4
+   ],
+   [
+    "/privacy",
+    4
+   ],
+   [
+    "/vykup-avto",
+    3
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/promo",
+    3
+   ],
+   [
+    "/credit",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/soglasie",
+    3
+   ],
+   [
+    "/vakansii",
+    2
+   ],
+   [
+    "/insurance",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://artexauto.ru/catalog/new/",
+  "title": "Новые автомобили в Ростове-на-Дону и Ставрополе — купить новое авто в автосалоне у дилера Артекс Авто",
+  "text_length": 4516,
+  "price_blocks": [
+   {
+    "selector": "div.catalog-item_price > div.catalog-item_price__price-label > span",
+    "count": 16,
+    "sample": "440 000 ₽"
+   },
+   {
+    "selector": "div.price-do > div.price-do1 > a",
+    "count": 3,
+    "sample": "Автомобили до 2 000 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.catalog-item > div.catalog-item_price > div.catalog-item_price__price-label",
+    "count": 16,
+    "sample": "Скидка до"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog/*",
+    70
+   ],
+   [
+    "/promo/*",
+    4
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/service",
+    3
+   ],
+   [
+    "/promo",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/privacy",
+    3
+   ],
+   [
+    "/vykup-avto",
+    2
+   ],
+   [
+    "/vakansii",
+    2
+   ],
+   [
+    "/insurance",
+    2
+   ],
+   [
+    "/credit",
+    2
+   ],
+   [
+    "/trade-in",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

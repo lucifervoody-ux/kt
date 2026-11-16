@@ -1,0 +1,198 @@
+{
+ "id": 179,
+ "site": "uspehauto-esteo.ru",
+ "brand": "ESTEO",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://uspehauto-esteo.ru/exlantix/et8/",
+ "konget": [
+  "https://app.konget.ru/inject?token=7042d23b8ccf497f9cb63dde4ec9093b",
+  "https://cdn.konget.ru/client?no_cache=1793718843639",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "ESTEO в Саратове, купить автомобиль Эстео по цене официального дилера",
+  "text_length": 9029,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+    "count": 5,
+    "sample": "3 990 000 ₽"
+   },
+   {
+    "selector": "div.row > div.col-lg-6 > div.large-text.mb-salad",
+    "count": 5,
+    "sample": "ОТ 3 890 000 ₽¹"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.latest-news-new__link > div.word-up.latest-news-new__content > div.latest-news-new__title.mb-orange",
+    "count": 1,
+    "sample": "Выгода для новых клиентов сервсиного центра ESTEO"
+   },
+   {
+    "selector": "a.latest-news-new__link > div.word-up > div.latest-news-new__title.mb-orange",
+    "count": 1,
+    "sample": "Выгода для новых клиентов сервсиного центра ESTEO"
+   },
+   {
+    "selector": "div.row > div.web_block_text-new__content.text-content > p",
+    "count": 1,
+    "sample": "Преимущества обращения к официальному дилеру:"
+   },
+   {
+    "selector": "body.dealer-theme > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/exlantix/*",
+    20
+   ],
+   [
+    "/buy/*",
+    15
+   ],
+   [
+    "/service/*",
+    11
+   ],
+   [
+    "/esteo/*",
+    7
+   ],
+   [
+    "/esteo-v/*",
+    7
+   ],
+   [
+    "/exlantix",
+    6
+   ],
+   [
+    "/news/*",
+    6
+   ],
+   [
+    "/esteo",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/news",
+    5
+   ],
+   [
+    "/brand/*",
+    5
+   ],
+   [
+    "/esteo-v",
+    5
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text"
+  ]
+ },
+ "model_page": {
+  "url": "https://uspehauto-esteo.ru/exlantix/et8/",
+  "title": "Купить ESTEO EXLANTIX ET8 в Саратове | Цены и характеристики на Эстео Экслантикс ЕТ8",
+  "text_length": 15359,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+    "count": 5,
+    "sample": "3 990 000 ₽"
+   },
+   {
+    "selector": "div.col-12.col-xl-6 > div.web_block_header-halfscreen__title > div.h1",
+    "count": 1,
+    "sample": "7 690 000 ₽¹"
+   },
+   {
+    "selector": "div.row > div.col-12.col-xl-6 > div.web_block_header-halfscreen__text.large-text",
+    "count": 1,
+    "sample": "ОТ 6 790 000 ₽² - С УЧЕТОМ МАКСИМАЛЬНЫХ ВЫГОД ПО СИСТЕМЕ ТРЕЙД-ИН И ПО ПРОГРАММЕ"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.row > div.col-12.col-xl-6 > div.web_block_header-halfscreen__text.large-text",
+    "count": 1,
+    "sample": "ОТ 6 790 000 ₽² - С УЧЕТОМ МАКСИМАЛЬНЫХ ВЫГОД ПО СИСТЕМЕ ТРЕЙД-ИН И ПО ПРОГРАММЕ"
+   },
+   {
+    "selector": "div.row > div.web_block_text-new__content.text-content > h2",
+    "count": 1,
+    "sample": "Преимущества покупки у официального дилера"
+   },
+   {
+    "selector": "body.dealer-theme > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/exlantix/*",
+    44
+   ],
+   [
+    "/buy/*",
+    15
+   ],
+   [
+    "/service/*",
+    11
+   ],
+   [
+    "/exlantix",
+    6
+   ],
+   [
+    "/esteo/*",
+    5
+   ],
+   [
+    "/esteo",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/brand/*",
+    5
+   ],
+   [
+    "/esteo-v/*",
+    5
+   ],
+   [
+    "/esteo-v",
+    5
+   ],
+   [
+    "/technology/*",
+    4
+   ],
+   [
+    "/terms-conditions/*",
+    4
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text"
+  ]
+ }
+}

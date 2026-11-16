@@ -1,0 +1,70 @@
+{
+ "id": 198,
+ "site": "tradein-vip.ru",
+ "brand": "АСП",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://tradein-vip.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=9b99dd9064424eb593f4f16b9dcf77b4",
+  "https://cdn.konget.ru/client?no_cache=1793718897984",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автомобили с пробегом в Твери — купить, трейд-ин, выкуп авто | Важная персона-Авто",
+  "text_length": 5916,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.v-text.textPrimary--text > div.d-inline > p",
+    "count": 3,
+    "sample": "Если вы хотите получить максимально выгодную цену за свой автомобиль, но не гото"
+   },
+   {
+    "selector": "div.advantages.textPrimary--text > div.container > h2.advantages__title.text-center",
+    "count": 1,
+    "sample": "Наши преимущества"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars",
+    52
+   ],
+   [
+    "/trade-in",
+    4
+   ],
+   [
+    "/vykup",
+    4
+   ],
+   [
+    "/%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D0%B8%D1%8F",
+    4
+   ],
+   [
+    "/contact",
+    3
+   ],
+   [
+    "/v-credit",
+    2
+   ],
+   [
+    "/sell",
+    2
+   ],
+   [
+    "/news",
+    1
+   ],
+   [
+    "/politic",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

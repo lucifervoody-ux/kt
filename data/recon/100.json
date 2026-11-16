@@ -1,0 +1,181 @@
+{
+ "id": 100,
+ "site": "gwm-wey-agat-krsk.ru",
+ "brand": "WEY",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://gwm-wey-agat-krsk.ru/models/wey-v9x/",
+ "konget": [],
+ "home": {
+  "title": "Агат Красноярск — Главная",
+  "text_length": 12770,
+  "price_blocks": [
+   {
+    "selector": "div.swiper-wrapper.pt-red > div.web_block_model_range__slide.swiper-slide > div.web_block_model_range__price.h3",
+    "count": 7,
+    "sample": "от 8 099 000 ₽"
+   },
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text",
+    "count": 5,
+    "sample": "от 9 349 000 ₽"
+   },
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.h6.mb-orange",
+    "count": 1,
+    "sample": "Гибридный кроссовер WEY 05 с выгодой до 600 000 рублей!"
+   },
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.latest-news__summary.mb-orange",
+    "count": 1,
+    "sample": "При покупке автомобиля в АГАТ действует выгода до 600 000 рублей при покупке в T"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.h6.mb-orange",
+    "count": 1,
+    "sample": "Гибридный кроссовер WEY 05 с выгодой до 600 000 рублей!"
+   },
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.latest-news__summary.mb-orange",
+    "count": 1,
+    "sample": "При покупке автомобиля в АГАТ действует выгода до 600 000 рублей при покупке в T"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    21
+   ],
+   [
+    "/service/*",
+    14
+   ],
+   [
+    "/test-drive/*",
+    7
+   ],
+   [
+    "/online-stock",
+    5
+   ],
+   [
+    "/hybrid-technologies/*",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/test-drive",
+    4
+   ],
+   [
+    "/configurator",
+    4
+   ],
+   [
+    "/documents/*",
+    4
+   ],
+   [
+    "/charging-stations",
+    4
+   ],
+   [
+    "/credits",
+    3
+   ],
+   [
+    "/fleet",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__item > a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info",
+   "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text",
+   "div.menu-models__item > a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info",
+   "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text",
+   "div.menu-models__item > a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info",
+   "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text"
+  ]
+ },
+ "model_page": {
+  "url": "https://gwm-wey-agat-krsk.ru/models/wey-v9x/",
+  "title": "Агат Красноярск — WEY V9X",
+  "text_length": 10792,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text",
+    "count": 5,
+    "sample": "от 9 349 000 ₽"
+   },
+   {
+    "selector": "div.col-lg-5.offset-lg-1 > div > div.h3.cg-1",
+    "count": 1,
+    "sample": "от 9 349 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    18
+   ],
+   [
+    "/service/*",
+    10
+   ],
+   [
+    "/online-stock",
+    5
+   ],
+   [
+    "/support",
+    5
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/documents/*",
+    4
+   ],
+   [
+    "/charging-stations",
+    4
+   ],
+   [
+    "/test-drive",
+    3
+   ],
+   [
+    "/configurator",
+    3
+   ],
+   [
+    "/politika-obrabotki-personal-nykh-dannykh",
+    3
+   ],
+   [
+    "/compare",
+    2
+   ],
+   [
+    "/credit-calculator",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__item > a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info",
+   "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text",
+   "div.menu-models__item > a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info",
+   "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text",
+   "div.menu-models__item > a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info",
+   "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text"
+  ]
+ }
+}

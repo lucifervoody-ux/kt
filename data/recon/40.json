@@ -1,0 +1,149 @@
+{
+ "id": 40,
+ "site": "moskvich-m-autolocman.ru",
+ "brand": "Москвич",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://moskvich-m-autolocman.ru/customers/",
+ "konget": [],
+ "home": {
+  "title": "Автолоцман — Главная страница",
+  "text_length": 6303,
+  "price_blocks": [
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div > div.main-text.mt-yellow",
+    "count": 3,
+    "sample": "С выгодой 560 000 ₽"
+   },
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.cg-2",
+    "count": 2,
+    "sample": "от 2 539 000 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div > div.web_block_media-hero__title.h1",
+    "count": 1,
+    "sample": "от 2 539 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div > div.main-text.mt-yellow",
+    "count": 1,
+    "sample": "С выгодой 560 000 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div.mt-orange > a.btn.btn_primary",
+    "count": 1,
+    "sample": "Забрать выгоду"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    9
+   ],
+   [
+    "/models/*",
+    8
+   ],
+   [
+    "/owners/*",
+    8
+   ],
+   [
+    "/brand",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/customers",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ],
+   [
+    "/brand/*",
+    2
+   ],
+   [
+    "/news",
+    2
+   ],
+   [
+    "/legal-information",
+    2
+   ],
+   [
+    "/terms-condition/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://moskvich-m-autolocman.ru/customers/",
+  "title": "Автолоцман — Покупателям",
+  "text_length": 941,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.cg-2",
+    "count": 2,
+    "sample": "от 2 539 000 ₽"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/customers/*",
+    8
+   ],
+   [
+    "/owners/*",
+    8
+   ],
+   [
+    "/models/*",
+    4
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/customers",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ],
+   [
+    "/brand",
+    2
+   ],
+   [
+    "/brand/*",
+    2
+   ],
+   [
+    "/news",
+    2
+   ],
+   [
+    "/legal-information",
+    2
+   ],
+   [
+    "/terms-condition/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": 222,
+ "site": "uni-demidich02.ru",
+ "brand": "UNI",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://uni-demidich02.ru/customers/dealer",
+ "konget": [
+  "https://app.konget.ru/inject?token=92d9adc0f8a745e79a83c0d42ee45919",
+  "https://cdn.konget.ru/client?no_cache=1793718968073",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Юни Центр Демидыч Уфа",
+  "text_length": 3321,
+  "price_blocks": [
+   {
+    "selector": "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[420px\\].text-\\[24px\\]",
+    "count": 1,
+    "sample": "От 2 939 900 руб."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.grid.gap-2 > a.bg-uni-gray-5.p-6 > div.text-sm.leading-4",
+    "count": 1,
+    "sample": "Выгодные условия для вас"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    28
+   ],
+   [
+    "/model/*",
+    15
+   ],
+   [
+    "/owners/*",
+    14
+   ],
+   [
+    "/about-us/*",
+    10
+   ],
+   [
+    "/model",
+    4
+   ],
+   [
+    "/about-company",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col"
+  ]
+ },
+ "model_page": {
+  "url": "https://uni-demidich02.ru/customers/dealer",
+  "title": "Контакты Юни Центр Демидыч Уфа",
+  "text_length": 2071,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/customers/*",
+    25
+   ],
+   [
+    "/model/*",
+    12
+   ],
+   [
+    "/owners/*",
+    12
+   ],
+   [
+    "/about-us/*",
+    8
+   ],
+   [
+    "/model",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/about-company",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col",
+   "div.absolute.inset-0 > div.grid.grid-cols-4 > a.flex.flex-col"
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "id": 92,
+ "site": "kirov.agat-group.com",
+ "brand": "Мультибренд",
+ "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kirov.agat-group.com/"
+}

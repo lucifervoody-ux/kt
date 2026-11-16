@@ -1,0 +1,88 @@
+{
+ "id": 221,
+ "site": "dalex-group.ru",
+ "brand": "сайт",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://dalex-group.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=c9213682495d4ab680e2b70693fb94ab",
+  "https://cdn.konget.ru/client?no_cache=1793718966341",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Аренда транспорта с водителем",
+  "text_length": 2486,
+  "price_blocks": [
+   {
+    "selector": "div.t401__textwrapper > div.t401__textwrapper__content > div.t401__text.t-descr",
+    "count": 12,
+    "sample": "От 2500 рублей / час"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-section__container.t-container > div.t-col.t-col_12 > div.js-block-header-title.t-section__title",
+    "count": 1,
+    "sample": "Наши преимущества"
+   },
+   {
+    "selector": "div.t497__descr.t-descr > div > strong",
+    "count": 1,
+    "sample": "Выгода."
+   }
+  ],
+  "link_groups": [
+   [
+    "/bus",
+    3
+   ],
+   [
+    "/sprinter",
+    2
+   ],
+   [
+    "/v",
+    2
+   ],
+   [
+    "/royce",
+    2
+   ],
+   [
+    "/tank500",
+    2
+   ],
+   [
+    "/z223",
+    2
+   ],
+   [
+    "/x223",
+    2
+   ],
+   [
+    "/maybachgls600",
+    2
+   ],
+   [
+    "/maybach",
+    2
+   ],
+   [
+    "/g",
+    2
+   ],
+   [
+    "/w222",
+    2
+   ],
+   [
+    "/gls",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

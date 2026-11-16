@@ -1,0 +1,114 @@
+{
+ "id": 36,
+ "site": "autoclass-darit-podarki.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://autoclass-tula.ru/autoclass/makes/changan",
+ "konget": [
+  "https://app.konget.ru/inject?token=0fb2eccfca7c4e459ae690d808742543",
+  "https://cdn.konget.ru/client?no_cache=1793718503780",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "ГК Автокласс - Продажа новых автомобилей и автомобилей с пробегом в Туле.",
+  "text_length": 4830,
+  "price_blocks": [
+   {
+    "selector": "div.cbp-item.web-design > div.cbp-item-wrapper > div.cbp-l-grid-projects-title",
+    "count": 1,
+    "sample": "TENET T4 ОТ 1 999 000 РУБ* . ПРОГРАММА ГОСПОДДЕРЖКИ"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a > div.text-box-right.less-padding-1 > h5.title.font-weight-5",
+    "count": 1,
+    "sample": "Выгодный trade-in"
+   }
+  ],
+  "link_groups": [
+   [
+    "/autoclass/*",
+    76
+   ],
+   [
+    "/buy/*",
+    17
+   ],
+   [
+    "/financial-services/*",
+    7
+   ],
+   [
+    "/owners/*",
+    5
+   ],
+   [
+    "/storage/*",
+    4
+   ],
+   [
+    "/specialoffers",
+    2
+   ],
+   [
+    "/cars",
+    1
+   ],
+   [
+    "/policies/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://autoclass-tula.ru/autoclass/makes/changan",
+  "title": "Купить автомобили Changan в Туле - официальный дилер Чанган в ГК «Автокласс».",
+  "text_length": 4899,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/autoclass/*",
+    48
+   ],
+   [
+    "/buy/*",
+    12
+   ],
+   [
+    "/financial-services/*",
+    6
+   ],
+   [
+    "/storage/*",
+    4
+   ],
+   [
+    "/owners/*",
+    3
+   ],
+   [
+    "/specialoffers",
+    2
+   ],
+   [
+    "/cars",
+    1
+   ],
+   [
+    "/policies/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

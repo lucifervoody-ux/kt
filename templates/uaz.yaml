@@ -1,0 +1,10 @@
+# Шаблон для сайтов дилеров УАЗ (uaz-agas.ru, uaz-avtomarket.ru): блок «Собери свой УАЗ» на главной.
+# Цена «от …» по каждой модели. Выгода в карточках автомобилей в наличии («Выгода до … ₽»), общая на сайт.
+# Проверено по снимкам главных страниц ID 46, 67.
+engine: УАЗ-дилер
+
+pages:
+  - url: /
+    card: .main-cars-nav-item
+    model: .main-cars-nav-item__title
+    price: .main-cars-nav-item__price

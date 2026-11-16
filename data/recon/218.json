@@ -1,0 +1,95 @@
+{
+ "id": 218,
+ "site": "promo.geely-davauto.ru",
+ "brand": "Geely",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://promo.geely-davauto.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=07c9864c75244467be518bbd2dea0b2a",
+  "https://cdn.konget.ru/client?no_cache=1793718957634",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "GEELY в Перми у официального дилера «ДАВ-АВТО».",
+  "text_length": 3419,
+  "price_blocks": [
+   {
+    "selector": "div.t778__descr.t-descr > div > strong",
+    "count": 7,
+    "sample": "От 3 079 990 руб."
+   },
+   {
+    "selector": "div.t778__descr.t-descr > div > span",
+    "count": 7,
+    "sample": "Выгода до 450 000 руб."
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 1,
+    "sample": "в наличии с выгодой до 840 000 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t778__descr.t-descr > div > span",
+    "count": 7,
+    "sample": "Выгода до 450 000 руб."
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 5,
+    "sample": "Преимущества «ДАВ-АВТО»"
+   },
+   {
+    "selector": "body.t-body.OnlineChat-initialized > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный"
+   }
+  ],
+  "link_groups": [
+   [
+    "/service",
+    10
+   ],
+   [
+    "/confidentiality",
+    10
+   ],
+   [
+    "/preface",
+    4
+   ],
+   [
+    "/monjaro",
+    4
+   ],
+   [
+    "/okavango",
+    4
+   ],
+   [
+    "/atlas",
+    4
+   ],
+   [
+    "/cityray",
+    4
+   ],
+   [
+    "/ex5",
+    4
+   ],
+   [
+    "/ex5em-i",
+    4
+   ],
+   [
+    "/coolray-new",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

@@ -1,0 +1,185 @@
+{
+ "id": 199,
+ "site": "vip-auto-tver.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://vip-auto-tver.ru/cars/924965",
+ "konget": [
+  "https://app.konget.ru/inject?token=aeec07fa5d74406193779ae4b06efd47",
+  "https://cdn.konget.ru/client?no_cache=1793718906576",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить автомобиль в Твери – продажа новых автомобилей и авто с пробегом | ВАЖНАЯ ПЕРСОНА",
+  "text_length": 9782,
+  "price_blocks": [
+   {
+    "selector": "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+    "count": 1,
+    "sample": "Выгода до 500 000 ₽ + щедрые подарки для Вас!"
+   },
+   {
+    "selector": "a.selection-card > div.v-text.textPrimary--text > div.d-inline",
+    "count": 1,
+    "sample": "До 1 000 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.d-inline > p > span",
+    "count": 3,
+    "sample": "ТО с выгодой"
+   },
+   {
+    "selector": "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+    "count": 2,
+    "sample": "Tenet Plus с увеличенной выгодой по трейд-ин"
+   },
+   {
+    "selector": "div.with-tags__item-model.d-flex > div.v-typography.with-tags__item-model-text > div.d-inline",
+    "count": 2,
+    "sample": "Узнайте, как приобрести автомобиль с максимальной выгодой для вашего бизнеса"
+   },
+   {
+    "selector": "a.text-decoration-none > div.news-card.textPrimary--text > div.news-card__title.text-h3",
+    "count": 1,
+    "sample": "Jetour продлевает сезон выгодных предложений на автомобили"
+   },
+   {
+    "selector": "div.d-inline > h2.text-mob-h2.text-lg-h2 > span",
+    "count": 1,
+    "sample": "Автосалон Важная персона АВТО в Твери: продажа автомобилей на выгодных условиях"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    20
+   ],
+   [
+    "/offers/*",
+    10
+   ],
+   [
+    "/cars",
+    9
+   ],
+   [
+    "/news/*",
+    8
+   ],
+   [
+    "/car-exchange",
+    6
+   ],
+   [
+    "/crediting",
+    5
+   ],
+   [
+    "/insurance",
+    5
+   ],
+   [
+    "/leasing",
+    5
+   ],
+   [
+    "/corporate",
+    3
+   ],
+   [
+    "/contact",
+    3
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/offres-service",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.offers__slide > a.offer-card.textPrimary--text",
+   "div.swiper-slide.offers__slide > a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper",
+   "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex",
+   "a.car-card.textPrimary--text > div.car-card__info.d-flex > div.d-flex.flex-column"
+  ]
+ },
+ "model_page": {
+  "url": "https://vip-auto-tver.ru/cars/924965",
+  "title": "Купить автомобиль Toyota Highlander LVGEU76A6SG050637 2026 года по цене 5900000 | VIP AUTO",
+  "text_length": 1898,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.sale-mod__label.d-flex > div.v-typography.mr-2 > div.d-inline",
+    "count": 4,
+    "sample": "Выгода при покупке в Трейд-ин"
+   }
+  ],
+  "link_groups": [
+   [
+    "/corporate",
+    3
+   ],
+   [
+    "/contact",
+    3
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/car-exchange",
+    2
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/cars/*",
+    1
+   ],
+   [
+    "/crediting",
+    1
+   ],
+   [
+    "/insurance",
+    1
+   ],
+   [
+    "/leasing",
+    1
+   ],
+   [
+    "/offres-service",
+    1
+   ],
+   [
+    "/service",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.price-action.car-full-characteristics__price-action > div.price-action__sales > div.sale-mod.py-5",
+   "div.price-action.car-full-characteristics__price-action > div.price-action__sales > div.sale-mod.py-5",
+   "div.car-short-info > div.car-short-info__main.background > div.car-short-info__special.mb-3",
+   "div.car-short-info > div.car-short-info__main.background > div.car-short-info__special.mb-10",
+   "div.car-short-info > div.car-short-info__main.background > div.price-action.car-short-info__price-ation",
+   "div.price-action.car-short-info__price-ation > div.price-action__sales > div.sale-mod.py-5"
+  ]
+ }
+}

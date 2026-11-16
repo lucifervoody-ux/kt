@@ -1,0 +1,99 @@
+{
+ "id": 161,
+ "site": "vw-artan.ru",
+ "brand": "Сервис",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://vw-artan.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=7f0617432dc2427d933e5b8349ba9cad",
+  "https://cdn.konget.ru/client?no_cache=1793718794143",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Сервис Volkswagen в Нижнем Новгороде, ТО и ремонт",
+  "text_length": 4636,
+  "price_blocks": [
+   {
+    "selector": "div.t812__pricelist-item.t-animate > div.t812__pricelist-item__row_1.t-row > div.t812__pricelist-item__price.t-name",
+    "count": 10,
+    "sample": "от 2 200 ₽"
+   },
+   {
+    "selector": "div.t702__text-wrapper.t-align_left > div.t702__title.t-title > strong",
+    "count": 1,
+    "sample": "Экспертная проверка автомобиля перед покупкой в АРТАН и АРТАН МОТОРС — всего 100"
+   },
+   {
+    "selector": "div.t702__text-wrapper.t-align_left > div.t702__descr.t-descr > strong",
+    "count": 1,
+    "sample": "1000 рублей"
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_left > div.t702__descr.t-descr",
+    "count": 1,
+    "sample": "Не совершайте покупку вслепую! Позвоните нам и запишитесь на диагностику. Опыт п"
+   },
+   {
+    "selector": "div.t702__descr.t-descr > ul > li",
+    "count": 1,
+    "sample": "Вы экономите на стоимости работ (обычно до 3000 руб. в зависимости от авто)."
+   },
+   {
+    "selector": "div.t778__textwrapper > div.t778__title.t-name > strong",
+    "count": 1,
+    "sample": "Экспертная проверка автомобиля перед покупкой в АРТАН и АРТАН МОТОРС — всего 100"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_left > div.t702__descr.t-descr",
+    "count": 6,
+    "sample": "Чтобы узнать стоимость обслуживания, свяжитесь с нами заранее. Мы предоставляем "
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_left > div.t702__title.t-title",
+    "count": 3,
+    "sample": "Промежуточное ТО со скидкой 40%"
+   },
+   {
+    "selector": "div.t-container.t-align_center > div.t-col.t-col_8 > div.t030__descr.t-descr",
+    "count": 1,
+    "sample": "Актуальные предложения на самых выгодных условиях у официального сервисного парт"
+   },
+   {
+    "selector": "div.t702__text-wrapper.t-align_left > div.t702__descr.t-descr > strong",
+    "count": 1,
+    "sample": "Почему это выгодно?"
+   },
+   {
+    "selector": "a > div.t778__textwrapper > div.t778__title.t-name",
+    "count": 1,
+    "sample": "Сделаем выгоднее"
+   },
+   {
+    "selector": "a > div.t778__textwrapper > div.t778__descr.t-descr",
+    "count": 1,
+    "sample": "Сделаем наиболее выгодное предложение при предоставлении расчёта от другого СТО"
+   },
+   {
+    "selector": "div.sw_quiz.sw_quiz_start_btn > div.btn_widget_block.shape_round > div.text_block.btn_color_text",
+    "count": 1,
+    "sample": "Выгодный сервис"
+   },
+   {
+    "selector": "div.stream-wood-generator-body > div.stream-wood-generator-action-content > div.stream-wood-generator-action-text",
+    "count": 1,
+    "sample": "Оставьте заявку, мы свяжемся с Вами в ближайшее время и подберем наиболее выгодн"
+   }
+  ],
+  "link_groups": [
+   [
+    "/legal/*",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

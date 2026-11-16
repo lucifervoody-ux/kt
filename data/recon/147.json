@@ -1,0 +1,93 @@
+{
+ "id": 147,
+ "site": "amk-sam.ru",
+ "brand": "LADA",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://amk-sam.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=a72d5316dbcd46f48f62b5a7d548b2af",
+  "https://cdn.konget.ru/client?no_cache=1793718771350",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "АМК LADA — официальный дилер LADA в с. Красный Яр",
+  "text_length": 5958,
+  "price_blocks": [
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > strong",
+    "count": 6,
+    "sample": "1 550 400 ₽"
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_left > div.t702__title.t-title",
+    "count": 1,
+    "sample": "За визит в день обращения дополнительная скидка 30000₽!"
+   },
+   {
+    "selector": "div.t940__card.t940__card_boxed > div.t940__content.t940__animation_slow > div.t-card__title.t-name",
+    "count": 1,
+    "sample": "за 6 500 руб в месяц"
+   },
+   {
+    "selector": "li.t-col.t-col_6 > div.t820__textwrapper.t-cell > div.t-name.t-name_md",
+    "count": 1,
+    "sample": "за 6 500 руб в месяц"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 9,
+    "sample": "Госпрограмма — скидка до 40%"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > strong",
+    "count": 7,
+    "sample": "Подарки и выгоды до конца февраля"
+   },
+   {
+    "selector": "div.t1003__content > div.t1003__item > div.t-text.t-text_md",
+    "count": 6,
+    "sample": "ЛЬГОТНАЯ ПРОГРАММА \"СЕМЕЙНЫЙ АВТОМОБИЛЬ\"! СКИДКА 10%!*"
+   },
+   {
+    "selector": "div.t-section__container.t-container > div.t-col.t-col_12 > div.t-section__title.t-title",
+    "count": 2,
+    "sample": "ПРЕИМУЩЕСТВА"
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_left > div.t702__title.t-title",
+    "count": 1,
+    "sample": "За визит в день обращения дополнительная скидка 30000₽!"
+   },
+   {
+    "selector": "div.t185__text.t-text > div > p",
+    "count": 1,
+    "sample": "Приобрести автомобили LADA вновь можно по обновленной программе господдержки со "
+   },
+   {
+    "selector": "div.t720__textwrapper > div.t720__title.t-title > span",
+    "count": 1,
+    "sample": "В АМК мега выгодные условия"
+   },
+   {
+    "selector": "div.t720__mainwrapper > div.t720__textwrapper > div.t720__descr.t-descr",
+    "count": 1,
+    "sample": "Наши опытные консультанты помогут получить максимальную выгоду, а также учтут вс"
+   }
+  ],
+  "link_groups": [
+   [
+    "/privacy",
+    11
+   ]
+  ],
+  "model_cards": [
+   "div.r.t-rec > div.t940 > div.t-card__container.t940__container",
+   "div.t940__features-wrap > div.t940__item.t940__item_indent-20px > div.t940__card.t940__card_boxed",
+   "div.t940__card.t940__card_boxed > div.t940__content.t940__animation_slow > div.t-card__title.t-name"
+  ]
+ },
+ "model_page": null
+}

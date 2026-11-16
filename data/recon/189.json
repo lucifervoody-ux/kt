@@ -1,0 +1,136 @@
+{
+ "id": 189,
+ "site": "tcm-russia.ru",
+ "brand": "Спецтехника",
+ "status": 200,
+ "engine": "Joomla",
+ "final_url": "https://tcm-russia.ru/catalog/pogruzchiki",
+ "konget": [],
+ "home": {
+  "title": "Японские Вилочные Погрузчики TCM - Официальный Дистрибьютор в России.",
+  "text_length": 3752,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/catalog/*",
+    95
+   ],
+   [
+    "/about/*",
+    26
+   ],
+   [
+    "/cat/*",
+    15
+   ],
+   [
+    "/remont-i-obsluzhivanie/*",
+    13
+   ],
+   [
+    "/policy",
+    6
+   ],
+   [
+    "/remont-i-obsluzhivanie",
+    4
+   ],
+   [
+    "/uslugi/*",
+    4
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/dostavka",
+    3
+   ],
+   [
+    "/catalog",
+    3
+   ],
+   [
+    "/uslugi",
+    3
+   ],
+   [
+    "/rasprodazha",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://tcm-russia.ru/catalog/pogruzchiki",
+  "title": "Купить Вилочный Погрузчик в Москве. Каталог Вилочных Погрузчиков (Цены 2021г.).",
+  "text_length": 6700,
+  "price_blocks": [
+   {
+    "selector": "div.product-price > div.PricesalesPrice.vm-display > span.PricesalesPrice",
+    "count": 1,
+    "sample": "3 450 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "tbody > tr > td",
+    "count": 1,
+    "sample": "Из этого короткого видео об электропогрузчике TCM вы узнаете, что такое тяговая "
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog/*",
+    497
+   ],
+   [
+    "/about/*",
+    14
+   ],
+   [
+    "/remont-i-obsluzhivanie/*",
+    13
+   ],
+   [
+    "/policy",
+    6
+   ],
+   [
+    "/catalog",
+    4
+   ],
+   [
+    "/uslugi/*",
+    4
+   ],
+   [
+    "/about",
+    3
+   ],
+   [
+    "/dostavka",
+    3
+   ],
+   [
+    "/remont-i-obsluzhivanie",
+    3
+   ],
+   [
+    "/uslugi",
+    3
+   ],
+   [
+    "/rasprodazha",
+    2
+   ],
+   [
+    "/dileram",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

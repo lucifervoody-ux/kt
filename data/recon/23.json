@@ -1,0 +1,186 @@
+{
+ "id": 23,
+ "site": "sprobegom.avtodel.com",
+ "brand": "АСП",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://sprobegom.avtodel.com/cars/1045725",
+ "konget": [
+  "https://app.konget.ru/inject?token=f5a7cd6e845e40d2a6b9313460a377f8",
+  "https://cdn.konget.ru/client?no_cache=1793718467110",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить авто с пробегом в салоне Автодель",
+  "text_length": 11173,
+  "price_blocks": [
+   {
+    "selector": "div.form-grid__col.d-flex > div.v-typography.form-grid__text > div.d-inline",
+    "count": 1,
+    "sample": "Купите автомобиль до 12:00 дня и получите персональную скидку 30 000 ₽ от Автоде"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.d-flex.flex-column > button.ka-btn.v-button > span.v-btn__content",
+    "count": 10,
+    "sample": "Получить выгоду"
+   },
+   {
+    "selector": "div.items-wrap > div.items.marquee > div.item",
+    "count": 4,
+    "sample": "Обновите автомобиль этой осенью по выгодным ценам в Автодель!"
+   },
+   {
+    "selector": "div.with__image.d-flex > div.with__image-content.d-flex > h2.with__image-title.mb-lg-3",
+    "count": 1,
+    "sample": "Успейте забрать автомобиль с персональной выгодой до конца месяца!"
+   },
+   {
+    "selector": "div.form-grid__col.d-flex > h3.v-typography.form-grid__name > div.d-inline",
+    "count": 1,
+    "sample": "Выгодный Трейд-ин"
+   },
+   {
+    "selector": "div.form-grid__col.d-flex > div.v-typography.form-grid__text > div.d-inline",
+    "count": 1,
+    "sample": "Купите автомобиль до 12:00 дня и получите персональную скидку 30 000 ₽ от Автоде"
+   },
+   {
+    "selector": "body.TalkMe-initialized.supportDesktop > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    16
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/politica",
+    3
+   ],
+   [
+    "/politic",
+    3
+   ],
+   [
+    "/credit",
+    2
+   ],
+   [
+    "/commission",
+    2
+   ],
+   [
+    "/cars-premium",
+    2
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/offers",
+    1
+   ],
+   [
+    "/contacts",
+    1
+   ],
+   [
+    "/buyout",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.container > div.cars-grid-issuance__list.pb-14 > a.car-card.textPrimary--text",
+   "div.cars-grid-issuance__list.pb-14 > a.car-card.textPrimary--text > div.car-card__info.d-flex",
+   "a.car-card.textPrimary--text > div.car-card__info.d-flex > div.car-card__pricing.mt-auto",
+   "div.car-card__info.d-flex > div.car-card__pricing.mt-auto > div.car-card__prices.d-flex",
+   "div.car-card__pricing.mt-auto > div.car-card__prices.d-flex > div.car-card__price.d-flex",
+   "div.container > div.cars-grid-issuance__list.pb-14 > a.car-card.textPrimary--text"
+  ]
+ },
+ "model_page": {
+  "url": "https://sprobegom.avtodel.com/cars/1045725",
+  "title": "Авто с пробегом Kia Carnival, IV Рестайлинг 2023 | Автодель",
+  "text_length": 8694,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.d-flex.flex-column > button.ka-btn.v-button > span.v-btn__content",
+    "count": 20,
+    "sample": "Выгодный кредит"
+   },
+   {
+    "selector": "div.car-exchange__content.d-flex > div.car-exchange__description > h2.car-exchange__title.textPrimary--text",
+    "count": 1,
+    "sample": "Преимущества программы Трейд-ин"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    21
+   ],
+   [
+    "/politica",
+    3
+   ],
+   [
+    "/politic",
+    3
+   ],
+   [
+    "/offers",
+    1
+   ],
+   [
+    "/contacts",
+    1
+   ],
+   [
+    "/credit",
+    1
+   ],
+   [
+    "/buyout",
+    1
+   ],
+   [
+    "/commission",
+    1
+   ],
+   [
+    "/cars",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.car__content-large > div.car__description-aside > div.car-short-info",
+   "div.car__description-aside > div.car-short-info > div.car-short-info__main.background",
+   "div.car-short-info > div.car-short-info__main.background > div.car-short-info__special.mb-10",
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex",
+   "a.car-card.textPrimary--text > div.car-card__info.d-flex > div.d-flex.flex-column"
+  ]
+ }
+}

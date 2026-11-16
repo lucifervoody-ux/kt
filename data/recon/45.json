@@ -1,0 +1,109 @@
+{
+ "id": 45,
+ "site": "avtomarket-51.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://avtomarket-51.ru/tpost/0mff0kd4z1-novii-changan-cs35-max-ofitsialno-v-prod",
+ "konget": [
+  "https://app.konget.ru/inject?token=3f524182494d4458b8a6e63ad08dc6b8",
+  "https://cdn.konget.ru/client?no_cache=1793718528521",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автомаркет - Haval, TENET, Changan, Solaris, Sollers, ГАЗ, УАЗ",
+  "text_length": 3808,
+  "price_blocks": [
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 1,
+    "sample": "Выгода до 690 000 рублей при покупке в кредит"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > a",
+    "count": 1,
+    "sample": "от 10 000 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 6,
+    "sample": "Позвоните нам прямо сейчас мы подберем автомобиль с максимальной выгодой"
+   },
+   {
+    "selector": "fieldset > label.t-radio__control > span",
+    "count": 1,
+    "sample": "Кредит на выгодных условиях"
+   }
+  ],
+  "link_groups": [
+   [
+    "/murmansk",
+    19
+   ],
+   [
+    "/apatity",
+    19
+   ],
+   [
+    "/monchegorsk",
+    19
+   ],
+   [
+    "/kandalaksha",
+    19
+   ],
+   [
+    "/consenttotheprocessingofpersonaldata",
+    11
+   ],
+   [
+    "/privacypolicy",
+    8
+   ],
+   [
+    "/personaldataandcookie",
+    8
+   ],
+   [
+    "/tpost/*",
+    6
+   ],
+   [
+    "/tradein",
+    1
+   ],
+   [
+    "/credit",
+    1
+   ],
+   [
+    "/contacts",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://avtomarket-51.ru/tpost/0mff0kd4z1-novii-changan-cs35-max-ofitsialno-v-prod",
+  "title": "Новый CHANGAN CS35 MAX официально в продаже: передовые технологии и стильный дизайн становятся еще доступнее",
+  "text_length": 2882,
+  "price_blocks": [
+   {
+    "selector": "section > div.t-redactor__tte-view > div.t-redactor__text",
+    "count": 2,
+    "sample": "Новый компактный кроссовер уже доступен у российских дилеров CHANGAN. Цены старт"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "section > div.t-redactor__tte-view > div.t-redactor__text",
+    "count": 1,
+    "sample": "Забота о покупателе и уверенность в качестве позволяют CHANGAN предлагать выгодн"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

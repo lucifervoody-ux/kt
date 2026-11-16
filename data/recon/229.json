@@ -1,0 +1,156 @@
+{
+ "id": 229,
+ "site": "demidich-jac.ru",
+ "brand": "JAC",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://demidich-jac.ru/for-buyers/specialoffer/",
+ "konget": [
+  "https://app.konget.ru/inject?token=a5642699b7b642718d3c8114d051742e",
+  "https://cdn.konget.ru/client?no_cache=1793718987063",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный сайт JAC Motors в России",
+  "text_length": 7316,
+  "price_blocks": [
+   {
+    "selector": "div.web_block_media-hero__content-wrap.word-up > div > div.web_block_media-hero__text.large-caps",
+    "count": 4,
+    "sample": "От 3 130 000 ₽*"
+   },
+   {
+    "selector": "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+    "count": 3,
+    "sample": "от 3 130 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.latest-news__summary.mb-orange",
+    "count": 2,
+    "sample": "Премьера нового JAC T9 Urban с пружинной задней подвеской: пикап сохранил практи"
+   },
+   {
+    "selector": "div.row > div.offset-xl-2.col-xl-8 > div.text-content.main-text",
+    "count": 1,
+    "sample": "JAC MOTORS предлагает удобные условия покупки, выгодные программы трейд-ин и сез"
+   }
+  ],
+  "link_groups": [
+   [
+    "/for-buyers/*",
+    25
+   ],
+   [
+    "/world-jac/*",
+    25
+   ],
+   [
+    "/models/*",
+    11
+   ],
+   [
+    "/for-owners/*",
+    11
+   ],
+   [
+    "/models",
+    3
+   ],
+   [
+    "/data-processing-policy",
+    3
+   ],
+   [
+    "/test-drive",
+    2
+   ],
+   [
+    "/for-buyers",
+    2
+   ],
+   [
+    "/for-owners",
+    2
+   ],
+   [
+    "/world-jac",
+    2
+   ],
+   [
+    "/dealer",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://demidich-jac.ru/for-buyers/specialoffer/",
+  "title": "Спецпредложения",
+  "text_length": 1975,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+    "count": 3,
+    "sample": "от 3 130 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/for-buyers/*",
+    14
+   ],
+   [
+    "/for-owners/*",
+    11
+   ],
+   [
+    "/models/*",
+    6
+   ],
+   [
+    "/world-jac/*",
+    5
+   ],
+   [
+    "/data-processing-policy",
+    3
+   ],
+   [
+    "/test-drive",
+    2
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/for-buyers",
+    2
+   ],
+   [
+    "/for-owners",
+    2
+   ],
+   [
+    "/world-jac",
+    2
+   ],
+   [
+    "/dealer",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

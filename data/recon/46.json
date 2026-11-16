@@ -1,0 +1,145 @@
+{
+ "id": 46,
+ "site": "uaz-avtomarket.ru",
+ "brand": "УАЗ",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://uaz-avtomarket.ru/cars/stock-new",
+ "konget": [
+  "https://app.konget.ru/inject?token=5843235006ec489981f0301f9b70f00a",
+  "https://cdn.konget.ru/client?no_cache=1793718528380",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "ООО \"Севертранс\" - официальный дилер УАЗ",
+  "text_length": 4363,
+  "price_blocks": [
+   {
+    "selector": "div.available-cars-item__bar > div.available-cars-item__col > div.text.available-cars-item__title",
+    "count": 8,
+    "sample": "1 545 000 ₽"
+   },
+   {
+    "selector": "div.main-cars-nav-item.main-cars__nav-item > div.main-cars-nav-item__price-wrapper > div.text.main-cars-nav-item__price",
+    "count": 5,
+    "sample": "от 2 005 000 ₽"
+   },
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 5,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.main-cars__container > div.main-cars__content.main-cars__content_patriot-mkpp > div.text.main-cars__price",
+    "count": 1,
+    "sample": "от 2 005 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 8,
+    "sample": "Выгода до 200 000 ₽"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    19
+   ],
+   [
+    "/owner/*",
+    14
+   ],
+   [
+    "/purchase/*",
+    12
+   ],
+   [
+    "/blog/*",
+    8
+   ],
+   [
+    "/company/*",
+    7
+   ],
+   [
+    "/blog",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/sitemap",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://uaz-avtomarket.ru/cars/stock-new",
+  "title": "ООО \"Севертранс\" - официальный дилер УАЗ",
+  "text_length": 3965,
+  "price_blocks": [
+   {
+    "selector": "div.available-cars-item__bar > div.available-cars-item__col > div.text.available-cars-item__title",
+    "count": 8,
+    "sample": "1 545 000 ₽"
+   },
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 5,
+    "sample": "Выгода до 200 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 8,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owner/*",
+    14
+   ],
+   [
+    "/cars/*",
+    13
+   ],
+   [
+    "/purchase/*",
+    12
+   ],
+   [
+    "/company/*",
+    7
+   ],
+   [
+    "/blog/*",
+    4
+   ],
+   [
+    "/blog",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/sitemap",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

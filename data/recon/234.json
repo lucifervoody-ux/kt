@@ -1,0 +1,139 @@
+{
+ "id": 234,
+ "site": "demidich.ru",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "1С-Битрикс",
+ "final_url": "https://www.demidich.ru/cars/",
+ "konget": [
+  "https://app.konget.ru/inject?token=273e2dd635ca4ab9b7c5a2f0a48e8317",
+  "https://cdn.konget.ru/client?no_cache=1793719001106",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер CHANGAN, CHERY, TENET, HAVAL, JAC, SOLLERS – компания Демидыч — официальный дилер Демидыч",
+  "text_length": 3071,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.maxwidth-theme.front-additional-text > b > h2",
+    "count": 1,
+    "sample": "Преимущества покупки авто у официального дилера Демидыч"
+   },
+   {
+    "selector": "div.item.clearfix > div.body-info > div.title",
+    "count": 1,
+    "sample": "Выгодная стоимость владения автомобилями «Демидыч»"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    80
+   ],
+   [
+    "/contacts/*",
+    55
+   ],
+   [
+    "/company/*",
+    46
+   ],
+   [
+    "/press-tsentr/*",
+    16
+   ],
+   [
+    "/trade-in/*",
+    10
+   ],
+   [
+    "/company",
+    7
+   ],
+   [
+    "/press-tsentr",
+    7
+   ],
+   [
+    "/cars",
+    6
+   ],
+   [
+    "/trade-in",
+    6
+   ],
+   [
+    "/contacts",
+    6
+   ],
+   [
+    "/service",
+    4
+   ],
+   [
+    "/cabinet",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://www.demidich.ru/cars/",
+  "title": "ОФИЦИАЛЬНЫЙ ДИЛЕР КОМПАНИЯ \"ДЕМИДЫЧ\" - Официальный сайт компании ДЕМИДЫЧ",
+  "text_length": 1569,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/cars/*",
+    72
+   ],
+   [
+    "/contacts/*",
+    55
+   ],
+   [
+    "/company/*",
+    35
+   ],
+   [
+    "/cars",
+    16
+   ],
+   [
+    "/trade-in/*",
+    10
+   ],
+   [
+    "/press-tsentr/*",
+    9
+   ],
+   [
+    "/press-tsentr",
+    7
+   ],
+   [
+    "/trade-in",
+    6
+   ],
+   [
+    "/company",
+    6
+   ],
+   [
+    "/contacts",
+    6
+   ],
+   [
+    "/service",
+    4
+   ],
+   [
+    "/cabinet",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

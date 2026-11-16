@@ -1,0 +1,117 @@
+{
+ "id": 233,
+ "site": "cheryperm.ru",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://cheryperm.ru/tpost/v7hn7te1c1-chery-tiggo-9-vigoda-do-830-000",
+ "konget": [
+  "https://app.konget.ru/inject?token=1392223630e24db7be73a6b06f65a065",
+  "https://cdn.konget.ru/client?no_cache=1793719000699",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Chery в Перми",
+  "text_length": 2505,
+  "price_blocks": [
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 3,
+    "sample": "CHERY TIGGO 9 — выгода до 830 000 ₽"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 2,
+    "sample": "Выгода до 750 000 ₽"
+   },
+   {
+    "selector": "div.t411__content > div.t411__textwrapper.t-width > h2.t411__title.t-title",
+    "count": 1,
+    "sample": "ВЫГОДА ДО 750 000 ₽"
+   },
+   {
+    "selector": "div.t411__textwrapper.t-width > h2.t411__title.t-title > div",
+    "count": 1,
+    "sample": "750 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 3,
+    "sample": "CHERY TIGGO 9 — выгода до 830 000 ₽"
+   },
+   {
+    "selector": "ul.t228__list.t-menu__list > li.t228__list_item > a.t-menu__link-item",
+    "count": 2,
+    "sample": "Преимущества"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 2,
+    "sample": "Выгода до 750 000 ₽"
+   },
+   {
+    "selector": "div.t411__content > div.t411__formwrapper > div.t411__descr-second.t-descr",
+    "count": 2,
+    "sample": "Оставьте свой номер телефона и мы предложим вам самые выгодные условия"
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_center > div.t702__title.t-title",
+    "count": 1,
+    "sample": "Получите самые выгодные условия на покупку"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > strong",
+    "count": 1,
+    "sample": "Выгодные предложения на автомобили CHERY в Демидыч"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > span",
+    "count": 1,
+    "sample": "Выгодные предложения на автомобили CHERY в Демидыч"
+   },
+   {
+    "selector": "div.t411__content > div.t411__textwrapper.t-width > h2.t411__title.t-title",
+    "count": 1,
+    "sample": "ВЫГОДА ДО 750 000 ₽"
+   }
+  ],
+  "link_groups": [
+   [
+    "/tpost/*",
+    3
+   ],
+   [
+    "/tiggo-9",
+    1
+   ],
+   [
+    "/arrizo-8",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://cheryperm.ru/tpost/v7hn7te1c1-chery-tiggo-9-vigoda-do-830-000",
+  "title": "CHERY TIGGO 9 — выгода до 830 000 ₽",
+  "text_length": 466,
+  "price_blocks": [
+   {
+    "selector": "div.t-feed__post-popup__content.t-col > div.t-feed__post-popup__title-wrapper > h1.js-feed-post-title.t-feed__post-popup__title",
+    "count": 1,
+    "sample": "CHERY TIGGO 9 — выгода до 830 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-feed__post-popup__content.t-col > div.t-feed__post-popup__title-wrapper > h1.js-feed-post-title.t-feed__post-popup__title",
+    "count": 1,
+    "sample": "CHERY TIGGO 9 — выгода до 830 000 ₽"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

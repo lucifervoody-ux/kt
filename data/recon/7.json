@@ -1,0 +1,226 @@
+{
+ "id": 7,
+ "site": "belgee-avangard.ru",
+ "brand": "Belgee",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://belgee-avangard.ru/models/",
+ "konget": [
+  "https://app.konget.ru/inject?token=52f381c7350f40cab2e9ca25693bbe15",
+  "https://cdn.konget.ru/client?no_cache=1793718430053",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Belgee в Санкт-Петербурге — официальный дилер Авангард",
+  "text_length": 7734,
+  "price_blocks": [
+   {
+    "selector": "div.js-model-range-slide.web_block_model-range__slide > div.web_block_model-range__slide-header.d-lg-none > span.caps",
+    "count": 6,
+    "sample": "от 2 529 990 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-text-wrap > div.web_block_media-hero__text-wrap > div.web_block_media-hero__subtitle.large-caps",
+    "count": 5,
+    "sample": "от 2 099 990 ₽²"
+   },
+   {
+    "selector": "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price",
+    "count": 4,
+    "sample": "от 2 099 990 ₽*"
+   },
+   {
+    "selector": "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet > span.caps",
+    "count": 3,
+    "sample": "от 2 099 990 ₽"
+   },
+   {
+    "selector": "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet.active > span.caps",
+    "count": 1,
+    "sample": "от 2 169 990 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.js-disclaimer-container.web_block_text-disclaimer-accordion__container > div.js-disclaimer-content.web_block_text-disclaimer-accordion__content > p",
+    "count": 4,
+    "sample": "²Максимальная цена перепродажи, с учетом применимых выгод:"
+   },
+   {
+    "selector": "div.menu-banner.mt-green > div.menu-banner__info.p-orange > div.small-text",
+    "count": 1,
+    "sample": "Узнайте о специальных выгодах при покупке автомобиля Belgee"
+   },
+   {
+    "selector": "div.menu-banner.mt-green > div.menu-banner__info.p-orange > a.menu-banner__link.btn",
+    "count": 1,
+    "sample": "Преимущества программы"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    23
+   ],
+   [
+    "/forbuyers/*",
+    23
+   ],
+   [
+    "/for-owners/*",
+    19
+   ],
+   [
+    "/cars-stock",
+    16
+   ],
+   [
+    "/about-belgee/*",
+    13
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/maintenance",
+    3
+   ],
+   [
+    "/legal-information",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/referral-program",
+    2
+   ],
+   [
+    "/legal-information/*",
+    2
+   ],
+   [
+    "/forbuyers",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.js-model-range.web_block_model-range__inner > div.js-model-range-slider.web_block_model-range__slider > div.web_block_model-range__slider-pagination-wrap.mt-red",
+   "div.js-model-range-slider.web_block_model-range__slider > div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet.active",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet"
+  ]
+ },
+ "model_page": {
+  "url": "https://belgee-avangard.ru/models/",
+  "title": "Авангард — Модели",
+  "text_length": 4123,
+  "price_blocks": [
+   {
+    "selector": "div.js-model-range-slide.web_block_model-range__slide > div.web_block_model-range__slide-header.d-lg-none > span.caps",
+    "count": 6,
+    "sample": "от 2 529 990 ₽"
+   },
+   {
+    "selector": "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price",
+    "count": 4,
+    "sample": "от 2 099 990 ₽*"
+   },
+   {
+    "selector": "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet > span.caps",
+    "count": 3,
+    "sample": "от 2 169 990 ₽"
+   },
+   {
+    "selector": "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet.active > span.caps",
+    "count": 1,
+    "sample": "от 2 099 990 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.row > div.offset-xl-2.col-xl-8 > p",
+    "count": 2,
+    "sample": "*Максимальная цена перепродажи, с учетом применимых выгод:"
+   },
+   {
+    "selector": "div.menu-banner.mt-green > div.menu-banner__info.p-orange > div.small-text",
+    "count": 1,
+    "sample": "Узнайте о специальных выгодах при покупке автомобиля Belgee"
+   },
+   {
+    "selector": "div.menu-banner.mt-green > div.menu-banner__info.p-orange > a.menu-banner__link.btn",
+    "count": 1,
+    "sample": "Преимущества программы"
+   }
+  ],
+  "link_groups": [
+   [
+    "/for-owners/*",
+    19
+   ],
+   [
+    "/models/*",
+    18
+   ],
+   [
+    "/cars-stock",
+    15
+   ],
+   [
+    "/forbuyers/*",
+    15
+   ],
+   [
+    "/about-belgee/*",
+    9
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/maintenance",
+    3
+   ],
+   [
+    "/legal-information",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/referral-program",
+    2
+   ],
+   [
+    "/legal-information/*",
+    2
+   ],
+   [
+    "/forbuyers",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.js-model-range.web_block_model-range__inner > div.js-model-range-slider.web_block_model-range__slider > div.web_block_model-range__slider-pagination-wrap.mt-red",
+   "div.js-model-range-slider.web_block_model-range__slider > div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet.active",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet",
+   "div.web_block_model-range__slider-pagination-wrap.mt-red > div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet"
+  ]
+ }
+}

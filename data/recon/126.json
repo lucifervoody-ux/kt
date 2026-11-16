@@ -1,0 +1,162 @@
+{
+ "id": 126,
+ "site": "sevmarka-jac.ru",
+ "brand": "JAC",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://sevmarka-jac.ru/for-buyers/specialoffer/",
+ "konget": [
+  "https://app.konget.ru/inject?token=aceca1bc03094f0d9ee22c1b4f6a4388",
+  "https://cdn.konget.ru/client?no_cache=1793718713353",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить JAC в Мурманске | Официальный дилер | Северная Марка",
+  "text_length": 7125,
+  "price_blocks": [
+   {
+    "selector": "div.web_block_media-hero__content-wrap.word-up > div > div.web_block_media-hero__text.large-caps",
+    "count": 4,
+    "sample": "От 3 130 000 ₽*"
+   },
+   {
+    "selector": "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+    "count": 3,
+    "sample": "от 3 130 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.row > div.offset-xl-2.col-xl-8 > div.text-content.main-text",
+    "count": 1,
+    "sample": "JAC MOTORS предлагает удобные условия покупки, выгодные программы трейд-ин и сез"
+   },
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.latest-news__summary.mb-orange",
+    "count": 1,
+    "sample": "Премьера нового JAC T9 Urban с пружинной задней подвеской: пикап сохранил практи"
+   }
+  ],
+  "link_groups": [
+   [
+    "/for-buyers/*",
+    25
+   ],
+   [
+    "/world-jac/*",
+    25
+   ],
+   [
+    "/models/*",
+    11
+   ],
+   [
+    "/for-owners/*",
+    11
+   ],
+   [
+    "/models",
+    3
+   ],
+   [
+    "/data-processing-policy",
+    3
+   ],
+   [
+    "/test-drive",
+    2
+   ],
+   [
+    "/for-buyers",
+    2
+   ],
+   [
+    "/for-owners",
+    2
+   ],
+   [
+    "/world-jac",
+    2
+   ],
+   [
+    "/dealer",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://sevmarka-jac.ru/for-buyers/specialoffer/",
+  "title": "Спецпредложения JAC в Мурманске | Акции и скидки | Акции JAC",
+  "text_length": 1993,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+    "count": 3,
+    "sample": "от 3 130 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/for-buyers/*",
+    15
+   ],
+   [
+    "/for-owners/*",
+    11
+   ],
+   [
+    "/models/*",
+    6
+   ],
+   [
+    "/world-jac/*",
+    5
+   ],
+   [
+    "/data-processing-policy",
+    3
+   ],
+   [
+    "/test-drive",
+    2
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/for-buyers",
+    2
+   ],
+   [
+    "/for-owners",
+    2
+   ],
+   [
+    "/world-jac",
+    2
+   ],
+   [
+    "/dealer",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,31 @@
+# Li Auto (liautoofficial.ru). Тот же движок сайта, что у tenet.ru.
+id: 4
+company: Li Auto (тест)
+site: liautoofficial.ru
+brand: Li
+active: true
+responsible: ''    # ответственный за сайт, например: Иван Петров
+
+models:
+  list_url: https://liautoofficial.ru/
+  link: .js-menu-models-link
+  page:
+    price: .web_block_packages__item-price           # цены всех комплектаций
+    benefit: .web_block_media-flow-icon__title
+
+pages:
+  # Меню «Модели» на главной: цена «от» каждой модели (и выгоды из сноски к цене, если есть).
+  # Нужно для моделей, у которых на странице модели нет списка комплектаций.
+  - url: https://liautoofficial.ru/
+    card: .menu-models__item, .js-menu-models-link
+    model: .menu-models__item-title
+    price: .menu-models__item-price
+    benefit: .menu-models__item-price
+  # Специальные предложения: карточка на каждую модель, внутри «Специальное предложение»,
+  # «Трейд-ин», «Лояльный трейд-ин» с суммами по комплектациям. Слова «выгода» там нет,
+  # поэтому считаем все суммы (benefit_all). Цену отсюда не берём.
+  - url: https://liautoofficial.ru/purchase/buy/offers/
+    card: .web_block_media-accordion
+    model: .web_block_media-accordion__title
+    benefit: .web_block_media-accordion__accordion-text
+    benefit_all: true

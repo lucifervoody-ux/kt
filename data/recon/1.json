@@ -1,0 +1,159 @@
+{
+ "id": 1,
+ "site": "hongqi-avangard.ru",
+ "brand": "Хончи",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://hongqi-avangard.ru/pages/finance",
+ "konget": [
+  "https://app.konget.ru/inject?token=e65cb9d66e9e4eac8b4314d4b520201e",
+  "https://cdn.konget.ru/client?no_cache=1793718420728",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "HONGQI | Купить Хончи в Санкт-Петербурге - Официальный дилер в России АВАНГАРД",
+  "text_length": 10812,
+  "price_blocks": [
+   {
+    "selector": "div.models-item__complectation-wrapper > div.mt-6.lg\\:basis-\\[25\\%\\] > div.models-item__complectation-price.relative",
+    "count": 14,
+    "sample": "Цена от 3 490 000 ₽"
+   },
+   {
+    "selector": "div.models-item__details > div.models-item__main > div.models-item__price.my-4",
+    "count": 7,
+    "sample": "Цена от 3 490 000 ₽"
+   },
+   {
+    "selector": "div.swiper-slide > article.models-item > div.models-item__price.text-center",
+    "count": 4,
+    "sample": "Цена от 3 790 000 ₽"
+   },
+   {
+    "selector": "div.swiper-slide.swiper-slide-prev > article.models-item > div.models-item__price.text-center",
+    "count": 1,
+    "sample": "Цена от 3 490 000 ₽"
+   },
+   {
+    "selector": "div.swiper-slide.swiper-slide-active > article.models-item > div.models-item__price.text-center",
+    "count": 1,
+    "sample": "Цена от 2 490 000 ₽"
+   },
+   {
+    "selector": "div.swiper-slide.swiper-slide-next > article.models-item > div.models-item__price.text-center",
+    "count": 1,
+    "sample": "Цена от 3 390 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.benefits > div.benefit > p.text-lg",
+    "count": 1,
+    "sample": "Преимущество по Трейд-ин"
+   }
+  ],
+  "link_groups": [
+   [
+    "/pages/*",
+    36
+   ],
+   [
+    "/h9",
+    9
+   ],
+   [
+    "/h6",
+    8
+   ],
+   [
+    "/hs3",
+    8
+   ],
+   [
+    "/hs5-new",
+    8
+   ],
+   [
+    "/hs7-new",
+    8
+   ],
+   [
+    "/hq9",
+    8
+   ],
+   [
+    "/h5",
+    7
+   ],
+   [
+    "/cars",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-prev > article.models-item",
+   "div.swiper-slide.swiper-slide-prev > article.models-item > div.models-item__price.text-center",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-active > article.models-item",
+   "div.swiper-slide.swiper-slide-active > article.models-item > div.models-item__price.text-center",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-next > article.models-item",
+   "div.swiper-slide.swiper-slide-next > article.models-item > div.models-item__price.text-center"
+  ]
+ },
+ "model_page": {
+  "url": "https://hongqi-avangard.ru/pages/finance",
+  "title": "Финансовые услуги HONGQI",
+  "text_length": 26229,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.content-row.content-row__cols > div.content-col.p-4 > h3.content-title",
+    "count": 1,
+    "sample": "КРЕДИТНЫЕ ПРОГРАММЫ HONGQI НА ВЫГОДНЫХ УСЛОВИЯХ ДЛЯ МОДЕЛЕЙ Новый HS5, Новый HS7"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/pages/*",
+    44
+   ],
+   [
+    "/h5",
+    2
+   ],
+   [
+    "/h9",
+    2
+   ],
+   [
+    "/h6",
+    2
+   ],
+   [
+    "/hs3",
+    2
+   ],
+   [
+    "/hs5-new",
+    2
+   ],
+   [
+    "/hs7-new",
+    2
+   ],
+   [
+    "/hq9",
+    2
+   ],
+   [
+    "/cars",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

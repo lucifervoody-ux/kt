@@ -1,0 +1,59 @@
+{
+ "id": 193,
+ "site": "sales.izmailovo-changanauto.ru",
+ "brand": "Changan",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://sales.izmailovo-changanauto.ru/data/img/range/uni-z/covers/1.webp",
+ "konget": [],
+ "home": {
+  "title": "Официальный дилер CHANGAN в Москве – Чанган Центр Измайлово: цены, модели и комплектации автомобилей Чанган.",
+  "text_length": 10113,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.profit > div.profit__item.title-wrap > span.profit__title",
+    "count": 12,
+    "sample": "Преимущество"
+   },
+   {
+    "selector": "div.container > div.section__subitem.heading-wrap > h4.subheading",
+    "count": 1,
+    "sample": "Реальная выгода до 1 350 000"
+   },
+   {
+    "selector": "div.container > div.section__subitem.profits-wrap > span.profit.js-profit",
+    "count": 1,
+    "sample": "Выгода до 1 350 000"
+   },
+   {
+    "selector": "div.card.hover-zoom > div.card__item.header-wrap > span.card__desc",
+    "count": 1,
+    "sample": "Дополнительная выгода при обмене вашего автомобиля на CHANGAN"
+   }
+  ],
+  "link_groups": [
+   [
+    "/data/*",
+    80
+   ]
+  ],
+  "model_cards": [
+   "div.container > div.section__item.cards-wrap > div.section__subitem.card-wrap",
+   "div.section__item.cards-wrap > div.section__subitem.card-wrap > div.card",
+   "div.section__subitem.card-wrap > div.card > div.card__item.top-block",
+   "div.card > div.card__item.top-block > div.card__subitem.logo-label-wrap",
+   "div.card__item.top-block > div.card__subitem.logo-label-wrap > div.card__inner.price-wrap",
+   "div.card__subitem.logo-label-wrap > div.card__inner.price-wrap > span.card__price"
+  ]
+ },
+ "model_page": {
+  "url": "https://sales.izmailovo-changanauto.ru/data/img/range/uni-z/covers/1.webp",
+  "title": "1.webp (1920×1440)",
+  "text_length": 0,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

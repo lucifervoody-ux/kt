@@ -1,0 +1,35 @@
+# Belgee (belgee.ru). Тот же движок сайта, что у tenet.ru.
+id: 5
+company: Belgee (тест)
+site: belgee.ru
+brand: Belgee
+active: true
+responsible: ''    # ответственный за сайт, например: Иван Петров
+
+models:
+  list_url: https://belgee.ru/
+  link: a.footer__menu-link[href^="/model/"]        # ссылки на модели в подвале: «Новый X50», «X50+»…
+  page:
+    price: .web_block_packages-single__card-price    # цены комплектаций
+    benefit: .web_block_media-flow-icon__title
+
+pages:
+  # Меню «Модели» на главной: цена «от» каждой модели (и выгоды из сноски к цене, если есть).
+  # Нужно для моделей, у которых на странице модели нет списка комплектаций.
+  - url: https://belgee.ru/
+    card: .menu-models__item, .js-menu-models-link
+    model: .menu-models__item-title
+    price: .menu-models__item-price
+    benefit: .menu-models__item-price
+  # Спецпредложения: блок на каждую модель, внутри «Максимальная выгода до …» по комплектациям.
+  # Название модели там картинкой, поэтому узнаём модель по коду в ссылке «Получить предложение».
+  - url: https://belgee.ru/forbuyers/specialoffer/
+    card: .web_block_benefits__model
+    model: a[href*="?model="]
+    model_attr: href
+    model_map:
+      d9q8410beucc73d8p9k0: Новый X50
+      d6fcdhobeucc73an32v0: X50+
+      d33sgmgbeucc739shbmg: X70
+      d2mmvi8beucc73dfv6m0: S50
+    benefit: .web_block_benefits__total

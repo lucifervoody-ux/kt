@@ -1,0 +1,119 @@
+{
+ "id": 118,
+ "site": "aemholding.ru",
+ "brand": "Мультибренд",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://aemholding.ru/cars/1689249",
+ "konget": [
+  "https://app.konget.ru/inject?token=2b216a50f8b14470aef0f3f2025ffb65",
+  "https://cdn.konget.ru/client?no_cache=1793718696366",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "АЕМ в Барнауле. Автохолдинг АЕМ – один из крупнейших российских автомобильных холдингов.",
+  "text_length": 8851,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/cars",
+    117
+   ],
+   [
+    "/cars/*",
+    20
+   ],
+   [
+    "/news/*",
+    12
+   ],
+   [
+    "/offers/*",
+    9
+   ],
+   [
+    "/finance",
+    1
+   ],
+   [
+    "/sale_auto",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/offers",
+    1
+   ],
+   [
+    "/news",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex",
+   "a.car-card.textPrimary--text > div.car-card__info.d-flex > div.d-flex.flex-column",
+   "div.car-card__info.d-flex > div.d-flex.flex-column > div.car-card__price.d-flex",
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex"
+  ]
+ },
+ "model_page": {
+  "url": "https://aemholding.ru/cars/1689249",
+  "title": "Купить Внедорожник 5 дв. Tank 500, I в AEM в Барнауле",
+  "text_length": 4181,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars",
+    73
+   ],
+   [
+    "/finance",
+    1
+   ],
+   [
+    "/sale_auto",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/cars/*",
+    1
+   ],
+   [
+    "/politic",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.card-car.textPrimary--text > div.container > div.card-car__info.px-md-11",
+   "div.container > div.card-car__info.px-md-11 > div.card-car__info-side",
+   "div.card-car__info.px-md-11 > div.card-car__info-side > div.card-feedback.textPrimary--text",
+   "div.card-car__info-side > div.card-feedback.textPrimary--text > div.card-feedback__special.mb-5",
+   "div.card-car__info-side > div.card-feedback.textPrimary--text > div.card-feedback__final.d-flex"
+  ]
+ }
+}

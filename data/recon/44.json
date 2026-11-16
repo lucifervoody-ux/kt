@@ -1,0 +1,156 @@
+{
+ "id": 44,
+ "site": "volga-avtomarket.ru",
+ "brand": "Volga",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://volga-avtomarket.ru/models/volga-k50",
+ "konget": [
+  "https://app.konget.ru/inject?token=c517cb3b80d0428aa46c0039f29b4e12",
+  "https://cdn.konget.ru/client?no_cache=1793718526737",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Volga в Мурманске, купить автомобили Волга у официального дилера «Автомаркет»",
+  "text_length": 2905,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.td-slider__description > div.td-model__price > span",
+    "count": 1,
+    "sample": "с учетом трейд-ин и прямой скидки дистрибьютора"
+   },
+   {
+    "selector": "div.accordion-body > div.td-disclaimer > p",
+    "count": 1,
+    "sample": "2. Скидка по трейд-ин является единовременной и разовой. Окончательная оценка ав"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    15
+   ],
+   [
+    "/news/*",
+    13
+   ],
+   [
+    "/buyers/*",
+    10
+   ],
+   [
+    "/owners/*",
+    10
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/about/*",
+    4
+   ],
+   [
+    "/news",
+    4
+   ],
+   [
+    "/test-drive",
+    4
+   ],
+   [
+    "/corporate-clients",
+    3
+   ],
+   [
+    "/special-offers",
+    3
+   ],
+   [
+    "/docs",
+    3
+   ],
+   [
+    "/telematics",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://volga-avtomarket.ru/models/volga-k50",
+  "title": "VOLGA K50 купить в Мурманске, комплектации и цены автомобиля Волга К50",
+  "text_length": 11187,
+  "price_blocks": [
+   {
+    "selector": "div.swiper-slide.td-ttx-table__complectation-slide > div.td-complectation-slide__subtitle > div.h5",
+    "count": 3,
+    "sample": "3 999 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__text > div.td-slider__description.td-text-fade--first > h1.td-slider__description",
+    "count": 1,
+    "sample": "Флагманский кроссовер VOLGA K50 от 3 999 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.accordion-body > div.td-disclaimer > p",
+    "count": 1,
+    "sample": "2. Скидка по трейд-ин является единовременной и разовой. Окончательная оценка ав"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    13
+   ],
+   [
+    "/news/*",
+    12
+   ],
+   [
+    "/buyers/*",
+    10
+   ],
+   [
+    "/owners/*",
+    10
+   ],
+   [
+    "/news",
+    4
+   ],
+   [
+    "/test-drive",
+    4
+   ],
+   [
+    "/media-link/*",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/corporate-clients",
+    3
+   ],
+   [
+    "/special-offers",
+    3
+   ],
+   [
+    "/docs",
+    3
+   ],
+   [
+    "/telematics",
+    3
+   ]
+  ],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "id": 127,
+ "site": "jac-beta.ru",
+ "brand": "JAC",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://jac-beta.ru/special-offers/6989",
+ "konget": [
+  "https://app.konget.ru/inject?token=1b22d8b6ad5e4a54975257fee4420b0a",
+  "https://cdn.konget.ru/client?no_cache=1793718715985",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить автомобили JAC в СПб | JAC Центр Бета Пулково",
+  "text_length": 8921,
+  "price_blocks": [
+   {
+    "selector": "div.marquee__track.marquee__track--ready > div.marquee__group > div.marquee__item.text-lg-h2",
+    "count": 4,
+    "sample": "Т9 ПРО от 20 000 руб./мес. при ПВ от 70% на 8 лет."
+   },
+   {
+    "selector": "div.sol-models__cards > div.sol-models-card.backgroundSecondary > div.sol-models-card__text.mb-8",
+    "count": 3,
+    "sample": "50 000 рублей"
+   },
+   {
+    "selector": "div.sol-models__wrapper.overflow-hidden > div.mt-11.mt-md-14 > div.mt-3.text-mob-h6",
+    "count": 1,
+    "sample": "от 1 749 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.sol-models__cards > div.sol-models-card.backgroundSecondary > div.text-mob-subtitle-2.text-lg-subtitle-2",
+    "count": 2,
+    "sample": "Выгода при покупке в кредит"
+   },
+   {
+    "selector": "div.sol-models-card.backgroundSecondary > div.sol-models-card__footer.d-flex > div.text-mob-subtitle-2.text-lg-subtitle-2",
+    "count": 2,
+    "sample": "Выгода при покупке в кредит"
+   },
+   {
+    "selector": "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+    "count": 2,
+    "sample": "Приобретайте автомобили JAC c максимальной выгодой"
+   },
+   {
+    "selector": "div.calc-mortgage-form.backgroundPaper > div.v-typography.calc-mortgage-form__description > div.d-inline",
+    "count": 1,
+    "sample": "Введите параметры и мы рассчитаем платеж по кредиту на наиболее выгодных условия"
+   },
+   {
+    "selector": "div.car-exchange__content.d-flex > div.car-exchange__description > h2.car-exchange__title.textPrimary--text",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый JAC с выгодой!"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/special-offers/*",
+    7
+   ],
+   [
+    "/videoobzoryjac",
+    4
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/izbrannoie",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/agreement_pd",
+    2
+   ],
+   [
+    "/jac-j7",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.theme--light > div.g-indent.g-indent__top-default > div.sol-models",
+   "div.g-indent.g-indent__top-default > div.sol-models > div.sol-models__wrapper.overflow-hidden",
+   "div.sol-models > div.sol-models__wrapper.overflow-hidden > div.mt-11.mt-md-14",
+   "div.g-indent.g-indent__top-default > div.sol-models > div.sol-models__bottom.background",
+   "div.sol-models__bottom.background > div.container > div.sol-models__cards",
+   "div.container > div.sol-models__cards > div.sol-models-card.backgroundSecondary"
+  ]
+ },
+ "model_page": {
+  "url": "https://jac-beta.ru/special-offers/6989",
+  "title": "JAC RF8 – для самого важного бизнеса – вашего | JAC | Дилер",
+  "text_length": 4661,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    20
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/izbrannoie",
+    2
+   ],
+   [
+    "/special-offers",
+    1
+   ],
+   [
+    "/special-offers/*",
+    1
+   ],
+   [
+    "/politic",
+    1
+   ],
+   [
+    "/agreement_pd",
+    1
+   ],
+   [
+    "/jac-j7",
+    1
+   ],
+   [
+    "/cookies",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex",
+   "a.car-card.textPrimary--text > div.car-card__info.d-flex > div.d-flex.flex-column",
+   "div.car-card__info.d-flex > div.d-flex.flex-column > div.car-card__price.d-flex",
+   "div.swiper-wrapper > div.swiper-slide.cars-list__item > a.car-card.textPrimary--text",
+   "div.swiper-slide.cars-list__item > a.car-card.textPrimary--text > div.car-card__info.d-flex"
+  ]
+ }
+}

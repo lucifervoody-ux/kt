@@ -1,0 +1,26 @@
+# TANK и WEY (сайт tank.ru). Тот же движок сайта, что у tenet.ru.
+id: 2
+company: TANK (тест)
+site: tank.ru
+brand: TANK
+active: true
+responsible: ''    # ответственный за сайт, например: Иван Петров
+
+# Обход по моделям: ссылки на все модели из меню «Модели»,
+# на странице каждой модели — цены всех комплектаций и выгоды.
+models:
+  list_url: https://tank.ru/
+  link: .js-menu-models-link
+  page:
+    title: .breadcrumbs div.breadcrumbs__link        # «TANK 300» из хлебных крошек
+    price: .web_block_media-model__text h2           # «от 4 099 000» в шапке модели
+    benefit: .web_block_media-model__text .tooltip__content   # сноска к цене: «прямой выгоды в 250 000 рублей…»
+
+pages:
+  # Меню «Модели» на главной: цена «от» каждой модели (и выгоды из сноски к цене, если есть).
+  # Нужно для моделей, у которых на странице модели нет списка комплектаций.
+  - url: https://tank.ru/
+    card: .menu-models__item, .js-menu-models-link
+    model: .menu-models__item-title
+    price: .menu-models__item-price
+    benefit: .menu-models__item-price

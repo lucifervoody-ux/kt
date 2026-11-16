@@ -1,0 +1,235 @@
+{
+ "id": 177,
+ "site": "voyah-bolivar.ru",
+ "brand": "VOYAH",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://voyah-bolivar.ru/buy/unikalnye-usloviya-pokupki",
+ "konget": [],
+ "home": {
+  "title": "Купить VOYAH (Воя) в Саратове у официального дилера БОЛИВАР",
+  "text_length": 8909,
+  "price_blocks": [
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 11,
+    "sample": "9 875 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 10,
+    "sample": "10 375 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price.tr-taishan-cbu-price",
+    "count": 4,
+    "sample": "12 390 000 ₽"
+   },
+   {
+    "selector": "div.td-disclaimer > p > span",
+    "count": 4,
+    "sample": "дополнительной выгоды 300 000 рублей при приобретении автомобиля по программе тр"
+   },
+   {
+    "selector": "div.td-cta > div.td-cta-title > p",
+    "count": 1,
+    "sample": "Специальная программа поддержки VOYAH - автомобильного бренда №1 в премиум-сегме"
+   },
+   {
+    "selector": "div.td-disclaimer > p > strong",
+    "count": 1,
+    "sample": "ТО ВАШЕГО VOYAH ОТ 25 900 РУБЛЕЙ"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 7,
+    "sample": "Выгода за трейд-ин"
+   },
+   {
+    "selector": "div.td-disclaimer > p > span",
+    "count": 3,
+    "sample": "дополнительной выгоды 300 000 рублей при приобретении автомобиля по программе тр"
+   },
+   {
+    "selector": "div.accordion-item > div.accordion-header > button.accordion-button.collapsed",
+    "count": 1,
+    "sample": "Выгоды и цены"
+   },
+   {
+    "selector": "div.accordion-collapse.collapse > div.accordion-body > p",
+    "count": 1,
+    "sample": "Выгода 150 000 предоставляется при приобретении автомобиля VOYAH ФРИ / FREE верс"
+   },
+   {
+    "selector": "div.td-disclaimer > p > strong",
+    "count": 1,
+    "sample": "ЗАЩИТА ДВИГАТЕЛЯ И БАТАРЕИ VOYAH С ВЫГОДОЙ 15%"
+   }
+  ],
+  "link_groups": [
+   [
+    "/buy/*",
+    40
+   ],
+   [
+    "/cars/*",
+    22
+   ],
+   [
+    "/owners/*",
+    19
+   ],
+   [
+    "/about/*",
+    11
+   ],
+   [
+    "/voyah-free/*",
+    9
+   ],
+   [
+    "/voyah-dream/*",
+    9
+   ],
+   [
+    "/voyah-konfigurator",
+    9
+   ],
+   [
+    "/about-brand/*",
+    7
+   ],
+   [
+    "/voyah-passion/*",
+    6
+   ],
+   [
+    "/taishan",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-slide.swiper-slide-active > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide.swiper-slide-next > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card",
+   "div.swiper-slide > tr-card-car-dynamic > tr-car-new-card.tr-transport-card.tr-car-card"
+  ]
+ },
+ "model_page": {
+  "url": "https://voyah-bolivar.ru/buy/unikalnye-usloviya-pokupki",
+  "title": "Уникальные условия покупки автомобилей VOYAH у официального дилера БОЛИВАР в Саратове",
+  "text_length": 6592,
+  "price_blocks": [
+   {
+    "selector": "div.td-disclaimer > p > span",
+    "count": 4,
+    "sample": "дополнительной выгоды 300 000 рублей при приобретении автомобиля по программе тр"
+   },
+   {
+    "selector": "div.td-disclaimer > p > strong",
+    "count": 1,
+    "sample": "ТО ВАШЕГО VOYAH ОТ 25 900 РУБЛЕЙ"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "td > p > strong",
+    "count": 5,
+    "sample": "Общая выгода клиента"
+   },
+   {
+    "selector": "tr > td > p",
+    "count": 3,
+    "sample": "Прямая выгода"
+   },
+   {
+    "selector": "div.td-disclaimer > p > span",
+    "count": 3,
+    "sample": "дополнительной выгоды 300 000 рублей при приобретении автомобиля по программе тр"
+   },
+   {
+    "selector": "tbody > tr > td",
+    "count": 2,
+    "sample": "Выгода за Трейд-ин"
+   },
+   {
+    "selector": "div.accordion-item > div.accordion-header > button.accordion-button.collapsed",
+    "count": 1,
+    "sample": "Выгоды и цены"
+   },
+   {
+    "selector": "div.accordion-collapse.collapse > div.accordion-body > p",
+    "count": 1,
+    "sample": "Выгода 150 000 предоставляется при приобретении автомобиля VOYAH ФРИ / FREE верс"
+   },
+   {
+    "selector": "div.td-disclaimer > p > strong",
+    "count": 1,
+    "sample": "ЗАЩИТА ДВИГАТЕЛЯ И БАТАРЕИ VOYAH С ВЫГОДОЙ 15%"
+   }
+  ],
+  "link_groups": [
+   [
+    "/buy/*",
+    37
+   ],
+   [
+    "/owners/*",
+    19
+   ],
+   [
+    "/voyah-free/*",
+    9
+   ],
+   [
+    "/voyah-dream/*",
+    9
+   ],
+   [
+    "/free-sport-plus",
+    6
+   ],
+   [
+    "/voyah-passion/*",
+    6
+   ],
+   [
+    "/about/*",
+    6
+   ],
+   [
+    "/about-brand/*",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/taishan",
+    4
+   ],
+   [
+    "/free-evr-sport-edition",
+    4
+   ]
+  ],
+  "model_cards": []
+ }
+}

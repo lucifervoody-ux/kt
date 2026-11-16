@@ -1,0 +1,71 @@
+{
+ "id": 9,
+ "site": "avangard-spb-tank.ru",
+ "brand": "TANK",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://avangard-spb-tank.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=ed528beca9b8446f973a43bdf2b1e59f",
+  "https://cdn.konget.ru/client?no_cache=1793718433023",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "TANK АВАНГАРД. Официальный дилер в Санкт-Петербурге.",
+  "text_length": 8918,
+  "price_blocks": [
+   {
+    "selector": "div.card__profit.title-wrap > span.card__desc > b",
+    "count": 9,
+    "sample": "450 000 ₽"
+   },
+   {
+    "selector": "div.card__profit.card-profit-wrap > div.card__profit-subitem.item3 > span.card__text",
+    "count": 4,
+    "sample": "ВЫГОДА ПРИ ПОКУПКЕ до 450 000 руб."
+   },
+   {
+    "selector": "div.banner > div.banner__wrap > div.banner__benefits",
+    "count": 1,
+    "sample": "всего 7 автомобилей Тэнк 300 от 25 917 руб/мес!"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.card__item.profits-wrap > div.card__profit.title-wrap > span.card__desc",
+    "count": 4,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.card__profit.card-profit-wrap > div.card__profit-subitem.item3 > span.card__text",
+    "count": 4,
+    "sample": "ВЫГОДА ПРИ ПОКУПКЕ до 450 000 руб."
+   },
+   {
+    "selector": "div.banner > div.banner__wrap > div.banner__title",
+    "count": 1,
+    "sample": "Цены без утильсбора! Успейте за своей выгодой до"
+   },
+   {
+    "selector": "div.main__form > div.container > div.main__title",
+    "count": 1,
+    "sample": "Успейте зафиксировать выгоду:"
+   }
+  ],
+  "link_groups": [
+   [
+    "/legal/*",
+    8
+   ]
+  ],
+  "model_cards": [
+   "div.card > div.card__item.profits-wrap > div.card__profit.title-wrap",
+   "div.card__item.profits-wrap > div.card__profit.title-wrap > span.card__desc",
+   "div.card__item.profits-wrap > div.card__profit.title-wrap > span.card__desc",
+   "div.card__item.profits-wrap > div.card__profit.title-wrap > span.card__desc",
+   "div.card > div.card__item.profits-wrap > div.card__profit.card-profit-wrap",
+   "div.card__item.profits-wrap > div.card__profit.card-profit-wrap > div.card__profit-subitem.item3"
+  ]
+ },
+ "model_page": null
+}

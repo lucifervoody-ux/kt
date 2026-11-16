@@ -1,0 +1,6 @@
+{
+ "id": 205,
+ "site": "automarket-kaiyi.ru",
+ "brand": "Kaiyi",
+ "error": "page.goto: net::ERR_CONNECTION_REFUSED at https://automarket-kaiyi.ru/"
+}

@@ -1,0 +1,167 @@
+{
+ "id": 65,
+ "site": "avtoduk-exeed.ru",
+ "brand": "Exeed",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://avtoduk-exeed.ru/buy/test-drive/",
+ "konget": [
+  "https://app.konget.ru/inject?token=af1ff2f3ca4647c5bed86f89a96037ff",
+  "https://cdn.konget.ru/client?no_cache=1793718577091",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер EXEED в Кемерово | Купить новые автомобили EXEED 2025 в EXEED Центр ДЮК и К на Терешковой",
+  "text_length": 5968,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu2-models__item-link > div.menu2-models__item-text > div.menu2-models__item-price",
+    "count": 2,
+    "sample": "от 4 990 000 ₽"
+   },
+   {
+    "selector": "div.row > div.col-lg-6 > div.large-text.mb-salad",
+    "count": 2,
+    "sample": "ОТ 4 990 000 ₽¹"
+   },
+   {
+    "selector": "a.latest-offers__item-link > div.latest-offers__item-content.pt-yellow > p.latest-offers__item-text.main-text",
+    "count": 1,
+    "sample": "Обменяйте свой текущий автомобиль с пробегом и получите специальную выгоду до 61"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.js-disclaimer-container.web_block_text-disclaimer-new__container > div.js-disclaimer-content.web_block_text-disclaimer-new__content > p",
+    "count": 3,
+    "sample": "¹⁰ Преимущество действует с привлечением кредитных средств банков-партнеров на н"
+   },
+   {
+    "selector": "a.latest-offers__item-link > div.latest-offers__item-content.pt-yellow > p.latest-offers__item-text.main-text",
+    "count": 2,
+    "sample": "Выгодная замена масла только до 10.10.2024 г."
+   }
+  ],
+  "link_groups": [
+   [
+    "/buy/*",
+    48
+   ],
+   [
+    "/service/*",
+    14
+   ],
+   [
+    "/cars/*",
+    9
+   ],
+   [
+    "/brand/*",
+    9
+   ],
+   [
+    "/cars",
+    7
+   ],
+   [
+    "/finance/*",
+    6
+   ],
+   [
+    "/news/*",
+    6
+   ],
+   [
+    "/finance",
+    5
+   ],
+   [
+    "/news",
+    4
+   ],
+   [
+    "/service",
+    3
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/spares",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://avtoduk-exeed.ru/buy/test-drive/",
+  "title": "EXEED ЦЕНТР ДЮК И К НА ТЕРЕШКОВОЙ — Запись на тест-драйв",
+  "text_length": 1214,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu2-models__item-link > div.menu2-models__item-text > div.menu2-models__item-price",
+    "count": 2,
+    "sample": "от 4 990 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body.dealer-theme > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/buy/*",
+    24
+   ],
+   [
+    "/service/*",
+    13
+   ],
+   [
+    "/brand/*",
+    9
+   ],
+   [
+    "/cars/*",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/finance/*",
+    4
+   ],
+   [
+    "/terms-conditions/*",
+    4
+   ],
+   [
+    "/finance",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/news",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/spares",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "id": 22,
+ "site": "kia-avtoban.ru",
+ "brand": "Kia Сервис",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://kia-avtoban.ru/models/",
+ "konget": [
+  "https://app.konget.ru/inject?token=a30120e4563f4000bf64bf30f248f6b6",
+  "https://cdn.konget.ru/client?no_cache=1793718460643",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Kia в Екатеринбурге Автоцентр Автобан-Киа | Купить новый автомобиль Киа в автосалоне",
+  "text_length": 7775,
+  "price_blocks": [
+   {
+    "selector": "div.shared-card__item__price > div.flex.items-center > div.shared-card__item__price-full",
+    "count": 12,
+    "sample": "2 710 000 ₽"
+   },
+   {
+    "selector": "div.shared-card__item__main > div.shared-card__item__price > div.shared-card__item__price-credit.color-dark-gray",
+    "count": 12,
+    "sample": "29 590 ₽/мес"
+   },
+   {
+    "selector": "div.g-container.slider-promo__slide-content > div.slider-promo__slide-descr.desktop\\:w-1\\/2 > div.text-x4.desktop\\:text-x3",
+    "count": 2,
+    "sample": "Замена масла за 7500 рублей"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.special-offers-card > span.special-offers-card__descr > span.block.text-s1",
+    "count": 1,
+    "sample": "Выгода 20% на оригинальные щетки стеклоочистителей."
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    36
+   ],
+   [
+    "/used_cars/*",
+    36
+   ],
+   [
+    "/service/*",
+    20
+   ],
+   [
+    "/news/*",
+    10
+   ],
+   [
+    "/all_cars/*",
+    6
+   ],
+   [
+    "/all_cars",
+    5
+   ],
+   [
+    "/dealerships/*",
+    3
+   ],
+   [
+    "/about/*",
+    3
+   ],
+   [
+    "/info/*",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/pages/*",
+    2
+   ],
+   [
+    "/callback",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-active > div.shared-card__item.shared-card__item--vertical",
+   "div.swiper-slide.swiper-slide-active > div.shared-card__item.shared-card__item--vertical > div.shared-card__item__main",
+   "div.shared-card__item.shared-card__item--vertical > div.shared-card__item__main > div.shared-card__item__price",
+   "div.shared-card__item__price > div.flex.items-center > div.shared-card__item__price-full",
+   "div.shared-card__item__main > div.shared-card__item__price > div.shared-card__item__price-credit.color-dark-gray",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-next > div.shared-card__item.shared-card__item--vertical"
+  ]
+ },
+ "model_page": {
+  "url": "https://kia-avtoban.ru/models/",
+  "title": "Модельный ряд Kia комплектации и цены на новые автомобили Киа 2023 года у официального дилера Автобан-Киа в Екатеринбурге",
+  "text_length": 5345,
+  "price_blocks": [
+   {
+    "selector": "div.shared-card__item__price > div.flex.items-center > div.shared-card__item__price-full",
+    "count": 12,
+    "sample": "2 710 000 ₽"
+   },
+   {
+    "selector": "div.shared-card__item__main > div.shared-card__item__price > div.shared-card__item__price-credit.color-dark-gray",
+    "count": 12,
+    "sample": "29 590 ₽/мес"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    37
+   ],
+   [
+    "/used_cars/*",
+    36
+   ],
+   [
+    "/all_cars/*",
+    6
+   ],
+   [
+    "/all_cars",
+    5
+   ],
+   [
+    "/service/*",
+    5
+   ],
+   [
+    "/info/*",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/pages/*",
+    2
+   ],
+   [
+    "/dealerships/*",
+    2
+   ],
+   [
+    "/about/*",
+    1
+   ],
+   [
+    "/buy/*",
+    1
+   ],
+   [
+    "/callback",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-active > div.shared-card__item.shared-card__item--vertical",
+   "div.swiper-slide.swiper-slide-active > div.shared-card__item.shared-card__item--vertical > div.shared-card__item__main",
+   "div.shared-card__item.shared-card__item--vertical > div.shared-card__item__main > div.shared-card__item__price",
+   "div.shared-card__item__price > div.flex.items-center > div.shared-card__item__price-full",
+   "div.shared-card__item__main > div.shared-card__item__price > div.shared-card__item__price-credit.color-dark-gray",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-next > div.shared-card__item.shared-card__item--vertical"
+  ]
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": 143,
+ "site": "amk-chery.ru",
+ "brand": "TENET",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://amk-chery.ru/tproduct/406542128352-tenet-t4-15-mt-2025",
+ "konget": [
+  "https://app.konget.ru/inject?token=1ea6b4ef6b4a4e0fbe5bcb122d1aeb17",
+  "https://cdn.konget.ru/client?no_cache=1793718754958",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "АМК ТЕНЕТ",
+  "text_length": 7561,
+  "price_blocks": [
+   {
+    "selector": "div.t-store__card__textwrapper > div.js-store-prod-descr.t-store__card__descr > span",
+    "count": 21,
+    "sample": "до 30 000₽"
+   },
+   {
+    "selector": "div.amk-t4-container > div.amk-t4-content > div.amk-t4-price",
+    "count": 6,
+    "sample": "от 2 219 000 ₽"
+   },
+   {
+    "selector": "div.amk-t4-container > div.amk-t4-content > div.amk-t4-payment",
+    "count": 6,
+    "sample": "или от 8 900 ₽ в месяц"
+   },
+   {
+    "selector": "div.amk-t4-content > div.amk-t4-tradein-offer > span",
+    "count": 6,
+    "sample": "до 150 000 ₽"
+   },
+   {
+    "selector": "div.amk-month-benefits > div.amk-month-benefit > span",
+    "count": 2,
+    "sample": "Трейд-ин до 200 000 ₽"
+   },
+   {
+    "selector": "div.amk-month-content > h2.amk-month-title > span",
+    "count": 1,
+    "sample": "700 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-store__card__imgwrapper > div.t-store__card__mark-wrapper > div.t-store__card__mark",
+    "count": 21,
+    "sample": "Скидка"
+   },
+   {
+    "selector": "div.t702__wrapper > div.t702__text-wrapper.t-align_left > div.t702__title.t-title",
+    "count": 12,
+    "sample": "Chery Tiggo на самых выгодных условиях!"
+   },
+   {
+    "selector": "div.amk-t4-container > div.amk-t4-content > div.amk-t4-tradein-offer",
+    "count": 6,
+    "sample": "Скидка по Трейд-ин —"
+   },
+   {
+    "selector": "div.t702__text-wrapper.t-align_left > div.t702__title.t-title > sup",
+    "count": 3,
+    "sample": "Зафиксируйте выгоду на TIGGO 4 PRO"
+   },
+   {
+    "selector": "div.amk-month-main > div.amk-month-content > h2.amk-month-title",
+    "count": 1,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.amk-corp-content > ul.amk-corp-points > li.amk-corp-point",
+    "count": 1,
+    "sample": "Выгодные программы лизинга"
+   },
+   {
+    "selector": "div.amk-corp-benefit > div > div.amk-corp-benefit-title",
+    "count": 1,
+    "sample": "Выгодный лизинг"
+   },
+   {
+    "selector": "div.t720__mainwrapper > div.t720__textwrapper > div.t720__title.t-title",
+    "count": 1,
+    "sample": "Получить выгодное предложение для юридических лиц"
+   }
+  ],
+  "link_groups": [
+   [
+    "/privacy",
+    66
+   ],
+   [
+    "/tproduct/*",
+    42
+   ],
+   [
+    "/servise",
+    3
+   ],
+   [
+    "/processing-personal-data",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.js-store-grid-cont.t-store__grid-cont > div.t-store__card-list.t-store__card-list__vertical-align-buttons > div.js-product.t-store__card",
+   "div.t-store__card-list.t-store__card-list__vertical-align-buttons > div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns",
+   "div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns > div.store__card__wrap_txt-and-opts",
+   "div.store__card__wrap_txt-and-opts > a > div.t-store__card__textwrapper",
+   "a > div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper",
+   "div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper > div.t-store__card__price.t-store__card__price-item"
+  ]
+ },
+ "model_page": {
+  "url": "https://amk-chery.ru/tproduct/406542128352-tenet-t4-15-mt-2025",
+  "title": "TENET T4 1.5 MT, 2025 - TENET",
+  "text_length": 1088,
+  "price_blocks": [
+   {
+    "selector": "div.t-store__prod-popup__info.t-align_left > div.js-store-prod-text.t-store__prod-popup__text > div.js-store-prod-all-text",
+    "count": 3,
+    "sample": "Выгода до 800 000 ₽ при покупке автомобиля TENET"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-store__prod-popup__info.t-align_left > div.js-store-prod-text.t-store__prod-popup__text > div.js-store-prod-all-text",
+    "count": 4,
+    "sample": "Выгода до 800 000 ₽ при покупке автомобиля TENET"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": 112,
+ "site": "promo.aem-tank.ru",
+ "brand": "TANK",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://promo.aem-tank.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=a0404ef98a7048d3a23e9dfeb8633b8d",
+  "https://cdn.konget.ru/client?no_cache=1793718684636",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Tank | Официальный дилерский центр AEM Холдинг в Барнауле",
+  "text_length": 3055,
+  "price_blocks": [
+   {
+    "selector": "div.autoslink.autoslink3 > div.autolink > div.autoname",
+    "count": 5,
+    "sample": "Выгода до 400 000 ₽"
+   },
+   {
+    "selector": "div.text_container > div.vigoda_container > div.vigoda",
+    "count": 4,
+    "sample": "400 000 ₽"
+   },
+   {
+    "selector": "div.text_container.white > div.title > span",
+    "count": 2,
+    "sample": "до 850 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.autoslink.autoslink3 > div.autolink > div.autoname",
+    "count": 5,
+    "sample": "Выгода до 400 000 ₽"
+   },
+   {
+    "selector": "div.vigoda_container > div.vigoda > span",
+    "count": 4,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.btns > a.popup.btn > span",
+    "count": 4,
+    "sample": "Узнать цену с выгодой"
+   },
+   {
+    "selector": "div.container > div.text_container.white > div.title",
+    "count": 1,
+    "sample": "Выгода на Tank"
+   },
+   {
+    "selector": "div.container > form > div.form_comment",
+    "count": 1,
+    "sample": "Мы перезвоним вам и предложим наиболее выгодные условия"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/img/*",
+    96
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

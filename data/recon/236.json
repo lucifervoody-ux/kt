@@ -1,0 +1,169 @@
+{
+ "id": 236,
+ "site": "haval-perm.ru",
+ "brand": "HAVAL",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://haval-perm.ru/f7/tproduct/1234139041-356366945152-haval-f7",
+ "konget": [
+  "https://app.konget.ru/inject?token=ba98306ce898449b99f33c09c2cfd6e0",
+  "https://cdn.konget.ru/client?no_cache=1793719003686",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить автомобили HAVAL в Перми | Купить HAVAL у официального дилера Демидыч",
+  "text_length": 3971,
+  "price_blocks": [
+   {
+    "selector": "div.t-card__descr.t-text > div > strong",
+    "count": 6,
+    "sample": "ВЫГОДА ДО 200 000 ₽"
+   },
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 3,
+    "sample": "HAVAL F7 — выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 2,
+    "sample": "ВЫГОДА ДО 200 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t-card__descr.t-text > div > strong",
+    "count": 6,
+    "sample": "ВЫГОДА ДО 200 000 ₽"
+   },
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 3,
+    "sample": "HAVAL F7 — выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > p",
+    "count": 2,
+    "sample": "ВЫГОДНЫЙ ОБМЕН"
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 2,
+    "sample": "ВЫГОДА ДО 200 000 ₽"
+   },
+   {
+    "selector": "div.t411__content > div.t411__textwrapper.t-width > h2.t411__title.t-title",
+    "count": 1,
+    "sample": "Выгода до 200 000"
+   },
+   {
+    "selector": "div.t411__content > div.t411__formwrapper > div.t411__descr-second.t-descr",
+    "count": 1,
+    "sample": "Оставьте свой номер телефона и мы предложим вам самые выгодные условия"
+   }
+  ],
+  "link_groups": [
+   [
+    "/f7/*",
+    15
+   ],
+   [
+    "/jolion/*",
+    15
+   ],
+   [
+    "/f7x/*",
+    6
+   ],
+   [
+    "/tpost/*",
+    3
+   ],
+   [
+    "/jolion",
+    2
+   ],
+   [
+    "/f7",
+    2
+   ],
+   [
+    "/f7x",
+    2
+   ],
+   [
+    "/m6",
+    2
+   ],
+   [
+    "/dargo",
+    2
+   ],
+   [
+    "/dargo-x",
+    2
+   ],
+   [
+    "/kingkong-poer",
+    2
+   ],
+   [
+    "/poer",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.t959 > div.t959__container.t-card__container > div.t959__card.t959__card_33",
+   "div.t959__container.t-card__container > div.t959__card.t959__card_33 > div.t959__card-inner.t-card__col",
+   "div.t959__card.t959__card_33 > div.t959__card-inner.t-card__col > div.t959__card-content.t959__animation_slow",
+   "div.t959__card-inner.t-card__col > div.t959__card-content.t959__animation_slow > div.t-card__descr.t-text",
+   "div.t959 > div.t959__container.t-card__container > div.t959__card.t959__card_33",
+   "div.t959__container.t-card__container > div.t959__card.t959__card_33 > div.t959__card-inner.t-card__col"
+  ]
+ },
+ "model_page": {
+  "url": "https://haval-perm.ru/f7/tproduct/1234139041-356366945152-haval-f7",
+  "title": "HAVAL F7",
+  "text_length": 1574,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/jolion/*",
+    12
+   ],
+   [
+    "/m6/*",
+    9
+   ],
+   [
+    "/tproduct/*",
+    6
+   ],
+   [
+    "/f7x/*",
+    6
+   ],
+   [
+    "/dargo/*",
+    3
+   ],
+   [
+    "/dargo-x/*",
+    3
+   ],
+   [
+    "/f7",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.t-slds__item.t-animate > div.t__slds-wrapper.t-slds__wrapper > div.js-product.t-store__card",
+   "div.t__slds-wrapper.t-slds__wrapper > div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns",
+   "div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns > div.store__card__wrap_txt-and-opts.store__card__has-btns",
+   "div.store__card__wrap_txt-and-opts.store__card__has-btns > a > div.t-store__card__textwrapper",
+   "a > div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper",
+   "div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper > div.t-store__card__price.t-store__card__price-item"
+  ]
+ }
+}

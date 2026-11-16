@@ -1,0 +1,120 @@
+{
+ "id": 48,
+ "site": "exeed-service-automash.ru",
+ "brand": "Exeed сервис",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://exeed-service-automash.ru/terms-conditions/",
+ "konget": [
+  "https://app.konget.ru/inject?token=15c01c58b6a24f9583a68c4b689f9634",
+  "https://cdn.konget.ru/client?no_cache=1793718535259",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "EXEED | Премиальные внедорожники | Официальный сайт - модельный ряд, цены 2023, предложения",
+  "text_length": 3121,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/service/*",
+    7
+   ],
+   [
+    "/maintenance_calculator",
+    5
+   ],
+   [
+    "/autoconcierge-delivery",
+    3
+   ],
+   [
+    "/service",
+    3
+   ],
+   [
+    "/services",
+    2
+   ],
+   [
+    "/road-assist",
+    2
+   ],
+   [
+    "/offers-dealer",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/spares",
+    1
+   ],
+   [
+    "/terms-conditions",
+    1
+   ],
+   [
+    "/terms-conditions/*",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://exeed-service-automash.ru/terms-conditions/",
+  "title": "EXEED ЦЕНТР АВТОМАШ ЛЮБЕРЦЫ — Правовая информация",
+  "text_length": 766,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/terms-conditions",
+    5
+   ],
+   [
+    "/service/*",
+    5
+   ],
+   [
+    "/terms-conditions/*",
+    5
+   ],
+   [
+    "/services",
+    2
+   ],
+   [
+    "/road-assist",
+    2
+   ],
+   [
+    "/autoconcierge-delivery",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/maintenance_calculator",
+    2
+   ],
+   [
+    "/offers-dealer",
+    2
+   ],
+   [
+    "/contacts",
+    2
+   ],
+   [
+    "/spares",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

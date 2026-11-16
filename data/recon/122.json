@@ -1,0 +1,274 @@
+{
+ "id": 122,
+ "site": "chery-betaonego.ru",
+ "brand": "Chery",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://chery-betaonego.ru/customers/buy/offers/",
+ "konget": [
+  "https://app.konget.ru/inject?token=4f00c97e1c204f189b3b8516d2dc0895",
+  "https://cdn.konget.ru/client?no_cache=1793718704439",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "ЧЕРИ ЦЕНТР БЕТА ОНЕГО — Главная страница",
+  "text_length": 4572,
+  "price_blocks": [
+   {
+    "selector": "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+    "count": 5,
+    "sample": "от 2 499 000 ₽*"
+   },
+   {
+    "selector": "div.row > div.offset-lg-1.col-lg-10 > div.media-block__title",
+    "count": 4,
+    "sample": "Выгода по трейд-ин до 250 000 ₽"
+   },
+   {
+    "selector": "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4",
+    "count": 3,
+    "sample": "от 3 635 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.row > div.offset-lg-1.col-lg-10 > div.media-block__title",
+    "count": 4,
+    "sample": "Выгода по трейд-ин до 250 000 ₽"
+   },
+   {
+    "selector": "div.offset-lg-1.col-lg-10 > div.media-block__btn-wrap > a.btn.btn_red",
+    "count": 2,
+    "sample": "Выгодное предложение"
+   },
+   {
+    "selector": "div.js-disclaimer-accordion-wrapper.text-block-disclaimer-accordion__wrapper > div.js-disclaimer-accordion-container.text-block-disclaimer-accordion__container > div.js-disclaimer-accordion-content.js-disclaimer-balloon-text-source",
+    "count": 2,
+    "sample": "¹Выгода при сдаче автомобиля в трейд-ин сочетается с предложением по приобретени"
+   },
+   {
+    "selector": "ul.menu-lev2__list > li.menu-lev2__item > a.menu-lev2__link.active",
+    "count": 1,
+    "sample": "Выгоды и акции"
+   },
+   {
+    "selector": "div.col-lg-5.menu-lev3-wrap > div.js-menu-lev3.menu-lev3 > button.js-menu-lev3-back.menu__back",
+    "count": 1,
+    "sample": "Выгоды и акции"
+   },
+   {
+    "selector": "div.col-lg-3.quick-links__item > a.quick-links__text-wrap > div.quick-links__text",
+    "count": 1,
+    "sample": "Выгодные предложения для юридических лиц"
+   },
+   {
+    "selector": "div.footer1__menu-item > div.footer1__menu-links > a.footer1__menu-link",
+    "count": 1,
+    "sample": "Выгоды и акции"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    33
+   ],
+   [
+    "/chery/*",
+    25
+   ],
+   [
+    "/models/*",
+    23
+   ],
+   [
+    "/owners/*",
+    21
+   ],
+   [
+    "/online/*",
+    15
+   ],
+   [
+    "/company/*",
+    13
+   ],
+   [
+    "/cars",
+    12
+   ],
+   [
+    "/charity/*",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/customers",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ],
+   [
+    "/chery",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__desc.pt-m > div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m",
+   "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4",
+   "div.menu-models__desc.pt-m > div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m",
+   "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4",
+   "div.js-slider.js-model-range > div.swiper-wrapper > div.model-range-block__slide.swiper-slide",
+   "div.model-range-block__slide.swiper-slide > div.container > div.model-range-block__wrap"
+  ]
+ },
+ "model_page": {
+  "url": "https://chery-betaonego.ru/customers/buy/offers/",
+  "title": "ЧЕРИ ЦЕНТР БЕТА ОНЕГО — Акции и спецпредложения",
+  "text_length": 3047,
+  "price_blocks": [
+   {
+    "selector": "div.col-lg-6.text-block-popup__content > div.text-block-popup__text > p",
+    "count": 6,
+    "sample": "составляет 220 000 рублей, на новый"
+   },
+   {
+    "selector": "div.supersmall-text.mt-xs > ul > li",
+    "count": 5,
+    "sample": "Выгода при сдаче автомобиля в трейд-ин до 50 000 руб.²"
+   },
+   {
+    "selector": "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4",
+    "count": 3,
+    "sample": "от 3 635 000 ₽*"
+   },
+   {
+    "selector": "div.col-md-6.col-lg-3 > div.text-block-flow > div.text-block-flow__subtitle",
+    "count": 3,
+    "sample": "Цена от 3 635 000 ₽¹"
+   },
+   {
+    "selector": "div.web_block_popup__content-text-wrap > div.js-popup-content.web_block_popup__content-text > div.web_block_popup__content-title.mb-s",
+    "count": 3,
+    "sample": "от 2 685 000 ₽¹"
+   },
+   {
+    "selector": "div.col-md-6.col-lg-3 > div.text-block-flow > div.text-block-flow__title.h4",
+    "count": 2,
+    "sample": "до 600 000₽²"
+   },
+   {
+    "selector": "div.js-popup-content.web_block_popup__content-text > div.small-text > p",
+    "count": 1,
+    "sample": "ОТ 2 499 000 ₽²"
+   },
+   {
+    "selector": "div.col-md-6.col-lg-4 > div.text-block-flow > div.text-block-flow__title.h4",
+    "count": 1,
+    "sample": "ВЫГОДА ДО 1 151 000 РУБ."
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.supersmall-text.mt-xs > ul > li",
+    "count": 5,
+    "sample": "Выгода при сдаче автомобиля в трейд-ин до 50 000 руб.²"
+   },
+   {
+    "selector": "div.js-popup-content.web_block_popup__content-text > div.web_block_popup__disclaimer.tiny-text > p",
+    "count": 5,
+    "sample": "²Выгода при сдаче автомобиля в трейд-ин сочетается с предложением по приобретени"
+   },
+   {
+    "selector": "div.col-md-6.col-lg-3 > div.text-block-flow > div.text-block-flow__title.h4",
+    "count": 3,
+    "sample": "с выгодой"
+   },
+   {
+    "selector": "div.supersmall-text.mt-xs > p > strong",
+    "count": 3,
+    "sample": "Уточняйте у дилера максимально выгодное предложение!"
+   },
+   {
+    "selector": "div.js-popup-content.web_block_popup__content-text > div.small-text > strong",
+    "count": 2,
+    "sample": "Ваши уникальные преимущества:"
+   },
+   {
+    "selector": "div.col-lg-6.text-block-popup__content > div.text-block-popup__text > p",
+    "count": 2,
+    "sample": "Ценовое преимущество на модельный ряд кроссоверов CHERY достигает рекордных"
+   },
+   {
+    "selector": "ul.menu-lev2__list > li.menu-lev2__item > a.menu-lev2__link.active",
+    "count": 1,
+    "sample": "Выгоды и акции"
+   },
+   {
+    "selector": "div.col-lg-5.menu-lev3-wrap > div.js-menu-lev3.menu-lev3 > button.js-menu-lev3-back.menu__back",
+    "count": 1,
+    "sample": "Выгоды и акции"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    62
+   ],
+   [
+    "/models/*",
+    23
+   ],
+   [
+    "/chery/*",
+    22
+   ],
+   [
+    "/owners/*",
+    21
+   ],
+   [
+    "/online/*",
+    19
+   ],
+   [
+    "/company/*",
+    14
+   ],
+   [
+    "/cars",
+    8
+   ],
+   [
+    "/charity/*",
+    3
+   ],
+   [
+    "/models",
+    2
+   ],
+   [
+    "/customers",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ],
+   [
+    "/chery",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__desc.pt-m > div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m",
+   "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4",
+   "div.menu-models__desc.pt-m > div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m",
+   "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+  ]
+ }
+}

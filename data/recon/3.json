@@ -1,0 +1,159 @@
+{
+ "id": 3,
+ "site": "avangard-liauto.ru",
+ "brand": "Li Auto",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://avangard-liauto.ru/technologies/",
+ "konget": [
+  "https://app.konget.ru/inject?token=fc28e5bdb8cd4b87a709050a6b40f09e",
+  "https://cdn.konget.ru/client?no_cache=1793718420741",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Авангард | Официальный дилер Li Auto в г. Санкт-Петербург",
+  "text_length": 6788,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.small-caps",
+    "count": 5,
+    "sample": "от 6 890 000 ₽"
+   },
+   {
+    "selector": "div.web_block_model-range__item > div.web_block_model-range__item-content.p-green > div.web_block_model-range__item-price.small-caps",
+    "count": 3,
+    "sample": "от 6 890 000 ₽"
+   },
+   {
+    "selector": "a.latest-news__link > div.latest-news__content > div.latest-news__summary.mb-orange",
+    "count": 1,
+    "sample": "Ли Авто | Li Auto раскрывает комплектации и цены нового пятиместного флагмана. К"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/technologies/*",
+    40
+   ],
+   [
+    "/models/*",
+    21
+   ],
+   [
+    "/purchase/*",
+    21
+   ],
+   [
+    "/about/*",
+    19
+   ],
+   [
+    "/ownership/*",
+    11
+   ],
+   [
+    "/terms-condition/*",
+    2
+   ],
+   [
+    "/models",
+    1
+   ],
+   [
+    "/purchase",
+    1
+   ],
+   [
+    "/ownership",
+    1
+   ],
+   [
+    "/technologies",
+    1
+   ],
+   [
+    "/about",
+    1
+   ],
+   [
+    "/terms-condition",
+    1
+   ]
+  ],
+  "model_cards": [
+   "body > main.main.main- > div.web_block_model-range.theme-light",
+   "main.main.main- > div.web_block_model-range.theme-light > div.web_block_model-range",
+   "div.web_block_model-range > div.container > div.web_block_model-range__wrap.js-model-range",
+   "div.container > div.web_block_model-range__wrap.js-model-range > div.web_block_model-range__slider.swiper-container",
+   "div.web_block_model-range__wrap.js-model-range > div.web_block_model-range__slider.swiper-container > div.web_block_model-range__list.swiper-wrapper",
+   "div.web_block_model-range__list.swiper-wrapper > div.swiper-slide.swiper-slide-active > div.web_block_model-range__item"
+  ]
+ },
+ "model_page": {
+  "url": "https://avangard-liauto.ru/technologies/",
+  "title": "Авангард | Технологии Li Auto",
+  "text_length": 1139,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.small-caps",
+    "count": 5,
+    "sample": "от 6 890 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/technologies/*",
+    17
+   ],
+   [
+    "/purchase/*",
+    16
+   ],
+   [
+    "/about/*",
+    11
+   ],
+   [
+    "/models/*",
+    10
+   ],
+   [
+    "/ownership/*",
+    10
+   ],
+   [
+    "/terms-condition/*",
+    2
+   ],
+   [
+    "/models",
+    1
+   ],
+   [
+    "/purchase",
+    1
+   ],
+   [
+    "/ownership",
+    1
+   ],
+   [
+    "/about",
+    1
+   ],
+   [
+    "/terms-condition",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

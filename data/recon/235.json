@@ -1,0 +1,110 @@
+{
+ "id": 235,
+ "site": "jac-perm.ru",
+ "brand": "JAC",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://jac-perm.ru/jac-t9/tproduct/1476149091-969521653822-jac-t9",
+ "konget": [
+  "https://app.konget.ru/inject?token=15656cbebbd044e8b55974ba2cfc303f",
+  "https://cdn.konget.ru/client?no_cache=1793719002828",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить автомобили JAC в Перми | Официальный дилер Демидыч JAC",
+  "text_length": 3386,
+  "price_blocks": [
+   {
+    "selector": "div.t589__textwrapper.t-align_left > div.t589__descr.t-descr > strong",
+    "count": 2,
+    "sample": "Выгода до 500 000 рублей"
+   },
+   {
+    "selector": "div.t396__elem.tn-elem > div.tn-atom > p",
+    "count": 1,
+    "sample": "Пикап-флагман JAC T9 в наличии в Демидыч от 3 419 000 руб."
+   },
+   {
+    "selector": "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom",
+    "count": 1,
+    "sample": "Пикап-флагман JAC T9 в наличии в Демидыч от 3 419 000 руб."
+   },
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 1,
+    "sample": "JAC T9 – выгода до 100 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t589__textwrapper.t-align_left > div.t589__descr.t-descr > strong",
+    "count": 2,
+    "sample": "Выгода до 500 000 рублей"
+   },
+   {
+    "selector": "div.t921__textwrapper.t-align_left > div.t921__content.t-valign_middle > div.t921__descr.t-descr",
+    "count": 1,
+    "sample": "В автосалонах «Демидыч» всех покупателей ждет выгодное предложение обмена старог"
+   },
+   {
+    "selector": "div.t1000__header.t-col > div.t-section__topwrapper.t-align_center > h3.t-section__title.t-title",
+    "count": 1,
+    "sample": "Преимущества приобретения у официального дилера"
+   },
+   {
+    "selector": "li.t1000__feature.t-item > div.t1000__textwrapper > div.t-name.t-name_md",
+    "count": 1,
+    "sample": "Максимально выгодное КАСКО"
+   },
+   {
+    "selector": "div.t-feed__textwrapper > div.js-feed-post-title.t-feed__post-title > a.t-feed__link.js-feed-post-link",
+    "count": 1,
+    "sample": "JAC T9 – выгода до 100 000 ₽"
+   }
+  ],
+  "link_groups": [
+   [
+    "/jac-t9/*",
+    9
+   ],
+   [
+    "/jac-rf8/*",
+    6
+   ],
+   [
+    "/tpost/*",
+    3
+   ],
+   [
+    "/jac-rf8",
+    1
+   ],
+   [
+    "/jac-t9",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.js-store-grid-cont.t-store__grid-cont > div.t-store__card-list.t-store__card-list__vertical-align-buttons > div.js-product.t-store__card",
+   "div.t-store__card-list.t-store__card-list__vertical-align-buttons > div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns",
+   "div.js-product.t-store__card > div.t-store__card__wrap_txt-and-btns > div.store__card__wrap_txt-and-opts.store__card__has-btns",
+   "div.store__card__wrap_txt-and-opts.store__card__has-btns > a > div.t-store__card__textwrapper",
+   "a > div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper",
+   "div.t-store__card__textwrapper > div.js-store-price-wrapper.t-store__card__price-wrapper > div.t-store__card__price.t-store__card__price-item"
+  ]
+ },
+ "model_page": {
+  "url": "https://jac-perm.ru/jac-t9/tproduct/1476149091-969521653822-jac-t9",
+  "title": "JAC T9",
+  "text_length": 1149,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/jac-t9",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

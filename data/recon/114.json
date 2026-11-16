@@ -1,0 +1,74 @@
+{
+ "id": 114,
+ "site": "sale.aem-haval.ru",
+ "brand": "HAVAL CITY",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://sale.aem-haval.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=094b97d6da39445f8266289e2283f666",
+  "https://cdn.konget.ru/client?no_cache=1793718685861",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Haval | Официальный дилерский центр AEM Холдинг в Барнауле",
+  "text_length": 2910,
+  "price_blocks": [
+   {
+    "selector": "div.catalog-item-info > div.catalog-item-price > div.catalog-item-price-value",
+    "count": 6,
+    "sample": "от 2 099 000₽"
+   },
+   {
+    "selector": "div.catalog-item-info > div.catalog-item-creditvalue > span",
+    "count": 6,
+    "sample": "от 8 308₽ /"
+   },
+   {
+    "selector": "div.catalog-tab-creditvalue > div.catalog-tab-creditvalue-value > span",
+    "count": 6,
+    "sample": "от 8 308₽"
+   },
+   {
+    "selector": "div.catalog-tab-prices > div.catalog-tab-price > div.catalog-tab-price-value",
+    "count": 6,
+    "sample": "от 2 099 000₽"
+   },
+   {
+    "selector": "div.swiper-slide.swiper-slide-active > div.container > div.slider-title",
+    "count": 1,
+    "sample": "HAVAL от 2 099 000 ₽"
+   },
+   {
+    "selector": "div.container > div.slider-description > span",
+    "count": 1,
+    "sample": "Платеж от 8 308 ₽/мес"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.catalog-item > div.catalog-item-labels > span.catalog-item-label",
+    "count": 6,
+    "sample": "Скидка для Яндекс партнёров такси 10%"
+   },
+   {
+    "selector": "div.catalog-item-info > div.catalog-item-benefits > div.catalog-item-benefit",
+    "count": 6,
+    "sample": "Скидка в лизинг 10%"
+   },
+   {
+    "selector": "div.catalog-tab-left > div.catalog-tab-benefits > div.catalog-tab-benefit",
+    "count": 6,
+    "sample": "Скидка в лизинг 10%"
+   },
+   {
+    "selector": "div.catalog-tab-left > div.catalog-tab-description > div",
+    "count": 1,
+    "sample": "Воспользуйтесь преимуществами высоких технологий. Наполните каждый день незабыва"
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

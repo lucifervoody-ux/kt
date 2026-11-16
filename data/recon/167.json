@@ -1,0 +1,166 @@
+{
+ "id": 167,
+ "site": "solaris.artexauto.ru",
+ "brand": "Solaris",
+ "status": 200,
+ "engine": "Next.js",
+ "final_url": "https://solaris.artexauto.ru/models/solaris-hc",
+ "konget": [
+  "https://cdn.konget.ru/client?no_cache=1793718808403",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css",
+  "https://cdn.konget.ru/client/static/js/lib.dc15c9b92b75050435a5.js"
+ ],
+ "home": {
+  "title": "Солярис — купить новый автомобиль у официального дилера",
+  "text_length": 3282,
+  "price_blocks": [
+   {
+    "selector": "h4.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.hcLqoe > span.sc-hrGSpw.guCCeN",
+    "count": 4,
+    "sample": "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 16 900 ₽"
+   },
+   {
+    "selector": "h2.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.IIvIe > span.sc-hrGSpw.EoEgA",
+    "count": 2,
+    "sample": "ВЫГОДА ДО 200 000 ₽"
+   },
+   {
+    "selector": "h5.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.cXtWWE > span.sc-hrGSpw.iUILmY",
+    "count": 1,
+    "sample": "ОТ 2 470 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "h2.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.IIvIe > span.sc-hrGSpw.EoEgA",
+    "count": 3,
+    "sample": "ВЫГОДА ДО 200 000 ₽"
+   },
+   {
+    "selector": "body._document__StyledBody-sc-u95a36-0.gnIKCP > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    18
+   ],
+   [
+    "/credits",
+    5
+   ],
+   [
+    "/trade-in",
+    4
+   ],
+   [
+    "/digital-car",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/corporate-clients",
+    2
+   ],
+   [
+    "/accessories",
+    2
+   ],
+   [
+    "/test-drive",
+    2
+   ],
+   [
+    "/insurance",
+    2
+   ],
+   [
+    "/oplata-chastiami",
+    2
+   ],
+   [
+    "/original-parts",
+    2
+   ],
+   [
+    "/service",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://solaris.artexauto.ru/models/solaris-hc",
+  "title": "Solaris HC в наличии — Артекс Авто Ростов-на-Дону | Официальный дилер",
+  "text_length": 9545,
+  "price_blocks": [
+   {
+    "selector": "h4.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.iHsDel > span.sc-hrGSpw.guCCeN",
+    "count": 1,
+    "sample": "ЕЖЕМЕСЯЧНЫЙ ПЛАТЕЖ 16 900 ₽"
+   },
+   {
+    "selector": "h4.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.iHsDel > span.sc-hrGSpw.iUILmY",
+    "count": 1,
+    "sample": "2 470 000 ₽"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    16
+   ],
+   [
+    "/digital-car",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/credits",
+    2
+   ],
+   [
+    "/trade-in",
+    2
+   ],
+   [
+    "/corporate-clients",
+    2
+   ],
+   [
+    "/accessories",
+    2
+   ],
+   [
+    "/test-drive",
+    2
+   ],
+   [
+    "/insurance",
+    2
+   ],
+   [
+    "/original-parts",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/warranty",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

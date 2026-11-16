@@ -1,0 +1,191 @@
+{
+ "id": 128,
+ "site": "jetour-beta.ru",
+ "brand": "Jetour",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://jetour-beta.ru/models/t1-hybrid",
+ "konget": [
+  "https://app.konget.ru/inject?token=6a504f992fa94e9c8f6711b59b1d54ef",
+  "https://cdn.konget.ru/client?no_cache=1793718720966",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "JETOUR | Бета – официальный дилер Джетур в Петрозаводске: купить JETOUR 2025-2026",
+  "text_length": 6610,
+  "price_blocks": [
+   {
+    "selector": "div.item__content.container > div.item__price-container.d-flex > div.text-lg-h2.text-mob-h2",
+    "count": 8,
+    "sample": "от 3 325 000 ₽"
+   },
+   {
+    "selector": "div.item__benefits.mb-lg-12 > div.item__benefits-el.d-flex > div.item__benefits-el-text.text-lg-body-1",
+    "count": 8,
+    "sample": "Максимальная выгода до 550 000 ₽"
+   },
+   {
+    "selector": "div.marquee__track.marquee__track--ready > div.marquee__group > div.marquee__item.text-lg-h2",
+    "count": 6,
+    "sample": "Выгода по программе трейд-ин - до 260 000 ₽"
+   },
+   {
+    "selector": "div.v-custom-tooltip > div.item__price-month.d-flex > div.item__price-month-text",
+    "count": 5,
+    "sample": "от 45 230 ₽/мес"
+   },
+   {
+    "selector": "div.offers__content > div.offers__title > span",
+    "count": 1,
+    "sample": "от 6 985 ₽ / мес."
+   },
+   {
+    "selector": "div.offers__content > div.offers__title > b",
+    "count": 1,
+    "sample": "Повышенная выгода до 750 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.item__benefits.mb-lg-12 > div.item__benefits-el.d-flex > div.item__benefits-el-text.text-lg-body-1",
+    "count": 8,
+    "sample": "Максимальная выгода до 550 000 ₽"
+   },
+   {
+    "selector": "div.marquee__track.marquee__track--ready > div.marquee__group > div.marquee__item.text-lg-h2",
+    "count": 6,
+    "sample": "Выгода по программе трейд-ин - до 260 000 ₽"
+   },
+   {
+    "selector": "div.container > div > h2.offers__main-title",
+    "count": 1,
+    "sample": "Преимущества дилерского центра Бета Онего в Петрозаводске"
+   },
+   {
+    "selector": "div.offers__content > div.offers__title > b",
+    "count": 1,
+    "sample": "Повышенная выгода до 750 000 ₽"
+   },
+   {
+    "selector": "div.container.form-calc-mortgage__container > div.calc-mortgage-form.backgroundPaper > h2.calc-mortgage-form__title.mb-4",
+    "count": 1,
+    "sample": "Выгодный кредит"
+   },
+   {
+    "selector": "div.calc-mortgage-form.backgroundPaper > div.v-typography.calc-mortgage-form__description > div.d-inline",
+    "count": 1,
+    "sample": "Введите параметры и мы рассчитаем платеж по кредиту на наиболее выгодных условия"
+   },
+   {
+    "selector": "div.car-exchange__content.d-flex > div.car-exchange__description > h2.car-exchange__title.textPrimary--text",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый JETOUR с выгодой!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    17
+   ],
+   [
+    "/cars",
+    10
+   ],
+   [
+    "/news/*",
+    8
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/offers/*",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/news",
+    2
+   ],
+   [
+    "/cookies",
+    2
+   ],
+   [
+    "/dashing-awd",
+    1
+   ],
+   [
+    "/agreement_pd",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/finance",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://jetour-beta.ru/models/t1-hybrid",
+  "title": "JETOUR T1 ГИБРИД",
+  "text_length": 3537,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    6
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/service",
+    2
+   ],
+   [
+    "/politic",
+    2
+   ],
+   [
+    "/cookies",
+    2
+   ],
+   [
+    "/agreement_pd",
+    1
+   ],
+   [
+    "/contact",
+    1
+   ],
+   [
+    "/finance",
+    1
+   ],
+   [
+    "/offers",
+    1
+   ],
+   [
+    "/garantiya",
+    1
+   ],
+   [
+    "/news",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

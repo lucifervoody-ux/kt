@@ -1,0 +1,84 @@
+{
+ "id": 157,
+ "site": "promo.armada-okt-haval.ru",
+ "brand": "HAVAL CITY",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://promo.armada-okt-haval.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=84ceccbb89884e6e96b16f432e16aa5f",
+  "https://cdn.konget.ru/client?no_cache=1793718785852",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "HAVAL | Армада-Авто Октябрьский",
+  "text_length": 5857,
+  "price_blocks": [
+   {
+    "selector": "div.col-5 > div.section-content > div.fs-5.mb-4",
+    "count": 7,
+    "sample": "ЦЕНА ОТ 1 699 000 ₽*"
+   },
+   {
+    "selector": "section.section.section-model-mobile > div.container > div.mb-3",
+    "count": 7,
+    "sample": "ЦЕНА ОТ 1 699 000 ₽*"
+   },
+   {
+    "selector": "div.d-flex.align-items-end > div.section-content.mb-5 > div.fs-2.mb-4",
+    "count": 3,
+    "sample": "ЦЕНА ОТ 1 749 000 ₽*"
+   },
+   {
+    "selector": "div.container.h-100 > div.section-content.pt-5 > div.mb-2.lh-lg",
+    "count": 3,
+    "sample": "ЦЕНА ОТ 1 749 000 ₽*"
+   },
+   {
+    "selector": "div.slick-track > a.actions-carousel-item.slick-slide > div.fw-500.mb-4",
+    "count": 2,
+    "sample": "ЦЕНА ОТ 1 749 000 ₽*"
+   },
+   {
+    "selector": "div.container > a.d-block.mb-4 > div.fw-500.py-3",
+    "count": 2,
+    "sample": "ЦЕНА ОТ 1 749 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.d-flex.align-items-end > div.section-content.mb-5 > div.fs-2.mb-4",
+    "count": 1,
+    "sample": "Выгода до 500 000 руб.!"
+   },
+   {
+    "selector": "div.col-5 > div.section-content > div.fs-2.mb-4",
+    "count": 1,
+    "sample": "СОЗДАН ИЗ ПРЕИМУЩЕСТВ"
+   },
+   {
+    "selector": "div.slick-track > a.actions-carousel-item.slick-slide > div.fw-500.mb-4",
+    "count": 1,
+    "sample": "Выгода до 500 000 руб."
+   },
+   {
+    "selector": "div.container.h-100 > div.section-content.pt-5 > div.mb-2.lh-lg",
+    "count": 1,
+    "sample": "Выгода до 500 000 руб.!"
+   },
+   {
+    "selector": "section.section.section-model-mobile > div.container > div.mb-2.fw-500",
+    "count": 1,
+    "sample": "СОЗДАН ИЗ ПРЕИМУЩЕСТВ"
+   },
+   {
+    "selector": "div.container > a.d-block.mb-4 > div.fw-500.py-3",
+    "count": 1,
+    "sample": "Выгода до 500 000 руб."
+   }
+  ],
+  "link_groups": [],
+  "model_cards": []
+ },
+ "model_page": null
+}

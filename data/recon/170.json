@@ -1,0 +1,163 @@
+{
+ "id": 170,
+ "site": "artex-esteo.ru",
+ "brand": "ESTEO",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://artex-esteo.ru/buy/cars/#/models",
+ "konget": [
+  "https://app.konget.ru/inject?token=a9278ef74c9d4736a5eb396cecafbf24",
+  "https://cdn.konget.ru/client?no_cache=1793718816543",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер ESTEO в Ростове-на-Дону",
+  "text_length": 5058,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+    "count": 5,
+    "sample": "3 990 000 ₽"
+   },
+   {
+    "selector": "div.row > div.col-lg-6 > div.large-text.mb-salad",
+    "count": 5,
+    "sample": "ОТ 3 890 000 ₽¹"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body.dealer-theme > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/buy/*",
+    18
+   ],
+   [
+    "/exlantix/*",
+    17
+   ],
+   [
+    "/service/*",
+    11
+   ],
+   [
+    "/esteo/*",
+    6
+   ],
+   [
+    "/exlantix",
+    6
+   ],
+   [
+    "/esteo-v/*",
+    6
+   ],
+   [
+    "/news/*",
+    6
+   ],
+   [
+    "/esteo",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/news",
+    5
+   ],
+   [
+    "/brand/*",
+    5
+   ],
+   [
+    "/esteo-v",
+    5
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text"
+  ]
+ },
+ "model_page": {
+  "url": "https://artex-esteo.ru/buy/cars/",
+  "title": "ESTEO ЦЕНТР АРТЕКС РОССИЙСКАЯ — Модели",
+  "text_length": 2429,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+    "count": 5,
+    "sample": "3 990 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body.dealer-theme > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/buy/*",
+    42
+   ],
+   [
+    "/exlantix/*",
+    14
+   ],
+   [
+    "/service/*",
+    11
+   ],
+   [
+    "/exlantix",
+    6
+   ],
+   [
+    "/esteo/*",
+    5
+   ],
+   [
+    "/esteo",
+    5
+   ],
+   [
+    "/contacts",
+    5
+   ],
+   [
+    "/brand/*",
+    5
+   ],
+   [
+    "/esteo-v/*",
+    5
+   ],
+   [
+    "/esteo-v",
+    5
+   ],
+   [
+    "/technology/*",
+    4
+   ],
+   [
+    "/news",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+   "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text"
+  ]
+ }
+}

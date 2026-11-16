@@ -1,0 +1,224 @@
+{
+ "id": 28,
+ "site": "gac-autoimport.ru",
+ "brand": "GAC",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://gac-autoimport.ru/models/gs4?mobile",
+ "konget": [],
+ "home": {
+  "title": "GAC Автоимпорт- официальный дилер GAC в Рязани.",
+  "text_length": 7703,
+  "price_blocks": [
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 15,
+    "sample": "до 919 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 15,
+    "sample": "4 430 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 15,
+    "sample": "5 349 000 ₽"
+   },
+   {
+    "selector": "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price",
+    "count": 12,
+    "sample": "от 2 799 000 ₽"
+   },
+   {
+    "selector": "tr-car-credit-price > span > span",
+    "count": 10,
+    "sample": "от 30 131 ₽"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__btns > div.h2",
+    "count": 8,
+    "sample": "от 6 599 000 ₽"
+   },
+   {
+    "selector": "div.td-model-card__price-wrap > div.td-model-card__price > span.price",
+    "count": 8,
+    "sample": "от 3 399 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div.text-nowrap > span.h4",
+    "count": 5,
+    "sample": "от 4 049 000 ₽"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/models/*",
+    77
+   ],
+   [
+    "/buyer/*",
+    25
+   ],
+   [
+    "/cars/*",
+    15
+   ],
+   [
+    "/frequently-asked-questions",
+    8
+   ],
+   [
+    "/cars",
+    6
+   ],
+   [
+    "/community",
+    6
+   ],
+   [
+    "/special-offers",
+    5
+   ],
+   [
+    "/credit-calculator",
+    5
+   ],
+   [
+    "/insurance",
+    5
+   ],
+   [
+    "/service-and-warranty",
+    5
+   ],
+   [
+    "/about-company",
+    4
+   ],
+   [
+    "/special-offers/*",
+    4
+   ]
+  ],
+  "model_cards": [
+   "div.td-models-menu > div.td-models-menu__right-block > div.td-models-menu__about-model",
+   "div.td-models-menu__right-block > div.td-models-menu__about-model > div.td-models-menu__content",
+   "div.td-models-menu__about-model > div.td-models-menu__content > div.td-models-menu__text",
+   "div.td-models-menu__content > div.td-models-menu__text > div.td-about-model__wrap",
+   "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price"
+  ]
+ },
+ "model_page": {
+  "url": "https://gac-autoimport.ru/models/gs4?mobile",
+  "title": "GAC GS4 – комплектации, характеристики и цены – купить ГАК ГС4 | Официальный дилер GAC Автоимпорт в Рязани",
+  "text_length": 13477,
+  "price_blocks": [
+   {
+    "selector": "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price",
+    "count": 12,
+    "sample": "от 2 799 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div.text-nowrap > span.h4",
+    "count": 5,
+    "sample": "от 4 049 000 ₽"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 4,
+    "sample": "до 589 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 4,
+    "sample": "3 210 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+    "count": 4,
+    "sample": "3 799 000 ₽"
+   },
+   {
+    "selector": "div.td-font-size-md.td-card-widget__description > div > span.h4",
+    "count": 3,
+    "sample": "от 3 399 000 ₽"
+   },
+   {
+    "selector": "div.swiper-slide.td-ttx-table__complectation-slide > div.td-complectation-slide__subtitle > div.h4",
+    "count": 3,
+    "sample": "от 2 999 000 ₽"
+   },
+   {
+    "selector": "div.td-model-card__description > div.td-about-model__wrap > div.td-about-model__price",
+    "count": 2,
+    "sample": "от 3 399 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "a.td-link.td-news-list__link > span.td-news-list__text > span.h4.td-news-list__title",
+    "count": 2,
+    "sample": "Выгода до 100 000 рублей по программе «Второй автомобиль в семью»"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    76
+   ],
+   [
+    "/buyer/*",
+    23
+   ],
+   [
+    "/frequently-asked-questions",
+    6
+   ],
+   [
+    "/cars/*",
+    5
+   ],
+   [
+    "/media-link/*",
+    5
+   ],
+   [
+    "/special-offers",
+    4
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/gacpedia",
+    4
+   ],
+   [
+    "/credit-calculator",
+    3
+   ],
+   [
+    "/insurance",
+    3
+   ],
+   [
+    "/service-and-warranty",
+    3
+   ],
+   [
+    "/corporative-clients",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.td-models-menu > div.td-models-menu__right-block > div.td-models-menu__about-model",
+   "div.td-models-menu__right-block > div.td-models-menu__about-model > div.td-models-menu__content",
+   "div.td-models-menu__about-model > div.td-models-menu__content > div.td-models-menu__text",
+   "div.td-models-menu__content > div.td-models-menu__text > div.td-about-model__wrap",
+   "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price"
+  ]
+ }
+}

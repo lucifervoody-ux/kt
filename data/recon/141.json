@@ -1,0 +1,156 @@
+{
+ "id": 141,
+ "site": "amgroup72.ru",
+ "brand": "Застройщик",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://amgroup72.ru/tpost/tmhrr4pj61-stroitelnaya-kompaniya-am-grupp-na-vista",
+ "konget": [
+  "https://app.konget.ru/inject?token=6e1f111b06134f7fb75750bb504b0326",
+  "https://cdn.konget.ru/client?no_cache=1793718752948",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "АМ-ГРУПП | Строительство загородных домов под ключ в Тюмени",
+  "text_length": 9823,
+  "price_blocks": [
+   {
+    "selector": "div.t756__container > div.t756__wrapper.t-align_left > div.t756__descr.t-descr",
+    "count": 5,
+    "sample": "Просторный дом с 3-мя комнатами и уютной кухней-гостинной. Предчистовая отделка "
+   },
+   {
+    "selector": "div.t776__price-wrapper > div.t776__price.t776__price-item > div.t776__price-value.js-product-price",
+    "count": 3,
+    "sample": "от 7 650 000 руб."
+   },
+   {
+    "selector": "div.t776__price-wrapper > div.t776__price_old.t776__price-item > div.t776__price-value",
+    "count": 3,
+    "sample": "от 7 950 000 руб."
+   },
+   {
+    "selector": "div.t734__wrapper.t-width > div.t734__textwrapper.t-align_center > div.t734__title.t-title",
+    "count": 2,
+    "sample": "Скидка 100 000 рублей участникам и ветеранам СВО"
+   },
+   {
+    "selector": "div.t734__wrapper.t-width > div.t734__textwrapper.t-align_center > div.t734__descr.t-descr",
+    "count": 2,
+    "sample": "1 ребенок – 50 000₽, 2 ребенка – 70 000₽, 3 и более детей – 100 000₽."
+   },
+   {
+    "selector": "div.t688__textwrapper-featured.t688__paddingbig > div.t688__textwrapper_inner > div.t-card__descr.t-descr",
+    "count": 2,
+    "sample": "Просторный дом с 3-мя комнатами и уютной кухней-гостинной. Предчистовая отделка "
+   },
+   {
+    "selector": "div.t-container.t-align_center > div.t-col.t-col_10 > div.t050__descr.t-descr",
+    "count": 1,
+    "sample": "Дома «под ключ»: с готовыми коммуникациями и отделкой. В ипотеку от 25 421 ₽/мес"
+   },
+   {
+    "selector": "div.t756__wrapper.t-align_left > div.t756__title-wrapper > div.t756__title.t-heading",
+    "count": 1,
+    "sample": "Скидка 100 000 рублей участникам и ветеранам СВО"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.t734__wrapper.t-width > div.t734__textwrapper.t-align_center > div.t734__title.t-title",
+    "count": 4,
+    "sample": "Скидка 100 000 рублей участникам и ветеранам СВО"
+   },
+   {
+    "selector": "div.t756__wrapper.t-align_left > div.t756__title-wrapper > div.t756__title.t-heading",
+    "count": 2,
+    "sample": "Скидка семьям с детьми"
+   },
+   {
+    "selector": "div.t734__textwrapper.t-align_center > div.t734__title.t-title > div",
+    "count": 1,
+    "sample": "со скидкой"
+   },
+   {
+    "selector": "div.t734__wrapper.t-width > div.t734__textwrapper.t-align_center > div.t734__descr.t-descr",
+    "count": 1,
+    "sample": "Скидка до 31.10.2026г."
+   },
+   {
+    "selector": "div.t688__textwrapper_inner > div.t-card__title.t-name > a.t-card__link",
+    "count": 1,
+    "sample": "Скидка семьям с детьми"
+   },
+   {
+    "selector": "div.t497__item > div.t497__textwrapper.t-cell > div.t497__descr.t-descr",
+    "count": 1,
+    "sample": "Предлагаем индивидуальные условия по рассрочке и скидкам при наличном расчете"
+   }
+  ],
+  "link_groups": [
+   [
+    "/catalog",
+    7
+   ],
+   [
+    "/stocks",
+    5
+   ],
+   [
+    "/privacy",
+    5
+   ],
+   [
+    "/tpost/*",
+    3
+   ],
+   [
+    "/akademik-126",
+    2
+   ],
+   [
+    "/iskra-79",
+    2
+   ],
+   [
+    "/jemchujina-66",
+    2
+   ],
+   [
+    "/construction",
+    1
+   ],
+   [
+    "/finishing",
+    1
+   ],
+   [
+    "/new_project",
+    1
+   ],
+   [
+    "/portfolio",
+    1
+   ],
+   [
+    "/partners",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.t-card__container.t-container > ul.t688__columns > li.t-col.t-card__col",
+   "div.t688__textwrapper-featured.t688__paddingbig > div.t688__textwrapper_inner > div.t-card__descr.t-descr",
+   "div.t-card__container.t-container > ul.t688__columns > li.t-col.t-card__col",
+   "div.t688__textwrapper-featured.t688__paddingbig > div.t688__textwrapper_inner > div.t-card__descr.t-descr"
+  ]
+ },
+ "model_page": {
+  "url": "https://amgroup72.ru/tpost/tmhrr4pj61-stroitelnaya-kompaniya-am-grupp-na-vista",
+  "title": "Строительная компания «АМ-ГРУПП» на выставке «Город & Загород Экспо» в Тюмени",
+  "text_length": 1044,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [],
+  "model_cards": []
+ }
+}

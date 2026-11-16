@@ -1,0 +1,186 @@
+{
+ "id": 125,
+ "site": "bestune-betaonego.ru",
+ "brand": "Bestune",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://bestune-betaonego.ru/offers/7496",
+ "konget": [
+  "https://app.konget.ru/inject?token=4fd6052703f74fb6bff6893bebd1e194",
+  "https://cdn.konget.ru/client?no_cache=1793718712717",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер Bestune в Петрозаводске Бета Онего",
+  "text_length": 5135,
+  "price_blocks": [
+   {
+    "selector": "div.item__benefits.mb-lg-12 > div.item__benefits-el.d-flex > div.item__benefits-el-text.text-lg-body-1",
+    "count": 12,
+    "sample": "Максимальная выгода до 1 000 000 ₽"
+   },
+   {
+    "selector": "div.item__content.container > div.item__price-container.d-flex > div.text-lg-h2.text-mob-h2",
+    "count": 4,
+    "sample": "от 1 451 000 ₽"
+   },
+   {
+    "selector": "div.v-custom-tooltip > div.item__price-month.d-flex > div.item__price-month-text",
+    "count": 3,
+    "sample": "от 15 446 ₽/мес"
+   },
+   {
+    "selector": "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+    "count": 2,
+    "sample": "Выгода по программе «Покупка в Трейд‑ин» до 200 000 ₽"
+   },
+   {
+    "selector": "p.text-mob-h1.text-lg-h1 > span > strong",
+    "count": 1,
+    "sample": "ВЫГОДА ДО 1 200 000 ₽"
+   },
+   {
+    "selector": "div.d-inline > p.text-mob-h2.text-lg-h2 > strong",
+    "count": 1,
+    "sample": "ОТ 1 798 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.item__benefits.mb-lg-12 > div.item__benefits-el.d-flex > div.item__benefits-el-text.text-lg-body-1",
+    "count": 12,
+    "sample": "Максимальная выгода до 1 000 000 ₽"
+   },
+   {
+    "selector": "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+    "count": 3,
+    "sample": "Выгода по программе \"Сезонная цена\""
+   },
+   {
+    "selector": "p.text-mob-h1.text-lg-h1 > span > strong",
+    "count": 1,
+    "sample": "ВЫГОДА ДО 1 200 000 ₽"
+   },
+   {
+    "selector": "div.car-exchange__content.d-flex > div.car-exchange__description > h2.car-exchange__title.textPrimary--text",
+    "count": 1,
+    "sample": "Обменяйте свой автомобиль на новый с выгодой!"
+   }
+  ],
+  "link_groups": [
+   [
+    "/politic",
+    4
+   ],
+   [
+    "/cars",
+    3
+   ],
+   [
+    "/bestune-t90",
+    3
+   ],
+   [
+    "/offers/*",
+    3
+   ],
+   [
+    "/agreement_pd",
+    3
+   ],
+   [
+    "/cookies",
+    3
+   ],
+   [
+    "/contact",
+    2
+   ],
+   [
+    "/bestune-t55",
+    2
+   ],
+   [
+    "/bestune-t77",
+    2
+   ],
+   [
+    "/offers",
+    2
+   ],
+   [
+    "/bestune-b70",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.swiper-wrapper > div.swiper-slide.offers__slide > a.offer-card.textPrimary--text",
+   "div.swiper-slide.offers__slide > a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper",
+   "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3",
+   "div.swiper-wrapper > div.swiper-slide.offers__slide > a.offer-card.textPrimary--text",
+   "div.swiper-slide.offers__slide > a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper",
+   "a.offer-card.textPrimary--text > div.offer-card__info.backgroundPaper > div.offer-card__title.text-h3"
+  ]
+ },
+ "model_page": {
+  "url": "https://bestune-betaonego.ru/offers/7496",
+  "title": "Выгода по программе \"Сезонная цена\"",
+  "text_length": 2087,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "div.card-offer__wrapper > div.card-offer__left > h1.card-offer__title.text-h2",
+    "count": 1,
+    "sample": "Выгода по программе \"Сезонная цена\""
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/politic",
+    4
+   ],
+   [
+    "/agreement_pd",
+    3
+   ],
+   [
+    "/cookies",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/contact",
+    2
+   ],
+   [
+    "/bestune-t90",
+    1
+   ],
+   [
+    "/bestune-t77",
+    1
+   ],
+   [
+    "/bestune-b70",
+    1
+   ],
+   [
+    "/bestune-t55",
+    1
+   ],
+   [
+    "/offers",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

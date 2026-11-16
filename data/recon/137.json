@@ -1,0 +1,104 @@
+{
+ "id": 137,
+ "site": "amg-commerce.ru",
+ "brand": "Застройщик",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://amg-commerce.ru/buildings/",
+ "konget": [
+  "https://app.konget.ru/inject?token=23c10fb1e6c94ad1941c9d27a9072978",
+  "https://cdn.konget.ru/client?no_cache=1793718742503",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Быстровозводимые коммерческие здания под ключ в Тюмени — АМ-ГРУПП",
+  "text_length": 6624,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/buildings/*",
+    16
+   ],
+   [
+    "/projects",
+    10
+   ],
+   [
+    "/buildings",
+    4
+   ],
+   [
+    "/technologies",
+    4
+   ],
+   [
+    "/privacy",
+    4
+   ],
+   [
+    "/articles",
+    3
+   ],
+   [
+    "/company",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/personal-data-consent",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://amg-commerce.ru/buildings/",
+  "title": "Какие коммерческие здания строим — АМ-ГРУПП, Тюмень",
+  "text_length": 2247,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/buildings/*",
+    24
+   ],
+   [
+    "/buildings",
+    4
+   ],
+   [
+    "/projects",
+    3
+   ],
+   [
+    "/technologies",
+    3
+   ],
+   [
+    "/articles",
+    3
+   ],
+   [
+    "/company",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/privacy",
+    3
+   ],
+   [
+    "/personal-data-consent",
+    2
+   ]
+  ],
+  "model_cards": []
+ }
+}

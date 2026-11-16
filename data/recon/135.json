@@ -1,0 +1,37 @@
+{
+ "id": 135,
+ "site": "promo.alfitplus.ru",
+ "brand": "Алфавит плюс",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://promo.alfitplus.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=a28347f4df774936bc1ff3e73c9f225e",
+  "https://cdn.konget.ru/client?no_cache=1793718736857",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Алфит Плюс",
+  "text_length": 2401,
+  "price_blocks": [],
+  "benefit_blocks": [
+   {
+    "selector": "body.t-body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодное предложение"
+   }
+  ],
+  "link_groups": [
+   [
+    "/privacy",
+    5
+   ],
+   [
+    "/ps",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

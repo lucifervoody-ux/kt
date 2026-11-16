@@ -1,0 +1,152 @@
+{
+ "id": 140,
+ "site": "amg-remont.ru",
+ "brand": "Застройщик",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://amg-remont.ru/projects/pervomayskaya/",
+ "konget": [
+  "https://app.konget.ru/inject?token=2424a81c5d8444c4b790075a4e1360f2",
+  "https://cdn.konget.ru/client?no_cache=1793718747701",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Ремонт квартир под ключ в Тюмени от 30 000 ₽/м² — АМ-ГРУПП",
+  "text_length": 5332,
+  "price_blocks": [
+   {
+    "selector": "div.package-choices > label.package-choice > b",
+    "count": 3,
+    "sample": "от 30 000 ₽/м²"
+   },
+   {
+    "selector": "div.quiz-options > label.quiz-option > span",
+    "count": 3,
+    "sample": "Базовый — от 30 000 ₽/м²"
+   },
+   {
+    "selector": "div.hero-offer > div.hero-offer__inner > div.hero-price",
+    "count": 1,
+    "sample": "от 30 000 ₽/м²"
+   },
+   {
+    "selector": "article.faq-item > div.faq-item__answer > p",
+    "count": 1,
+    "sample": "Пакеты начинаются от 30 000 ₽/м². Точная цена зависит от состояния объекта, площ"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "form.designer-consultation > div.designer-consultation__copy > h3",
+    "count": 1,
+    "sample": "Получите скидку 10% на ремонт по этой визуализации"
+   },
+   {
+    "selector": "form.designer-consultation > div.designer-consultation__copy > p",
+    "count": 1,
+    "sample": "Оставьте телефон. Менеджер откроет созданный дизайн, проконсультирует по материа"
+   }
+  ],
+  "link_groups": [
+   [
+    "/privacy",
+    6
+   ],
+   [
+    "/portfolio",
+    5
+   ],
+   [
+    "/about",
+    5
+   ],
+   [
+    "/packages",
+    4
+   ],
+   [
+    "/personal-data-consent",
+    4
+   ],
+   [
+    "/stati",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/projects/*",
+    3
+   ],
+   [
+    "/services/*",
+    3
+   ],
+   [
+    "/services",
+    2
+   ],
+   [
+    "/sitemap.xml",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://amg-remont.ru/projects/pervomayskaya/",
+  "title": "Квартира на Первомайской, 1А — ремонт квартиры в Тюмени | АМ-ГРУПП",
+  "text_length": 1832,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/privacy",
+    5
+   ],
+   [
+    "/portfolio",
+    4
+   ],
+   [
+    "/about",
+    4
+   ],
+   [
+    "/packages",
+    3
+   ],
+   [
+    "/stati",
+    3
+   ],
+   [
+    "/contacts",
+    3
+   ],
+   [
+    "/personal-data-consent",
+    3
+   ],
+   [
+    "/services/*",
+    3
+   ],
+   [
+    "/services",
+    2
+   ],
+   [
+    "/projects/*",
+    1
+   ],
+   [
+    "/sitemap.xml",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

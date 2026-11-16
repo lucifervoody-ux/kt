@@ -1,0 +1,128 @@
+{
+ "id": 138,
+ "site": "lider-topping.ru",
+ "brand": "Застройщик",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://lider-topping.ru/uslugi/polimernye-nalivnye-poly/",
+ "konget": [
+  "https://app.konget.ru/inject?token=716b0e790c6c4fa1807ba00c063b809c",
+  "https://cdn.konget.ru/client?no_cache=1793718746398",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Промышленные полы и стяжки в Тюмени под ключ — Лидер Топпинг",
+  "text_length": 10142,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/uslugi/*",
+    59
+   ],
+   [
+    "/obekty/*",
+    29
+   ],
+   [
+    "/img/*",
+    6
+   ],
+   [
+    "/portfolio",
+    4
+   ],
+   [
+    "/keisy",
+    3
+   ],
+   [
+    "/o-kompanii",
+    3
+   ],
+   [
+    "/stati",
+    3
+   ],
+   [
+    "/rekvizity",
+    3
+   ],
+   [
+    "/politika-konfidencialnosti",
+    3
+   ],
+   [
+    "/uslugi",
+    2
+   ],
+   [
+    "/obekty",
+    2
+   ],
+   [
+    "/kontakty",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://lider-topping.ru/uslugi/polimernye-nalivnye-poly/",
+  "title": "Наливные полимерные полы в Тюмени — виды покрытий | Лидер Топпинг",
+  "text_length": 4877,
+  "price_blocks": [],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/uslugi/*",
+    32
+   ],
+   [
+    "/obekty/*",
+    21
+   ],
+   [
+    "/uslugi",
+    3
+   ],
+   [
+    "/portfolio",
+    3
+   ],
+   [
+    "/keisy",
+    3
+   ],
+   [
+    "/o-kompanii",
+    3
+   ],
+   [
+    "/stati",
+    3
+   ],
+   [
+    "/rekvizity",
+    3
+   ],
+   [
+    "/obekty",
+    2
+   ],
+   [
+    "/kontakty",
+    2
+   ],
+   [
+    "/politika-konfidencialnosti",
+    2
+   ],
+   [
+    "/soglasie-na-obrabotku-dannyh",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": 20,
+ "site": "avtoban-moskvich.ru",
+ "brand": "Москвич",
+ "status": 200,
+ "engine": "Tilda",
+ "final_url": "https://avtoban-moskvich.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=06c6f39c96e5463ba2470f2e107ff226",
+  "https://cdn.konget.ru/client?no_cache=1793718455138",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Новый Москвич в Екатеринбурге у официального дилера Автобан",
+  "text_length": 5087,
+  "price_blocks": [
+   {
+    "selector": "div.t1241__descr.t-descr > div > span",
+    "count": 5,
+    "sample": "Москвич 3 в Автобан с выгодой до 560 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "li.t1115__feature.t1115__feature_icon-left > div.t1115__feature-text-wrap > h3.t1115__feature-title.t-name",
+    "count": 4,
+    "sample": "Выгода до 560 000"
+   },
+   {
+    "selector": "div.t1241__descr.t-descr > div > span",
+    "count": 3,
+    "sample": "Москвич 3 в Автобан с выгодой до 560 000 ₽"
+   },
+   {
+    "selector": "div.t1241__buttons.t-align_left > a.t-btn.t-btnflex > span.t-btnflex__text",
+    "count": 1,
+    "sample": "Узнать мою выгоду"
+   },
+   {
+    "selector": "div.t920__itemwrapper > div.t920__wrapper > div.t920__title.t-name",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   },
+   {
+    "selector": "div.t920__itemwrapper > div.t920__wrapper > div.t920__descr.t-descr",
+    "count": 1,
+    "sample": "Онлайн-оценка за 5 минут. Выгодные условия выкупа даже на старые автомобили."
+   },
+   {
+    "selector": "div.t650__inner-col > div.t650__text > div.t-card__descr.t-text",
+    "count": 1,
+    "sample": "Автомобили в наличии в разных комплектациях по выгодным ценам"
+   },
+   {
+    "selector": "body.t-body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/vitrines-cars",
+    5
+   ],
+   [
+    "/special-offers",
+    5
+   ],
+   [
+    "/moskvich-3",
+    4
+   ],
+   [
+    "/moskvich-3e",
+    4
+   ],
+   [
+    "/credit",
+    4
+   ],
+   [
+    "/tradein",
+    4
+   ],
+   [
+    "/service",
+    4
+   ],
+   [
+    "/warranty",
+    4
+   ],
+   [
+    "/moskvich-6",
+    3
+   ],
+   [
+    "/moskvich-8",
+    3
+   ],
+   [
+    "/news",
+    3
+   ],
+   [
+    "/agreement",
+    3
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

@@ -1,0 +1,91 @@
+{
+ "id": 178,
+ "site": "sales-uspehauto-esteo.ru",
+ "brand": "ESTEO",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://sales-uspehauto-esteo.ru/",
+ "konget": [],
+ "home": {
+  "title": "ESTEO в УСПЕХ АВТО ЮБИЛЕЙНЫЙ",
+  "text_length": 6057,
+  "price_blocks": [
+   {
+    "selector": "tbody > tr > td",
+    "count": 18,
+    "sample": "от 3 990 000 руб"
+   },
+   {
+    "selector": "div.model-card__price-block > div.model-card__price.model-card__price_profit > span.model-card__price-value",
+    "count": 6,
+    "sample": "до 600 000 ₽²"
+   },
+   {
+    "selector": "div.intro__title-block > div.intro__title-panel > div.intro__desc",
+    "count": 1,
+    "sample": "выгода до 1 000 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.model-card__price-block > div.model-card__price.model-card__price_profit > span.model-card__price-label",
+    "count": 6,
+    "sample": "Выгода:"
+   },
+   {
+    "selector": "tbody > tr > th",
+    "count": 3,
+    "sample": "Выгода по трейд-ин"
+   },
+   {
+    "selector": "tbody > tr > td",
+    "count": 2,
+    "sample": "Выгода до 1 000 000 руб"
+   },
+   {
+    "selector": "div.intro__title-block > div.intro__title-panel > div.intro__desc",
+    "count": 1,
+    "sample": "выгода до 1 000 000 ₽"
+   }
+  ],
+  "link_groups": [
+   [
+    "/img/*",
+    50
+   ],
+   [
+    "/policy.php",
+    2
+   ],
+   [
+    "/policy_metrika.php",
+    1
+   ],
+   [
+    "/policy_third_party.php",
+    1
+   ],
+   [
+    "/policy_consent.php",
+    1
+   ],
+   [
+    "/policy_terms.php",
+    1
+   ],
+   [
+    "/policy_cookie.php",
+    1
+   ]
+  ],
+  "model_cards": [
+   "div.model-card__left > div.model-card__right > div.model-card__price-block",
+   "div.model-card__right > div.model-card__price-block > div.model-card__price.model-card__price_profit",
+   "div.model-card__price-block > div.model-card__price.model-card__price_profit > span.model-card__price-value",
+   "div.model-card__inner > div.model-card__left > div.model-card__right",
+   "div.model-card__left > div.model-card__right > div.model-card__price-block",
+   "div.model-card__right > div.model-card__price-block > div.model-card__price.model-card__price_profit"
+  ]
+ },
+ "model_page": null
+}

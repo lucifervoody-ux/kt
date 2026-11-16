@@ -1,0 +1,150 @@
+{
+ "id": 67,
+ "site": "uaz-agas.ru",
+ "brand": "УАЗ",
+ "status": 200,
+ "engine": "Nuxt",
+ "final_url": "https://uaz-agas.ru/cars/stock-new",
+ "konget": [
+  "https://app.konget.ru/inject?token=a743cb30d17b40249038024d22892e4c",
+  "https://cdn.konget.ru/client?no_cache=1793718585697",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Автоцентр УАЗ АГАС - Продажа новых УАЗ в Барнауле - цены от официального дилера",
+  "text_length": 4168,
+  "price_blocks": [
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 8,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.available-cars-item__bar > div.available-cars-item__col > div.text.available-cars-item__title",
+    "count": 8,
+    "sample": "1 520 000 ₽"
+   },
+   {
+    "selector": "div.main-cars-nav-item.main-cars__nav-item > div.main-cars-nav-item__price-wrapper > div.text.main-cars-nav-item__price",
+    "count": 5,
+    "sample": "от 2 005 000 ₽"
+   },
+   {
+    "selector": "div.main-cars__container > div.main-cars__content.main-cars__content_patriot-mkpp > div.text.main-cars__price",
+    "count": 1,
+    "sample": "от 2 005 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 8,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/cars/*",
+    19
+   ],
+   [
+    "/owner/*",
+    14
+   ],
+   [
+    "/purchase/*",
+    12
+   ],
+   [
+    "/blog/*",
+    8
+   ],
+   [
+    "/company/*",
+    7
+   ],
+   [
+    "/blog",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/sitemap",
+    1
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": {
+  "url": "https://uaz-agas.ru/cars/stock-new",
+  "title": "ООО \"АлтайГАЗавтосервис\" - официальный дилер УАЗ",
+  "text_length": 3768,
+  "price_blocks": [
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 8,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.available-cars-item__bar > div.available-cars-item__col > div.text.available-cars-item__title",
+    "count": 8,
+    "sample": "1 520 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.available-cars-item__container > div.available-cars-item__tags.has_discount > a.available-cars-item__tag.available-cars-item__tag_benefit",
+    "count": 8,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-1-0 > span.KONGET-CL-1-2.KONGET-CL-1-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/owner/*",
+    14
+   ],
+   [
+    "/cars/*",
+    13
+   ],
+   [
+    "/purchase/*",
+    12
+   ],
+   [
+    "/company/*",
+    7
+   ],
+   [
+    "/blog/*",
+    4
+   ],
+   [
+    "/blog",
+    3
+   ],
+   [
+    "/cars",
+    2
+   ],
+   [
+    "/sitemap",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

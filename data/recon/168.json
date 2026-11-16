@@ -1,0 +1,234 @@
+{
+ "id": 168,
+ "site": "jetour-artex.ru",
+ "brand": "Jetour",
+ "status": 200,
+ "engine": "TradeDealer",
+ "final_url": "https://jetour-artex.ru/purchase/credit?main_menu#/credit/new/jetour?year=2026",
+ "konget": [
+  "https://app.konget.ru/inject?token=301311cafd744fb9bf5d114987f3571a",
+  "https://cdn.konget.ru/client?no_cache=1793718812079",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "JETOUR Артекс — сайт официального дилера JETOUR Артекс | Купить Джетур в Ростове-на-Дону",
+  "text_length": 44927,
+  "price_blocks": [
+   {
+    "selector": "div.td-model-price > span > span",
+    "count": 6,
+    "sample": "от 4 499 900 ₽"
+   },
+   {
+    "selector": "small > div.td-disclaimer > p",
+    "count": 6,
+    "sample": ": валюта кредита – рубли РФ; срок кредита – 12-96 мес.; сумма кредита - от 100 0"
+   },
+   {
+    "selector": "div.td-submenu__description > span.h4 > span",
+    "count": 5,
+    "sample": "Цена от 3 520 000 ₽"
+   },
+   {
+    "selector": "div.td-indent-bottom-15 > div.d-flex.h3 > span",
+    "count": 5,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__description > div.td-model-prices > a.td-btn.td-btn-slider",
+    "count": 5,
+    "sample": "45 230 руб/мес"
+   },
+   {
+    "selector": "div.td-slider__text > div.td-slider__description > a.td-btn.td-btn-slider",
+    "count": 4,
+    "sample": "от 27 500 руб/мес"
+   },
+   {
+    "selector": "button.tr-tag.tr-block > div.tr-text > span",
+    "count": 4,
+    "sample": "440 000 ₽"
+   },
+   {
+    "selector": "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+    "count": 4,
+    "sample": "4 259 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.td-indent-bottom-15 > div.d-flex.h3 > span",
+    "count": 5,
+    "sample": "Выгода до 200 000 ₽"
+   },
+   {
+    "selector": "div.td-slider__content.td-slider__desktop-content > div.td-slider__btns > a.td-btn.td-btn-white",
+    "count": 2,
+    "sample": "Выгоды Ноября"
+   },
+   {
+    "selector": "div.d-flex.flex-wrap > div.d-flex > a.td-btn.td-btn-white",
+    "count": 2,
+    "sample": "Выгоды Ноября"
+   },
+   {
+    "selector": "p > strong > small",
+    "count": 2,
+    "sample": "JETOUR Кредит Комфорт Преимущество Плюс"
+   },
+   {
+    "selector": "span.td-tooltip.td-tooltip--custom > span > a",
+    "count": 1,
+    "sample": "выгод"
+   },
+   {
+    "selector": "div.td-article.td-font-size-md > div.td-card-widget__description.td-text-fade > p",
+    "count": 1,
+    "sample": "Преимущества Артекс:"
+   },
+   {
+    "selector": "body.dom-content-loaded > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/purchase/*",
+    46
+   ],
+   [
+    "/models/*",
+    40
+   ],
+   [
+    "/service/*",
+    15
+   ],
+   [
+    "/cars/*",
+    15
+   ],
+   [
+    "/explore/*",
+    6
+   ],
+   [
+    "/cars",
+    5
+   ],
+   [
+    "/shop",
+    5
+   ],
+   [
+    "/our-contacts",
+    5
+   ],
+   [
+    "/club-jetour",
+    4
+   ],
+   [
+    "/service-form",
+    4
+   ],
+   [
+    "/news",
+    4
+   ],
+   [
+    "/jetour-insurance",
+    3
+   ]
+  ],
+  "model_cards": [
+   "div.td-slider__text > div.td-slider__description > div.td-model-prices",
+   "div.td-slider__description > div.td-model-prices > div.td-model-price",
+   "div.swiper.swiper--lazy > div.swiper-wrapper.td-slider__wrapper > div.swiper-slide.td-slider__item",
+   "div.td-slider__text > div.td-slider__description > div.td-model-prices",
+   "div.td-slider__description > div.td-model-prices > div.td-model-price",
+   "div.td-slider__text > div.td-slider__description > div.td-model-prices"
+  ]
+ },
+ "model_page": {
+  "url": "https://jetour-artex.ru/purchase/credit?main_menu#/credit/new/jetour?year=2026",
+  "title": "JETOUR в кредит — кредитный калькулятор | Сайт официального дилера JETOUR Артекс в Ростове-на-Дону",
+  "text_length": 41290,
+  "price_blocks": [
+   {
+    "selector": "small > div.td-disclaimer > p",
+    "count": 6,
+    "sample": ": валюта кредита – рубли РФ; срок кредита – 12-96 мес.; сумма кредита - от 100 0"
+   },
+   {
+    "selector": "div.td-submenu__description > span.h4 > span",
+    "count": 5,
+    "sample": "Цена от 3 520 000 ₽"
+   },
+   {
+    "selector": "div.td-submenu__description > span > span.h4",
+    "count": 1,
+    "sample": "Цена от 4 499 900 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "p > strong > small",
+    "count": 2,
+    "sample": "JETOUR Кредит Комфорт Преимущество Плюс"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    24
+   ],
+   [
+    "/purchase/*",
+    24
+   ],
+   [
+    "/service/*",
+    10
+   ],
+   [
+    "/explore/*",
+    6
+   ],
+   [
+    "/shop",
+    5
+   ],
+   [
+    "/our-contacts",
+    5
+   ],
+   [
+    "/cars",
+    4
+   ],
+   [
+    "/club-jetour",
+    4
+   ],
+   [
+    "/purchase",
+    3
+   ],
+   [
+    "/jetour-insurance",
+    3
+   ],
+   [
+    "/prilozheniye-jetour",
+    3
+   ],
+   [
+    "/jetour-connect",
+    3
+   ]
+  ],
+  "model_cards": []
+ }
+}

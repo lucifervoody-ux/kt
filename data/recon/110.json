@@ -1,0 +1,158 @@
+{
+ "id": 110,
+ "site": "omoda-agat-nn.ru",
+ "brand": "Omoda",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://omoda-agat-nn.ru/customers/",
+ "konget": [
+  "https://app.konget.ru/inject?token=9bba85d4d4584eb999ae7a7ec63831b0",
+  "https://cdn.konget.ru/client?no_cache=1793718678999",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер OMODA в Нижнем Новгороде - купить новый ОМОДА в автосалоне АГАТ",
+  "text_length": 8761,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+    "count": 2,
+    "sample": "от 2 199 000 ₽*"
+   },
+   {
+    "selector": "div.web_block_model_range-colors__content > div.web_block_model_range-colors__heading.mb-green > p.web_block_model_range-colors__price.mt-yellow",
+    "count": 2,
+    "sample": "от 2 199 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [],
+  "link_groups": [
+   [
+    "/customers/*",
+    27
+   ],
+   [
+    "/owners/*",
+    23
+   ],
+   [
+    "/omoda/*",
+    18
+   ],
+   [
+    "/models/*",
+    8
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/models",
+    3
+   ],
+   [
+    "/customers",
+    2
+   ],
+   [
+    "/owners",
+    2
+   ],
+   [
+    "/omoda",
+    2
+   ],
+   [
+    "/kuzovnoi-remont",
+    1
+   ],
+   [
+    "/omoda-club",
+    1
+   ],
+   [
+    "/archive",
+    1
+   ]
+  ],
+  "model_cards": [
+   "body.dealer-theme > main.main.main- > div.web_block_model_range-colors",
+   "div.web_block_model_range-colors > div.container > div.js-model-range-colors-block.web_block_model_range-colors__wrap",
+   "div.container > div.js-model-range-colors-block.web_block_model_range-colors__wrap > div.js-model-range-colors-slider.web_block_model_range-colors__slider",
+   "div.swiper-wrapper > div.swiper-slide.swiper-slide-prev > div.web_block_model_range-colors__item",
+   "div.swiper-slide.swiper-slide-prev > div.web_block_model_range-colors__item > div.web_block_model_range-colors__content",
+   "div.web_block_model_range-colors__item > div.web_block_model_range-colors__content > div.web_block_model_range-colors__heading.mb-green"
+  ]
+ },
+ "model_page": {
+  "url": "https://omoda-agat-nn.ru/customers/",
+  "title": "Покупателям OMODA | OMODA АГАТ в Нижнем Новгороде",
+  "text_length": 7297,
+  "price_blocks": [
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+    "count": 2,
+    "sample": "от 2 199 000 ₽*"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body.dealer-theme.TalkMe-initialized > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/customers/*",
+    28
+   ],
+   [
+    "/owners/*",
+    18
+   ],
+   [
+    "/customers",
+    8
+   ],
+   [
+    "/omoda/*",
+    7
+   ],
+   [
+    "/models/*",
+    4
+   ],
+   [
+    "/contacts",
+    4
+   ],
+   [
+    "/models",
+    3
+   ],
+   [
+    "/owners",
+    2
+   ],
+   [
+    "/omoda",
+    2
+   ],
+   [
+    "/kuzovnoi-remont",
+    1
+   ],
+   [
+    "/omoda-club",
+    1
+   ],
+   [
+    "/archive",
+    1
+   ]
+  ],
+  "model_cards": []
+ }
+}

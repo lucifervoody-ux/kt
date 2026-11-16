@@ -1,0 +1,67 @@
+# Разведка сайтов: записывает, как устроены сайты (движок, где модели и цены), для написания шаблонов. Запускается вручную.
+name: Разведка сайтов
+
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: 'ID одного сайта (пусто — все сайты)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recon
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # максимум GitHub для одного запуска — 6 часов
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - run: npx playwright install --with-deps chromium
+
+      - name: Обойти сайты и записать их устройство
+        env:
+          SITE: ${{ inputs.site }}
+          # Список сайтов — из листа «Сайты» Google-таблицы.
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: |
+          if [ -n "$SITE" ]; then
+            exec node collector/recon.mjs --site "$SITE"
+          else
+            exec node collector/recon.mjs
+          fi
+
+      # Сохраняем и тогда, когда проверку остановили кнопкой: то, что успели, не пропадёт.
+      - name: Сохранить результат в репозиторий
+        if: success() || cancelled()
+        run: |
+          git config user.name "konget-collector"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/recon
+          git diff --cached --quiet && exit 0
+          git commit -m "Разведка сайтов $(date +%F)"
+          # Другая проверка могла сохраниться одновременно: подтягиваем (при конфликте берём свежие данные этого прогона) и пробуем ещё раз.
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin ${{ github.ref_name }} && git push && exit 0
+            git rebase --abort || true
+            sleep $((i * 5))
+          done
+          exit 1

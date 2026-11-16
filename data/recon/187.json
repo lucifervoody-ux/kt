@@ -1,0 +1,59 @@
+{
+ "id": 187,
+ "site": "lp.tank-borishof.ru",
+ "brand": "TANK",
+ "status": 200,
+ "engine": "Не определён",
+ "final_url": "https://lp.tank-borishof.ru/",
+ "konget": [
+  "https://app.konget.ru/inject?token=2459a4bcaf184cd2a39749ce85d0b8a3",
+  "https://cdn.konget.ru/client?no_cache=1793718859322",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Официальный дилер TANK в Москве, купить Танк по выгодной цене",
+  "text_length": 2914,
+  "price_blocks": [
+   {
+    "selector": "div.cars__prices > div.cars__price > b",
+    "count": 4,
+    "sample": "850 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.cars__benefits > div.cars__prices > div.cars__price",
+    "count": 4,
+    "sample": "Выгода до"
+   },
+   {
+    "selector": "div.timer__title > span > b",
+    "count": 1,
+    "sample": "Всего 10 а/м с доп. выгодой от директора по продажам!"
+   },
+   {
+    "selector": "div.benefits__content > div.benefits__footer > span",
+    "count": 1,
+    "sample": "Доп. преимущества"
+   },
+   {
+    "selector": "div.benefits__item > div.benefits__content > div.benefits__title",
+    "count": 1,
+    "sample": "Выгодный"
+   },
+   {
+    "selector": "div.formSmall__wrapper > div.formSmall__content > div.formSmall__subtitle",
+    "count": 1,
+    "sample": "48 часов с доп. преимуществом*"
+   }
+  ],
+  "link_groups": [
+   [
+    "/soglasie.pdf",
+    2
+   ]
+  ],
+  "model_cards": []
+ },
+ "model_page": null
+}

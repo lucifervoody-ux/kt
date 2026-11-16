@@ -1,0 +1,191 @@
+{
+ "id": 173,
+ "site": "bars-tank.ru",
+ "brand": "TANK",
+ "status": 200,
+ "engine": "Perxis",
+ "final_url": "https://bars-tank.ru/models/",
+ "konget": [
+  "https://app.konget.ru/inject?token=7fc0f5aced4f4e8bad7e1abb2c8304b5",
+  "https://cdn.konget.ru/client?no_cache=1793718827631",
+  "https://cdn.konget.ru/client/static/css/app.dc15c9b92b75050435a5.css"
+ ],
+ "home": {
+  "title": "Купить автомобиль ТАНК в Омске | Цены на TANK у официального дилера «Барс»",
+  "text_length": 13239,
+  "price_blocks": [
+   {
+    "selector": "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+    "count": 8,
+    "sample": "4 099 000 ₽"
+   },
+   {
+    "selector": "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+    "count": 4,
+    "sample": "от 4 099 000 ₽"
+   },
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+    "count": 4,
+    "sample": "от 6 149 000 ₽"
+   },
+   {
+    "selector": "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong",
+    "count": 4,
+    "sample": "от 4 099 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "div.container.web_block_media-hero__content > div.web_block_media-hero__content-wrap > div.web_block_media-hero__text",
+    "count": 5,
+    "sample": "с учётом максимальной выгоды"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    41
+   ],
+   [
+    "/test-drive",
+    16
+   ],
+   [
+    "/customers/*",
+    10
+   ],
+   [
+    "/tank/*",
+    9
+   ],
+   [
+    "/configurator",
+    5
+   ],
+   [
+    "/service/*",
+    5
+   ],
+   [
+    "/owners/*",
+    4
+   ],
+   [
+    "/credit",
+    3
+   ],
+   [
+    "/privacy-policy",
+    3
+   ],
+   [
+    "/tank-finance",
+    2
+   ],
+   [
+    "/leasing",
+    2
+   ],
+   [
+    "/initial-maintenance",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.web_block_model_range > div.web_block_model_range__items > div.web_block_model_range__item",
+   "div.web_block_model_range__items > div.web_block_model_range__item > div.web_block_model_range__info",
+   "div.web_block_model_range__item > div.web_block_model_range__info > div.web_block_model_range__info-price",
+   "div.web_block_model_range > div.web_block_model_range__items > div.web_block_model_range__item",
+   "div.web_block_model_range__items > div.web_block_model_range__item > div.web_block_model_range__info",
+   "div.web_block_model_range__item > div.web_block_model_range__info > div.web_block_model_range__info-price"
+  ]
+ },
+ "model_page": {
+  "url": "https://bars-tank.ru/models/",
+  "title": "Барс — Модели",
+  "text_length": 1698,
+  "price_blocks": [
+   {
+    "selector": "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+    "count": 4,
+    "sample": "от 4 099 000 ₽"
+   },
+   {
+    "selector": "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+    "count": 4,
+    "sample": "от 6 149 000 ₽"
+   },
+   {
+    "selector": "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+    "count": 4,
+    "sample": "4 099 000 ₽"
+   }
+  ],
+  "benefit_blocks": [
+   {
+    "selector": "body > div.KONGET-CL-108404047.KONGET-CL-0-0 > span.KONGET-CL-0-2.KONGET-CL-0-5",
+    "count": 1,
+    "sample": "Выгодный обмен автомобиля"
+   }
+  ],
+  "link_groups": [
+   [
+    "/models/*",
+    36
+   ],
+   [
+    "/customers/*",
+    10
+   ],
+   [
+    "/test-drive",
+    6
+   ],
+   [
+    "/configurator",
+    5
+   ],
+   [
+    "/service/*",
+    5
+   ],
+   [
+    "/owners/*",
+    4
+   ],
+   [
+    "/tank/*",
+    4
+   ],
+   [
+    "/privacy-policy",
+    3
+   ],
+   [
+    "/tank-finance",
+    2
+   ],
+   [
+    "/credit",
+    2
+   ],
+   [
+    "/leasing",
+    2
+   ],
+   [
+    "/initial-maintenance",
+    2
+   ]
+  ],
+  "model_cards": [
+   "div.web_block_model_range > div.web_block_model_range__items > div.web_block_model_range__item",
+   "div.web_block_model_range__items > div.web_block_model_range__item > div.web_block_model_range__info",
+   "div.web_block_model_range__item > div.web_block_model_range__info > div.web_block_model_range__info-price",
+   "div.web_block_model_range > div.web_block_model_range__items > div.web_block_model_range__item",
+   "div.web_block_model_range__items > div.web_block_model_range__item > div.web_block_model_range__info",
+   "div.web_block_model_range__item > div.web_block_model_range__info > div.web_block_model_range__info-price"
+  ]
+ }
+}
