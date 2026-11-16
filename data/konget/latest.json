@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-03",
-  "checked_at": "2026-11-03T13:21:00.254Z",
-  "total_seconds": 4318,
-  "parallel": 6,
+  "date": "2026-11-16",
+  "checked_at": "2026-11-16T05:47:31.732Z",
+  "total_seconds": 1803,
+  "parallel": 10,
   "summary": {
-    "Скрипта нет": 29,
+    "Скрипта нет": 28,
     "Токен не тот": 0,
     "Скрипт без токена": 1,
-    "Проверить вручную": 1,
-    "Сайт не открылся": 24,
-    "Скрипт есть": 186
+    "Проверить вручную": 3,
+    "Сайт не открылся": 27,
+    "Скрипт есть": 184
   },
   "sites": [
     {
@@ -18,6 +18,19 @@
       "responsible": "Савастьянов А.А.",
       "site": "havalpro-avangard.ru",
       "brand": "HAVAL PRO",
+      "konget": "Скрипта нет",
+      "tokens": [],
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "expected": "",
+      "seconds": 20,
+      "was": ""
+    },
+    {
+      "id": 10,
+      "company": "АВАНГАРД Джили",
+      "responsible": "Савастьянов А.А.",
+      "site": "avangard-geely.ru",
+      "brand": "Geely",
       "konget": "Скрипта нет",
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
@@ -35,7 +48,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 15,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -48,21 +61,21 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 20,
+      "seconds": 1396,
       "was": ""
     },
     {
-      "id": 55,
-      "company": "KIA-Бутово",
+      "id": 53,
+      "company": "KIA АВТОРУСЬ ПОДОЛЬСК",
       "responsible": "Савастьянов А.А.",
-      "site": "moscow.kia-butovo.ru",
+      "site": "kia-avtoruss.ru",
       "brand": "Kia сервис",
       "konget": "Скрипта нет",
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 19,
-      "was": ""
+      "seconds": 1394,
+      "was": "Было: Сайт не открылся"
     },
     {
       "id": 66,
@@ -74,7 +87,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 23,
+      "seconds": 45,
       "was": ""
     },
     {
@@ -87,7 +100,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 19,
+      "seconds": 24,
       "was": ""
     },
     {
@@ -100,7 +113,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 18,
+      "seconds": 20,
       "was": ""
     },
     {
@@ -113,7 +126,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 16,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -126,7 +139,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 17,
+      "seconds": 20,
       "was": ""
     },
     {
@@ -139,7 +152,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 17,
+      "seconds": 18,
       "was": ""
     },
     {
@@ -204,7 +217,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 17,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -217,7 +230,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 16,
+      "seconds": 24,
       "was": ""
     },
     {
@@ -230,7 +243,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 17,
+      "seconds": 19,
       "was": ""
     },
     {
@@ -243,7 +256,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 16,
+      "seconds": 18,
       "was": ""
     },
     {
@@ -256,7 +269,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 16,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -282,7 +295,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 19,
+      "seconds": 22,
       "was": ""
     },
     {
@@ -295,7 +308,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 17,
+      "seconds": 20,
       "was": ""
     },
     {
@@ -308,7 +321,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 16,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -325,19 +338,6 @@
       "was": ""
     },
     {
-      "id": 197,
-      "company": "Vikingi-chery.ru Тольятти",
-      "responsible": "Савастьянов А.А.",
-      "site": "vikingi-chery.ru",
-      "brand": "Chery",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
-    },
-    {
       "id": 210,
       "company": "Автомобили с пробегом",
       "responsible": "Савастьянов А.А.",
@@ -347,7 +347,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 50,
+      "seconds": 31,
       "was": ""
     },
     {
@@ -360,7 +360,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 20,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -373,20 +373,7 @@
       "tokens": [],
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "expected": "",
-      "seconds": 16,
-      "was": ""
-    },
-    {
-      "id": 241,
-      "company": "Диалог Авто Хавейл лендинг",
-      "responsible": "Савастьянов А.А.",
-      "site": "promo.dialog-kazan-haval.ru",
-      "brand": "HAVAL CITY",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 13,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -397,10 +384,10 @@
       "brand": "Solaris",
       "konget": "Скрипт без токена",
       "tokens": [],
-      "where": "https://cdn.konget.ru/client?no_cache=1793715957149",
+      "where": "https://cdn.konget.ru/client?no_cache=1794809716807",
       "reason": "Конгет на сайте есть, а token не нашёлся",
       "expected": "",
-      "seconds": 20,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -413,8 +400,73 @@
       "tokens": [],
       "reason": "Скрипт не найден, но на сайте есть контейнер тегов (например, Google Tag Manager). Скрипт может лежать в нём, проверьте сами",
       "expected": "",
-      "seconds": 18,
+      "seconds": 1392,
       "was": ""
+    },
+    {
+      "id": 100,
+      "company": "Вей Красноярск Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "gwm-wey-agat-krsk.ru",
+      "brand": "WEY",
+      "konget": "Проверить вручную",
+      "tokens": [],
+      "reason": "Скрипт не найден, но на сайте есть контейнер тегов (например, Google Tag Manager). Скрипт может лежать в нём, проверьте сами",
+      "expected": "",
+      "seconds": 38,
+      "was": ""
+    },
+    {
+      "id": 241,
+      "company": "Диалог Авто Хавейл лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.dialog-kazan-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Проверить вручную",
+      "tokens": [],
+      "reason": "Сайт ответил защитой от роботов (код 403), страницу программа не увидела. Проверьте вручную",
+      "expected": "",
+      "seconds": 13,
+      "was": "Было: Скрипта нет"
+    },
+    {
+      "id": 24,
+      "company": "Hyundai Автодель",
+      "responsible": "Савастьянов А.А.",
+      "site": "hyundai-avtocenter.ru",
+      "brand": "Hyundai",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "page.goto: Timeout 60000ms exceeded.",
+      "expected": "",
+      "seconds": 1432,
+      "was": "Было: Скрипт есть"
+    },
+    {
+      "id": 27,
+      "company": "Гак Автоимпорт Лендинг Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "sale.gac-autoimport.ru",
+      "brand": "GAC",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "page.goto: Timeout 60000ms exceeded.",
+      "expected": "",
+      "seconds": 1428,
+      "was": "Было: Скрипт есть"
+    },
+    {
+      "id": 31,
+      "company": "Автоимпорт сервис Тула",
+      "responsible": "Савастьянов А.А.",
+      "site": "service.ta-haval.ru",
+      "brand": "Сервис",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "page.goto: Timeout 60000ms exceeded.",
+      "expected": "",
+      "seconds": 1425,
+      "was": "Было: Скрипт есть"
     },
     {
       "id": 33,
@@ -443,19 +495,6 @@
       "was": ""
     },
     {
-      "id": 36,
-      "company": "Autoclass-darit-podarki.ru",
-      "responsible": "Савастьянов А.А.",
-      "site": "autoclass-darit-podarki.ru",
-      "brand": "Мультибренд",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Проверить вручную». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
-    },
-    {
       "id": 50,
       "company": "АВТОРУСЬ ЧЕРИ",
       "responsible": "Савастьянов А.А.",
@@ -465,21 +504,21 @@
       "tokens": [],
       "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 1413,
+      "seconds": 1461,
       "was": ""
     },
     {
-      "id": 53,
-      "company": "KIA АВТОРУСЬ ПОДОЛЬСК",
+      "id": 55,
+      "company": "KIA-Бутово",
       "responsible": "Савастьянов А.А.",
-      "site": "kia-avtoruss.ru",
+      "site": "moscow.kia-butovo.ru",
       "brand": "Kia сервис",
       "konget": "Сайт не открылся",
       "tokens": [],
       "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 118,
-      "was": ""
+      "seconds": 1454,
+      "was": "Было: Скрипта нет"
     },
     {
       "id": 91,
@@ -517,7 +556,7 @@
       "tokens": [],
       "reason": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://krasnoyarsk.agat-group.com/",
       "expected": "",
-      "seconds": 1,
+      "seconds": 2,
       "was": ""
     },
     {
@@ -530,7 +569,7 @@
       "tokens": [],
       "reason": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://minvody.agat-group.com/",
       "expected": "",
-      "seconds": 1,
+      "seconds": 2,
       "was": ""
     },
     {
@@ -543,8 +582,21 @@
       "tokens": [],
       "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 90,
+      "seconds": 92,
       "was": ""
+    },
+    {
+      "id": 136,
+      "company": "АМ ГРУПП ЗАСТРОЙЩИК",
+      "responsible": "Савастьянов А.А.",
+      "site": "amg72.ru",
+      "brand": "Застройщик",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "page.goto: Timeout 60000ms exceeded.",
+      "expected": "",
+      "seconds": 92,
+      "was": "Было: Скрипт есть"
     },
     {
       "id": 146,
@@ -560,6 +612,19 @@
       "was": ""
     },
     {
+      "id": 164,
+      "company": "Гак Артекс Ростов-На-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-artex-rnd.ru",
+      "brand": "GAC",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "expected": "",
+      "seconds": 0,
+      "was": ""
+    },
+    {
       "id": 166,
       "company": "Belgee-artex.ru",
       "responsible": "Савастьянов А.А.",
@@ -567,9 +632,22 @@
       "brand": "Belgee",
       "konget": "Сайт не открылся",
       "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
+      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
       "expected": "",
-      "seconds": 90,
+      "seconds": 0,
+      "was": ""
+    },
+    {
+      "id": 168,
+      "company": "Джетур Артекс Ростов-на-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-artex.ru",
+      "brand": "Jetour",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "expected": "",
+      "seconds": 0,
       "was": ""
     },
     {
@@ -582,33 +660,7 @@
       "tokens": [],
       "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 90,
-      "was": ""
-    },
-    {
-      "id": 186,
-      "company": "[ct]БОРИСХОФ ТАНК",
-      "responsible": "Савастьянов А.А.",
-      "site": "tank-borishof.ru",
-      "brand": "TANK",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 90,
-      "was": ""
-    },
-    {
-      "id": 194,
-      "company": "ЧАНГАН ВЕЛИКАН",
-      "responsible": "Савастьянов А.А.",
-      "site": "i-changanauto.ru",
-      "brand": "Changan",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 90,
+      "seconds": 91,
       "was": ""
     },
     {
@@ -619,9 +671,9 @@
       "brand": "Сервис",
       "konget": "Сайт не открылся",
       "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_DATE_INVALID at https://nemdom.ru/",
+      "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 1,
+      "seconds": 90,
       "was": ""
     },
     {
@@ -638,6 +690,19 @@
       "was": ""
     },
     {
+      "id": 197,
+      "company": "Vikingi-chery.ru Тольятти",
+      "responsible": "Савастьянов А.А.",
+      "site": "vikingi-chery.ru",
+      "brand": "Chery",
+      "konget": "Сайт не открылся",
+      "tokens": [],
+      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
+      "expected": "",
+      "seconds": 0,
+      "was": ""
+    },
+    {
       "id": 203,
       "company": "Ньюстар",
       "responsible": "Савастьянов А.А.",
@@ -645,7 +710,7 @@
       "brand": "Knewstar",
       "konget": "Сайт не открылся",
       "tokens": [],
-      "reason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://knewstar-vsk.ru/",
+      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
       "expected": "",
       "seconds": 0,
       "was": ""
@@ -658,9 +723,9 @@
       "brand": "Kaiyi",
       "konget": "Сайт не открылся",
       "tokens": [],
-      "reason": "page.goto: net::ERR_CONNECTION_REFUSED at https://automarket-kaiyi.ru/",
+      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
       "expected": "",
-      "seconds": 10,
+      "seconds": 0,
       "was": ""
     },
     {
@@ -673,7 +738,7 @@
       "tokens": [],
       "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 154,
+      "seconds": 91,
       "was": ""
     },
     {
@@ -684,9 +749,9 @@
       "brand": "Мультибренд",
       "konget": "Сайт не открылся",
       "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://avto-import18.ru/",
+      "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 1,
+      "seconds": 90,
       "was": ""
     },
     {
@@ -699,7 +764,7 @@
       "tokens": [],
       "reason": "page.goto: Timeout 60000ms exceeded.",
       "expected": "",
-      "seconds": 126,
+      "seconds": 90,
       "was": ""
     },
     {
@@ -716,19 +781,6 @@
       "was": ""
     },
     {
-      "id": 220,
-      "company": "Дайнава-Лада",
-      "responsible": "Савастьянов А.А.",
-      "site": "daynava-lada.ru",
-      "brand": "LADA",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 151,
-      "was": ""
-    },
-    {
       "id": 1,
       "company": "АВАНГАРД ХОНЧИ",
       "responsible": "Савастьянов А.А.",
@@ -742,7 +794,7 @@
       "where": "https://app.konget.ru/inject?token=e65cb9d66e9e4eac8b4314d4b520201e",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -759,7 +811,7 @@
       "where": "https://app.konget.ru/inject?token=1923ed39a3c343069442a4313476c508",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -776,7 +828,7 @@
       "where": "https://app.konget.ru/inject?token=fc28e5bdb8cd4b87a709050a6b40f09e",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -793,7 +845,7 @@
       "where": "https://app.konget.ru/inject?token=feffcb83e32f4d748ded61e953079a68",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -810,7 +862,7 @@
       "where": "https://app.konget.ru/inject?token=deb618487f2341febe2092b64b7642e7",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -827,7 +879,7 @@
       "where": "https://app.konget.ru/inject?token=52f381c7350f40cab2e9ca25693bbe15",
       "reason": "",
       "expected": "",
-      "seconds": 33,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -844,7 +896,7 @@
       "where": "https://app.konget.ru/inject?token=b8b89f22aa4f46bbaca87cd1ed4187b6",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -861,7 +913,7 @@
       "where": "https://app.konget.ru/inject?token=ed528beca9b8446f973a43bdf2b1e59f",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -878,7 +930,7 @@
       "where": "https://app.konget.ru/inject?token=9519e8fa33334f408b0867947ee9db33",
       "reason": "",
       "expected": "",
-      "seconds": 33,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -895,7 +947,7 @@
       "where": "https://app.konget.ru/inject?token=a8e75e6c97204490b360751810a868ac",
       "reason": "",
       "expected": "",
-      "seconds": 44,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -912,7 +964,7 @@
       "where": "https://app.konget.ru/inject?token=7a6cec6f95c74d45a5e6ba084671d25d",
       "reason": "",
       "expected": "",
-      "seconds": 32,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -929,7 +981,7 @@
       "where": "https://app.konget.ru/inject?token=5c3a1b5c6d7f4fbfbebc0e2452e6b5c8",
       "reason": "",
       "expected": "",
-      "seconds": 28,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -946,7 +998,7 @@
       "where": "https://app.konget.ru/inject?token=bf2f4bfbb1e54174892c9d4c5a370d30",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -963,7 +1015,7 @@
       "where": "https://app.konget.ru/inject?token=fc2b3c478a4a4e0a95bc82bee906801e",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -980,7 +1032,7 @@
       "where": "https://app.konget.ru/inject?token=2914c5d6f3c0480f852dd89bd480fd66",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -997,7 +1049,7 @@
       "where": "https://app.konget.ru/inject?token=8640cf44896f4b62bf30fb531779845c",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -1014,7 +1066,7 @@
       "where": "https://app.konget.ru/inject?token=5908c212d5074e1ca9ca16cec2706517",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -1031,7 +1083,7 @@
       "where": "https://app.konget.ru/inject?token=06c6f39c96e5463ba2470f2e107ff226",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1048,7 +1100,7 @@
       "where": "https://app.konget.ru/inject?token=918e2cac240946fbbd643b5a177685be",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1065,7 +1117,7 @@
       "where": "https://app.konget.ru/inject?token=a30120e4563f4000bf64bf30f248f6b6",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1082,24 +1134,7 @@
       "where": "https://app.konget.ru/inject?token=f5a7cd6e845e40d2a6b9313460a377f8",
       "reason": "",
       "expected": "",
-      "seconds": 24,
-      "was": ""
-    },
-    {
-      "id": 24,
-      "company": "Hyundai Автодель",
-      "responsible": "Савастьянов А.А.",
-      "site": "hyundai-avtocenter.ru",
-      "brand": "Hyundai",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "54b4aec2731243fdb6bab199c8bf1bd3"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=54b4aec2731243fdb6bab199c8bf1bd3",
-      "reason": "",
-      "expected": "",
-      "seconds": 18,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -1116,7 +1151,7 @@
       "where": "https://app.konget.ru/inject?token=5429f190de9548179842e4753ad4cf22",
       "reason": "",
       "expected": "",
-      "seconds": 28,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -1133,24 +1168,7 @@
       "where": "https://app.konget.ru/inject?token=2d750f31f59e42c786ba868df20c9402",
       "reason": "",
       "expected": "",
-      "seconds": 23,
-      "was": ""
-    },
-    {
-      "id": 27,
-      "company": "Гак Автоимпорт Лендинг Рязань",
-      "responsible": "Савастьянов А.А.",
-      "site": "sale.gac-autoimport.ru",
-      "brand": "GAC",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "7250dc41647148c3879930331b8e9f1b"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7250dc41647148c3879930331b8e9f1b",
-      "reason": "",
-      "expected": "",
-      "seconds": 19,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1167,7 +1185,7 @@
       "where": "//app.konget.ru/inject?token=adc5508a0ce0404f8fa75ba26b146741",
       "reason": "",
       "expected": "",
-      "seconds": 24,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -1184,7 +1202,7 @@
       "where": "//app.konget.ru/inject?token=3ecded705d654c64b7302e747ea90e8b",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1201,24 +1219,7 @@
       "where": "https://app.konget.ru/inject?token=84ab2db850bb4165befe730258e50a7e",
       "reason": "",
       "expected": "",
-      "seconds": 20,
-      "was": ""
-    },
-    {
-      "id": 31,
-      "company": "Автоимпорт сервис Тула",
-      "responsible": "Савастьянов А.А.",
-      "site": "service.ta-haval.ru",
-      "brand": "Сервис",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "fc833bec709c4df39438ba67e59bba67"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=fc833bec709c4df39438ba67e59bba67",
-      "reason": "",
-      "expected": "",
-      "seconds": 17,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -1235,7 +1236,7 @@
       "where": "https://app.konget.ru/inject?token=0f2b93ec7ed14b948c1673ed9ba81021",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1252,8 +1253,25 @@
       "where": "https://app.konget.ru/inject?token=976978764fe04fa19e92c33c1e995ee9",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 19,
       "was": ""
+    },
+    {
+      "id": 36,
+      "company": "Autoclass-darit-podarki.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "autoclass-darit-podarki.ru",
+      "brand": "Мультибренд",
+      "konget": "Скрипт есть",
+      "tokens": [
+        "0fb2eccfca7c4e459ae690d808742543"
+      ],
+      "kind": "обычный",
+      "where": "https://app.konget.ru/inject?token=0fb2eccfca7c4e459ae690d808742543",
+      "reason": "",
+      "expected": "",
+      "seconds": 8,
+      "was": "Было: Сайт не открылся"
     },
     {
       "id": 37,
@@ -1269,7 +1287,7 @@
       "where": "https://app.konget.ru/inject?token=0fb2eccfca7c4e459ae690d808742543",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1286,7 +1304,7 @@
       "where": "https://app.konget.ru/inject?token=1a19cf9b44e34ec69306437b2566746e",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1303,7 +1321,7 @@
       "where": "https://app.konget.ru/inject?token=cfa78e80ab284be8b8e149c8439e6155",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1320,7 +1338,7 @@
       "where": "https://app.konget.ru/inject?token=3bbc86dc502f40b9b6635bbbef50af31",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -1337,7 +1355,7 @@
       "where": "https://app.konget.ru/inject?token=fb96459b09554ca9a35c9f0352ea68ef",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1354,7 +1372,7 @@
       "where": "https://app.konget.ru/inject?token=58de53064efa44ed93bb30014dfa2903",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1371,7 +1389,7 @@
       "where": "https://app.konget.ru/inject?token=c517cb3b80d0428aa46c0039f29b4e12",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1388,7 +1406,7 @@
       "where": "https://app.konget.ru/inject?token=3f524182494d4458b8a6e63ad08dc6b8",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1405,7 +1423,7 @@
       "where": "https://app.konget.ru/inject?token=5843235006ec489981f0301f9b70f00a",
       "reason": "",
       "expected": "",
-      "seconds": 1366,
+      "seconds": 1404,
       "was": ""
     },
     {
@@ -1422,7 +1440,7 @@
       "where": "https://app.konget.ru/inject?token=b95e7f02d7054464a801fc4556c8c3bd",
       "reason": "",
       "expected": "",
-      "seconds": 1359,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -1439,7 +1457,7 @@
       "where": "https://app.konget.ru/inject?token=15c01c58b6a24f9583a68c4b689f9634",
       "reason": "",
       "expected": "",
-      "seconds": 1355,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -1456,7 +1474,7 @@
       "where": "https://app.konget.ru/inject?token=21b8cb2f6a89481499f69b159a88eb74",
       "reason": "",
       "expected": "",
-      "seconds": 1355,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1473,7 +1491,7 @@
       "where": "https://app.konget.ru/inject?token=c54b32807de64f05be9ebf8dd8c8c476",
       "reason": "",
       "expected": "",
-      "seconds": 1370,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1490,7 +1508,7 @@
       "where": "https://app.konget.ru/inject?token=6eee84f30bad4fe99ac570177133f70e",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1507,7 +1525,7 @@
       "where": "https://app.konget.ru/inject?token=d8a3035e4d6d40a58a912b4285403fa1",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 1391,
       "was": ""
     },
     {
@@ -1524,7 +1542,7 @@
       "where": "https://app.konget.ru/inject?token=99e60e29be09458aa7eb131a29d32270",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -1541,7 +1559,7 @@
       "where": "https://app.konget.ru/inject?token=844793081e2c4b9393930747e4832993",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1558,7 +1576,7 @@
       "where": "https://app.konget.ru/inject?token=e12a1bb182644206ac95da6914307345",
       "reason": "",
       "expected": "",
-      "seconds": 31,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1575,7 +1593,7 @@
       "where": "https://app.konget.ru/inject?token=332cbd397bdd47c7ad359a1398fdea26",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1592,7 +1610,7 @@
       "where": "https://app.konget.ru/inject?token=1cd59f233ca04454989fd50a83a626da",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1609,7 +1627,7 @@
       "where": "https://app.konget.ru/inject?token=919fdeb9f0a84bccac71d18f483e4c86",
       "reason": "",
       "expected": "",
-      "seconds": 30,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1626,7 +1644,7 @@
       "where": "//app.konget.ru/inject?token=c92db85961ce48eb8562115cc981bdf2",
       "reason": "",
       "expected": "",
-      "seconds": 33,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1643,7 +1661,7 @@
       "where": "https://app.konget.ru/inject?token=af1ff2f3ca4647c5bed86f89a96037ff",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -1660,7 +1678,7 @@
       "where": "https://app.konget.ru/inject?token=a743cb30d17b40249038024d22892e4c",
       "reason": "",
       "expected": "",
-      "seconds": 50,
+      "seconds": 40,
       "was": ""
     },
     {
@@ -1677,7 +1695,7 @@
       "where": "https://app.konget.ru/inject?token=3e18e8d6fa5148baa44eee871a20cd4a",
       "reason": "",
       "expected": "",
-      "seconds": 46,
+      "seconds": 44,
       "was": ""
     },
     {
@@ -1694,7 +1712,7 @@
       "where": "https://app.konget.ru/inject?token=f58d138ae313466cade2f8e349da4621",
       "reason": "",
       "expected": "",
-      "seconds": 44,
+      "seconds": 45,
       "was": ""
     },
     {
@@ -1711,7 +1729,7 @@
       "where": "https://app.konget.ru/inject?token=48cd712b96634d07a73461e2af633702",
       "reason": "",
       "expected": "",
-      "seconds": 54,
+      "seconds": 45,
       "was": ""
     },
     {
@@ -1728,7 +1746,7 @@
       "where": "https://app.konget.ru/inject?token=2355780849ba47979bf2ce9fd6c5e88f",
       "reason": "",
       "expected": "",
-      "seconds": 52,
+      "seconds": 45,
       "was": ""
     },
     {
@@ -1745,7 +1763,7 @@
       "where": "https://app.konget.ru/inject?token=b70b1c1352f1486db94bef6179136f42",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 43,
       "was": ""
     },
     {
@@ -1762,7 +1780,7 @@
       "where": "https://app.konget.ru/inject?token=c301f0dacd1a4ce29f0b859d9a4b40c8",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 41,
       "was": ""
     },
     {
@@ -1779,7 +1797,7 @@
       "where": "https://app.konget.ru/inject?token=8a6e830097fa498db27522af7db35e3c",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 31,
       "was": ""
     },
     {
@@ -1796,7 +1814,7 @@
       "where": "https://app.konget.ru/inject?token=35a592a4990b4516b2e10ee3ea53e966",
       "reason": "",
       "expected": "",
-      "seconds": 31,
+      "seconds": 25,
       "was": ""
     },
     {
@@ -1813,7 +1831,7 @@
       "where": "https://app.konget.ru/inject?token=dfc2654bf8434c729f600fb99b40ce3f",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -1830,7 +1848,7 @@
       "where": "https://app.konget.ru/inject?token=dadb9ae19b2e42f7bd1e84e064aa7a8b",
       "reason": "",
       "expected": "",
-      "seconds": 33,
+      "seconds": 27,
       "was": ""
     },
     {
@@ -1847,7 +1865,7 @@
       "where": "https://app.konget.ru/inject?token=0a83f0af52954ddb83761945638dd5ae",
       "reason": "",
       "expected": "",
-      "seconds": 26,
+      "seconds": 23,
       "was": ""
     },
     {
@@ -1864,7 +1882,7 @@
       "where": "https://app.konget.ru/inject?token=708c38f6edca44ea9f2dbeffa44b2671",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 24,
       "was": ""
     },
     {
@@ -1881,7 +1899,7 @@
       "where": "https://app.konget.ru/inject?token=cbfb8977693b4194b714806c5019f4b1",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 22,
       "was": ""
     },
     {
@@ -1915,7 +1933,7 @@
       "where": "https://app.konget.ru/inject?token=87c8bc5feef5463bba3b54a38ce9a741",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 22,
       "was": ""
     },
     {
@@ -1932,7 +1950,7 @@
       "where": "https://app.konget.ru/inject?token=13ae36d4eafb43a182979d88137640e6",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 24,
       "was": ""
     },
     {
@@ -1949,7 +1967,7 @@
       "where": "https://app.konget.ru/inject?token=3c6fe17d62334e10ab0bc1dc970ce3c7",
       "reason": "",
       "expected": "",
-      "seconds": 26,
+      "seconds": 18,
       "was": ""
     },
     {
@@ -1966,7 +1984,7 @@
       "where": "https://app.konget.ru/inject?token=6f9cc71d7cad4b76b1eebb30eff59f74",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -1983,7 +2001,7 @@
       "where": "https://app.konget.ru/inject?token=d027fcc061034ce1ac5a2cd8f9d4c9ac",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2000,7 +2018,7 @@
       "where": "https://app.konget.ru/inject?token=da132f603937479498a6c261a960d3de",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2017,7 +2035,7 @@
       "where": "https://app.konget.ru/inject?token=d54fe16b8610495d87200daec48f505f",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2034,7 +2052,7 @@
       "where": "https://app.konget.ru/inject?token=d8d85ce7bf4f4b46b9ef47487b40b143",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2051,7 +2069,7 @@
       "where": "https://app.konget.ru/inject?token=940e34661fa243f1b4d918a4b59657a7",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2068,7 +2086,7 @@
       "where": "https://app.konget.ru/inject?token=e03d283aef4947e7adab804465e17a19",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2085,7 +2103,7 @@
       "where": "https://app.konget.ru/inject?token=c680d38751d14728b119ea15c74900d8",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2102,7 +2120,7 @@
       "where": "https://app.konget.ru/inject?token=9bba85d4d4584eb999ae7a7ec63831b0",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2119,7 +2137,7 @@
       "where": "https://app.konget.ru/inject?token=624549f7ab724c29bc4310483e8b51b1",
       "reason": "",
       "expected": "",
-      "seconds": 32,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -2136,7 +2154,7 @@
       "where": "https://app.konget.ru/inject?token=a0404ef98a7048d3a23e9dfeb8633b8d",
       "reason": "",
       "expected": "",
-      "seconds": 32,
+      "seconds": 29,
       "was": ""
     },
     {
@@ -2153,7 +2171,7 @@
       "where": "https://app.konget.ru/inject?token=54844306894443cb8d1f2cd65b5e2edc",
       "reason": "",
       "expected": "",
-      "seconds": 31,
+      "seconds": 29,
       "was": ""
     },
     {
@@ -2170,7 +2188,7 @@
       "where": "https://app.konget.ru/inject?token=094b97d6da39445f8266289e2283f666",
       "reason": "",
       "expected": "",
-      "seconds": 29,
+      "seconds": 28,
       "was": ""
     },
     {
@@ -2187,7 +2205,7 @@
       "where": "https://app.konget.ru/inject?token=094b97d6da39445f8266289e2283f666",
       "reason": "",
       "expected": "",
-      "seconds": 28,
+      "seconds": 30,
       "was": ""
     },
     {
@@ -2204,7 +2222,7 @@
       "where": "https://app.konget.ru/inject?token=4e9424ea368e494496c2e7921074124b",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 31,
       "was": ""
     },
     {
@@ -2221,7 +2239,7 @@
       "where": "KONGET",
       "reason": "",
       "expected": "",
-      "seconds": 28,
+      "seconds": 30,
       "was": ""
     },
     {
@@ -2238,7 +2256,7 @@
       "where": "https://app.konget.ru/inject?token=2b216a50f8b14470aef0f3f2025ffb65",
       "reason": "",
       "expected": "",
-      "seconds": 32,
+      "seconds": 41,
       "was": ""
     },
     {
@@ -2255,7 +2273,7 @@
       "where": "https://app.konget.ru/inject?token=dbde84d0b9da4b70a9193d35fa3915ed",
       "reason": "",
       "expected": "",
-      "seconds": 24,
+      "seconds": 29,
       "was": ""
     },
     {
@@ -2272,7 +2290,7 @@
       "where": "https://app.konget.ru/inject?token=558319d5d315425b900d293f195a37aa",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 27,
       "was": ""
     },
     {
@@ -2289,7 +2307,7 @@
       "where": "https://app.konget.ru/inject?token=6025e582784a42869c936d45d69f899a",
       "reason": "",
       "expected": "",
-      "seconds": 24,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -2306,7 +2324,7 @@
       "where": "https://app.konget.ru/inject?token=4f00c97e1c204f189b3b8516d2dc0895",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -2323,7 +2341,7 @@
       "where": "https://app.konget.ru/inject?token=12878c40f2e54151a73d561cbfb3a889",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -2340,7 +2358,7 @@
       "where": "https://app.konget.ru/inject?token=4fd6052703f74fb6bff6893bebd1e194",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -2357,7 +2375,7 @@
       "where": "https://app.konget.ru/inject?token=aceca1bc03094f0d9ee22c1b4f6a4388",
       "reason": "",
       "expected": "",
-      "seconds": 32,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -2374,7 +2392,7 @@
       "where": "https://app.konget.ru/inject?token=1b22d8b6ad5e4a54975257fee4420b0a",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -2391,7 +2409,7 @@
       "where": "https://app.konget.ru/inject?token=6a504f992fa94e9c8f6711b59b1d54ef",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -2408,7 +2426,7 @@
       "where": "https://app.konget.ru/inject?token=850f81b1ea364d3c8f84f0d1027e6e2d",
       "reason": "",
       "expected": "",
-      "seconds": 34,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -2425,7 +2443,7 @@
       "where": "https://app.konget.ru/inject?token=01f7c1297f6542d1a09184121c63a612",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2442,7 +2460,7 @@
       "where": "https://app.konget.ru/inject?token=82936377b8874058b295dcb3295f6ff8",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2459,7 +2477,7 @@
       "where": "https://app.konget.ru/inject?token=7499b8b0e330417da273f2640e521421",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2476,7 +2494,7 @@
       "where": "https://app.konget.ru/inject?token=998bf2f7dcfa46a7a2d2b24a37114ea9",
       "reason": "",
       "expected": "",
-      "seconds": 24,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -2493,24 +2511,7 @@
       "where": "https://app.konget.ru/inject?token=a28347f4df774936bc1ff3e73c9f225e",
       "reason": "",
       "expected": "",
-      "seconds": 19,
-      "was": ""
-    },
-    {
-      "id": 136,
-      "company": "АМ ГРУПП ЗАСТРОЙЩИК",
-      "responsible": "Савастьянов А.А.",
-      "site": "amg72.ru",
-      "brand": "Застройщик",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "8975ad4e97f041ab996b23a8082b5d91"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=8975ad4e97f041ab996b23a8082b5d91",
-      "reason": "",
-      "expected": "",
-      "seconds": 19,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -2527,7 +2528,7 @@
       "where": "https://app.konget.ru/inject?token=23c10fb1e6c94ad1941c9d27a9072978",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2544,7 +2545,7 @@
       "where": "https://app.konget.ru/inject?token=716b0e790c6c4fa1807ba00c063b809c",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2561,7 +2562,7 @@
       "where": "https://app.konget.ru/inject?token=f0e88ee37b2e46bd8f75c5f32bf20043",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2578,7 +2579,7 @@
       "where": "https://app.konget.ru/inject?token=2424a81c5d8444c4b790075a4e1360f2",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2595,7 +2596,7 @@
       "where": "https://app.konget.ru/inject?token=6e1f111b06134f7fb75750bb504b0326",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -2612,7 +2613,7 @@
       "where": "https://app.konget.ru/inject?token=5f98d34e39ea412f82af8101a05c3e24",
       "reason": "",
       "expected": "",
-      "seconds": 26,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2629,7 +2630,7 @@
       "where": "https://app.konget.ru/inject?token=1ea6b4ef6b4a4e0fbe5bcb122d1aeb17",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2646,7 +2647,7 @@
       "where": "https://app.konget.ru/inject?token=bd256f963bd24d2f84dd18c26abf1352",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2663,7 +2664,7 @@
       "where": "https://app.konget.ru/inject?token=a72d5316dbcd46f48f62b5a7d548b2af",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2680,7 +2681,7 @@
       "where": "//app.konget.ru/inject?token=3470a0002ae94ad98e930564d5045862",
       "reason": "",
       "expected": "",
-      "seconds": 1950,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2697,7 +2698,7 @@
       "where": "https://app.konget.ru/inject?token=9d41209e39194e4b9d55823e2ac238da",
       "reason": "",
       "expected": "",
-      "seconds": 1948,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -2714,7 +2715,7 @@
       "where": "https://app.konget.ru/inject?token=28fe2fec3b4a4994ac52017734c26444",
       "reason": "",
       "expected": "",
-      "seconds": 1949,
+      "seconds": 31,
       "was": ""
     },
     {
@@ -2731,7 +2732,7 @@
       "where": "https://app.konget.ru/inject?token=883ca794d1874d5ab96be456ebd8a723",
       "reason": "",
       "expected": "",
-      "seconds": 1946,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -2748,7 +2749,7 @@
       "where": "https://app.konget.ru/inject?token=b0878c85a77645ddb133368d0f4ae285",
       "reason": "",
       "expected": "",
-      "seconds": 1943,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -2765,7 +2766,7 @@
       "where": "https://app.konget.ru/inject?token=717e530dad5d4afda2838c063fde4116",
       "reason": "",
       "expected": "",
-      "seconds": 1948,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -2782,7 +2783,7 @@
       "where": "https://app.konget.ru/inject?token=e27147f9cd814840b3d8426b4fd21366",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -2799,7 +2800,7 @@
       "where": "https://app.konget.ru/inject?token=0728bf6057574dd9943f991685a4ff0f",
       "reason": "",
       "expected": "",
-      "seconds": 24,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -2817,7 +2818,7 @@
       "where": "https://app.konget.ru/inject?token=84ceccbb89884e6e96b16f432e16aa5f",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -2834,7 +2835,7 @@
       "where": "https://app.konget.ru/inject?token=ef604ff72daa41b597ea9419180baf53",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -2851,7 +2852,7 @@
       "where": "https://app.konget.ru/inject?token=7a1290f2690e430d895f57257ec34ab4",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -2868,7 +2869,7 @@
       "where": "https://app.konget.ru/inject?token=22722170b9f84774ad1014de117bf3ab",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -2885,7 +2886,7 @@
       "where": "https://app.konget.ru/inject?token=7f0617432dc2427d933e5b8349ba9cad",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -2902,7 +2903,7 @@
       "where": "https://app.konget.ru/inject?token=f120e3072ad14993924bff7e06eb32b4",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -2919,41 +2920,7 @@
       "where": "https://app.konget.ru/inject?token=35311542dcd1439bb9535c2e24197110",
       "reason": "",
       "expected": "",
-      "seconds": 18,
-      "was": ""
-    },
-    {
-      "id": 164,
-      "company": "Гак Артекс Ростов-На-Дону",
-      "responsible": "Савастьянов А.А.",
-      "site": "gac-artex-rnd.ru",
-      "brand": "GAC",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "5f26e4111f91490ca04dc70724f64243"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=5f26e4111f91490ca04dc70724f64243",
-      "reason": "",
-      "expected": "",
-      "seconds": 32,
-      "was": ""
-    },
-    {
-      "id": 168,
-      "company": "Джетур Артекс Ростов-на-Дону",
-      "responsible": "Савастьянов А.А.",
-      "site": "jetour-artex.ru",
-      "brand": "Jetour",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "301311cafd744fb9bf5d114987f3571a"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=301311cafd744fb9bf5d114987f3571a",
-      "reason": "",
-      "expected": "",
-      "seconds": 19,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -2970,7 +2937,7 @@
       "where": "https://app.konget.ru/inject?token=51c14cec3d134aa1b2eed04b622fff00",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2987,7 +2954,7 @@
       "where": "https://app.konget.ru/inject?token=a9278ef74c9d4736a5eb396cecafbf24",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3004,7 +2971,7 @@
       "where": "https://app.konget.ru/inject?token=4d5a79c464784e94b9bf86738c5a72f8",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3021,7 +2988,7 @@
       "where": "https://app.konget.ru/inject?token=05a6c820e02c4947bcfea110e5dc769c",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3038,7 +3005,7 @@
       "where": "https://app.konget.ru/inject?token=7fc0f5aced4f4e8bad7e1abb2c8304b5",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3055,7 +3022,7 @@
       "where": "https://app.konget.ru/inject?token=28e9242f68be44a5889268385a148365",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -3072,7 +3039,7 @@
       "where": "//app.konget.ru/inject?token=6e838af61bbc4c98bb687071e73e9a06",
       "reason": "",
       "expected": "",
-      "seconds": 24,
+      "seconds": 23,
       "was": ""
     },
     {
@@ -3089,7 +3056,7 @@
       "where": "//app.konget.ru/inject?token=3ee517bda1f5450aa00584e4261c839e",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3106,7 +3073,7 @@
       "where": "https://app.konget.ru/inject?token=7042d23b8ccf497f9cb63dde4ec9093b",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3140,7 +3107,7 @@
       "where": "https://app.konget.ru/inject?token=63ab33ff63e44404bc6686ab0e93bc5c",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 18,
       "was": ""
     },
     {
@@ -3157,7 +3124,7 @@
       "where": "https://app.konget.ru/inject?token=2dfe506a629f49898cab1d2cbd4449b6",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3174,7 +3141,7 @@
       "where": "https://app.konget.ru/inject?token=2fdf409b4fc344e298640d366ad6c6b2",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -3191,8 +3158,25 @@
       "where": "https://app.konget.ru/inject?token=336ef547fff044938d5420b6b47847a9",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 10,
       "was": ""
+    },
+    {
+      "id": 186,
+      "company": "[ct]БОРИСХОФ ТАНК",
+      "responsible": "Савастьянов А.А.",
+      "site": "tank-borishof.ru",
+      "brand": "TANK",
+      "konget": "Скрипт есть",
+      "tokens": [
+        "3c3278ebc4ff4e50aa77b810649e2a35"
+      ],
+      "kind": "отложенный",
+      "where": "https://app.konget.ru",
+      "reason": "",
+      "expected": "",
+      "seconds": 6,
+      "was": "Было: Сайт не открылся"
     },
     {
       "id": 187,
@@ -3208,7 +3192,7 @@
       "where": "https://app.konget.ru/inject?token=2459a4bcaf184cd2a39749ce85d0b8a3",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3225,7 +3209,7 @@
       "where": "https://app.konget.ru/inject?token=49f086671baa4aa6930e09836fa9ddd4",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3242,7 +3226,7 @@
       "where": "https://app.konget.ru/inject?token=5f292978dc64484b98021c7c4066a832",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -3259,7 +3243,7 @@
       "where": "https://app.konget.ru/inject?token=87df7a6e4ca343b18ae6a6252ca80ae5",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3276,7 +3260,7 @@
       "where": "https://app.konget.ru/inject?token=9d59364f896d4394bfb3e3a6d841d856",
       "reason": "",
       "expected": "",
-      "seconds": 29,
+      "seconds": 19,
       "was": ""
     },
     {
@@ -3290,11 +3274,28 @@
         "aa96e00ab635425fa28553ced238eb56"
       ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=aa96e00ab635425fa28553ced238eb56",
+      "where": "konget",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 5,
       "was": ""
+    },
+    {
+      "id": 194,
+      "company": "ЧАНГАН ВЕЛИКАН",
+      "responsible": "Савастьянов А.А.",
+      "site": "i-changanauto.ru",
+      "brand": "Changan",
+      "konget": "Скрипт есть",
+      "tokens": [
+        "e52f928f723f46e989323950865fee73"
+      ],
+      "kind": "обычный",
+      "where": "https://app.konget.ru/inject?token=e52f928f723f46e989323950865fee73",
+      "reason": "",
+      "expected": "",
+      "seconds": 6,
+      "was": "Было: Сайт не открылся"
     },
     {
       "id": 198,
@@ -3310,7 +3311,7 @@
       "where": "https://app.konget.ru/inject?token=9b99dd9064424eb593f4f16b9dcf77b4",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -3327,7 +3328,7 @@
       "where": "https://app.konget.ru/inject?token=aeec07fa5d74406193779ae4b06efd47",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -3344,7 +3345,7 @@
       "where": "https://app.konget.ru/inject?token=7b7d3e000fcd4c53933aac3653d45a3f",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3361,7 +3362,7 @@
       "where": "https://app.konget.ru/inject?token=c37f08da80a8444a85922ae5b13cede6",
       "reason": "",
       "expected": "",
-      "seconds": 27,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3378,7 +3379,7 @@
       "where": "https://app.konget.ru/inject?token=51e62dbc129e4236b6c38e8ef02137cf",
       "reason": "",
       "expected": "",
-      "seconds": 28,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3395,7 +3396,7 @@
       "where": "https://app.konget.ru/inject?token=c5ed06a6ed6645b999d5955ebb5543ba",
       "reason": "",
       "expected": "",
-      "seconds": 25,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -3412,7 +3413,7 @@
       "where": "//app.konget.ru/inject?token=a8e145eb680847fdba9b509e1b3b3f16",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3429,7 +3430,7 @@
       "where": "//app.konget.ru/inject?token=8e2a72e8ed0e406b91d5afb5c0ef7eb9",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3446,7 +3447,7 @@
       "where": "https://app.konget.ru/inject?token=1a1439350b3740fa8c073a3fd14feae0",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3463,7 +3464,7 @@
       "where": "https://app.konget.ru/inject?token=4e1e7afe19a9411586426ba4a7f9c6e0",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3480,7 +3481,7 @@
       "where": "https://app.konget.ru/inject?token=e9ed0b4dd2f048588b85856bddca3c9e",
       "reason": "",
       "expected": "",
-      "seconds": 101,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -3497,7 +3498,7 @@
       "where": "https://app.konget.ru/inject?token=07c9864c75244467be518bbd2dea0b2a",
       "reason": "",
       "expected": "",
-      "seconds": 95,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3514,8 +3515,25 @@
       "where": "https://app.konget.ru/inject?token=14e9e4081afc4b21baec55de291f4acf",
       "reason": "",
       "expected": "",
-      "seconds": 93,
+      "seconds": 23,
       "was": ""
+    },
+    {
+      "id": 220,
+      "company": "Дайнава-Лада",
+      "responsible": "Савастьянов А.А.",
+      "site": "daynava-lada.ru",
+      "brand": "LADA",
+      "konget": "Скрипт есть",
+      "tokens": [
+        "ad379ba89cc74e889e8552f7db122211"
+      ],
+      "kind": "обычный",
+      "where": "https://app.konget.ru/inject?token=ad379ba89cc74e889e8552f7db122211",
+      "reason": "",
+      "expected": "",
+      "seconds": 5,
+      "was": "Было: Сайт не открылся"
     },
     {
       "id": 221,
@@ -3531,7 +3549,7 @@
       "where": "https://app.konget.ru/inject?token=c9213682495d4ab680e2b70693fb94ab",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3548,7 +3566,7 @@
       "where": "https://app.konget.ru/inject?token=92d9adc0f8a745e79a83c0d42ee45919",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -3565,7 +3583,7 @@
       "where": "https://app.konget.ru/inject?token=cda03c44b11d42c2bf18ee366c03738a",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3582,7 +3600,7 @@
       "where": "https://app.konget.ru/inject?token=c0319e0742314338884dd0339566ef68",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3599,7 +3617,7 @@
       "where": "https://app.konget.ru/inject?token=cbf878fddf5d4ba6967d1d3b88c9f88e",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3616,7 +3634,7 @@
       "where": "https://app.konget.ru/inject?token=e17a5fa8f8c94ee08a09c6effa59ac49",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -3633,7 +3651,7 @@
       "where": "https://app.konget.ru/inject?token=bd9bcee46e6c4e4c8bcd483204af80d8",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3650,7 +3668,7 @@
       "where": "https://app.konget.ru/inject?token=0e3c348876d6449297200c14e9f75274",
       "reason": "",
       "expected": "",
-      "seconds": 23,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3667,7 +3685,7 @@
       "where": "https://app.konget.ru/inject?token=a5642699b7b642718d3c8114d051742e",
       "reason": "",
       "expected": "",
-      "seconds": 22,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3684,7 +3702,7 @@
       "where": "https://app.konget.ru/inject?token=0483fa32df904c298c24fc404c1120ee",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3701,7 +3719,7 @@
       "where": "https://app.konget.ru/inject?token=041f7065b6d241098e33e63f15427357",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3718,7 +3736,7 @@
       "where": "https://app.konget.ru/inject?token=69c26d2b2ca14aac9fa952a11f3054d7",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3735,7 +3753,7 @@
       "where": "https://app.konget.ru/inject?token=1392223630e24db7be73a6b06f65a065",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3752,7 +3770,7 @@
       "where": "https://app.konget.ru/inject?token=273e2dd635ca4ab9b7c5a2f0a48e8317",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -3769,7 +3787,7 @@
       "where": "https://app.konget.ru/inject?token=15656cbebbd044e8b55974ba2cfc303f",
       "reason": "",
       "expected": "",
-      "seconds": 18,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3786,7 +3804,7 @@
       "where": "https://app.konget.ru/inject?token=ba98306ce898449b99f33c09c2cfd6e0",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3797,14 +3815,13 @@
       "brand": "Chery",
       "konget": "Скрипт есть",
       "tokens": [
-        "d3f2918044414587b969beb6574e9874",
-        "1392223630e24db7be73a6b06f65a065"
+        "d3f2918044414587b969beb6574e9874"
       ],
       "kind": "обычный",
       "where": "https://app.konget.ru/inject?token=d3f2918044414587b969beb6574e9874",
       "reason": "",
       "expected": "",
-      "seconds": 17,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3821,7 +3838,7 @@
       "where": "https://app.konget.ru/inject?token=795e049f9dc942e9adf21631d50e1743",
       "reason": "",
       "expected": "",
-      "seconds": 20,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3838,7 +3855,7 @@
       "where": "https://app.konget.ru/inject?token=27bec918d3d143b78337ffdc8fb8be98",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3855,7 +3872,7 @@
       "where": "https://app.konget.ru/inject?token=8a16f3250b5545d7a7a16027c85eab06",
       "reason": "",
       "expected": "",
-      "seconds": 19,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3872,7 +3889,7 @@
       "where": "https://app.konget.ru/inject?token=9325cb14ecf14510b187f51024ff0a4f",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3889,7 +3906,7 @@
       "where": "https://app.konget.ru/inject?token=63c9486e4f7148808a14fa8e74291c0f",
       "reason": "",
       "expected": "",
-      "seconds": 21,
+      "seconds": 7,
       "was": ""
     }
   ]
