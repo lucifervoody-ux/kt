@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-16",
-  "checked_at": "2026-11-16T09:25:20.910Z",
-  "previous_date": "2026-11-03",
-  "total_seconds": 809,
+  "date": "2026-11-19",
+  "checked_at": "2026-11-19T11:39:31.666Z",
+  "previous_date": "2026-11-16",
+  "total_seconds": 26,
   "parallel": 6,
   "summary": {
-    "Не изменилось": 12,
+    "Не изменилось": 13,
     "Изменилось": 31,
     "Требует проверки": 13,
     "Ошибка доступа": 5,
-    "Первая проверка": 26,
+    "Первая проверка": 25,
     "Нет сценария": 6
   },
   "sites": [
@@ -25,7 +25,8 @@
       "change": "Ошибка доступа",
       "changes": [],
       "seconds": 0,
-      "pages_opened": 0
+      "pages_opened": 0,
+      "screens": []
     },
     {
       "id": 34,
@@ -39,7 +40,8 @@
       "change": "Ошибка доступа",
       "changes": [],
       "seconds": 0,
-      "pages_opened": 0
+      "pages_opened": 0,
+      "screens": []
     },
     {
       "id": 197,
@@ -53,7 +55,8 @@
       "change": "Ошибка доступа",
       "changes": [],
       "seconds": 0,
-      "pages_opened": 0
+      "pages_opened": 0,
+      "screens": []
     },
     {
       "id": 203,
@@ -67,7 +70,8 @@
       "change": "Ошибка доступа",
       "changes": [],
       "seconds": 0,
-      "pages_opened": 0
+      "pages_opened": 0,
+      "screens": []
     },
     {
       "id": 205,
@@ -81,7 +85,8 @@
       "change": "Ошибка доступа",
       "changes": [],
       "seconds": 0,
-      "pages_opened": 0
+      "pages_opened": 0,
+      "screens": []
     },
     {
       "id": 29,
@@ -3685,135 +3690,6 @@
       ]
     },
     {
-      "id": 1,
-      "company": "АВАНГАРД ХОНЧИ",
-      "responsible": "Савастьянов А.А.",
-      "site": "hongqi-avangard.ru",
-      "brand": "Хончи",
-      "models": [
-        {
-          "model": "H5",
-          "price": 2490000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI H5",
-          "price": 3490000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "H5 Делюкс Плюс (Deluxe+)",
-          "price": 3490000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI HS3",
-          "price": 2490000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HS3 Комфорт (Comfort)",
-          "price": 2490000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI НОВЫЙ HS5",
-          "price": 3390000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "Новый HS5 Комфорт (Comfort)",
-          "price": 3390000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI H6",
-          "price": 3790000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "H6 Делюкс (Deluxe)",
-          "price": 3790000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI H9",
-          "price": 4300000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "H9 Делюкс (Deluxe)",
-          "price": 4300000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI НОВЫЙ HS7",
-          "price": 4770000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "Новый HS7 Делюкс (Deluxe)",
-          "price": 4770000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HONGQI HQ9",
-          "price": 5835000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        },
-        {
-          "model": "HQ9 Делюкс (Deluxe)",
-          "price": 5835000,
-          "max_benefit": "-",
-          "source_url": "https://hongqi-avangard.ru/"
-        }
-      ],
-      "screens": [],
-      "comment": "Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
-      "template": "*",
-      "status": "needs_check",
-      "promo_lines": [
-        "Преимущество по Трейд-ин",
-        "Доступен кредит **",
-        "ТО-1 в подарок",
-        "Цена от 3 490 000 ₽",
-        "Цена от 2 490 000 ₽",
-        "Цена от 3 390 000 ₽",
-        "Цена от 3 790 000 ₽",
-        "Цена от 4 300 000 ₽",
-        "Цена от 4 770 000 ₽",
-        "Цена от 5 835 000 ₽",
-        "Цена от 4 190 000 ₽",
-        "Цена от 5 790 000 ₽",
-        "Цена от 11 500 000 ₽",
-        "Цена от 5 390 000 ₽",
-        "Цена от 6 600 000 ₽",
-        "Изучите все условия кредита (займа) на сайте https://www.sberbank.com/ru/person/credits/money/avtokredit/dc.",
-        "Выгодный обмен автомобиля"
-      ],
-      "text_mode": true,
-      "seconds": 25,
-      "pages_opened": 3,
-      "change": "Первая проверка",
-      "changes": [
-        "Записан текст акций: строк 17"
-      ]
-    },
-    {
       "id": 2,
       "company": "Ли Авто Авангард",
       "responsible": "Савастьянов А.А.",
@@ -5651,6 +5527,133 @@
       "changes": [
         "Записан текст акций: строк 3"
       ]
+    },
+    {
+      "id": 1,
+      "company": "АВАНГАРД ХОНЧИ",
+      "responsible": "Савастьянов А.А.",
+      "site": "hongqi-avangard.ru",
+      "brand": "Хончи",
+      "models": [
+        {
+          "model": "H5",
+          "price": 2490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI H5",
+          "price": 3490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "H5 Делюкс Плюс (Deluxe+)",
+          "price": 3490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI HS3",
+          "price": 2490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HS3 Комфорт (Comfort)",
+          "price": 2490000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI НОВЫЙ HS5",
+          "price": 3390000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "Новый HS5 Комфорт (Comfort)",
+          "price": 3390000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI H6",
+          "price": 3790000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "H6 Делюкс (Deluxe)",
+          "price": 3790000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI H9",
+          "price": 4300000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "H9 Делюкс (Deluxe)",
+          "price": 4300000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI НОВЫЙ HS7",
+          "price": 4770000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "Новый HS7 Делюкс (Deluxe)",
+          "price": 4770000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HONGQI HQ9",
+          "price": 5835000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        },
+        {
+          "model": "HQ9 Делюкс (Deluxe)",
+          "price": 5835000,
+          "max_benefit": "-",
+          "source_url": "https://hongqi-avangard.ru/"
+        }
+      ],
+      "screens": [],
+      "comment": "Собрано запасным шаблоном (движок: Nuxt), цифры надо проверить; Модели найдены автопоиском карточек на главной, цифры проверьте; Сравнение по тексту акций главной страницы",
+      "template": "*",
+      "status": "needs_check",
+      "promo_lines": [
+        "Преимущество по Трейд-ин",
+        "Доступен кредит **",
+        "ТО-1 в подарок",
+        "Цена от 3 490 000 ₽",
+        "Цена от 2 490 000 ₽",
+        "Цена от 3 390 000 ₽",
+        "Цена от 3 790 000 ₽",
+        "Цена от 4 300 000 ₽",
+        "Цена от 4 770 000 ₽",
+        "Цена от 5 835 000 ₽",
+        "Цена от 4 190 000 ₽",
+        "Цена от 5 790 000 ₽",
+        "Цена от 11 500 000 ₽",
+        "Цена от 5 390 000 ₽",
+        "Цена от 6 600 000 ₽",
+        "Изучите все условия кредита (займа) на сайте https://www.sberbank.com/ru/person/credits/money/avtokredit/dc.",
+        "Выгодный обмен автомобиля"
+      ],
+      "text_mode": true,
+      "seconds": 26,
+      "pages_opened": 3,
+      "change": "Не изменилось",
+      "changes": []
     },
     {
       "id": 3,
