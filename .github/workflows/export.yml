@@ -4,6 +4,11 @@ name: Выгрузка в таблицу
 
 on:
   workflow_dispatch:
+    inputs:
+      site:
+        description: 'ID сайтов через запятую (пусто — все сайты)'
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -29,4 +34,5 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
-        run: node collector/export.mjs
+          SITE: ${{ inputs.site }}
+        run: node collector/export.mjs --site "$SITE"
