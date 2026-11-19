@@ -1,11 +1,8 @@
 {
   "date": "2026-11-19",
-  "checked_at": "2026-11-19T11:49:40.683Z",
-  "total_seconds": 293,
+  "checked_at": "2026-11-19T12:36:36.158Z",
+  "total_seconds": 90,
   "parallel": 6,
-  "stopped": true,
-  "checked": 154,
-  "planned": 243,
   "summary": {
     "Не работает": 4,
     "Проверить вручную": 27,
@@ -1303,11 +1300,11 @@
       "health": "Работает",
       "reason": "",
       "code": 200,
-      "load_seconds": 2.7,
+      "load_seconds": 4.6,
       "final_url": "https://uaz-avtomarket.ru/",
       "engine": "УАЗ-дилер",
       "title": "ООО \"Севертранс\" - официальный дилер УАЗ",
-      "seconds": 13,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -2167,11 +2164,11 @@
       "health": "Работает",
       "reason": "",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 1.2,
       "final_url": "https://belgee-aem.ru/",
       "engine": "Perxis",
       "title": "Купить новый автомобиль BELGEE 2026 в Барнауле - Цена и комплектации BELGEE у официального дилера",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2519,11 +2516,11 @@
       "health": "Работает",
       "reason": "",
       "code": 200,
-      "load_seconds": 3.4,
+      "load_seconds": 2.9,
       "final_url": "https://chery-spb-pulkovo.ru/",
       "engine": "Не определён",
       "title": "Chery - ЧЕРИ ЦЕНТР Пулково",
-      "seconds": 12,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -2919,11 +2916,11 @@
       "health": "Работает",
       "reason": "",
       "code": 200,
-      "load_seconds": 1.9,
+      "load_seconds": 2.1,
       "final_url": "https://geely-artex.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Geely в Ростове-на-Дону – автосалон АРТЕКС",
-      "seconds": 4,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3351,11 +3348,11 @@
       "health": "Работает",
       "reason": "",
       "code": 200,
-      "load_seconds": 2.2,
+      "load_seconds": 5.4,
       "final_url": "https://solaris-vip-auto.ru/",
       "engine": "Каскад",
       "title": "Официальный дилер Solaris в Твери \"Вип Авто\", купить новый Солярис",
-      "seconds": 4,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -3527,11 +3524,11 @@
       "health": "Работает",
       "reason": "",
       "code": 200,
-      "load_seconds": 1.9,
+      "load_seconds": 2.7,
       "final_url": "https://geely-davauto.ru/",
       "engine": "Perxis",
       "title": "Джили Geely купить 2026 цена в Перми у официального дилера Дав Авто",
-      "seconds": 6,
+      "seconds": 13,
       "was": ""
     },
     {
