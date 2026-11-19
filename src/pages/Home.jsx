@@ -27,12 +27,11 @@ function resultOf(job, report, run) {
   const count = (list) => sites.filter((s) => list.includes(s[job.field])).length;
   if (job.key === 'health') {
     const bad = count(HEALTH_PROBLEMS);
-    return { main: `Работают ${sites.length - bad} из ${sites.length}`, bad: bad ? `Нужно посмотреть: ${bad}` : '', when: report.checked_at };
-  }
-  if (job.key === 'konget') {
-    const ok = count(['Скрипт есть']);
-    const bad = count(KONGET_PROBLEMS);
-    return { main: `Скрипт есть на ${ok} из ${sites.length}`, bad: bad ? `Нужно посмотреть: ${bad}` : '', when: report.checked_at };
+    const withScript = sites.filter((s) => s.konget === 'Скрипт есть').length;
+    const attention = sites.filter((s) => HEALTH_PROBLEMS.includes(s.health) || KONGET_PROBLEMS.includes(s.konget)).length;
+    const scriptCount = sites.filter((s) => s.konget).length;
+    const scriptInfo = scriptCount ? ` · Скрипт есть на ${withScript} из ${scriptCount}` : '';
+    return { main: `Работают ${sites.length - bad} из ${sites.length}${scriptInfo}`, bad: attention ? `Нужно посмотреть: ${attention}` : '', when: report.checked_at };
   }
   const changed = count(['Изменилось']);
   const bad = count(ATTENTION);

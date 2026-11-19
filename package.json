@@ -10,7 +10,7 @@
     "collect": "node collector/collect.mjs",
     "test": "node --test collector/*.test.mjs",
     "health": "node collector/health.mjs",
-    "konget": "node collector/konget.mjs",
+    "konget": "node collector/health.mjs",
     "export": "node collector/export.mjs"
   },
   "dependencies": {

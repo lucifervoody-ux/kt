@@ -84,15 +84,16 @@ test('листы таблицы: сводка по сайтам, проблем�
       sites: [{ id: 1, site: 'a.ru', ...base, change: 'Изменилось', changes: ['T8: цена'], models: [{ model: 'T8', price: 2899000, max_benefit: '-' }] }],
     },
   });
-  assert.deepEqual(Object.keys(sheets), ['Сводка', 'Работа сайтов', 'Скрипт Конгет', 'УТП']);
+  assert.deepEqual(Object.keys(sheets), ['Сводка', 'Сайты и скрипт', 'УТП']);
   const rows = (name) => sheetValues(sheets[name]);
   assert.equal(rows('Сводка')[0][0], 'ID');
   assert.equal(rows('Сводка')[1][2], 'b.ru');
-  assert.deepEqual(rows('Сводка')[2].slice(5, 10), ['Работает', 'Скрипт есть', 'Да', 'Изменилось', 'T8: цена']);
+  assert.deepEqual(rows('Сводка')[2].slice(5, 9), ['Работает', 'Скрипт есть', 'Изменилось', 'T8: цена']);
   assert.ok(!JSON.stringify(sheets).includes('123456'), 'сам токен в таблицу не пишем');
   assert.deepEqual(rows('УТП')[1].slice(1, 7), ['a.ru', 'Tenet', 'Изменилось', 'Да', 'T8: цена', '']);
   assert.equal(rows('УТП').length, 2, 'одна строка — один сайт');
-  assert.equal(rows('Скрипт Конгет')[0][2], 'Статус');
+  assert.ok(!rows('Сводка')[0].includes('Токен есть'));
+  assert.equal(rows('Сайты и скрипт')[1][5], 'Скрипт есть');
   for (const spec of Object.values(sheets)) assert.ok(spec.rows.every((r) => r.length === spec.columns.length));
 });
 
@@ -185,7 +186,7 @@ test('в «Сводке» нет «Токен есть: Нет» у закрыт
     utp: { sites: [] },
   });
   assert.equal(sum.rows[0][7], '');
-  assert.equal(sum.rows[0][10], 'ERR_NAME_NOT_RESOLVED');
+  assert.equal(sum.rows[0][9], 'ERR_NAME_NOT_RESOLVED');
 });
 
 test('шаблоны движков читаются и у каждого есть движок', async () => {
@@ -294,4 +295,31 @@ test('просроченный сертификат — понятная при�
   const v = healthVerdict({ error: 'page.goto: net::ERR_CERT_DATE_INVALID at https://x.ru/' });
   assert.equal(v.health, HEALTH.manual);
   assert.match(v.reason, /просрочен/);
+});
+
+test('одно открытие сайта даёт доступность и отложенный скрипт', async () => {
+  const { checkSite } = await import('./health.mjs');
+  const calls = [];
+  let onRequest;
+  const url = 'https://dealer.example';
+  const page = {
+    on: (_, listener) => { onRequest = listener; },
+    goto: async () => { calls.push('goto'); return { status: () => 200, text: async () => GTM }; },
+    waitForLoadState: async () => {}, waitForFunction: async () => {},
+    evaluate: async () => LIVE, content: async () => GTM, title: async () => 'Дилер', url: () => url,
+    waitForTimeout: async () => onRequest({ url: () => 'https://app.konget.ru/inject?token=12345678' }),
+  };
+  const browser = { newContext: async () => ({ newPage: async () => page, close: async () => calls.push('close') }) };
+  const raw = await checkSite(browser, { site: url });
+  assert.equal(healthVerdict(raw).health, HEALTH.ok);
+  assert.equal(kongetVerdict(raw).konget, KONGET.ok);
+  assert.deepEqual(calls, ['goto', 'close']);
+});
+
+test('таймаут, заглушка и медленный сайт получают отдельное пояснение', async () => {
+  const { openingResult } = await import('./sheet.mjs');
+  assert.deepEqual(openingResult(HEALTH.manual, 'Таймаут'), ['Не работает', 'Ручная проверка. Таймаут']);
+  assert.deepEqual(openingResult(HEALTH.ok), ['Работает', 'Страница открылась']);
+  assert.deepEqual(openingResult(HEALTH.slow, 'Открывался 12 с'), ['Работает', 'Открывался 12 с']);
+  assert.deepEqual(openingResult(HEALTH.stub), ['Не работает', 'Вместо сайта показана заглушка']);
 });
