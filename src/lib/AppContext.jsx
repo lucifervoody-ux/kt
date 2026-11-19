@@ -6,6 +6,7 @@ import { JOB, JOBS } from './jobs';
 
 const Ctx = createContext(null);
 const POLL_MS = 10_000;
+const DEMO_SITE_IDS = Array.from({ length: 21 }, (_, index) => index + 1).join(',');
 
 export function AppProvider({ children }) {
   const [settings, setSettingsState] = useState(loadSettings);
@@ -53,7 +54,7 @@ export function AppProvider({ children }) {
   const start = async (key, siteId = '') => {
     setError('');
     const job = JOB[key];
-    await startWorkflow(settings, job.workflow, job.noSite ? null : { site: String(siteId) });
+    await startWorkflow(settings, job.workflow, { site: String(siteId || DEMO_SITE_IDS) });
     setRunSite((all) => ({ ...all, [key]: siteId }));
     setRuns((all) => ({ ...all, [key]: { status: 'queued', created_at: new Date().toISOString() } }));
     // GitHub не сразу показывает новый запуск: ждём немного, потом начинаем следить.
