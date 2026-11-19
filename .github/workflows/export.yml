@@ -3,6 +3,9 @@
 name: Выгрузка в таблицу
 
 on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/export.yml]
   workflow_dispatch:
     inputs:
       site:
