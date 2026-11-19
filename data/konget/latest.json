@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-16",
-  "checked_at": "2026-11-16T05:47:31.732Z",
-  "total_seconds": 1803,
+  "date": "2026-11-19",
+  "checked_at": "2026-11-19T11:39:17.275Z",
+  "total_seconds": 6,
   "parallel": 10,
   "summary": {
     "Скрипта нет": 28,
@@ -794,7 +794,7 @@
       "where": "https://app.konget.ru/inject?token=e65cb9d66e9e4eac8b4314d4b520201e",
       "reason": "",
       "expected": "",
-      "seconds": 8,
+      "seconds": 4,
       "was": ""
     },
     {
