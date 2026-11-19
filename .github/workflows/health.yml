@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       site:
-        description: 'ID одного сайта (пусто — все сайты)'
+        description: 'Совместимость с приложением. Проверяются семь тестовых сайтов.'
         required: false
         default: ''
 
@@ -38,16 +38,11 @@ jobs:
 
       - name: Проверить, открываются ли сайты
         env:
-          SITE: ${{ inputs.site }}
+          SITE: '27,46,111,134,169,200,219'
           # Список сайтов — из листа «Сайты» Google-таблицы.
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
-        run: |
-          if [ -n "$SITE" ]; then
-            exec node collector/health.mjs --site "$SITE"
-          else
-            exec node collector/health.mjs
-          fi
+        run: node collector/health.mjs --site "$SITE"
 
       # Сохраняем и тогда, когда проверку остановили кнопкой: то, что успели, не пропадёт.
       - name: Сохранить результат в репозиторий
