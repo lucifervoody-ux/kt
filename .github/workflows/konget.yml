@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       site:
-        description: 'Совместимость с приложением. Проверяются семь тестовых сайтов.'
+        description: 'ID одного сайта (пусто — все сайты)'
         required: false
         default: ''
 
@@ -47,11 +47,16 @@ jobs:
 
       - name: Найти скрипт Конгет на сайтах
         env:
-          SITE: '27,46,111,134,169,200,219'
+          SITE: ${{ inputs.site }}
           # Список сайтов — из листа «Сайты» Google-таблицы.
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
-        run: node collector/konget.mjs --site "$SITE"
+        run: |
+          if [ -n "$SITE" ]; then
+            exec node collector/konget.mjs --site "$SITE"
+          else
+            exec node collector/konget.mjs
+          fi
 
       # Сохраняем и тогда, когда проверку остановили кнопкой: то, что успели, не пропадёт.
       - name: Сохранить результат в репозиторий

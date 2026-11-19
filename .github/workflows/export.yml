@@ -4,11 +4,6 @@ name: Выгрузка в таблицу
 
 on:
   workflow_dispatch:
-    inputs:
-      site:
-        description: 'Совместимость с приложением. Выгрузка всегда ограничена семью тестовыми сайтами.'
-        required: false
-        default: ''
 
 permissions:
   contents: read
@@ -34,5 +29,4 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
-          SITE: '27,46,111,134,169,200,219'
-        run: node collector/export.mjs --site "$SITE"
+        run: node collector/export.mjs

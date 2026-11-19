@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       site:
-        description: 'Совместимость с приложением. Проверяются семь тестовых сайтов.'
+        description: 'ID сайтов через запятую (пусто — все сайты)'
         required: false
         default: ''
   schedule:
@@ -50,7 +50,7 @@ jobs:
 
       - name: Собрать цены и выгоды
         env:
-          SITE: '27,46,111,134,169,200,219'
+          SITE: ${{ inputs.site }}
           PARALLEL: 6 # сайтов одновременно (раньше 3)
           # Список сайтов — из листа «Сайты» Google-таблицы.
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
@@ -59,7 +59,12 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_MODEL: ${{ vars.AI_MODEL }}
-        run: node collector/collect.mjs --site "$SITE"
+        run: |
+          if [ -n "$SITE" ]; then
+            exec node collector/collect.mjs --site "$SITE"
+          else
+            exec node collector/collect.mjs
+          fi
 
       # Сохраняем и тогда, когда проверку остановили кнопкой: то, что успели, не пропадёт.
       - name: Сохранить результат в репозиторий

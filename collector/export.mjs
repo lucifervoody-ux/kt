@@ -12,7 +12,7 @@
 //   SHEET_ID — ссылка на таблицу или её id. Таблицу надо открыть служебному аккаунту как редактору.
 
 import path from 'node:path';
-import { DATA, argValue, log, readJson } from './common.mjs';
+import { DATA, log, readJson } from './common.mjs';
 import { SHEETS_API, api, connect } from './google.mjs';
 import { FIRST_DATA_ROW, buildSheets, findHeaderRow, placeColumns } from './sheet.mjs';
 
@@ -25,17 +25,10 @@ export function letter(i) {
 
 async function main() {
   const { token, id } = await connect();
-  const scope = argValue('--site');
-  const ids = scope ? new Set(scope.split(/[\s,;]+/).filter(Boolean)) : null;
-  const readReport = (key) => {
-    const report = readJson(path.join(DATA, key, 'latest.json'));
-    if (!ids || !report) return report;
-    return { ...report, sites: (report.sites || []).filter((site) => ids.has(String(site.id))) };
-  };
   const sheets = buildSheets({
-    health: readReport('health'),
-    konget: readReport('konget'),
-    utp: readReport('utp'),
+    health: readJson(path.join(DATA, 'health', 'latest.json')),
+    konget: readJson(path.join(DATA, 'konget', 'latest.json')),
+    utp: readJson(path.join(DATA, 'utp', 'latest.json')),
   });
 
   // Только читаем: какие листы есть, заголовки (строка 1) и выпадающие списки (строка 2).

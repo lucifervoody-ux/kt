@@ -6,8 +6,6 @@ import { JOB, JOBS } from './jobs';
 
 const Ctx = createContext(null);
 const POLL_MS = 10_000;
-const DEMO_SITES = new Set(['27', '46', '111', '134', '169', '200', '219']);
-const DEMO_SITE_IDS = [...DEMO_SITES].join(',');
 
 export function AppProvider({ children }) {
   const [settings, setSettingsState] = useState(loadSettings);
@@ -15,7 +13,7 @@ export function AppProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [runs, setRuns] = useState({}); // последний запуск каждой проверки на GitHub
-  const [runSite, setRunSite] = useState({}); // какой сайт перепроверяем ('' — демонстрационная выборка)
+  const [runSite, setRunSite] = useState({}); // какой сайт перепроверяем ('' — все)
   const [stopping, setStopping] = useState({}); // нажали «Остановить», ждём, пока GitHub остановит
   const timers = useRef({});
 
@@ -29,12 +27,7 @@ export function AppProvider({ children }) {
     setLoading(true);
     setError('');
     try {
-      const list = await Promise.all(JOBS.filter((j) => j.file).map(async (j) => {
-        const report = await loadData(settings, j.file);
-        if (!report) return [j.key, report];
-        const sites = (report.sites || []).filter((site) => DEMO_SITES.has(String(site.id)));
-        return [j.key, { ...report, sites }];
-      }));
+      const list = await Promise.all(JOBS.filter((j) => j.file).map(async (j) => [j.key, await loadData(settings, j.file)]));
       setReports(Object.fromEntries(list));
     } catch (e) {
       setError(e.message);
@@ -60,7 +53,7 @@ export function AppProvider({ children }) {
   const start = async (key, siteId = '') => {
     setError('');
     const job = JOB[key];
-    await startWorkflow(settings, job.workflow, { site: String(siteId || DEMO_SITE_IDS) });
+    await startWorkflow(settings, job.workflow, job.noSite ? null : { site: String(siteId) });
     setRunSite((all) => ({ ...all, [key]: siteId }));
     setRuns((all) => ({ ...all, [key]: { status: 'queued', created_at: new Date().toISOString() } }));
     // GitHub не сразу показывает новый запуск: ждём немного, потом начинаем следить.
