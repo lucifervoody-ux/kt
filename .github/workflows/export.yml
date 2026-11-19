@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       site:
-        description: 'ID сайтов через запятую (пусто — все сайты)'
+        description: 'Совместимость с приложением. Выгрузка всегда ограничена семью тестовыми сайтами.'
         required: false
         default: ''
 
@@ -34,5 +34,5 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
-          SITE: ${{ inputs.site }}
+          SITE: '27,46,111,134,169,200,219'
         run: node collector/export.mjs --site "$SITE"
