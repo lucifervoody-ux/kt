@@ -308,7 +308,7 @@ ion-alert.nice-alert .alert-button { height: 52px; border-radius: 16px; border: 
 ion-alert.nice-alert .alert-button.alert-button-role-cancel { background: linear-gradient(135deg, var(--accent-a), var(--accent-c)); color: #fff; }
 ion-alert.nice-alert .alert-button.alert-button-role-destructive { background: var(--red-bg); color: var(--red); }
 
-/* Главная: четыре кнопки-карточки */
+/* Главная: кнопки проверок и выгрузки */
 .page.wide { max-width: 1000px; }
 .job-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
 @media (min-width: 760px) { .job-grid { grid-template-columns: repeat(2, 1fr); } }

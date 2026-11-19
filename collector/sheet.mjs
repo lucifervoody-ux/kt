@@ -1,4 +1,4 @@
-// Раскладка результатов по листам Google-таблицы (кнопка 4): какие значения в какие колонки.
+// Раскладка результатов по листам Google-таблицы (кнопка 3): какие значения в какие колонки.
 // Оформление, списки и цвета таблицы настраивает человек, программа их не трогает:
 // она находит свои колонки по заголовкам и пишет только значения, выбирая их из списков колонки.
 // Здесь нет обращения к Google, поэтому это легко проверить тестами. Запись в таблицу — в export.mjs.
@@ -6,13 +6,16 @@
 import { CHANGE } from './lib.mjs';
 import { HEALTH, KONGET } from './checks.mjs';
 
-const yes = (v) => (v ? 'Да' : 'Нет');
-
 // Колонка: заголовок, под которым программа ищет её в таблице.
 const col = (title) => ({ title });
 
 // Что выгружаем: имя листа → { columns, rows }.
-const workState = (h) => ([HEALTH.ok, HEALTH.slow].includes(h) ? 'Работает' : h === HEALTH.manual ? HEALTH.manual : 'Не работает');
+export function openingResult(health, reason = '') {
+  if (!health) return ['', ''];
+  if (health === HEALTH.manual) return ['Не работает', `Ручная проверка. ${reason || 'Не удалось подтвердить открытие сайта'}`];
+  const opened = [HEALTH.ok, HEALTH.slow].includes(health);
+  return [opened ? 'Работает' : 'Не работает', reason || (opened ? 'Страница открылась' : health === HEALTH.stub ? 'Вместо сайта показана заглушка' : 'Главная страница не открылась')];
+}
 
 export function buildSheets({ health, konget, utp }) {
   const byId = (report) => new Map((report?.sites || []).map((s) => [String(s.id), s]));
@@ -33,7 +36,7 @@ export function buildSheets({ health, konget, utp }) {
       problems,
       row: [
         Number(id), site.company || '', site.site, site.brand || '', site.responsible || '',
-        hs?.health || '', ks?.konget || '', ks && ks.konget !== KONGET.down ? yes(ks.tokens?.length) : '', us?.change || '',
+        hs?.health || '', ks?.konget || '', us?.change || '',
         (us?.changes || []).join('; '),
         // Если сайт не открылся, причина у проверки работы и у скрипта одна: пишем её один раз.
         [...new Set([hs?.reason, ks?.konget === KONGET.down && hs?.reason ? '' : ks?.reason, us?.comment].filter(Boolean))].join('; '),
@@ -47,27 +50,24 @@ export function buildSheets({ health, konget, utp }) {
     'Сводка': {
       columns: [
         col('ID'), col('Компания'), col('Сайт'), col('Бренд'), col('Ответственный'),
-        col('Сайт работает'), col('Скрипт Конгет'), col('Токен есть'), col('УТП'), col('Что изменилось'), col('Комментарий'),
+        col('Сайт работает'), col('Скрипт Конгет'), col('УТП'), col('Что изменилось'), col('Комментарий'),
       ],
       rows: summary,
     },
-    'Работа сайтов': {
+    'Сайты и скрипт': {
       columns: [
-        col('ID'), col('Сайт'), col('Статус'), col('Код ответа'), col('Работоспособность'), col('Причина'), col('Было'),
+        col('ID'), col('Сайт'), col('Статус'), col('Код ответа'), col('Причина'), col('Скрипт Конгет'),
+        col('Было'), col('Как стоит'), col('Пояснение скрипта'), col('Скрипт раньше'),
       ],
-      rows: sites(health).map((s) => [
-        s.id, s.site, s.health, s.code ?? '', workState(s.health),
-        s.reason || '', (s.was || '').replace('Было: ', ''),
-      ]),
-    },
-    'Скрипт Конгет': {
-      columns: [
-        col('ID'), col('Сайт'), col('Статус'), col('Как стоит'), col('Пояснение'), col('Было'),
-      ],
-      rows: sites(konget).map((s) => [
-        s.id, s.site, s.konget, s.kind || '', s.reason || '',
-        (s.was || '').replace('Было: ', ''),
-      ]),
+      rows: [...new Set([...h.keys(), ...k.keys()])].map((id) => {
+        const hs = h.get(id);
+        const script = k.get(id);
+        const ks = !hs || hs.site === script?.site ? script : null;
+        const [status, detail] = openingResult(hs?.health, hs?.reason);
+        return [Number(id), (hs || ks).site, status, hs?.code ?? '', detail, ks?.konget || '',
+          (hs?.was || '').replace('Было: ', ''), ks?.kind || '',
+          ks?.reason && ks.reason !== hs?.reason ? ks.reason : '', (ks?.was || '').replace('Было: ', '')];
+      }),
     },
     // «УТП»: одна строка — один сайт. Есть ли изменения с прошлого сбора и какие.
     'УТП': {

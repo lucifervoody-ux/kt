@@ -1,32 +1,20 @@
-// Четыре кнопки главного экрана. У каждой своя проверка на GitHub (workflow) и свой файл с итогом.
+// Кнопки главного экрана. У каждой своя проверка на GitHub (workflow) и свой файл с итогом.
 import {
-  pulseOutline, codeSlashOutline, pricetagsOutline, cloudUploadOutline,
+  pulseOutline, pricetagsOutline, cloudUploadOutline,
 } from 'ionicons/icons';
 
 export const JOBS = [
   {
     key: 'health',
-    title: 'Проверить работоспособность сайтов',
-    short: 'Работа сайтов',
-    about: 'Открываем каждый сайт: работает ли он, не заглушка ли, быстро ли грузится',
+    title: 'Проверить сайты и скрипт Конгет',
+    short: 'Сайты и скрипт',
+    about: 'За одно открытие проверяем доступность сайта и наличие скрипта Конгет',
     workflow: 'health.yml',
     file: 'data/health/latest.json',
     field: 'health',
     icon: pulseOutline,
     gradient: ['#10b981', '#0ea5e9'],
     started: 'Проверка запущена. Обычно это несколько минут.',
-  },
-  {
-    key: 'konget',
-    title: 'Наличие скрипта Конгет',
-    short: 'Скрипт Конгет',
-    about: 'Ищем на сайте app.konget.ru/inject?token=…: обычный и отложенный скрипт',
-    workflow: 'konget.yml',
-    file: 'data/konget/latest.json',
-    field: 'konget',
-    icon: codeSlashOutline,
-    gradient: ['#6366f1', '#a855f7'],
-    started: 'Проверка запущена. На каждый сайт уходит около 15 секунд.',
   },
   {
     key: 'utp',

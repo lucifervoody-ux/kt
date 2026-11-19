@@ -1,0 +1,3841 @@
+{
+  "hongqi-avangard.ru": {
+    "id": 1,
+    "engine": "*",
+    "brand": "Хончи",
+    "card": {
+      "card": ".models-item__main",
+      "model": ".models-item__title",
+      "price": ".models-item__price"
+    },
+    "priceAnchors": [
+      "div.models-item__complectation-wrapper > div.mt-6.lg\\:basis-\\[25\\%\\] > div.models-item__complectation-price.relative",
+      "div.models-item__details > div.models-item__main > div.models-item__price.my-4",
+      "div.swiper-slide > article.models-item > div.models-item__price.text-center",
+      "div.swiper-slide.swiper-slide-prev > article.models-item > div.models-item__price.text-center"
+    ],
+    "modelNames": [
+      "HONGQI H5",
+      "HONGQI HS3",
+      "HONGQI Новый HS5",
+      "HONGQI H6",
+      "HONGQI H9",
+      "HONGQI Новый HS7",
+      "HONGQI HQ9"
+    ]
+  },
+  "lixiang-avangard.ru": {
+    "id": 2,
+    "engine": "*",
+    "brand": "Li Auto",
+    "priceAnchors": [
+      "div.v-col-sm-6.v-col-lg-4 > div.v-card.v-card--hover > div.v-card-subtitle.text-h6",
+      "div.v-card-text > a.text-decoration-none > div.text-h6.text-accent",
+      "div.v-card.v-theme--light > form.v-form > div.v-card-title.text-h5",
+      "div.v-sheet.v-theme--light > div > div.text-h3.text-lg-h2"
+    ],
+    "modelNames": [
+      "L6",
+      "L7",
+      "L8",
+      "L9"
+    ]
+  },
+  "avangard-liauto.ru": {
+    "id": 3,
+    "engine": "Perxis",
+    "brand": "Li Auto",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.small-caps",
+      "div.web_block_model-range__item > div.web_block_model-range__item-content.p-green > div.web_block_model-range__item-price.small-caps"
+    ],
+    "modelNames": [
+      "Ли Л6 | Li L6",
+      "Ли Л7 | Li L7",
+      "Ли Л9 | Li L9",
+      "Ли Л8 | Li L8",
+      "Л9 Ливис I L9 Livis"
+    ]
+  },
+  "havalpro-avangard.ru": {
+    "id": 4,
+    "engine": "*",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.models-list__item > a > p",
+      "article.banner-text > b.price > span",
+      "div.review__left-curtain > div.text > p.text__price"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "avangard-havalpro.ru": {
+    "id": 5,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "belgee-lahta.ru": {
+    "id": 6,
+    "engine": "*",
+    "brand": "Belgee",
+    "card": {
+      "card": ".model-details__main",
+      "model": ".model-details__title",
+      "price": ".model-price"
+    },
+    "priceAnchors": [
+      "div.model-complectation > div.model-complectation__info > div.model-price",
+      "div.container > div.hero-slider__text > div.hero-slider__benefit",
+      "article.model-preview > div.model-preview__about > div.model-price",
+      "div.model-details__preview-wrapper > div.model-details__main > div.model-price"
+    ],
+    "modelNames": [
+      "Belgee X50+",
+      "Belgee S50",
+      "Belgee X70",
+      "Belgee X50"
+    ]
+  },
+  "belgee-avangard.ru": {
+    "id": 7,
+    "engine": "Perxis",
+    "brand": "Belgee",
+    "priceAnchors": [
+      "div.js-model-range-slide.web_block_model-range__slide > div.web_block_model-range__slide-header.d-lg-none > span.caps",
+      "div.web_block_media-hero__content-text-wrap > div.web_block_media-hero__text-wrap > div.web_block_media-hero__subtitle.large-caps",
+      "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price",
+      "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet > span.caps"
+    ],
+    "modelNames": [
+      "X50",
+      "X70",
+      "S50"
+    ]
+  },
+  "tank-avangard.ru": {
+    "id": 8,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "avangard-spb-tank.ru": {
+    "id": 9,
+    "engine": "*",
+    "brand": "TANK",
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "avangard-geely.ru": {
+    "id": 10,
+    "engine": "*",
+    "brand": "Geely",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.navbar-cars-dropdown__wrapper > div.navbar-cars-dropdown__item > h5",
+      "div.navbar-cars-dropdown__item > a > h5",
+      "div.cars-container > div.cars-block > h4.cars-block__price"
+    ],
+    "modelNames": [
+      "COOLRAY",
+      "ATLAS",
+      "MONJARO",
+      "EMGRAND",
+      "CITYRAY",
+      "OKAVANGO",
+      "PREFACE"
+    ]
+  },
+  "geely-avangard.ru": {
+    "id": 11,
+    "engine": "Perxis",
+    "brand": "Geely",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+      "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+    ],
+    "modelNames": [
+      "GEELY EX5 Гибрид",
+      "НОВЫЙ COOLRAY",
+      "CITYRAY",
+      "ATLAS",
+      "OKAVANGO",
+      "MONJARO",
+      "PREFACE",
+      "GEELY EX5"
+    ]
+  },
+  "sales.avilon-haval.ru": {
+    "id": 12,
+    "engine": "*",
+    "brand": "Хавейл Сити/Про",
+    "priceAnchors": [
+      "li.elementor-icon-list-item > span.elementor-icon-list-text > span.green",
+      "div.elementor-element.elementor-element-19647a9 > div.elementor-element.elementor-element-01c0d6c > p",
+      "div.elementor-element.elementor-element-0e12ce7 > div.elementor-element.elementor-element-cd4f7f1 > p",
+      "a.elementor-element.elementor-element-37cce51 > div.elementor-element.elementor-element-14ead3e8 > span.elementor-heading-title.elementor-size-default"
+    ]
+  },
+  "avilon-havalpro.ru": {
+    "id": 13,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "avilonhaval.ru": {
+    "id": 14,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "deepal-avtoban.ru": {
+    "id": 15,
+    "engine": "*",
+    "brand": "Deepal",
+    "priceAnchors": [
+      "div.mt-\\[50px\\].max-w-\\[591px\\] > div.text-white.leading-\\[140\\%\\] > p",
+      "ul.md\\:px-0.lg\\:col-span-12 > li.grid.grid-cols-2 > div.col-span-1.flex"
+    ],
+    "modelNames": [
+      "S07",
+      "S09"
+    ]
+  },
+  "sales.avtoban-changanauto.ru": {
+    "id": 16,
+    "engine": "Tilda",
+    "brand": "Changan",
+    "card": {
+      "card": ".t1025__item",
+      "model": ".t1025__title",
+      "price": ".t1025__price"
+    },
+    "modelNames": [
+      "Deepal S07",
+      "Deepal G318",
+      "Deepal S09",
+      "Changan CS35 Макс",
+      "Cnangan CS75 Плюс",
+      "Changan CS75 Плюс новый",
+      "Changan CS75 Про",
+      "Changan UNI-S",
+      "Changan HUNTER Плюс",
+      "Changan CS35 Плюс",
+      "Changan CS95",
+      "Changan EADO Плюс",
+      "Changan ALSVIN"
+    ]
+  },
+  "avtoban-changanauto.ru": {
+    "id": 17,
+    "engine": "*",
+    "brand": "Changan",
+    "routes": [
+      "/model/"
+    ],
+    "priceAnchors": [
+      "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[480px\\].text-simple-24"
+    ],
+    "modelNames": [
+      "CS35PLUS",
+      "CS55PLUS",
+      "CS75PLUS",
+      "UNI-K",
+      "UNI-V",
+      "UNI-T",
+      "ALSVIN",
+      "EADO PLUS",
+      "LAMORE",
+      "HUNTER PLUS"
+    ]
+  },
+  "solaris-avtoban.ru": {
+    "id": 18,
+    "engine": "*",
+    "brand": "Solaris",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "h5.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.cXtWWE > span.sc-hrGSpw.iUILmY"
+    ],
+    "modelNames": [
+      "HS",
+      "HC",
+      "KRS",
+      "KRX"
+    ]
+  },
+  "avtoban-jetour.ru": {
+    "id": 19,
+    "engine": "TradeDealer",
+    "brand": "JETOUR",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-model-price > span > span",
+      "div.td-submenu__description > span.h4 > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "avtoban-moskvich.ru": {
+    "id": 20,
+    "engine": "Tilda",
+    "brand": "Москвич",
+    "modelNames": [
+      "3",
+      "3е",
+      "6",
+      "8"
+    ]
+  },
+  "moskvich-avtoban.ru": {
+    "id": 21,
+    "engine": "Perxis",
+    "brand": "Москвич",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.menu-models__item-text > div.menu-models__item-price-wrap > div.menu-models__item-price",
+      "div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price > span.web_block_flow-model-range__item-price-text",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > p"
+    ],
+    "modelNames": [
+      "Москвич 3",
+      "Москвич 3e",
+      "Москвич 6",
+      "Москвич 3 с ручным управлением (РУ)",
+      "Москвич 8"
+    ]
+  },
+  "kia-avtoban.ru": {
+    "id": 22,
+    "engine": "*",
+    "brand": "Kia Сервис",
+    "priceAnchors": [
+      "div.shared-card__item__price > div.flex.items-center > div.shared-card__item__price-full"
+    ]
+  },
+  "sprobegom.avtodel.com": {
+    "id": 23,
+    "engine": "Каскад",
+    "brand": "АСП",
+    "routes": [
+      "/cars/"
+    ]
+  },
+  "hyundai-avtocenter.ru": {
+    "id": 24,
+    "engine": "*",
+    "brand": "Hyundai"
+  },
+  "aitmb-havalpro.ru": {
+    "id": 25,
+    "engine": "Каскад",
+    "brand": "HAVAL PRO",
+    "priceAnchors": [
+      "div.card__with__manager.d-flex > div.card__with__manager-content > div.card__with__manager-price.text-md-h2"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "autoimport-tmb-havalpro.ru": {
+    "id": 26,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "sale.gac-autoimport.ru": {
+    "id": 27,
+    "engine": "*",
+    "brand": "GAC",
+    "card": {
+      "card": ".model-desc",
+      "model": ".model-name",
+      "price": ".model-price"
+    },
+    "routes": [
+      "/cars/"
+    ],
+    "modelNames": [
+      "S7",
+      "S9",
+      "GS8",
+      "M8",
+      "GS3",
+      "GS8 Traveller",
+      "Empow",
+      "GS4"
+    ]
+  },
+  "gac-autoimport.ru": {
+    "id": 28,
+    "engine": "TradeDealer",
+    "brand": "GAC",
+    "card": {
+      "card": ".td-model-card__content",
+      "model": ".td-model-card__title",
+      "price": ".price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "button.tr-tag.tr-block > div.tr-text > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+      "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price"
+    ],
+    "modelNames": [
+      "GS4",
+      "GS8",
+      "Новый AION V",
+      "Новый S7",
+      "Новый HYPTEC HT",
+      "Новый S9",
+      "EMPOW",
+      "M8"
+    ]
+  },
+  "kgm-autoimport.ru": {
+    "id": 29,
+    "engine": "TradeDealer",
+    "brand": "KGM",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+      "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article",
+      "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__title"
+    ],
+    "modelNames": [
+      "TIVOLI",
+      "KORANDO",
+      "TORRES",
+      "REXTON"
+    ]
+  },
+  "ta-haval.ru": {
+    "id": 30,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "service.ta-haval.ru": {
+    "id": 31,
+    "engine": "*",
+    "brand": "Сервис"
+  },
+  "jetour-ai71.ru": {
+    "id": 32,
+    "engine": "TradeDealer",
+    "brand": "JETOUR",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-model-price > span > span",
+      "div.td-submenu__description > span.h4 > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "cars.jetour-ai71.ru": {
+    "id": 33,
+    "engine": "Каскад",
+    "brand": "JETOUR",
+    "card": {
+      "card": ".tab-card",
+      "model": ".tab-card__title",
+      "price": ".tab-card__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "button.tab-card.py-3 > div.textPrimary--text > div.tab-card__price.text-mob-body-1",
+      "div.pa-3.pa-sm-2 > div.model-card_mobile_name.d-flex > div.text-h3.primary--text",
+      "div.special.d-flex > div.special__left.d-flex > div.text-h2.text-mob-h2"
+    ],
+    "modelNames": [
+      "DASHING",
+      "X90+",
+      "X70+",
+      "T2",
+      "T1"
+    ]
+  },
+  "cars.chery.region62.ru": {
+    "id": 34,
+    "engine": "*",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "region62-chery.ru": {
+    "id": 35,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "autoclass-darit-podarki.ru": {
+    "id": 36,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "autoclass-tula.ru": {
+    "id": 37,
+    "engine": "*",
+    "brand": "Мультибренд",
+    "priceAnchors": [
+      "div.cbp-item.web-design > div.cbp-item-wrapper > div.cbp-l-grid-projects-title"
+    ]
+  },
+  "avtolider-haval.ru": {
+    "id": 38,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "auto-locman.ru": {
+    "id": 39,
+    "engine": "*",
+    "brand": "Мультибренд",
+    "priceAnchors": [
+      "div.cars-catalog__footer > div.link > span.cars-catalog__price"
+    ]
+  },
+  "moskvich-m-autolocman.ru": {
+    "id": 40,
+    "engine": "Perxis",
+    "brand": "Москвич",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.cg-2",
+      "div.web_block_media-hero__content-wrap > div > div.web_block_media-hero__title.h1"
+    ],
+    "modelNames": [
+      "М70",
+      "М90"
+    ]
+  },
+  "moskvich-autolocman.ru": {
+    "id": 41,
+    "engine": "Perxis",
+    "brand": "Москвич",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.menu-models__item-text > div.menu-models__item-price-wrap > div.menu-models__item-price",
+      "div.web_block_flow-model-range__item > div.web_block_flow-model-range__item-price > span.web_block_flow-model-range__item-price-text",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > p"
+    ],
+    "modelNames": [
+      "Москвич 3",
+      "Москвич 3e",
+      "Москвич 6",
+      "Москвич 3 с ручным управлением (РУ)",
+      "Москвич 8"
+    ]
+  },
+  "geely-autolocman.ru": {
+    "id": 42,
+    "engine": "Perxis",
+    "brand": "Geely",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+      "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+    ],
+    "modelNames": [
+      "GEELY EX5 Гибрид",
+      "НОВЫЙ COOLRAY",
+      "CITYRAY",
+      "ATLAS",
+      "OKAVANGO",
+      "MONJARO",
+      "PREFACE",
+      "GEELY EX5"
+    ]
+  },
+  "autolocman-probeg.ru": {
+    "id": 43,
+    "engine": "*",
+    "brand": "АСП"
+  },
+  "volga-avtomarket.ru": {
+    "id": 44,
+    "engine": "TradeDealer",
+    "brand": "Volga",
+    "routes": [
+      "/models/"
+    ]
+  },
+  "avtomarket-51.ru": {
+    "id": 45,
+    "engine": "Tilda",
+    "brand": "Мультибренд"
+  },
+  "uaz-avtomarket.ru": {
+    "id": 46,
+    "engine": "УАЗ-дилер",
+    "brand": "УАЗ",
+    "card": {
+      "card": ".main-cars-nav-item",
+      "model": ".main-cars-nav-item__title",
+      "price": ".main-cars-nav-item__price"
+    },
+    "routes": [
+      "/cars/"
+    ],
+    "priceAnchors": [
+      "div.available-cars-item__bar > div.available-cars-item__col > div.text.available-cars-item__title",
+      "div.main-cars-nav-item.main-cars__nav-item > div.main-cars-nav-item__price-wrapper > div.text.main-cars-nav-item__price",
+      "div.main-cars__container > div.main-cars__content.main-cars__content_patriot-mkpp > div.text.main-cars__price"
+    ],
+    "modelNames": [
+      "Патриот",
+      "Пикап",
+      "Хантер",
+      "Профи",
+      "Буханка"
+    ]
+  },
+  "avtomarket-haval.ru": {
+    "id": 47,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "exeed-service-automash.ru": {
+    "id": 48,
+    "engine": "Perxis",
+    "brand": "Exeed сервис"
+  },
+  "tenet-avtoruss.ru": {
+    "id": 49,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "avtoruss-chery.ru": {
+    "id": 50,
+    "engine": "*",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "avtoruss-service.ru": {
+    "id": 51,
+    "engine": "*",
+    "brand": "Сервис"
+  },
+  "podolsk.kia-avtoruss.ru": {
+    "id": 52,
+    "engine": "*",
+    "brand": "Kia сервис"
+  },
+  "kia-avtoruss.ru": {
+    "id": 53,
+    "engine": "*",
+    "brand": "Kia сервис"
+  },
+  "avtoruss.ru": {
+    "id": 54,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "moscow.kia-butovo.ru": {
+    "id": 55,
+    "engine": "*",
+    "brand": "Kia сервис"
+  },
+  "kia-butovo.ru": {
+    "id": 56,
+    "engine": "*",
+    "brand": "Kia сервис"
+  },
+  "tenet-olimp.ru": {
+    "id": 57,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "autocentr-haval.ru": {
+    "id": 58,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "chery-don.ru": {
+    "id": 59,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "avtotrade-kostroma.ru": {
+    "id": 60,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/cars/"
+    ],
+    "priceAnchors": [
+      "li > div.models_bottom > span.models_bottom_price",
+      "div.embla__slide > div.container > div.hero_desc"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "avtotrade-haval.ru": {
+    "id": 61,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "lada42.ru": {
+    "id": 62,
+    "engine": "Tilda",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "exeed42.ru": {
+    "id": 63,
+    "engine": "Tilda",
+    "brand": "Exeed",
+    "priceAnchors": [
+      "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom"
+    ],
+    "modelNames": [
+      "LX",
+      "TXL",
+      "RX",
+      "VX"
+    ]
+  },
+  "kgm-avtoduk.ru": {
+    "id": 64,
+    "engine": "TradeDealer",
+    "brand": "KGM",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article",
+      "div.td-slider__content.td-slider__desktop-content > div.td-slider__text > div.td-slider__title",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price"
+    ],
+    "modelNames": [
+      "TIVOLI",
+      "KORANDO",
+      "TORRES",
+      "REXTON"
+    ]
+  },
+  "avtoduk-exeed.ru": {
+    "id": 65,
+    "engine": "Perxis",
+    "brand": "Exeed",
+    "card": {
+      "card": ".menu2-models__item-text",
+      "model": ".menu2-models__item-title",
+      "price": ".menu2-models__item-price"
+    },
+    "routes": [
+      "/cars/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.menu2-models__item-link > div.menu2-models__item-text > div.menu2-models__item-price",
+      "div.row > div.col-lg-6 > div.large-text.mb-salad"
+    ],
+    "modelNames": [
+      "VX",
+      "RX"
+    ]
+  },
+  "avtoduk.lada.ru": {
+    "id": 66,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "uaz-agas.ru": {
+    "id": 67,
+    "engine": "УАЗ-дилер",
+    "brand": "УАЗ",
+    "card": {
+      "card": ".main-cars-nav-item",
+      "model": ".main-cars-nav-item__title",
+      "price": ".main-cars-nav-item__price"
+    },
+    "routes": [
+      "/cars/"
+    ],
+    "priceAnchors": [
+      "div.available-cars-item__bar > div.available-cars-item__col > div.text.available-cars-item__title",
+      "div.main-cars-nav-item.main-cars__nav-item > div.main-cars-nav-item__price-wrapper > div.text.main-cars-nav-item__price",
+      "div.main-cars__container > div.main-cars__content.main-cars__content_patriot-mkpp > div.text.main-cars__price"
+    ],
+    "modelNames": [
+      "Патриот",
+      "Пикап",
+      "Хантер",
+      "Профи",
+      "Буханка"
+    ]
+  },
+  "kmv-havalpro.ru": {
+    "id": 68,
+    "engine": "*",
+    "brand": "HAVAL PRO",
+    "priceAnchors": [
+      "div.d-inline > h4.popup.car_profit > strong"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat34-tenet.ru": {
+    "id": 69,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "agat13-tenet.ru": {
+    "id": 70,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "agat30-tenet.ru": {
+    "id": 71,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "agat-srn-havalpro.ru": {
+    "id": 72,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-krv-havalpro.ru": {
+    "id": 73,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-ekb-havalpro.ru": {
+    "id": 74,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-srt-havalpro.ru": {
+    "id": 75,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-ast-havalpro.ru": {
+    "id": 76,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-krsk-havalpro.ru": {
+    "id": 77,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-havalpro.ru": {
+    "id": 78,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-vlg-havalpro.ru": {
+    "id": 79,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "agat-krsk-haval.ru": {
+    "id": 80,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "agat-ekb-haval.ru": {
+    "id": 81,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "agat-saransk-haval.ru": {
+    "id": 82,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "agat-haval.ru": {
+    "id": 83,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "agat-srt-haval.ru": {
+    "id": 84,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "agat-krv-tank.ru": {
+    "id": 85,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "agat-vlg-tank.ru": {
+    "id": 86,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "abakan.agat-group.com": {
+    "id": 87,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "astrakhan.agat-group.com": {
+    "id": 88,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "vladimir.agat-group.com": {
+    "id": 89,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "ekaterinburg.agat-group.com": {
+    "id": 90,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "ivanovo.agat-group.com": {
+    "id": 91,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "kirov.agat-group.com": {
+    "id": 92,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "krasnoyarsk.agat-group.com": {
+    "id": 93,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "minvody.agat-group.com": {
+    "id": 94,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "rostov.agat-group.com": {
+    "id": 95,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "saransk.agat-group.com": {
+    "id": 96,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "stavropol.agat-group.com": {
+    "id": 97,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "syktyvkar.agat-group.com": {
+    "id": 98,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "yaroslavl.agat-group.com": {
+    "id": 99,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "gwm-wey-agat-krsk.ru": {
+    "id": 100,
+    "engine": "Perxis",
+    "brand": "WEY",
+    "card": {
+      "card": ".menu-models__item-info",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.swiper-wrapper.pt-red > div.web_block_model_range__slide.swiper-slide > div.web_block_model_range__price.h3",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-info > div.menu-models__item-price.supersmall-text"
+    ],
+    "modelNames": [
+      "WEY V9X",
+      "WEY 07",
+      "WEY 80",
+      "WEY 80 Лаундж",
+      "WEY 05"
+    ]
+  },
+  "agat-krsk-tank.ru": {
+    "id": 101,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "agat-srt-tank.ru": {
+    "id": 102,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "agat34-chery.ru": {
+    "id": 103,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "agat30-chery.ru": {
+    "id": 104,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "agat24-chery.ru": {
+    "id": 105,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "agat13-chery.ru": {
+    "id": 106,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "srt.agat.lada.ru": {
+    "id": 107,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "agat.lada.ru": {
+    "id": 108,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "agat-nn-tank.ru": {
+    "id": 109,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "omoda-agat-nn.ru": {
+    "id": 110,
+    "engine": "Perxis",
+    "brand": "Omoda",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_model_range-colors__content > div.web_block_model_range-colors__heading.mb-green > p.web_block_model_range-colors__price.mt-yellow"
+    ],
+    "modelNames": [
+      "C5",
+      "C7"
+    ]
+  },
+  "belgee-aem.ru": {
+    "id": 111,
+    "engine": "Perxis",
+    "brand": "Belgee",
+    "card": {
+      "card": ".menu-models__item-link",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.js-model-range-slide.web_block_model-range__slide > div.web_block_model-range__slide-header.d-lg-none > span.caps",
+      "div.web_block_media-hero__content-text-wrap > div.web_block_media-hero__text-wrap > div.web_block_media-hero__subtitle.large-caps",
+      "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price",
+      "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet > span.caps"
+    ],
+    "modelNames": [
+      "Новый X50",
+      "X50+",
+      "S50",
+      "X70"
+    ]
+  },
+  "promo.aem-tank.ru": {
+    "id": 112,
+    "engine": "*",
+    "brand": "TANK",
+    "priceAnchors": [
+      "div.text_container.white > div.title > span"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "aem-tank.ru": {
+    "id": 113,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "sale.aem-haval.ru": {
+    "id": 114,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "priceAnchors": [
+      "div.catalog-item-info > div.catalog-item-price > div.catalog-item-price-value",
+      "div.catalog-tab-prices > div.catalog-tab-price > div.catalog-tab-price-value",
+      "div.swiper-slide.swiper-slide-active > div.container > div.slider-title"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "promo.aem-haval.ru": {
+    "id": 115,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "aem-haval.ru": {
+    "id": 116,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "gac-barnaul.ru": {
+    "id": 117,
+    "engine": "TradeDealer",
+    "brand": "GAC",
+    "card": {
+      "card": ".td-model-card__content",
+      "model": ".td-model-card__title",
+      "price": ".price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price",
+      "div.td-slider__content.td-slider__desktop-content > div.td-slider__btns > div.h2",
+      "div.td-model-card__price-wrap > div.td-model-card__price > span.price"
+    ],
+    "modelNames": [
+      "GS4",
+      "GS8",
+      "Новый AION V",
+      "Новый S7",
+      "Новый HYPTEC HT",
+      "Новый S9",
+      "EMPOW",
+      "M8"
+    ]
+  },
+  "aemholding.ru": {
+    "id": 118,
+    "engine": "Каскад",
+    "brand": "Мультибренд"
+  },
+  "betasever-tenetplus.ru": {
+    "id": 119,
+    "engine": "Perxis",
+    "brand": "TENET Plus",
+    "card": {
+      "card": ".menu-models__left-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.menu-models__left-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "div.web_block_media-hero__content-wrap > div.js-animation-up.mt-s > div.web_block_media-hero__text.up-animate-3"
+    ],
+    "modelNames": [
+      "L4",
+      "L6"
+    ]
+  },
+  "kgm-betasever.ru": {
+    "id": 120,
+    "engine": "TradeDealer",
+    "brand": "KGM",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+      "div.td-card-widget__text-wrap > div.td-card-widget__text > div.td-card-widget__description.td-article"
+    ],
+    "modelNames": [
+      "TIVOLI",
+      "KORANDO",
+      "TORRES",
+      "REXTON"
+    ]
+  },
+  "tenet-betaonego.ru": {
+    "id": 121,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "chery-betaonego.ru": {
+    "id": 122,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "bestune-sevmarka.ru": {
+    "id": 123,
+    "engine": "*",
+    "brand": "Bestune",
+    "modelNames": [
+      "T55",
+      "T77",
+      "T90",
+      "B70"
+    ]
+  },
+  "tenet-beta-pulkovo.ru": {
+    "id": 124,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "bestune-betaonego.ru": {
+    "id": 125,
+    "engine": "Каскад",
+    "brand": "Bestune",
+    "priceAnchors": [
+      "div.item__content.container > div.item__price-container.d-flex > div.text-lg-h2.text-mob-h2",
+      "div.d-inline > p.text-mob-h2.text-lg-h2 > strong"
+    ],
+    "modelNames": [
+      "T55",
+      "T77",
+      "T90",
+      "B70"
+    ]
+  },
+  "sevmarka-jac.ru": {
+    "id": 126,
+    "engine": "Perxis",
+    "brand": "JAC",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_media-hero__content-wrap.word-up > div > div.web_block_media-hero__text.large-caps",
+      "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price.supersmall-text"
+    ],
+    "modelNames": [
+      "JAC T8 PRO Пикап",
+      "T9 Пикап",
+      "RF8 Минивэн"
+    ]
+  },
+  "jac-beta.ru": {
+    "id": 127,
+    "engine": "Каскад",
+    "brand": "JAC",
+    "priceAnchors": [
+      "div.sol-models__wrapper.overflow-hidden > div.mt-11.mt-md-14 > div.mt-3.text-mob-h6"
+    ],
+    "modelNames": [
+      "JS3",
+      "JS4",
+      "JS6",
+      "J7",
+      "T8",
+      "T9"
+    ]
+  },
+  "jetour-beta.ru": {
+    "id": 128,
+    "engine": "Каскад",
+    "brand": "Jetour",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.item__content.container > div.item__price-container.d-flex > div.text-lg-h2.text-mob-h2"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "chery-center-pulkovo.ru": {
+    "id": 129,
+    "engine": "*",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "chery-center-spb.ru": {
+    "id": 130,
+    "engine": "*",
+    "brand": "Chery",
+    "priceAnchors": [
+      "div.block_all > div.spec_price > p"
+    ],
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "cherypulkovo.ru": {
+    "id": 131,
+    "engine": "*",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "swm-beta-kudrovo.tilda.ws": {
+    "id": 132,
+    "engine": "Tilda",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "chery-beta-pulkovo.ru": {
+    "id": 133,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "chery-spb-pulkovo.ru": {
+    "id": 134,
+    "engine": "*",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "promo.alfitplus.ru": {
+    "id": 135,
+    "engine": "Tilda",
+    "brand": "Алфавит плюс"
+  },
+  "amg72.ru": {
+    "id": 136,
+    "engine": "*",
+    "brand": "Застройщик"
+  },
+  "amg-commerce.ru": {
+    "id": 137,
+    "engine": "*",
+    "brand": "Застройщик"
+  },
+  "lider-topping.ru": {
+    "id": 138,
+    "engine": "*",
+    "brand": "Застройщик"
+  },
+  "am-fundament.ru": {
+    "id": 139,
+    "engine": "*",
+    "brand": "Застройщик",
+    "priceAnchors": [
+      "div.quiz-area-box > div.quiz-result > strong.quiz-result__price"
+    ]
+  },
+  "amg-remont.ru": {
+    "id": 140,
+    "engine": "*",
+    "brand": "Застройщик"
+  },
+  "amgroup72.ru": {
+    "id": 141,
+    "engine": "Tilda",
+    "brand": "Застройщик",
+    "priceAnchors": [
+      "div.t776__price-wrapper > div.t776__price.t776__price-item > div.t776__price-value.js-product-price"
+    ]
+  },
+  "amkcentr-chery.ru": {
+    "id": 142,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "amk-chery.ru": {
+    "id": 143,
+    "engine": "Tilda",
+    "brand": "TENET",
+    "card": {
+      "card": ".amk-card-body",
+      "model": ".amk-model-name",
+      "price": ".amk-price"
+    },
+    "priceAnchors": [
+      "div.amk-t4-container > div.amk-t4-content > div.amk-t4-price",
+      "div.amk-month-content > h2.amk-month-title > span"
+    ],
+    "modelNames": [
+      "TENET T4",
+      "TENET T4L",
+      "TENET T7",
+      "TENET T8",
+      "TENET T9",
+      "TENET A8"
+    ]
+  },
+  "tenet-amk.ru": {
+    "id": 144,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "amk-ekt.lada.ru": {
+    "id": 145,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "srv.amk-ekt.lada.ru": {
+    "id": 146,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "amk-sam.ru": {
+    "id": 147,
+    "engine": "Tilda",
+    "brand": "LADA",
+    "priceAnchors": [
+      "div.t396__elem.tn-elem > div.tn-atom > strong"
+    ],
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "urallada63.lada.ru": {
+    "id": 148,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "jetour-amr-saratov.ru": {
+    "id": 149,
+    "engine": "TradeDealer",
+    "brand": "Jetour",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-model-price > span > span",
+      "div.td-submenu__description > span.h4 > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "jetour-64.ru": {
+    "id": 150,
+    "engine": "*",
+    "brand": "Jetour",
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "jetour-amr.ru": {
+    "id": 151,
+    "engine": "Каскад",
+    "brand": "Jetour",
+    "card": {
+      "card": ".tab-card",
+      "model": ".tab-card__title",
+      "price": ".tab-card__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "button.tab-card.py-3 > div.textPrimary--text > div.tab-card__price.text-mob-body-1",
+      "div.special.d-flex > div.special__left.d-flex > div.text-h2.text-mob-h2",
+      "div.pa-3.pa-sm-2 > div.model-card_mobile_name.d-flex > div.text-h3.primary--text"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T2",
+      "T1",
+      "X70+",
+      "X90+"
+    ]
+  },
+  "antikor-motors.ru": {
+    "id": 152,
+    "engine": "Tilda",
+    "brand": "Мультибренд"
+  },
+  "tenet-antikorservis.ru": {
+    "id": 153,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "antikorservis-chery.ru": {
+    "id": 154,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "антикор-сервис.рф": {
+    "id": 155,
+    "engine": "Tilda",
+    "brand": "Мультибренд"
+  },
+  "antikorservis-haval.ru": {
+    "id": 156,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "promo.armada-okt-haval.ru": {
+    "id": 157,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "priceAnchors": [
+      "div.col-5 > div.section-content > div.fs-5.mb-4",
+      "section.section.section-model-mobile > div.container > div.mb-3",
+      "div.d-flex.align-items-end > div.section-content.mb-5 > div.fs-2.mb-4",
+      "div.container.h-100 > div.section-content.pt-5 > div.mb-2.lh-lg"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "haval-ulyanovsk-official.ru": {
+    "id": 158,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "armada-haval.ru": {
+    "id": 159,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "arsenal-haval.ru": {
+    "id": 160,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "vw-artan.ru": {
+    "id": 161,
+    "engine": "Tilda",
+    "brand": "Сервис"
+  },
+  "artex-liauto.ru": {
+    "id": 162,
+    "engine": "Perxis",
+    "brand": "Li Auto",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price.small-caps",
+      "div.web_block_model-range__item > div.web_block_model-range__item-content.p-green > div.web_block_model-range__item-price.small-caps"
+    ],
+    "modelNames": [
+      "Ли Л6 | Li L6",
+      "Ли Л7 | Li L7",
+      "Ли Л9 | Li L9",
+      "Ли Л8 | Li L8",
+      "Л9 Ливис I L9 Livis"
+    ]
+  },
+  "artexauto.ru": {
+    "id": 163,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "gac-artex-rnd.ru": {
+    "id": 164,
+    "engine": "TradeDealer",
+    "brand": "GAC",
+    "card": {
+      "card": ".td-model-card__content",
+      "model": ".td-model-card__title",
+      "price": ".price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "button.tr-tag.tr-block > div.tr-text > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+      "div.td-models-menu__text > div.td-about-model__wrap > div.td-about-model__price"
+    ],
+    "modelNames": [
+      "GS4",
+      "GS8",
+      "Новый AION V",
+      "Новый S7",
+      "Новый HYPTEC HT",
+      "Новый S9",
+      "EMPOW",
+      "M8"
+    ]
+  },
+  "soueast-artex.ru": {
+    "id": 165,
+    "engine": "TradeDealer",
+    "brand": "Soueast",
+    "modelNames": [
+      "S06",
+      "S07",
+      "S09"
+    ]
+  },
+  "belgee-artex.ru": {
+    "id": 166,
+    "engine": "*",
+    "brand": "Belgee",
+    "modelNames": [
+      "X50",
+      "X70",
+      "S50"
+    ]
+  },
+  "solaris.artexauto.ru": {
+    "id": 167,
+    "engine": "*",
+    "brand": "Solaris",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "h5.sc-jcdlHQ.cJIotF > div.sc-cIfMiO.cXtWWE > span.sc-hrGSpw.iUILmY"
+    ],
+    "modelNames": [
+      "HS",
+      "HC",
+      "KRS",
+      "KRX"
+    ]
+  },
+  "jetour-artex.ru": {
+    "id": 168,
+    "engine": "TradeDealer",
+    "brand": "Jetour",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-model-price > span > span",
+      "div.td-submenu__description > span.h4 > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "geely-artex.ru": {
+    "id": 169,
+    "engine": "Perxis",
+    "brand": "Geely",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+      "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+    ],
+    "modelNames": [
+      "GEELY EX5 Гибрид",
+      "НОВЫЙ COOLRAY",
+      "CITYRAY",
+      "ATLAS",
+      "OKAVANGO",
+      "MONJARO",
+      "PREFACE",
+      "GEELY EX5"
+    ]
+  },
+  "artex-esteo.ru": {
+    "id": 170,
+    "engine": "Perxis",
+    "brand": "ESTEO",
+    "card": {
+      "card": ".menu-models__item-content",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "priceAnchors": [
+      "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+      "div.row > div.col-lg-6 > div.large-text.mb-salad"
+    ],
+    "modelNames": [
+      "ESTEO MX",
+      "EXLANTIX ET8",
+      "EXLANTIX ET",
+      "EXLANTIX ES",
+      "ESTEO V27"
+    ]
+  },
+  "bars-haval.ru": {
+    "id": 171,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "bars-havalpro.ru": {
+    "id": 172,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "bars-tank.ru": {
+    "id": 173,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "chery-bars.ru": {
+    "id": 174,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "evolute-bolivar.ru": {
+    "id": 175,
+    "engine": "TradeDealer",
+    "brand": "EVOLUTE",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+      "div.adaptive-text > div.d-md-none.td-article > div.h2.td-indent-bottom-xs",
+      "div.td-slider__text > div.td-slider__description > h3"
+    ],
+    "modelNames": [
+      "I-SPACE",
+      "I-PRO",
+      "I-JOY",
+      "I-SKY"
+    ]
+  },
+  "sales-voyah-bolivar.ru": {
+    "id": 176,
+    "engine": "*",
+    "brand": "VOYAH",
+    "modelNames": [
+      "FREE",
+      "DREAM",
+      "PASSION"
+    ]
+  },
+  "voyah-bolivar.ru": {
+    "id": 177,
+    "engine": "TradeDealer",
+    "brand": "VOYAH",
+    "priceAnchors": [
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price.tr-taishan-cbu-price"
+    ],
+    "modelNames": [
+      "FREE",
+      "DREAM",
+      "PASSION"
+    ]
+  },
+  "sales-uspehauto-esteo.ru": {
+    "id": 178,
+    "engine": "*",
+    "brand": "ESTEO",
+    "card": {
+      "card": ".model-card__left",
+      "model": ".model-card__name-block",
+      "price": ".model-card__price-value"
+    },
+    "priceAnchors": [
+      "tbody > tr > td",
+      "div.model-card__price-block > div.model-card__price.model-card__price_profit > span.model-card__price-value"
+    ],
+    "modelNames": [
+      "EXEED RX Кросс-купе"
+    ]
+  },
+  "uspehauto-esteo.ru": {
+    "id": 179,
+    "engine": "Perxis",
+    "brand": "ESTEO",
+    "card": {
+      "card": ".menu-models__item-content",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "priceAnchors": [
+      "div.menu-models__item-content > div.menu-models__item-title-wrap > div.menu-models__item-price.small-text",
+      "div.row > div.col-lg-6 > div.large-text.mb-salad"
+    ],
+    "modelNames": [
+      "ESTEO MX",
+      "EXLANTIX ET8",
+      "EXLANTIX ET",
+      "EXLANTIX ES",
+      "ESTEO V27"
+    ]
+  },
+  "service-haval-bolivar.ru": {
+    "id": 180,
+    "engine": "Tilda",
+    "brand": "Сервис"
+  },
+  "sales-haval-bolivar.ru": {
+    "id": 181,
+    "engine": "Tilda",
+    "brand": "HAVAL CITY",
+    "priceAnchors": [
+      "span.js-product-sku.notranslate > div > strong",
+      "span.js-product-sku.notranslate > div > span",
+      "div.t762__title-wrapper > div.t762__title_small.t-descr > span.js-product-sku.notranslate",
+      "div.t762__title_small.t-descr > span.js-product-sku.notranslate > div"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "bolivar-haval.ru": {
+    "id": 182,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "haval-borishof.ru": {
+    "id": 183,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "borishof-haval.ru": {
+    "id": 184,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "borishof-havalpro.ru": {
+    "id": 185,
+    "engine": "Perxis",
+    "brand": "HAVAL PRO",
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "H3",
+      "H5",
+      "H7",
+      "H9"
+    ]
+  },
+  "tank-borishof.ru": {
+    "id": 186,
+    "engine": "*",
+    "brand": "TANK",
+    "routes": [
+      "/cars/"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "lp.tank-borishof.ru": {
+    "id": 187,
+    "engine": "*",
+    "brand": "TANK",
+    "priceAnchors": [
+      "div.cars__prices > div.cars__price > b"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "borishof-tank.ru": {
+    "id": 188,
+    "engine": "Perxis",
+    "brand": "TANK",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_model_range__info > div.web_block_model_range__info-price > span",
+      "div.menu-models__item-text > div.menu-models__item-price > a.js-menu-models-link.menu-models__item-link",
+      "a.js-menu-models-link.menu-models__item-link > div.menu-models__item-text > div.menu-models__item-price",
+      "div.web_block_media-hero__content-wrap > div.web_block_media-hero__text > strong"
+    ],
+    "modelNames": [
+      "300",
+      "400",
+      "500",
+      "700"
+    ]
+  },
+  "tcm-russia.ru": {
+    "id": 189,
+    "engine": "*",
+    "brand": "Спецтехника"
+  },
+  "hc-russia.ru": {
+    "id": 190,
+    "engine": "*",
+    "brand": "Спецтехника"
+  },
+  "traktor-velikan.ru": {
+    "id": 191,
+    "engine": "*",
+    "brand": "Спецтехника"
+  },
+  "mtz.ru": {
+    "id": 192,
+    "engine": "*",
+    "brand": "Спецтехника"
+  },
+  "sales.izmailovo-changanauto.ru": {
+    "id": 193,
+    "engine": "*",
+    "brand": "Changan",
+    "modelNames": [
+      "CS35PLUS",
+      "CS55PLUS",
+      "CS75PLUS",
+      "UNI-K",
+      "UNI-V",
+      "UNI-T",
+      "ALSVIN",
+      "EADO PLUS",
+      "LAMORE",
+      "HUNTER PLUS"
+    ]
+  },
+  "i-changanauto.ru": {
+    "id": 194,
+    "engine": "*",
+    "brand": "Changan",
+    "modelNames": [
+      "CS35PLUS",
+      "CS55PLUS",
+      "CS75PLUS",
+      "UNI-K",
+      "UNI-V",
+      "UNI-T",
+      "ALSVIN",
+      "EADO PLUS",
+      "LAMORE",
+      "HUNTER PLUS"
+    ]
+  },
+  "nemdom.ru": {
+    "id": 195,
+    "engine": "*",
+    "brand": "Сервис"
+  },
+  "vikingi-tenet.ru": {
+    "id": 196,
+    "engine": "*",
+    "brand": "TENET",
+    "modelNames": [
+      "T4",
+      "T7",
+      "T8"
+    ]
+  },
+  "vikingi-chery.ru": {
+    "id": 197,
+    "engine": "*",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "tradein-vip.ru": {
+    "id": 198,
+    "engine": "Каскад",
+    "brand": "АСП"
+  },
+  "vip-auto-tver.ru": {
+    "id": 199,
+    "engine": "Каскад",
+    "brand": "Мультибренд",
+    "priceAnchors": [
+      "a.selection-card > div.v-text.textPrimary--text > div.d-inline"
+    ]
+  },
+  "solaris-vip-auto.ru": {
+    "id": 200,
+    "engine": "Каскад",
+    "brand": "Solaris",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.mt-11.mt-md-14 > div.v-custom-tooltip > div.mt-3.text-mob-h6"
+    ],
+    "modelNames": [
+      "HS",
+      "HC",
+      "KRS",
+      "KRX"
+    ]
+  },
+  "belgee-vip.ru": {
+    "id": 201,
+    "engine": "Perxis",
+    "brand": "Belgee",
+    "card": {
+      "card": ".menu-models__item-link",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.js-model-range-slide.web_block_model-range__slide > div.web_block_model-range__slide-header.d-lg-none > span.caps",
+      "div.web_block_media-hero__content-text-wrap > div.web_block_media-hero__text-wrap > div.web_block_media-hero__subtitle.large-caps",
+      "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price",
+      "div.js-model-range-slider-pagination.web_block_model-range__slider-pagination > div.web_block_model-range__slider-bullet > span.caps"
+    ],
+    "modelNames": [
+      "Новый X50",
+      "X50+",
+      "S50",
+      "X70"
+    ]
+  },
+  "geely-vip-auto.ru": {
+    "id": 202,
+    "engine": "Perxis",
+    "brand": "Geely",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+      "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+    ],
+    "modelNames": [
+      "GEELY EX5 Гибрид",
+      "НОВЫЙ COOLRAY",
+      "CITYRAY",
+      "ATLAS",
+      "OKAVANGO",
+      "MONJARO",
+      "PREFACE",
+      "GEELY EX5"
+    ]
+  },
+  "knewstar-vsk.ru": {
+    "id": 203,
+    "engine": "*",
+    "brand": "Knewstar",
+    "modelNames": [
+      "001"
+    ]
+  },
+  "geely-vsk.ru": {
+    "id": 204,
+    "engine": "Perxis",
+    "brand": "Geely",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+      "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+    ],
+    "modelNames": [
+      "GEELY EX5 Гибрид",
+      "НОВЫЙ COOLRAY",
+      "CITYRAY",
+      "ATLAS",
+      "OKAVANGO",
+      "MONJARO",
+      "PREFACE",
+      "GEELY EX5"
+    ]
+  },
+  "automarket-kaiyi.ru": {
+    "id": 205,
+    "engine": "*",
+    "brand": "Kaiyi",
+    "modelNames": [
+      "E5",
+      "X3",
+      "X3 PRO",
+      "X7 KUNLUN"
+    ]
+  },
+  "garant-baic.ru": {
+    "id": 206,
+    "engine": "*",
+    "brand": "Baic",
+    "modelNames": [
+      "U5 PLUS",
+      "X35",
+      "X55",
+      "X7",
+      "BJ40",
+      "BJ60"
+    ]
+  },
+  "soueast-automarket.ru": {
+    "id": 207,
+    "engine": "TradeDealer",
+    "brand": "Soueast",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-model-card__head > div.td-model-card__subtitle > div.td-model-card__price",
+      "div.td-model-price > div.td-model-price__price > span.h2.h3-mobile"
+    ],
+    "modelNames": [
+      "S06",
+      "S07",
+      "S09"
+    ]
+  },
+  "jetour-automarket.ru": {
+    "id": 208,
+    "engine": "TradeDealer",
+    "brand": "Jetour",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.td-model-price > span > span",
+      "div.td-submenu__description > span.h4 > span",
+      "div.tr-prices > div.tr-price-primary.tr-nowrap > tr-car-price",
+      "div.tr-prices-top > div.tr-prices > div.tr-price-secondary.tr-nowrap"
+    ],
+    "modelNames": [
+      "DASHING",
+      "T1",
+      "T2",
+      "X70",
+      "X70 PLUS",
+      "X90 PLUS"
+    ]
+  },
+  "avto-import18.ru": {
+    "id": 209,
+    "engine": "*",
+    "brand": "Мультибренд"
+  },
+  "automarket.sale": {
+    "id": 210,
+    "engine": "Каскад",
+    "brand": "АСП",
+    "priceAnchors": [
+      "a.selection-card > div.v-text.textPrimary--text > div.d-inline"
+    ]
+  },
+  "promo.garant18.ru": {
+    "id": 211,
+    "engine": "Каскад",
+    "brand": "Митсубиши"
+  },
+  "garant-mitsubishi.ru": {
+    "id": 212,
+    "engine": "*",
+    "brand": "Митсубиши"
+  },
+  "chusovoy.dav-auto.lada.ru": {
+    "id": 213,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "lada-davauto.ru": {
+    "id": 214,
+    "engine": "Каскад",
+    "brand": "LADA",
+    "card": {
+      "card": ".tab-card",
+      "model": ".tab-card__title",
+      "price": ".tab-card__price"
+    },
+    "priceAnchors": [
+      "div.item__content.container > div.item__price-container.d-flex > div.text-lg-h2.text-mob-h2",
+      "div.selection-card > div.v-text.textPrimary--text > div.d-inline"
+    ],
+    "modelNames": [
+      "Granta",
+      "Vesta",
+      "Iskra",
+      "Aura",
+      "Largus",
+      "Niva Travel",
+      "Niva Legend",
+      "M7"
+    ]
+  },
+  "dav-auto.lada.ru": {
+    "id": 215,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "cars.geely-davauto.ru": {
+    "id": 216,
+    "engine": "*",
+    "brand": "Geely",
+    "modelNames": [
+      "COOLRAY",
+      "ATLAS",
+      "MONJARO",
+      "EMGRAND",
+      "CITYRAY",
+      "OKAVANGO",
+      "PREFACE"
+    ]
+  },
+  "carsgeely-davauto.rqch.ru": {
+    "id": 217,
+    "engine": "*",
+    "brand": "Geely",
+    "modelNames": [
+      "COOLRAY",
+      "ATLAS",
+      "MONJARO",
+      "EMGRAND",
+      "CITYRAY",
+      "OKAVANGO",
+      "PREFACE"
+    ]
+  },
+  "promo.geely-davauto.ru": {
+    "id": 218,
+    "engine": "Tilda",
+    "brand": "Geely",
+    "priceAnchors": [
+      "div.t778__descr.t-descr > div > strong"
+    ],
+    "modelNames": [
+      "COOLRAY",
+      "ATLAS",
+      "MONJARO",
+      "EMGRAND",
+      "CITYRAY",
+      "OKAVANGO",
+      "PREFACE"
+    ]
+  },
+  "geely-davauto.ru": {
+    "id": 219,
+    "engine": "Perxis",
+    "brand": "Geely",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.js-menu-models-link.pb-orange > div.menu-models__item-text > div.menu-models__item-price.supersmall-text",
+      "div.web_block_model-range__item-content > div > div.web_block_model-range__item-price.large-text"
+    ],
+    "modelNames": [
+      "GEELY EX5 Гибрид",
+      "НОВЫЙ COOLRAY",
+      "CITYRAY",
+      "ATLAS",
+      "OKAVANGO",
+      "MONJARO",
+      "PREFACE",
+      "GEELY EX5"
+    ]
+  },
+  "daynava-lada.ru": {
+    "id": 220,
+    "engine": "*",
+    "brand": "LADA",
+    "modelNames": [
+      "GRANTA",
+      "VESTA",
+      "NIVA LEGEND",
+      "NIVA TRAVEL",
+      "LARGUS",
+      "AURA",
+      "ISKRA"
+    ]
+  },
+  "dalex-group.ru": {
+    "id": 221,
+    "engine": "Tilda",
+    "brand": "сайт"
+  },
+  "uni-demidich02.ru": {
+    "id": 222,
+    "engine": "*",
+    "brand": "UNI",
+    "routes": [
+      "/model/"
+    ],
+    "priceAnchors": [
+      "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[420px\\].text-\\[24px\\]"
+    ]
+  },
+  "demidich-tenetplus.ru": {
+    "id": 223,
+    "engine": "Perxis",
+    "brand": "TENET Plus",
+    "card": {
+      "card": ".menu-models__left-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "a.menu-models__left-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "div.web_block_media-hero__content-wrap > div.js-animation-up.mt-s > div.web_block_media-hero__text.up-animate-3"
+    ],
+    "modelNames": [
+      "L4",
+      "L6"
+    ]
+  },
+  "demidich02-changanauto.ru": {
+    "id": 224,
+    "engine": "*",
+    "brand": "Changan",
+    "routes": [
+      "/model/"
+    ],
+    "priceAnchors": [
+      "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[480px\\].text-simple-24"
+    ],
+    "modelNames": [
+      "CS35PLUS",
+      "CS55PLUS",
+      "CS75PLUS",
+      "UNI-K",
+      "UNI-V",
+      "UNI-T",
+      "ALSVIN",
+      "EADO PLUS",
+      "LAMORE",
+      "HUNTER PLUS"
+    ]
+  },
+  "demidich-changanauto.ru": {
+    "id": 225,
+    "engine": "*",
+    "brand": "Changan",
+    "routes": [
+      "/model/"
+    ],
+    "priceAnchors": [
+      "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[480px\\].text-simple-24"
+    ],
+    "modelNames": [
+      "CS35PLUS",
+      "CS55PLUS",
+      "CS75PLUS",
+      "UNI-K",
+      "UNI-V",
+      "UNI-T",
+      "ALSVIN",
+      "EADO PLUS",
+      "LAMORE",
+      "HUNTER PLUS"
+    ]
+  },
+  "uni-demidich.ru": {
+    "id": 226,
+    "engine": "*",
+    "brand": "UNI",
+    "routes": [
+      "/model/"
+    ],
+    "priceAnchors": [
+      "div.absolute.top-\\[88px\\] > div.container.text-white > div.lg\\:max-w-\\[420px\\].text-\\[24px\\]"
+    ]
+  },
+  "tenet-demidich.ru": {
+    "id": 227,
+    "engine": "Perxis",
+    "brand": "TENET",
+    "card": {
+      "card": ".menu-models__left-item-link",
+      "model": ".menu-models__left-item-title",
+      "price": ".menu-models__left-item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_models-range__slide.swiper-slide > div.web_block_models-range__slide-top > div.web_block_models-range__slide-price.web_block_models-range__price",
+      "a.menu-models__left-item-link > div > p.menu-models__left-item-price.tiny-text",
+      "div.menu-models__center > div > div.menu-models__center-price",
+      "a.swiper-slide.search-popup__slide > div.search-popup__slide-container > p.search-popup__slide-price.supersmall-text"
+    ],
+    "modelNames": [
+      "T4L",
+      "T7",
+      "T8",
+      "T9",
+      "A8"
+    ]
+  },
+  "demidich-chery.ru": {
+    "id": 228,
+    "engine": "Perxis",
+    "brand": "Chery",
+    "card": {
+      "card": ".model-range-block__slide",
+      "model": ".model-range-block__name",
+      "price": ".model-range-block__price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.row.model-range-block__footer > div.col.model-range-block__price-wrap > div.model-range-block__price",
+      "div.js-menu-models-desc.menu-models__desc-wrap > div.menu-models__desc-footer.mt-m > div.menu-models__desc-price.h4"
+    ],
+    "modelNames": [
+      "TIGGO 9",
+      "TIGGO 7L",
+      "ARRIZO 8"
+    ]
+  },
+  "demidich-jac.ru": {
+    "id": 229,
+    "engine": "Perxis",
+    "brand": "JAC",
+    "card": {
+      "card": ".menu-models__item-text",
+      "model": ".menu-models__item-title",
+      "price": ".menu-models__item-price"
+    },
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "div.web_block_media-hero__content-wrap.word-up > div > div.web_block_media-hero__text.large-caps",
+      "div.menu-models__item-info > div.menu-models__item-text > div.menu-models__item-price.supersmall-text"
+    ],
+    "modelNames": [
+      "JAC T8 PRO Пикап",
+      "T9 Пикап",
+      "RF8 Минивэн"
+    ]
+  },
+  "sollers-demidich.ru": {
+    "id": 230,
+    "engine": "Tilda",
+    "brand": "Sollers"
+  },
+  "perm-uni.ru": {
+    "id": 231,
+    "engine": "Tilda",
+    "brand": "UNI"
+  },
+  "tenetperm.ru": {
+    "id": 232,
+    "engine": "Tilda",
+    "brand": "TENET",
+    "modelNames": [
+      "T4",
+      "T7",
+      "T8"
+    ]
+  },
+  "cheryperm.ru": {
+    "id": 233,
+    "engine": "Tilda",
+    "brand": "Chery",
+    "priceAnchors": [
+      "div.t411__textwrapper.t-width > h2.t411__title.t-title > div"
+    ],
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "demidich.ru": {
+    "id": 234,
+    "engine": "*",
+    "brand": "Chery",
+    "routes": [
+      "/cars/"
+    ],
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "jac-perm.ru": {
+    "id": 235,
+    "engine": "Tilda",
+    "brand": "JAC",
+    "priceAnchors": [
+      "div.t396__elem.tn-elem > div.tn-atom > p",
+      "div.t396__artboard.rendered > div.t396__elem.tn-elem > div.tn-atom"
+    ],
+    "modelNames": [
+      "JS3",
+      "JS4",
+      "JS6",
+      "J7",
+      "T8",
+      "T9"
+    ]
+  },
+  "haval-perm.ru": {
+    "id": 236,
+    "engine": "Tilda",
+    "brand": "HAVAL"
+  },
+  "perm-chery.ru": {
+    "id": 237,
+    "engine": "Tilda",
+    "brand": "Chery",
+    "modelNames": [
+      "ARRIZO 8",
+      "TIGGO 4",
+      "TIGGO 4 PRO",
+      "TIGGO 7 PRO",
+      "TIGGO 7 PRO MAX",
+      "TIGGO 7L",
+      "TIGGO 8 PRO MAX",
+      "TIGGO 9"
+    ]
+  },
+  "demidich-haval.ru": {
+    "id": 238,
+    "engine": "Perxis",
+    "brand": "HAVAL",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ]
+  },
+  "changan-perm.ru": {
+    "id": 239,
+    "engine": "Tilda",
+    "brand": "Changan",
+    "modelNames": [
+      "CS35PLUS",
+      "CS55PLUS",
+      "CS75PLUS",
+      "UNI-K",
+      "UNI-V",
+      "UNI-T",
+      "ALSVIN",
+      "EADO PLUS",
+      "LAMORE",
+      "HUNTER PLUS"
+    ]
+  },
+  "service.demidich.ru": {
+    "id": 240,
+    "engine": "Tilda",
+    "brand": "Сервис"
+  },
+  "promo.dialog-kazan-haval.ru": {
+    "id": 241,
+    "engine": "*",
+    "brand": "HAVAL CITY",
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "dialog-kazan-haval.ru": {
+    "id": 242,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  },
+  "dialog-almet-haval.ru": {
+    "id": 243,
+    "engine": "Perxis",
+    "brand": "HAVAL CITY",
+    "routes": [
+      "/models/"
+    ],
+    "priceAnchors": [
+      "li.menu-models__item > div.menu-models__item-info.mt-xs > div.menu-models__item-price.extrasmall-text",
+      "div.container > div.web_block_media-menu-slide__content-wrap > div.web_block_media-menu-slide__price.h6",
+      "div.web_block_media-hero-v2__content-wrap.col-12 > div > div.web_block_media-hero-v2__subtitle.small-caps"
+    ],
+    "modelNames": [
+      "JOLION",
+      "DARGO",
+      "F7",
+      "F7x",
+      "M6"
+    ]
+  }
+}
