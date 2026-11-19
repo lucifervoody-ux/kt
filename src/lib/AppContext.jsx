@@ -6,7 +6,7 @@ import { JOB, JOBS } from './jobs';
 
 const Ctx = createContext(null);
 const POLL_MS = 10_000;
-const DEMO_SITE_IDS = Array.from({ length: 21 }, (_, index) => index + 1).join(',');
+const DEMO_SITE_IDS = [27, 46, 111, 134, 169, 200, 219].join(',');
 
 export function AppProvider({ children }) {
   const [settings, setSettingsState] = useState(loadSettings);
@@ -14,7 +14,7 @@ export function AppProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [runs, setRuns] = useState({}); // последний запуск каждой проверки на GitHub
-  const [runSite, setRunSite] = useState({}); // какой сайт перепроверяем ('' — все)
+  const [runSite, setRunSite] = useState({}); // какой сайт перепроверяем ('' — демонстрационная выборка)
   const [stopping, setStopping] = useState({}); // нажали «Остановить», ждём, пока GitHub остановит
   const timers = useRef({});
 
