@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-19",
-  "checked_at": "2026-11-19T11:39:17.275Z",
-  "total_seconds": 6,
-  "parallel": 10,
+  "date": "2026-11-20",
+  "checked_at": "2026-11-20T12:18:36.419Z",
+  "total_seconds": 1054,
+  "parallel": 6,
   "summary": {
-    "Скрипта нет": 28,
+    "Скрипта нет": 26,
     "Токен не тот": 0,
     "Скрипт без токена": 1,
-    "Проверить вручную": 3,
-    "Сайт не открылся": 27,
-    "Скрипт есть": 184
+    "Проверить вручную": 27,
+    "Сайт не открылся": 7,
+    "Скрипт есть": 259
   },
   "sites": [
     {
@@ -19,11 +19,10 @@
       "site": "havalpro-avangard.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 20,
-      "was": ""
+      "was": "",
+      "seconds": 18
     },
     {
       "id": 10,
@@ -32,11 +31,10 @@
       "site": "avangard-geely.ru",
       "brand": "Geely",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 19,
-      "was": ""
+      "was": "",
+      "seconds": 19
     },
     {
       "id": 40,
@@ -45,11 +43,10 @@
       "site": "moskvich-m-autolocman.ru",
       "brand": "Москвич",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 52,
@@ -58,11 +55,10 @@
       "site": "podolsk.kia-avtoruss.ru",
       "brand": "Kia сервис",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 1396,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 53,
@@ -71,37 +67,22 @@
       "site": "kia-avtoruss.ru",
       "brand": "Kia сервис",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 1394,
-      "was": "Было: Сайт не открылся"
+      "was": "",
+      "seconds": 30
     },
     {
-      "id": 66,
-      "company": "Дюк и к Лада Кемерово",
+      "id": 55,
+      "company": "KIA-Бутово",
       "responsible": "Савастьянов А.А.",
-      "site": "avtoduk.lada.ru",
-      "brand": "LADA",
+      "site": "moscow.kia-butovo.ru",
+      "brand": "Kia сервис",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 45,
-      "was": ""
-    },
-    {
-      "id": 86,
-      "company": "ТЭНК ВОЛГОГРАД Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat-vlg-tank.ru",
-      "brand": "TANK",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 24,
-      "was": ""
+      "was": "Было: Сайт не открылся",
+      "seconds": 29
     },
     {
       "id": 87,
@@ -110,11 +91,10 @@
       "site": "abakan.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 20,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 88,
@@ -123,11 +103,10 @@
       "site": "astrakhan.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 21,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 89,
@@ -136,11 +115,10 @@
       "site": "vladimir.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 20,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 90,
@@ -149,11 +127,10 @@
       "site": "ekaterinburg.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 95,
@@ -162,11 +139,10 @@
       "site": "rostov.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 18
     },
     {
       "id": 96,
@@ -175,11 +151,10 @@
       "site": "saransk.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 97,
@@ -188,11 +163,10 @@
       "site": "stavropol.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 19
     },
     {
       "id": 98,
@@ -201,11 +175,10 @@
       "site": "syktyvkar.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 99,
@@ -214,181 +187,166 @@
       "site": "yaroslavl.agat-group.com",
       "brand": "Мультибренд",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 16,
-      "was": ""
+      "was": "",
+      "seconds": 18
     },
     {
-      "id": 107,
-      "company": "Агат Лада в Саратове",
-      "responsible": "Савастьянов А.А.",
-      "site": "srt.agat.lada.ru",
-      "brand": "LADA",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 24,
-      "was": ""
-    },
-    {
-      "id": 108,
-      "company": "Агат Лада Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat.lada.ru",
-      "brand": "LADA",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 19,
-      "was": ""
-    },
-    {
-      "id": 129,
+      "id": 124,
       "company": "ЧЕРИ ЦЕНТР ПУЛКОВО Лендинг 2",
       "responsible": "Савастьянов А.А.",
       "site": "chery-center-pulkovo.ru",
       "brand": "Chery",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 16
     },
     {
-      "id": 145,
-      "company": "[ct]ЛАДА АМК-ЕКАТЕРИНБУРГ",
-      "responsible": "Савастьянов А.А.",
-      "site": "amk-ekt.lada.ru",
-      "brand": "LADA",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 21,
-      "was": ""
-    },
-    {
-      "id": 148,
-      "company": "[ct]Urallada63.lada.ru Самара",
-      "responsible": "Савастьянов А.А.",
-      "site": "urallada63.lada.ru",
-      "brand": "LADA",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
-    },
-    {
-      "id": 165,
-      "company": "Соуис Артекс",
-      "responsible": "Савастьянов А.А.",
-      "site": "soueast-artex.ru",
-      "brand": "Soueast",
-      "konget": "Скрипта нет",
-      "tokens": [],
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 22,
-      "was": ""
-    },
-    {
-      "id": 176,
+      "id": 171,
       "company": "БОЛИВАР VOYAH Лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "sales-voyah-bolivar.ru",
       "brand": "VOYAH",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 20,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
-      "id": 178,
+      "id": 173,
       "company": "БОЛИВАР ESTEO Лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "sales-uspehauto-esteo.ru",
       "brand": "ESTEO",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
-      "id": 189,
+      "id": 184,
       "company": "TCM Вилочные погрузчики",
       "responsible": "Савастьянов А.А.",
       "site": "tcm-russia.ru",
       "brand": "Спецтехника",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 23,
-      "was": ""
+      "was": "",
+      "seconds": 22
     },
     {
-      "id": 210,
+      "id": 206,
       "company": "Автомобили с пробегом",
       "responsible": "Савастьянов А.А.",
       "site": "automarket.sale",
       "brand": "АСП",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 31,
-      "was": ""
+      "was": "",
+      "seconds": 19
     },
     {
-      "id": 211,
+      "id": 207,
       "company": "Митсубиши Ижевск промо",
       "responsible": "Савастьянов А.А.",
       "site": "promo.garant18.ru",
       "brand": "Митсубиши",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 16
     },
     {
-      "id": 215,
-      "company": "Лада Дав авто",
+      "id": 212,
+      "company": "Дав Авто Джили Витрина",
       "responsible": "Савастьянов А.А.",
-      "site": "dav-auto.lada.ru",
-      "brand": "LADA",
+      "site": "cars.geely-davauto.ru",
+      "brand": "Geely",
       "konget": "Скрипта нет",
-      "tokens": [],
+      "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 19
     },
     {
-      "id": 167,
+      "id": 288,
+      "company": "Чери Новокузнецк Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-nvkz.ru",
+      "brand": "Chery",
+      "konget": "Скрипта нет",
+      "kind": "",
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "was": "",
+      "seconds": 20
+    },
+    {
+      "id": 292,
+      "company": "КЛАССИКА ДОНФЕНГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "dongfeng-klassika.ru",
+      "brand": "Dongfeng",
+      "konget": "Скрипта нет",
+      "kind": "",
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "was": "",
+      "seconds": 14
+    },
+    {
+      "id": 296,
+      "company": "Лендинг ХавейлПРО Отрадное",
+      "responsible": "Савастьянов А.А.",
+      "site": "haval-otradnoe-dactor.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипта нет",
+      "kind": "",
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "was": "",
+      "seconds": 15
+    },
+    {
+      "id": 304,
+      "company": "Лендинг Хавейл Сити Отрадное",
+      "responsible": "Савастьянов А.А.",
+      "site": "haval-otradnoe-dactor.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипта нет",
+      "kind": "",
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "was": "",
+      "seconds": 14
+    },
+    {
+      "id": 162,
       "company": "Solaris.artexauto.ru",
       "responsible": "Савастьянов А.А.",
-      "site": "solaris.artexauto.ru",
+      "site": "Solaris.artexauto.ru",
       "brand": "Solaris",
       "konget": "Скрипт без токена",
-      "tokens": [],
-      "where": "https://cdn.konget.ru/client?no_cache=1794809716807",
+      "kind": "",
       "reason": "Конгет на сайте есть, а token не нашёлся",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 19
+    },
+    {
+      "id": 50,
+      "company": "АВТОРУСЬ ЧЕРИ",
+      "responsible": "Савастьянов А.А.",
+      "site": "avtoruss-chery.ru",
+      "brand": "Chery",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "Было: Сайт не открылся",
+      "seconds": 90
     },
     {
       "id": 56,
@@ -397,76 +355,310 @@
       "site": "kia-butovo.ru",
       "brand": "Kia сервис",
       "konget": "Проверить вручную",
-      "tokens": [],
+      "kind": "",
       "reason": "Скрипт не найден, но на сайте есть контейнер тегов (например, Google Tag Manager). Скрипт может лежать в нём, проверьте сами",
-      "expected": "",
-      "seconds": 1392,
-      "was": ""
+      "was": "",
+      "seconds": 18
     },
     {
-      "id": 100,
-      "company": "Вей Красноярск Новые автомобили",
+      "id": 63,
+      "company": "ЭКСИД 42",
       "responsible": "Савастьянов А.А.",
-      "site": "gwm-wey-agat-krsk.ru",
-      "brand": "WEY",
+      "site": "exeed42.ru",
+      "brand": "Exeed",
       "konget": "Проверить вручную",
-      "tokens": [],
-      "reason": "Скрипт не найден, но на сайте есть контейнер тегов (например, Google Tag Manager). Скрипт может лежать в нём, проверьте сами",
-      "expected": "",
-      "seconds": 38,
-      "was": ""
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "Было: Скрипт есть",
+      "seconds": 97
     },
     {
-      "id": 241,
+      "id": 66,
+      "company": "Дюк и к Лада Кемерово",
+      "responsible": "Савастьянов А.А.",
+      "site": "avtoduk.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
+      "was": "Было: Скрипта нет",
+      "seconds": 15
+    },
+    {
+      "id": 91,
+      "company": "АГАТ ГРУПП Иваново",
+      "responsible": "Савастьянов А.А.",
+      "site": "ivanovo.agat-group.com",
+      "brand": "Мультибренд",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
+      "was": "Было: Сайт не открылся",
+      "seconds": 1
+    },
+    {
+      "id": 92,
+      "company": "АГАТ ГРУПП Киров",
+      "responsible": "Савастьянов А.А.",
+      "site": "kirov.agat-group.com",
+      "brand": "Мультибренд",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
+      "was": "Было: Сайт не открылся",
+      "seconds": 1
+    },
+    {
+      "id": 93,
+      "company": "АГАТ ГРУПП Красноярск",
+      "responsible": "Савастьянов А.А.",
+      "site": "krasnoyarsk.agat-group.com",
+      "brand": "Мультибренд",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
+      "was": "Было: Сайт не открылся",
+      "seconds": 1
+    },
+    {
+      "id": 94,
+      "company": "АГАТ ГРУПП Мин.Воды",
+      "responsible": "Савастьянов А.А.",
+      "site": "minvody.agat-group.com",
+      "brand": "Мультибренд",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
+      "was": "Было: Сайт не открылся",
+      "seconds": 1
+    },
+    {
+      "id": 102,
+      "company": "Агат Лада в Саратове",
+      "responsible": "Савастьянов А.А.",
+      "site": "srt.agat.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 15
+    },
+    {
+      "id": 103,
+      "company": "Агат Лада Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 16
+    },
+    {
+      "id": 118,
+      "company": "БЕСТЮН СЕВЕРНАЯ МАРКА",
+      "responsible": "Савастьянов А.А.",
+      "site": "bestune-sevmarka.ru",
+      "brand": "Bestune",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 90
+    },
+    {
+      "id": 140,
+      "company": "[ct]ЛАДА АМК-ЕКАТЕРИНБУРГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "amk-ekt.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 15
+    },
+    {
+      "id": 141,
+      "company": "[ct]ЛАДА АМК-ЕКАТЕРИНБУРГ",
+      "responsible": "Савастьянов А.А.",
+      "site": "srv.amk-ekt.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта просрочен: браузер показывает посетителям «Подключение не защищено». Нужно продлить сертификат",
+      "was": "",
+      "seconds": 1
+    },
+    {
+      "id": 143,
+      "company": "[ct]Urallada63.lada.ru Самара",
+      "responsible": "Савастьянов А.А.",
+      "site": "urallada63.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 15
+    },
+    {
+      "id": 161,
+      "company": "Belgee-artex.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Belgee-artex.ru",
+      "brand": "Belgee",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 90
+    },
+    {
+      "id": 178,
+      "company": "[ct]БОРИСХОФ ХАВАЛ Лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "haval-borishof.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://haval-borishof.ru/). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 1
+    },
+    {
+      "id": 190,
+      "company": "Немецкий Дом Фольксваген",
+      "responsible": "Савастьянов А.А.",
+      "site": "nemdom.ru",
+      "brand": "Сервис",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта просрочен: браузер показывает посетителям «Подключение не защищено». Нужно продлить сертификат",
+      "was": "",
+      "seconds": 1
+    },
+    {
+      "id": 191,
+      "company": "Vikingi-tenet.ru Тольятти",
+      "responsible": "Савастьянов А.А.",
+      "site": "Vikingi-tenet.ru",
+      "brand": "TENET",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 90
+    },
+    {
+      "id": 202,
+      "company": "ГАРАНТ БАИК",
+      "responsible": "Савастьянов А.А.",
+      "site": "garant-baic.ru",
+      "brand": "Baic",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 90
+    },
+    {
+      "id": 205,
+      "company": "АВТОИМПОРТ18",
+      "responsible": "Савастьянов А.А.",
+      "site": "avto-import18.ru",
+      "brand": "Мультибренд",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта недействителен (ERR_CERT_AUTHORITY_INVALID): браузер показывает посетителям «Подключение не защищено»",
+      "was": "",
+      "seconds": 1
+    },
+    {
+      "id": 208,
+      "company": "Митсубиши Ижевск",
+      "responsible": "Савастьянов А.А.",
+      "site": "garant-mitsubishi.ru",
+      "brand": "Митсубиши",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 91
+    },
+    {
+      "id": 209,
+      "company": "Дав Авто Лада Чусовой",
+      "responsible": "Савастьянов А.А.",
+      "site": "chusovoy.dav-auto.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта просрочен: браузер показывает посетителям «Подключение не защищено». Нужно продлить сертификат",
+      "was": "",
+      "seconds": 1
+    },
+    {
+      "id": 211,
+      "company": "Лада Дав авто",
+      "responsible": "Савастьянов А.А.",
+      "site": "dav-auto.lada.ru",
+      "brand": "LADA",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 15
+    },
+    {
+      "id": 239,
       "company": "Диалог Авто Хавейл лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "promo.dialog-kazan-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Проверить вручную",
-      "tokens": [],
-      "reason": "Сайт ответил защитой от роботов (код 403), страницу программа не увидела. Проверьте вручную",
-      "expected": "",
-      "seconds": 13,
-      "was": "Было: Скрипта нет"
+      "kind": "",
+      "reason": "Сайт ответил кодом 403: похоже на защиту от роботов. Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 24,
-      "company": "Hyundai Автодель",
+      "id": 293,
+      "company": "КЛАССИКА ИКСЕН",
       "responsible": "Савастьянов А.А.",
-      "site": "hyundai-avtocenter.ru",
-      "brand": "Hyundai",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 1432,
-      "was": "Было: Скрипт есть"
+      "site": "klassika.ixenmotors.ru",
+      "brand": "ixen",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 27,
-      "company": "Гак Автоимпорт Лендинг Рязань",
+      "id": 298,
+      "company": "Лендинг Хавейл Сити Кубань",
       "responsible": "Савастьянов А.А.",
-      "site": "sale.gac-autoimport.ru",
-      "brand": "GAC",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 1428,
-      "was": "Было: Скрипт есть"
+      "site": "promo-haval-krasnodar.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 90
     },
     {
-      "id": 31,
-      "company": "Автоимпорт сервис Тула",
+      "id": 303,
+      "company": "Хавейл Сити Коммунарка",
       "responsible": "Савастьянов А.А.",
-      "site": "service.ta-haval.ru",
-      "brand": "Сервис",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 1425,
-      "was": "Было: Скрипт есть"
+      "site": "dactor-kom-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Проверить вручную",
+      "kind": "",
+      "reason": "Не открылся с серверов проверки (page.goto: net::ERR_EMPTY_RESPONSE at https://dactor-kom-haval.ru/). Людям сайт может открываться, проверьте вручную",
+      "was": "",
+      "seconds": 1
     },
     {
       "id": 33,
@@ -475,11 +667,10 @@
       "site": "cars.jetour-ai71.ru",
       "brand": "JETOUR",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Заглушка». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
+      "kind": "",
+      "reason": "Страница почти пустая",
+      "was": "",
+      "seconds": 14
     },
     {
       "id": 34,
@@ -488,297 +679,70 @@
       "site": "cars.chery.region62.ru",
       "brand": "Chery",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
+      "kind": "",
+      "reason": "Сайт ответил ошибкой 404",
+      "was": "",
+      "seconds": 12
     },
     {
-      "id": 50,
-      "company": "АВТОРУСЬ ЧЕРИ",
+      "id": 160,
+      "company": "Соуис Артекс",
       "responsible": "Савастьянов А.А.",
-      "site": "avtoruss-chery.ru",
-      "brand": "Chery",
+      "site": "soueast-artex.ru",
+      "brand": "Soueast",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 1461,
-      "was": ""
+      "kind": "",
+      "reason": "page.goto: net::ERR_CONNECTION_REFUSED at https://soueast-artex.ru/",
+      "was": "",
+      "seconds": 1
     },
     {
-      "id": 55,
-      "company": "KIA-Бутово",
-      "responsible": "Савастьянов А.А.",
-      "site": "moscow.kia-butovo.ru",
-      "brand": "Kia сервис",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 1454,
-      "was": "Было: Скрипта нет"
-    },
-    {
-      "id": 91,
-      "company": "АГАТ ГРУПП Иваново",
-      "responsible": "Савастьянов А.А.",
-      "site": "ivanovo.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://ivanovo.agat-group.com/",
-      "expected": "",
-      "seconds": 1,
-      "was": ""
-    },
-    {
-      "id": 92,
-      "company": "АГАТ ГРУПП Киров",
-      "responsible": "Савастьянов А.А.",
-      "site": "kirov.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://kirov.agat-group.com/",
-      "expected": "",
-      "seconds": 1,
-      "was": ""
-    },
-    {
-      "id": 93,
-      "company": "АГАТ ГРУПП Красноярск",
-      "responsible": "Савастьянов А.А.",
-      "site": "krasnoyarsk.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://krasnoyarsk.agat-group.com/",
-      "expected": "",
-      "seconds": 2,
-      "was": ""
-    },
-    {
-      "id": 94,
-      "company": "АГАТ ГРУПП Мин.Воды",
-      "responsible": "Савастьянов А.А.",
-      "site": "minvody.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://minvody.agat-group.com/",
-      "expected": "",
-      "seconds": 2,
-      "was": ""
-    },
-    {
-      "id": 123,
-      "company": "БЕСТЮН СЕВЕРНАЯ МАРКА",
-      "responsible": "Савастьянов А.А.",
-      "site": "bestune-sevmarka.ru",
-      "brand": "Bestune",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 92,
-      "was": ""
-    },
-    {
-      "id": 136,
-      "company": "АМ ГРУПП ЗАСТРОЙЩИК",
-      "responsible": "Савастьянов А.А.",
-      "site": "amg72.ru",
-      "brand": "Застройщик",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 92,
-      "was": "Было: Скрипт есть"
-    },
-    {
-      "id": 146,
-      "company": "[ct]ЛАДА АМК-ЕКАТЕРИНБУРГ",
-      "responsible": "Савастьянов А.А.",
-      "site": "srv.amk-ekt.lada.ru",
-      "brand": "LADA",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_DATE_INVALID at https://srv.amk-ekt.lada.ru/",
-      "expected": "",
-      "seconds": 1,
-      "was": ""
-    },
-    {
-      "id": 164,
-      "company": "Гак Артекс Ростов-На-Дону",
-      "responsible": "Савастьянов А.А.",
-      "site": "gac-artex-rnd.ru",
-      "brand": "GAC",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
-    },
-    {
-      "id": 166,
-      "company": "Belgee-artex.ru",
-      "responsible": "Савастьянов А.А.",
-      "site": "belgee-artex.ru",
-      "brand": "Belgee",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
-    },
-    {
-      "id": 168,
-      "company": "Джетур Артекс Ростов-на-Дону",
-      "responsible": "Савастьянов А.А.",
-      "site": "jetour-artex.ru",
-      "brand": "Jetour",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
-    },
-    {
-      "id": 183,
-      "company": "[ct]БОРИСХОФ ХАВАЛ Лендинг",
-      "responsible": "Савастьянов А.А.",
-      "site": "haval-borishof.ru",
-      "brand": "HAVAL CITY",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 91,
-      "was": ""
-    },
-    {
-      "id": 195,
-      "company": "Немецкий Дом Фольксваген",
-      "responsible": "Савастьянов А.А.",
-      "site": "nemdom.ru",
-      "brand": "Сервис",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 90,
-      "was": ""
-    },
-    {
-      "id": 196,
-      "company": "Vikingi-tenet.ru Тольятти",
-      "responsible": "Савастьянов А.А.",
-      "site": "vikingi-tenet.ru",
-      "brand": "TENET",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 90,
-      "was": ""
-    },
-    {
-      "id": 197,
+      "id": 192,
       "company": "Vikingi-chery.ru Тольятти",
       "responsible": "Савастьянов А.А.",
-      "site": "vikingi-chery.ru",
+      "site": "Vikingi-chery.ru",
       "brand": "Chery",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
+      "kind": "",
+      "reason": "Сайт ответил ошибкой 404",
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 203,
+      "id": 199,
       "company": "Ньюстар",
       "responsible": "Савастьянов А.А.",
       "site": "knewstar-vsk.ru",
       "brand": "Knewstar",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
+      "kind": "",
+      "reason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://knewstar-vsk.ru/",
+      "was": "",
+      "seconds": 0
     },
     {
-      "id": 205,
+      "id": 201,
       "company": "АВТОМАРКЕТ КАЙЯ",
       "responsible": "Савастьянов А.А.",
       "site": "automarket-kaiyi.ru",
       "brand": "Kaiyi",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "Пропущен: на проверке работы статус «Не работает». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»",
-      "expected": "",
-      "seconds": 0,
-      "was": ""
+      "kind": "",
+      "reason": "page.goto: net::ERR_CONNECTION_REFUSED at https://automarket-kaiyi.ru/",
+      "was": "",
+      "seconds": 1
     },
     {
-      "id": 206,
-      "company": "ГАРАНТ БАИК",
+      "id": 313,
+      "company": "Soueast-kors-tula.ru",
       "responsible": "Савастьянов А.А.",
-      "site": "garant-baic.ru",
-      "brand": "Baic",
+      "site": "Soueast-kors-tula.ru",
+      "brand": "Soueast",
       "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 91,
-      "was": ""
-    },
-    {
-      "id": 209,
-      "company": "АВТОИМПОРТ18",
-      "responsible": "Савастьянов А.А.",
-      "site": "avto-import18.ru",
-      "brand": "Мультибренд",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 90,
-      "was": ""
-    },
-    {
-      "id": 212,
-      "company": "Митсубиши Ижевск",
-      "responsible": "Савастьянов А.А.",
-      "site": "garant-mitsubishi.ru",
-      "brand": "Митсубиши",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: Timeout 60000ms exceeded.",
-      "expected": "",
-      "seconds": 90,
-      "was": ""
-    },
-    {
-      "id": 213,
-      "company": "Дав Авто Лада Чусовой",
-      "responsible": "Савастьянов А.А.",
-      "site": "chusovoy.dav-auto.lada.ru",
-      "brand": "LADA",
-      "konget": "Сайт не открылся",
-      "tokens": [],
-      "reason": "page.goto: net::ERR_CERT_DATE_INVALID at https://chusovoy.dav-auto.lada.ru/",
-      "expected": "",
-      "seconds": 1,
-      "was": ""
+      "kind": "",
+      "reason": "Сайт ответил ошибкой 503",
+      "was": "",
+      "seconds": 1
     },
     {
       "id": 1,
@@ -787,15 +751,10 @@
       "site": "hongqi-avangard.ru",
       "brand": "Хончи",
       "konget": "Скрипт есть",
-      "tokens": [
-        "e65cb9d66e9e4eac8b4314d4b520201e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e65cb9d66e9e4eac8b4314d4b520201e",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
       "id": 2,
@@ -804,15 +763,10 @@
       "site": "lixiang-avangard.ru",
       "brand": "Li Auto",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1923ed39a3c343069442a4313476c508"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1923ed39a3c343069442a4313476c508",
       "reason": "",
-      "expected": "",
-      "seconds": 9,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 3,
@@ -821,15 +775,10 @@
       "site": "avangard-liauto.ru",
       "brand": "Li Auto",
       "konget": "Скрипт есть",
-      "tokens": [
-        "fc28e5bdb8cd4b87a709050a6b40f09e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=fc28e5bdb8cd4b87a709050a6b40f09e",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 5,
@@ -838,15 +787,10 @@
       "site": "avangard-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "feffcb83e32f4d748ded61e953079a68"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=feffcb83e32f4d748ded61e953079a68",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 6,
@@ -855,15 +799,10 @@
       "site": "belgee-lahta.ru",
       "brand": "Belgee",
       "konget": "Скрипт есть",
-      "tokens": [
-        "deb618487f2341febe2092b64b7642e7"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=deb618487f2341febe2092b64b7642e7",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 7,
@@ -872,15 +811,10 @@
       "site": "belgee-avangard.ru",
       "brand": "Belgee",
       "konget": "Скрипт есть",
-      "tokens": [
-        "52f381c7350f40cab2e9ca25693bbe15"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=52f381c7350f40cab2e9ca25693bbe15",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
       "id": 8,
@@ -889,15 +823,10 @@
       "site": "tank-avangard.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "b8b89f22aa4f46bbaca87cd1ed4187b6"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=b8b89f22aa4f46bbaca87cd1ed4187b6",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
       "id": 9,
@@ -906,15 +835,10 @@
       "site": "avangard-spb-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "ed528beca9b8446f973a43bdf2b1e59f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=ed528beca9b8446f973a43bdf2b1e59f",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
       "id": 11,
@@ -923,15 +847,10 @@
       "site": "geely-avangard.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "9519e8fa33334f408b0867947ee9db33"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=9519e8fa33334f408b0867947ee9db33",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 12,
@@ -940,15 +859,10 @@
       "site": "sales.avilon-haval.ru",
       "brand": "Хавейл Сити/Про",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a8e75e6c97204490b360751810a868ac"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=a8e75e6c97204490b360751810a868ac",
       "reason": "",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 29
     },
     {
       "id": 13,
@@ -957,15 +871,10 @@
       "site": "avilon-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7a6cec6f95c74d45a5e6ba084671d25d"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7a6cec6f95c74d45a5e6ba084671d25d",
       "reason": "",
-      "expected": "",
-      "seconds": 16,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 14,
@@ -974,15 +883,10 @@
       "site": "avilonhaval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "5c3a1b5c6d7f4fbfbebc0e2452e6b5c8"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=5c3a1b5c6d7f4fbfbebc0e2452e6b5c8",
       "reason": "",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 13
     },
     {
       "id": 15,
@@ -991,15 +895,10 @@
       "site": "deepal-avtoban.ru",
       "brand": "Deepal",
       "konget": "Скрипт есть",
-      "tokens": [
-        "bf2f4bfbb1e54174892c9d4c5a370d30"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=bf2f4bfbb1e54174892c9d4c5a370d30",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 16,
@@ -1008,15 +907,10 @@
       "site": "sales.avtoban-changanauto.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "fc2b3c478a4a4e0a95bc82bee906801e"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=fc2b3c478a4a4e0a95bc82bee906801e",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 17,
@@ -1025,15 +919,10 @@
       "site": "avtoban-changanauto.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2914c5d6f3c0480f852dd89bd480fd66"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=2914c5d6f3c0480f852dd89bd480fd66",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 18,
@@ -1042,15 +931,10 @@
       "site": "solaris-avtoban.ru",
       "brand": "Solaris",
       "konget": "Скрипт есть",
-      "tokens": [
-        "8640cf44896f4b62bf30fb531779845c"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=8640cf44896f4b62bf30fb531779845c",
       "reason": "",
-      "expected": "",
-      "seconds": 9,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 19,
@@ -1059,15 +943,10 @@
       "site": "avtoban-jetour.ru",
       "brand": "JETOUR",
       "konget": "Скрипт есть",
-      "tokens": [
-        "5908c212d5074e1ca9ca16cec2706517"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=5908c212d5074e1ca9ca16cec2706517",
       "reason": "",
-      "expected": "",
-      "seconds": 14,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
       "id": 20,
@@ -1076,15 +955,10 @@
       "site": "avtoban-moskvich.ru",
       "brand": "Москвич",
       "konget": "Скрипт есть",
-      "tokens": [
-        "06c6f39c96e5463ba2470f2e107ff226"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=06c6f39c96e5463ba2470f2e107ff226",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 21,
@@ -1093,15 +967,10 @@
       "site": "moskvich-avtoban.ru",
       "brand": "Москвич",
       "konget": "Скрипт есть",
-      "tokens": [
-        "918e2cac240946fbbd643b5a177685be"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=918e2cac240946fbbd643b5a177685be",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 22,
@@ -1110,15 +979,10 @@
       "site": "kia-avtoban.ru",
       "brand": "Kia Сервис",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a30120e4563f4000bf64bf30f248f6b6"
-      ],
       "kind": "через контейнер",
-      "where": "https://app.konget.ru/inject?token=a30120e4563f4000bf64bf30f248f6b6",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 23,
@@ -1127,15 +991,22 @@
       "site": "sprobegom.avtodel.com",
       "brand": "АСП",
       "konget": "Скрипт есть",
-      "tokens": [
-        "f5a7cd6e845e40d2a6b9313460a377f8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=f5a7cd6e845e40d2a6b9313460a377f8",
       "reason": "",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 24,
+      "company": "Hyundai Автодель",
+      "responsible": "Савастьянов А.А.",
+      "site": "hyundai-avtocenter.ru",
+      "brand": "Hyundai",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "Было: Сайт не открылся",
+      "seconds": 5
     },
     {
       "id": 25,
@@ -1144,15 +1015,10 @@
       "site": "aitmb-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "5429f190de9548179842e4753ad4cf22"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=5429f190de9548179842e4753ad4cf22",
       "reason": "",
-      "expected": "",
-      "seconds": 21,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
       "id": 26,
@@ -1161,15 +1027,22 @@
       "site": "autoimport-tmb-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2d750f31f59e42c786ba868df20c9402"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=2d750f31f59e42c786ba868df20c9402",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 13
+    },
+    {
+      "id": 27,
+      "company": "Гак Автоимпорт Лендинг Рязань",
+      "responsible": "Савастьянов А.А.",
+      "site": "sale.gac-autoimport.ru",
+      "brand": "GAC",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "Было: Сайт не открылся",
+      "seconds": 4
     },
     {
       "id": 28,
@@ -1178,15 +1051,10 @@
       "site": "gac-autoimport.ru",
       "brand": "GAC",
       "konget": "Скрипт есть",
-      "tokens": [
-        "adc5508a0ce0404f8fa75ba26b146741"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=adc5508a0ce0404f8fa75ba26b146741",
       "reason": "",
-      "expected": "",
-      "seconds": 14,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 29,
@@ -1195,15 +1063,10 @@
       "site": "kgm-autoimport.ru",
       "brand": "KGM",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3ecded705d654c64b7302e747ea90e8b"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=3ecded705d654c64b7302e747ea90e8b",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 30,
@@ -1212,15 +1075,22 @@
       "site": "ta-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "84ab2db850bb4165befe730258e50a7e"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=84ab2db850bb4165befe730258e50a7e",
       "reason": "",
-      "expected": "",
-      "seconds": 14,
-      "was": ""
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 31,
+      "company": "Автоимпорт сервис Тула",
+      "responsible": "Савастьянов А.А.",
+      "site": "service.ta-haval.ru",
+      "brand": "Сервис",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "Было: Сайт не открылся",
+      "seconds": 5
     },
     {
       "id": 32,
@@ -1229,15 +1099,10 @@
       "site": "jetour-ai71.ru",
       "brand": "JETOUR",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0f2b93ec7ed14b948c1673ed9ba81021"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0f2b93ec7ed14b948c1673ed9ba81021",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 35,
@@ -1246,15 +1111,10 @@
       "site": "region62-chery.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "976978764fe04fa19e92c33c1e995ee9"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=976978764fe04fa19e92c33c1e995ee9",
       "reason": "",
-      "expected": "",
-      "seconds": 19,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 36,
@@ -1263,15 +1123,10 @@
       "site": "autoclass-darit-podarki.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0fb2eccfca7c4e459ae690d808742543"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0fb2eccfca7c4e459ae690d808742543",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": "Было: Сайт не открылся"
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 37,
@@ -1280,15 +1135,10 @@
       "site": "autoclass-tula.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0fb2eccfca7c4e459ae690d808742543"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0fb2eccfca7c4e459ae690d808742543",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 38,
@@ -1297,15 +1147,10 @@
       "site": "avtolider-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1a19cf9b44e34ec69306437b2566746e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1a19cf9b44e34ec69306437b2566746e",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 39,
@@ -1314,15 +1159,10 @@
       "site": "auto-locman.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "cfa78e80ab284be8b8e149c8439e6155"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=cfa78e80ab284be8b8e149c8439e6155",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 41,
@@ -1331,15 +1171,10 @@
       "site": "moskvich-autolocman.ru",
       "brand": "Москвич",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3bbc86dc502f40b9b6635bbbef50af31"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=3bbc86dc502f40b9b6635bbbef50af31",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 42,
@@ -1348,15 +1183,10 @@
       "site": "geely-autolocman.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "fb96459b09554ca9a35c9f0352ea68ef"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=fb96459b09554ca9a35c9f0352ea68ef",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 43,
@@ -1365,15 +1195,10 @@
       "site": "autolocman-probeg.ru",
       "brand": "АСП",
       "konget": "Скрипт есть",
-      "tokens": [
-        "58de53064efa44ed93bb30014dfa2903"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=58de53064efa44ed93bb30014dfa2903",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 44,
@@ -1382,15 +1207,10 @@
       "site": "volga-avtomarket.ru",
       "brand": "Volga",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c517cb3b80d0428aa46c0039f29b4e12"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c517cb3b80d0428aa46c0039f29b4e12",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 45,
@@ -1399,15 +1219,10 @@
       "site": "avtomarket-51.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3f524182494d4458b8a6e63ad08dc6b8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=3f524182494d4458b8a6e63ad08dc6b8",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 46,
@@ -1416,15 +1231,10 @@
       "site": "uaz-avtomarket.ru",
       "brand": "УАЗ",
       "konget": "Скрипт есть",
-      "tokens": [
-        "5843235006ec489981f0301f9b70f00a"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=5843235006ec489981f0301f9b70f00a",
       "reason": "",
-      "expected": "",
-      "seconds": 1404,
-      "was": ""
+      "was": "",
+      "seconds": 25
     },
     {
       "id": 47,
@@ -1433,15 +1243,10 @@
       "site": "avtomarket-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "b95e7f02d7054464a801fc4556c8c3bd"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=b95e7f02d7054464a801fc4556c8c3bd",
       "reason": "",
-      "expected": "",
-      "seconds": 9,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
       "id": 48,
@@ -1450,15 +1255,10 @@
       "site": "exeed-service-automash.ru",
       "brand": "Exeed сервис",
       "konget": "Скрипт есть",
-      "tokens": [
-        "15c01c58b6a24f9583a68c4b689f9634"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=15c01c58b6a24f9583a68c4b689f9634",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
       "id": 49,
@@ -1467,15 +1267,10 @@
       "site": "tenet-avtoruss.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "21b8cb2f6a89481499f69b159a88eb74"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=21b8cb2f6a89481499f69b159a88eb74",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 51,
@@ -1484,15 +1279,10 @@
       "site": "avtoruss-service.ru",
       "brand": "Сервис",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c54b32807de64f05be9ebf8dd8c8c476"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c54b32807de64f05be9ebf8dd8c8c476",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 54,
@@ -1501,15 +1291,10 @@
       "site": "avtoruss.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "6eee84f30bad4fe99ac570177133f70e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=6eee84f30bad4fe99ac570177133f70e",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 17
     },
     {
       "id": 57,
@@ -1518,15 +1303,10 @@
       "site": "tenet-olimp.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "d8a3035e4d6d40a58a912b4285403fa1"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=d8a3035e4d6d40a58a912b4285403fa1",
       "reason": "",
-      "expected": "",
-      "seconds": 1391,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 58,
@@ -1535,15 +1315,10 @@
       "site": "autocentr-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "99e60e29be09458aa7eb131a29d32270"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=99e60e29be09458aa7eb131a29d32270",
       "reason": "",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 59,
@@ -1552,15 +1327,10 @@
       "site": "chery-don.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "844793081e2c4b9393930747e4832993"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=844793081e2c4b9393930747e4832993",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 60,
@@ -1569,15 +1339,10 @@
       "site": "avtotrade-kostroma.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "e12a1bb182644206ac95da6914307345"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e12a1bb182644206ac95da6914307345",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 61,
@@ -1586,15 +1351,10 @@
       "site": "avtotrade-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "332cbd397bdd47c7ad359a1398fdea26"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=332cbd397bdd47c7ad359a1398fdea26",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 12
     },
     {
       "id": 62,
@@ -1603,32 +1363,10 @@
       "site": "lada42.ru",
       "brand": "LADA",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1cd59f233ca04454989fd50a83a626da"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1cd59f233ca04454989fd50a83a626da",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
-    },
-    {
-      "id": 63,
-      "company": "ЭКСИД 42",
-      "responsible": "Савастьянов А.А.",
-      "site": "exeed42.ru",
-      "brand": "Exeed",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "919fdeb9f0a84bccac71d18f483e4c86"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=919fdeb9f0a84bccac71d18f483e4c86",
-      "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 64,
@@ -1637,15 +1375,10 @@
       "site": "kgm-avtoduk.ru",
       "brand": "KGM",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c92db85961ce48eb8562115cc981bdf2"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=c92db85961ce48eb8562115cc981bdf2",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 65,
@@ -1654,15 +1387,10 @@
       "site": "avtoduk-exeed.ru",
       "brand": "Exeed",
       "konget": "Скрипт есть",
-      "tokens": [
-        "af1ff2f3ca4647c5bed86f89a96037ff"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=af1ff2f3ca4647c5bed86f89a96037ff",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 67,
@@ -1671,15 +1399,10 @@
       "site": "uaz-agas.ru",
       "brand": "УАЗ",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a743cb30d17b40249038024d22892e4c"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=a743cb30d17b40249038024d22892e4c",
       "reason": "",
-      "expected": "",
-      "seconds": 40,
-      "was": ""
+      "was": "",
+      "seconds": 30
     },
     {
       "id": 68,
@@ -1688,15 +1411,10 @@
       "site": "kmv-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3e18e8d6fa5148baa44eee871a20cd4a"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=3e18e8d6fa5148baa44eee871a20cd4a",
       "reason": "",
-      "expected": "",
-      "seconds": 44,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 69,
@@ -1705,15 +1423,10 @@
       "site": "agat34-tenet.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "f58d138ae313466cade2f8e349da4621"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=f58d138ae313466cade2f8e349da4621",
       "reason": "",
-      "expected": "",
-      "seconds": 45,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
       "id": 70,
@@ -1722,15 +1435,10 @@
       "site": "agat13-tenet.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "48cd712b96634d07a73461e2af633702"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=48cd712b96634d07a73461e2af633702",
       "reason": "",
-      "expected": "",
-      "seconds": 45,
-      "was": ""
+      "was": "",
+      "seconds": 25
     },
     {
       "id": 71,
@@ -1739,15 +1447,10 @@
       "site": "agat30-tenet.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2355780849ba47979bf2ce9fd6c5e88f"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=2355780849ba47979bf2ce9fd6c5e88f",
       "reason": "",
-      "expected": "",
-      "seconds": 45,
-      "was": ""
+      "was": "",
+      "seconds": 21
     },
     {
       "id": 72,
@@ -1756,15 +1459,10 @@
       "site": "agat-srn-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "b70b1c1352f1486db94bef6179136f42"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=b70b1c1352f1486db94bef6179136f42",
       "reason": "",
-      "expected": "",
-      "seconds": 43,
-      "was": ""
+      "was": "",
+      "seconds": 19
     },
     {
       "id": 73,
@@ -1773,15 +1471,10 @@
       "site": "agat-krv-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c301f0dacd1a4ce29f0b859d9a4b40c8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c301f0dacd1a4ce29f0b859d9a4b40c8",
       "reason": "",
-      "expected": "",
-      "seconds": 41,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 74,
@@ -1790,15 +1483,10 @@
       "site": "agat-ekb-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "8a6e830097fa498db27522af7db35e3c"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=8a6e830097fa498db27522af7db35e3c",
       "reason": "",
-      "expected": "",
-      "seconds": 31,
-      "was": ""
+      "was": "",
+      "seconds": 19
     },
     {
       "id": 75,
@@ -1807,15 +1495,10 @@
       "site": "agat-srt-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "35a592a4990b4516b2e10ee3ea53e966"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=35a592a4990b4516b2e10ee3ea53e966",
       "reason": "",
-      "expected": "",
-      "seconds": 25,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 76,
@@ -1824,15 +1507,10 @@
       "site": "agat-ast-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "dfc2654bf8434c729f600fb99b40ce3f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=dfc2654bf8434c729f600fb99b40ce3f",
       "reason": "",
-      "expected": "",
-      "seconds": 21,
-      "was": ""
+      "was": "",
+      "seconds": 11
     },
     {
       "id": 77,
@@ -1841,15 +1519,10 @@
       "site": "agat-krsk-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "dadb9ae19b2e42f7bd1e84e064aa7a8b"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=dadb9ae19b2e42f7bd1e84e064aa7a8b",
       "reason": "",
-      "expected": "",
-      "seconds": 27,
-      "was": ""
+      "was": "",
+      "seconds": 13
     },
     {
       "id": 78,
@@ -1858,15 +1531,10 @@
       "site": "agat-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0a83f0af52954ddb83761945638dd5ae"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0a83f0af52954ddb83761945638dd5ae",
       "reason": "",
-      "expected": "",
-      "seconds": 23,
-      "was": ""
+      "was": "",
+      "seconds": 13
     },
     {
       "id": 79,
@@ -1875,15 +1543,10 @@
       "site": "agat-vlg-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "708c38f6edca44ea9f2dbeffa44b2671"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=708c38f6edca44ea9f2dbeffa44b2671",
       "reason": "",
-      "expected": "",
-      "seconds": 24,
-      "was": ""
+      "was": "",
+      "seconds": 11
     },
     {
       "id": 80,
@@ -1892,15 +1555,10 @@
       "site": "agat-krsk-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "cbfb8977693b4194b714806c5019f4b1"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=cbfb8977693b4194b714806c5019f4b1",
       "reason": "",
-      "expected": "",
-      "seconds": 22,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 81,
@@ -1909,15 +1567,10 @@
       "site": "agat-ekb-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7462d4deed174285bdb3addb1234df52"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=7462d4deed174285bdb3addb1234df52",
       "reason": "",
-      "expected": "",
-      "seconds": 25,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
       "id": 82,
@@ -1926,15 +1579,10 @@
       "site": "agat-saransk-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "87c8bc5feef5463bba3b54a38ce9a741"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=87c8bc5feef5463bba3b54a38ce9a741",
       "reason": "",
-      "expected": "",
-      "seconds": 22,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
       "id": 83,
@@ -1943,15 +1591,10 @@
       "site": "agat-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "13ae36d4eafb43a182979d88137640e6"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=13ae36d4eafb43a182979d88137640e6",
       "reason": "",
-      "expected": "",
-      "seconds": 24,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
       "id": 84,
@@ -1960,1954 +1603,2254 @@
       "site": "agat-srt-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3c6fe17d62334e10ab0bc1dc970ce3c7"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=3c6fe17d62334e10ab0bc1dc970ce3c7",
       "reason": "",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 11
     },
     {
       "id": 85,
+      "company": "ХАВЕЙЛ ВОЛГОГРАД Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat-srt-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 86,
       "company": "Танк Киров Новые автомобили",
       "responsible": "Савастьянов А.А.",
       "site": "agat-krv-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "6f9cc71d7cad4b76b1eebb30eff59f74"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=6f9cc71d7cad4b76b1eebb30eff59f74",
       "reason": "",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 101,
+      "id": 100,
       "company": "Тэнк Красноярск Новые автомобили",
       "responsible": "Савастьянов А.А.",
       "site": "agat-krsk-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "d027fcc061034ce1ac5a2cd8f9d4c9ac"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=d027fcc061034ce1ac5a2cd8f9d4c9ac",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 102,
+      "id": 101,
       "company": "Тэнк Саратов Новые автомобили",
       "responsible": "Савастьянов А.А.",
       "site": "agat-srt-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "da132f603937479498a6c261a960d3de"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=da132f603937479498a6c261a960d3de",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
-    },
-    {
-      "id": 103,
-      "company": "Чери Волгоград Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat34-chery.ru",
-      "brand": "Chery",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "d54fe16b8610495d87200daec48f505f"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=d54fe16b8610495d87200daec48f505f",
-      "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
       "id": 104,
-      "company": "Чери Астрахань Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat30-chery.ru",
-      "brand": "Chery",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "d8d85ce7bf4f4b46b9ef47487b40b143"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=d8d85ce7bf4f4b46b9ef47487b40b143",
-      "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
-    },
-    {
-      "id": 105,
-      "company": "Чери Красноярск Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat24-chery.ru",
-      "brand": "Chery",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "940e34661fa243f1b4d918a4b59657a7"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=940e34661fa243f1b4d918a4b59657a7",
-      "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
-    },
-    {
-      "id": 106,
-      "company": "Чери Саранск Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat13-chery.ru",
-      "brand": "Chery",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "e03d283aef4947e7adab804465e17a19"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e03d283aef4947e7adab804465e17a19",
-      "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
-    },
-    {
-      "id": 109,
       "company": "Тэнк Нижний Новгород Новые автомобили",
       "responsible": "Савастьянов А.А.",
       "site": "agat-nn-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c680d38751d14728b119ea15c74900d8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c680d38751d14728b119ea15c74900d8",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 110,
+      "id": 105,
       "company": "Омода Нижний Новгород Новые автомобили",
       "responsible": "Савастьянов А.А.",
       "site": "omoda-agat-nn.ru",
       "brand": "Omoda",
       "konget": "Скрипт есть",
-      "tokens": [
-        "9bba85d4d4584eb999ae7a7ec63831b0"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=9bba85d4d4584eb999ae7a7ec63831b0",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 111,
+      "id": 106,
       "company": "БЕЛДЖИ АЕМ",
       "responsible": "Савастьянов А.А.",
       "site": "belgee-aem.ru",
       "brand": "Belgee",
       "konget": "Скрипт есть",
-      "tokens": [
-        "624549f7ab724c29bc4310483e8b51b1"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=624549f7ab724c29bc4310483e8b51b1",
       "reason": "",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
-      "id": 112,
+      "id": 107,
       "company": "АЕМ Лендинг Тэнк",
       "responsible": "Савастьянов А.А.",
       "site": "promo.aem-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a0404ef98a7048d3a23e9dfeb8633b8d"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=a0404ef98a7048d3a23e9dfeb8633b8d",
       "reason": "",
-      "expected": "",
-      "seconds": 29,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 113,
+      "id": 108,
       "company": "АЕМ Основной сайт Тэнк",
       "responsible": "Савастьянов А.А.",
       "site": "aem-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "54844306894443cb8d1f2cd65b5e2edc"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=54844306894443cb8d1f2cd65b5e2edc",
       "reason": "",
-      "expected": "",
-      "seconds": 29,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 114,
+      "id": 109,
       "company": "АЕМ ХАВЕЙЛ СЭИЛ",
       "responsible": "Савастьянов А.А.",
       "site": "sale.aem-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "094b97d6da39445f8266289e2283f666"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=094b97d6da39445f8266289e2283f666",
       "reason": "",
-      "expected": "",
-      "seconds": 28,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 115,
+      "id": 110,
       "company": "АЕМ Лендин Хавейл",
       "responsible": "Савастьянов А.А.",
       "site": "promo.aem-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "094b97d6da39445f8266289e2283f666"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=094b97d6da39445f8266289e2283f666",
       "reason": "",
-      "expected": "",
-      "seconds": 30,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 116,
+      "id": 111,
       "company": "АЕМ Основной сайт Хавейл",
       "responsible": "Савастьянов А.А.",
       "site": "aem-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "4e9424ea368e494496c2e7921074124b"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=4e9424ea368e494496c2e7921074124b",
       "reason": "",
-      "expected": "",
-      "seconds": 31,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 117,
+      "id": 112,
       "company": "ГАК АЕМ",
       "responsible": "Савастьянов А.А.",
       "site": "gac-barnaul.ru",
       "brand": "GAC",
       "konget": "Скрипт есть",
-      "tokens": [
-        "de86070c7b9248f2829d507db0422f4b"
-      ],
       "kind": "обычный",
-      "where": "KONGET",
       "reason": "",
-      "expected": "",
-      "seconds": 30,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 118,
+      "id": 113,
       "company": "Общехолдинг АЕМ",
       "responsible": "Савастьянов А.А.",
       "site": "aemholding.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2b216a50f8b14470aef0f3f2025ffb65"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=2b216a50f8b14470aef0f3f2025ffb65",
       "reason": "",
-      "expected": "",
-      "seconds": 41,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 119,
+      "id": 114,
       "company": "ТЕНЕТ ПЛЮС БЕТА",
       "responsible": "Савастьянов А.А.",
       "site": "betasever-tenetplus.ru",
       "brand": "TENET Plus",
       "konget": "Скрипт есть",
-      "tokens": [
-        "dbde84d0b9da4b70a9193d35fa3915ed"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=dbde84d0b9da4b70a9193d35fa3915ed",
       "reason": "",
-      "expected": "",
-      "seconds": 29,
-      "was": ""
+      "was": "",
+      "seconds": 11
     },
     {
-      "id": 120,
+      "id": 115,
       "company": "КГМ БЕТА",
       "responsible": "Савастьянов А.А.",
       "site": "kgm-betasever.ru",
       "brand": "KGM",
       "konget": "Скрипт есть",
-      "tokens": [
-        "558319d5d315425b900d293f195a37aa"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=558319d5d315425b900d293f195a37aa",
       "reason": "",
-      "expected": "",
-      "seconds": 27,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 121,
+      "id": 116,
       "company": "ОНЕГА ТЕНЕТ",
       "responsible": "Савастьянов А.А.",
       "site": "tenet-betaonego.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "6025e582784a42869c936d45d69f899a"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=6025e582784a42869c936d45d69f899a",
       "reason": "",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 122,
+      "id": 117,
       "company": "ОНЕГА ЧЕРИ",
       "responsible": "Савастьянов А.А.",
       "site": "chery-betaonego.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "4f00c97e1c204f189b3b8516d2dc0895"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=4f00c97e1c204f189b3b8516d2dc0895",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 124,
+      "id": 119,
       "company": "ТЕНЕТ БЕТА",
       "responsible": "Савастьянов А.А.",
       "site": "tenet-beta-pulkovo.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "12878c40f2e54151a73d561cbfb3a889"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=12878c40f2e54151a73d561cbfb3a889",
       "reason": "",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 125,
+      "id": 120,
       "company": "ОНЕГА БЕСТЮН",
       "responsible": "Савастьянов А.А.",
       "site": "bestune-betaonego.ru",
       "brand": "Bestune",
       "konget": "Скрипт есть",
-      "tokens": [
-        "4fd6052703f74fb6bff6893bebd1e194"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=4fd6052703f74fb6bff6893bebd1e194",
       "reason": "",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 126,
+      "id": 121,
       "company": "СЕВЕРНАЯ МАРКА ДЖАК",
       "responsible": "Савастьянов А.А.",
       "site": "sevmarka-jac.ru",
       "brand": "JAC",
       "konget": "Скрипт есть",
-      "tokens": [
-        "aceca1bc03094f0d9ee22c1b4f6a4388"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=aceca1bc03094f0d9ee22c1b4f6a4388",
       "reason": "",
-      "expected": "",
-      "seconds": 16,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 127,
+      "id": 122,
       "company": "ПУЛКОВО ЖАК",
       "responsible": "Савастьянов А.А.",
       "site": "jac-beta.ru",
       "brand": "JAC",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1b22d8b6ad5e4a54975257fee4420b0a"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1b22d8b6ad5e4a54975257fee4420b0a",
       "reason": "",
-      "expected": "",
-      "seconds": 14,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 128,
+      "id": 123,
       "company": "Джетур БЕТА ФИНАНС",
       "responsible": "Савастьянов А.А.",
       "site": "jetour-beta.ru",
       "brand": "Jetour",
       "konget": "Скрипт есть",
-      "tokens": [
-        "6a504f992fa94e9c8f6711b59b1d54ef"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=6a504f992fa94e9c8f6711b59b1d54ef",
       "reason": "",
-      "expected": "",
-      "seconds": 16,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 130,
+      "id": 125,
       "company": "ЧЕРИ ЦЕНТР ПУЛКОВО Лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "chery-center-spb.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "850f81b1ea364d3c8f84f0d1027e6e2d"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=850f81b1ea364d3c8f84f0d1027e6e2d",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
-      "id": 131,
+      "id": 126,
       "company": "Чери-Пулково",
       "responsible": "Савастьянов А.А.",
       "site": "cherypulkovo.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "01f7c1297f6542d1a09184121c63a612"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=01f7c1297f6542d1a09184121c63a612",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 132,
+      "id": 127,
       "company": "SWM ПУЛКОВО ЛЕНДИНГ",
       "responsible": "Савастьянов А.А.",
       "site": "swm-beta-kudrovo.tilda.ws",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "82936377b8874058b295dcb3295f6ff8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=82936377b8874058b295dcb3295f6ff8",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 133,
+      "id": 128,
       "company": "Чери Пулково Основной сайт",
       "responsible": "Савастьянов А.А.",
       "site": "chery-beta-pulkovo.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7499b8b0e330417da273f2640e521421"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7499b8b0e330417da273f2640e521421",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 134,
+      "id": 129,
       "company": "ЧЕРИ ПУЛКОВО Санкт-Петербург",
       "responsible": "Савастьянов А.А.",
       "site": "chery-spb-pulkovo.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "998bf2f7dcfa46a7a2d2b24a37114ea9"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=998bf2f7dcfa46a7a2d2b24a37114ea9",
       "reason": "",
-      "expected": "",
-      "seconds": 9,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
-      "id": 135,
+      "id": 130,
       "company": "Алфит лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "promo.alfitplus.ru",
       "brand": "Алфавит плюс",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a28347f4df774936bc1ff3e73c9f225e"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=a28347f4df774936bc1ff3e73c9f225e",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 137,
+      "id": 131,
+      "company": "АМ ГРУПП ЗАСТРОЙЩИК",
+      "responsible": "Савастьянов А.А.",
+      "site": "amg72.ru",
+      "brand": "Застройщик",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 132,
       "company": "АМ ГРУПП ЗДАНИЯ",
       "responsible": "Савастьянов А.А.",
       "site": "amg-commerce.ru",
       "brand": "Застройщик",
       "konget": "Скрипт есть",
-      "tokens": [
-        "23c10fb1e6c94ad1941c9d27a9072978"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=23c10fb1e6c94ad1941c9d27a9072978",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 138,
+      "id": 133,
       "company": "ЛИДЕР ТОППИНГ",
       "responsible": "Савастьянов А.А.",
       "site": "lider-topping.ru",
       "brand": "Застройщик",
       "konget": "Скрипт есть",
-      "tokens": [
-        "716b0e790c6c4fa1807ba00c063b809c"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=716b0e790c6c4fa1807ba00c063b809c",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 139,
+      "id": 134,
       "company": "АМ ГРУПП ФУНДАМЕНТ",
       "responsible": "Савастьянов А.А.",
       "site": "am-fundament.ru",
       "brand": "Застройщик",
       "konget": "Скрипт есть",
-      "tokens": [
-        "f0e88ee37b2e46bd8f75c5f32bf20043"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=f0e88ee37b2e46bd8f75c5f32bf20043",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 140,
+      "id": 135,
       "company": "АМ ГРУПП РЕМОНТ",
       "responsible": "Савастьянов А.А.",
       "site": "amg-remont.ru",
       "brand": "Застройщик",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2424a81c5d8444c4b790075a4e1360f2"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=2424a81c5d8444c4b790075a4e1360f2",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 141,
+      "id": 136,
       "company": "АМ ГРУПП 72",
       "responsible": "Савастьянов А.А.",
       "site": "amgroup72.ru",
       "brand": "Застройщик",
       "konget": "Скрипт есть",
-      "tokens": [
-        "6e1f111b06134f7fb75750bb504b0326"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=6e1f111b06134f7fb75750bb504b0326",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 142,
+      "id": 137,
       "company": "ЧЕРИ ЦЕНТР АМК ЮГ",
       "responsible": "Савастьянов А.А.",
       "site": "amkcentr-chery.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "5f98d34e39ea412f82af8101a05c3e24"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=5f98d34e39ea412f82af8101a05c3e24",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 143,
+      "id": 138,
       "company": "АМК Чери Юг Лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "amk-chery.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1ea6b4ef6b4a4e0fbe5bcb122d1aeb17"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1ea6b4ef6b4a4e0fbe5bcb122d1aeb17",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 144,
+      "id": 139,
       "company": "ТЕНЕТ АМК ЮГ",
       "responsible": "Савастьянов А.А.",
       "site": "tenet-amk.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "bd256f963bd24d2f84dd18c26abf1352"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=bd256f963bd24d2f84dd18c26abf1352",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 147,
+      "id": 142,
       "company": "[ct]Amk-sam.ru Лендинг Самара",
       "responsible": "Савастьянов А.А.",
       "site": "amk-sam.ru",
       "brand": "LADA",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a72d5316dbcd46f48f62b5a7d548b2af"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=a72d5316dbcd46f48f62b5a7d548b2af",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 149,
+      "id": 144,
       "company": "[ct]АМР джетур",
       "responsible": "Савастьянов А.А.",
       "site": "jetour-amr-saratov.ru",
       "brand": "Jetour",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3470a0002ae94ad98e930564d5045862"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=3470a0002ae94ad98e930564d5045862",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 150,
+      "id": 145,
       "company": "[ct]АМР чат-лендинг Саратов",
       "responsible": "Савастьянов А.А.",
       "site": "jetour-64.ru",
       "brand": "Jetour",
       "konget": "Скрипт есть",
-      "tokens": [
-        "9d41209e39194e4b9d55823e2ac238da"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=9d41209e39194e4b9d55823e2ac238da",
       "reason": "",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 151,
+      "id": 146,
       "company": "[ct]Амр Джетур Саратов",
       "responsible": "Савастьянов А.А.",
       "site": "jetour-amr.ru",
       "brand": "Jetour",
       "konget": "Скрипт есть",
-      "tokens": [
-        "28fe2fec3b4a4994ac52017734c26444"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=28fe2fec3b4a4994ac52017734c26444",
       "reason": "",
-      "expected": "",
-      "seconds": 31,
-      "was": ""
+      "was": "",
+      "seconds": 14
     },
     {
-      "id": 152,
+      "id": 147,
       "company": "АНТИКОР-СЕРВИС МОТО",
       "responsible": "Савастьянов А.А.",
-      "site": "antikor-motors.ru",
+      "site": "Antikor-motors.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "883ca794d1874d5ab96be456ebd8a723"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=883ca794d1874d5ab96be456ebd8a723",
       "reason": "",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 35
     },
     {
-      "id": 153,
+      "id": 148,
       "company": "АНТИКОР-СЕРВИС ТЕНЕТ",
       "responsible": "Савастьянов А.А.",
       "site": "tenet-antikorservis.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "b0878c85a77645ddb133368d0f4ae285"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=b0878c85a77645ddb133368d0f4ae285",
       "reason": "",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 154,
+      "id": 149,
       "company": "АНТИКОР-СЕРВИС ЧЕРИ",
       "responsible": "Савастьянов А.А.",
       "site": "antikorservis-chery.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "717e530dad5d4afda2838c063fde4116"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=717e530dad5d4afda2838c063fde4116",
       "reason": "",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 13
     },
     {
-      "id": 155,
+      "id": 150,
       "company": "Антикор Омск",
       "responsible": "Савастьянов А.А.",
       "site": "антикор-сервис.рф",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "e27147f9cd814840b3d8426b4fd21366"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e27147f9cd814840b3d8426b4fd21366",
       "reason": "",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 156,
+      "id": 151,
       "company": "Хавейл Омск",
       "responsible": "Савастьянов А.А.",
       "site": "antikorservis-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0728bf6057574dd9943f991685a4ff0f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0728bf6057574dd9943f991685a4ff0f",
       "reason": "",
-      "expected": "",
-      "seconds": 21,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 157,
+      "id": 152,
       "company": "Армада промо лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "promo.armada-okt-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "84ceccbb89884e6e96b16f432e16aa5f",
-        "30481ddd9d864e32872fd1fb5e09b365"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=84ceccbb89884e6e96b16f432e16aa5f",
       "reason": "",
-      "expected": "",
-      "seconds": 16,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 158,
+      "id": 153,
       "company": "Хавейл Ульяновск",
       "responsible": "Савастьянов А.А.",
       "site": "haval-ulyanovsk-official.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "ef604ff72daa41b597ea9419180baf53"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=ef604ff72daa41b597ea9419180baf53",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 159,
+      "id": 154,
       "company": "Основной сайт Хавейл",
       "responsible": "Савастьянов А.А.",
       "site": "armada-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7a1290f2690e430d895f57257ec34ab4"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7a1290f2690e430d895f57257ec34ab4",
       "reason": "",
-      "expected": "",
-      "seconds": 16,
-      "was": ""
+      "was": "",
+      "seconds": 13
     },
     {
-      "id": 160,
+      "id": 155,
       "company": "[ct]Арсенал Хавейл Красноярск",
       "responsible": "Савастьянов А.А.",
       "site": "arsenal-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "22722170b9f84774ad1014de117bf3ab"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=22722170b9f84774ad1014de117bf3ab",
       "reason": "",
-      "expected": "",
-      "seconds": 15,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 161,
+      "id": 156,
       "company": "Фольксваген Артан Гагарина",
       "responsible": "Савастьянов А.А.",
       "site": "vw-artan.ru",
       "brand": "Сервис",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7f0617432dc2427d933e5b8349ba9cad"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7f0617432dc2427d933e5b8349ba9cad",
       "reason": "",
-      "expected": "",
-      "seconds": 14,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 162,
+      "id": 157,
       "company": "АРТЕКС ЛИСЯН",
       "responsible": "Савастьянов А.А.",
       "site": "artex-liauto.ru",
       "brand": "Li Auto",
       "konget": "Скрипт есть",
-      "tokens": [
-        "f120e3072ad14993924bff7e06eb32b4"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=f120e3072ad14993924bff7e06eb32b4",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 163,
+      "id": 158,
       "company": "Artexauto.ru",
       "responsible": "Савастьянов А.А.",
       "site": "artexauto.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "35311542dcd1439bb9535c2e24197110"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=35311542dcd1439bb9535c2e24197110",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 169,
+      "id": 159,
+      "company": "Гак Артекс Ростов-На-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-artex-rnd.ru",
+      "brand": "GAC",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 163,
+      "company": "Джетур Артекс Ростов-на-Дону",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-artex.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 164,
       "company": "Джили Ростов-на-Дону",
       "responsible": "Савастьянов А.А.",
       "site": "geely-artex.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "51c14cec3d134aa1b2eed04b622fff00"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=51c14cec3d134aa1b2eed04b622fff00",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 170,
+      "id": 165,
       "company": "Эстео Артекс",
       "responsible": "Савастьянов А.А.",
       "site": "artex-esteo.ru",
       "brand": "ESTEO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a9278ef74c9d4736a5eb396cecafbf24"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=a9278ef74c9d4736a5eb396cecafbf24",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 171,
+      "id": 166,
       "company": "HAVAL CITY",
       "responsible": "Савастьянов А.А.",
       "site": "bars-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "4d5a79c464784e94b9bf86738c5a72f8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=4d5a79c464784e94b9bf86738c5a72f8",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 172,
+      "id": 167,
       "company": "[ct]Барс Хавейл про Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "bars-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "05a6c820e02c4947bcfea110e5dc769c"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=05a6c820e02c4947bcfea110e5dc769c",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 173,
+      "id": 168,
       "company": "Танк Барс Омск",
       "responsible": "Савастьянов А.А.",
       "site": "bars-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7fc0f5aced4f4e8bad7e1abb2c8304b5"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7fc0f5aced4f4e8bad7e1abb2c8304b5",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 174,
+      "id": 169,
       "company": "Барс Чери Омск",
       "responsible": "Савастьянов А.А.",
       "site": "chery-bars.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "28e9242f68be44a5889268385a148365"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=28e9242f68be44a5889268385a148365",
       "reason": "",
-      "expected": "",
-      "seconds": 13,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 175,
+      "id": 170,
       "company": "БОЛИВАР EVOLUTE",
       "responsible": "Савастьянов А.А.",
       "site": "evolute-bolivar.ru",
       "brand": "EVOLUTE",
       "konget": "Скрипт есть",
-      "tokens": [
-        "6e838af61bbc4c98bb687071e73e9a06"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=6e838af61bbc4c98bb687071e73e9a06",
       "reason": "",
-      "expected": "",
-      "seconds": 23,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 177,
+      "id": 172,
       "company": "БОЛИВАР VOYAH",
       "responsible": "Савастьянов А.А.",
       "site": "voyah-bolivar.ru",
       "brand": "VOYAH",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3ee517bda1f5450aa00584e4261c839e"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=3ee517bda1f5450aa00584e4261c839e",
       "reason": "",
-      "expected": "",
-      "seconds": 9,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 179,
+      "id": 174,
       "company": "БОЛИВАР ESTEO",
       "responsible": "Савастьянов А.А.",
       "site": "uspehauto-esteo.ru",
       "brand": "ESTEO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7042d23b8ccf497f9cb63dde4ec9093b"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7042d23b8ccf497f9cb63dde4ec9093b",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 180,
+      "id": 175,
       "company": "Боливар Сервис",
       "responsible": "Савастьянов А.А.",
       "site": "service-haval-bolivar.ru",
       "brand": "Сервис",
       "konget": "Скрипт есть",
-      "tokens": [
-        "8d8836a277f64dd8be8ac33acf6afdd3"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=8d8836a277f64dd8be8ac33acf6afdd3",
       "reason": "",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 181,
+      "id": 176,
       "company": "Боливар лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "sales-haval-bolivar.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "63ab33ff63e44404bc6686ab0e93bc5c"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=63ab33ff63e44404bc6686ab0e93bc5c",
       "reason": "",
-      "expected": "",
-      "seconds": 18,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 182,
+      "id": 177,
       "company": "Боливар Хавейл",
       "responsible": "Савастьянов А.А.",
       "site": "bolivar-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2dfe506a629f49898cab1d2cbd4449b6"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=2dfe506a629f49898cab1d2cbd4449b6",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 184,
+      "id": 179,
       "company": "[ct]БОРИСХОФ ХАВАЛ СИТИ",
       "responsible": "Савастьянов А.А.",
       "site": "borishof-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2fdf409b4fc344e298640d366ad6c6b2"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=2fdf409b4fc344e298640d366ad6c6b2",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 185,
+      "id": 180,
       "company": "[ct]БОРИСХОФ ХАВАЛ ПРО",
       "responsible": "Савастьянов А.А.",
       "site": "borishof-havalpro.ru",
       "brand": "HAVAL PRO",
       "konget": "Скрипт есть",
-      "tokens": [
-        "336ef547fff044938d5420b6b47847a9"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=336ef547fff044938d5420b6b47847a9",
       "reason": "",
-      "expected": "",
-      "seconds": 10,
-      "was": ""
+      "was": "",
+      "seconds": 12
     },
     {
-      "id": 186,
+      "id": 181,
       "company": "[ct]БОРИСХОФ ТАНК",
       "responsible": "Савастьянов А.А.",
       "site": "tank-borishof.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "3c3278ebc4ff4e50aa77b810649e2a35"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": "Было: Сайт не открылся"
+      "was": "",
+      "seconds": 2
     },
     {
-      "id": 187,
+      "id": 182,
       "company": "[ct]БОРИСХОФ ЛЕНДИНГ",
       "responsible": "Савастьянов А.А.",
       "site": "lp.tank-borishof.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "2459a4bcaf184cd2a39749ce85d0b8a3"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=2459a4bcaf184cd2a39749ce85d0b8a3",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 188,
+      "id": 183,
       "company": "[ct]БОРИСХОФ ТАНК ОСНОВНОЙ",
       "responsible": "Савастьянов А.А.",
       "site": "borishof-tank.ru",
       "brand": "TANK",
       "konget": "Скрипт есть",
-      "tokens": [
-        "49f086671baa4aa6930e09836fa9ddd4"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=49f086671baa4aa6930e09836fa9ddd4",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 190,
+      "id": 185,
       "company": "HANGCHA Погрузчики",
       "responsible": "Савастьянов А.А.",
       "site": "hc-russia.ru",
       "brand": "Спецтехника",
       "konget": "Скрипт есть",
-      "tokens": [
-        "5f292978dc64484b98021c7c4066a832"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=5f292978dc64484b98021c7c4066a832",
       "reason": "",
-      "expected": "",
-      "seconds": 17,
-      "was": ""
+      "was": "",
+      "seconds": 12
     },
     {
-      "id": 191,
+      "id": 186,
       "company": "Тракторы Великан",
       "responsible": "Савастьянов А.А.",
       "site": "traktor-velikan.ru",
       "brand": "Спецтехника",
       "konget": "Скрипт есть",
-      "tokens": [
-        "87df7a6e4ca343b18ae6a6252ca80ae5"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=87df7a6e4ca343b18ae6a6252ca80ae5",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 11
     },
     {
-      "id": 192,
+      "id": 187,
       "company": "MTZ Спецтехника Великан",
       "responsible": "Савастьянов А.А.",
       "site": "mtz.ru",
       "brand": "Спецтехника",
       "konget": "Скрипт есть",
-      "tokens": [
-        "9d59364f896d4394bfb3e3a6d841d856"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=9d59364f896d4394bfb3e3a6d841d856",
       "reason": "",
-      "expected": "",
-      "seconds": 19,
-      "was": ""
+      "was": "",
+      "seconds": 11
     },
     {
-      "id": 193,
+      "id": 188,
       "company": "Чанган ИЗМАЙЛОВО",
       "responsible": "Савастьянов А.А.",
       "site": "sales.izmailovo-changanauto.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "aa96e00ab635425fa28553ced238eb56"
-      ],
       "kind": "отложенный",
-      "where": "konget",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 194,
+      "id": 189,
       "company": "ЧАНГАН ВЕЛИКАН",
       "responsible": "Савастьянов А.А.",
       "site": "i-changanauto.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "e52f928f723f46e989323950865fee73"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e52f928f723f46e989323950865fee73",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": "Было: Сайт не открылся"
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 198,
+      "id": 193,
       "company": "Вип Авто Трейд-ин",
       "responsible": "Савастьянов А.А.",
       "site": "tradein-vip.ru",
       "brand": "АСП",
       "konget": "Скрипт есть",
-      "tokens": [
-        "9b99dd9064424eb593f4f16b9dcf77b4"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=9b99dd9064424eb593f4f16b9dcf77b4",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 199,
+      "id": 194,
       "company": "Вип Авто сайт ГК",
       "responsible": "Савастьянов А.А.",
       "site": "vip-auto-tver.ru",
       "brand": "Мультибренд",
       "konget": "Скрипт есть",
-      "tokens": [
-        "aeec07fa5d74406193779ae4b06efd47"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=aeec07fa5d74406193779ae4b06efd47",
       "reason": "",
-      "expected": "",
-      "seconds": 14,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 200,
+      "id": 195,
       "company": "ВипАвто Витрина Солярис",
       "responsible": "Савастьянов А.А.",
       "site": "solaris-vip-auto.ru",
       "brand": "Solaris",
       "konget": "Скрипт есть",
-      "tokens": [
-        "7b7d3e000fcd4c53933aac3653d45a3f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=7b7d3e000fcd4c53933aac3653d45a3f",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 13
     },
     {
-      "id": 201,
+      "id": 196,
       "company": "ВипАвто Импортерский Билджи",
       "responsible": "Савастьянов А.А.",
       "site": "belgee-vip.ru",
       "brand": "Belgee",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c37f08da80a8444a85922ae5b13cede6"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c37f08da80a8444a85922ae5b13cede6",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 10
     },
     {
-      "id": 202,
+      "id": 197,
+      "company": "ВипАвто Импортерский Чери",
+      "responsible": "Савастьянов А.А.",
+      "site": "vip-auto-tver.ru",
+      "brand": "Chery",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 198,
       "company": "ВипАвто Импортерский Джили",
       "responsible": "Савастьянов А.А.",
       "site": "geely-vip-auto.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "51e62dbc129e4236b6c38e8ef02137cf"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=51e62dbc129e4236b6c38e8ef02137cf",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 204,
+      "id": 200,
       "company": "Джили Автоцентр ВСК",
       "responsible": "Савастьянов А.А.",
       "site": "geely-vsk.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c5ed06a6ed6645b999d5955ebb5543ba"
-      ],
       "kind": "отложенный",
-      "where": "https://app.konget.ru/inject?token=c5ed06a6ed6645b999d5955ebb5543ba",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 207,
+      "id": 203,
       "company": "ГАРАНТ СОИСТ",
       "responsible": "Савастьянов А.А.",
       "site": "soueast-automarket.ru",
       "brand": "Soueast",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a8e145eb680847fdba9b509e1b3b3f16"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=a8e145eb680847fdba9b509e1b3b3f16",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 208,
+      "id": 204,
       "company": "Джетур Гарант Моторс",
       "responsible": "Савастьянов А.А.",
       "site": "jetour-automarket.ru",
       "brand": "Jetour",
       "konget": "Скрипт есть",
-      "tokens": [
-        "8e2a72e8ed0e406b91d5afb5c0ef7eb9"
-      ],
       "kind": "обычный",
-      "where": "//app.konget.ru/inject?token=8e2a72e8ed0e406b91d5afb5c0ef7eb9",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 214,
+      "id": 210,
       "company": "Дав Авто Лада Лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "lada-davauto.ru",
       "brand": "LADA",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1a1439350b3740fa8c073a3fd14feae0"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1a1439350b3740fa8c073a3fd14feae0",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 216,
-      "company": "Дав Авто Джили Витрина",
-      "responsible": "Савастьянов А.А.",
-      "site": "cars.geely-davauto.ru",
-      "brand": "Geely",
-      "konget": "Скрипт есть",
-      "tokens": [
-        "4e1e7afe19a9411586426ba4a7f9c6e0"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=4e1e7afe19a9411586426ba4a7f9c6e0",
-      "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
-    },
-    {
-      "id": 217,
+      "id": 213,
       "company": "Дав Авто ЧАТ",
       "responsible": "Савастьянов А.А.",
       "site": "carsgeely-davauto.rqch.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "e9ed0b4dd2f048588b85856bddca3c9e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e9ed0b4dd2f048588b85856bddca3c9e",
       "reason": "",
-      "expected": "",
-      "seconds": 11,
-      "was": ""
+      "was": "",
+      "seconds": 7
     },
     {
-      "id": 218,
+      "id": 214,
       "company": "Дав Авто Джили Лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "promo.geely-davauto.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "07c9864c75244467be518bbd2dea0b2a"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=07c9864c75244467be518bbd2dea0b2a",
       "reason": "",
-      "expected": "",
-      "seconds": 12,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 219,
+      "id": 215,
       "company": "Джили Пермь",
       "responsible": "Савастьянов А.А.",
       "site": "geely-davauto.ru",
       "brand": "Geely",
       "konget": "Скрипт есть",
-      "tokens": [
-        "14e9e4081afc4b21baec55de291f4acf"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=14e9e4081afc4b21baec55de291f4acf",
       "reason": "",
-      "expected": "",
-      "seconds": 23,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 220,
+      "id": 216,
       "company": "Дайнава-Лада",
       "responsible": "Савастьянов А.А.",
       "site": "daynava-lada.ru",
       "brand": "LADA",
       "konget": "Скрипт есть",
-      "tokens": [
-        "ad379ba89cc74e889e8552f7db122211"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=ad379ba89cc74e889e8552f7db122211",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": "Было: Сайт не открылся"
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 221,
+      "id": 217,
       "company": "Далекс",
       "responsible": "Савастьянов А.А.",
       "site": "dalex-group.ru",
       "brand": "сайт",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c9213682495d4ab680e2b70693fb94ab"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c9213682495d4ab680e2b70693fb94ab",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 222,
+      "id": 218,
       "company": "ЮНИ ДЕМИДЫЧ УФА",
       "responsible": "Савастьянов А.А.",
       "site": "uni-demidich02.ru",
       "brand": "UNI",
       "konget": "Скрипт есть",
-      "tokens": [
-        "92d9adc0f8a745e79a83c0d42ee45919"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=92d9adc0f8a745e79a83c0d42ee45919",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 223,
+      "id": 219,
       "company": "Демидыч Тенет Плюс",
       "responsible": "Савастьянов А.А.",
       "site": "demidich-tenetplus.ru",
       "brand": "TENET Plus",
       "konget": "Скрипт есть",
-      "tokens": [
-        "cda03c44b11d42c2bf18ee366c03738a"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=cda03c44b11d42c2bf18ee366c03738a",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 224,
+      "id": 220,
       "company": "Чанган Уфа Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "demidich02-changanauto.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "c0319e0742314338884dd0339566ef68"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=c0319e0742314338884dd0339566ef68",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 225,
+      "id": 221,
       "company": "Чанган Пермь Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "demidich-changanauto.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "cbf878fddf5d4ba6967d1d3b88c9f88e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=cbf878fddf5d4ba6967d1d3b88c9f88e",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 226,
+      "id": 222,
       "company": "Чанган Юни Пермь Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "uni-demidich.ru",
       "brand": "UNI",
       "konget": "Скрипт есть",
-      "tokens": [
-        "e17a5fa8f8c94ee08a09c6effa59ac49"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=e17a5fa8f8c94ee08a09c6effa59ac49",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 227,
+      "id": 223,
       "company": "Тенет Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "tenet-demidich.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "bd9bcee46e6c4e4c8bcd483204af80d8"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=bd9bcee46e6c4e4c8bcd483204af80d8",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 228,
+      "id": 224,
       "company": "Чери Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "demidich-chery.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0e3c348876d6449297200c14e9f75274"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0e3c348876d6449297200c14e9f75274",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 8
     },
     {
-      "id": 229,
+      "id": 225,
       "company": "JAC Импортерский",
       "responsible": "Савастьянов А.А.",
       "site": "demidich-jac.ru",
       "brand": "JAC",
       "konget": "Скрипт есть",
-      "tokens": [
-        "a5642699b7b642718d3c8114d051742e"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=a5642699b7b642718d3c8114d051742e",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 230,
+      "id": 226,
       "company": "СОЛЕРС ДЕМИДЫЧ",
       "responsible": "Савастьянов А.А.",
       "site": "sollers-demidich.ru",
       "brand": "Sollers",
       "konget": "Скрипт есть",
-      "tokens": [
-        "0483fa32df904c298c24fc404c1120ee"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=0483fa32df904c298c24fc404c1120ee",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 231,
+      "id": 227,
       "company": "Perm-uni.ru ДЕМИДЫЧ",
       "responsible": "Савастьянов А.А.",
-      "site": "perm-uni.ru",
+      "site": "Perm-uni.ru",
       "brand": "UNI",
       "konget": "Скрипт есть",
-      "tokens": [
-        "041f7065b6d241098e33e63f15427357"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=041f7065b6d241098e33e63f15427357",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 232,
+      "id": 228,
       "company": "Tenetperm.ru ДЕМИДЫЧ",
       "responsible": "Савастьянов А.А.",
       "site": "tenetperm.ru",
       "brand": "TENET",
       "konget": "Скрипт есть",
-      "tokens": [
-        "69c26d2b2ca14aac9fa952a11f3054d7"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=69c26d2b2ca14aac9fa952a11f3054d7",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 233,
+      "id": 229,
       "company": "Чери Лендинг 2 Демидыч",
       "responsible": "Савастьянов А.А.",
       "site": "cheryperm.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "1392223630e24db7be73a6b06f65a065"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=1392223630e24db7be73a6b06f65a065",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 234,
+      "id": 230,
       "company": "CHERY Демидыч",
       "responsible": "Савастьянов А.А.",
       "site": "demidich.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "273e2dd635ca4ab9b7c5a2f0a48e8317"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=273e2dd635ca4ab9b7c5a2f0a48e8317",
       "reason": "",
-      "expected": "",
-      "seconds": 4,
-      "was": ""
+      "was": "",
+      "seconds": 4
     },
     {
-      "id": 235,
+      "id": 231,
+      "company": "HAVAL Демидыч",
+      "responsible": "Савастьянов А.А.",
+      "site": "demidich.ru",
+      "brand": "HAVAL",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 232,
       "company": "JAC Пермь",
       "responsible": "Савастьянов А.А.",
       "site": "jac-perm.ru",
       "brand": "JAC",
       "konget": "Скрипт есть",
-      "tokens": [
-        "15656cbebbd044e8b55974ba2cfc303f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=15656cbebbd044e8b55974ba2cfc303f",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 12
     },
     {
-      "id": 236,
+      "id": 233,
       "company": "Haval Пермь",
       "responsible": "Савастьянов А.А.",
       "site": "haval-perm.ru",
       "brand": "HAVAL",
       "konget": "Скрипт есть",
-      "tokens": [
-        "ba98306ce898449b99f33c09c2cfd6e0"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=ba98306ce898449b99f33c09c2cfd6e0",
       "reason": "",
-      "expected": "",
-      "seconds": 6,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 237,
+      "id": 234,
       "company": "ЧЕРИ ПЕРМЬ ЛЕНДИНГ",
       "responsible": "Савастьянов А.А.",
       "site": "perm-chery.ru",
       "brand": "Chery",
       "konget": "Скрипт есть",
-      "tokens": [
-        "d3f2918044414587b969beb6574e9874"
-      ],
-      "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=d3f2918044414587b969beb6574e9874",
+      "kind": "через контейнер",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 238,
+      "id": 235,
       "company": "Haval Демидыч Импортерский сайт",
       "responsible": "Савастьянов А.А.",
       "site": "demidich-haval.ru",
       "brand": "HAVAL",
       "konget": "Скрипт есть",
-      "tokens": [
-        "795e049f9dc942e9adf21631d50e1743"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=795e049f9dc942e9adf21631d50e1743",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 239,
+      "id": 236,
       "company": "Changan - лендинг",
       "responsible": "Савастьянов А.А.",
       "site": "changan-perm.ru",
       "brand": "Changan",
       "konget": "Скрипт есть",
-      "tokens": [
-        "27bec918d3d143b78337ffdc8fb8be98"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=27bec918d3d143b78337ffdc8fb8be98",
       "reason": "",
-      "expected": "",
-      "seconds": 8,
-      "was": ""
+      "was": "",
+      "seconds": 6
     },
     {
-      "id": 240,
+      "id": 237,
       "company": "Сервисный центр Демидыч",
       "responsible": "Савастьянов А.А.",
       "site": "service.demidich.ru",
       "brand": "Сервис",
       "konget": "Скрипт есть",
-      "tokens": [
-        "8a16f3250b5545d7a7a16027c85eab06"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=8a16f3250b5545d7a7a16027c85eab06",
       "reason": "",
-      "expected": "",
-      "seconds": 5,
-      "was": ""
+      "was": "",
+      "seconds": 5
     },
     {
-      "id": 242,
+      "id": 238,
+      "company": "Демидыч",
+      "responsible": "Савастьянов А.А.",
+      "site": "demidich.ru",
+      "brand": "Мультибренд",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 4
+    },
+    {
+      "id": 240,
       "company": "Хавейл Казань Диалог Авто",
       "responsible": "Савастьянов А.А.",
       "site": "dialog-kazan-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "9325cb14ecf14510b187f51024ff0a4f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=9325cb14ecf14510b187f51024ff0a4f",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 9
     },
     {
-      "id": 243,
+      "id": 241,
       "company": "Dialog-almet-haval.ru",
       "responsible": "Савастьянов А.А.",
       "site": "dialog-almet-haval.ru",
       "brand": "HAVAL CITY",
       "konget": "Скрипт есть",
-      "tokens": [
-        "63c9486e4f7148808a14fa8e74291c0f"
-      ],
       "kind": "обычный",
-      "where": "https://app.konget.ru/inject?token=63c9486e4f7148808a14fa8e74291c0f",
       "reason": "",
-      "expected": "",
-      "seconds": 7,
-      "was": ""
+      "was": "",
+      "seconds": 10
+    },
+    {
+      "id": 242,
+      "company": "Dynamica-havalpro.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 243,
+      "company": "Dynamica-komi-havalpro.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-komi-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 10
+    },
+    {
+      "id": 244,
+      "company": "Dynamica-vlg-havalpro.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-vlg-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 245,
+      "company": "Dynamica-vologda-havalpro.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-vologda-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 246,
+      "company": "ДИНАМИКА ТЕНЕТ АРХАНГЕЛЬСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-dynamica.ru",
+      "brand": "TENET",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 247,
+      "company": "ДИНАМИКА ГАК КАЛИНИНГРАД",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-kaliningrad-dynamica.ru",
+      "brand": "GAC",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 248,
+      "company": "ДИНАМИКА ГАК КАЛИНИНГРАД ПРОМО",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.gac-kaliningrad-dynamica.ru",
+      "brand": "GAC",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 249,
+      "company": "ДИНАМИКА БЕЛДЖИ АРХАНГЕЛЬСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-dynamica.ru",
+      "brand": "Belgee",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 15
+    },
+    {
+      "id": 250,
+      "company": "Тэнк Лендинг Динамика",
+      "responsible": "Савастьянов А.А.",
+      "site": "tank-dynamica.ru",
+      "brand": "TANK",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 251,
+      "company": "ДИНАМИКА ТЭНК АРХАНГЕЛЬСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-tank.ru",
+      "brand": "TANK",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 252,
+      "company": "Джили Импортерский",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-dynamica.ru",
+      "brand": "Geely",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 13
+    },
+    {
+      "id": 253,
+      "company": "ДИНАМИКА ДЖИЛИ АРХАНГЕЛЬСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.geely-dynamica.ru",
+      "brand": "Geely",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 254,
+      "company": "ДИНАМИКА ЧЕРИ АРХАНГЕЛЬСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "chery-dynamica.ru",
+      "brand": "Chery",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 255,
+      "company": "ДИНАМИКА КАЛИНИНГРАД ДЖЕТУР",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-kaliningrad.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 10
+    },
+    {
+      "id": 256,
+      "company": "ДИНАМИКА ОМОДА СМОЛЕНСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.omoda-dynamica.ru",
+      "brand": "Omoda",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 257,
+      "company": "ДИНАМИКА ДЖЕЙКУ ЛЕНДИНГ СМОЛЕНСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.jaecoo-dynamica.ru",
+      "brand": "Jaecoo",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 258,
+      "company": "ДИНАМИКА ДЖЕТУР ВОЛОГДА",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-dynamica-vologda.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 11
+    },
+    {
+      "id": 259,
+      "company": "ДЖЕЙКУ СЫКТЫВКАР",
+      "responsible": "Савастьянов А.А.",
+      "site": "jaecoo11.ru",
+      "brand": "Jaecoo",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 260,
+      "company": "ДИНАМИКА ОМОДА СЫКТЫВКАР",
+      "responsible": "Савастьянов А.А.",
+      "site": "omoda-komi.ru",
+      "brand": "Omoda",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 261,
+      "company": "ДИНАМИКА Джетур Архангельск",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-dynamica-arh.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 262,
+      "company": "ДИНАМИКА Джетур Архангельск",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.jetour-dynamica-arh.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 11
+    },
+    {
+      "id": 263,
+      "company": "ДИНАМИКА АСП",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-trade.ru",
+      "brand": "АСП",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 264,
+      "company": "ДЖЕТУР ЧЕРЕПОВЕЦ",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-dynamica-cherepovets.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 265,
+      "company": "ДИНАМИКА ХАВЕЙЛ ИМПОРТЕРСКИЙ ЧЕРЕПОВЕЦ",
+      "responsible": "Савастьянов А.А.",
+      "site": "dynamica-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 266,
+      "company": "Хавейл Череповец",
+      "responsible": "Савастьянов А.А.",
+      "site": "haval-dynamica35.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 10
+    },
+    {
+      "id": 267,
+      "company": "Хавейл Дон-Моторс",
+      "responsible": "Савастьянов А.А.",
+      "site": "haval-donmotors.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 268,
+      "company": "Хавейл Дон-Моторс",
+      "responsible": "Савастьянов А.А.",
+      "site": "donmotors-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 269,
+      "company": "Хавейл ПРО",
+      "responsible": "Савастьянов А.А.",
+      "site": "km-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 270,
+      "company": "К-Моторс Хавейл Сити",
+      "responsible": "Савастьянов А.А.",
+      "site": "km-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 443
+    },
+    {
+      "id": 271,
+      "company": "Чери чат-лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "chat.chery-nvkz.ru",
+      "brand": "Chery",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 272,
+      "company": "Джетур чат-лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "chat.jetour-nvkz.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 14
+    },
+    {
+      "id": 273,
+      "company": "Омода чат-лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "chat.omoda-jaecoo-42.ru",
+      "brand": "Omoda",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 440
+    },
+    {
+      "id": 274,
+      "company": "Чат-лендинг Джили",
+      "responsible": "Савастьянов А.А.",
+      "site": "chat.promo.geely-cartelauto.ru",
+      "brand": "Geely",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 10
+    },
+    {
+      "id": 275,
+      "company": "Belgee-cartelauto42.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-cartelauto42.ru",
+      "brand": "Belgee",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 439
+    },
+    {
+      "id": 276,
+      "company": "Rox-cartelauto.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Rox-cartelauto.ru",
+      "brand": "ROX",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 433
+    },
+    {
+      "id": 277,
+      "company": "Omoda-jaecoo-42.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Omoda-jaecoo-42.ru",
+      "brand": "Omoda/Jaecoo",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 437
+    },
+    {
+      "id": 278,
+      "company": "Jetour-nvkz.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Jetour-nvkz.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 438
+    },
+    {
+      "id": 279,
+      "company": "Jetour-cartelauto.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Jetour-cartelauto.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 280,
+      "company": "Jetour-cartel42.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Jetour-cartel42.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 281,
+      "company": "Jetour-cartelauto42.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Jetour-cartelauto42.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 282,
+      "company": "VOYAH Картель",
+      "responsible": "Савастьянов А.А.",
+      "site": "voyah-cartelauto-kemerovo.ru",
+      "brand": "VOYAH",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 283,
+      "company": "Автомолл Картель на Рубиновой",
+      "responsible": "Савастьянов А.А.",
+      "site": "cartelauto.ru",
+      "brand": "Мультибренд",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 284,
+      "company": "BELGEE КАРТЕЛЬ",
+      "responsible": "Савастьянов А.А.",
+      "site": "belgee-cartelauto.ru",
+      "brand": "Belgee",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 11
+    },
+    {
+      "id": 285,
+      "company": "GEELY лендинг",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.geely-cartelauto.ru",
+      "brand": "Geely",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 11
+    },
+    {
+      "id": 286,
+      "company": "GEELY КАРТЕЛЬ",
+      "responsible": "Савастьянов А.А.",
+      "site": "geely-cartelauto.ru",
+      "brand": "Geely",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 10
+    },
+    {
+      "id": 287,
+      "company": "Tenet-cartelauto.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Tenet-cartelauto.ru",
+      "brand": "TENET",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 289,
+      "company": "Чери Новокузнецк",
+      "responsible": "Савастьянов А.А.",
+      "site": "cartelauto-chery.ru",
+      "brand": "Chery",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 290,
+      "company": "Кислород Бутик Клуб",
+      "responsible": "Савастьянов А.А.",
+      "site": "kislorodclub.ru",
+      "brand": "сайт",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 291,
+      "company": "Классика Механика",
+      "responsible": "Савастьянов А.А.",
+      "site": "rm-klassika.ru",
+      "brand": "сайт",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 11
+    },
+    {
+      "id": 294,
+      "company": "КЛАССИКА Хайсун",
+      "responsible": "Савастьянов А.А.",
+      "site": "hisun-klassika.ru",
+      "brand": "Hisun",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 14
+    },
+    {
+      "id": 295,
+      "company": "ДАКТОР ХАВЕЙЛ ОТРАДНОЕ И КОММУНАРКА",
+      "responsible": "Савастьянов А.А.",
+      "site": "kmch-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 13
+    },
+    {
+      "id": 297,
+      "company": "Хавейл ПРО Отрадное",
+      "responsible": "Савастьянов А.А.",
+      "site": "kmch-otr-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 13
+    },
+    {
+      "id": 299,
+      "company": "Хавейл Сити Кубань",
+      "responsible": "Савастьянов А.А.",
+      "site": "dactor-krd-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 300,
+      "company": "Лендинг Сервис Коммунарка",
+      "responsible": "Савастьянов А.А.",
+      "site": "dactor-service.ru",
+      "brand": "Сервис",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 3
+    },
+    {
+      "id": 301,
+      "company": "Лендинг Сервис Коммунарка МСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "service-haval-msk.ru",
+      "brand": "Сервис",
+      "konget": "Скрипт есть",
+      "kind": "через контейнер",
+      "reason": "",
+      "was": "",
+      "seconds": 3
+    },
+    {
+      "id": 302,
+      "company": "Лендинг Хавейл Сити Коммунарка",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo-msk-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 305,
+      "company": "Дактор Хавейл Импортерский",
+      "responsible": "Савастьянов А.А.",
+      "site": "kmch-otr-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 8
+    },
+    {
+      "id": 306,
+      "company": "КОРСГРУПП ТЕНЕТ ПЛЮС ОБНИНСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "kors-obninsk-tenetplus.ru",
+      "brand": "TENET Plus",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 307,
+      "company": "КОРСГРУПП ТЕНЕТ ПЛЮС ТУЛА",
+      "responsible": "Савастьянов А.А.",
+      "site": "kors-tula-tenetplus.ru",
+      "brand": "TENET Plus",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 308,
+      "company": "КОРСГРУПП Обнинск Хавал",
+      "responsible": "Савастьянов А.А.",
+      "site": "obn-haval.genclient.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 309,
+      "company": "КОРСГРУПП Хавал Обнинск",
+      "responsible": "Савастьянов А.А.",
+      "site": "korsgroup-obn-haval.ru",
+      "brand": "HAVAL CITY",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 310,
+      "company": "КОРСГРУПП ТЕНЕТ ОБНИНСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "kors-group-tenet.ru",
+      "brand": "TENET",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 9
+    },
+    {
+      "id": 311,
+      "company": "КОРСГРУПП ТЕНЕТ НОГИНСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-korsgroup.ru",
+      "brand": "TENET",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 312,
+      "company": "КОРСГРУПП ТЕНЕТ КАЛУГА",
+      "responsible": "Савастьянов А.А.",
+      "site": "tenet-kors-group.ru",
+      "brand": "TENET",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 314,
+      "company": "КОРСГРУПП ДЖИЛИ НОВОМОСКОВСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "korsgroup-geely.ru",
+      "brand": "Geely",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 7
+    },
+    {
+      "id": 315,
+      "company": "КОРСГРУПП ТЭНК КУРСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "korsgroup-kursk-tank.ru",
+      "brand": "TANK",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 4
+    },
+    {
+      "id": 316,
+      "company": "КОРСГРУПП СУИСТ КУРСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "soueast-kors-kursk.ru",
+      "brand": "Soueast",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 317,
+      "company": "КОРСГРУПП ДЖЕТУР КУРСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "jetour-kors-kursk.ru",
+      "brand": "Jetour",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 318,
+      "company": "КОРСГРУПП ТЭНК ТУЛА",
+      "responsible": "Савастьянов А.А.",
+      "site": "korsgroup-tank.ru",
+      "brand": "TANK",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 4
+    },
+    {
+      "id": 319,
+      "company": "КОРСГРУПП ТЭНК ЯРОСЛАВЛЬ",
+      "responsible": "Савастьянов А.А.",
+      "site": "korsgroup-yar-tank.ru",
+      "brand": "TANK",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 6
+    },
+    {
+      "id": 320,
+      "company": "КОРСГРУПП ГАК КАЛУГА",
+      "responsible": "Савастьянов А.А.",
+      "site": "gac-kors-kaluga.ru",
+      "brand": "GAC",
+      "konget": "Скрипт есть",
+      "kind": "отложенный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
     }
   ]
 }
