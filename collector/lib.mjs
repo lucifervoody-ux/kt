@@ -184,6 +184,13 @@ export function validateModels(models) {
       problems.push(`${m.model}: выгода больше цены`);
     }
   }
+  const byPrice = new Map();
+  for (const model of models) {
+    if (model.price !== '-') byPrice.set(model.price, (byPrice.get(model.price) || 0) + 1);
+  }
+  for (const [price, count] of byPrice) {
+    if (count >= 3) problems.push(`Цена ${formatRub(price)} повторяется у ${count} моделей, нужна сверка с карточками`);
+  }
   return problems;
 }
 
@@ -228,7 +235,7 @@ export function diffDetails(prev, curr) {
 // Из видимого текста страницы берём строки про акции, выгоды и цены. Поменялись строки — предложение поменялось.
 const PROMO_LINE = /выгод|скидк|акци|спецпредложен|преимуществ|подарок|бонус|рассрочк|кредит|трейд-?ин|\d[\d\s\u00a0]{3,}\s*(₽|руб)|\bот\s+\d|до\s+\d[\d\s\u00a0]*(₽|руб|%)/i;
 // Строки с таймерами, датами и счётчиками меняются каждый день сами по себе, их не сравниваем.
-const NOISE_LINE = /осталось|до конца акции|\d{1,2}:\d{2}(:\d{2})?|\b\d+\s*(дн|час|мин|сек)\S*\s*\d*|©|cookie|куки|политик/i;
+const NOISE_LINE = /рассчита(?:йте|ть)\s+кредит|промывка\s+топливной\s+системы|осталось|до конца акции|\d{1,2}:\d{2}(:\d{2})?|\b\d+\s*(дн|час|мин|сек)\S*\s*\d*|©|cookie|куки|политик/i;
 export const MAX_PROMO_LINES = 30;
 
 export function extractPromoLines(text) {
@@ -262,13 +269,13 @@ export function diffLines(prev, curr) {
 export function decideChange(site, prevSite) {
   if (site.status === 'needs_check' && site.text_mode && site.promo_lines?.length) {
     if (!prevSite?.promo_lines?.length) return { change: CHANGE.first, changes: [`Записан текст акций: строк ${site.promo_lines.length}`] };
-    const changes = diffLines(prevSite.promo_lines, site.promo_lines);
+    const changes = diffLines(prevSite.promo_lines.filter((line) => !NOISE_LINE.test(line)), site.promo_lines.filter((line) => !NOISE_LINE.test(line)));
     return { change: changes.length ? CHANGE.changed : CHANGE.same, changes };
   }
   if (site.status === 'no_scenario') return { change: CHANGE.noScenario, changes: [] };
   if (site.status === 'access_error') return { change: CHANGE.error, changes: [] };
   if (site.status === 'needs_check') return { change: CHANGE.check, changes: [] };
-  if (!prevSite || !prevSite.models?.length) {
+  if (!prevSite || prevSite.status !== 'ok' || !prevSite.models?.length) {
     return { change: CHANGE.first, changes: [`Записано моделей: ${site.models.length}`] };
   }
   const changes = diffModels(prevSite.models, site.models);

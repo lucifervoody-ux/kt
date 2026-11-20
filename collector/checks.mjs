@@ -31,7 +31,7 @@ const STUB = [
   /ведутся\s+технические\s+работы/i,
   /домен\s+.{0,40}(продается|продаётся|припаркован|не\s+делегирован)/i,
   /(срок\s+регистрации|оплата\s+хостинга|аккаунт\s+заблокирован)/i,
-  /under\s+construction|coming\s+soon|domain\s+(is\s+)?for\s+sale|this\s+domain\s+is\s+parked/i,
+  /under\s+construction|domain\s+(is\s+)?for\s+sale|this\s+domain\s+is\s+parked/i,
   /index\s+of\s+\//i,
 ];
 
@@ -148,9 +148,11 @@ function kindOf(html, token) {
 // (включая те, что появились через несколько секунд или из контейнера).
 export function kongetVerdict({ error, html = '', dom = '', requests = [], expected = '', status = 0 }) {
   if (error) return { konget: KONGET.down, tokens: [], reason: error };
-  const loaded = requests.filter((u) => /konget/i.test(u));
-  const inCode = [...`${html}\n${dom}`.matchAll(/[^\s"'<>]*konget[^\s"'<>]*/gi)].map((m) => m[0]);
-  const tokens = [...new Set([...loaded, ...inCode].flatMap(findTokens))];
+  const endpoint = /^(?:https?:)?\/\/app\.konget\.ru\/inject(?:[?#]|$)/i;
+  const loaded = requests.filter((u) => endpoint.test(u));
+  const inCode = [...`${html}\n${dom}`.matchAll(/(?:https?:)?\/\/[^\s"'<>]+/gi)]
+    .map((m) => m[0].replace(/&amp;/gi, '&')).filter((u) => endpoint.test(u));
+  const tokens = [...new Set([...loaded, ...inCode].map((u) => new URL(u, 'https://app.konget.ru').searchParams.get('token')).filter((t) => /^[A-Za-z0-9_-]{6,}$/.test(t || '')))];
   const where = loaded[0] || inCode[0] || '';
   const container = CONTAINER.test(`${html}\n${dom}`) || requests.some((u) => CONTAINER.test(u));
   if (!loaded.length && !inCode.length) {

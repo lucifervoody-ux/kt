@@ -22,7 +22,6 @@ async function checkOnce(browser, site, timeout) {
     await page.waitForLoadState('load', { timeout: 10_000 }).catch(() => {});
     // Страницы, которые рисуются скриптом, появляются не сразу: ждём текст до 8 с, прежде чем назвать страницу пустой.
     await page.waitForFunction(() => (document.body?.innerText || '').replace(/\s+/g, ' ').trim().length >= 80, null, { timeout: 8_000 }).catch(() => {});
-    const text = await page.evaluate(() => document.body?.innerText || '').catch(() => '');
     const html = await res?.text().catch(() => '') || '';
     let dom = await page.content().catch(() => '');
     const status = res?.status() || 0;
@@ -33,7 +32,7 @@ async function checkOnce(browser, site, timeout) {
       dom = await page.content().catch(() => '');
     }
     return {
-      status: res?.status() || 0, seconds, text, title: await page.title().catch(() => ''), final_url: page.url(), html, dom, requests,
+      status: res?.status() || 0, seconds, text: await page.evaluate(() => document.body?.innerText || '').catch(() => ''), title: await page.title().catch(() => ''), final_url: page.url(), html, dom, requests,
     };
   } catch (e) {
     return { error: e.message.split('\n')[0], seconds: (Date.now() - started) / 1000 };
