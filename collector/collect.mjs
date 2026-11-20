@@ -57,16 +57,16 @@ async function openPage(context, site, url, cfg = {}) {
   site.pagesOpened = (site.pagesOpened || 0) + 1;
   const page = await context.newPage();
   try {
-    if (site.profile && !sameSite(url, siteUrl(site))) throw new Error('Ссылка ведёт на другой домен');
+    if (!sameSite(url, siteUrl(site))) throw new Error('Ссылка ведёт на другой домен');
     const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: PAGE_TIMEOUT });
-    if (site.profile && !sameSite(page.url(), siteUrl(site))) throw new Error('Сайт перенаправил на другой домен');
+    if (!sameSite(page.url(), siteUrl(site))) throw new Error('Сайт перенаправил на другой домен');
     if (response && response.status() >= 400) throw new Error(`HTTP ${response.status()}`);
   } catch (e) {
     await page.close();
     throw e;
   }
   await page.waitForLoadState('networkidle', { timeout: 15_000 }).catch(() => {});
-  if (site.profile) {
+  {
     const visible = await page.evaluate(() => document.title + '\n' + (document.body?.innerText || '').slice(0, 2000)).catch(() => '');
     if (!sameSite(page.url(), siteUrl(site)) || BLOCKED.test(visible)) {
       await page.close();
@@ -283,12 +283,12 @@ function fromTemplate(site, t) {
   };
 }
 
-const profiles = JSON.parse(fs.readFileSync(path.join(TEMPLATES, 'sites.json'), 'utf8'));
-const AGG_NAME = 'Весь сайт';
+const profiles = new Map(Object.entries(JSON.parse(fs.readFileSync(path.join(TEMPLATES, 'sites.json'), 'utf8')))
+  .map(([address, profile]) => [host(address), profile]));
 
 async function collectSite(browser, site) {
-  const profile = profiles[site.site] || profiles[host(site.site)];
-  if (profile && String(profile.id) === String(site.id)) site.profile = profile;
+  const profile = profiles.get(host(site.site));
+  if (profile) site.profile = profile;
   if (!site.pages?.length && !site.models) {
     const known = healthById.get(String(site.id));
     let engine = known && host(known.site) === host(site.site) ? known.engine : '';
@@ -296,7 +296,7 @@ async function collectSite(browser, site) {
     if (!engine || !templates.has(engine)) {
       // Движок неизвестен или для него ещё нет шаблона: открываем главную, определяем движок
       // и сохраняем снимок — по нему можно сделать шаблон.
-      const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
+      const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: false });
       try {
         const page = await openPage(context, site, siteUrl(site));
         engine = detectEngine(await page.content(), page.url());
@@ -345,7 +345,7 @@ async function collectSiteWith(browser, site) {
     const engine = site.engine ? ` (движок: ${site.engine})` : '';
     return { ...base, status: 'no_scenario', comment: `Для сайта ещё нет ни сценария, ни шаблона движка${engine}` };
   }
-  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: true });
+  const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: false });
   try {
     const rows = [];
     const notes = [];
@@ -412,8 +412,6 @@ async function collectSiteWith(browser, site) {
         notes.push(`Автопоиск моделей: ${e.message.split('\n')[0]}`);
       }
     }
-    // Лендинг без списка моделей (Tilda и похожие): берём с главной самую низкую цену и самую большую выгоду по всему сайту.
-    // Это не цены по моделям, но по ним видно, когда на сайте поменялось предложение.
     let byAi = false;
     // У части сайтов движка нет страниц моделей, но на главной цены «от» есть: это нормальный результат, а не замечание.
     if (site.template && site.template !== '*' && rows.some((r) => r.model && r.price !== '-')) {
@@ -436,21 +434,6 @@ async function collectSiteWith(browser, site) {
         notes.push(`ИИ не помог: ${e.message.split('\n')[0]}`);
       }
     }
-    if (!site.profile && site.aggregate && !rows.some((r) => r.model)) {
-      try {
-        const agg = { url: siteUrl(site), card: 'body', model_name: AGG_NAME, price: 'body', benefit: 'body', min_price: 500000, ...site.aggregate };
-        const res = await collectPage(context, site, agg, 'agg');
-        anyOpened = true;
-        rows.push(...res.models);
-        if (res.screen) base.screens.push(res.screen);
-      } catch (e) {
-        notes.push(`Главная не открылась: ${e.message.split('\n')[0]}`);
-      }
-    }
-    if (!anyOpened && site.template === '*') {
-      // Запасной шаблон не нашёл на главной ссылок на модели: для этого движка нужен свой шаблон.
-      return { ...base, status: 'no_scenario', comment: `Для движка «${site.engine || 'не определён'}» ещё нет шаблона, запасной не нашёл модели` };
-    }
     if (!anyOpened) return { ...base, status: 'access_error', comment: notes.join('; ') };
 
     const models = mergeModels(rows.filter((r) => r.model));
@@ -467,7 +450,7 @@ async function collectSiteWith(browser, site) {
       }
       return homeText;
     };
-    if (models.some((m) => m.max_benefit === '-' && m.model !== AGG_NAME)) {
+    if (models.some((m) => m.max_benefit === '-')) {
       try {
         const found = benefitsByModel(await readHome(), models.map((m) => m.model));
         let added = 0;
@@ -493,13 +476,11 @@ async function collectSiteWith(browser, site) {
       all.push(`Собрано по общему шаблону движка ${site.template}`);
     }
     if (byAi) all.push('Модели и цены разобрал ИИ по тексту главной страницы, цифры проверьте');
-    const aggregated = rows.some((r) => r.model === AGG_NAME);
-    if (aggregated) all.push('Лендинг без списка моделей: цена и выгода взяты со всей главной страницы, проверьте их');
     if (autoUsed) all.push('Модели найдены автопоиском карточек на главной, цифры проверьте');
-    const ok = site.template !== '*' && !aggregated && !byAi && !autoUsed && all.length === (site.template ? 1 : 0);
+    const ok = site.template !== '*' && !byAi && !autoUsed && all.length === (site.template ? 1 : 0);
     const result = { ...base, models, status: ok ? 'ok' : 'needs_check', comment: all.join('; ') };
     // Цены по моделям тут ненадёжны: сравниваем сайт по тексту акций с главной страницы.
-    if ((site.template === '*' || aggregated || byAi || autoUsed) && (!site.profile || models.length)) {
+    if (!problems.length && (site.template === '*' || byAi || autoUsed) && (!site.profile || models.length)) {
       try {
         result.promo_lines = extractPromoLines(await readHome());
         if (result.promo_lines.length) {

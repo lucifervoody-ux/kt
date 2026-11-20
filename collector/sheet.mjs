@@ -17,19 +17,24 @@ export function openingResult(health, reason = '') {
   return [opened ? 'Работает' : 'Не работает', reason || (opened ? 'Страница открылась' : health === HEALTH.stub ? 'Вместо сайта показана заглушка' : 'Главная страница не открылась')];
 }
 
-export function buildSheets({ health, konget, utp }) {
-  const byId = (report) => new Map((report?.sites || []).map((s) => [String(s.id), s]));
+export function buildSheets({ health, konget, utp, registry }) {
+  const address = (site) => String(site ?? '').trim().toLowerCase().replace(/^https?:\/\/(www\.)?|^www\./, '').replace(/\/+$/, '');
+  const current = registry ? new Map(registry.filter((s) => s.active).map((s) => [String(s.id), s])) : null;
+  const matches = (a, b) => a && b && address(a.site) === address(b.site);
+  const byId = (report, include = () => true) => new Map((report?.sites || [])
+    .filter((s) => !current || (matches(s, current.get(String(s.id))) && include(current.get(String(s.id)))))
+    .map((s) => [String(s.id), s]));
   const h = byId(health);
   const k = byId(konget);
-  const u = byId(utp);
-  const ids = [...new Set([...h.keys(), ...k.keys(), ...u.keys()])].sort((a, b) => Number(a) - Number(b));
+  const u = byId(utp, (s) => s.utp);
+  const ids = [...new Set([...(current?.keys() || []), ...h.keys(), ...k.keys(), ...u.keys()])].sort((a, b) => Number(a) - Number(b));
 
   // «Сводка»: одна строка на сайт, все три проверки рядом. Проблемные сайты сверху.
   const summary = ids.map((id) => {
-    const site = h.get(id) || k.get(id) || u.get(id);
+    const site = current?.get(id) || h.get(id) || k.get(id) || u.get(id);
     const hs = h.get(id);
-    const ks = k.get(id);
-    const us = u.get(id);
+    const ks = matches(site, k.get(id)) ? k.get(id) : null;
+    const us = matches(site, u.get(id)) ? u.get(id) : null;
     const problems = [hs?.health && hs.health !== HEALTH.ok, ks?.konget && ks.konget !== KONGET.ok,
       us?.change && [CHANGE.error, CHANGE.check].includes(us.change)].filter(Boolean).length;
     return {
@@ -37,14 +42,12 @@ export function buildSheets({ health, konget, utp }) {
       row: [
         Number(id), site.company || '', site.site, site.brand || '', site.responsible || '',
         hs?.health || '', ks?.konget || '', us?.change || '',
-        (us?.changes || []).join('; '),
+        us?.change === CHANGE.changed ? (us.changes || []).join('; ') : '',
         // Если сайт не открылся, причина у проверки работы и у скрипта одна: пишем её один раз.
         [...new Set([hs?.reason, ks?.konget === KONGET.down && hs?.reason ? '' : ks?.reason, us?.comment].filter(Boolean))].join('; '),
       ],
     };
   }).sort((a, b) => b.problems - a.problems || a.row[0] - b.row[0]).map((x) => x.row);
-
-  const sites = (report) => report?.sites || [];
 
   return {
     'Сводка': {
@@ -62,7 +65,7 @@ export function buildSheets({ health, konget, utp }) {
       rows: [...new Set([...h.keys(), ...k.keys()])].map((id) => {
         const hs = h.get(id);
         const script = k.get(id);
-        const ks = !hs || hs.site === script?.site ? script : null;
+        const ks = !hs || matches(hs, script) ? script : null;
         const [status, detail] = openingResult(hs?.health, hs?.reason);
         return [Number(id), (hs || ks).site, status, hs?.code ?? '', detail, ks?.konget || '',
           (hs?.was || '').replace('Было: ', ''), ks?.kind || '',
@@ -75,9 +78,9 @@ export function buildSheets({ health, konget, utp }) {
         col('ID'), col('Сайт'), col('Бренд'), col('Статус'), col('Изменения'), col('Что изменилось'),
         col('Комментарий'),
       ],
-      rows: sites(utp).map((s) => [
+      rows: [...u.values()].map((s) => [
         s.id, s.site, s.brand || '', s.change,
-        s.change === CHANGE.changed ? 'Да' : [CHANGE.same, CHANGE.first].includes(s.change) ? 'Нет' : '',
+        s.change === CHANGE.changed ? 'Да' : s.change === CHANGE.same ? 'Нет' : '',
         s.change === CHANGE.changed ? (s.changes || []).join('; ') : '', s.comment || '',
       ]),
     },
@@ -93,7 +96,6 @@ export function sheetValues({ columns, rows }) {
 export const FALLBACK = {
   [KONGET.wrong]: KONGET.manual,
   [KONGET.noToken]: KONGET.manual,
-  [HEALTH.manual]: 'Не работает',
 };
 
 const norm = (v) => String(v ?? '').trim().toLowerCase();

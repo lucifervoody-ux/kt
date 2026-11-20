@@ -42,7 +42,7 @@ export async function loadSites(onlyId) {
   }
   // Таблица не подключена: берём сохранённую копию листа «Сайты» (data/sites-copy.json).
   const copy = !sites.length ? readJson(path.join(DATA, 'sites-copy.json')) : null;
-  if (copy?.grid?.length) {
+  if (!hasGoogle() && copy?.grid?.length) {
     const rows = parseSites(copy.grid);
     log(`Таблица не подключена, беру копию листа «${SITES_SHEET}» из data/sites-copy.json: сайтов ${rows.length}`);
     sites = rows.map((r) => {
@@ -51,7 +51,7 @@ export async function loadSites(onlyId) {
       return { ...sc, ...r, konget_token: r.konget_token || sc.konget_token || '' };
     });
   }
-  if (!sites.length) {
+  if (!sites.length && !hasGoogle()) {
     log('Список сайтов берём из папки scenarios');
     sites = scenarios.filter((s) => s.site);
   }
@@ -86,7 +86,7 @@ export function splitUnverified(sites) {
   if (skipped.length) log(`Пропущено сайтов, которые не прошли проверку работы: ${skipped.length}`);
   return { run, skipped };
 }
-export const SKIP_REASON = (health) => `Пропущен: на проверке работы статус «${health}». Откройте сайт сами и поставьте «Да» в колонке «Проверено вручную» листа «Сайты»`;
+export const SKIP_REASON = (health) => `Пропущен: на проверке работы статус «${health}». Повторно запустите проверку работы сайта после восстановления доступа`;
 
 // «https://www.Tenet.ru/» → «tenet.ru».
 export function host(site) {

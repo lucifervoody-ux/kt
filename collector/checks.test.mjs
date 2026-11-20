@@ -323,3 +323,26 @@ test('таймаут, заглушка и медленный сайт получ
   assert.deepEqual(openingResult(HEALTH.slow, 'Открывался 12 с'), ['Работает', 'Открывался 12 с']);
   assert.deepEqual(openingResult(HEALTH.stub), ['Не работает', 'Вместо сайта показана заглушка']);
 });
+
+test('проверка Конгет учитывает только настоящий адрес скрипта', () => {
+  assert.equal(kongetVerdict({ requests: ['https://dealer.ru/?next=konget'] }).konget, KONGET.missing);
+  assert.equal(kongetVerdict({ html: '<script src="//app.konget.ru/inject?src=dealer&amp;token=abc123"></script>' }).konget, KONGET.ok);
+});
+
+test('выгрузка учитывает текущий реестр, адрес и разрешение на УТП', () => {
+  const registry = [
+    { id: 1, site: 'new.ru', active: true, utp: true },
+    { id: 2, site: 'disabled.ru', active: false, utp: true },
+    { id: 3, site: 'site.ru', active: true, utp: false },
+  ];
+  const sheets = buildSheets({ registry,
+    health: { sites: [{ id: 1, site: 'old.ru', health: HEALTH.ok }, { id: 2, site: 'disabled.ru', health: HEALTH.ok }] },
+    konget: { sites: [{ id: 1, site: 'old.ru', konget: KONGET.ok }] },
+    utp: { sites: [{ id: 3, site: 'site.ru', change: 'Изменилось' }] },
+  });
+  assert.deepEqual(sheets['Сводка'].rows.map((r) => [r[0], r[2], r[5], r[6], r[7]]), [
+    [1, 'new.ru', '', '', ''], [3, 'site.ru', '', '', ''],
+  ]);
+  assert.equal(sheets['Сайты и скрипт'].rows.length, 0);
+  assert.equal(sheets['УТП'].rows.length, 0);
+});
