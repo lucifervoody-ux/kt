@@ -1,13 +1,13 @@
 {
   "date": "2026-11-20",
-  "checked_at": "2026-11-20T12:18:36.419Z",
-  "total_seconds": 1054,
+  "checked_at": "2026-11-20T13:35:06.506Z",
+  "total_seconds": 535,
   "parallel": 6,
   "summary": {
-    "Скрипта нет": 26,
+    "Скрипта нет": 19,
     "Токен не тот": 0,
-    "Скрипт без токена": 1,
-    "Проверить вручную": 27,
+    "Скрипт без токена": 0,
+    "Проверить вручную": 22,
     "Сайт не открылся": 7,
     "Скрипт есть": 259
   },
@@ -22,7 +22,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 18
+      "seconds": 19
     },
     {
       "id": 10,
@@ -34,7 +34,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 19
+      "seconds": 26
     },
     {
       "id": 40,
@@ -46,7 +46,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 17
+      "seconds": 15
     },
     {
       "id": 52,
@@ -58,7 +58,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 17
+      "seconds": 16
     },
     {
       "id": 53,
@@ -70,7 +70,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 30
+      "seconds": 17
     },
     {
       "id": 55,
@@ -82,115 +82,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "Было: Сайт не открылся",
-      "seconds": 29
-    },
-    {
-      "id": 87,
-      "company": "АГАТ ГРУПП Абакан",
-      "responsible": "Савастьянов А.А.",
-      "site": "abakan.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 17
-    },
-    {
-      "id": 88,
-      "company": "АГАТ ГРУПП Астрахань",
-      "responsible": "Савастьянов А.А.",
-      "site": "astrakhan.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 17
-    },
-    {
-      "id": 89,
-      "company": "АГАТ ГРУПП Владимир",
-      "responsible": "Савастьянов А.А.",
-      "site": "vladimir.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 17
-    },
-    {
-      "id": 90,
-      "company": "АГАТ ГРУПП Екатеринбург",
-      "responsible": "Савастьянов А.А.",
-      "site": "ekaterinburg.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 17
-    },
-    {
-      "id": 95,
-      "company": "АГАТ ГРУПП Ростов",
-      "responsible": "Савастьянов А.А.",
-      "site": "rostov.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 18
-    },
-    {
-      "id": 96,
-      "company": "АГАТ ГРУПП Саранск",
-      "responsible": "Савастьянов А.А.",
-      "site": "saransk.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 17
-    },
-    {
-      "id": 97,
-      "company": "АГАТ ГРУПП Ставрополь",
-      "responsible": "Савастьянов А.А.",
-      "site": "stavropol.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 19
-    },
-    {
-      "id": 98,
-      "company": "АГАТ ГРУПП Сыктывкар",
-      "responsible": "Савастьянов А.А.",
-      "site": "syktyvkar.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 17
-    },
-    {
-      "id": 99,
-      "company": "АГАТ ГРУПП Ярославль",
-      "responsible": "Савастьянов А.А.",
-      "site": "yaroslavl.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 18
+      "seconds": 16
     },
     {
       "id": 124,
@@ -205,6 +97,18 @@
       "seconds": 16
     },
     {
+      "id": 162,
+      "company": "Solaris.artexauto.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Solaris.artexauto.ru",
+      "brand": "Solaris",
+      "konget": "Скрипта нет",
+      "kind": "",
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "was": "",
+      "seconds": 20
+    },
+    {
       "id": 171,
       "company": "БОЛИВАР VOYAH Лендинг",
       "responsible": "Савастьянов А.А.",
@@ -214,7 +118,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 17
+      "seconds": 16
     },
     {
       "id": 173,
@@ -226,7 +130,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 17
+      "seconds": 15
     },
     {
       "id": 184,
@@ -238,7 +142,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 22
+      "seconds": 18
     },
     {
       "id": 206,
@@ -250,7 +154,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 19
+      "seconds": 24
     },
     {
       "id": 207,
@@ -277,6 +181,18 @@
       "seconds": 19
     },
     {
+      "id": 253,
+      "company": "ДИНАМИКА ДЖИЛИ АРХАНГЕЛЬСК",
+      "responsible": "Савастьянов А.А.",
+      "site": "promo.geely-dynamica.ru",
+      "brand": "Geely",
+      "konget": "Скрипта нет",
+      "kind": "",
+      "reason": "В коде сайта и в загруженных файлах нет app.konget",
+      "was": "",
+      "seconds": 16
+    },
+    {
       "id": 288,
       "company": "Чери Новокузнецк Лендинг",
       "responsible": "Савастьянов А.А.",
@@ -286,7 +202,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 20
+      "seconds": 17
     },
     {
       "id": 292,
@@ -298,7 +214,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 14
+      "seconds": 16
     },
     {
       "id": 296,
@@ -310,7 +226,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 15
+      "seconds": 14
     },
     {
       "id": 304,
@@ -323,18 +239,6 @@
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
       "seconds": 14
-    },
-    {
-      "id": 162,
-      "company": "Solaris.artexauto.ru",
-      "responsible": "Савастьянов А.А.",
-      "site": "Solaris.artexauto.ru",
-      "brand": "Solaris",
-      "konget": "Скрипт без токена",
-      "kind": "",
-      "reason": "Конгет на сайте есть, а token не нашёлся",
-      "was": "",
-      "seconds": 19
     },
     {
       "id": 50,
@@ -358,19 +262,7 @@
       "kind": "",
       "reason": "Скрипт не найден, но на сайте есть контейнер тегов (например, Google Tag Manager). Скрипт может лежать в нём, проверьте сами",
       "was": "",
-      "seconds": 18
-    },
-    {
-      "id": 63,
-      "company": "ЭКСИД 42",
-      "responsible": "Савастьянов А.А.",
-      "site": "exeed42.ru",
-      "brand": "Exeed",
-      "konget": "Проверить вручную",
-      "kind": "",
-      "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
-      "was": "Было: Скрипт есть",
-      "seconds": 97
+      "seconds": 16
     },
     {
       "id": 66,
@@ -382,55 +274,7 @@
       "kind": "",
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "was": "Было: Скрипта нет",
-      "seconds": 15
-    },
-    {
-      "id": 91,
-      "company": "АГАТ ГРУПП Иваново",
-      "responsible": "Савастьянов А.А.",
-      "site": "ivanovo.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Проверить вручную",
-      "kind": "",
-      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
-      "was": "Было: Сайт не открылся",
-      "seconds": 1
-    },
-    {
-      "id": 92,
-      "company": "АГАТ ГРУПП Киров",
-      "responsible": "Савастьянов А.А.",
-      "site": "kirov.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Проверить вручную",
-      "kind": "",
-      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
-      "was": "Было: Сайт не открылся",
-      "seconds": 1
-    },
-    {
-      "id": 93,
-      "company": "АГАТ ГРУПП Красноярск",
-      "responsible": "Савастьянов А.А.",
-      "site": "krasnoyarsk.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Проверить вручную",
-      "kind": "",
-      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
-      "was": "Было: Сайт не открылся",
-      "seconds": 1
-    },
-    {
-      "id": 94,
-      "company": "АГАТ ГРУПП Мин.Воды",
-      "responsible": "Савастьянов А.А.",
-      "site": "minvody.agat-group.com",
-      "brand": "Мультибренд",
-      "konget": "Проверить вручную",
-      "kind": "",
-      "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
-      "was": "Было: Сайт не открылся",
-      "seconds": 1
+      "seconds": 13
     },
     {
       "id": 102,
@@ -442,7 +286,7 @@
       "kind": "",
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "was": "",
-      "seconds": 15
+      "seconds": 13
     },
     {
       "id": 103,
@@ -454,7 +298,7 @@
       "kind": "",
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "was": "",
-      "seconds": 16
+      "seconds": 13
     },
     {
       "id": 118,
@@ -478,7 +322,7 @@
       "kind": "",
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "was": "",
-      "seconds": 15
+      "seconds": 14
     },
     {
       "id": 141,
@@ -586,7 +430,7 @@
       "kind": "",
       "reason": "Не открылся с серверов проверки (page.goto: Timeout 60000ms exceeded.). Людям сайт может открываться, проверьте вручную",
       "was": "",
-      "seconds": 91
+      "seconds": 90
     },
     {
       "id": 209,
@@ -610,7 +454,7 @@
       "kind": "",
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "was": "",
-      "seconds": 15
+      "seconds": 13
     },
     {
       "id": 239,
@@ -634,7 +478,7 @@
       "kind": "",
       "reason": "Сертификат сайта недействителен (ERR_CERT_COMMON_NAME_INVALID): браузер показывает посетителям «Подключение не защищено»",
       "was": "",
-      "seconds": 4
+      "seconds": 1
     },
     {
       "id": 298,
@@ -682,7 +526,7 @@
       "kind": "",
       "reason": "Сайт ответил ошибкой 404",
       "was": "",
-      "seconds": 12
+      "seconds": 9
     },
     {
       "id": 160,
@@ -766,7 +610,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 3,
@@ -778,7 +622,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 5,
@@ -790,7 +634,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 17
+      "seconds": 10
     },
     {
       "id": 6,
@@ -802,7 +646,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 7,
@@ -814,7 +658,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 5
     },
     {
       "id": 8,
@@ -826,7 +670,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 5
     },
     {
       "id": 9,
@@ -838,7 +682,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 5
     },
     {
       "id": 11,
@@ -850,7 +694,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 7
     },
     {
       "id": 12,
@@ -862,7 +706,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 29
+      "seconds": 22
     },
     {
       "id": 13,
@@ -886,7 +730,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 7
     },
     {
       "id": 15,
@@ -898,7 +742,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 16,
@@ -922,7 +766,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 6
     },
     {
       "id": 18,
@@ -946,7 +790,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 8
     },
     {
       "id": 20,
@@ -982,7 +826,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 5
     },
     {
       "id": 23,
@@ -994,7 +838,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 14
     },
     {
       "id": 24,
@@ -1018,7 +862,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 16
     },
     {
       "id": 26,
@@ -1030,7 +874,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 9
     },
     {
       "id": 27,
@@ -1042,7 +886,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "Было: Сайт не открылся",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 28,
@@ -1054,7 +898,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 9
     },
     {
       "id": 29,
@@ -1066,7 +910,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 7
     },
     {
       "id": 30,
@@ -1078,7 +922,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 8
     },
     {
       "id": 31,
@@ -1090,7 +934,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "Было: Сайт не открылся",
-      "seconds": 5
+      "seconds": 12
     },
     {
       "id": 32,
@@ -1102,7 +946,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 35,
@@ -1114,7 +958,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 12
     },
     {
       "id": 36,
@@ -1138,7 +982,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 38,
@@ -1150,7 +994,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 39,
@@ -1162,7 +1006,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 9
     },
     {
       "id": 41,
@@ -1186,7 +1030,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 43,
@@ -1210,7 +1054,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 45,
@@ -1222,7 +1066,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 7
     },
     {
       "id": 46,
@@ -1234,7 +1078,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 25
+      "seconds": 15
     },
     {
       "id": 47,
@@ -1246,7 +1090,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 6
     },
     {
       "id": 48,
@@ -1270,7 +1114,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 51,
@@ -1294,7 +1138,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 17
+      "seconds": 6
     },
     {
       "id": 57,
@@ -1306,7 +1150,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 4
     },
     {
       "id": 58,
@@ -1318,7 +1162,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 59,
@@ -1354,7 +1198,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 12
+      "seconds": 13
     },
     {
       "id": 62,
@@ -1362,6 +1206,18 @@
       "responsible": "Савастьянов А.А.",
       "site": "lada42.ru",
       "brand": "LADA",
+      "konget": "Скрипт есть",
+      "kind": "обычный",
+      "reason": "",
+      "was": "",
+      "seconds": 5
+    },
+    {
+      "id": 63,
+      "company": "ЭКСИД 42",
+      "responsible": "Савастьянов А.А.",
+      "site": "exeed42.ru",
+      "brand": "Exeed",
       "konget": "Скрипт есть",
       "kind": "обычный",
       "reason": "",
@@ -1378,7 +1234,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 14
     },
     {
       "id": 65,
@@ -1402,7 +1258,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 30
+      "seconds": 14
     },
     {
       "id": 68,
@@ -1414,7 +1270,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 69,
@@ -1426,7 +1282,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 4
     },
     {
       "id": 70,
@@ -1438,7 +1294,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 25
+      "seconds": 6
     },
     {
       "id": 71,
@@ -1450,7 +1306,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 21
+      "seconds": 5
     },
     {
       "id": 72,
@@ -1462,7 +1318,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 19
+      "seconds": 8
     },
     {
       "id": 73,
@@ -1474,7 +1330,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 13
     },
     {
       "id": 74,
@@ -1486,7 +1342,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 19
+      "seconds": 10
     },
     {
       "id": 75,
@@ -1498,7 +1354,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 9
     },
     {
       "id": 76,
@@ -1510,7 +1366,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 8
     },
     {
       "id": 77,
@@ -1522,7 +1378,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 8
     },
     {
       "id": 78,
@@ -1534,7 +1390,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 8
     },
     {
       "id": 79,
@@ -1558,7 +1414,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 10
     },
     {
       "id": 81,
@@ -1570,7 +1426,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 10
     },
     {
       "id": 82,
@@ -1582,7 +1438,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 13
     },
     {
       "id": 83,
@@ -1594,7 +1450,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 13
     },
     {
       "id": 84,
@@ -1606,7 +1462,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 10
     },
     {
       "id": 85,
@@ -1654,7 +1510,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 104,
@@ -1666,7 +1522,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 3
     },
     {
       "id": 105,
@@ -1690,7 +1546,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 5
     },
     {
       "id": 107,
@@ -1702,7 +1558,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 108,
@@ -1714,7 +1570,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 109,
@@ -1726,7 +1582,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 110,
@@ -1738,7 +1594,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 4
     },
     {
       "id": 111,
@@ -1750,7 +1606,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 7
     },
     {
       "id": 112,
@@ -1762,7 +1618,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 7
     },
     {
       "id": 113,
@@ -1774,7 +1630,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 18
     },
     {
       "id": 114,
@@ -1786,7 +1642,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 7
     },
     {
       "id": 115,
@@ -1810,7 +1666,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 117,
@@ -1822,7 +1678,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 8
     },
     {
       "id": 119,
@@ -1834,7 +1690,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 8
     },
     {
       "id": 120,
@@ -1870,7 +1726,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 5
     },
     {
       "id": 123,
@@ -1882,7 +1738,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 8
     },
     {
       "id": 125,
@@ -1894,7 +1750,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 8
     },
     {
       "id": 126,
@@ -1918,7 +1774,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 3
     },
     {
       "id": 128,
@@ -1942,7 +1798,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 9
     },
     {
       "id": 130,
@@ -1966,7 +1822,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 132,
@@ -1990,7 +1846,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 134,
@@ -2002,7 +1858,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 135,
@@ -2038,7 +1894,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 6
     },
     {
       "id": 138,
@@ -2050,7 +1906,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 139,
@@ -2062,7 +1918,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 13
     },
     {
       "id": 142,
@@ -2074,7 +1930,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 144,
@@ -2086,7 +1942,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 4
     },
     {
       "id": 145,
@@ -2098,7 +1954,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 5
     },
     {
       "id": 146,
@@ -2110,7 +1966,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 14
+      "seconds": 22
     },
     {
       "id": 147,
@@ -2122,7 +1978,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 35
+      "seconds": 5
     },
     {
       "id": 148,
@@ -2134,7 +1990,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 149,
@@ -2146,7 +2002,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 6
     },
     {
       "id": 150,
@@ -2170,7 +2026,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 8
     },
     {
       "id": 152,
@@ -2182,7 +2038,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 153,
@@ -2194,7 +2050,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 10
     },
     {
       "id": 154,
@@ -2206,7 +2062,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 8
     },
     {
       "id": 155,
@@ -2242,7 +2098,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 3
     },
     {
       "id": 158,
@@ -2254,7 +2110,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 159,
@@ -2266,7 +2122,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 163,
@@ -2278,7 +2134,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 164,
@@ -2290,7 +2146,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 6
     },
     {
       "id": 165,
@@ -2302,7 +2158,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 3
     },
     {
       "id": 166,
@@ -2314,7 +2170,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 6
     },
     {
       "id": 167,
@@ -2326,7 +2182,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 12
     },
     {
       "id": 168,
@@ -2338,7 +2194,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 4
     },
     {
       "id": 169,
@@ -2350,7 +2206,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 170,
@@ -2362,7 +2218,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 11
     },
     {
       "id": 172,
@@ -2374,7 +2230,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 12
     },
     {
       "id": 174,
@@ -2386,7 +2242,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 3
     },
     {
       "id": 175,
@@ -2398,7 +2254,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 20
     },
     {
       "id": 176,
@@ -2410,7 +2266,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 12
     },
     {
       "id": 177,
@@ -2434,7 +2290,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 7
     },
     {
       "id": 180,
@@ -2446,7 +2302,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 12
+      "seconds": 7
     },
     {
       "id": 181,
@@ -2482,7 +2338,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 3
     },
     {
       "id": 185,
@@ -2494,7 +2350,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 12
+      "seconds": 9
     },
     {
       "id": 186,
@@ -2506,7 +2362,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 10
     },
     {
       "id": 187,
@@ -2518,7 +2374,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 9
     },
     {
       "id": 188,
@@ -2530,7 +2386,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 189,
@@ -2566,7 +2422,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 9
     },
     {
       "id": 195,
@@ -2578,7 +2434,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 7
     },
     {
       "id": 196,
@@ -2590,7 +2446,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 5
     },
     {
       "id": 197,
@@ -2602,7 +2458,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 12
     },
     {
       "id": 198,
@@ -2614,7 +2470,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 200,
@@ -2626,7 +2482,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 3
     },
     {
       "id": 203,
@@ -2650,7 +2506,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 210,
@@ -2662,7 +2518,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 12
     },
     {
       "id": 213,
@@ -2674,7 +2530,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 4
     },
     {
       "id": 214,
@@ -2686,7 +2542,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 9
     },
     {
       "id": 215,
@@ -2698,7 +2554,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 12
     },
     {
       "id": 216,
@@ -2710,7 +2566,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 4
     },
     {
       "id": 217,
@@ -2746,7 +2602,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 220,
@@ -2806,7 +2662,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 6
     },
     {
       "id": 225,
@@ -2818,7 +2674,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 226,
@@ -2830,7 +2686,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 227,
@@ -2842,7 +2698,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 6
     },
     {
       "id": 228,
@@ -2866,7 +2722,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 10
     },
     {
       "id": 230,
@@ -2878,7 +2734,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 231,
@@ -2890,7 +2746,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 4
     },
     {
       "id": 232,
@@ -2902,7 +2758,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 12
+      "seconds": 6
     },
     {
       "id": 233,
@@ -2914,7 +2770,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 6
     },
     {
       "id": 234,
@@ -2938,7 +2794,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 8
     },
     {
       "id": 236,
@@ -2974,7 +2830,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 240,
@@ -2986,7 +2842,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 6
     },
     {
       "id": 241,
@@ -2998,7 +2854,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 6
     },
     {
       "id": 242,
@@ -3010,7 +2866,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 243,
@@ -3022,7 +2878,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 8
     },
     {
       "id": 244,
@@ -3034,7 +2890,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 245,
@@ -3046,7 +2902,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 6
     },
     {
       "id": 246,
@@ -3058,7 +2914,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 247,
@@ -3070,7 +2926,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 248,
@@ -3082,7 +2938,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 17
     },
     {
       "id": 249,
@@ -3094,7 +2950,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 15
+      "seconds": 9
     },
     {
       "id": 250,
@@ -3130,18 +2986,6 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
-    },
-    {
-      "id": 253,
-      "company": "ДИНАМИКА ДЖИЛИ АРХАНГЕЛЬСК",
-      "responsible": "Савастьянов А.А.",
-      "site": "promo.geely-dynamica.ru",
-      "brand": "Geely",
-      "konget": "Скрипт есть",
-      "kind": "через контейнер",
-      "reason": "",
-      "was": "",
       "seconds": 5
     },
     {
@@ -3154,7 +2998,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 7
     },
     {
       "id": 255,
@@ -3166,7 +3010,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 6
     },
     {
       "id": 256,
@@ -3178,7 +3022,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 6
     },
     {
       "id": 257,
@@ -3190,7 +3034,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 15
     },
     {
       "id": 258,
@@ -3202,7 +3046,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 8
     },
     {
       "id": 259,
@@ -3214,7 +3058,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 7
     },
     {
       "id": 260,
@@ -3226,7 +3070,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 5
     },
     {
       "id": 261,
@@ -3238,7 +3082,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 7
     },
     {
       "id": 262,
@@ -3250,7 +3094,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 8
     },
     {
       "id": 263,
@@ -3286,7 +3130,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 10
     },
     {
       "id": 266,
@@ -3298,7 +3142,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 9
     },
     {
       "id": 267,
@@ -3310,7 +3154,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 8
     },
     {
       "id": 268,
@@ -3322,7 +3166,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 10
     },
     {
       "id": 269,
@@ -3334,7 +3178,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 9
     },
     {
       "id": 270,
@@ -3346,7 +3190,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 443
+      "seconds": 8
     },
     {
       "id": 271,
@@ -3358,7 +3202,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 5
     },
     {
       "id": 272,
@@ -3370,7 +3214,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 14
+      "seconds": 5
     },
     {
       "id": 273,
@@ -3382,7 +3226,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 440
+      "seconds": 5
     },
     {
       "id": 274,
@@ -3394,7 +3238,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 4
     },
     {
       "id": 275,
@@ -3406,7 +3250,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 439
+      "seconds": 6
     },
     {
       "id": 276,
@@ -3418,7 +3262,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 433
+      "seconds": 3
     },
     {
       "id": 277,
@@ -3430,7 +3274,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 437
+      "seconds": 5
     },
     {
       "id": 278,
@@ -3442,7 +3286,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 438
+      "seconds": 13
     },
     {
       "id": 279,
@@ -3454,7 +3298,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 280,
@@ -3466,7 +3310,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 7
     },
     {
       "id": 281,
@@ -3490,7 +3334,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 5
     },
     {
       "id": 283,
@@ -3502,7 +3346,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 284,
@@ -3514,7 +3358,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 5
     },
     {
       "id": 285,
@@ -3526,7 +3370,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 11
+      "seconds": 5
     },
     {
       "id": 286,
@@ -3538,7 +3382,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 14
     },
     {
       "id": 287,
@@ -3550,7 +3394,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 4
     },
     {
       "id": 289,
@@ -3562,7 +3406,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 15
     },
     {
       "id": 290,
@@ -3574,7 +3418,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 291,
@@ -3598,7 +3442,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 14
+      "seconds": 13
     },
     {
       "id": 295,
@@ -3610,7 +3454,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 7
     },
     {
       "id": 297,
@@ -3622,7 +3466,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 6
     },
     {
       "id": 299,
@@ -3646,7 +3490,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 3
+      "seconds": 2
     },
     {
       "id": 301,
@@ -3670,7 +3514,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 305,
@@ -3682,7 +3526,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 7
     },
     {
       "id": 306,
@@ -3694,7 +3538,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 307,
@@ -3718,7 +3562,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     },
     {
       "id": 309,
@@ -3730,7 +3574,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 7
     },
     {
       "id": 310,
@@ -3742,7 +3586,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 5
     },
     {
       "id": 311,
@@ -3754,7 +3598,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 8
     },
     {
       "id": 312,
@@ -3766,7 +3610,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 5
     },
     {
       "id": 314,
@@ -3814,7 +3658,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 318,
@@ -3826,7 +3670,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 319,
@@ -3838,7 +3682,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 4
     },
     {
       "id": 320,
@@ -3850,7 +3694,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 4
     }
   ]
 }
