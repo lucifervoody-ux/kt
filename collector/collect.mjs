@@ -45,8 +45,10 @@ function readJson(file) {
   }
 }
 
-// Прошлый сбор: самый свежий файл истории с датой раньше сегодняшней.
+// Прошлый сбор: последний завершённый полный сбор, включая сегодняшний.
 function loadPrevious(today) {
+  const latest = readJson(path.join(UTP, 'latest.json'));
+  if (latest?.date <= today && !latest.stopped && !latest.partial && latest.sites?.length) return latest;
   if (!fs.existsSync(HISTORY)) return null;
   const dates = fs.readdirSync(HISTORY).map((f) => f.replace('.json', '')).filter((d) => d < today).sort();
   return dates.length ? readJson(path.join(HISTORY, `${dates.at(-1)}.json`)) : null;
@@ -543,6 +545,8 @@ async function main() {
       date: today,
       checked_at: now.toISOString(),
       previous_date: previous?.date || null,
+      previous_checked_at: previous?.checked_at || null,
+      ...(onlyId ? { partial: true } : {}),
       total_seconds: Math.round((Date.now() - now.getTime()) / 1000),
       parallel: PARALLEL,
       ...(stopped ? { stopped: true, checked: results.length, planned: scenarios.length } : {}),
