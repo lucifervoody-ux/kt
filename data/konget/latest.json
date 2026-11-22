@@ -22,7 +22,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 19
+      "seconds": 18
     },
     {
       "id": 10,
@@ -105,20 +105,8 @@
       "konget": "Скрипта нет",
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "Было: Скрипт без токена",
-      "seconds": 17
-    },
-    {
-      "id": 162,
-      "company": "Solaris.artexauto.ru",
-      "responsible": "Савастьянов А.А.",
-      "site": "Solaris.artexauto.ru",
-      "brand": "Solaris",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 20
+      "seconds": 17
     },
     {
       "id": 171,
@@ -193,18 +181,6 @@
       "seconds": 20
     },
     {
-      "id": 253,
-      "company": "ДИНАМИКА ДЖИЛИ АРХАНГЕЛЬСК",
-      "responsible": "Савастьянов А.А.",
-      "site": "promo.geely-dynamica.ru",
-      "brand": "Geely",
-      "konget": "Скрипта нет",
-      "kind": "",
-      "reason": "В коде сайта и в загруженных файлах нет app.konget",
-      "was": "",
-      "seconds": 16
-    },
-    {
       "id": 288,
       "company": "Чери Новокузнецк Лендинг",
       "responsible": "Савастьянов А.А.",
@@ -226,7 +202,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 16
+      "seconds": 14
     },
     {
       "id": 296,
@@ -238,7 +214,7 @@
       "kind": "",
       "reason": "В коде сайта и в загруженных файлах нет app.konget",
       "was": "",
-      "seconds": 14
+      "seconds": 15
     },
     {
       "id": 304,
@@ -622,7 +598,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 3,
@@ -802,7 +778,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 9
     },
     {
       "id": 20,
@@ -874,7 +850,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 16
+      "seconds": 10
     },
     {
       "id": 26,
@@ -922,7 +898,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 30,
@@ -970,7 +946,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 12
+      "seconds": 8
     },
     {
       "id": 36,
@@ -1042,7 +1018,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 7
     },
     {
       "id": 43,
@@ -1066,7 +1042,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 45,
@@ -1078,7 +1054,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 46,
@@ -1233,18 +1209,6 @@
       "konget": "Скрипт есть",
       "kind": "обычный",
       "reason": "",
-      "was": "Было: Проверить вручную",
-      "seconds": 5
-    },
-    {
-      "id": 63,
-      "company": "ЭКСИД 42",
-      "responsible": "Савастьянов А.А.",
-      "site": "exeed42.ru",
-      "brand": "Exeed",
-      "konget": "Скрипт есть",
-      "kind": "обычный",
-      "reason": "",
       "was": "",
       "seconds": 5
     },
@@ -1294,7 +1258,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 69,
@@ -1354,7 +1318,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 7
     },
     {
       "id": 74,
@@ -1438,7 +1402,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 7
     },
     {
       "id": 81,
@@ -1462,7 +1426,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 10
     },
     {
       "id": 83,
@@ -1546,7 +1510,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 3
+      "seconds": 4
     },
     {
       "id": 105,
@@ -1630,7 +1594,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 7
+      "seconds": 6
     },
     {
       "id": 112,
@@ -1690,7 +1654,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 117,
@@ -1702,7 +1666,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 7
     },
     {
       "id": 119,
@@ -1798,7 +1762,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 3
+      "seconds": 4
     },
     {
       "id": 128,
@@ -1846,7 +1810,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 132,
@@ -1930,7 +1894,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 139,
@@ -2074,7 +2038,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 5
     },
     {
       "id": 154,
@@ -2134,7 +2098,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     },
     {
       "id": 159,
@@ -2146,7 +2110,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 163,
@@ -2182,7 +2146,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 3
+      "seconds": 4
     },
     {
       "id": 166,
@@ -2206,7 +2170,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 12
+      "seconds": 6
     },
     {
       "id": 168,
@@ -2278,7 +2242,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 20
+      "seconds": 5
     },
     {
       "id": 176,
@@ -2362,7 +2326,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 3
+      "seconds": 4
     },
     {
       "id": 185,
@@ -2386,7 +2350,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 10
+      "seconds": 11
     },
     {
       "id": 187,
@@ -2398,7 +2362,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 11
     },
     {
       "id": 188,
@@ -2494,7 +2458,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 7
     },
     {
       "id": 200,
@@ -2506,7 +2470,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 3
+      "seconds": 4
     },
     {
       "id": 203,
@@ -2566,7 +2530,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 9
+      "seconds": 6
     },
     {
       "id": 215,
@@ -2698,7 +2662,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 226,
@@ -2866,7 +2830,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 9
     },
     {
       "id": 241,
@@ -2950,7 +2914,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 6
+      "seconds": 5
     },
     {
       "id": 248,
@@ -3021,7 +2985,7 @@
       "konget": "Скрипт есть",
       "kind": "через контейнер",
       "reason": "",
-      "was": "",
+      "was": "Было: Скрипта нет",
       "seconds": 7
     },
     {
@@ -3334,7 +3298,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 5
+      "seconds": 6
     },
     {
       "id": 280,
@@ -3478,7 +3442,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 13
+      "seconds": 14
     },
     {
       "id": 295,
@@ -3526,7 +3490,7 @@
       "kind": "через контейнер",
       "reason": "",
       "was": "",
-      "seconds": 2
+      "seconds": 3
     },
     {
       "id": 301,
@@ -3634,7 +3598,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 8
+      "seconds": 7
     },
     {
       "id": 312,
@@ -3718,7 +3682,7 @@
       "kind": "обычный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 6
     },
     {
       "id": 320,
@@ -3730,7 +3694,7 @@
       "kind": "отложенный",
       "reason": "",
       "was": "",
-      "seconds": 4
+      "seconds": 5
     }
   ]
 }
