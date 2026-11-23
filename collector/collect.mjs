@@ -225,7 +225,11 @@ async function collectModelPages(context, site, cfg) {
           title: texts(document, title)[0] || '',
           prices: roots.flatMap((r) => [
             ...texts(r, price),
-            ...texts(r, standalone_price).filter(t => /^\s*от\s+[\d\s]+\s*(?:₽|руб\.)[*¹\s]*$/iu.test(t)),
+            ...(standalone_price ? [...r.querySelectorAll(standalone_price)] : [])
+              .filter(el => [...(el.closest('.td-card-widget__item')?.querySelectorAll('a[href]') || [])]
+                .some(a => a.origin === location.origin && a.pathname.replace(/\/+$/, '') === location.pathname.replace(/\/+$/, '')))
+              .map(el => el.innerText || el.textContent)
+              .filter(t => /^\s*от\s+[\d\s]+\s*(?:₽|руб\.)[*¹\s]*$/iu.test(t)),
           ]),
           // Выгоды часто стоят отдельно от комплектаций, поэтому ищем их по всей странице.
           benefits: texts(document, benefit),
