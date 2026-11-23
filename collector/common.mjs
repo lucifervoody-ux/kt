@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { load as loadYaml } from 'js-yaml';
-import { historyToDelete } from './lib.mjs';
+import { assertUniqueIds, historyToDelete } from './lib.mjs';
 import { HEALTH } from './checks.mjs';
 import { connect, hasGoogle, readRange } from './google.mjs';
 import { SITES_SHEET, parseSites } from './sheet.mjs';
@@ -127,6 +127,7 @@ export function store(kind) {
     },
     // Пишет итог и удаляет историю старше 3,5 месяцев.
     save(report) {
+      assertUniqueIds(report.sites);
       fs.mkdirSync(history, { recursive: true });
       const text = JSON.stringify(report, null, 2);
       fs.writeFileSync(path.join(dir, 'latest.json'), text);

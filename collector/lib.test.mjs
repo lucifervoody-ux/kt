@@ -198,3 +198,18 @@ test('итоговая выгода: части одной фразы склад
   assert.equal(benefitTotal('Выгода до 500 000 ₽ | Прямая выгода 300 000 ₽ | Трейд-ин: выгода до 300 000 ₽'), 600000);
   assert.equal(benefitTotal('Кредит от 5%'), null);
 });
+
+test('цена меняется при одинаковом рекламном тексте, кнопки игнорируются', () => {
+  const old = { status: 'needs_check', text_mode: true, promo_lines: ['Выгода до 100 000 ₽'], models: [{model: 'S9', price: 6799000}] };
+  const next = {...old, promo_lines: [...old.promo_lines, 'Узнать о выгодах', 'ВЫГОДНЫЕ УСЛОВИЯ']};
+  assert.equal(decideChange(next, old).change, CHANGE.same);
+  const result = decideChange({...next, models: [{model: 'S9', price: 6749000}]}, old);
+  assert.equal(result.change, CHANGE.changed);
+  assert.equal(result.changes.length, 1);
+});
+
+test('даты исключены из сумм, повторный ID блокирует запись', async () => {
+  const {assertUniqueIds, parseRubles} = await import('./lib.mjs');
+  assert.deepEqual(parseRubles('Акция до 22.11.2026'), []);
+  assert.throws(() => assertUniqueIds([{id: 74}, {id: '74'}]), /74/);
+});

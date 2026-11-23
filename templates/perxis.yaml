@@ -9,6 +9,7 @@ models:
   link: .menu-models__left-item-link, a.js-menu-models-link, .js-menu-models-link a, a.menu-models__list-link, a.menu2-models__item-link, a.footer__menu-link[href^="/model/"]
   name: .menu-models__left-item-title, .menu-models__item-title, .menu2-models__item-title
   page:
+    min_price: 300000
     price: .web_block_grades__card-content .main-caps, .web_block_packages-single__card-price, .web_block_media-model__text h2, .web_block_grades-new__card-price, .web_block_header-halfscreen__title .h1, .web_block_model_hero__header p
     benefit: .web_block_media-flow-icon__title, .web_block_media-model__text .tooltip__content
 

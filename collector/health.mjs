@@ -44,7 +44,8 @@ async function checkOnce(browser, site, timeout) {
 // Если сайт не ответил, но это может быть временным или закрытым доступом, пробуем ещё раз, подольше.
 export async function checkSite(browser, site) {
   const first = await checkOnce(browser, site, TIMEOUT);
-  if (!first.error || SURE_DOWN.test(first.error)) return first;
+  if (SURE_DOWN.test(first.error || '')) return first;
+  if (!first.error && ![HEALTH.manual, HEALTH.stub].includes(healthVerdict(first).health)) return first;
   return checkOnce(browser, site, RETRY_TIMEOUT);
 }
 

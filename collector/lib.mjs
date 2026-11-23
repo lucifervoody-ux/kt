@@ -23,7 +23,7 @@ export const CHANGE_ORDER = [
 // Понимает «2 199 000 ₽», «2199000 руб.», «от 2,199 млн ₽», «до 300 тыс. ₽».
 export function parseRubles(text) {
   if (!text) return [];
-  let clean = String(text).replace(/[\u00a0\u202f\u2009]/g, ' ');
+  let clean = String(text).replace(/\b\d{1,2}[./-]\d{1,2}[./-](?:19|20)\d{2}\b/g, ' ').replace(/[\u00a0\u202f\u2009]/g, ' ');
   const out = [];
   // Сначала «2,199 млн» и «300 тыс»: здесь запятая или точка — десятичная.
   clean = clean.replace(/(\d+(?:[.,]\d+)?)\s*(млн|тыс)/gi, (_, num, unit) => {
@@ -236,7 +236,7 @@ export function diffDetails(prev, curr) {
 // Из видимого текста страницы берём строки про акции, выгоды и цены. Поменялись строки — предложение поменялось.
 const PROMO_LINE = /выгод|скидк|акци|спецпредложен|преимуществ|подарок|бонус|рассрочк|кредит|трейд-?ин|\d[\d\s\u00a0]{3,}\s*(₽|руб)|\bот\s+\d|до\s+\d[\d\s\u00a0]*(₽|руб|%)/i;
 // Строки с таймерами, датами и счётчиками меняются каждый день сами по себе, их не сравниваем.
-const NOISE_LINE = /^(?:выгодный обмен автомобиля|срок кредита|выберите срок кредита|сумма кредита|трейд-ин|цена с учетом макс\. выгод)$|рассчита(?:йте|ть)\s+кредит|промывка\s+топливной\s+системы|осталось|до конца акции|\d{1,2}:\d{2}(:\d{2})?|\b\d+\s*(дн|час|мин|сек)\S*\s*\d*|©|cookie|куки|политик/i;
+const NOISE_LINE = /^(?:узнать о выгодах|выгодные условия|выгодный обмен автомобиля|срок кредита|выберите срок кредита|сумма кредита|трейд-ин|цена с учетом макс\. выгод)$|рассчита(?:йте|ть)\s+кредит|промывка\s+топливной\s+системы|осталось|до конца акции|\d{1,2}:\d{2}(:\d{2})?|\b\d+\s*(дн|час|мин|сек)\S*\s*\d*|©|cookie|куки|политик/i;
 export const MAX_PROMO_LINES = 30;
 
 export function extractPromoLines(text) {
@@ -271,6 +271,16 @@ export function decideChange(site, prevSite) {
   if (site.status === 'needs_check' && site.text_mode && site.promo_lines?.length) {
     if (!prevSite?.promo_lines?.length) return { change: CHANGE.first, changes: [`Записан текст акций: строк ${site.promo_lines.length}`] };
     const changes = diffLines(prevSite.promo_lines.filter((line) => !NOISE_LINE.test(line)), site.promo_lines.filter((line) => !NOISE_LINE.test(line)));
+    const previousModels = new Map((prevSite.models || []).map(m => [modelKey(m.model), m]));
+    for (const model of site.models || []) {
+      const previous = previousModels.get(modelKey(model.model));
+      if (!previous) continue;
+      for (const [field, label] of [['price', 'цена'], ['max_benefit', 'выгода']]) {
+        if (Number.isFinite(previous[field]) && Number.isFinite(model[field]) && previous[field] !== model[field]) {
+          changes.push(`${model.model}, ${label}: ${formatRub(previous[field])} → ${formatRub(model[field])}`);
+        }
+      }
+    }
     return { change: changes.length ? CHANGE.changed : CHANGE.same, changes };
   }
   if (site.status === 'no_scenario') return { change: CHANGE.noScenario, changes: [] };
@@ -339,4 +349,12 @@ export function benefitsByModel(text, models) {
     if (best > (out.get(found[0]) || 0)) out.set(found[0], best);
   }
   return out;
+}
+
+export function assertUniqueIds(sites) {
+  const seen = new Set();
+  for (const {id} of sites) {
+    if (seen.has(String(id))) throw new Error(`Повторяющийся ID в результате: ${id}`);
+    seen.add(String(id));
+  }
 }

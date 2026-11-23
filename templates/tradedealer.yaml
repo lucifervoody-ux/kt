@@ -10,6 +10,7 @@ models:
   list_url: /
   link: a[href^="/models/"]
   page:
+    standalone_price: .td-card-widget__description
     title: h1
     trim: main
     min_price: 300000

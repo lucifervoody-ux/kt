@@ -18,7 +18,7 @@ import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
-  CHANGE, benefitTotal, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, historyToDelete,
+  MIN_PRICE, MAX_PRICE, CHANGE, benefitTotal, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, assertUniqueIds, historyToDelete,
 } from './lib.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -218,12 +218,15 @@ async function collectModelPages(context, site, cfg) {
     let p;
     try {
       p = await openPage(context, site, link.href, page);
-      const found = await p.evaluate(({ price, benefit, title, trim }) => {
+      const found = await p.evaluate(({ price, benefit, title, trim, standalone_price }) => {
         const texts = (root, sel) => (sel ? [...root.querySelectorAll(sel)].map((e) => e.innerText || e.textContent) : []);
         const roots = trim ? [...document.querySelectorAll(trim)] : [document];
         return {
           title: texts(document, title)[0] || '',
-          prices: roots.flatMap((r) => texts(r, price)),
+          prices: roots.flatMap((r) => [
+            ...texts(r, price),
+            ...texts(r, standalone_price).filter(t => /^\s*от\s+[\d\s]+\s*(?:₽|руб\.)[*¹\s]*$/iu.test(t)),
+          ]),
           // Выгоды часто стоят отдельно от комплектаций, поэтому ищем их по всей странице.
           benefits: texts(document, benefit),
         };
@@ -324,7 +327,7 @@ async function collectSite(browser, site) {
     if (card) {
       site.pages = [{ url: siteUrl(site), ...card, min_price: 300000, strict_price: true }, ...(site.pages || [])];
     }
-    if (routes?.length && (!site.models || site.template === '*')) {
+    if (routes?.length && site.template !== 'УАЗ-дилер' && (!site.models || site.template === '*')) {
       site.models = {
         list_url: siteUrl(site), link: 'a[href]', routes, max_links: 35,
         page: { title: 'main h1, h1', price: '[itemprop="price"], [class*="price" i]:not([class*="old" i])',
@@ -438,7 +441,11 @@ async function collectSiteWith(browser, site) {
     }
     if (!anyOpened) return { ...base, status: 'access_error', comment: notes.join('; ') };
 
-    const models = mergeModels(rows.filter((r) => r.model));
+    const models = mergeModels(rows.filter(r => r.model).map(r => {
+      if (r.price === '-' || (r.price >= MIN_PRICE && r.price <= MAX_PRICE)) return r;
+      notes.push(`${r.model}: отброшена неподтверждённая цена ${r.price} ₽`);
+      return { ...r, price: '-' };
+    }));
     // Выгоды, которых не нашлось в карточках, ищем в баннерах и сносках главной страницы
     // («Выгода в размере 150 000 рублей указана для автомобилей «Geely Coolray»»).
     let homeText = null;
@@ -535,6 +542,7 @@ async function main() {
         .map((s) => ({ ...s, screens: (s.screens || []).filter((f) => fs.existsSync(path.join(ROOT, f))) }));
       sites = [...kept, ...results];
     }
+    assertUniqueIds(sites);
     sites = sortSites(sites);
     // Снимки сайтов, которых больше нет в списке, не нужны.
     const keep = new Set(sites.map((s) => String(s.id)));

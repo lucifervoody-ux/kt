@@ -3,7 +3,7 @@
 // она находит свои колонки по заголовкам и пишет только значения, выбирая их из списков колонки.
 // Здесь нет обращения к Google, поэтому это легко проверить тестами. Запись в таблицу — в export.mjs.
 
-import { CHANGE } from './lib.mjs';
+import { assertUniqueIds, CHANGE } from './lib.mjs';
 import { HEALTH, KONGET } from './checks.mjs';
 
 // Колонка: заголовок, под которым программа ищет её в таблице.
@@ -12,12 +12,13 @@ const col = (title) => ({ title });
 // Что выгружаем: имя листа → { columns, rows }.
 export function openingResult(health, reason = '') {
   if (!health) return ['', ''];
-  if (health === HEALTH.manual) return ['Не работает', `Ручная проверка. ${reason || 'Не удалось подтвердить открытие сайта'}`];
+  if (health === HEALTH.manual) return ['Проверить вручную', `Ручная проверка. ${reason || 'Не удалось подтвердить открытие сайта'}`];
   const opened = [HEALTH.ok, HEALTH.slow].includes(health);
   return [opened ? 'Работает' : 'Не работает', reason || (opened ? 'Страница открылась' : health === HEALTH.stub ? 'Вместо сайта показана заглушка' : 'Главная страница не открылась')];
 }
 
 export function buildSheets({ health, konget, utp, registry }) {
+  for (const report of [health, konget, utp]) assertUniqueIds(report?.sites || []);
   const address = (site) => String(site ?? '').trim().toLowerCase().replace(/^https?:\/\/(www\.)?|^www\./, '').replace(/\/+$/, '');
   const current = registry ? new Map(registry.filter((s) => s.active).map((s) => [String(s.id), s])) : null;
   const matches = (a, b) => a && b && address(a.site) === address(b.site);

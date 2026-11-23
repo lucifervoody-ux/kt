@@ -318,7 +318,7 @@ test('одно открытие сайта даёт доступность и о
 
 test('таймаут, заглушка и медленный сайт получают отдельное пояснение', async () => {
   const { openingResult } = await import('./sheet.mjs');
-  assert.deepEqual(openingResult(HEALTH.manual, 'Таймаут'), ['Не работает', 'Ручная проверка. Таймаут']);
+  assert.deepEqual(openingResult(HEALTH.manual, 'Таймаут'), ['Проверить вручную', 'Ручная проверка. Таймаут']);
   assert.deepEqual(openingResult(HEALTH.ok), ['Работает', 'Страница открылась']);
   assert.deepEqual(openingResult(HEALTH.slow, 'Открывался 12 с'), ['Работает', 'Открывался 12 с']);
   assert.deepEqual(openingResult(HEALTH.stub), ['Не работает', 'Вместо сайта показана заглушка']);
