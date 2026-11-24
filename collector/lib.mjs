@@ -66,7 +66,7 @@ function benefitKind(context) {
 
 function parseBenefitsTyped(text) {
   // Переносы строк убираем: «Максимальная выгода\nдо 100 000 ₽» — это одна фраза.
-  const clean = String(text || '').replace(/[\u00a0\u202f\u2009\n\r]/g, ' ');
+  const clean = String(text || '').replace(/\b\d{1,2}[./-]\d{1,2}[./-](?:19|20)\d{2}\b/g, ' ').replace(/[\u00a0\u202f\u2009\n\r]/g, ' ');
   const out = [];
   for (const m of clean.matchAll(BENEFIT_WORD)) {
     // «по выгодной цене 1 890 000 ₽», «выгодное предложение» — это не сумма выгоды.
@@ -128,6 +128,8 @@ export function cleanModel(name, brand = '') {
   m = m.split(/\s\d{1,3}(?:[ .,]\d{3})+/)[0];
   if (brand && m.toLowerCase().startsWith(`${brand.toLowerCase()} `)) m = m.slice(brand.length + 1);
   if (/^(?:\+7(?:\D|$)|Подробнее о модели$|Честный trade-in$|Получи список наличия)/i.test(m)) return '';
+  if (/^#rec|[{}<>]|расход топлива|дорожный просвет|кол\. мест|антикор|оформление|публичной офертой|компенсация проезда|авто с птс|госпрограмма|соцпрограмма|тест-драйв|открой другой|интеллектуальный$|^динамике$|приобретая|лизинг для|премиальные автомобили|^новинка$|^новая модель$|готов ко всему/i.test(m)) return '';
+  m = m.replace(/\s+\d[.,]\d(?:hyb|t|\s+(?:AT|MT|CVT))(?=\s|$).*$/i, '').replace(/,\s*II(?:\s+Dragon)?$/i, '');
   return m.replace(/[\s*\-–—:]+$/, '').trim();
 }
 
@@ -268,21 +270,6 @@ export function diffLines(prev, curr) {
 
 // Решает, какой статус получит сайт, и что написать в «Что изменилось».
 export function decideChange(site, prevSite) {
-  if (site.status === 'needs_check' && site.text_mode && site.promo_lines?.length) {
-    if (!prevSite?.promo_lines?.length) return { change: CHANGE.first, changes: [`Записан текст акций: строк ${site.promo_lines.length}`] };
-    const changes = diffLines(prevSite.promo_lines.filter((line) => !NOISE_LINE.test(line)), site.promo_lines.filter((line) => !NOISE_LINE.test(line)));
-    const previousModels = new Map((prevSite.models || []).map(m => [modelKey(m.model), m]));
-    for (const model of site.models || []) {
-      const previous = previousModels.get(modelKey(model.model));
-      if (!previous) continue;
-      for (const [field, label] of [['price', 'цена'], ['max_benefit', 'выгода']]) {
-        if (Number.isFinite(previous[field]) && Number.isFinite(model[field]) && previous[field] !== model[field]) {
-          changes.push(`${model.model}, ${label}: ${formatRub(previous[field])} → ${formatRub(model[field])}`);
-        }
-      }
-    }
-    return { change: changes.length ? CHANGE.changed : CHANGE.same, changes };
-  }
   if (site.status === 'no_scenario') return { change: CHANGE.noScenario, changes: [] };
   if (site.status === 'access_error') return { change: CHANGE.error, changes: [] };
   if (site.status === 'needs_check') return { change: CHANGE.check, changes: [] };

@@ -15,9 +15,18 @@ async function checkOnce(browser, site, timeout) {
   const page = await context.newPage();
   const requests = [];
   page.on('request', (req) => requests.push(req.url()));
+  const scripts = [];
+  let scriptsUnavailable = false;
+  page.on('requestfailed', req => { if (req.resourceType() === 'script') scriptsUnavailable = true; });
+  page.on('response', res => {
+    if (res.request().resourceType() === 'script' && res.status() >= 400) scriptsUnavailable = true;
+  });
+  page.on('requestfinished', req => {
+    if (req.resourceType() === 'script' && new URL(req.url()).origin === new URL(page.url()).origin) scripts.push(req);
+  });
   const started = Date.now();
   try {
-    const res = await page.goto(siteUrl(site), { waitUntil: 'domcontentloaded', timeout });
+    const res = await page.goto(siteUrl(site), { waitUntil: 'commit', timeout });
     const seconds = (Date.now() - started) / 1000;
     await page.waitForLoadState('load', { timeout: 10_000 }).catch(() => {});
     // Страницы, которые рисуются скриптом, появляются не сразу: ждём текст до 8 с, прежде чем назвать страницу пустой.
@@ -31,11 +40,19 @@ async function checkOnce(browser, site, timeout) {
       await page.waitForTimeout(500);
       dom = await page.content().catch(() => '');
     }
+    let bundles = '';
+    if (!/app\.konget\.ru\/inject/i.test(html + dom) && !requests.some(u => /^https?:\/\/app\.konget\.ru\/inject/i.test(u))) {
+      for (const req of scripts) {
+        const response = await req.response();
+        const body = await response?.text().catch(() => '');
+        if (body) bundles += ' ' + (body.match(/(?:https?:)?\/\/app\.konget\.ru\/inject[^\s"'<>`]*/gi) || []).join(' ');
+      }
+    }
     return {
-      status: res?.status() || 0, seconds, text: await page.evaluate(() => document.body?.innerText || '').catch(() => ''), title: await page.title().catch(() => ''), final_url: page.url(), html, dom, requests,
+      bundles, scriptsUnavailable, status: res?.status() || 0, seconds, text: await page.evaluate(() => document.body?.innerText || '').catch(() => ''), title: await page.title().catch(() => ''), final_url: page.url(), html, dom, requests,
     };
   } catch (e) {
-    return { error: e.message.split('\n')[0], seconds: (Date.now() - started) / 1000 };
+    return { requests, error: e.message.split('\n')[0], seconds: (Date.now() - started) / 1000 };
   } finally {
     await context.close();
   }
@@ -45,8 +62,11 @@ async function checkOnce(browser, site, timeout) {
 export async function checkSite(browser, site) {
   const first = await checkOnce(browser, site, TIMEOUT);
   if (SURE_DOWN.test(first.error || '')) return first;
-  if (!first.error && ![HEALTH.manual, HEALTH.stub].includes(healthVerdict(first).health)) return first;
-  return checkOnce(browser, site, RETRY_TIMEOUT);
+  if (!first.error && ![HEALTH.manual, HEALTH.stub].includes(healthVerdict({ ...first, site: site.site, finalUrl: first.final_url }).health)) return first;
+  const retry = await checkOnce(browser, site, RETRY_TIMEOUT);
+  const best = retry.error && !first.error ? first : retry;
+  const evidence = [first, retry].find(attempt => kongetVerdict(attempt).tokens.length);
+  return evidence ? { ...best, requests: [...(best.requests || []), ...(evidence.requests || [])], html: evidence.html, bundles: evidence.bundles, dom: best.dom || evidence.dom } : best;
 }
 
 async function main() {
@@ -89,7 +109,7 @@ async function main() {
     const raw = await checkSite(browser, site);
     const verdict = healthVerdict({ ...raw, site: site.site, finalUrl: raw.final_url });
     let script = kongetVerdict({ ...raw, expected: site.konget_token || '' });
-    if ([HEALTH.down, HEALTH.stub].includes(verdict.health)) {
+    if (![KONGET.ok, KONGET.noToken, KONGET.wrong].includes(script.konget) && [HEALTH.down, HEALTH.stub].includes(verdict.health)) {
       script = { konget: KONGET.down, reason: verdict.reason };
     } else if (verdict.health === HEALTH.manual && !script.tokens?.length) {
       script = { konget: KONGET.manual, reason: verdict.reason };

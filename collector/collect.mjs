@@ -14,11 +14,12 @@ import {
 } from './common.mjs';
 import { BLOCKED, detectEngine } from './checks.mjs';
 import { modelRoute, profileRows, sameSite } from './site-profile.mjs';
+import { atomOffers, labelledOffers, reconcileOffers, explicitPrices } from './offers.mjs';
 import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
-  MIN_PRICE, MAX_PRICE, CHANGE, benefitTotal, benefitsByModel, extractPromoLines, parsePrices, parseBenefits, parseAmounts, cleanModel, mergeModels, validateModels, decideChange, sortSites, summarize, assertUniqueIds, historyToDelete,
+  MIN_PRICE, MAX_PRICE, CHANGE, benefitTotal, benefitsByModel, parsePrices, parseBenefits, parseAmounts, cleanModel, modelKey, mergeModels, validateModels, decideChange, sortSites, summarize, assertUniqueIds, historyToDelete,
 } from './lib.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
@@ -56,18 +57,39 @@ function loadPrevious(today) {
 
 // Открывает страницу и выполняет шаги сценария: нажать кнопки, подождать, прокрутить.
 async function openPage(context, site, url, cfg = {}) {
+  if (site.expired) throw new Error('Истекло время проверки сайта');
   site.pagesOpened = (site.pagesOpened || 0) + 1;
   const page = await context.newPage();
+  // Навигация может получить заголовки, но бесконечно ждать окончания ответа.
+  // Ограничение действует и во время чтения тела, прокрутки и съёмки страницы.
+  const deadline = setTimeout(() => page.close({ reason: 'Истекло время проверки страницы' }).catch(() => {}), PAGE_TIMEOUT * 2);
+  page.once('close', () => clearTimeout(deadline));
+  let sourceText = '';
   try {
     if (!sameSite(url, siteUrl(site))) throw new Error('Ссылка ведёт на другой домен');
-    const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: PAGE_TIMEOUT });
+    const response = await page.goto(url, { waitUntil: 'commit', timeout: PAGE_TIMEOUT });
     if (!sameSite(page.url(), siteUrl(site))) throw new Error('Сайт перенаправил на другой домен');
     if (response && response.status() >= 400) throw new Error(`HTTP ${response.status()}`);
+    if (!new URL(url).pathname.replace(/\//g, '') && !site.sourceText && response && sameSite(response.url(), siteUrl(site))) {
+      const html = await response.text().catch(() => '');
+      if (html) sourceText = await page.evaluate(markup => {
+        const doc = new DOMParser().parseFromString(markup, 'text/html');
+        doc.querySelectorAll('script,style,noscript,svg,template').forEach(el => el.remove());
+        const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+        const lines = [];
+        while (walker.nextNode()) {
+          const line = walker.currentNode.textContent.replace(/\s+/g, ' ').trim();
+          if (line) lines.push(line);
+        }
+        return lines.join('\n');
+      }, html).catch(() => '');
+    }
   } catch (e) {
     await page.close();
     throw e;
   }
-  await page.waitForLoadState('networkidle', { timeout: 15_000 }).catch(() => {});
+  await page.waitForLoadState('domcontentloaded', { timeout: 10_000 }).catch(() => {});
+  await page.waitForFunction(() => (document.body?.innerText || '').trim().length >= 80, null, { timeout: 8000 }).catch(() => {});
   {
     const visible = await page.evaluate(() => document.title + '\n' + (document.body?.innerText || '').slice(0, 2000)).catch(() => '');
     if (!sameSite(page.url(), siteUrl(site)) || BLOCKED.test(visible)) {
@@ -75,11 +97,21 @@ async function openPage(context, site, url, cfg = {}) {
       throw new Error('Страница дилера недоступна для проверки');
     }
   }
+  if (sourceText) site.sourceText = sourceText;
   for (const sel of cfg.click || []) {
     await page.click(sel, { timeout: 5_000 }).catch(() => log(`  [${site.id}] не нашёл кнопку ${sel}`));
   }
   if (cfg.wait_for) await page.waitForSelector(cfg.wait_for, { timeout: 15_000 }).catch(() => {});
   if (cfg.scroll) await autoScroll(page);
+  if (new URL(url).pathname === '/') {
+    if (!site.offerCards?.length) {
+      site.offerCards = await page.locator('.t-rec').evaluateAll(cards => cards.map(card =>
+        [...card.querySelectorAll('.tn-atom')].map(el => el.textContent.trim()).filter(Boolean)
+      )).catch(() => []);
+    }
+    const text = await page.locator('body').innerText({timeout: 3000}).catch(() => '');
+    if (text.length > (site.visibleText || '').length) site.visibleText = text;
+  }
   return page;
 }
 
@@ -87,9 +119,10 @@ async function openPage(context, site, url, cfg = {}) {
 async function snapshot(page, site, name) {
   fs.mkdirSync(path.join(SCREENS, String(site.id)), { recursive: true });
   const screen = `data/screens/${site.id}/${name}.jpg`;
-  await page.screenshot({ path: path.join(ROOT, screen), fullPage: true, type: 'jpeg', quality: 50 });
+  const captured = await page.screenshot({ path: path.join(ROOT, screen), fullPage: true, type: 'jpeg', quality: 50, timeout: 10000 })
+    .then(() => true, () => false);
   fs.writeFileSync(path.join(SCREENS, String(site.id), `${name}.html`), await page.content());
-  return screen;
+  return captured ? screen : null;
 }
 
 // Одна страница сайта: открыть, выполнить шаги сценария, собрать карточки моделей.
@@ -137,13 +170,13 @@ async function collectPage(context, site, pageCfg, index) {
       const priceText = pageCfg.model_name || pageCfg.auto ? String(r.price).replace(/(выгод|скидк|экономи|кредит|рассрочк|платеж|платёж|первоначальн)(?:(?!цен)[^.\n|]){0,70}/gi, ' ') : r.price;
       const benefits = (pageCfg.benefit_all ? parseAmounts : parseBenefits)(r.benefit);
       // В автопоиске сумма выгоды («Выгода до | 455 000 ₽») может попасть и в цены: такие суммы из цен убираем.
-      const prices = (pageCfg.strict_price && !isVehiclePrice(priceText) ? [] : parsePrices(priceText)).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
+      const prices = (pageCfg.strict_price && !isVehiclePrice(priceText) ? [] : (pageCfg.auto || pageCfg.model_name ? explicitPrices(priceText) : parsePrices(priceText))).filter((n) => n >= (pageCfg.min_price || 0) && !(pageCfg.auto && benefits.includes(n)));
       const price = prices.length ? Math.min(...prices) : '-';
       // Части одной фразы («прямая 250 000 + трейд-ин 250 000 + лояльная 200 000») складываем.
       let benefit = benefits.length ? (pageCfg.benefit_all ? Math.max(...benefits) : (benefitTotal(r.benefit) ?? Math.max(...benefits))) : '-';
       // Автопоиск: «цена с учётом выгоды 2 016 000 ₽» — это цена, а не выгода. Выгода в половину цены
       // и больше или выгода больше 1,2 млн без цены почти всегда такая ошибка: такую выгоду не пишем.
-      if (pageCfg.auto && benefit !== '-' && (price !== '-' ? benefit >= price * 0.5 : benefit > 1_200_000)) benefit = '-';
+      if (pageCfg.auto && benefit !== '-' && price !== '-' && benefit > price) benefit = '-';
       return {
         model: cleanModel(r.model.split('\n').map((l) => l.trim()).find(Boolean), site.brand),
         price,
@@ -170,6 +203,7 @@ async function collectModelPages(context, site, cfg) {
       let n = a;
       let around = '';
       for (let i = 0; i < 5 && n; i += 1, n = n.parentElement) {
+        if ([...n.querySelectorAll('a[href]')].some(other => other.pathname !== a.pathname)) break;
         const t = (n.innerText || '').replace(/\s+/g, ' ');
         if (/\d[\d\s\u00a0]{4,}\s*₽/.test(t)) { around = t; break; }
       }
@@ -192,7 +226,7 @@ async function collectModelPages(context, site, cfg) {
   const menuPrice = new Map();
   const minPrice = (cfg.page || {}).min_price || 0;
   for (const l of links) {
-    const prices = parsePrices(l.around || '').filter((n) => n >= minPrice);
+    const prices = [...String(l.around || '').matchAll(/(?:цена\s*)?от\s+([\d .,]+)\s*(?:₽|руб|р\.)/gi)].flatMap(m => parsePrices(m[1])).filter((n) => n >= minPrice);
     // Блок с несколькими разными ценами — не карточка одной модели: такую цену не берём.
     if (cfg.routes && (!sameSite(l.href, cfg.list_url) || !modelRoute(l.href, cfg.routes))) continue;
     if (cfg.page?.strict_price && /плат[её]ж|в месяц|скидк|выгод|лизинг|взнос/i.test(l.around || '')) continue;
@@ -242,15 +276,19 @@ async function collectModelPages(context, site, cfg) {
       const generic = /^(о модели|подробнее|узнать больше|смотреть)$/i;
       const fromUrl = () => decodeURIComponent(new URL(link.href).pathname.split('/').filter(Boolean).at(-1) || '').replace(/[-_]+/g, ' ').toUpperCase();
       const raw = (found.title || link.name).split('\n').map((l) => l.trim()).find(Boolean) || '';
-      const name = cleanModel(generic.test(raw) ? fromUrl() : raw, site.brand);
+      const name = cleanModel(!raw || generic.test(raw) ? fromUrl() : raw, site.brand);
       // Снимок: если сценарий не дописан, или на странице модели не нашлось цены (один на сайт).
-      if (!hasSelectors || (!prices.length && listPrice.get(key(link.href)) == null && !screens.length)) screens.push(await snapshot(p, site, `model-${i}`));
+      if (!hasSelectors || (!prices.length && listPrice.get(key(link.href)) == null && !screens.length)) {
+        const file = await snapshot(p, site, `model-${i}`);
+        if (file) screens.push(file);
+      }
       const fromList = listPrice.get(key(link.href));
       models.push({
         model: name,
-        price: prices.length ? Math.min(...prices) : (fromList ?? '-'),
+        price: prices.length ? Math.min(...prices, fromList ?? Infinity) : (fromList ?? '-'),
         max_benefit: !benefits.length ? '-' : page.benefit_all ? Math.max(...benefits) : Math.max(...found.benefits.map((t) => benefitTotal(t) ?? 0)),
         source_url: link.href,
+        modelDetail: !page.standalone_price,
       });
     } catch (e) {
       notes.push(`Не открылась ${link.href}: ${e.message.split('\n')[0]}`);
@@ -263,7 +301,8 @@ async function collectModelPages(context, site, cfg) {
 
 async function autoScroll(page) {
   await page.evaluate(async () => {
-    for (let y = 0; y < document.body.scrollHeight; y += 600) {
+    const height = document.body.scrollHeight;
+    for (let y = 0; y < height; y += Math.max(600, Math.ceil(height / 30))) {
       window.scrollTo(0, y);
       await new Promise((r) => setTimeout(r, 150));
     }
@@ -306,6 +345,7 @@ async function collectSite(browser, site) {
       // Движок неизвестен или для него ещё нет шаблона: открываем главную, определяем движок
       // и сохраняем снимок — по нему можно сделать шаблон.
       const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: false });
+      site.activeContext = context;
       try {
         const page = await openPage(context, site, siteUrl(site));
         engine = detectEngine(await page.content(), page.url());
@@ -355,6 +395,7 @@ async function collectSiteWith(browser, site) {
     return { ...base, status: 'no_scenario', comment: `Для сайта ещё нет ни сценария, ни шаблона движка${engine}` };
   }
   const context = await browser.newContext({ locale: 'ru-RU', viewport: { width: 1366, height: 900 }, ignoreHTTPSErrors: false });
+  site.activeContext = context;
   try {
     const rows = [];
     const notes = [];
@@ -382,7 +423,7 @@ async function collectSiteWith(browser, site) {
         notes.push(`Автопоиск моделей: ${e.message.split('\n')[0]}`);
       }
     }
-    if (site.models && !(site.auto && rows.length >= 2)) {
+    if (site.models) {
       try {
         const res = await collectModelPages(context, site, site.models);
         anyOpened = true;
@@ -443,18 +484,61 @@ async function collectSiteWith(browser, site) {
         notes.push(`ИИ не помог: ${e.message.split('\n')[0]}`);
       }
     }
+    if (!site.expired && (!anyOpened || (site.profile?.card && !rows.some(r => Number.isFinite(r.price))))) {
+      // Доступ к статической версии иногда сохраняется при сбое браузерной загрузки.
+      try {
+        const response = await fetch(siteUrl(site), { redirect: 'error', signal: AbortSignal.timeout(15000) });
+        if (!response.ok || !response.headers.get('content-type')?.includes('text/html')) throw new Error('Нет HTML страницы');
+        const html = await response.text();
+        const page = await context.newPage();
+        try {
+          const {text, cards, scoped} = await page.evaluate(({markup, cfg}) => {
+            const doc = new DOMParser().parseFromString(markup, 'text/html');
+            doc.querySelectorAll('script,style,noscript,svg,template').forEach(el => el.remove());
+            const cards = [...doc.querySelectorAll('.t-rec')].map(card => [...card.querySelectorAll('.tn-atom')].map(el => el.textContent));
+            const scoped = cfg ? [...doc.querySelectorAll(cfg.card)].map(card => {
+              const label = card.querySelector(cfg.model);
+              const raw = cfg.model_attr ? label?.getAttribute(cfg.model_attr) || '' : label?.textContent || '';
+              const model = Object.entries(cfg.model_map || {}).find(([key]) => raw.includes(key))?.[1] || (cfg.model_attr ? '' : raw);
+              return {model, price: cfg.price ? card.querySelector(cfg.price)?.textContent || '' : '',
+                benefit: cfg.benefit ? [...card.querySelectorAll(cfg.benefit)].map(el => el.textContent).join(' | ') : ''};
+            }) : [];
+            const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT);
+            const lines = [];
+            while (walker.nextNode()) lines.push(walker.currentNode.textContent.trim());
+            return {text: lines.filter(Boolean).join('\n'), cards, scoped};
+          }, {markup: html, cfg: site.profile?.card});
+          if (!BLOCKED.test(text.slice(0, 2000))) {
+            for (const item of scoped) {
+              const model = cleanModel(item.model, site.brand);
+              const prices = isVehiclePrice(item.price) ? parsePrices(item.price).filter(n => n >= MIN_PRICE && n <= MAX_PRICE) : [];
+              const benefit = benefitTotal(item.benefit);
+              if (model && (prices.length || benefit)) rows.push({model, price: prices.length ? Math.min(...prices) : '-', max_benefit: benefit || '-', source_url: siteUrl(site)});
+            }
+            const offers = [...rows, ...labelledOffers(text, site, site.profile?.modelNames), ...atomOffers(cards, site)];
+            if (offers.some(row => Number.isFinite(row.price) || Number.isFinite(row.max_benefit))) {
+              site.sourceText = text;
+              site.offerCards = cards;
+              anyOpened = true;
+              notes.push('Предложения подтверждены в HTML главной. Проверка в браузере не завершена');
+            }
+          }
+        } finally { await page.close(); }
+      } catch { /* Сохраняем причины основной ошибки доступа. */ }
+    }
     if (!anyOpened) return { ...base, status: 'access_error', comment: notes.join('; ') };
 
-    const models = mergeModels(rows.filter(r => r.model).map(r => {
+    const validRows = rows.filter(r => r.model).map(r => {
       if (r.price === '-' || (r.price >= MIN_PRICE && r.price <= MAX_PRICE)) return r;
       notes.push(`${r.model}: отброшена неподтверждённая цена ${r.price} ₽`);
       return { ...r, price: '-' };
-    }));
+    });
     // Выгоды, которых не нашлось в карточках, ищем в баннерах и сносках главной страницы
     // («Выгода в размере 150 000 рублей указана для автомобилей «Geely Coolray»»).
     let homeText = null;
     const readHome = async () => {
       if (homeText !== null) return homeText;
+      if (site.visibleText) return homeText = site.visibleText;
       const page = await openPage(context, site, siteUrl(site), {});
       try {
         homeText = await page.evaluate(() => document.body?.innerText || '');
@@ -463,16 +547,30 @@ async function collectSiteWith(browser, site) {
       }
       return homeText;
     };
-    if (models.some((m) => m.max_benefit === '-')) {
-      try {
-        const found = benefitsByModel(await readHome(), models.map((m) => m.model));
-        let added = 0;
-        for (const m of models) {
-          if (m.max_benefit === '-' && found.has(m.model)) { m.max_benefit = found.get(m.model); added += 1; }
-        }
-        if (added) log(`  [${site.id}] выгоды из баннеров и сносок главной: ${added}`);
-      } catch (e) {
-        notes.push(`Сноски главной не прочитаны: ${e.message.split('\n')[0]}`);
+    let labelled = [];
+    try {
+      const visible = await readHome().catch(() => '');
+      const sources = [...new Set([visible, site.sourceText].filter(Boolean))];
+      labelled = mergeModels(sources.flatMap(text => labelledOffers(text, site, site.profile?.modelNames)));
+      if (site.offerCards?.length) {
+        const scoped = atomOffers(site.offerCards, site);
+        const scopedKeys = new Set(scoped.map(row => modelKey(row.model)));
+        labelled = [...labelled.filter(row => !scopedKeys.has(modelKey(row.model))), ...scoped];
+      }
+    } catch (e) {
+      notes.push(`Главная страница недоступна для сверки: ${e.message.split('\n')[0]}`);
+    }
+    const models = reconcileOffers(validRows, labelled, site);
+    if (homeText && models.length) {
+      const found = benefitsByModel(homeText, models.map(m => m.model));
+      for (const m of models) {
+        const value = found.get(m.model);
+        if (value && (!m.max_benefit || m.max_benefit === '-')) m.max_benefit = value;
+      }
+    }
+    if (models.length) {
+      for (let i = notes.length - 1; i >= 0; i--) {
+        if (/не нашлось ни одной модели|не нашлось ссылок на модели/.test(notes[i])) notes.splice(i, 1);
       }
     }
     const problems = validateModels(models);
@@ -492,18 +590,6 @@ async function collectSiteWith(browser, site) {
     if (autoUsed) all.push('Модели найдены автопоиском карточек на главной, цифры проверьте');
     const ok = site.template !== '*' && !byAi && !autoUsed && all.length === (site.template ? 1 : 0);
     const result = { ...base, models, status: ok ? 'ok' : 'needs_check', comment: all.join('; ') };
-    // Цены по моделям тут ненадёжны: сравниваем сайт по тексту акций с главной страницы.
-    if (!problems.length && (site.template === '*' || byAi || autoUsed) && (!site.profile || models.length)) {
-      try {
-        result.promo_lines = extractPromoLines(await readHome());
-        if (result.promo_lines.length) {
-          result.text_mode = true;
-          result.comment += `${result.comment ? '; ' : ''}Сравнение по тексту акций главной страницы`;
-        }
-      } catch (e) {
-        result.comment += `${result.comment ? '; ' : ''}Текст главной не прочитан: ${e.message.split('\n')[0]}`;
-      }
-    }
     return result;
   } finally {
     await context.close();
@@ -591,7 +677,24 @@ async function main() {
       const started = Date.now();
       // Старые снимки сайта удаляем только перед его проверкой: у остальных они остаются.
       fs.rmSync(path.join(SCREENS, String(site.id)), { recursive: true, force: true });
-      const res = await collectSite(browser, site);
+      let timer;
+      const limit = Number(process.env.SITE_TIMEOUT_MS) || 600000;
+      const timeout = new Promise(resolve => {
+        timer = setTimeout(() => {
+          site.expired = true;
+          site.activeContext?.close().catch(() => {});
+          const labelled = labelledOffers(site.sourceText || site.visibleText, site, site.profile?.modelNames);
+          const cards = atomOffers(site.offerCards || [], site);
+          const covered = new Set(cards.map(row => modelKey(row.model)));
+          const confirmed = [...cards, ...labelled.filter(row => !covered.has(modelKey(row.model)))]
+            .filter(row => Number.isFinite(row.price) || Number.isFinite(row.max_benefit))
+            .map(row => ({...row, source_url: siteUrl(site)}));
+          resolve({ id: site.id, site: site.site, brand: site.brand, company: site.company,
+            responsible: site.responsible, models: confirmed, screens: [], status: 'needs_check',
+            comment: 'Истекло время проверки сайта. УТП требует повторного сбора' });
+        }, limit);
+      });
+      const res = await Promise.race([collectSite(browser, site), timeout]).finally(() => clearTimeout(timer));
       // Сколько времени и страниц ушло на сайт: по этому считаем, сколько сайтов успеем за один сбор.
       res.seconds = Math.round((Date.now() - started) / 1000);
       res.pages_opened = site.pagesOpened || 0;
@@ -601,9 +704,8 @@ async function main() {
     }
   }
   await Promise.all(Array.from({ length: PARALLEL }, worker));
-  await browser.close();
-
   saveReport(false);
+  await browser.close();
 }
 
 main().catch((e) => {

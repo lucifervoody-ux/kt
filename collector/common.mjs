@@ -66,10 +66,9 @@ export async function loadSites(onlyId) {
 // Сайты, которые проверка работы признала неработающими или заглушкой, не проверяем на скрипт Конгет и УТП,
 // пока человек не откроет сайт сам и не поставит «Да» в колонке «Проверено вручную» листа «Сайты».
 // Если сайт и правда не работает, ставят «Проверять: Нет».
-export function splitUnverified(sites) {
+export function splitUnverified(sites, health = readJson(path.join(DATA, 'health', 'latest.json'))) {
   // «Проверить вручную» не пропускаем: чаще всего это медленный или закрытый от зарубежных серверов сайт, он может открыться.
   const bad = new Set([HEALTH.down, HEALTH.stub]);
-  const health = readJson(path.join(DATA, 'health', 'latest.json'));
   // Остановленная проверка работы сохраняет неполный результат: по нему нельзя решать, кого пропускать.
   if (health?.stopped) {
     throw new Error(`Проверка работы сайтов была остановлена (проверено ${health.checked} из ${health.planned}). Запустите её заново до конца и дождитесь результата, потом запускайте эту проверку`);

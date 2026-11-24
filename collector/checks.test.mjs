@@ -16,7 +16,7 @@ test('сайт работает, медленный, сломан или заг�
   assert.equal(healthVerdict({ status: 503, seconds: 1, text: LIVE, title: 'Дилер' }).health, HEALTH.down);
   assert.equal(healthVerdict({ error: 'net::ERR_NAME_NOT_RESOLVED' }).health, HEALTH.down);
   assert.equal(healthVerdict({ error: 'page.goto: Timeout 30000ms exceeded.' }).health, HEALTH.manual);
-  assert.equal(healthVerdict({ status: 200, seconds: 1, text: '', title: 'Дилер' }).health, HEALTH.stub);
+  assert.equal(healthVerdict({ status: 200, seconds: 1, text: '', title: 'Дилер' }).health, HEALTH.manual);
   assert.equal(healthVerdict({ status: 200, seconds: 1, title: 'Дилер', text: `Web Page Blocked! The page cannot be displayed. ${LIVE}` }).health, HEALTH.manual);
   assert.equal(healthVerdict({ status: 200, seconds: 1, title: 'Дилер', text: `Сайт находится в разработке. ${LIVE}` }).health, HEALTH.stub);
   assert.equal(healthVerdict({ status: 200, seconds: 1, title: 'Домен example.ru продаётся', text: LIVE }).health, HEALTH.stub);
@@ -156,26 +156,17 @@ test('сценарий подходит к сайту из таблицы, то�
 });
 
 test('сайты, не прошедшие проверку работы, пропускаются до ручной проверки', async () => {
-  const fs = await import('node:fs');
-  const path = await import('node:path');
-  const { DATA, splitUnverified } = await import('./common.mjs');
-  const file = path.join(DATA, 'health', 'latest.json');
-  const backup = fs.existsSync(file) ? fs.readFileSync(file) : null;
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, JSON.stringify({ sites: [
+  const { splitUnverified } = await import('./common.mjs');
+  const health = { sites: [
     { id: 1, site: 'a.ru', health: 'Не работает' }, { id: 2, site: 'b.ru', health: 'Проверить вручную' },
-    { id: 3, site: 'c.ru', health: 'Работает' }, { id: 4, site: 'd.ru', health: 'Проверить вручную' },
-  ] }));
-  try {
-    const { run, skipped } = splitUnverified([
-      { id: 1, site: 'a.ru' }, { id: 2, site: 'b.ru', verified: true }, { id: 3, site: 'c.ru' }, { id: 4, site: 'другой.ru' },
-    ]);
-    assert.deepEqual(run.map((s) => s.id), [2, 3, 4]);
-    assert.deepEqual(skipped.map((s) => s.site.id), [1]);
-    assert.equal(parseSites([['ID', 'Сайт', 'Проверено вручную'], ['1', 'a.ru', 'Да']])[0].verified, true);
-  } finally {
-    if (backup) fs.writeFileSync(file, backup); else fs.rmSync(file);
-  }
+    { id: 3, site: 'c.ru', health: 'Работает' }, { id: 4, site: 'd.ru', health: 'Не работает' },
+  ] };
+  const { run, skipped } = splitUnverified([
+    { id: 1, site: 'a.ru' }, { id: 2, site: 'b.ru', verified: true }, { id: 3, site: 'c.ru' }, { id: 4, site: 'другой.ru' },
+  ], health);
+  assert.deepEqual(run.map((s) => s.id), [2, 3, 4]);
+  assert.deepEqual(skipped.map((s) => s.site.id), [1]);
+  assert.equal(parseSites([['ID', 'Сайт', 'Проверено вручную'], ['1', 'a.ru', 'Да']])[0].verified, true);
 });
 
 test('в «Сводке» нет «Токен есть: Нет» у закрытых сайтов и дублей причины', () => {
@@ -303,7 +294,7 @@ test('одно открытие сайта даёт доступность и о
   let onRequest;
   const url = 'https://dealer.example';
   const page = {
-    on: (_, listener) => { onRequest = listener; },
+    on: (event, listener) => { if (event === 'request') onRequest = listener; },
     goto: async () => { calls.push('goto'); return { status: () => 200, text: async () => GTM }; },
     waitForLoadState: async () => {}, waitForFunction: async () => {},
     evaluate: async () => LIVE, content: async () => GTM, title: async () => 'Дилер', url: () => url,
