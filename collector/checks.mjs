@@ -26,6 +26,7 @@ const MIN_TEXT = 80; // на живой странице дилера текст
 
 // Страница-заглушка вместо сайта: «сайт в разработке», «домен продаётся», хостинг не оплачен.
 const STUB = [
+  /сайт\s+(?:на\s+реконструкции|не\s+запущен|создан,?\s+но\s+ещ[её]\s+не\s+запущен)/i,
   /сайт\s+(находится\s+)?в\s+разработке/i,
   /сайт\s+временно\s+(не\s+)?(доступен|работает)/i,
   /ведутся\s+технические\s+работы/i,
@@ -37,18 +38,18 @@ const STUB = [
 
 // Защита сайта не пускает проверку (часто закрыт доступ из-за рубежа, откуда работает GitHub).
 // Людям сайт может открываться, но проверить его программа не может.
-export const BLOCKED = /web\s+page\s+blocked|access\s+denied|403\s+forbidden|доступ\s+(запрещ[её]н|ограничен)|подтвердите,?\s+что\s+вы\s+не\s+робот|checking\s+your\s+browser/i;
+export const BLOCKED = /визит заблокирован|access blocked|web\s+page\s+blocked|access\s+denied|403\s+forbidden|доступ\s+(запрещ[её]н|ограничен)|подтвердите,?\s+что\s+вы\s+не\s+робот|checking\s+your\s+browser/i;
 
 // Итог проверки сайта по тому, что вернул браузер.
 // Ошибки, после которых точно ясно, что сайт не работает: домена нет или сервер сам отказал.
 // Остальное (долго не отвечал, сертификат, обрыв) может быть закрытым доступом из-за рубежа.
 export const SURE_DOWN = /ERR_NAME_NOT_RESOLVED|ERR_CONNECTION_REFUSED|ERR_ADDRESS_UNREACHABLE/;
 
-// Основной домен адреса: srt.agat.lada.ru и lada.ru считаем одним сайтом, agat.ru и lada.ru разными.
+// Переход между поддоменами важен для атрибуции. Только www равнозначен исходному адресу.
 export function baseDomain(address = '') {
   let h = String(address).trim();
   try { h = new URL(/^https?:/i.test(h) ? h : `https://${h}`).hostname; } catch { /* оставляем как есть */ }
-  return h.toLowerCase().split('.').slice(-2).join('.');
+  return h.toLowerCase().replace(/^www\./, '');
 }
 
 export function healthVerdict({ error, status, seconds, text = '', title = '', site = '', finalUrl = '' }) {
@@ -59,7 +60,7 @@ export function healthVerdict({ error, status, seconds, text = '', title = '', s
     if (/ERR_CERT_/.test(error)) return { health: HEALTH.manual, reason: `Сертификат сайта недействителен (${error.match(/ERR_CERT_\w+/)[0]}): браузер показывает посетителям «Подключение не защищено»` };
     return { health: HEALTH.manual, reason: `Не открылся с серверов проверки (${error}). Людям сайт может открываться, проверьте вручную` };
   }
-  if (BLOCKED.test(`${title}\n${text.slice(0, 2000)}`)) {
+  if (/^https?:\/\/blocked\.botfaqtor\.ru(?:[/:]|$)/i.test(finalUrl) || BLOCKED.test(`${title}\n${text.slice(0, 2000)}`)) {
     return { health: HEALTH.manual, reason: 'Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную' };
   }
   // 401, 403 и 429 чаще всего значат защиту от роботов: людям сайт открывается.
@@ -77,8 +78,8 @@ export function healthVerdict({ error, status, seconds, text = '', title = '', s
   const all = `${title}\n${text}`;
   const stub = STUB.find((re) => re.test(all));
   if (stub) return { health: HEALTH.stub, reason: `На странице: «${all.match(stub)[0]}»` };
-  if (text.replace(/\s+/g, ' ').trim().length < MIN_TEXT) return { health: HEALTH.stub, reason: 'Страница почти пустая' };
-  if (!title.trim()) return { health: HEALTH.manual, reason: 'У страницы нет заголовка: возможно, это проверка на робота. Проверьте вручную' };
+  if (text.replace(/\s+/g, ' ').trim().length < MIN_TEXT) return { health: HEALTH.manual, reason: 'В браузере почти нет видимого текста. Открытие сайта требует ручной проверки' };
+  if (!title.trim() && !(/дилер/i.test(text) && /(?:\+7|8\s*\(|ИНН\s*\d{10,12})/i.test(text) && /модел|автомобил|выгод/i.test(text))) return { health: HEALTH.manual, reason: 'У страницы нет заголовка: возможно, это проверка на робота. Проверьте вручную' };
   if (seconds > SLOW_SECONDS) return { health: HEALTH.slow, reason: [`Открывался ${Math.round(seconds)} с`, redirect].filter(Boolean).join('. ') };
   return { health: HEALTH.ok, reason: redirect };
 }
@@ -146,26 +147,28 @@ function kindOf(html, token) {
 
 // html — код страницы, как его отдал сервер; dom — код после загрузки и ожидания; requests — адреса всех файлов, которые загрузил браузер
 // (включая те, что появились через несколько секунд или из контейнера).
-export function kongetVerdict({ error, html = '', dom = '', requests = [], expected = '', status = 0 }) {
-  if (error) return { konget: KONGET.down, tokens: [], reason: error };
+export function kongetVerdict({ error, html = '', dom = '', bundles = '', scriptsUnavailable = false, requests = [], expected = '', status = 0 }) {
+
   const endpoint = /^(?:https?:)?\/\/app\.konget\.ru\/inject(?:[?#]|$)/i;
   const loaded = requests.filter((u) => endpoint.test(u));
-  const inCode = [...`${html}\n${dom}`.matchAll(/(?:https?:)?\/\/[^\s"'<>]+/gi)]
+  const inCode = [...`${html}\n${dom}\n${bundles}`.matchAll(/(?:https?:)?\/\/[^\s"'<>]+/gi)]
     .map((m) => m[0].replace(/&amp;/gi, '&')).filter((u) => endpoint.test(u));
   const tokens = [...new Set([...loaded, ...inCode].map((u) => new URL(u, 'https://app.konget.ru').searchParams.get('token')).filter((t) => /^[A-Za-z0-9_-]{6,}$/.test(t || '')))];
   const where = loaded[0] || inCode[0] || '';
   const container = CONTAINER.test(`${html}\n${dom}`) || requests.some((u) => CONTAINER.test(u));
   if (!loaded.length && !inCode.length) {
+    if (error) return { konget: KONGET.down, tokens: [], reason: error };
     // Сайт ответил защитой от роботов: настоящей страницы программа не видела, «скрипта нет» утверждать нельзя.
     if (PROTECTED_CODES.includes(status) || BLOCKED.test(dom.replace(/<[^>]+>/g, ' ').slice(0, 2000))) {
       return { konget: KONGET.manual, tokens, reason: `Сайт ответил защитой от роботов${status ? ` (код ${status})` : ''}, страницу программа не увидела. Проверьте вручную` };
     }
+    if (scriptsUnavailable) return { konget: KONGET.manual, tokens, reason: 'Часть скриптов не загрузилась. Установку Конгет проверить полностью не удалось' };
     return container
       ? { konget: KONGET.manual, tokens, reason: 'Скрипт не найден, но на сайте есть контейнер тегов (например, Google Tag Manager). Скрипт может лежать в нём, проверьте сами' }
       : { konget: KONGET.missing, tokens, reason: 'В коде сайта и в загруженных файлах нет app.konget' };
   }
   if (!tokens.length) return { konget: KONGET.noToken, tokens, where, reason: 'Конгет на сайте есть, а token не нашёлся' };
-  const kind = kindOf(html, tokens[0]);
+  const kind = !loaded.length && bundles.includes(tokens[0]) && !html.includes(tokens[0]) ? 'в JavaScript сайта' : kindOf(html, tokens[0]);
   if (expected && !tokens.includes(String(expected))) {
     return { konget: KONGET.wrong, tokens, kind, where, reason: `Ждали ${expected}, на сайте ${tokens.join(', ')}` };
   }

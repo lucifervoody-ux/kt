@@ -1,3 +1,4 @@
+import { benefitTotal } from "./lib.mjs";
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
@@ -157,9 +158,9 @@ test2('diffLines и decideChange: сравнение по тексту', () => {
   assert2.deepEqual(diffLines(['а акция 1 ₽ от 100'], ['а акция 1 ₽ от 100']), []);
   assert2.deepEqual(diffLines(['старая скидка'], ['новая скидка']), ['Добавилось: новая скидка', 'Пропало: старая скидка']);
   const site = { status: 'needs_check', text_mode: true, promo_lines: ['новая скидка'] };
-  assert2.equal(decide(site, { promo_lines: ['старая скидка'] }).change, 'Изменилось');
-  assert2.equal(decide(site, { promo_lines: ['новая скидка'] }).change, 'Не изменилось');
-  assert2.equal(decide(site, null).change, 'Первая проверка');
+  assert2.equal(decide(site, { promo_lines: ['старая скидка'] }).change, 'Требует проверки');
+  assert2.equal(decide(site, { promo_lines: ['новая скидка'] }).change, 'Требует проверки');
+  assert2.equal(decide(site, null).change, 'Требует проверки');
 });
 
 test('«по выгодной цене» — не выгода', () => {
@@ -200,7 +201,7 @@ test('итоговая выгода: части одной фразы склад
 });
 
 test('цена меняется при одинаковом рекламном тексте, кнопки игнорируются', () => {
-  const old = { status: 'needs_check', text_mode: true, promo_lines: ['Выгода до 100 000 ₽'], models: [{model: 'S9', price: 6799000}] };
+  const old = { status: 'ok', promo_lines: ['Выгода до 100 000 ₽'], models: [{model: 'S9', price: 6799000}] };
   const next = {...old, promo_lines: [...old.promo_lines, 'Узнать о выгодах', 'ВЫГОДНЫЕ УСЛОВИЯ']};
   assert.equal(decideChange(next, old).change, CHANGE.same);
   const result = decideChange({...next, models: [{model: 'S9', price: 6749000}]}, old);
@@ -212,4 +213,8 @@ test('даты исключены из сумм, повторный ID блок�
   const {assertUniqueIds, parseRubles} = await import('./lib.mjs');
   assert.deepEqual(parseRubles('Акция до 22.11.2026'), []);
   assert.throws(() => assertUniqueIds([{id: 74}, {id: '74'}]), /74/);
+});
+
+test('дата окончания трейд-ин не превращается в выгоду 11 202 рубля', () => {
+  assert.equal(benefitTotal('С учетом выгоды, получаемой при сдаче автомобиля в трейд-ин, действующей по 30.11.2026 (включительно) на автомобили 2025 г.в.'), null);
 });

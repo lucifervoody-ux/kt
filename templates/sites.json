@@ -3103,7 +3103,33 @@
       "EADO PLUS",
       "LAMORE",
       "HUNTER PLUS"
-    ]
+    ],
+    "card": {
+      "card": ".card:has(.card__logo):has(.card__price)",
+      "model": ".card__logo",
+      "model_attr": "src",
+      "model_map": {
+        "/uni-z/": "UNI-Z",
+        "/uni-s-new/": "UNI-S-NEW",
+        "/uni-s/": "UNI-S",
+        "/cs35max/": "CS35MAX",
+        "/cs75plus/": "CS75PLUS",
+        "/cs75plus-new/": "CS75PLUS-NEW",
+        "/cs75pro/": "CS75PRO",
+        "/cs35plus/": "CS35PLUS",
+        "/uni-k/": "UNI-K",
+        "/uni-t/": "UNI-T",
+        "/hunterplus/": "HUNTERPLUS",
+        "/cs95new/": "CS95NEW",
+        "/uni-v-new/": "UNI-V-NEW",
+        "/uni-v/": "UNI-V",
+        "/lamore/": "LAMORE",
+        "/eadoplus/": "EADOPLUS",
+        "/alsvin/": "ALSVIN"
+      },
+      "price": ".card__price",
+      "benefit": ".profit__title"
+    }
   },
   "i-changanauto.ru": {
     "id": 194,
