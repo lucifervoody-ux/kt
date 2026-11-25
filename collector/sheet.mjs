@@ -179,12 +179,14 @@ export function parseSites(grid) {
     return v === 'None' ? '' : v;
   };
   const out = [];
-  const seen = new Set();
-  for (const r of rows) {
+  const seen = new Map();
+  for (const [index, r] of rows.entries()) {
     const id = Number(get(r, idx.id));
     const site = get(r, idx.site).replace(/\/+$/, '');
-    if (!id || !site || seen.has(id)) continue;
-    seen.add(id);
+    if (!id || !site) continue;
+    const row = at0 + index + 2;
+    if (seen.has(id)) throw new Error(`Лист «${SITES_SHEET}»: повторяющийся ID ${id} в строках ${seen.get(id)} и ${row}. Исправьте ID в таблице`);
+    seen.set(id, row);
     out.push({
       id,
       company: get(r, idx.company),
