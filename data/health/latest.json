@@ -1,14 +1,14 @@
 {
   "date": "2026-11-25",
-  "checked_at": "2026-11-25T15:49:39.859Z",
-  "total_seconds": 655,
+  "checked_at": "2026-11-25T16:01:19.815Z",
+  "total_seconds": 753,
   "parallel": 6,
   "summary": {
-    "Не работает": 6,
+    "Не работает": 7,
     "Проверить вручную": 31,
     "Заглушка": 2,
-    "Работает медленно": 1,
-    "Работает": 267
+    "Работает медленно": 5,
+    "Работает": 262
   },
   "sites": [
     {
@@ -25,8 +25,25 @@
       "final_url": "https://cars.chery.region62.ru/",
       "engine": "Не определён",
       "title": "Автомобили в наличии",
-      "seconds": 9,
+      "seconds": 10,
       "was": ""
+    },
+    {
+      "id": 71,
+      "company": "Tenet Астрахань Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat30-tenet.ru",
+      "brand": "TENET",
+      "health": "Не работает",
+      "reason": "page.goto: net::ERR_CONNECTION_REFUSED at https://agat30-tenet.ru/",
+      "konget": "Сайт не открылся",
+      "code": null,
+      "load_seconds": 24.9,
+      "final_url": "",
+      "engine": "",
+      "title": "",
+      "seconds": 55,
+      "was": "Было: Работает"
     },
     {
       "id": 160,
@@ -38,7 +55,7 @@
       "reason": "page.goto: net::ERR_CONNECTION_REFUSED at https://soueast-artex.ru/",
       "konget": "Сайт не открылся",
       "code": null,
-      "load_seconds": 1.2,
+      "load_seconds": 0.7,
       "final_url": "",
       "engine": "",
       "title": "",
@@ -55,7 +72,7 @@
       "reason": "Сайт ответил ошибкой 404",
       "konget": "Сайт не открылся",
       "code": 404,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://vikingi-chery.ru/",
       "engine": "Не определён",
       "title": "",
@@ -72,7 +89,7 @@
       "reason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://knewstar-vsk.ru/",
       "konget": "Сайт не открылся",
       "code": null,
-      "load_seconds": 0.4,
+      "load_seconds": 0.2,
       "final_url": "",
       "engine": "",
       "title": "",
@@ -89,11 +106,11 @@
       "reason": "page.goto: net::ERR_CONNECTION_REFUSED at https://automarket-kaiyi.ru/",
       "konget": "Сайт не открылся",
       "code": null,
-      "load_seconds": 0.4,
+      "load_seconds": 0.5,
       "final_url": "",
       "engine": "",
       "title": "",
-      "seconds": 0,
+      "seconds": 1,
       "was": ""
     },
     {
@@ -106,7 +123,7 @@
       "reason": "Сайт ответил ошибкой 503",
       "konget": "Сайт не открылся",
       "code": 503,
-      "load_seconds": 0.7,
+      "load_seconds": 1.1,
       "final_url": "https://soueast-kors-tula.ru/",
       "engine": "Не определён",
       "title": "503 — Service Unavailable",
@@ -174,11 +191,11 @@
       "reason": "В браузере почти нет видимого текста. Открытие сайта требует ручной проверки",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://cars.jetour-ai71.ru/",
       "engine": "Каскад",
       "title": "Официальный дилер Jetour в Туле",
-      "seconds": 24,
+      "seconds": 28,
       "was": "Было: Заглушка"
     },
     {
@@ -225,11 +242,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://avtoduk.lada.ru/",
       "engine": "Сайты LADA",
       "title": "The URL you requested has been blocked",
-      "seconds": 28,
+      "seconds": 26,
       "was": ""
     },
     {
@@ -242,11 +259,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://srt.agat.lada.ru/",
       "engine": "Сайты LADA",
       "title": "The URL you requested has been blocked",
-      "seconds": 26,
+      "seconds": 29,
       "was": ""
     },
     {
@@ -259,11 +276,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://agat.lada.ru/",
       "engine": "Сайты LADA",
       "title": "The URL you requested has been blocked",
-      "seconds": 26,
+      "seconds": 29,
       "was": ""
     },
     {
@@ -310,7 +327,7 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://amk-ekt.lada.ru/",
       "engine": "Сайты LADA",
       "title": "The URL you requested has been blocked",
@@ -331,7 +348,7 @@
       "final_url": "",
       "engine": "",
       "title": "",
-      "seconds": 4,
+      "seconds": 2,
       "was": ""
     },
     {
@@ -344,11 +361,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://urallada63.lada.ru/",
       "engine": "Сайты LADA",
       "title": "The URL you requested has been blocked",
-      "seconds": 28,
+      "seconds": 26,
       "was": ""
     },
     {
@@ -446,11 +463,11 @@
       "reason": "Сертификат сайта просрочен: браузер показывает посетителям «Подключение не защищено». Нужно продлить сертификат",
       "konget": "Проверить вручную",
       "code": null,
-      "load_seconds": 0.3,
+      "load_seconds": 0.4,
       "final_url": "",
       "engine": "",
       "title": "",
-      "seconds": 4,
+      "seconds": 2,
       "was": ""
     },
     {
@@ -463,7 +480,7 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://dav-auto.lada.ru/",
       "engine": "Сайты LADA",
       "title": "The URL you requested has been blocked",
@@ -480,11 +497,11 @@
       "reason": "Сайт ответил кодом 403: похоже на защиту от роботов. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 403,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://promo.dialog-kazan-haval.ru/",
       "engine": "Не определён",
       "title": "",
-      "seconds": 17,
+      "seconds": 18,
       "was": ""
     },
     {
@@ -514,11 +531,11 @@
       "reason": "В браузере почти нет видимого текста. Открытие сайта требует ручной проверки",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.4,
+      "load_seconds": 0.6,
       "final_url": "https://jetour-dynamica-cherepovets.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер Jetour (Джетур) в Череповце: модельный ряд и цены в автосалоне Динамика",
-      "seconds": 62,
+      "seconds": 63,
       "was": "Было: Работает"
     },
     {
@@ -531,11 +548,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.8,
       "final_url": "https://blocked.botfaqtor.ru/",
       "engine": "Не определён",
       "title": "Визит заблокирован - BotFAQtor.ru",
-      "seconds": 17,
+      "seconds": 15,
       "was": "Было: Работает"
     },
     {
@@ -548,7 +565,7 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://blocked.botfaqtor.ru/",
       "engine": "Не определён",
       "title": "Визит заблокирован - BotFAQtor.ru",
@@ -565,11 +582,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://blocked.botfaqtor.ru/",
       "engine": "Не определён",
       "title": "Визит заблокирован - BotFAQtor.ru",
-      "seconds": 12,
+      "seconds": 14,
       "was": "Было: Работает"
     },
     {
@@ -582,11 +599,11 @@
       "reason": "Защита сайта не пустила проверку. Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.7,
       "final_url": "https://blocked.botfaqtor.ru/",
       "engine": "Не определён",
       "title": "Визит заблокирован - BotFAQtor.ru",
-      "seconds": 37,
+      "seconds": 39,
       "was": "Было: Работает"
     },
     {
@@ -633,7 +650,7 @@
       "reason": "Не открылся с серверов проверки (page.goto: net::ERR_EMPTY_RESPONSE at https://dactor-kom-haval.ru/). Людям сайт может открываться, проверьте вручную",
       "konget": "Проверить вручную",
       "code": null,
-      "load_seconds": 0.3,
+      "load_seconds": 0.4,
       "final_url": "",
       "engine": "",
       "title": "",
@@ -650,11 +667,11 @@
       "reason": "На странице: «Сайт не запущен»",
       "konget": "Сайт не открылся",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://chery-center-pulkovo.ru/",
       "engine": "Creatium",
       "title": "Сайт не запущен",
-      "seconds": 30,
+      "seconds": 33,
       "was": "Было: Работает"
     },
     {
@@ -667,7 +684,7 @@
       "reason": "На странице: «Сайт на реконструкции»",
       "konget": "Сайт не открылся",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.8,
       "final_url": "https://dongfeng-klassika.ru/",
       "engine": "Не определён",
       "title": "Сайт на реконструкции",
@@ -675,20 +692,88 @@
       "was": "Было: Работает"
     },
     {
-      "id": 184,
-      "company": "TCM Вилочные погрузчики",
+      "id": 69,
+      "company": "Tenet Волгоград Новые автомобили",
       "responsible": "Савастьянов А.А.",
-      "site": "tcm-russia.ru",
-      "brand": "Спецтехника",
+      "site": "agat34-tenet.ru",
+      "brand": "TENET",
       "health": "Работает медленно",
-      "reason": "Открывался 17 с",
+      "reason": "Открывался 37 с",
+      "konget": "Скрипт есть",
+      "code": 200,
+      "load_seconds": 36.9,
+      "final_url": "https://agat34-tenet.ru/",
+      "engine": "Perxis",
+      "title": "Официальный дилер TENET в Волгограде - купить новый ТЕНЕТ в автосалоне АГАТ",
+      "seconds": 73,
+      "was": "Было: Работает"
+    },
+    {
+      "id": 70,
+      "company": "Tenet Саранск Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat13-tenet.ru",
+      "brand": "TENET",
+      "health": "Работает медленно",
+      "reason": "Открывался 21 с",
+      "konget": "Скрипт есть",
+      "code": 200,
+      "load_seconds": 20.6,
+      "final_url": "https://agat13-tenet.ru/",
+      "engine": "Perxis",
+      "title": "Официальный дилер TENET в Саранске - купить новый ТЕНЕТ в автосалоне АГАТ",
+      "seconds": 60,
+      "was": "Было: Работает"
+    },
+    {
+      "id": 73,
+      "company": "Хавейл Про Киров Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat-krv-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "health": "Работает медленно",
+      "reason": "Открывался 21 с",
+      "konget": "Скрипт есть",
+      "code": 200,
+      "load_seconds": 21.2,
+      "final_url": "https://agat-krv-havalpro.ru/",
+      "engine": "Perxis",
+      "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Кирове",
+      "seconds": 32,
+      "was": "Было: Работает"
+    },
+    {
+      "id": 74,
+      "company": "Хавейл Про Екатеринбург Новые автомобили",
+      "responsible": "Савастьянов А.А.",
+      "site": "agat-ekb-havalpro.ru",
+      "brand": "HAVAL PRO",
+      "health": "Работает медленно",
+      "reason": "Открывался 13 с",
+      "konget": "Скрипт есть",
+      "code": 200,
+      "load_seconds": 12.8,
+      "final_url": "https://agat-ekb-havalpro.ru/",
+      "engine": "Perxis",
+      "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Екатеринбурге",
+      "seconds": 18,
+      "was": "Было: Работает"
+    },
+    {
+      "id": 162,
+      "company": "Solaris.artexauto.ru",
+      "responsible": "Савастьянов А.А.",
+      "site": "Solaris.artexauto.ru",
+      "brand": "Solaris",
+      "health": "Работает медленно",
+      "reason": "Открывался 10 с",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 17.4,
-      "final_url": "https://tcm-russia.ru/",
-      "engine": "Joomla",
-      "title": "Японские Вилочные Погрузчики TCM - Официальный Дистрибьютор в России.",
-      "seconds": 35,
+      "load_seconds": 10.1,
+      "final_url": "https://solaris.artexauto.ru/",
+      "engine": "Tilda",
+      "title": "Сервис Solaris",
+      "seconds": 24,
       "was": "Было: Работает"
     },
     {
@@ -701,11 +786,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.4,
       "final_url": "https://hongqi-avangard.ru/",
       "engine": "Nuxt",
       "title": "HONGQI | Купить Хончи в Санкт-Петербурге - Официальный дилер в России АВАНГАРД",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -718,11 +803,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1,
       "final_url": "https://lixiang-avangard.ru/",
       "engine": "Nuxt",
       "title": "Электромобили Li Auto | Купить Li Auto в СПб - Автосалон АВАНГАРД",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -735,11 +820,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://avangard-liauto.ru/",
       "engine": "Perxis",
       "title": "Авангард | Официальный дилер Li Auto в г. Санкт-Петербург",
-      "seconds": 6,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -752,11 +837,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 1.3,
       "final_url": "https://havalpro-avangard.ru/",
       "engine": "Nuxt",
       "title": "HAVAL | АВАНГАРД – Официальный дилер Хавейл: купить новый Хавал в автосалоне СПб",
-      "seconds": 18,
+      "seconds": 20,
       "was": ""
     },
     {
@@ -769,11 +854,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.5,
       "final_url": "https://avangard-havalpro.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер HAVAL PRO в Санкт-Петербурге | Купить Хавейл Про в автосалоне АВАНГАРД",
-      "seconds": 11,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -786,11 +871,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 1,
       "final_url": "https://belgee-lahta.ru/",
       "engine": "Nuxt",
       "title": "Автомобили Belgee ・ Купить Белджи по выгодной цене в СПб ・ Официальный дилер в России Авангард",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -803,11 +888,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.7,
       "final_url": "https://belgee-avangard.ru/",
       "engine": "Perxis",
       "title": "Belgee в Санкт-Петербурге — официальный дилер Авангард",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -820,7 +905,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1,
       "final_url": "https://tank-avangard.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK АВАНГАРД | Санкт-Петербург",
@@ -837,11 +922,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1,
       "final_url": "https://avangard-spb-tank.ru/",
       "engine": "Nuxt",
       "title": "TANK АВАНГАРД. Официальный дилер в Санкт-Петербурге.",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -854,11 +939,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 1.8,
+      "load_seconds": 1.5,
       "final_url": "https://avangard-geely.ru/",
       "engine": "Не определён",
       "title": "GEELY | Официальный дилер Джили в СПб | Купить GEELY в Санкт-Петербурге",
-      "seconds": 22,
+      "seconds": 24,
       "was": ""
     },
     {
@@ -871,11 +956,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://geely-avangard.ru/",
       "engine": "Perxis",
       "title": "Купить GEELY | Официальный дилер Джили в СПб - автосалон Авангард Лахта",
-      "seconds": 5,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -888,7 +973,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 5.3,
+      "load_seconds": 4.4,
       "final_url": "https://sales.avilon-haval.ru/",
       "engine": "WordPress",
       "title": "HAVAL Авилон – официальный дилер Хавейл в Москве: купить новый Хавал 2024-2025 — Выгодно купить HAVAL у официального дил",
@@ -905,7 +990,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://avilon-havalpro.ru/",
       "engine": "Perxis",
       "title": "Продажа внедорожников HAVAL в Москве",
@@ -922,7 +1007,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1,
       "final_url": "https://avilonhaval.ru/",
       "engine": "Perxis",
       "title": "HAVAL Авилон – официальный дилер Хавейл в Москве: купить новый Хавейл 2024-2025",
@@ -939,11 +1024,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 1.8,
       "final_url": "https://deepal-avtoban.ru/",
       "engine": "Nuxt",
       "title": "Купить Deepal G318 по цене от официального дилера",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -956,11 +1041,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://sales.avtoban-changanauto.ru/",
       "engine": "Tilda",
       "title": "Чанган Центр Автобан",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -973,11 +1058,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.6,
       "final_url": "https://avtoban-changanauto.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Чанган Центр Автобан",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -994,7 +1079,7 @@
       "final_url": "https://solaris-avtoban.ru/",
       "engine": "Next.js",
       "title": "Солярис — купить новый автомобиль у официального дилера",
-      "seconds": 11,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -1007,11 +1092,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://avtoban-jetour.ru/",
       "engine": "TradeDealer",
       "title": "JETOUR Автобан Екатеринбург — официальный дилер в Екатеринбурге",
-      "seconds": 8,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1024,11 +1109,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 5.9,
       "final_url": "https://avtoban-moskvich.ru/",
       "engine": "Tilda",
       "title": "Новый Москвич в Екатеринбурге у официального дилера Автобан",
-      "seconds": 5,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1041,11 +1126,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://moskvich-avtoban.ru/",
       "engine": "Perxis",
       "title": "Купить Москвич у официального дилера в Екатеринбурге: выгода до 360 000 ₽, доступный кредит | Автобан Москвич",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1058,11 +1143,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://kia-avtoban.ru/",
       "engine": "Nuxt",
       "title": "Официальный дилер Kia в Екатеринбурге Автоцентр Автобан-Киа | Купить новый автомобиль Киа в автосалоне",
-      "seconds": 6,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1075,11 +1160,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.1,
+      "load_seconds": 2.7,
       "final_url": "https://sprobegom.avtodel.com/",
       "engine": "Каскад",
       "title": "Купить авто с пробегом в салоне Автодель",
-      "seconds": 10,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1092,11 +1177,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.2,
+      "load_seconds": 1.1,
       "final_url": "https://aitmb-havalpro.ru/",
       "engine": "Каскад",
       "title": "HAVAL PRO в Тамбове — Официальный Дилер Автоимпорт",
-      "seconds": 10,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1109,11 +1194,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://autoimport-tmb-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO в Тамбове — Официальный Дилер Автоимпорт",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1126,11 +1211,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://gac-autoimport.ru/",
       "engine": "TradeDealer",
       "title": "GAC Автоимпорт- официальный дилер GAC в Рязани.",
-      "seconds": 5,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -1143,11 +1228,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.4,
       "final_url": "https://kgm-autoimport.ru/",
       "engine": "TradeDealer",
       "title": "Автоимпорт — официальный дилер KGM в Рязани",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -1160,11 +1245,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://ta-haval.ru/",
       "engine": "Perxis",
       "title": "Купить HAVAL в Туле — цены и автомобили в наличии | Официальный дилер",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1177,11 +1262,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.1,
       "final_url": "https://jetour-ai71.ru/",
       "engine": "TradeDealer",
       "title": "Jetour в Туле — Официальный Дилер Автоимпорт 2026 ᐉ",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1194,11 +1279,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://region62-chery.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Chery в Рязани - Регион 62",
-      "seconds": 7,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1211,11 +1296,11 @@
       "reason": "Перенаправляет на autoclass-tula.ru",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 3.3,
+      "load_seconds": 2.9,
       "final_url": "https://autoclass-tula.ru/",
       "engine": "Не определён",
       "title": "ГК Автокласс - Продажа новых автомобилей и автомобилей с пробегом в Туле.",
-      "seconds": 7,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1228,11 +1313,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 1.5,
       "final_url": "https://autoclass-tula.ru/",
       "engine": "Не определён",
       "title": "ГК Автокласс - Продажа новых автомобилей и автомобилей с пробегом в Туле.",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -1245,11 +1330,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://avtolider-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL Тольятти | Купить новый Хавейл у официального дилера «Автолидер»",
-      "seconds": 7,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1266,7 +1351,7 @@
       "final_url": "https://auto-locman.ru/",
       "engine": "WordPress",
       "title": "Мультибрендовый автосалон - Автолоцман",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1279,11 +1364,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://moskvich-m-autolocman.ru/",
       "engine": "Perxis",
       "title": "Автолоцман — Главная страница",
-      "seconds": 15,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -1300,7 +1385,7 @@
       "final_url": "https://moskvich-autolocman.ru/",
       "engine": "Perxis",
       "title": "Автолоцман — Главная страница",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1313,11 +1398,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 0.9,
       "final_url": "https://geely-autolocman.ru/",
       "engine": "Perxis",
       "title": "Автолоцман — Главная",
-      "seconds": 8,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1334,7 +1419,7 @@
       "final_url": "https://autolocman-probeg.ru/",
       "engine": "WordPress",
       "title": "Проверенные автомобили с пробегом!",
-      "seconds": 6,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1347,11 +1432,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://volga-avtomarket.ru/",
       "engine": "TradeDealer",
       "title": "Volga в Мурманске, купить автомобили Волга у официального дилера «Автомаркет»",
-      "seconds": 5,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1364,11 +1449,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.4,
+      "load_seconds": 7.1,
       "final_url": "https://avtomarket-51.ru/",
       "engine": "Tilda",
       "title": "Автомаркет - Haval, TENET, Changan, Solaris, Sollers, ГАЗ, УАЗ",
-      "seconds": 6,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1381,11 +1466,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://uaz-avtomarket.ru/",
       "engine": "УАЗ-дилер",
       "title": "ООО \"Севертранс\" - официальный дилер УАЗ",
-      "seconds": 11,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1402,7 +1487,7 @@
       "final_url": "https://avtomarket-haval.ru/",
       "engine": "Perxis",
       "title": "Haval в Мурманске, купить автомобили Хавал у официального дилера Автомаркет",
-      "seconds": 9,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1415,11 +1500,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 1.3,
       "final_url": "https://exeed-service-automash.ru/",
       "engine": "Perxis",
       "title": "EXEED | Премиальные внедорожники | Официальный сайт - модельный ряд, цены 2023, предложения",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1432,11 +1517,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1,
       "final_url": "https://tenet-avtoruss.ru/",
       "engine": "Perxis",
       "title": "TENET – официальный дилер бренда в Москве – купить новый автомобиль ТЕНЕТ 2026 в автосалоне АВТОРУСЬ",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1449,11 +1534,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://avtoruss-service.ru/",
       "engine": "Не определён",
       "title": "Автосервисы Авторусь - ремонт автомобилей в Москве в Подольске, Мытищах и в Южном Бутово",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1470,7 +1555,7 @@
       "final_url": "https://podolsk.kia-avtoruss.ru/",
       "engine": "Не определён",
       "title": "Сервис Kia по выгодной цене",
-      "seconds": 18,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -1483,11 +1568,11 @@
       "reason": "Перенаправляет на podolsk.kia-avtoruss.ru",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 1.8,
+      "load_seconds": 2.2,
       "final_url": "https://podolsk.kia-avtoruss.ru/",
       "engine": "Не определён",
       "title": "Сервис Kia по выгодной цене",
-      "seconds": 16,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -1500,7 +1585,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 1.9,
       "final_url": "https://avtoruss.ru/",
       "engine": "Не определён",
       "title": "ГК АВТОРУСЬ ─ продажа новых автомобилей в Москве, купить авто в сети автосалонов официального дилера",
@@ -1517,11 +1602,11 @@
       "reason": "",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://moscow.kia-butovo.ru/",
       "engine": "Не определён",
       "title": "Сервис Kia по выгодной цене",
-      "seconds": 16,
+      "seconds": 19,
       "was": ""
     },
     {
@@ -1534,11 +1619,11 @@
       "reason": "",
       "konget": "Проверить вручную",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://kia-butovo.ru/",
       "engine": "Nuxt",
       "title": "Ремонт и обслуживание автомобилей Kia в автосервисе в Москве",
-      "seconds": 17,
+      "seconds": 19,
       "was": ""
     },
     {
@@ -1551,11 +1636,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://tenet-olimp.ru/",
       "engine": "Perxis",
       "title": "Tenet в Ростове-на-Дону купить автомобили Тенет у официального дилера ТЕНЕТ ОЛИМП ЗАПАД",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -1568,11 +1653,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://autocentr-haval.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер HAVAL (ХАВЕЙЛ) Нижний Новгород — Автоцентр на Гагарина. Купить новые автомобили HAVAL. Кроссоверы Хава",
-      "seconds": 8,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1585,11 +1670,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://chery-don.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Chery в Ростове-на-Дону | Chery центр на Каширской",
-      "seconds": 6,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -1602,11 +1687,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1,
       "final_url": "https://avtotrade-haval.ru/",
       "engine": "Perxis",
       "title": "Автотрейд Кострома — Главная",
-      "seconds": 11,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1619,11 +1704,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.4,
       "final_url": "https://lada42.ru/",
       "engine": "Tilda",
       "title": "Автоцентр ДЮК и К | Официальный дилер LADA в Кемерово",
-      "seconds": 6,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -1636,7 +1721,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://exeed42.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер EXEED в Кемерово",
@@ -1653,11 +1738,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.1,
       "final_url": "https://kgm-avtoduk.ru/",
       "engine": "TradeDealer",
       "title": "Автоцентр ДЮК и К — официальный дилер KGM в Кемерово",
-      "seconds": 7,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -1670,7 +1755,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://avtoduk-exeed.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер EXEED в Кемерово | Купить новые автомобили EXEED 2025 в EXEED Центр ДЮК и К на Терешковой",
@@ -1687,11 +1772,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.2,
       "final_url": "https://uaz-agas.ru/",
       "engine": "УАЗ-дилер",
       "title": "Автоцентр УАЗ АГАС - Продажа новых УАЗ в Барнауле - цены от официального дилера",
-      "seconds": 12,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1704,62 +1789,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2,
+      "load_seconds": 1.4,
       "final_url": "https://kmv-havalpro.ru/",
       "engine": "Nuxt",
       "title": "HAVAL Pro | АГАТ - дилер Хавейл Про в Минеральных водах",
-      "seconds": 5,
-      "was": ""
-    },
-    {
-      "id": 69,
-      "company": "Tenet Волгоград Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat34-tenet.ru",
-      "brand": "TENET",
-      "health": "Работает",
-      "reason": "",
-      "konget": "Скрипт есть",
-      "code": 200,
-      "load_seconds": 0.8,
-      "final_url": "https://agat34-tenet.ru/",
-      "engine": "Perxis",
-      "title": "Официальный дилер TENET в Волгограде - купить новый ТЕНЕТ в автосалоне АГАТ",
-      "seconds": 4,
-      "was": ""
-    },
-    {
-      "id": 70,
-      "company": "Tenet Саранск Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat13-tenet.ru",
-      "brand": "TENET",
-      "health": "Работает",
-      "reason": "",
-      "konget": "Скрипт есть",
-      "code": 200,
-      "load_seconds": 0.8,
-      "final_url": "https://agat13-tenet.ru/",
-      "engine": "Perxis",
-      "title": "Официальный дилер TENET в Саранске - купить новый ТЕНЕТ в автосалоне АГАТ",
-      "seconds": 4,
-      "was": ""
-    },
-    {
-      "id": 71,
-      "company": "Tenet Астрахань Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat30-tenet.ru",
-      "brand": "TENET",
-      "health": "Работает",
-      "reason": "",
-      "konget": "Скрипт есть",
-      "code": 200,
-      "load_seconds": 1,
-      "final_url": "https://agat30-tenet.ru/",
-      "engine": "Perxis",
-      "title": "Официальный дилер TENET в Астрахани - купить новый ТЕНЕТ в автосалоне АГАТ",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -1772,45 +1806,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 3.1,
       "final_url": "https://agat-srn-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Саранске",
-      "seconds": 11,
-      "was": ""
-    },
-    {
-      "id": 73,
-      "company": "Хавейл Про Киров Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat-krv-havalpro.ru",
-      "brand": "HAVAL PRO",
-      "health": "Работает",
-      "reason": "",
-      "konget": "Скрипт есть",
-      "code": 200,
-      "load_seconds": 1,
-      "final_url": "https://agat-krv-havalpro.ru/",
-      "engine": "Perxis",
-      "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Кирове",
-      "seconds": 6,
-      "was": ""
-    },
-    {
-      "id": 74,
-      "company": "Хавейл Про Екатеринбург Новые автомобили",
-      "responsible": "Савастьянов А.А.",
-      "site": "agat-ekb-havalpro.ru",
-      "brand": "HAVAL PRO",
-      "health": "Работает",
-      "reason": "",
-      "konget": "Скрипт есть",
-      "code": 200,
-      "load_seconds": 0.9,
-      "final_url": "https://agat-ekb-havalpro.ru/",
-      "engine": "Perxis",
-      "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Екатеринбурге",
-      "seconds": 6,
+      "seconds": 43,
       "was": ""
     },
     {
@@ -1827,7 +1827,7 @@
       "final_url": "https://agat-srt-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Саратове",
-      "seconds": 7,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -1840,11 +1840,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.5,
       "final_url": "https://agat-ast-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Астрахани",
-      "seconds": 7,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1857,11 +1857,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://agat-krsk-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Красноярске",
-      "seconds": 6,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1874,11 +1874,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://agat-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Нижнем Новгороде",
-      "seconds": 7,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -1891,11 +1891,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://agat-vlg-havalpro.ru/",
       "engine": "Perxis",
       "title": "HAVAL PRO АГАТ - официальный дилер Хавейл Про в Волгограде",
-      "seconds": 6,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1908,11 +1908,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://agat-krsk-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL | АГАТ - официальный дилер Хавейл в Красноярске",
-      "seconds": 6,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1925,11 +1925,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.3,
       "final_url": "https://agat-ekb-haval.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер HAVAL в Екатеринбурге - купить новый Хавейл в автосалоне АГАТ",
-      "seconds": 10,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -1942,11 +1942,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.2,
       "final_url": "https://agat-saransk-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL | АГАТ - официальный дилер Хавейл в Саранске",
-      "seconds": 7,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1959,11 +1959,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.3,
       "final_url": "https://agat-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL | АГАТ - официальный дилер Хавейл в Нижнем Новгороде",
-      "seconds": 7,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1980,7 +1980,7 @@
       "final_url": "https://agat-srt-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL | АГАТ - официальный дилер Хавейл в Саратове",
-      "seconds": 9,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -1993,7 +1993,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.7,
       "final_url": "https://agat-srt-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL | АГАТ - официальный дилер Хавейл в Саратове",
@@ -2010,11 +2010,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://agat-krv-tank.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK в Кирове — Агат",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2027,11 +2027,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.4,
       "final_url": "https://agat-krsk-tank.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK в Красноярске — Агат",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2044,7 +2044,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.1,
       "final_url": "https://agat-srt-tank.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK в Саратове — Агат",
@@ -2061,7 +2061,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://agat-nn-tank.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK Агат | Нижний Новгород",
@@ -2078,11 +2078,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://omoda-agat-nn.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер OMODA в Нижнем Новгороде - купить новый ОМОДА в автосалоне АГАТ",
-      "seconds": 4,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2095,11 +2095,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://belgee-aem.ru/",
       "engine": "Perxis",
       "title": "Купить новый автомобиль BELGEE 2026 в Барнауле - Цена и комплектации BELGEE у официального дилера",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2112,11 +2112,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.2,
       "final_url": "https://promo.aem-tank.ru/",
       "engine": "Не определён",
       "title": "Tank | Официальный дилерский центр AEM Холдинг в Барнауле",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2129,7 +2129,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://aem-tank.ru/",
       "engine": "Perxis",
       "title": "Купить новый TANK 2026 в Барнауле по цене официального дилера «АЕМ Холдинг»",
@@ -2146,11 +2146,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://sale.aem-haval.ru/",
       "engine": "Не определён",
       "title": "Haval | Официальный дилерский центр AEM Холдинг в Барнауле",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2163,11 +2163,11 @@
       "reason": "Перенаправляет на sale.aem-haval.ru",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.4,
       "final_url": "https://sale.aem-haval.ru/",
       "engine": "Не определён",
       "title": "Haval | Официальный дилерский центр AEM Холдинг в Барнауле",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2180,7 +2180,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://aem-haval.ru/",
       "engine": "Perxis",
       "title": "Купить автомобиль HAVAL 2026 в Барнауле у официального дилера «АЕМ Холдинг»",
@@ -2197,11 +2197,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.2,
       "final_url": "https://gac-barnaul.ru/",
       "engine": "TradeDealer",
       "title": "АЕМ Холдинг — официальный дилер GAC в Барнауле",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2214,11 +2214,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://aemholding.ru/",
       "engine": "Каскад",
       "title": "АЕМ в Барнауле. Автохолдинг АЕМ – один из крупнейших российских автомобильных холдингов.",
-      "seconds": 10,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -2231,11 +2231,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.2,
       "final_url": "https://betasever-tenetplus.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Tenet Plus Бета Север",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2248,11 +2248,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.3,
       "final_url": "https://kgm-betasever.ru/",
       "engine": "TradeDealer",
       "title": "Бета Север — официальный дилер KGM в Петрозаводске",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2265,11 +2265,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://tenet-betaonego.ru/",
       "engine": "Perxis",
       "title": "Бета Онего — Главная страница",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2286,7 +2286,7 @@
       "final_url": "https://chery-betaonego.ru/",
       "engine": "Perxis",
       "title": "ЧЕРИ ЦЕНТР БЕТА ОНЕГО — Главная страница",
-      "seconds": 7,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -2299,11 +2299,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.2,
       "final_url": "https://tenet-beta-pulkovo.ru/",
       "engine": "Perxis",
       "title": "Бета Пулково — Главная страница",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2316,11 +2316,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.5,
+      "load_seconds": 1.1,
       "final_url": "https://bestune-betaonego.ru/",
       "engine": "Каскад",
       "title": "Официальный дилер Bestune в Петрозаводске Бета Онего",
-      "seconds": 9,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -2333,11 +2333,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 1,
       "final_url": "https://sevmarka-jac.ru/",
       "engine": "Perxis",
       "title": "Купить JAC в Мурманске | Официальный дилер | Северная Марка",
-      "seconds": 8,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -2350,11 +2350,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://jac-beta.ru/",
       "engine": "Каскад",
       "title": "Купить автомобили JAC в СПб | JAC Центр Бета Пулково",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2367,11 +2367,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.1,
       "final_url": "https://jetour-beta.ru/",
       "engine": "Каскад",
       "title": "JETOUR | Бета – официальный дилер Джетур в Петрозаводске: купить JETOUR 2025-2026",
-      "seconds": 8,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -2384,11 +2384,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.9,
       "final_url": "https://chery-center-spb.ru/",
       "engine": "Не определён",
       "title": "Chery - ЧЕРИ ЦЕНТР Пулково",
-      "seconds": 10,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -2401,11 +2401,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.5,
       "final_url": "https://cherypulkovo.ru/",
       "engine": "Не определён",
       "title": "CHERY в наличии | купить Чери / Тенет 2026 в СПб – официальный дилер Чери Центр Пулково",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2422,7 +2422,7 @@
       "final_url": "https://swm-beta-kudrovo.tilda.ws/",
       "engine": "Tilda",
       "title": "SWM Бета Кудрово",
-      "seconds": 3,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2435,11 +2435,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 1,
       "final_url": "https://chery-beta-pulkovo.ru/",
       "engine": "Perxis",
       "title": "Chery | Бета Групп – официальный дилер Чери в Санкт-Петербурге: цена Chery 2025-2026",
-      "seconds": 7,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -2452,11 +2452,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://chery-spb-pulkovo.ru/",
       "engine": "Не определён",
       "title": "Chery - ЧЕРИ ЦЕНТР Пулково",
-      "seconds": 10,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -2469,11 +2469,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.4,
       "final_url": "https://promo.alfitplus.ru/",
       "engine": "Tilda",
       "title": "Алфит Плюс",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2486,11 +2486,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://amg-commerce.ru/",
       "engine": "Не определён",
       "title": "Быстровозводимые коммерческие здания под ключ в Тюмени — АМ-ГРУПП",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2503,7 +2503,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://lider-topping.ru/",
       "engine": "Не определён",
       "title": "Промышленные полы и стяжки в Тюмени под ключ — Лидер Топпинг",
@@ -2520,11 +2520,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://am-fundament.ru/",
       "engine": "Не определён",
       "title": "Фундамент под ключ в Тюмени — монолитные фундаменты | АМ-ГРУПП",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2537,11 +2537,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://amg-remont.ru/",
       "engine": "Не определён",
       "title": "Ремонт квартир под ключ в Тюмени от 30 000 ₽/м² — АМ-ГРУПП",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2558,7 +2558,7 @@
       "final_url": "https://amgroup72.ru/",
       "engine": "Tilda",
       "title": "АМ-ГРУПП | Строительство загородных домов под ключ в Тюмени",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2575,7 +2575,7 @@
       "final_url": "https://amkcentr-chery.ru/",
       "engine": "Perxis",
       "title": "АМК-Урал — Главная страница",
-      "seconds": 8,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -2588,7 +2588,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.4,
       "final_url": "https://amk-chery.ru/",
       "engine": "Tilda",
       "title": "АМК ТЕНЕТ",
@@ -2605,11 +2605,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.4,
       "final_url": "https://tenet-amk.ru/",
       "engine": "Perxis",
       "title": "Tenet",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2622,7 +2622,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://amk-sam.ru/",
       "engine": "Tilda",
       "title": "АМК LADA — официальный дилер LADA в с. Красный Яр",
@@ -2639,11 +2639,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://jetour-amr-saratov.ru/",
       "engine": "TradeDealer",
       "title": "JETOUR АМР — сайт официального дилера Jetour | Купить Джетур в Саратове",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2656,11 +2656,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://jetour-64.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер JETOUR в Саратове",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2673,11 +2673,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 3.5,
+      "load_seconds": 1.2,
       "final_url": "https://jetour-amr.ru/",
       "engine": "Каскад",
       "title": "Jetour AMR - официальный дилер JETOUR (Джетур) в городе Саратов",
-      "seconds": 11,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -2690,11 +2690,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://antikor-motors.ru/",
       "engine": "Tilda",
       "title": "CFMOTO",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2707,7 +2707,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://tenet-antikorservis.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Tenet в Омске, купить автомобили Тенет | Антикор-Сервис",
@@ -2728,7 +2728,7 @@
       "final_url": "https://antikorservis-chery.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Tenet в Омске | Антикор-Сервис на Мельничной, 134В",
-      "seconds": 7,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -2741,11 +2741,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://xn----7sbhlndkwlucked.xn--p1ai/",
       "engine": "Tilda",
       "title": "Автохолдинг \"Антикор-Сервис\" Омск",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2758,7 +2758,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://antikorservis-haval.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер HAVAL в Омске, купить автомобили HAVAL | Антикор-Сервис",
@@ -2775,7 +2775,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://promo.armada-okt-haval.ru/",
       "engine": "Не определён",
       "title": "HAVAL | Армада-Авто Октябрьский",
@@ -2792,11 +2792,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.4,
       "final_url": "https://haval-ulyanovsk-official.ru/",
       "engine": "Не определён",
       "title": "HAVAL CITY Армада-Авто",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -2809,7 +2809,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 0.9,
       "final_url": "https://armada-haval.ru/",
       "engine": "Perxis",
       "title": "Автомобили HAVAL в Ульяновске от официального дилера \"Армада-Авто\", купить ХАВАЛ - цена и комплектации",
@@ -2826,11 +2826,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.3,
       "final_url": "https://arsenal-haval.ru/",
       "engine": "Perxis",
       "title": "Купить HAVAL у официального дилера в Красноярске – новый Хавейл по выгодной цене | Арсенал",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2843,11 +2843,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://vw-artan.ru/",
       "engine": "Tilda",
       "title": "Сервис Volkswagen в Нижнем Новгороде, ТО и ремонт",
-      "seconds": 5,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -2860,11 +2860,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://artex-liauto.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Li Auto в Ростове-на-Дону – автосалон АРТЕКС",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2877,11 +2877,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.1,
       "final_url": "https://artexauto.ru/",
       "engine": "1С-Битрикс",
       "title": "Автосалон Артекс в Ростове-на-Дону и Ставрополе — купить новые автомобили и авто с пробегом у дилера Артекс Авто",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2894,28 +2894,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.2,
       "final_url": "https://gac-artex-rnd.ru/",
       "engine": "TradeDealer",
       "title": "Новые автомобили GAC в Ростове-на-Дону - официальный дилер GAC Артекс",
-      "seconds": 9,
-      "was": ""
-    },
-    {
-      "id": 162,
-      "company": "Solaris.artexauto.ru",
-      "responsible": "Савастьянов А.А.",
-      "site": "Solaris.artexauto.ru",
-      "brand": "Solaris",
-      "health": "Работает",
-      "reason": "",
-      "konget": "Скрипта нет",
-      "code": 200,
-      "load_seconds": 0.8,
-      "final_url": "https://solaris.artexauto.ru/",
-      "engine": "Tilda",
-      "title": "Сервис Solaris",
-      "seconds": 15,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2928,11 +2911,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://jetour-artex.ru/",
       "engine": "TradeDealer",
       "title": "JETOUR Артекс — сайт официального дилера JETOUR Артекс | Купить Джетур в Ростове-на-Дону",
-      "seconds": 7,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -2945,11 +2928,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1,
       "final_url": "https://geely-artex.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Geely в Ростове-на-Дону – автосалон АРТЕКС",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2966,7 +2949,7 @@
       "final_url": "https://artex-esteo.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер ESTEO в Ростове-на-Дону",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -2979,11 +2962,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://bars-haval.ru/",
       "engine": "Perxis",
       "title": "Новые городские кроссоверы HAVAL CITY от автохолдинга Барс - Официальный дилер HAVAL в Омске",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -2996,11 +2979,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://bars-havalpro.ru/",
       "engine": "Perxis",
       "title": "Кроссоверы и внедорожники HAVAL PRO от автохолдинга Барс - Официальный дилер HAVAL в Омске",
-      "seconds": 7,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -3013,11 +2996,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1,
       "final_url": "https://bars-tank.ru/",
       "engine": "Perxis",
       "title": "Купить автомобиль ТАНК в Омске | Цены на TANK у официального дилера «Барс»",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3030,11 +3013,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://chery-bars.ru/",
       "engine": "Perxis",
       "title": "БАРС-АЗИЯ — Главная страница",
-      "seconds": 7,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3047,11 +3030,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.2,
       "final_url": "https://evolute-bolivar.ru/",
       "engine": "TradeDealer",
       "title": "Купить автомобили EVOLUTE (Эволют) в Саратове у официального дилера БОЛИВАР",
-      "seconds": 9,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -3064,11 +3047,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.1,
       "final_url": "https://sales-voyah-bolivar.ru/",
       "engine": "Не определён",
       "title": "ГК Боливар — официальный дилер VOYAH в Саратове",
-      "seconds": 18,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -3081,11 +3064,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://voyah-bolivar.ru/",
       "engine": "TradeDealer",
       "title": "Купить VOYAH (Воя) в Саратове у официального дилера БОЛИВАР",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3098,11 +3081,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://sales-uspehauto-esteo.ru/",
       "engine": "Не определён",
       "title": "ESTEO в УСПЕХ АВТО ЮБИЛЕЙНЫЙ",
-      "seconds": 16,
+      "seconds": 17,
       "was": ""
     },
     {
@@ -3115,11 +3098,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://uspehauto-esteo.ru/",
       "engine": "Perxis",
       "title": "ESTEO в Саратове, купить автомобиль Эстео по цене официального дилера",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3132,11 +3115,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://service-haval-bolivar.ru/",
       "engine": "Tilda",
       "title": "Сервис Haval в Саратове | Ремонт Хавейл в Боливар",
-      "seconds": 5,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -3149,11 +3132,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 1,
       "final_url": "https://sales-haval-bolivar.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер HAVAL в Саратове | Официальный дилер Хавейл в «Боливар»",
-      "seconds": 6,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -3170,7 +3153,7 @@
       "final_url": "https://bolivar-haval.ru/",
       "engine": "Perxis",
       "title": "Купить HAVAL в Саратове у официального дилера БОЛИВАР",
-      "seconds": 8,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3183,11 +3166,11 @@
       "reason": "Перенаправляет на lp.haval-borishof.ru",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 2,
       "final_url": "https://lp.haval-borishof.ru/",
       "engine": "Не определён",
       "title": "HAVAL БорисХоф | Официальный дилер",
-      "seconds": 18,
+      "seconds": 19,
       "was": "Было: Проверить вручную"
     },
     {
@@ -3200,7 +3183,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://borishof-haval.ru/",
       "engine": "Perxis",
       "title": "БорисХоф - официальный дилер HAVAL, купить новый HAVAL 2026, цена автомобиля в Москве",
@@ -3217,11 +3200,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://borishof-havalpro.ru/",
       "engine": "Perxis",
       "title": "БорисХоф HAVAL PRO - официальный дилер HAVAL в Москве",
-      "seconds": 8,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3234,11 +3217,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.4,
       "final_url": "https://tank-borishof.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер TANK (ТАНК) в Москве — БорисХоф: цены и комплектации",
-      "seconds": 2,
+      "seconds": 3,
       "was": ""
     },
     {
@@ -3251,7 +3234,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.3,
+      "load_seconds": 0.9,
       "final_url": "https://lp.tank-borishof.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер TANK в Москве, купить Танк по выгодной цене",
@@ -3268,11 +3251,28 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 4.8,
+      "load_seconds": 1,
       "final_url": "https://borishof-tank.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK БорисХоф | Москва",
-      "seconds": 7,
+      "seconds": 5,
+      "was": ""
+    },
+    {
+      "id": 184,
+      "company": "TCM Вилочные погрузчики",
+      "responsible": "Савастьянов А.А.",
+      "site": "tcm-russia.ru",
+      "brand": "Спецтехника",
+      "health": "Работает",
+      "reason": "",
+      "konget": "Скрипта нет",
+      "code": 200,
+      "load_seconds": 6,
+      "final_url": "https://tcm-russia.ru/",
+      "engine": "Joomla",
+      "title": "Японские Вилочные Погрузчики TCM - Официальный Дистрибьютор в России.",
+      "seconds": 34,
       "was": ""
     },
     {
@@ -3285,7 +3285,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.1,
       "final_url": "https://hc-russia.ru/",
       "engine": "Joomla",
       "title": "Официальный сайт HANGCHA — вилочные погрузчики Ханча из Китая, дистрибьютор в России",
@@ -3302,11 +3302,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.8,
+      "load_seconds": 2,
       "final_url": "https://traktor-velikan.ru/",
       "engine": "Joomla",
       "title": "«Спецтехника ВЕЛИКАН» - Продажа Техники С 1992 Года!",
-      "seconds": 11,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3319,11 +3319,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.4,
+      "load_seconds": 1.7,
       "final_url": "https://mtz.ru/",
       "engine": "Joomla",
       "title": "Трактора МТЗ (Беларус) в Москве от Официального Представителя",
-      "seconds": 11,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3336,11 +3336,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.5,
       "final_url": "https://sales.izmailovo-changanauto.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер CHANGAN в Москве – Чанган Центр Измайлово: цены, модели и комплектации автомобилей Чанган.",
-      "seconds": 5,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3353,7 +3353,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.9,
+      "load_seconds": 2,
       "final_url": "https://i-changanauto.ru/",
       "engine": "1С-Битрикс",
       "title": "Чанган Центр Измайлово",
@@ -3370,11 +3370,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.5,
       "final_url": "https://tradein-vip.ru/",
       "engine": "Каскад",
       "title": "Автомобили с пробегом в Твери — купить, трейд-ин, выкуп авто | Важная персона-Авто",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3391,7 +3391,7 @@
       "final_url": "https://vip-auto-tver.ru/",
       "engine": "Каскад",
       "title": "Купить автомобиль в Твери – продажа новых автомобилей и авто с пробегом | ВАЖНАЯ ПЕРСОНА",
-      "seconds": 6,
+      "seconds": 15,
       "was": ""
     },
     {
@@ -3404,11 +3404,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://solaris-vip-auto.ru/",
       "engine": "Каскад",
       "title": "Официальный дилер Solaris в Твери \"Вип Авто\", купить новый Солярис",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3421,7 +3421,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://belgee-vip.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Belgee (Белджи) в Твери компания Важная Персона-Авто",
@@ -3438,11 +3438,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.8,
       "final_url": "https://vip-auto-tver.ru/",
       "engine": "Каскад",
       "title": "Купить автомобиль в Твери – продажа новых автомобилей и авто с пробегом | ВАЖНАЯ ПЕРСОНА",
-      "seconds": 6,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -3455,11 +3455,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 0.9,
       "final_url": "https://geely-vip-auto.ru/",
       "engine": "Perxis",
       "title": "Вип Авто — Главная",
-      "seconds": 4,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3472,11 +3472,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://geely-vsk.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер автомобилей марки Geely в Красноярске | Автоцентр ВСК",
-      "seconds": 4,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3489,11 +3489,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.9,
+      "load_seconds": 1.2,
       "final_url": "https://soueast-automarket.ru/",
       "engine": "TradeDealer",
       "title": "Купить SOUEAST у официального дилера в Ижевске - цены и характеристики новых автомобилей Соуис | SOUEAST Автомаркет",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3506,11 +3506,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.2,
       "final_url": "https://jetour-automarket.ru/",
       "engine": "TradeDealer",
       "title": "JETOUR Automarket — сайт официального дилера JETOUR Automarket | Купить Джетур в Ижевске",
-      "seconds": 6,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3523,11 +3523,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.9,
       "final_url": "https://automarket.sale/",
       "engine": "Каскад",
       "title": "Новые автомобили и с пробегом в Ижевске - Автомаркет",
-      "seconds": 17,
+      "seconds": 25,
       "was": ""
     },
     {
@@ -3540,11 +3540,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 1.1,
       "final_url": "https://promo.garant18.ru/",
       "engine": "Каскад",
       "title": "Официальный дилер Mitsubishi «Гарант-Моторс» - продажа новых автомобилей Mitsubishi в г. Ижевск",
-      "seconds": 17,
+      "seconds": 22,
       "was": ""
     },
     {
@@ -3557,7 +3557,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.5,
+      "load_seconds": 2.4,
       "final_url": "https://www.garant-mitsubishi.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Митсубиси Ижевск \"Гарант-Моторс\".",
@@ -3574,11 +3574,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.3,
       "final_url": "https://lada-davauto.ru/",
       "engine": "Каскад",
       "title": "Официальный дилер LADA в Перми | ДАВ-АВТО",
-      "seconds": 11,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -3591,11 +3591,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 0.9,
       "final_url": "https://cars.geely-davauto.ru/",
       "engine": "Не определён",
       "title": "ДАВ АВТО GEELY – официальный дилер GEELY в Перми!",
-      "seconds": 19,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -3608,11 +3608,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.4,
       "final_url": "https://carsgeely-davauto.rqch.ru/",
       "engine": "Платформа rqch.ru",
       "title": "",
-      "seconds": 4,
+      "seconds": 7,
       "was": "Было: Проверить вручную"
     },
     {
@@ -3625,7 +3625,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 0.9,
       "final_url": "https://promo.geely-davauto.ru/",
       "engine": "Tilda",
       "title": "GEELY в Перми у официального дилера «ДАВ-АВТО».",
@@ -3642,11 +3642,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 3.2,
+      "load_seconds": 1,
       "final_url": "https://geely-davauto.ru/",
       "engine": "Perxis",
       "title": "Джили Geely купить 2026 цена в Перми у официального дилера Дав Авто",
-      "seconds": 9,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -3659,11 +3659,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.1,
       "final_url": "https://daynava-lada.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер LADA в Воронеже — Дайнава Центр",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3680,7 +3680,7 @@
       "final_url": "https://dalex-group.ru/",
       "engine": "Tilda",
       "title": "Аренда транспорта с водителем",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3693,11 +3693,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.4,
+      "load_seconds": 1.7,
       "final_url": "https://uni-demidich02.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Юни Центр Демидыч Уфа",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3710,11 +3710,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://demidich-tenetplus.ru/",
       "engine": "Perxis",
       "title": "Tenet Plus Демидыч — официальный дилер в Перми",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3727,11 +3727,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://demidich02-changanauto.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Чанган Центр Демидыч Уфа",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3744,11 +3744,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://demidich-changanauto.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Чанган Центр Демидыч Пермь",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3761,11 +3761,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 2,
       "final_url": "https://uni-demidich.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Юни Центр Демидыч Пермь",
-      "seconds": 4,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -3778,11 +3778,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://tenet-demidich.ru/",
       "engine": "Perxis",
       "title": "Демидыч TENET — официальный дилер автомобилей TENET в Перми. Предлагаем полный модельный ряд кроссоверов TENET , сервисн",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3795,11 +3795,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://demidich-chery.ru/",
       "engine": "Perxis",
       "title": "Купить новые автомобили Chery в Перми у официального дилера.",
-      "seconds": 7,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -3816,7 +3816,7 @@
       "final_url": "https://demidich-jac.ru/",
       "engine": "Perxis",
       "title": "Официальный сайт JAC Motors в России",
-      "seconds": 7,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -3829,7 +3829,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.5,
+      "load_seconds": 1.1,
       "final_url": "https://sollers-demidich.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер SOLLERS в Перми — Демидыч | Купить автомобили SOLLERS в Перми",
@@ -3850,7 +3850,7 @@
       "final_url": "https://perm-uni.ru/",
       "engine": "Tilda",
       "title": "Купить автомобили UNI в Перми | Купить UNI (Changan) у официального дилера Демидыч",
-      "seconds": 10,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3863,11 +3863,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://tenetperm.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер TENET в Перми",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -3880,11 +3880,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://cheryperm.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер Chery в Перми",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3897,7 +3897,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.4,
+      "load_seconds": 1.6,
       "final_url": "https://www.demidich.ru/",
       "engine": "1С-Битрикс",
       "title": "Официальный дилер CHANGAN, CHERY, TENET, HAVAL, JAC, SOLLERS – компания Демидыч — официальный дилер Демидыч",
@@ -3914,11 +3914,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 0.8,
       "final_url": "https://www.demidich.ru/",
       "engine": "1С-Битрикс",
       "title": "Официальный дилер CHANGAN, CHERY, TENET, HAVAL, JAC, SOLLERS – компания Демидыч — официальный дилер Демидыч",
-      "seconds": 3,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -3931,11 +3931,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 0.9,
       "final_url": "https://jac-perm.ru/",
       "engine": "Tilda",
       "title": "Купить автомобили JAC в Перми | Официальный дилер Демидыч JAC",
-      "seconds": 5,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -3948,11 +3948,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://haval-perm.ru/",
       "engine": "Tilda",
       "title": "Купить автомобили HAVAL в Перми | Купить HAVAL у официального дилера Демидыч",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -3962,14 +3962,14 @@
       "site": "perm-chery.ru",
       "brand": "Chery",
       "health": "Работает",
-      "reason": "Перенаправляет на cheryperm.ru",
+      "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
-      "final_url": "https://cheryperm.ru/",
+      "load_seconds": 1.2,
+      "final_url": "https://perm-chery.ru/",
       "engine": "Tilda",
-      "title": "Официальный дилер Chery в Перми",
-      "seconds": 5,
+      "title": "Официальный дилер Chery в Перми — ДЕМИДЫЧ",
+      "seconds": 12,
       "was": ""
     },
     {
@@ -3999,11 +3999,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://changan-perm.ru/",
       "engine": "Tilda",
       "title": "Демидыч — официальный дилер Changan в Перми. Купить автомобили Чанган в Перми.",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4016,11 +4016,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://service.demidich.ru/",
       "engine": "Tilda",
       "title": "Демидыч — Автосервис в Перми и Уфе",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -4033,7 +4033,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 0.8,
       "final_url": "https://www.demidich.ru/",
       "engine": "1С-Битрикс",
       "title": "Официальный дилер CHANGAN, CHERY, TENET, HAVAL, JAC, SOLLERS – компания Демидыч — официальный дилер Демидыч",
@@ -4050,11 +4050,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.7,
       "final_url": "https://dialog-kazan-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL – сайт официального дилера Хавейл в Казани, цены, комплектации и технические характеристики автомобилей марки",
-      "seconds": 11,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4067,11 +4067,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 0.9,
       "final_url": "https://dialog-almet-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL — Официальный дилер в Альметьевске | Хавейл, цены и модельный ряд на главной странице",
-      "seconds": 11,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4088,7 +4088,7 @@
       "final_url": "https://dynamica-havalpro.ru/",
       "engine": "Perxis",
       "title": "Динамика — Главная",
-      "seconds": 11,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -4105,7 +4105,7 @@
       "final_url": "https://dynamica-komi-havalpro.ru/",
       "engine": "Tilda",
       "title": "Haval (Хавал) купить у официального дилера в Сыктывкаре: комплектации и цены",
-      "seconds": 11,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -4118,11 +4118,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.8,
       "final_url": "https://dynamica-vlg-havalpro.ru/",
       "engine": "Perxis",
       "title": "Динамика — Главная",
-      "seconds": 11,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -4135,7 +4135,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.5,
+      "load_seconds": 1.7,
       "final_url": "https://dynamica-vologda-havalpro.ru/",
       "engine": "Tilda",
       "title": "Купить Haval в Вологде – сайт официального дилера Хавал Про «Динамика»",
@@ -4156,7 +4156,7 @@
       "final_url": "https://tenet-dynamica.ru/",
       "engine": "Perxis",
       "title": "Динамика Архангельск — Главная страница",
-      "seconds": 11,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -4169,11 +4169,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.5,
+      "load_seconds": 1.3,
       "final_url": "https://gac-kaliningrad-dynamica.ru/",
       "engine": "TradeDealer",
       "title": "GAC Динамика Калининград - официальный дилер GAC в Калининграде.",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4186,7 +4186,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.2,
       "final_url": "https://promo.gac-kaliningrad-dynamica.ru/",
       "engine": "Tilda",
       "title": "Купить GAC в Калининграде",
@@ -4203,11 +4203,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 3.2,
+      "load_seconds": 1.8,
       "final_url": "https://www.belgee-dynamica.ru/",
       "engine": "Perxis",
       "title": "Динамика Архангельск — Главная",
-      "seconds": 13,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -4220,7 +4220,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 1,
       "final_url": "https://tank-dynamica.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер TANK в Архангельске – автосалон «Динамика»",
@@ -4237,11 +4237,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://dynamica-tank.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TANK Динамика | Архангельск",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -4254,11 +4254,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.2,
       "final_url": "https://geely-dynamica.ru/",
       "engine": "Perxis",
       "title": "Динамика — Главная",
-      "seconds": 7,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -4271,11 +4271,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 0.9,
       "final_url": "https://chery-dynamica.ru/",
       "engine": "Perxis",
       "title": "Chery Tiggo в Архангельске — официальный дилер Чери Центр Динамика",
-      "seconds": 8,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -4288,11 +4288,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://jetour-kaliningrad.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер Jetour (Джетур) в Калининграде: модельный ряд и цены в автосалоне Динамика",
-      "seconds": 11,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -4305,11 +4305,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://promo.omoda-dynamica.ru/",
       "engine": "Tilda",
       "title": "Купить OMODA в Смоленске | Цены на омода, автомобиль omoda",
-      "seconds": 11,
+      "seconds": 14,
       "was": ""
     },
     {
@@ -4322,7 +4322,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://promo.jaecoo-dynamica.ru/",
       "engine": "Tilda",
       "title": "Jaecoo (Джейку) купить у официального дилера в Смоленске: комплектации и цены",
@@ -4339,7 +4339,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://jetour-dynamica-vologda.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер Jetour (Джетур) в Вологде: модельный ряд и цены в автосалоне Динамика",
@@ -4373,7 +4373,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.2,
+      "load_seconds": 1,
       "final_url": "https://omoda-komi.ru/",
       "engine": "Tilda",
       "title": "Купить Omoda в Сыктывкаре | Цены на омода, автомобиль omoda",
@@ -4390,7 +4390,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://jetour-dynamica-arh.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер Jetour (Джетур) в Архангельске: модельный ряд и цены в автосалоне Динамика",
@@ -4407,11 +4407,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.4,
+      "load_seconds": 1,
       "final_url": "https://promo.jetour-dynamica-arh.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер Jetour (Джетур) в Архангельске: модельный ряд и цены в автосалоне Динамика",
-      "seconds": 12,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -4424,11 +4424,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.6,
+      "load_seconds": 1.1,
       "final_url": "https://dynamica-trade.ru/",
       "engine": "TradeDealer",
       "title": "Автохолдинг «Динамика» — авто с пробегом от официального дилера",
-      "seconds": 5,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -4441,11 +4441,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.6,
+      "load_seconds": 1,
       "final_url": "https://dynamica-haval.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер HAVAL автосалон Динамика в Череповце",
-      "seconds": 7,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4458,7 +4458,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://haval-dynamica35.ru/",
       "engine": "Tilda",
       "title": "Haval (Хавал) купить у официального дилера в Череповце: комплектации и цены",
@@ -4475,7 +4475,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://haval-donmotors.ru/",
       "engine": "Tilda",
       "title": "Официальный дилер HAVAL Дон-Моторс Ростов-на-Дону",
@@ -4492,11 +4492,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.3,
       "final_url": "https://donmotors-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL | Дон-Моторс – официальный дилер Хавейл: купить HAVAL 2024 в Ростове-на-Дону",
-      "seconds": 7,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4509,11 +4509,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://km-havalpro.ru/",
       "engine": "Perxis",
       "title": "К-Моторс — Главная",
-      "seconds": 8,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -4526,7 +4526,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://km-haval.ru/",
       "engine": "Perxis",
       "title": "Купить автомобиль HAVAL | Официальный дилер HAVAL К-Моторс",
@@ -4547,7 +4547,7 @@
       "final_url": "https://chat.chery-nvkz.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Chery/Tenet в Новокузнецке.",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -4564,7 +4564,7 @@
       "final_url": "https://chat.jetour-nvkz.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Jetour в Новокузнецке.",
-      "seconds": 4,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -4577,11 +4577,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://chat.omoda-jaecoo-42.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер OMODA и JAECOO в Кемерово «Картель Авто»",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -4594,11 +4594,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.4,
+      "load_seconds": 1.7,
       "final_url": "https://chat.promo.geely-cartelauto.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Geely в Кемерово «Картель Авто»",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -4611,11 +4611,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://rox-cartelauto.ru/",
       "engine": "Perxis",
       "title": "Картель Авто — Главная страница",
-      "seconds": 3,
+      "seconds": 4,
       "was": ""
     },
     {
@@ -4628,11 +4628,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.4,
       "final_url": "https://jetour-nvkz.ru/",
       "engine": "Tilda",
       "title": "Автомобили Jetour в Новокузнецке - купить у официального дилера",
-      "seconds": 4,
+      "seconds": 12,
       "was": ""
     },
     {
@@ -4645,11 +4645,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.3,
       "final_url": "https://jetour-cartelauto.ru/",
       "engine": "TradeDealer",
       "title": "Купить автомобиль JETOUR (Джетур) 2025-2026 у официального дилера «Картель Авто» в Новокузнецке",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4662,11 +4662,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://jetour-cartel42.ru/",
       "engine": "Tilda",
       "title": "Автомобили Jetour в Кемерово - купить у официального дилера",
-      "seconds": 7,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -4679,11 +4679,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 2.5,
       "final_url": "https://jetour-cartelauto42.ru/",
       "engine": "TradeDealer",
       "title": "JETOUR официальный дилер в Кемерове. Купить новый Джетур по цене официального дилера - Картель Авто",
-      "seconds": 5,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -4696,11 +4696,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.2,
       "final_url": "https://voyah-cartelauto-kemerovo.ru/",
       "engine": "TradeDealer",
       "title": "VOYAH Картель Авто – официальный дилер в Кемерово",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -4713,11 +4713,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.7,
+      "load_seconds": 1.2,
       "final_url": "https://cartelauto.ru/",
       "engine": "TradeDealer",
       "title": "Автомобили - новые и с пробегом (бу) в автосалонах в Кемерове и Новокузнецке - Автомолл Картель",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -4730,7 +4730,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2,
+      "load_seconds": 1.9,
       "final_url": "https://www.belgee-cartelauto.ru/",
       "engine": "Perxis",
       "title": "Belgee купить у официального дилера в Кемерово: цены и комплектации 2025-2026",
@@ -4747,11 +4747,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 2.3,
+      "load_seconds": 2.5,
       "final_url": "https://www.geely-cartelauto.ru/",
       "engine": "Perxis",
       "title": "Купить автомобиль Geely 2025-2026 в Кемерово по цене официального дилера",
-      "seconds": 8,
+      "seconds": 13,
       "was": ""
     },
     {
@@ -4768,7 +4768,7 @@
       "final_url": "https://tenet-cartelauto.ru/",
       "engine": "Perxis",
       "title": "КАРТЕЛЬ АВТО — Главная страница",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -4781,11 +4781,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://cartelauto-chery.ru/",
       "engine": "Perxis",
       "title": "Купить новый CHERY 2026 в Новокузнецке по цене официального дилера «Картель Авто»",
-      "seconds": 7,
+      "seconds": 10,
       "was": ""
     },
     {
@@ -4798,7 +4798,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.1,
+      "load_seconds": 1.6,
       "final_url": "https://kislorodclub.ru/",
       "engine": "Tilda",
       "title": "KISLOROD ЗАГОРОДНЫЙ КЛУБ",
@@ -4815,11 +4815,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.4,
       "final_url": "https://rm-klassika.ru/",
       "engine": "Не определён",
       "title": "Русская механика",
-      "seconds": 7,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -4832,7 +4832,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.7,
+      "load_seconds": 1.4,
       "final_url": "https://hisun-klassika.ru/",
       "engine": "Не определён",
       "title": "HISUN официальный дилер в Санкт-Петербурге Классика",
@@ -4849,11 +4849,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://kmch-haval.ru/",
       "engine": "Perxis",
       "title": "Haval официальный дилер в Москве, купить новый Хавейл в автосалоне Хавал КМ/Ч",
-      "seconds": 11,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4870,7 +4870,7 @@
       "final_url": "https://haval-otradnoe-dactor.ru/",
       "engine": "Не определён",
       "title": "ДАКТОР — официальный дилер HAVAL в Москве | Купить новый HAVAL 2026",
-      "seconds": 15,
+      "seconds": 21,
       "was": ""
     },
     {
@@ -4883,7 +4883,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.1,
       "final_url": "https://kmch-otr-havalpro.ru/",
       "engine": "Perxis",
       "title": "Haval Pro официальный дилер в Москве, купить новый автомобиль в автосалоне Хавейл Про",
@@ -4904,7 +4904,7 @@
       "final_url": "https://dactor-krd-haval.ru/",
       "engine": "Perxis",
       "title": "HAVAL официальный дилер в Краснодаре, купить автомобиль в автосалоне Хавейл",
-      "seconds": 6,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -4917,7 +4917,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.9,
       "final_url": "https://dactor-service.ru/",
       "engine": "Не определён",
       "title": "Дактор Мультисервис",
@@ -4934,7 +4934,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.5,
+      "load_seconds": 1.7,
       "final_url": "https://service-haval-msk.ru/",
       "engine": "Не определён",
       "title": "Гарантия на услуги от официального сервиса HAVAL КМ/Ч, Коммунарка",
@@ -4951,11 +4951,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1,
+      "load_seconds": 1.5,
       "final_url": "https://promo-msk-haval.ru/",
       "engine": "Не определён",
       "title": "Автосалон КМ/Ч — официальный дилер HAVAL в Коммунарке",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -4968,11 +4968,11 @@
       "reason": "",
       "konget": "Скрипта нет",
       "code": 200,
-      "load_seconds": 0.5,
+      "load_seconds": 0.6,
       "final_url": "https://haval-otradnoe-dactor.ru/",
       "engine": "Не определён",
       "title": "ДАКТОР — официальный дилер HAVAL в Москве | Купить новый HAVAL 2026",
-      "seconds": 15,
+      "seconds": 16,
       "was": ""
     },
     {
@@ -4985,11 +4985,11 @@
       "reason": "Перенаправляет на kmch-haval.ru",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 1.3,
+      "load_seconds": 1.7,
       "final_url": "https://kmch-haval.ru/",
       "engine": "Perxis",
       "title": "Haval официальный дилер в Москве, купить новый Хавейл в автосалоне Хавал КМ/Ч",
-      "seconds": 9,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -5002,11 +5002,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://kors-obninsk-tenetplus.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Tenet Plus Корс Обнинск – купить Tenet Plus 2026 года, комплектации и цены на Тенет Плюс",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -5019,7 +5019,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://kors-tula-tenetplus.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Tenet Plus в Туле – купить новый Tenet Plus (Тенет Плюс), комплектации и цены",
@@ -5040,7 +5040,7 @@
       "final_url": "https://obn-haval.genclient.ru/",
       "engine": "Не определён",
       "title": "Официальный дилер Haval в Обнинске",
-      "seconds": 5,
+      "seconds": 6,
       "was": ""
     },
     {
@@ -5053,11 +5053,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://korsgroup-obn-haval.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер HAVAL КорсГрупп Обнинск – купить Хавал 2026 года в автосалоне HAVAL, цены и комплектации",
-      "seconds": 5,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -5070,11 +5070,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://kors-group-tenet.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер Tenet в Обнинске | Продажа и сервис",
-      "seconds": 4,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -5087,11 +5087,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://tenet-korsgroup.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TENET КОРС Ногинск – продажа автомобилей TENET, цены и комплектации на кроссоверы 2026 года",
-      "seconds": 5,
+      "seconds": 11,
       "was": ""
     },
     {
@@ -5108,7 +5108,7 @@
       "final_url": "https://tenet-kors-group.ru/",
       "engine": "Perxis",
       "title": "Официальный дилер TENET Корс на Автомобильной в Калуге – продажа новых автомобилей TENET 2026 года",
-      "seconds": 5,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -5121,11 +5121,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 0.9,
       "final_url": "https://korsgroup-geely.ru/",
       "engine": "Perxis",
       "title": "КорсГрупп Новомосковск — Главная",
-      "seconds": 7,
+      "seconds": 8,
       "was": ""
     },
     {
@@ -5138,11 +5138,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1,
       "final_url": "https://korsgroup-kursk-tank.ru/",
       "engine": "Perxis",
       "title": "TANK КорсГрупп – официальный дилер TANK в Курске | Продажа автомобилей TANK 2026 модельного года",
-      "seconds": 4,
+      "seconds": 5,
       "was": ""
     },
     {
@@ -5155,11 +5155,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://soueast-kors-kursk.ru/",
       "engine": "TradeDealer",
       "title": "Купить SOUEAST у официального дилера в Курске - цены и характеристики новых автомобилей Соуис | SOUEAST Корс Курск",
-      "seconds": 5,
+      "seconds": 9,
       "was": ""
     },
     {
@@ -5172,11 +5172,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.9,
+      "load_seconds": 1.2,
       "final_url": "https://jetour-kors-kursk.ru/",
       "engine": "TradeDealer",
       "title": "JETOUR КорсГрупп — сайт официального дилера JETOUR КорсГрупп | Купить Джетур в Курске",
-      "seconds": 11,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -5189,11 +5189,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.1,
       "final_url": "https://korsgroup-tank.ru/",
       "engine": "Perxis",
       "title": "TANK КорсГрупп Тула – официальный дилер TANK на Октябрьской | Купить новый TANK на выгодных условиях",
-      "seconds": 6,
+      "seconds": 7,
       "was": ""
     },
     {
@@ -5206,7 +5206,7 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1,
       "final_url": "https://korsgroup-yar-tank.ru/",
       "engine": "Perxis",
       "title": "TANK КорсГрупп – официальный дилер TANK в Ярославле | Купить внедорожники TANK",
@@ -5223,11 +5223,11 @@
       "reason": "",
       "konget": "Скрипт есть",
       "code": 200,
-      "load_seconds": 0.8,
+      "load_seconds": 1.2,
       "final_url": "https://gac-kors-kaluga.ru/",
       "engine": "TradeDealer",
       "title": "Официальный дилер GAC Корс Калуга – купить новый GAC, комплектации и цены автомобилей ГАК 2026 года",
-      "seconds": 11,
+      "seconds": 7,
       "was": ""
     }
   ]
