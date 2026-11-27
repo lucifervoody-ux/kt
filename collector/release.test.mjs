@@ -6,7 +6,7 @@ import path from 'node:path';
 import { previousOf, splitUnverified, store } from './common.mjs';
 import { parseSites, validateExport } from './sheet.mjs';
 import { verifyExport } from './export.mjs';
-import { verifiedCardResults } from './site-profile.mjs';
+import { isModelPageLink, verifiedCardResults } from './site-profile.mjs';
 import { reportAvailability } from '../src/lib/status.js';
 import { cleanModel } from './lib.mjs';
 
@@ -112,4 +112,14 @@ test('Pages различает недоступный отчёт, отсутст
   assert.equal(reportAvailability('health', { sites: [] }), '');
   assert.equal(reportAvailability('export'), 'История выгрузки недоступна');
   assert.equal(reportAvailability('export', null, { status: 'completed' }), '');
+});
+
+test('обход моделей исключает фотогалерею до применения лимита ссылок', () => {
+  const home = 'https://dealer.example/';
+  for (const path of ['assets/img/models/geely-ex5-em-i/banner.webp', 'models/x/full/1.JPG?v=5', 'models/x/price.pdf']) {
+    assert.equal(isModelPageLink(new URL(path, home).href, home), false);
+  }
+  assert.equal(isModelPageLink(home + 'models/geely-ex5?mobile', home), true);
+  assert.equal(isModelPageLink(home + 'models/catalog.html', home), true);
+  assert.equal(isModelPageLink('https://other.example/models/x', home), false);
 });
