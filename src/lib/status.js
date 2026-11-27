@@ -29,3 +29,10 @@ export function greeting() {
   if (h < 18) return 'Добрый день';
   return 'Добрый вечер';
 }
+
+export function reportAvailability(job, report, run) {
+  if (job === 'export') return run?.status === 'completed' ? '' : 'История выгрузки недоступна';
+  if (report === undefined) return 'Результат проверки пока недоступен';
+  if (report === null) return 'Отчёт проверки не найден';
+  return '';
+}

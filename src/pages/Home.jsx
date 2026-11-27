@@ -5,7 +5,7 @@ import {
 } from '@ionic/react';
 import { play, keyOutline, alertCircle, lockClosed, gridOutline, openOutline } from 'ionicons/icons';
 import { useApp } from '../lib/AppContext';
-import { ATTENTION, timeAgo } from '../lib/status';
+import { ATTENTION, reportAvailability, timeAgo } from '../lib/status';
 import { HEALTH_PROBLEMS, JOBS, KONGET_PROBLEMS } from '../lib/jobs';
 import { estimateSeconds, progressInfo } from '../lib/estimate';
 
@@ -16,8 +16,9 @@ function minutesSince(iso) {
 
 // Короткий итог последней проверки для карточки кнопки: главная цифра и что требует внимания.
 function resultOf(job, report, run, reports) {
+  const availability = reportAvailability(job.key, report, run);
+  if (availability) return { main: availability };
   if (job.key === 'export') {
-    if (!run || run.status !== 'completed') return { main: 'Ещё не выгружали' };
     if (run.conclusion === 'success' && Object.values(reports).some(r => Date.parse(r?.checked_at) > Date.parse(run.created_at))) {
       return { main: 'Есть новые результаты для выгрузки', when: run.updated_at };
     }
@@ -26,7 +27,6 @@ function resultOf(job, report, run, reports) {
       : { main: 'Последняя выгрузка не удалась', bad: 'Попробуйте ещё раз или напишите разработчику' };
   }
   const sites = report?.sites || [];
-  if (!report) return { main: 'Проверок ещё не было' };
   const count = (list) => sites.filter((s) => list.includes(s[job.field])).length;
   if (job.key === 'health') {
     const bad = count(HEALTH_PROBLEMS);
