@@ -1,6 +1,6 @@
 // Подписи моделей и сумм из опубликованного каталога. Справочник помогает распознать
 // заголовок, но сам по себе не является основанием добавлять модель или цену.
-import { MIN_PRICE, MAX_PRICE, parseRubles, cleanModel, mergeModels } from './lib.mjs';
+import { MIN_PRICE, MAX_PRICE, parseRubles, benefitTotal, cleanModel, mergeModels } from './lib.mjs';
 
 const namesByBrand = {
   'москвич': 'М70|М90|3|3е|6|8',
@@ -125,6 +125,13 @@ export function labelledOffers(text, site, names = []) {
     let min = Infinity, max = 0;
     for (let j=0;j<facts.length;j++) {
       const line = facts[j];
+      // Сноска WEY называет модель и комплектацию в первой фразе карточки.
+      const footnote = line.split(/\.\s/)[0];
+      const wey = footnote.match(/^\*?цена на (?:автомобиль модели|модель) WEY\s*(?:\(В[ЕЭ]Й\)\s*)?(07|80|V9X)(?=\s|,)/i);
+      if (wey && !/\sили\s/i.test(footnote)) {
+        const trim = /в комплектации [^,]*лаундж/i.test(footnote) ? ' Лаундж' : '';
+        if (key(model) === key(`WEY ${wey[1]}${trim}`)) max = Math.max(max, benefitTotal(footnote) || 0);
+      }
       const next = facts[j+1] || '';
       if (excluded.test(line)) continue;
       const phrase = /^(?:максимальная выгода|выгода|выгода до|цена от|от|до)$/i.test(line) ? line+' '+next : line;
