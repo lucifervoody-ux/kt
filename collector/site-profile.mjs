@@ -77,6 +77,12 @@ export function sameSite(address, home) {
   } catch { return false; }
 }
 
+export function isModelPageLink(address, home) {
+  if (!sameSite(address, home)) return false;
+  const pathname = new URL(address).pathname;
+  return !/\.(?:avif|gif|jpe?g|png|svg|webp|bmp|ico|pdf|mp4|webm|zip)$/i.test(pathname);
+}
+
 export function modelRoute(address, prefixes) {
   const path = new URL(address).pathname.replace(/\/$/, '');
   return prefixes.some((prefix) => {
