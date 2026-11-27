@@ -13,7 +13,7 @@ import {
   SKIP_REASON, host, loadSites, previousOf, readJson, siteUrl, splitUnverified, store,
 } from './common.mjs';
 import { BLOCKED, detectEngine } from './checks.mjs';
-import { modelRoute, profileRows, sameSite, verifiedCardResults } from './site-profile.mjs';
+import { isModelPageLink, modelRoute, profileRows, sameSite, verifiedCardResults } from './site-profile.mjs';
 import { atomOffers, labelledOffers, reconcileOffers, explicitPrices } from './offers.mjs';
 import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
@@ -219,7 +219,7 @@ async function collectModelPages(context, site, cfg) {
     target.set(k, Math.min(...prices, target.get(k) ?? Infinity));
   }
   const listPrice = { get: (k) => plainPrice.get(k) ?? menuPrice.get(k) };
-  links = links.filter((l) => !l.onlyPrice && sameSite(l.href, cfg.list_url));
+  links = links.filter((l) => !l.onlyPrice && isModelPageLink(l.href, cfg.list_url));
   if (cfg.routes) links = links.filter((l) => modelRoute(l.href, cfg.routes));
   links = links.filter((l) => l.href && !seen.has(key(l.href)) && seen.add(key(l.href)));
   if (!links.length) throw new Error(`На ${cfg.list_url} не нашлось ссылок на модели`);
