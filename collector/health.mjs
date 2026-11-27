@@ -1,6 +1,6 @@
 import { chromium } from 'playwright';
 import {
-  HEALTH, HEALTH_ORDER, KONGET, KONGET_ORDER, kongetVerdict, SURE_DOWN, changedSince, countBy, detectEngine, healthVerdict, sortBy,
+  HEALTH, HEALTH_ORDER, KONGET, KONGET_ORDER, kongetVerdict, changedSince, countBy, detectEngine, healthVerdict, sortBy,
 } from './checks.mjs';
 import {
   argValue, keepUnchecked, loadSites, log, previousOf, runQueue, siteBase, siteUrl, store,
@@ -25,6 +25,8 @@ async function checkOnce(browser, site, timeout) {
     if (req.resourceType() === 'script' && new URL(req.url()).origin === new URL(page.url()).origin) scripts.push(req);
   });
   const started = Date.now();
+  // Даже после получения HTTP-заголовков сервер может не закончить тело ответа.
+  const deadlineTimer = setTimeout(() => context.close().catch(() => {}), timeout + 45_000);
   try {
     const res = await page.goto(siteUrl(site), { waitUntil: 'commit', timeout });
     const seconds = (Date.now() - started) / 1000;
@@ -54,6 +56,7 @@ async function checkOnce(browser, site, timeout) {
   } catch (e) {
     return { requests, error: e.message.split('\n')[0], seconds: (Date.now() - started) / 1000 };
   } finally {
+    clearTimeout(deadlineTimer);
     await context.close();
   }
 }
@@ -61,7 +64,6 @@ async function checkOnce(browser, site, timeout) {
 // Если сайт не ответил, но это может быть временным или закрытым доступом, пробуем ещё раз, подольше.
 export async function checkSite(browser, site) {
   const first = await checkOnce(browser, site, TIMEOUT);
-  if (SURE_DOWN.test(first.error || '')) return first;
   if (!first.error && ![HEALTH.manual, HEALTH.stub].includes(healthVerdict({ ...first, site: site.site, finalUrl: first.final_url }).health)) return first;
   const retry = await checkOnce(browser, site, RETRY_TIMEOUT);
   const best = retry.error && !first.error ? first : retry;
@@ -94,6 +96,7 @@ async function main() {
         checked_at: now.toISOString(),
         total_seconds: Math.round((Date.now() - now.getTime()) / 1000),
         parallel: PARALLEL,
+        ...(onlyId ? { partial: true } : {}),
         ...(stopped ? { stopped: true, checked: rows.length, planned: sites.length } : {}),
         summary: countBy(all, field, order),
         sites: all,

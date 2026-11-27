@@ -14,7 +14,7 @@
 import path from 'node:path';
 import { DATA, log, readJson } from './common.mjs';
 import { SHEETS_API, api, connect, readRange } from './google.mjs';
-import { FIRST_DATA_ROW, buildSheets, findHeaderRow, parseSites, placeColumns, SITES_SHEET } from './sheet.mjs';
+import { FIRST_DATA_ROW, buildSheets, findHeaderRow, parseSites, placeColumns, SITES_SHEET, validateExport } from './sheet.mjs';
 
 // 0 → A, 25 → Z, 26 → AA.
 export function letter(i) {
@@ -23,29 +23,14 @@ export function letter(i) {
   return s;
 }
 
-async function main() {
-  const { token, id } = await connect();
-  const registry = parseSites(await readRange({ token, id }, `'${SITES_SHEET}'`));
-  const sheets = buildSheets({
-    registry,
-    health: readJson(path.join(DATA, 'health', 'latest.json')),
-    konget: readJson(path.join(DATA, 'konget', 'latest.json')),
-    utp: readJson(path.join(DATA, 'utp', 'latest.json')),
-  });
-
-  // Только читаем: какие листы есть, заголовки (строка 1) и выпадающие списки (строка 2).
-  const info = await api(token, `${SHEETS_API}/${id}?fields=${encodeURIComponent('properties.title,sheets.properties(sheetId,title,gridProperties.rowCount)')}`);
+export function planExport(sheets, info, grid) {
   const destination = new Map(info.sheets.map(({ properties }) => [properties.title, properties]));
   const titles = Object.keys(sheets);
   const missingSheets = titles.filter((title) => !destination.has(title));
   if (missingSheets.length) throw new Error(`Нет листов для выгрузки: ${missingSheets.join(', ')}`);
 
-  // Шапка ищется в первых строках листа, данные пишутся под ней, но не выше строки 3 (B3).
-  const ranges = titles.map((t) => `'${t}'!1:8`);
-  const fields = 'sheets(properties.title,data(rowData.values(formattedValue,dataValidation.condition.values)))';
-  const grid = await api(token, `${SHEETS_API}/${id}?${ranges.map((r) => `ranges=${encodeURIComponent(r)}`).join('&')}&fields=${encodeURIComponent(fields)}`);
-
   const requests = [];
+  const checks = [];
   for (const sheet of grid.sheets || []) {
     const title = sheet.properties.title;
     const rows = sheet.data?.[0]?.rowData || [];
@@ -61,6 +46,9 @@ async function main() {
     if (unknown.length) throw new Error(`«${title}»: значения не предусмотрены списком: ${unknown.join('; ')}`);
     const { sheetId, gridProperties: { rowCount } } = destination.get(title);
     if (spec.rows.length > rowCount - first + 1) throw new Error(`«${title}»: недостаточно строк для всех результатов`);
+    const endColumn = Math.max(...placed.map(c => c.index));
+    const last = Math.min(rowCount, first + spec.rows.length);
+    checks.push({ title, first, last, columns: placed, range: `'${title}'!A${first}:${letter(endColumn)}${last}` });
     for (const { index, values } of placed) {
       requests.push({ updateCells: {
         range: { sheetId, startRowIndex: first - 1, endRowIndex: rowCount, startColumnIndex: index, endColumnIndex: index + 1 },
@@ -75,12 +63,58 @@ async function main() {
 
   // Меняются только значения ячеек: оформление, списки и правила цветов остаются как были.
   if (grid.sheets?.length !== titles.length) throw new Error('Не удалось прочитать все листы выгрузки');
+  return { requests, checks };
+}
+
+export function verifyExport(checks, ranges) {
+  if (ranges?.length !== checks.length) throw new Error('Не удалось прочитать все записанные листы');
+  checks.forEach(({ title, first, last, columns }, i) => {
+    const rows = ranges[i].values || [];
+    for (const { index, values } of columns) {
+      for (let j = 0; j <= last - first; j++) {
+        if ((rows[j]?.[index] ?? '') !== (values[j] ?? '')) {
+          throw new Error(`После выгрузки значение «${title}»!${letter(index)}${first + j} отличается от отчёта`);
+        }
+      }
+    }
+  });
+}
+
+export async function exportResults({ dryRun = false } = {}) {
+  const { token, id } = await connect();
+  const registry = parseSites(await readRange({ token, id }, `'${SITES_SHEET}'`), { strict: true });
+  const reports = {
+    registry,
+    health: readJson(path.join(DATA, 'health', 'latest.json')),
+    konget: readJson(path.join(DATA, 'konget', 'latest.json')),
+    utp: readJson(path.join(DATA, 'utp', 'latest.json')),
+  };
+  validateExport(reports);
+  const sheets = buildSheets(reports);
+
+  // Только читаем: какие листы есть, заголовки (строка 1) и выпадающие списки (строка 2).
+  const info = await api(token, `${SHEETS_API}/${id}?fields=${encodeURIComponent('properties.title,sheets.properties(sheetId,title,gridProperties.rowCount)')}`);
+  const titles = Object.keys(sheets);
+  // Шапка ищется в первых строках листа, данные пишутся под ней, но не выше строки 3 (B3).
+  const ranges = titles.map((t) => `'${t}'!1:8`);
+  const fields = 'sheets(properties.title,data(rowData.values(formattedValue,dataValidation.condition.values)))';
+  const grid = await api(token, `${SHEETS_API}/${id}?${ranges.map((r) => `ranges=${encodeURIComponent(r)}`).join('&')}&fields=${encodeURIComponent(fields)}`);
+
+  const { requests, checks } = planExport(sheets, info, grid);
+  if (dryRun) {
+    log('Пробная выгрузка проверена. Рабочая таблица не изменена');
+    return;
+  }
   await api(token, `${SHEETS_API}/${id}:batchUpdate`, { requests });
+  const query = new URLSearchParams({ valueRenderOption: 'UNFORMATTED_VALUE' });
+  for (const check of checks) query.append('ranges', check.range);
+  const actual = await api(token, `${SHEETS_API}/${id}/values:batchGet?${query}`);
+  verifyExport(checks, actual.valueRanges);
   log(`Готово: таблица «${info.properties.title}» обновлена`);
 }
 
 if (process.argv[1] === import.meta.filename) {
-  main().catch((e) => {
+  exportResults({ dryRun: process.argv.includes('--dry-run') }).catch((e) => {
     console.error(e.message);
     process.exit(1);
   });

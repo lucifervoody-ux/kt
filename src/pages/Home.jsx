@@ -15,9 +15,12 @@ function minutesSince(iso) {
 }
 
 // Короткий итог последней проверки для карточки кнопки: главная цифра и что требует внимания.
-function resultOf(job, report, run) {
+function resultOf(job, report, run, reports) {
   if (job.key === 'export') {
     if (!run || run.status !== 'completed') return { main: 'Ещё не выгружали' };
+    if (run.conclusion === 'success' && Object.values(reports).some(r => Date.parse(r?.checked_at) > Date.parse(run.created_at))) {
+      return { main: 'Есть новые результаты для выгрузки', when: run.updated_at };
+    }
     return run.conclusion === 'success'
       ? { main: `Выгружено ${timeAgo(run.updated_at)}` }
       : { main: 'Последняя выгрузка не удалась', bad: 'Попробуйте ещё раз или напишите разработчику' };
@@ -34,9 +37,10 @@ function resultOf(job, report, run) {
     return { main: `Работают ${sites.length - bad} из ${sites.length}${scriptInfo}`, bad: attention ? `Нужно посмотреть: ${attention}` : '', when: report.checked_at };
   }
   const changed = count(['Изменилось']);
-  const bad = count(ATTENTION);
+  const bad = count([...ATTENTION, 'Нет сценария']);
+  const compared = count(['Изменилось', 'Не изменилось']);
   return {
-    main: changed ? `Изменилось на ${changed} сайтах` : 'Без изменений',
+    main: changed ? `Изменилось на ${changed} сайтах` : compared ? `Без изменений: ${compared} из ${sites.length}` : 'Нет подтверждённых сравнений',
     bad: bad ? `Требуют проверки: ${bad}` : '',
     when: report.checked_at,
   };
@@ -50,6 +54,7 @@ function JobCard({ job, index }) {
   const run = runs[job.key];
   const running = isRunning(job.key);
   const isStopping = stopping[job.key];
+  const waitingForResults = job.key === 'export' && !running && (isRunning('health') || isRunning('utp'));
   const report = reports[job.key];
   const [, tick] = useState(0);
   useEffect(() => {
@@ -60,7 +65,7 @@ function JobCard({ job, index }) {
 
   const total = job.key === 'export' ? 60 : estimateSeconds(report, runSite[job.key]);
   const progress = running && run?.created_at ? progressInfo(run.created_at, total) : null;
-  const res = resultOf(job, report, run);
+  const res = resultOf(job, report, run, reports);
   const failed = run?.status === 'completed' && run.conclusion && !['success', 'cancelled'].includes(run.conclusion);
 
   const onStop = () => {
@@ -119,12 +124,12 @@ function JobCard({ job, index }) {
         </span>
       </div>
 
-      <button className={`big-btn ${running ? 'is-stop' : ''}`} onClick={onPress} disabled={isStopping}>
+      <button className={`big-btn ${running ? 'is-stop' : ''}`} onClick={onPress} disabled={isStopping || waitingForResults}>
         <span className="big-btn-icon">
           {running ? <IonSpinner name="crescent" /> : <IonIcon icon={settings.token ? play : keyOutline} />}
         </span>
         <span className="big-btn-text">
-          {isStopping ? 'Останавливаю…' : running ? 'Идёт проверка' : settings.token ? 'Запустить' : 'Нужен ключ'}
+          {waitingForResults ? 'Ждём окончания проверок' : isStopping ? 'Останавливаю…' : running ? 'Идёт проверка' : settings.token ? 'Запустить' : 'Нужен ключ'}
           {running && !isStopping && <small>нажмите, чтобы остановить</small>}
         </span>
       </button>

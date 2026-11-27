@@ -10,22 +10,22 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium } from 'playwright';
 import {
-  SKIP_REASON, host, loadSites, previousOf, siteUrl, splitUnverified,
+  SKIP_REASON, host, loadSites, previousOf, readJson, siteUrl, splitUnverified, store,
 } from './common.mjs';
 import { BLOCKED, detectEngine } from './checks.mjs';
-import { modelRoute, profileRows, sameSite } from './site-profile.mjs';
+import { modelRoute, profileRows, sameSite, verifiedCardResults } from './site-profile.mjs';
 import { atomOffers, labelledOffers, reconcileOffers, explicitPrices } from './offers.mjs';
 import { findModelCards } from './autocards.mjs';
 import { aiConfigured, askAi, trimPageText } from './ai.mjs';
 import { load as loadYaml } from 'js-yaml';
 import {
-  MIN_PRICE, MAX_PRICE, CHANGE, benefitTotal, benefitsByModel, parsePrices, parseBenefits, parseAmounts, cleanModel, modelKey, mergeModels, validateModels, decideChange, sortSites, summarize, assertUniqueIds, historyToDelete,
+  MIN_PRICE, MAX_PRICE, CHANGE, benefitTotal, benefitsByModel, parsePrices, parseBenefits, parseAmounts, cleanModel, modelKey, mergeModels, validateModels, decideChange, sortSites, summarize, assertUniqueIds,
 } from './lib.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const UTP = path.join(DATA, 'utp');
-const HISTORY = path.join(UTP, 'history');
+const utpStore = store('utp');
 const SCREENS = path.join(DATA, 'screens');
 const PAGE_TIMEOUT = 45_000;
 const PARALLEL = Number(process.env.PARALLEL) || 6; // сколько сайтов проверять одновременно
@@ -36,23 +36,6 @@ function log(...args) {
 
 function isVehiclePrice(text) {
   return /^\s*(?:цена\s*[:—-]?\s*)?(?:от\s*)?\d[\d\s.,]*\s*(?:₽|руб\.?|рублей|рубля|р\.)?\s*[*¹²³]*\s*$/i.test(text);
-}
-
-function readJson(file) {
-  try {
-    return JSON.parse(fs.readFileSync(file, 'utf8'));
-  } catch {
-    return null;
-  }
-}
-
-// Прошлый сбор: последний завершённый полный сбор, включая сегодняшний.
-function loadPrevious(today) {
-  const latest = readJson(path.join(UTP, 'latest.json'));
-  if (latest?.date <= today && !latest.stopped && !latest.partial && latest.sites?.length) return latest;
-  if (!fs.existsSync(HISTORY)) return null;
-  const dates = fs.readdirSync(HISTORY).map((f) => f.replace('.json', '')).filter((d) => d < today).sort();
-  return dates.length ? readJson(path.join(HISTORY, `${dates.at(-1)}.json`)) : null;
 }
 
 // Открывает страницу и выполняет шаги сценария: нажать кнопки, подождать, прокрутить.
@@ -369,7 +352,7 @@ async function collectSite(browser, site) {
   if (site.profile) {
     const { card, routes, brand, priceAnchors, modelNames } = site.profile;
     if (card) {
-      site.pages = [{ url: siteUrl(site), ...card, min_price: 300000, strict_price: true }, ...(site.pages || [])];
+      site.pages = [{ url: siteUrl(site), ...card, domainCard: true, min_price: 300000, strict_price: true }, ...(site.pages || [])];
     }
     if (routes?.length && site.template !== 'УАЗ-дилер' && (!site.models || site.template === '*')) {
       site.models = {
@@ -399,6 +382,7 @@ async function collectSiteWith(browser, site) {
   try {
     const rows = [];
     const notes = [];
+    let domainCards = [];
     let anyOpened = false;
     let unfinished = false;
     let autoUsed = false;
@@ -440,6 +424,7 @@ async function collectSiteWith(browser, site) {
         const res = await collectPage(context, site, pageCfg, i);
         anyOpened = true;
         rows.push(...res.models);
+        if (pageCfg.domainCard) domainCards = res.models;
         if (res.screen) base.screens.push(res.screen);
         if (!res.hasSelectors) unfinished = true;
         else if (!res.models.length) notes.push(`На странице ${pageCfg.url} не нашлось ни одной модели`);
@@ -579,7 +564,11 @@ async function collectSiteWith(browser, site) {
     if (unfinished) problems.unshift('Сценарий не заполнен до конца, сделан снимок страницы');
     if (!models.length && !unfinished) problems.push('Модели не найдены');
     const all = [...problems, ...notes];
-    if (site.template === '*') {
+    const confirmedCards = verifiedCardResults(domainCards, models, site.profile, site.brand);
+    if (confirmedCards) {
+      base.template = 'Карточки домена';
+      all.push('Цены и выгоды сверены по карточкам моделей на сайте');
+    } else if (site.template === '*') {
       base.template = '*';
       all.push(`Собрано запасным шаблоном (движок: ${site.engine || 'не определён'}), цифры надо проверить`);
     } else if (site.template) {
@@ -588,7 +577,7 @@ async function collectSiteWith(browser, site) {
     }
     if (byAi) all.push('Модели и цены разобрал ИИ по тексту главной страницы, цифры проверьте');
     if (autoUsed) all.push('Модели найдены автопоиском карточек на главной, цифры проверьте');
-    const ok = site.template !== '*' && !byAi && !autoUsed && all.length === (site.template ? 1 : 0);
+    const ok = (confirmedCards || site.template !== '*') && !byAi && !autoUsed && !problems.length && !notes.length;
     const result = { ...base, models, status: ok ? 'ok' : 'needs_check', comment: all.join('; ') };
     return result;
   } finally {
@@ -605,7 +594,7 @@ async function main() {
   const { run: scenarios, skipped } = splitUnverified(allSites.filter((s) => !noUtp.has(String(s.id))));
   const now = new Date();
   const today = now.toISOString().slice(0, 10);
-  const previous = loadPrevious(today);
+  const previous = utpStore.previous(today, true);
   const prevById = new Map((previous?.sites || []).map((s) => [String(s.id), s]));
   log(`Сайтов к проверке: ${scenarios.length}. Прошлый сбор: ${previous?.date || 'нет'}`);
 
@@ -647,21 +636,13 @@ async function main() {
       ...(onlyId ? { partial: true } : {}),
       total_seconds: Math.round((Date.now() - now.getTime()) / 1000),
       parallel: PARALLEL,
-      ...(stopped ? { stopped: true, checked: results.length, planned: scenarios.length } : {}),
+      ...(stopped ? { stopped: true, checked: results.length, planned: allSites.length - noUtp.size } : {}),
       summary: summarize(sites),
       sites,
     };
 
-    fs.mkdirSync(HISTORY, { recursive: true });
-    fs.writeFileSync(path.join(UTP, 'latest.json'), JSON.stringify(report, null, 2));
-    fs.writeFileSync(path.join(HISTORY, `${today}.json`), JSON.stringify(report, null, 2));
-
-    const dates = fs.readdirSync(HISTORY).map((f) => f.replace('.json', ''));
-    for (const d of historyToDelete(dates, today)) {
-      fs.rmSync(path.join(HISTORY, `${d}.json`));
-      log(`Удалён старый сбор ${d}`);
-    }
-    log(stopped ? `Сбор остановлен: проверено ${results.length} из ${scenarios.length}, сохранено` : `Готово за ${report.total_seconds} с:`, JSON.stringify(report.summary));
+    utpStore.save(report);
+    log(stopped ? `Сбор остановлен: проверено ${results.length} из ${allSites.length - noUtp.size}, сохранено` : `Готово за ${report.total_seconds} с:`, JSON.stringify(report.summary));
   }
   // GitHub при отмене сначала посылает сигнал и даёт несколько секунд: успеваем сохранить.
   for (const sig of ['SIGINT', 'SIGTERM']) {

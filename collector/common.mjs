@@ -6,7 +6,7 @@ import { load as loadYaml } from 'js-yaml';
 import { assertUniqueIds, historyToDelete } from './lib.mjs';
 import { HEALTH } from './checks.mjs';
 import { connect, hasGoogle, readRange } from './google.mjs';
-import { SITES_SHEET, parseSites } from './sheet.mjs';
+import { SITES_SHEET, parseSites, siteAddress } from './sheet.mjs';
 
 export const ROOT = path.resolve(import.meta.dirname, '..');
 export const SCENARIOS = path.join(ROOT, 'scenarios');
@@ -30,8 +30,11 @@ export async function loadSites(onlyId) {
   const scenarios = loadScenarios();
   const byId = new Map(scenarios.map((s) => [String(s.id), s]));
   let sites = [];
+  if ((process.env.GITHUB_ACTIONS === 'true' || process.env.GOOGLE_SERVICE_ACCOUNT || process.env.SHEET_ID) && !hasGoogle()) {
+    throw new Error('Для проверки нужен актуальный лист «Сайты». Проверьте GOOGLE_SERVICE_ACCOUNT и SHEET_ID');
+  }
   if (hasGoogle()) {
-    const rows = parseSites(await readRange(await connect(), `'${SITES_SHEET}'`));
+    const rows = parseSites(await readRange(await connect(), `'${SITES_SHEET}'`), { strict: true });
     log(`Лист «${SITES_SHEET}»: сайтов ${rows.length}`);
     sites = rows.map((r) => {
       // Сценарий подходит, только если в нём тот же сайт: ID в таблице могут не совпасть с тестовыми сценариями.
@@ -43,7 +46,7 @@ export async function loadSites(onlyId) {
   // Таблица не подключена: берём сохранённую копию листа «Сайты» (data/sites-copy.json).
   const copy = !sites.length ? readJson(path.join(DATA, 'sites-copy.json')) : null;
   if (!hasGoogle() && copy?.grid?.length) {
-    const rows = parseSites(copy.grid);
+    const rows = parseSites(copy.grid, { strict: true });
     log(`Таблица не подключена, беру копию листа «${SITES_SHEET}» из data/sites-copy.json: сайтов ${rows.length}`);
     sites = rows.map((r) => {
       const found = byId.get(String(r.id));
@@ -57,10 +60,13 @@ export async function loadSites(onlyId) {
   }
   // onlyId: один ID или несколько через запятую («3,7,12»).
   const ids = onlyId ? new Set(String(onlyId).split(/[\s,;]+/).filter(Boolean)) : null;
-  return sites
+  const selected = sites
     .filter((s) => s.active !== false)
     .filter((s) => !ids || ids.has(String(s.id)))
     .sort((a, b) => a.id - b.id);
+  if (!selected.length) throw new Error('В реестре нет активных сайтов для выбранной проверки');
+  if (ids && ids.size !== selected.length) throw new Error('Часть выбранных ID отсутствует или выключена в реестре');
+  return selected;
 }
 
 // Сайты, которые проверка работы признала неработающими или заглушкой, не проверяем на скрипт Конгет и УТП,
@@ -73,13 +79,17 @@ export function splitUnverified(sites, health = readJson(path.join(DATA, 'health
   if (health?.stopped) {
     throw new Error(`Проверка работы сайтов была остановлена (проверено ${health.checked} из ${health.planned}). Запустите её заново до конца и дождитесь результата, потом запускайте эту проверку`);
   }
+  // Старый или смешанный отчёт не доказывает, что сайт недоступен сейчас.
+  if (health?.partial || (health?.checked_at && Date.now() - Date.parse(health.checked_at) > 24 * 3600_000)) {
+    return { run: sites, skipped: [] };
+  }
   const flagged = new Map((health?.sites || [])
     .filter((s) => bad.has(s.health)).map((s) => [String(s.id), s]));
   const run = [];
   const skipped = [];
   for (const s of sites) {
     const h = flagged.get(String(s.id));
-    if (h && host(h.site) === host(s.site) && !s.verified) skipped.push({ site: s, health: h.health });
+    if (h && siteAddress(h.site) === siteAddress(s.site) && !s.verified) skipped.push({ site: s, health: h.health });
     else run.push(s);
   }
   if (skipped.length) log(`Пропущено сайтов, которые не прошли проверку работы: ${skipped.length}`);
@@ -95,7 +105,7 @@ export function host(site) {
 // Прошлый результат сайта: тот же ID и тот же адрес. Если под этим ID теперь другой сайт, прошлого нет.
 export function previousOf(prevById, site) {
   const prev = prevById.get(String(site.id));
-  return prev && host(prev.site) === host(site.site) ? prev : undefined;
+  return prev && siteAddress(prev.site) === siteAddress(site.site) ? prev : undefined;
 }
 
 export function readJson(file) {
@@ -112,17 +122,27 @@ export function argValue(name) {
 }
 
 // Папка одной проверки: data/<kind>/latest.json и data/<kind>/history/<дата>.json.
-export function store(kind) {
-  const dir = path.join(DATA, kind);
+export function store(kind, data = DATA) {
+  const dir = path.join(data, kind);
   const history = path.join(dir, 'history');
   return {
     dir,
     latest: () => readJson(path.join(dir, 'latest.json')),
     // Прошлая проверка: самый свежий файл истории с датой раньше сегодняшней.
-    previous(today) {
+    previous(today, includeToday = false) {
+      if (includeToday) {
+        const latest = readJson(path.join(dir, 'latest.json'));
+        if (latest?.date <= today && latest.sites?.length && !latest.partial && !latest.stopped) return latest;
+      }
       if (!fs.existsSync(history)) return null;
-      const dates = fs.readdirSync(history).map((f) => f.replace('.json', '')).filter((d) => d < today).sort();
-      return dates.length ? readJson(path.join(history, `${dates.at(-1)}.json`)) : null;
+      const files = fs.readdirSync(history).filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().reverse();
+      for (const file of files) {
+        const date = file.slice(0, 10);
+        if (date > today || (!includeToday && date === today)) continue;
+        const report = readJson(path.join(history, file));
+        if (report?.sites?.length && !report.partial && !report.stopped) return report;
+      }
+      return null;
     },
     // Пишет итог и удаляет историю старше 3,5 месяцев.
     save(report) {
@@ -130,7 +150,7 @@ export function store(kind) {
       fs.mkdirSync(history, { recursive: true });
       const text = JSON.stringify(report, null, 2);
       fs.writeFileSync(path.join(dir, 'latest.json'), text);
-      fs.writeFileSync(path.join(history, `${report.date}.json`), text);
+      if (!report.partial && !report.stopped) fs.writeFileSync(path.join(history, `${report.date}.json`), text);
       const dates = fs.readdirSync(history).map((f) => f.replace('.json', ''));
       for (const d of historyToDelete(dates, report.date)) {
         fs.rmSync(path.join(history, `${d}.json`));
