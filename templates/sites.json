@@ -2289,9 +2289,10 @@
     "engine": "Tilda",
     "brand": "TENET",
     "card": {
-      "card": ".amk-card-body",
+      "card": "article.amk-card",
       "model": ".amk-model-name",
-      "price": ".amk-price"
+      "price": ".amk-price",
+      "benefit": ".amk-ad-benefit"
     },
     "priceAnchors": [
       "div.amk-t4-container > div.amk-t4-content > div.amk-t4-price",
