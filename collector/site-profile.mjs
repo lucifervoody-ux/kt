@@ -1,3 +1,5 @@
+import { cleanModel, modelKey } from './lib.mjs';
+
 // В браузере: цены из разметки автомобиля или из отмеченных для этого домена блоков.
 // Каждая сумма должна относиться к одной конкретной модели на открытой странице.
 export function profileRows({ brand, priceAnchors = [], modelNames = [] }) {
@@ -82,4 +84,20 @@ export function modelRoute(address, prefixes) {
     const slug = path.slice(prefix.length);
     return /^[\w-]+$/.test(slug) && !/used|stock|new-car|catalog|sale|finance|service|credit|available|^new$|^all$|probeg|in-stock|nalich|config|special|^\d{4,}$/i.test(slug);
   });
+}
+
+// У подтверждённого шаблона все ожидаемые модели и суммы должны читаться
+// из отдельных карточек и совпадать с итогом после остальных способов сбора.
+export function verifiedCardResults(cards, models, profile, brand) {
+  if (!profile?.verifyCards || !cards.length || cards.length !== models.length) return false;
+  const expected = new Set(profile.modelNames.map(name => modelKey(cleanModel(name, brand))));
+  const result = new Map(models.map(row => [modelKey(row.model), row]));
+  if (expected.size !== cards.length) return false;
+  for (const card of cards) {
+    const key = modelKey(card.model);
+    const row = result.get(key);
+    if (!expected.delete(key) || !row || !Number.isFinite(card.price) || card.price !== row.price ||
+        card.max_benefit !== row.max_benefit || (profile.card.benefit && !Number.isFinite(card.max_benefit))) return false;
+  }
+  return true;
 }

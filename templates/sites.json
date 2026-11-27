@@ -1,6 +1,7 @@
 {
   "hongqi-avangard.ru": {
     "id": 1,
+    "verifyCards": true,
     "engine": "*",
     "brand": "Хончи",
     "card": {
@@ -105,12 +106,14 @@
   },
   "belgee-lahta.ru": {
     "id": 6,
+    "verifyCards": true,
     "engine": "*",
     "brand": "Belgee",
     "card": {
-      "card": ".model-details__main",
-      "model": ".model-details__title",
-      "price": ".model-price"
+      "card": ".hero-slider__text",
+      "model": ".hero-slider__title",
+      "price": ".hero-slider__benefit:nth-child(2)",
+      "benefit": ".hero-slider__benefit:nth-child(3)"
     },
     "priceAnchors": [
       "div.model-complectation > div.model-complectation__info > div.model-price",

@@ -17,11 +17,41 @@ export function openingResult(health, reason = '') {
   return [opened ? 'Работает' : 'Не работает', reason || (opened ? 'Страница открылась' : health === HEALTH.stub ? 'Вместо сайта показана заглушка' : 'Главная страница не открылась')];
 }
 
+// ID может быть переназначен другой посадочной странице того же домена.
+export function siteAddress(value) {
+  const address = String(value ?? '').trim();
+  try {
+    const url = new URL(/^https?:\/\//i.test(address) ? address : `https://${address}`);
+    return url.host.toLowerCase().replace(/^www\./, '') + url.pathname.replace(/\/+$/, '') + url.search + url.hash;
+  } catch { return address; }
+}
+
+export function validateExport({ health, konget, utp, registry }) {
+  const active = registry.filter(site => site.active);
+  if (!active.length) throw new Error('В реестре нет активных сайтов. Выгрузка остановлена');
+  for (const [name, report, field, statuses, expected] of [
+    ['Работа сайтов', health, 'health', HEALTH, active],
+    ['Скрипт Конгет', konget, 'konget', KONGET, active],
+    ['УТП', utp, 'change', CHANGE, active.filter(s => s.utp)],
+  ]) {
+    if (!Array.isArray(report?.sites) || report.stopped || !Number.isFinite(Date.parse(report.checked_at))) {
+      throw new Error(`${name}: нужен завершённый отчёт. Запустите проверку повторно`);
+    }
+    assertUniqueIds(report.sites);
+    const byId = new Map(report.sites.map(row => [String(row.id), row]));
+    const missing = expected.filter(site => {
+      const row = byId.get(String(site.id));
+      return !row || siteAddress(site.site) !== siteAddress(row.site) || !Object.values(statuses).includes(row[field]);
+    });
+    if (missing.length) throw new Error(`${name}: нет результата по адресам из реестра (ID: ${missing.map(s => s.id).join(', ')})`);
+  }
+  if (health.checked_at !== konget.checked_at) throw new Error('Сайты и скрипт проверены в разных прогонах. Повторите объединённую проверку');
+}
+
 export function buildSheets({ health, konget, utp, registry }) {
   for (const report of [health, konget, utp]) assertUniqueIds(report?.sites || []);
-  const address = (site) => String(site ?? '').trim().toLowerCase().replace(/^https?:\/\/(www\.)?|^www\./, '').replace(/\/+$/, '');
   const current = registry ? new Map(registry.filter((s) => s.active).map((s) => [String(s.id), s])) : null;
-  const matches = (a, b) => a && b && address(a.site) === address(b.site);
+  const matches = (a, b) => a && b && siteAddress(a.site) === siteAddress(b.site);
   const byId = (report, include = () => true) => new Map((report?.sites || [])
     .filter((s) => !current || (matches(s, current.get(String(s.id))) && include(current.get(String(s.id)))))
     .map((s) => [String(s.id), s]));
@@ -164,7 +194,7 @@ export const SITES_SHEET = 'Сайты';
 // Лист «Сайты» целиком (строка 1 — заголовки) → список сайтов для проверок.
 // Колонки ищем по заголовкам, поэтому их можно переставлять и удалять ненужные.
 // Пустые строки и строки без ID или адреса пропускаем; «Проверять: Нет» — сайт временно не проверяем.
-export function parseSites(grid) {
+export function parseSites(grid, { strict = false } = {}) {
   const found = findHeaderRow(grid, ['ID', 'Сайт', 'Бренд', 'Компания', 'Проверять']);
   const at0 = found < 0 ? 0 : found;
   const header = grid[at0] || [];
@@ -178,13 +208,17 @@ export function parseSites(grid) {
     const v = i < 0 ? '' : String(r[i] ?? '').trim();
     return v === 'None' ? '' : v;
   };
+  if (strict && (idx.id < 0 || idx.site < 0)) throw new Error('В реестре нужны заголовки ID и Сайт');
   const out = [];
   const seen = new Map();
   for (const [index, r] of rows.entries()) {
     const id = Number(get(r, idx.id));
     const site = get(r, idx.site).replace(/\/+$/, '');
-    if (!id || !site) continue;
     const row = at0 + index + 2;
+    if (strict && r.some(value => String(value ?? '').trim()) && (!Number.isSafeInteger(id) || id < 1 || !site)) {
+      throw new Error(`Лист «${SITES_SHEET}»: в строке ${row} нужны положительный целый ID и адрес`);
+    }
+    if (!id || !site) continue;
     if (seen.has(id)) throw new Error(`Лист «${SITES_SHEET}»: повторяющийся ID ${id} в строках ${seen.get(id)} и ${row}. Исправьте ID в таблице`);
     seen.set(id, row);
     out.push({
