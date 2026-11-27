@@ -67,6 +67,9 @@ export function healthVerdict({ error, status, seconds, text = '', title = '', s
   if (PROTECTED_CODES.includes(status)) {
     return { health: HEALTH.manual, reason: `Сайт ответил кодом ${status}: похоже на защиту от роботов. Людям сайт может открываться, проверьте вручную` };
   }
+  if ([502, 503, 504].includes(status) && /^upstream connect error or disconnect\/reset before headers\b/i.test(text.trim())) {
+    return { health: HEALTH.manual, reason: `Шлюз проверки вернул HTTP ${status} до получения заголовков сайта. Требуется ручная проверка` };
+  }
   if (status >= 400) return { health: HEALTH.down, reason: `Сайт ответил ошибкой ${status}` };
   // Редирект на другой домен (например, филиал ведёт на сайт группы) — это нормально, просто отмечаем.
   let redirect = '';
