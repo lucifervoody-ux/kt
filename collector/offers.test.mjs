@@ -79,3 +79,13 @@ test('после переключателей моделей видна цена
   const text = 'S09\nКроссовер\nот 3 899 000 ₽\nУзнать больше\nМодельный ряд\nS06\nS07\nS09\nот 2 589 000 ₽';
   assert.equal(labelledOffers(text,{brand:'SOUEAST'}).find(m => m.model==='S09').price,3899000);
 });
+
+test('сноски WEY привязаны к модели и версии 80 Лаундж', () => {
+  const site = {brand: 'TANK'};
+  const note = '*Цена на автомобиль модели WEY (ВЕЙ) 80 в комплектации Премиум, с учётом выгоды по программе Трейд-ин в 300 000 рублей и прямой выгоды в 150 000 рублей.';
+  const lounge = note.replace('Премиум,', 'Премиум Лаундж,').replace('150 000', '200 000');
+  const source = ['WEY 80', 'от 6 449 000 ₽', note, 'WEY 80 Лаундж', 'от 8 099 000 ₽', lounge].join('\n');
+  assert.deepEqual(labelledOffers(source, site).map(r => r.max_benefit), [450000, 500000]);
+  assert.equal(labelledOffers('WEY 80\n' + lounge, site)[0].max_benefit, '-');
+  assert.equal(labelledOffers('WEY 07\n' + note, site)[0].max_benefit, '-');
+});
