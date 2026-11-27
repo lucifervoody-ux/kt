@@ -7,6 +7,7 @@ import { previousOf, splitUnverified, store } from './common.mjs';
 import { parseSites, validateExport } from './sheet.mjs';
 import { verifyExport } from './export.mjs';
 import { verifiedCardResults } from './site-profile.mjs';
+import { reportAvailability } from '../src/lib/status.js';
 import { cleanModel } from './lib.mjs';
 
 function reports() {
@@ -103,4 +104,12 @@ test('доменный шаблон требует совпадения кажд
   const partial = { ...card, max_benefit: '-' };
   assert.equal(verified([partial], [partial]), false);
   assert.equal(cleanModel('Обзор', 'Geely'), '');
+});
+
+test('Pages различает недоступный отчёт, отсутствие файла и загруженный результат', () => {
+  assert.equal(reportAvailability('utp', undefined), 'Результат проверки пока недоступен');
+  assert.equal(reportAvailability('utp', null), 'Отчёт проверки не найден');
+  assert.equal(reportAvailability('health', { sites: [] }), '');
+  assert.equal(reportAvailability('export'), 'История выгрузки недоступна');
+  assert.equal(reportAvailability('export', null, { status: 'completed' }), '');
 });
