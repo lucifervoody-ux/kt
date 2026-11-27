@@ -22,6 +22,14 @@ test('сайт работает, медленный, сломан или заг�
   assert.equal(healthVerdict({ status: 200, seconds: 1, title: 'Домен example.ru продаётся', text: LIVE }).health, HEALTH.stub);
 });
 
+test('ошибка подключения шлюза не доказывает отказ сайта', () => {
+  const text = 'upstream connect error or disconnect/reset before headers. reset reason: remote connection failure';
+  for (const status of [502, 503, 504]) {
+    assert.equal(healthVerdict({ status, text }).health, HEALTH.manual);
+  }
+  assert.equal(healthVerdict({ status: 503, text: LIVE }).health, HEALTH.down);
+});
+
 test('редирект на другой домен не ошибка, страница без заголовка просит проверить вручную', () => {
   const ok = { status: 200, seconds: 1, text: LIVE, title: 'Дилер' };
   assert.equal(healthVerdict({ ...ok, site: 'a.agat-group.com', finalUrl: 'https://xn--80aai5d.xn--p1ai/' }).health, HEALTH.ok);
